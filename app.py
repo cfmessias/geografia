@@ -9,7 +9,8 @@ st.set_page_config(page_title="Geografía e Metereologia Mundiais", layout="wide
 from paises import render_paises_tab
 from views.ind_demograficos import render_indicadores_tab
 from meteo import render_meteo
-
+from utils.streamlit_compat import patch_streamlit
+patch_streamlit()
 
 # ---------- helpers ----------
 def _get_qp(name: str, default: str = "") -> str:
