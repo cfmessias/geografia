@@ -133,3 +133,33 @@ Traceback (most recent call last):
     result = non_optional_func(*args, **kwargs)
 TypeError: ButtonMixin.download_button() got an unexpected keyword argument 'width'
 
+
+--- 2025-09-25 22:16:21.383229Z ---
+Traceback (most recent call last):
+  File "C:\PythonProjects\emStreamlit\Geografia\meteo.py", line 95, in _safe_render
+    fn(*args, **kwargs)
+    ~~^^^^^^^^^^^^^^^^^
+  File "C:\PythonProjects\emStreamlit\Geografia\views\forecast.py", line 187, in render_forecast_tab
+    st.plotly_chart(fig_max, width="stretch")
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\PythonProjects\emStreamlit\Geografia\utils\streamlit_compat.py", line 57, in _plotly_compat
+    return _orig(fig, *args, **kwargs)
+  File "C:\Users\messias\AppData\Local\Programs\Python\Python313\Lib\site-packages\streamlit\runtime\metrics_util.py", line 410, in wrapped_func
+    result = non_optional_func(*args, **kwargs)
+TypeError: ButtonMixin.download_button() missing 1 required positional argument: 'data'
+
+
+--- 2025-09-25 22:16:22.088752Z ---
+Traceback (most recent call last):
+  File "C:\PythonProjects\emStreamlit\Geografia\meteo.py", line 95, in _safe_render
+    fn(*args, **kwargs)
+    ~~^^^^^^^^^^^^^^^^^
+  File "C:\PythonProjects\emStreamlit\Geografia\views\temperature.py", line 56, in render_temperature_tab
+    st.plotly_chart(fig_t, width="stretch")
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\PythonProjects\emStreamlit\Geografia\utils\streamlit_compat.py", line 57, in _plotly_compat
+    return _orig(fig, *args, **kwargs)
+  File "C:\Users\messias\AppData\Local\Programs\Python\Python313\Lib\site-packages\streamlit\runtime\metrics_util.py", line 410, in wrapped_func
+    result = non_optional_func(*args, **kwargs)
+TypeError: ButtonMixin.download_button() missing 1 required positional argument: 'data'
+

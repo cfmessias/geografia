@@ -3,98 +3,52 @@ from __future__ import annotations
 import inspect
 import streamlit as st
 
-def _pop_width_kwargs(kwargs: dict) -> dict:
-    """Normaliza 'width' vs 'use_container_width'."""
-    if "width" in kwargs and "use_container_width" not in kwargs:
-        w = kwargs.pop("width")
-        # 'stretch' → True, 'content' → False; inteiros mantêm como estão
-        if isinstance(w, str):
-            kwargs["use_container_width"] = (w.strip().lower() == "stretch")
-        elif isinstance(w, (int, float)):
-            # deixar como está; o widget aceita int em algumas APIs
-            kwargs["use_container_width"] = False  # fallback neutro
-    return kwargs
+def _bridge_width_kwargs(fn):
+    """Aceita tanto width='stretch'/'content' como use_container_width=True/False,
+    convertendo para o que a versão de Streamlit em execução espera."""
+    sig = inspect.signature(fn)
 
-def _lift_plotly_config(kwargs: dict) -> dict:
-    """Move kwargs de Plotly para config, evitando avisos na cloud."""
-    cfg = dict(kwargs.pop("config", {}) or {})
-    for k in (
-        "displayModeBar", "scrollZoom", "modeBarButtonsToRemove",
-        "toImageButtonOptions", "editable", "responsive"
-    ):
-        if k in kwargs:
-            cfg[k] = kwargs.pop(k)
-    if cfg:
-        kwargs["config"] = cfg
-    return kwargs
+    def wrapper(*args, **kwargs):
+        # Se a função suporta 'width', converte use_container_width -> width
+        if "width" in sig.parameters:
+            if "use_container_width" in kwargs:
+                ucw = kwargs.pop("use_container_width")
+                kwargs.setdefault("width", "stretch" if ucw else "content")
+        # Se a função NÃO suporta 'width', mas suporta use_container_width,
+        # converte width -> use_container_width (para instalações mais antigas).
+        elif "use_container_width" in sig.parameters and "width" in kwargs:
+            w = kwargs.pop("width")
+            if isinstance(w, str):
+                kwargs.setdefault("use_container_width", (w == "stretch"))
+        # Remove resíduos para evitar warnings
+        kwargs.pop("use_container_width", None) if "use_container_width" not in sig.parameters else None
+        kwargs.pop("width", None)               if "width" not in sig.parameters else None
+        return fn(*args, **kwargs)
 
-def patch_streamlit() -> None:
-    """Aplica shims compatíveis a várias funções do Streamlit."""
-    # --- plotly_chart: mover config + lidar com width/use_container_width
-    _orig_plotly = st.plotly_chart
-    def _plotly_compat(fig, *args, **kwargs):
-        # 1) mover opções de plotly para config
-        kwargs = _lift_plotly_config(kwargs)
-        # 2) reconciliar width vs use_container_width
-        had_width = "width" in kwargs
-        kwargs = _pop_width_kwargs(kwargs)
-        try:
-            # tentar com os kwargs atuais
-            return _orig_plotly(fig, *args, **kwargs)
-        except TypeError as e:
-            # ambiente antigo → não aceita 'width'
-            if had_width and "width" in str(e).lower():
-                # voltar a transformar para use_container_width
-                ucw = kwargs.pop("use_container_width", True)
-                # meter explicitamente True se pedimos stretch
-                kwargs["use_container_width"] = True if ucw else False
-                return _orig_plotly(fig, *args, **kwargs)
-            raise
-    st.plotly_chart = _plotly_compat  # type: ignore
+    return wrapper
 
-    # --- altair_chart: só normalizar width/use_container_width
-    _orig_altair = st.altair_chart
-    def _altair_compat(obj, *args, **kwargs):
-        had_width = "width" in kwargs
-        kwargs = _pop_width_kwargs(kwargs)
-        try:
-            return _orig_altair(obj, *args, **kwargs)
-        except TypeError as e:
-            if had_width and "width" in str(e).lower():
-                # fallback para use_container_width nos ambientes antigos
-                kwargs.pop("width", None)
-                kwargs.setdefault("use_container_width", True)
-                return _orig_altair(obj, *args, **kwargs)
-            raise
-    st.altair_chart = _altair_compat  # type: ignore
 
-    # --- dataframe / table: ignorar 'width' se não existir na versão local
-    for name in ("dataframe", "table"):
-        _orig = getattr(st, name)
-        def _make_wrap(func):
-            def _wrap(*args, **kwargs):
-                had_width = "width" in kwargs
-                kwargs = _pop_width_kwargs(kwargs)
-                try:
-                    return func(*args, **kwargs)
-                except TypeError as e:
-                    if had_width and "width" in str(e).lower():
-                        kwargs.pop("width", None)
-                        kwargs.setdefault("use_container_width", True)
-                        return func(*args, **kwargs)
-                    raise
-            return _wrap
-        setattr(st, name, _make_wrap(_orig))  # type: ignore
+def patch_streamlit():
+    # Componentes onde queremos o “bridge”
+    names = [
+        "dataframe", "table",
+        "plotly_chart", "altair_chart", "pyplot",
+        "map", "line_chart", "bar_chart", "area_chart",
+        "scatter_chart",
+    ]
+    for name in names:
+        if hasattr(st, name):
+            setattr(st, name, _bridge_width_kwargs(getattr(st, name)))
 
-    # --- download_button: remover args não suportados
+    # download_button: versões novas não aceitam width/use_container_width — removemos silenciosamente
     if hasattr(st, "download_button"):
-        _orig_download = st.download_button
+        _orig = st.download_button
+        def _dl(*a, **kw):
+            kw.pop("width", None)
+            kw.pop("use_container_width", None)
+            return _orig(*a, **kw)
+        st.download_button = _dl
 
-        def _download_wrap(*args, **kwargs):
-            # streamlit >=1.40 não aceita 'width' aqui
-            kwargs.pop("width", None)
-            kwargs.pop("use_container_width", None)
-            return _orig_download(*args, **kwargs)
 
-        st.download_button = _download_wrap  # type: ignore
-
+# aplicar patch ao importar
+patch_streamlit()
