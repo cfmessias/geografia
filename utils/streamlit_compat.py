@@ -86,12 +86,15 @@ def patch_streamlit() -> None:
             return _wrap
         setattr(st, name, _make_wrap(_orig))  # type: ignore
 
-    # --- botões que não suportam 'width': só removemos
-    for name in ("download_button", "form_submit_button", "button"):
-        if hasattr(st, name):
-            _orig_btn = getattr(st, name)
-            def _wrap_btn(*args, **kwargs):
-                kwargs.pop("width", None)            # remover
-                kwargs.pop("use_container_width", None)
-                return _orig_btn(*args, **kwargs)
-            setattr(st, name, _wrap_btn)  # type: ignore
+    # --- download_button: remover args não suportados
+    if hasattr(st, "download_button"):
+        _orig_download = st.download_button
+
+        def _download_wrap(*args, **kwargs):
+            # streamlit >=1.40 não aceita 'width' aqui
+            kwargs.pop("width", None)
+            kwargs.pop("use_container_width", None)
+            return _orig_download(*args, **kwargs)
+
+        st.download_button = _download_wrap  # type: ignore
+
