@@ -1,0 +1,312 @@
+qid,name,capital,capital_qid,inception,area_km2,head_of_government,hog_party,population,population_year,iso2,iso3,slug
+Q21203,Aruba,Oranjestad,Q131243,1986-01-01,178,Evelyn Wever-Croes,People's Electoral Movement,106739,2022,AW,ABW,Aruba
+Q30747910,República Islâmica do Afeganistão,Cabul,Q5838,2004-01-26,652864,Abdullah Abdullah,National Coalition of Afghanistan,39905102,2021,AF,AFG,Islamic_Republic_of_Afghanistan
+Q916,Angola,Luanda,Q3897,1975-11-11,1246700,João Lourenço,Movimento Popular de Libertação de Angola,36749906,2023,AO,AGO,Republic_of_Angola
+Q25228,Anguila,The Valley,Q30994,,91,Victor Banks,Anguilla Democratic Party,19079,2023,AI,AIA,Anguilla
+Q5689,Åland,Mariehamn,Q48329,,1582,Katrin Sjögren,Liberals for Åland,30144,2021,AX,ALA,Åland_Islands
+Q222,Albânia,Tirana,Q19689,1912-11-28,28748,Edi Rama,Partido Socialista da Albânia,2811655,2023,AL,ALB,Republic_of_Albania
+Q228,Andorra,Andorra-a-Velha,Q1863,1278-00-00,468,Xavier Espot Zamora,Democratas por Andorra,87486,2025,AD,AND,Principality_of_Andorra
+Q878,Emirados Árabes Unidos,Abu Dhabi,Q1519,1971-01-01,83600,Mohammed bin Rashid Al Maktoum,,9890400,2020,AE,ARE,United_Arab_Emirates
+Q414,Argentina,Buenos Aires,Q1486,1816-07-09,2780400,Javier Milei,A Liberdade Avança,47327407,2022,AR,ARG,Argentine_Republic
+Q399,Arménia,Erevã,Q1953,1991-09-23,29743,Nikol Pashinyan,Armenian National Congress,2930450,2017,AM,ARM,Republic_of_Armenia
+Q16641,Samoa Americana,Pago Pago,Q51678,1899-01-01,199,Lemanu Peleti Mauga,Partido Democrata,49710,2020,AS,ASM,American_Samoa
+Q51,Antártida,,,,14000000,,,4400,2009,AQ,ATA,Antarctica
+Q129003,Terras Austrais e Antárticas Francesas,Port-aux-Français,Q839559,1955-08-06,7829,,,196,2012,TF,ATF,French_Southern_Territories
+Q781,Antígua e Barbuda,São João,Q36262,1981-11-01,440,Gaston Browne,Partido Trabalhista de Antígua,101489,2023,AG,ATG,Antigua_and_Barbuda
+Q408,Austrália,Camberra,Q3114,1901-01-01,7692024,Tony Abbott,Partido Liberal da Austrália,27309396,2024,AU,AUS,Australia
+Q40,Áustria,Viena,Q1741,1918-11-12,83858,Werner Faymann,Partido Social-Democrata da Áustria,8979894,2022,AT,AUT,Republic_of_Austria
+Q227,Azerbaijão,Baku,Q9248,1991-00-00,86600,Ali Asadov,Partido Novo Azerbaijão,10180770,2023,AZ,AZE,Republic_of_Azerbaijan
+Q967,Burundi,Bujumbura,Q3854,1962-07-01,27834,Pascal Nyabenda,Conselho Nacional para a Defesa da Democracia – Forças para a Defesa da Democracia,13689450,2023,BI,BDI,Republic_of_Burundi
+Q31,Bélgica,Bruxelas,Q239,1830-10-04,30528,Sophie Wilmès,Movimento Reformador,11825551,2025,BE,BEL,Kingdom_of_Belgium
+Q962,Benim,Porto Novo,Q3799,1990-12-02,114763,Pascal Koupaki,Cowry Forces for an Emerging Benin,14111034,2023,BJ,BEN,Republic_of_Benin
+,"Bonaire, Sint Eustatius and Saba",,,,,,,,,BQ,BES,Bonaire_Sint_Eustatius_and_Saba
+Q965,Burquina Fasso,Uagadugu,Q3777,1960-01-01,274200,Luc-Adolphe Tiao,Congress for Democracy and Progress,23025776,2023,BF,BFA,Burkina_Faso
+Q902,Bangladesh,Daca,Q1354,1971-03-26,147570,Khaleda Zia,Partido Nacionalista de Bangladesh,171466990,2023,BD,BGD,People_s_Republic_of_Bangladesh
+Q219,Bulgária,Sófia,Q472,0681-00-00,110993,Boyko Borisov,National Movement for Stability and Progress,6437360,2024,BG,BGR,Republic_of_Bulgaria
+Q398,Bahrein,Manama,Q3882,1971-08-14,786,Khalifa bin Salman al-Khalifa,,1569666,2023,BH,BHR,Kingdom_of_Bahrain
+Q778,Bahamas,Nassau,Q2467,1973-07-10,13878,Hubert Minnis,Free National Movement,399440,2023,BS,BHS,Commonwealth_of_the_Bahamas
+Q1274468,República da Bósnia e Herzegovina,Sarajevo,Q11194,1992-01-01,,,,,,BA,BIH,Republic_of_Bosnia_and_Herzegovina
+Q126859,Saint-Barthélemy,,,,21,,,1182,2022,BL,BLM,Saint_Barthélemy
+Q184,Bielorrússia,Minsk,Q2280,1991-08-25,207600,Sergei Rumas,político sem partido,9109280,2025,BY,BLR,Republic_of_Belarus
+Q242,Belize,Belmopan,Q3043,1981-09-21,22966,Dean Barrow,United Democratic Party,411106,2023,BZ,BLZ,Belize
+Q23635,Bermudas,Hamilton,Q30985,1612-01-01,53,Edward David Burt,Progressive Labour Party,65024,2013,BM,BMU,Bermuda
+Q750,Bolívia,Sucre,Q2907,1825-01-01,1098581,Luis Alberto Arce Catacora,Movimento para o Socialismo,12244159,2023,BO,BOL,Bolivia
+Q155,Brasil,Rio de Janeiro,Q8678,1822-09-07,8515767,Michel Temer,Movimento Democrático Brasileiro,213421037,2025,BR,BRA,Federative_Republic_of_Brazil
+Q244,Barbados,Bridgetown,Q36168,1966-11-30,439,Freundel Stuart,Democratic Labour Party,303431,2023,BB,BRB,Barbados
+Q921,Brunei,Bandar Seri Begawan,Q9279,1984-01-01,5765,Hassanal Bolkiah,,458949,2023,BN,BRN,Brunei_Darussalam
+Q917,Butão,Thimbu,Q9270,1907-12-17,38394,Tshering Tobgay,People's Democratic Party (Bhutan),787424,2023,BT,BTN,Kingdom_of_Bhutan
+Q23408,Ilha Bouvet,,,,49,,,0,,BV,BVT,Bouvet_Island
+Q963,Botsuana,Gaborone,Q3919,1966-01-01,581737,,,2480244,2023,BW,BWA,Republic_of_Botswana
+Q929,República Centro-Africana,Bangui,Q3832,1960-01-01,622984,Simplice Sarandji,político sem partido,5152421,2023,CF,CAF,Central_African_Republic
+Q16,Canadá,Ottawa,Q1930,1867-07-01,9984670,John Alexander Macdonald,Liberal-Conservative Party,40000000,2023,CA,CAN,Canada
+Q36004,Ilhas Cocos,West Island,Q48675,1955-01-01,14,,,602,2021,CC,CCK,Cocos_Keeling_Islands
+Q39,Suíça,Berna,Q70,1291-08-01,41285,Conselho Federal,,8962300,2023,CH,CHE,Swiss_Confederation
+Q298,Chile,Santiago,Q2887,1810-09-18,756102,Gabriel Boric,Convergência Social,19458000,2021,CL,CHL,Republic_of_Chile
+Q148,China,Pequim,Q956,1949-10-01,9596961,Li Keqiang,Partido Comunista da China,1442965000,2021,CN,CHN,People_s_Republic_of_China
+Q1008,Costa do Marfim,Yamoussoukro,Q3768,1960-01-01,322463,Amadou Gon Coulibaly,Partido Democrata da Costa do Marfim,31165654,2023,CI,CIV,Republic_of_Côte_d_Ivoire
+Q1009,Camarões,Iaundé,Q3808,1960-01-01,475442,Philémon Yang,Reunião Democrática do Povo de Camarões,28372687,2023,CM,CMR,Republic_of_Cameroon
+,"Congo, The Democratic Republic of the",,,,,,,,,CD,COD,Congo_The_Democratic_Republic_of_the
+Q971,República do Congo,Brazavile,Q3844,1960-01-01,342000,Anatole Collinet Makosso,Partido Congolês do Trabalho,6142180,2023,CG,COG,Republic_of_the_Congo
+Q26988,Ilhas Cook,Avarua,Q170482,1965-08-04,240,Henry Puna,Cook Islands Party,14222,2023,CK,COK,Cook_Islands
+Q739,Colômbia,Bogotá,Q2841,1810-01-01,1141748,Gustavo Petro,Alternative Democratic Pole,52321152,2023,CO,COL,Republic_of_Colombia
+Q970,Comores,Moroni,Q3901,2001-12-23,2034,Azali Assoumani,Convention for the Renewal of the Comoros,902348,2022,KM,COM,Union_of_the_Comoros
+Q1011,Cabo Verde,Praia,Q3751,1975-07-05,4033,Pedro Pires,Partido Africano da Independência de Cabo Verde,555988,2020,CV,CPV,Republic_of_Cabo_Verde
+Q800,Costa Rica,San José,Q3070,1821-01-01,51179,Rodrigo Chaves Robles,Social Democratic Progress Party,5265575,2024,CR,CRI,Republic_of_Costa_Rica
+Q241,Cuba,Havana,Q1563,1898-12-10,109884,Miguel Díaz-Canel,Partido Comunista de Cuba,10985974,2023,CU,CUB,Republic_of_Cuba
+Q25279,Curaçau,Willemstad,Q132679,1954-01-01,444,Ivar Asjes,Sovereign People,152849,2023,CW,CUW,Curaçao
+Q106080035,Christmas Island,,,,,,,,,CX,CXR,Christmas_Island
+Q5785,Ilhas Cayman,George Town,Q172996,,264,Andre M. Ebanks,,88833,2024,KY,CYM,Cayman_Islands
+Q229,Chipre,Nicósia,Q3856,1960-08-16,9242,Dimítris Christófias,Partido Progressista do Povo Trabalhador,1344976,2023,CY,CYP,Republic_of_Cyprus
+Q213,Chéquia,Praga,Q1085,1993-01-01,78866,Petr Fiala,Partido Democrático Cívico,10909500,2025,CZ,CZE,Czech_Republic
+Q183,Alemanha,Bona,Q586,1949-05-23,357587,Konrad Adenauer,Partido do Centro Alemão,83577140,2024,DE,DEU,Federal_Republic_of_Germany
+Q977,Djibouti,Djibouti,Q3604,1977-06-23,23200,Dileita Mohamed Dileita,People's Rally for Progress,1152944,2023,DJ,DJI,Republic_of_Djibouti
+Q784,Dominica,Roseau,Q36281,1978-01-01,751,Roosevelt Skerrit,Partido Trabalhista da Dominica,74656,2023,DM,DMA,Commonwealth_of_Dominica
+Q756617,Reino da Dinamarca,Copenhaga,Q1748,0965-00-00,2220930,Mette Frederiksen,Partido Social-Democrata,5930987,2020,DK,DNK,Kingdom_of_Denmark
+Q786,República Dominicana,São Domingos,Q34820,1844-01-01,48670,Danilo Medina,Partido da Libertação Dominicana,10760028,2022,DO,DOM,Dominican_Republic
+Q262,Argélia,Argel,Q3561,1962-07-05,2381741,Abdelmadjid Tebboune,Frente de Libertação Nacional,46164219,2023,DZ,DZA,People_s_Democratic_Republic_of_Algeria
+Q736,Equador,Quito,Q2900,1809-08-10,255586,Daniel Noboa,Ecuatoriano Unido,16938986,2022,EC,ECU,Republic_of_Ecuador
+Q79,Egito,Cairo,Q85,1922-02-28,1010407,Moustafa Madbouly,político sem partido,114535772,2023,EG,EGY,Arab_Republic_of_Egypt
+,the State of Eritrea,,,,,,,,,ER,ERI,the_State_of_Eritrea
+Q6250,Sara Ocidental,,,,266000,,,612000,2021,EH,ESH,Western_Sahara
+Q29,Espanha,Madrid,Q2807,1715-00-00,505990,Mariano Rajoy,Partido Popular,48592909,2024,ES,ESP,Kingdom_of_Spain
+Q191,Estónia,Tallinn,Q1770,1918-02-24,45339,Andrus Ansip,Partido Reformista Estónio,1369995,2025,EE,EST,Republic_of_Estonia
+Q115,Etiópia,Adis Abeba,Q3624,1995-08-21,1104300,Hailemariam Desalegn,Southern Ethiopian People's Democratic Movement,128691692,2023,ET,ETH,Federal_Democratic_Republic_of_Ethiopia
+Q33,Finlândia,Helsínquia,Q1757,1917-12-06,305396,Alexander Stubb,Partido da Coligação Nacional,5608218,2024,FI,FIN,Republic_of_Finland
+Q712,Fiji,Suva,Q38807,1970-01-01,18274,Frank Bainimarama,Fiji First Party,926276,2018,FJ,FJI,Republic_of_Fiji
+,Falkland Islands (Malvinas),,,,,,,,,FK,FLK,Falkland_Islands_Malvinas
+Q142,França,Paris,Q90,1958-10-04,643801,Manuel Valls,Partido Socialista,68605616,2025,FR,FRA,French_Republic
+Q4628,Ilhas Feroe,Tórshavn,Q10704,1948-04-01,1399,Kaj Leo Johannesen,Partido Unionista (Ilhas Faroé),54149,2023,FO,FRO,Faroe_Islands
+Q702,Micronésia,Paliquir,Q42751,1947-00-00,702,David Panuelo,político sem partido,105544,2017,FM,FSM,Federated_States_of_Micronesia
+Q1000,Gabão,Libreville,Q3825,1960-01-01,267667,Raymond Ndong Sima,Gabonese Democratic Party,2300000,2023,GA,GAB,Gabonese_Republic
+Q145,Reino Unido,Londres,Q84,1927-04-12,242495,Keir Starmer,Partido Trabalhista,67326569,2021,GB,GBR,United_Kingdom_of_Great_Britain_and_Northern_Ireland
+Q1428,Geórgia,Atlanta,Q23556,1788-01-02,153909,Nathan Deal,Partido Republicano,10711908,2020,GE,GEO,Georgia
+Q25230,Guernsey,Saint Peter Port,Q174262,1204-00-00,78,Jonathan Le Tocq,político sem partido,67787,2024,GG,GGY,Guernsey
+Q117,Gana,Acra,Q3761,1957-01-01,238535,Nana Akufo-Addo,New Patriotic Party,32833031,2021,GH,GHA,Republic_of_Ghana
+Q1410,Gibraltar,Gibraltar,Q1410,1704-01-01,6,Fabian Picardo,Partido Socialista Trabalhista de Gibraltar,34003,2020,GI,GIB,Gibraltar
+Q1006,Guiné,Conacri,Q3733,1958-10-02,245857,Bah Oury,Union of Democratic Forces of Guinea,12717176,2017,GN,GIN,Republic_of_Guinea
+Q17012,Guadalupe,Basse-Terre,Q167024,1946-03-21,1628,Victorin Lurel,Partido Socialista,383569,2022,GP,GLP,Guadeloupe
+Q1005,Gâmbia,Banjul,Q3726,1965-00-00,11300,Yahya Jammeh,Alliance for Patriotic Reorientation and Construction,2639916,2021,GM,GMB,Republic_of_the_Gambia
+Q1007,Guiné-Bissau,Bissau,Q3739,1974-01-01,36125,Aristides Gomes,Partido Africano para a Independência da Guiné e Cabo Verde,1861283,2017,GW,GNB,Republic_of_Guinea-Bissau
+Q983,Guiné Equatorial,Malabo,Q3818,1968-10-12,28051,Manuela Roka Botey,,1847549,2023,GQ,GNQ,Republic_of_Equatorial_Guinea
+Q41,Grécia,Atenas,Q1524,1821-03-25,131957,Kyriákos Mitsotákis,Nova Democracia,10566531,2022,GR,GRC,Hellenic_Republic
+Q769,Granada,São Jorge,Q41547,1974-01-01,348,Keith Mitchell,Novo Partido Nacional,114299,2023,GD,GRD,Grenada
+Q223,Gronelândia,Nuuk,Q226,,2166086,Aleqa Hammond,Avante,56542,2025,GL,GRL,Greenland
+Q774,Guatemala,Cidade da Guatemala,Q1555,1821-01-01,108889,Bernardo Arévalo,Semilla Movement,17263239,2018,GT,GTM,Republic_of_Guatemala
+Q3769,Guiana Francesa,Caiena,Q44401,1946-03-21,83534,Rodolphe Alexandre,União por um Movimento Popular,288382,2022,GF,GUF,French_Guiana
+Q16635,Guam,Hagåtña,Q30988,1898-01-01,544,Eddie Calvo,Partido Republicano,153836,2020,GU,GUM,Guam
+Q734,Guiana,Georgetown,Q10717,1966-01-01,214970,Moses Nagamootoo,Partido Popular Progressista,777859,2017,GY,GUY,Republic_of_Guyana
+,Hong Kong Special Administrative Region of China,,,,,,,,,HK,HKG,Hong_Kong_Special_Administrative_Region_of_China
+Q131198,Ilha Heard e Ilhas McDonald,,,,368,,,2,2011,HM,HMD,Heard_Island_and_McDonald_Islands
+Q783,Honduras,Tegucigalpa,Q3238,1821-01-01,112492,Xiomara Castro,Partido Liberdade e Refundação,11002356,2025,HN,HND,Republic_of_Honduras
+Q224,Croácia,Zagreb,Q1435,1991-06-25,56594,Zoran Milanović,Partido Social-Democrata da Croácia,3871833,2021,HR,HRV,Republic_of_Croatia
+Q790,Haiti,Porto Príncipe,Q34261,1804-01-01,27750,Jack Guy Lafontant,,10981229,2017,HT,HTI,Republic_of_Haiti
+Q28,Hungria,Budapeste,Q1781,1000-12-00,93036,Viktor Orbán,Fidesz - União Cívica Húngara,9599744,2023,HU,HUN,Hungary
+Q252,Indonésia,Jacarta,Q3630,1945-08-17,1904570,Prabowo Subianto,Partido Gerindra,275439000,2021,ID,IDN,Republic_of_Indonesia
+Q9676,Ilha de Man,Douglas,Q18569,1765-05-10,572,Howard Quayle,político sem partido,84523,2024,IM,IMN,Isle_of_Man
+Q668,Índia,Nova Deli,Q987,1947-08-15,3287263,Narendra Modi,Partido do Povo Indiano,1326093247,2020,IN,IND,Republic_of_India
+Q43448,Território Britânico do Oceano Índico,,,,60,,,3000,2018,IO,IOT,British_Indian_Ocean_Territory
+Q27,República da Irlanda,Dublin,Q1761,1937-12-29,69797,Micheál Martin,Fianna Fáil,5149139,2022,IE,IRL,Ireland
+Q794,Irão,Teerão,Q3616,1979-04-01,1648195,Abolhassan Bani-sadr,,92417700,2025,IR,IRN,Iran
+Q796,Iraque,Bagdá,Q1530,1932-01-01,437072,Moustafa al-Kazimi,político sem partido,38274618,2017,IQ,IRQ,Republic_of_Iraq
+Q189,Islândia,Reykjavík,Q1764,1918-12-01,103004,Bjarni Benediktsson,Partido da Independência,376248,2022,IS,ISL,Republic_of_Iceland
+Q801,Israel,Jerusalém,Q1218,1948-05-14,20770,Benjamin Netanyahu,Likud,9840000,2023,IL,ISR,State_of_Israel
+Q38,Itália,Roma,Q220,1946-06-18,302068,Paolo Gentiloni,Partido Democrático,58850717,2023,IT,ITA,Italian_Republic
+Q766,Jamaica,Kingston,Q34692,1962-01-01,10991,Andrew Holness,Partido Trabalhista da Jamaica,2734093,2019,JM,JAM,Jamaica
+Q1408,Nova Jérsia,Trenton,Q25330,1787-12-18,22591,Phil Murphy,Partido Democrata,9288994,2020,JE,JEY,Jersey
+Q810,Jordânia,Amã,Q3805,1946-01-01,89341,Omar Razzaz,político sem partido,10428241,2019,JO,JOR,Hashemite_Kingdom_of_Jordan
+Q17,Japão,Shigaraki Palace,Q262438,1947-05-03,377972,Shinzō Abe,Partido Liberal Democrata,123802000,2024,JP,JPN,Japan
+Q232,Cazaquistão,Astana,Q1520,1991-00-00,2724900,Karim Masimov,Nur-Otan,20139914,2024,KZ,KAZ,Republic_of_Kazakhstan
+Q114,Quénia,Nairóbi,Q3870,1963-00-00,581309,Uhuru Kenyatta,The National Alliance,47564296,2019,KE,KEN,Republic_of_Kenya
+Q813,Quirguistão,Bisqueque,Q9361,1991-00-00,199951,Sooronbay Jeenbekov,Partido Comunista da União Soviética,7281800,2025,KG,KGZ,Kyrgyz_Republic
+Q424,Camboja,Phnom Penh,Q1850,1953-11-09,181035,Hun Manet,Partido Popular de Camboja,17423880,2023,KH,KHM,Kingdom_of_Cambodia
+Q710,Kiribati,Tarawa do Sul,Q131233,1979-07-12,811,Taneti Maamau,Tobwaan Kiribati Party,119438,2020,KI,KIR,Republic_of_Kiribati
+Q763,São Cristóvão e Neves,Basseterre,Q41295,1967-02-27,269,Timothy Harris,Partido Trabalhista de São Cristóvão e Nevis,46922,2025,KN,KNA,Saint_Kitts_and_Nevis
+Q884,Coreia do Sul,Seul,Q8684,1948-08-15,100295,Lee Ju-ho,,51628117,2022,KR,KOR,South_Korea
+Q817,Kuwait,Kuwait,Q35178,1991-02-26,17818,Sabah Al-Khalid Al-Sabah,político sem partido,4464000,2020,KW,KWT,State_of_Kuwait
+Q819,Laos,Vienciana,Q9326,1949-01-01,236800,Thongloun Sisoulith,Partido Popular Revolucionário do Laos,6858160,2017,LA,LAO,Laos
+Q822,Líbano,Beirute,Q3820,1943-11-22,10452,Saad Hariri,Future Movement,5261372,2021,LB,LBN,Lebanese_Republic
+Q1014,Libéria,Monróvia,Q3748,1822-01-07,111369,George Weah,Congress for Democratic Change,5214030,2021,LR,LBR,Republic_of_Liberia
+Q1016,Líbia,Trípoli,Q3579,1551-08-15,1759541,Abdulhamid Dabaiba,político sem partido,6678567,2018,LY,LBY,Libya
+Q760,Santa Lúcia,Castries,Q41699,1979-02-22,617,Allen Chastanet,United Workers Party,167591,2023,LC,LCA,Saint_Lucia
+Q347,Liechtenstein,Vaduz,Q1844,1806-07-12,160,Josef Ospelt,Partido Cívico Progressista,38020,2019,LI,LIE,Principality_of_Liechtenstein
+Q854,Sri Lanka,Kotte,Q41963,1972-05-22,65610,Ranil Wickremesinghe,United National Party,22037000,2023,LK,LKA,Democratic_Socialist_Republic_of_Sri_Lanka
+Q1013,Lesoto,Maseru,Q3909,1966-00-00,32962,Moeketsi Majoro,,2233339,2017,LS,LSO,Kingdom_of_Lesotho
+Q37,Lituânia,Vilnius,Q216,1990-03-11,65300,Ingrida Šimonytė,União da Pátria - Democratas-Cristãos,2860002,2023,LT,LTU,Republic_of_Lithuania
+Q32,Luxemburgo,Luxemburgo,Q1842,1815-01-01,2586,Gaspard Théodore Ignace de la Fontaine,,681987,2025,LU,LUX,Grand_Duchy_of_Luxembourg
+Q211,Letónia,Riga,Q1773,1918-11-18,64593,Laimdota Straujuma,Unidade,1856932,2025,LV,LVA,Republic_of_Latvia
+,Macao Special Administrative Region of China,,,,,,,,,MO,MAC,Macao_Special_Administrative_Region_of_China
+Q126125,São Martinho,Marigot,Q200605,2007-02-21,53,,,32358,2020,MF,MAF,Saint_Martin_French_part
+Q1028,Marrocos,Rabat,Q3551,1956-04-07,446550,Aziz Akhannouch,National Rally of Independents,36828330,2024,MA,MAR,Kingdom_of_Morocco
+Q235,Mónaco,Monaco-Ville,Q55115,1297-01-08,2,Serge Telle,político sem partido,38423,2024,MC,MCO,Principality_of_Monaco
+Q217,Moldávia,Chișinău,Q21197,1991-08-27,33843,Iurie Leancă,European People's Party of Moldova,3599528,2024,MD,MDA,Moldova
+Q1019,Madagáscar,Antananarivo,Q3915,1960-01-01,587295,Christian Ntsay,político sem partido,25570895,2017,MG,MDG,Republic_of_Madagascar
+Q826,Maldivas,Malé,Q9347,1965-07-26,298,Abdulla Yameen,Progressive Party of Maldives,436330,2017,MV,MDV,Republic_of_Maldives
+Q96,México,Cidade do México,Q1489,1821-08-24,1972550,Andrés Manuel López Obrador,Movimento Regeneração Nacional,132274416,2024,MX,MEX,United_Mexican_States
+Q709,Ilhas Marshall,Majuro,Q12919,1979-05-01,181,Hilda Heine,político sem partido,54366,2023,MH,MHL,Republic_of_the_Marshall_Islands
+Q221,Macedónia do Norte,Skopje,Q384,1991-00-00,25713,Dimitar Kovačevski,União Social-Democrata da Macedónia,1836713,2021,MK,MKD,Republic_of_North_Macedonia
+Q912,Mali,Bamako,Q3703,1960-09-22,1240192,Abdoulaye Idrissa Maïga,Rally for Mali,20250833,2020,ML,MLI,Republic_of_Mali
+Q233,Malta,Valeta,Q23800,1964-09-21,316,Robert Abela,Partido Trabalhista,553214,2023,MT,MLT,Republic_of_Malta
+,Republic of Myanmar,,,,,,,,,MM,MMR,Republic_of_Myanmar
+Q236,Montenegro,Podgorica,Q23564,2006-06-03,13883,Zdravko Krivokapić,Ne damo Crnu Goru,617213,2022,ME,MNE,Montenegro
+Q711,Mongólia,Ulã Bator,Q23430,1911-01-01,1564116,Jargaltulga Erdenebat,Partido Popular da Mongólia,3409939,2021,MN,MNG,Mongolia
+Q16644,Marianas Setentrionais,Saipan,Q49755159,1898-01-01,464,Arnold Palacios,Partido Republicano,51475,2022,MP,MNP,Commonwealth_of_the_Northern_Mariana_Islands
+Q1029,Moçambique,Maputo,Q3889,1975-06-25,801590,Mário da Graça Machungo,Frente de Libertação de Moçambique,29668834,2017,MZ,MOZ,Republic_of_Mozambique
+Q1025,Mauritânia,Nouakchott,Q3688,1960-11-28,1030700,Moktar Ould Daddah,Mauritanian People's Party,4736139,2022,MR,MRT,Islamic_Republic_of_Mauritania
+Q601533,Montserrat,,,,,,,,,MS,MSR,Montserrat
+Q17054,Martinica,Forte de França,Q81621,1946-03-21,1128,Serge Letchimy,"Socialist, Radical, Citizen and Miscellaneous Left",361019,2022,MQ,MTQ,Martinique
+Q1027,Maurícia,Port Louis,Q3929,1968-03-12,2040,Pravind Jugnauth,Movimento Socialista Militante,1264613,2017,MU,MUS,Republic_of_Mauritius
+Q1020,Malawi,Lilongué,Q3876,1964-07-06,118484,Lazarus Chakwera,Partido do Congresso do Malawi,18622104,2017,MW,MWI,Republic_of_Malawi
+Q833,Malásia,Kuala Lumpur,Q1865,1963-09-16,330803,Tunku Abdul Rahman,United Malays National Organisation,32447385,2020,MY,MYS,Malaysia
+Q17063,Mayotte,Mamoudzou,Q132676,1974-01-01,374,Soibahadine Ibrahim Ramadani,União por um Movimento Popular,320901,2024,YT,MYT,Mayotte
+Q1030,Namíbia,Windhoek,Q3935,1990-00-00,825615,Hage Geingob,Organização do Povo do Sudoeste Africano,2533794,2017,NA,NAM,Republic_of_Namibia
+Q33788,Nova Caledónia,Nouméa,Q9733,1853-01-01,18576,Philippe Germain,Caledonia Together,278500,2017,NC,NCL,New_Caledonia
+Q1032,Níger,Niamey,Q3674,1960-01-01,1267000,Ali Lamine Zeine,National Movement for the Development of Society,21477348,2017,NE,NER,Republic_of_the_Niger
+Q31057,Ilha Norfolk,Kingston,Q30963,,34,,,2188,2021,NF,NFK,Norfolk_Island
+Q1033,Nigéria,Abuja,Q3787,1963-10-01,923768,Bola Tinubu,Aliança para Democracia (Nigéria),211400708,2021,NG,NGA,Federal_Republic_of_Nigeria
+Q811,Nicarágua,Manágua,Q3274,1821-01-01,120340,Daniel Ortega,Frente Sandinista de Libertação Nacional,7005764,2025,NI,NIC,Republic_of_Nicaragua
+Q34020,Niue,Alofi,Q30966,1974-01-01,260,Toke Talagi,político sem partido,1821,2025,NU,NIU,Niue
+Q29999,Reino dos Países Baixos,Amesterdão,Q727,1815-03-16,42201,Mark Rutte,Partido Popular para a Liberdade e Democracia,17100715,2013,NL,NLD,Kingdom_of_the_Netherlands
+Q20,Noruega,Oslo,Q585,1905-10-26,385207,Erna Solberg,Partido da Direita,5594340,2025,NO,NOR,Kingdom_of_Norway
+Q837,Nepal,Catmandu,Q3037,1768-09-25,147181,Sher Bahadur Deuba,Congresso Nepalês,29164578,2021,NP,NPL,Federal_Democratic_Republic_of_Nepal
+Q697,Nauru,Yaren,Q31026,1968-01-31,21,David Adeang,Nauru First,13650,2017,NR,NRU,Republic_of_Nauru
+Q664,Nova Zelândia,Wellington,Q23661,1986-12-13,268021,Christopher Luxon,Partido Nacional da Nova Zelândia,5118700,2021,NZ,NZL,New_Zealand
+Q842,Omã,Mascate,Q3826,1970-07-23,309500,Haitham bin Tarik Al Said,,4829480,2018,OM,OMN,Sultanate_of_Oman
+Q843,Paquistão,Islamabad,Q1362,1947-08-14,881913,Shehbaz Sharif,Liga Muçulmana do Paquistão-N,223773700,2021,PK,PAK,Islamic_Republic_of_Pakistan
+Q804,Panamá,Cidade do Panamá,Q3306,1903-01-01,74177,José Raúl Mulino,Solidarity Party,4570133,2025,PA,PAN,Republic_of_Panama
+Q21491371,Pitcairn,,,,,,,,,PN,PCN,Pitcairn
+Q419,Peru,Lima,Q2868,1821-07-28,1285216,Dina Boluarte,Peru Livre,33726000,2023,PE,PER,Republic_of_Peru
+Q928,Filipinas,Manila,Q1461,1565-00-00,343448,Rodrigo Duterte,Partido Demokratiko Pilipino,112729484,2024,PH,PHL,Republic_of_the_Philippines
+Q695,Palau,Ngerulmud,Q515229,1994-10-01,465,Surangel Whipps Jr.,político sem partido,21729,2017,PW,PLW,Republic_of_Palau
+Q691,Papua-Nova Guiné,Port Moresby,Q36526,1975-01-01,462840,Peter O'Neill,People's National Congress Party,8935000,2020,PG,PNG,Independent_State_of_Papua_New_Guinea
+Q36,Polónia,Varsóvia,Q270,1000-00-00,312683,Ewa Kopacz,Plataforma Cívica,37563071,2024,PL,POL,Republic_of_Poland
+Q1183,Porto Rico,San Juan,Q41211,1898-01-01,9104,Alejandro García Padilla,Partido Popular Democrático,3285874,2020,PR,PRI,Puerto_Rico
+Q423,Coreia do Norte,Pyongyang,Q18808,1948-09-09,120540,Pak Pong-ju,Partido dos Trabalhadores da Coreia,26418204,2023,KP,PRK,North_Korea
+Q45,Portugal,Lisboa,Q597,1139-07-25,92225,Pedro Passos Coelho,Partido Social Democrata,10347892,2021,PT,PRT,Portuguese_Republic
+Q733,Paraguai,Assunção,Q2933,1811-01-01,406756,Santiago Peña,Partido Colorado,6811297,2017,PY,PRY,Republic_of_Paraguay
+Q87199320,Pandemia de COVID-19 na Palestina,,,,,,,,,PS,PSE,the_State_of_Palestine
+Q30971,Polinésia Francesa,Papeete,Q130800,1842-01-01,4167,Édouard Fritch,Tapura Huiraatira,278786,2022,PF,PYF,French_Polynesia
+Q846,Catar,Doha,Q3861,1870-00-00,11437,Hamad bin Jassim bin Jaber Al Thani,,2639211,2017,QA,QAT,State_of_Qatar
+Q17070,Reunião,Saint-Denis,Q47045,1946-03-21,2512,Marcel Cerneau,União pela Democracia Francesa,881348,2022,RE,REU,Réunion
+Q218,Roménia,Bucareste,Q19660,1859-01-24,238397,Mihai Răzvan Ungureanu,Civic Force,19053815,2022,RO,ROU,Romania
+Q159,Rússia,Moscovo,Q649,1991-12-25,17075400,Boris Iéltsin,Partido Comunista da União Soviética,146119928,2025,RU,RUS,Russian_Federation
+,Rwandese Republic,,,,,,,,,RW,RWA,Rwandese_Republic
+Q851,Arábia Saudita,Riade,Q3692,1727-00-00,2250000,Salman bin Abdalaziz Al Saud,,33000000,2018,SA,SAU,Kingdom_of_Saudi_Arabia
+Q1049,Sudão,Cartum,Q1963,1956-01-01,1886068,Bakri Hassan Saleh,Congresso Nacional,48945000,2025,SD,SDN,Republic_of_the_Sudan
+Q1041,Senegal,Dacar,Q3718,1960-01-01,196722,Mohamed Dionne,Aliança pela República,16876720,2021,SN,SEN,Republic_of_Senegal
+Q334,Singapura,Singapura,Q334,1965-08-09,719,Lee Hsien Loong,Partido de Ação Popular,5866139,2021,SG,SGP,Republic_of_Singapore
+Q35086,Ilhas Geórgia do Sul e Sandwich do Sul,Cabo Rei Eduardo,Q393878,,4066,Nigel Haywood,,35,2019,GS,SGS,South_Georgia_and_the_South_Sandwich_Islands
+Q192184,"Santa Helena, Ascensão e Tristão da Cunha",Jamestown,Q30970,1833-00-00,394,Philip Rushbrook,,5633,2016,SH,SHN,Saint_Helena_Ascension_and_Tristan_da_Cunha
+Q842829,Svalbard e Jan Mayen,,,,61399,,,2905,2022,SJ,SJM,Svalbard_and_Jan_Mayen
+Q685,Ilhas Salomão,Honiara,Q40921,1978-01-01,28400,Manasseh Sogavare,,611343,2017,SB,SLB,Solomon_Islands
+Q1044,Serra Leoa,Freetown,Q3780,1971-04-19,71740,David J. Francis,Partido Popular de Serra Leoa,7557212,2017,SL,SLE,Republic_of_Sierra_Leone
+Q792,El Salvador,San Salvador,Q3110,1841-02-02,21041,Nayib Bukele,Frente Farabundo Martí de Libertação Nacional,6029976,2024,SV,SLV,Republic_of_El_Salvador
+Q3886678,Republic of San Marino State Hospital,,,1981-00-00,,,,,,SM,SMR,Republic_of_San_Marino
+Q1045,Somália,Mogadixo,Q2449,1960-01-01,637657,Hassan Ali Khayre,político sem partido,11031386,2017,SO,SOM,Federal_Republic_of_Somalia
+Q34617,Saint-Pierre e Miquelon,Saint-Pierre,Q185678,1700-00-00,242,Stéphane Artano,União por um Movimento Popular,5974,2019,PM,SPM,Saint_Pierre_and_Miquelon
+Q403,Sérvia,Belgrado,Q3711,0780-00-00,88361,Đuro Macut,,6605168,2024,RS,SRB,Republic_of_Serbia
+Q958,Sudão do Sul,Juba,Q1947,2011-07-09,619745,Salva Kiir Mayardit,Exército Popular de Libertação do Sudão,12575714,2017,SS,SSD,Republic_of_South_Sudan
+Q1039,São Tomé e Príncipe,São Tomé,Q3932,1975-07-12,1001,Patrice Trovoada,Acção Democrática Independente,204327,2017,ST,STP,Democratic_Republic_of_Sao_Tome_and_Principe
+Q730,Suriname,Paramaribo,Q3001,1975-11-25,163270,Chan Santokhi,Partido da Reforma Progressista (Suriname),563402,2017,SR,SUR,Republic_of_Suriname
+Q214,Eslováquia,Bratislava,Q1780,1939-03-14,49035,Robert Fico,Partido Comunista da Checoslováquia,5419451,2024,SK,SVK,Slovak_Republic
+Q215,Eslovénia,Liubliana,Q437,1991-06-25,20271,Miro Cerar,Modern Centre Party,2116972,2022,SI,SVN,Republic_of_Slovenia
+Q34,Suécia,Estocolmo,Q1754,0900-00-00,447425,Stefan Löfven,Partido Operário Social-Democrata da Suécia,10592686,2025,SE,SWE,Kingdom_of_Sweden
+Q1050,Essuatíni,Lobamba,Q101418,1968-09-06,17364,Ambrose Mandvulo Dlamini,político sem partido,1230506,2023,SZ,SWZ,Kingdom_of_Eswatini
+Q26273,São Martinho,Philipsburg,Q30958,2010-01-01,34,Sarah Wescot-Williams,Democratic Party,43847,2020,SX,SXM,Sint_Maarten_Dutch_part
+Q1042,Seychelles,Victoria,Q3940,1976-06-29,459,Danny Faure,Partido Seychelles Unidas,119773,2023,SC,SYC,Republic_of_Seychelles
+Q858,Síria,Damasco,Q3766,1920-03-08,185180,,,23865423,2024,SY,SYR,Syria
+Q18221,Ilhas Turcas e Caicos,Cockburn Town,Q34205,1973-00-00,417,Rufus Ewing,Progressive National Party,44542,2020,TC,TCA,Turks_and_Caicos_Islands
+Q657,Chade,Jamena,Q3659,1960-08-11,1284000,Albert Pahimi Padacké,National Rally for Democracy in Chad,19319064,2023,TD,TCD,Republic_of_Chad
+Q945,Togo,Lomé,Q3792,1960-04-27,56785,Faure Gnassingbé,Rally of the Togolese People,9515240,2024,TG,TGO,Togolese_Republic
+Q869,Tailândia,Banguecoque,Q1861,1768-12-28,513119,Peatongtarn Shinawatra,Partido Pheu Thai,66188503,2017,TH,THA,Kingdom_of_Thailand
+Q863,Tajiquistão,Duchambe,Q9365,1991-09-09,143100,Kokhir Rasulzoda,Partido Democrático Popular do Tajiquistão,9504000,2021,TJ,TJK,Republic_of_Tajikistan
+Q36823,Tokelau,,,,10,,,1499,2016,TK,TKL,Tokelau
+Q874,Turquemenistão,Asgabate,Q23438,1991-10-27,491210,Serdar Berdimuhammedow,Partido Democrático do Turcomenistão,6117933,2021,TM,TKM,Turkmenistan
+Q574,Timor-Leste,Díli,Q9310,1975-11-28,14918,Taur Matan Ruak,People's Liberation Party,1360596,2023,TL,TLS,Democratic_Republic_of_Timor-Leste
+,Kingdom of Tonga,,,,,,,,,TO,TON,Kingdom_of_Tonga
+Q754,Trindade e Tobago,Port of Spain,Q39178,1962-08-31,5128,Kamla Persad-Bissessar,United National Congress,1369125,2017,TT,TTO,Republic_of_Trinidad_and_Tobago
+Q948,Tunísia,Tunes,Q3572,1956-03-20,163610,Habib Essid,Nidaa Tounes,11972169,2024,TN,TUN,Republic_of_Tunisia
+Q43,Turquia,Ancara,Q3640,1923-10-29,783562,Ahmet Davutoğlu,Partido da Justiça e Desenvolvimento,85372377,2023,TR,TUR,Republic_of_Türkiye
+Q672,Tuvalu,Funafuti,Q34126,1978-10-01,25,Kausea Natano,,10643,2022,TV,TUV,Tuvalu
+Q22502,Ilha Formosa,,,,35883,,,23894394,2022,TW,TWN,Taiwan
+Q924,Tanzânia,Dodoma,Q3866,1964-04-26,947303,Samia Suluhu,Partido da Revolução,61741120,2022,TZ,TZA,Tanzania
+Q1036,Uganda,Campala,Q3894,1962-01-01,241038,Robinah Nabbanja,Movimento de Resistência Nacional,47123531,2021,UG,UGA,Republic_of_Uganda
+Q212,Ucrânia,Kiev,Q1899,1991-08-24,603550,Pavlo Lazarenko,Hromada,41167335,2022,UA,UKR,Ukraine
+Q16645,Ilhas Menores Distantes dos Estados Unidos,,,1986-00-00,34,,,190,2010,UM,UMI,United_States_Minor_Outlying_Islands
+Q77,Uruguai,Montevidéu,Q1335,1825-08-25,176215,Yamandú Orsi,Frente Ampla,3444263,2023,UY,URY,Eastern_Republic_of_Uruguay
+Q30,Estados Unidos,"Washington, D.C.",Q61,1776-07-04,9826675,George Washington,Partido Federalista,340110988,2024,US,USA,United_States_of_America
+Q265,Uzbequistão,Tasquente,Q269,1991-00-00,448978,Islam Karimov,Communist Party of Uzbekistan,34915100,2021,UZ,UZB,Republic_of_Uzbekistan
+,Holy See (Vatican City State),,,,,,,,,VA,VAT,Holy_See_Vatican_City_State
+Q757,São Vicente e Granadinas,Kingstown,Q41474,1979-00-00,389,Ralph Gonsalves,Unity Labour Party,100804,2023,VC,VCT,Saint_Vincent_and_the_Grenadines
+Q717,Venezuela,Caracas,Q1533,1811-07-05,912050,Nicolás Maduro,Movimento V República,28515829,2019,VE,VEN,Venezuela
+Q25305,Ilhas Virgens Britânicas,Road Town,Q179431,,153,Orlando Smith,National Democratic Party,39369,2023,VG,VGB,British_Virgin_Islands
+Q11703,Ilhas Virgens Americanas,Charlotte Amalie,Q51681,1917-03-31,346,Kenneth Mapp,político sem partido,104917,2023,VI,VIR,Virgin_Islands_of_the_United_States
+Q881,Vietname,Hanói,Q1858,1976-07-02,331690,Nguyễn Xuân Phúc,Partido Comunista do Vietnã,96208984,2019,VN,VNM,Vietnam
+Q686,Vanuatu,Porto Vila,Q37806,1980-07-30,12190,Charlot Salwai,Namangi Aute,300019,2020,VU,VUT,Republic_of_Vanuatu
+Q35555,Wallis e Futuna,Mata-Utu,Q31002,1961-01-01,274,,,11558,2018,WF,WLF,Wallis_and_Futuna
+Q683,Samoa,Apia,Q36260,1962-01-01,2842,Tuila'epa Sailele Malielegaoi,Partido da Proteção dos Direitos Humanos,200010,2021,WS,WSM,Independent_State_of_Samoa
+Q805,Iémen,Sana,Q2471,1990-05-22,555000,Khaled Bahah,Congresso Geral do Povo,28250420,2017,YE,YEM,Republic_of_Yemen
+Q258,África do Sul,Pretória,Q3926,1910-05-31,1221037,Jacob Zuma,Congresso Nacional Africano,62027503,2022,ZA,ZAF,Republic_of_South_Africa
+Q953,Zâmbia,Lusaca,Q3881,1964-10-24,752618,Edgar Lungu,Frente Patriótica (Zâmbia),19610769,2022,ZM,ZMB,Republic_of_Zambia
+Q954,Zimbábue,Harare,Q3921,1980-04-18,390757,Emmerson Mnangagwa,União Nacional Africana do Zimbábue - Frente Patriótica,15178979,2022,ZW,ZWE,Republic_of_Zimbabwe
+Q889,Afeganistão,Cabul,Q5838,1709-01-01,652230,Mohammad Hasan Akhund,Taliban,41454761,2023,AF,AFG,Afeganistão
+Q5689,Åland,Mariehamn,Q48329,,1582,Katrin Sjögren,Liberals for Åland,30144,2021,AX,ALA,Ilhas_Aland
+Q399,Arménia,Erevã,Q1953,1991-09-23,29743,Nikol Pashinyan,Armenian National Congress,2930450,2017,AM,ARM,Armênia
+Q129003,Terras Austrais e Antárticas Francesas,Port-aux-Français,Q839559,1955-08-06,7829,,,196,2012,TF,ATF,Territórios_Franceses_do_Sul
+Q962,Benim,Porto Novo,Q3799,1990-12-02,114763,Patrice Talon,político sem partido,14111034,2023,BJ,BEN,Benin
+Q27561,Países Baixos Caribenhos,,,2010-10-10,322,,,29418,2023,BQ,BES,Países_Baixos_Caribenhos
+Q965,Burquina Fasso,Uagadugu,Q3777,1960-01-01,274200,Apollinaire Kyélem de Tambèla,,23025776,2023,BF,BFA,Burquina_Faso
+Q398,Bahrein,Manama,Q3882,1971-08-14,786,Salman bin Hamad bin Isa Al Khalifa,,1569666,2023,BH,BHR,Barein
+Q225,Bósnia e Herzegovina,Sarajevo,Q11194,1992-03-01,51197,Borjana Krišto,Croatian Democratic Union of Bosnia and Herzegovina,3816459,2022,BA,BIH,Bósnia_e_Herzegovina
+Q43982,São Bartolomeu,,,,,,,,,BL,BLM,São_Bartolomeu
+Q36004,Ilhas Cocos,West Island,Q48675,1955-01-01,14,,,602,2021,CC,CCK,Ilhas_Cocos_Keeling
+,Congo - Kinshasa,,,,,,,,,CD,COD,Congo_-_Kinshasa
+Q25279,Curaçau,Willemstad,Q132679,1954-01-01,444,Gilmar Pisas,Movement for the Future of Curaçao,152849,2023,CW,CUW,Curaçao
+Q31063,Ilha Christmas,Flying Fish Cove,Q30980,1958-10-01,135,,,1692,2021,CX,CXR,Ilha_Christmas
+Q213,Chéquia,Praga,Q1085,1993-01-01,78866,Petr Fiala,Partido Democrático Cívico,10909500,2025,CZ,CZE,Tchéquia
+Q977,Djibouti,Djibouti,Q3604,1977-06-23,23200,Abdoulkader Kamil Mohamed,People's Rally for Progress,1152944,2023,DJ,DJI,Djibuti
+Q35,Dinamarca,Copenhaga,Q1748,0800-00-00,42925,Mette Frederiksen,Partido Social-Democrata,5822863,2020,DK,DNK,Dinamarca
+Q986,Eritreia,Asmara,Q3642,1993-05-24,117600,Isaias Afewerki,Frente Popular pela Democracia e Justiça,3497000,2019,ER,ERI,Eritreia
+Q6250,Sara Ocidental,,,,266000,,,612000,2021,EH,ESH,Saara_Ocidental
+Q191,Estónia,Tallinn,Q1770,1918-02-24,45339,Kaja Kallas,Partido Reformista Estónio,1369995,2025,EE,EST,Estônia
+Q9648,Ilhas Malvinas,Stanley,Q12245,1833-01-03,12200,,,4550,2018,FK,FLK,Ilhas_Malvinas
+Q4628,Ilhas Feroe,Tórshavn,Q10704,1948-04-01,1399,Aksel V. Johannesen,Partido Social-Democrata (Ilhas Faroé),54149,2023,FO,FRO,Ilhas_Faroé
+Q223,Gronelândia,Nuuk,Q226,,2166086,Jens-Frederik Nielsen,,56542,2025,GL,GRL,Groenlândia
+,"Hong Kong, RAE da China",,,,,,,,,HK,HKG,Hong_Kong_RAE_da_China
+Q131198,Ilha Heard e Ilhas McDonald,,,,368,,,2,2011,HM,HMD,Ilhas_Heard_e_McDonald
+Q27,República da Irlanda,Dublin,Q1761,1937-12-29,69797,Micheál Martin,Fianna Fáil,5149139,2022,IE,IRL,Irlanda
+Q794,Irão,Teerão,Q3616,1979-04-01,1648195,Masoud Pezeshkian,político sem partido,92417700,2025,IR,IRN,Irã
+Q785,Jersey,Saint Helier,Q147738,1651-12-12,118,John Le Fondré,Jersey Alliance,103267,2021,JE,JEY,Jersey
+Q114,Quénia,Nairóbi,Q3870,1963-00-00,581309,William Ruto,United Republican Party,47564296,2019,KE,KEN,Quênia
+Q710,Kiribati,Tarawa do Sul,Q131233,1979-07-12,811,Taneti Maamau,Tobwaan Kiribati Party,119438,2020,KI,KIR,Quiribati
+Q763,São Cristóvão e Neves,Basseterre,Q41295,1967-02-27,269,Terrance Drew,Partido Trabalhista de São Cristóvão e Nevis,46922,2025,KN,KNA,São_Cristóvão_e_Névis
+Q211,Letónia,Riga,Q1773,1918-11-18,64593,Evika Siliņa,Unidade,1856932,2025,LV,LVA,Letônia
+,"Macau, RAE da China",,,,,,,,,MO,MAC,Macau_RAE_da_China
+Q235,Mónaco,Monaco-Ville,Q55115,1297-01-08,2,Philippe Mettoux,,38423,2024,MC,MCO,Mônaco
+Q1019,Madagáscar,Antananarivo,Q3915,1960-01-01,587295,Christian Ntsay,político sem partido,25570895,2017,MG,MDG,Madagascar
+Q221,Macedónia do Norte,Skopje,Q384,1991-00-00,25713,Hristijan Mickoski,Organização Revolucionária Interna da Macedónia - Partido Democrático para a Unidade Nacional Macedónia,1836713,2021,MK,MKD,Macedônia_do_Norte
+,Mianmar (Birmânia),,,,,,,,,MM,MMR,Mianmar_Birmânia
+Q16644,Marianas Setentrionais,Saipan,Q49755159,1898-01-01,464,Arnold Palacios,Partido Republicano,51475,2022,MP,MNP,Ilhas_Marianas_do_Norte
+Q1027,Maurícia,Port Louis,Q3929,1968-03-12,2040,Pravind Jugnauth,Movimento Socialista Militante,1264613,2017,MU,MUS,Maurício
+Q1020,Malawi,Lilongué,Q3876,1964-07-06,118484,Lazarus Chakwera,Partido do Congresso do Malawi,18622104,2017,MW,MWI,Malaui
+Q33788,Nova Caledónia,Nouméa,Q9733,1853-01-01,18576,Philippe Germain,Caledonia Together,278500,2017,NC,NCL,Nova_Caledônia
+Q55,Países Baixos,Amesterdão,Q727,1795-01-19,41543,Dick Schoof,Partido do Trabalho,17942942,2024,NL,NLD,Países_Baixos
+Q35672,Ilhas Pitcairn,Adamstown,Q48273,1838-01-01,47,Charlene Warren-Peu,,50,2019,PN,PCN,Ilhas_Pitcairn
+Q36,Polónia,Varsóvia,Q270,1000-00-00,312683,Donald Tusk,Plataforma Cívica,37563071,2024,PL,POL,Polônia
+Q575187,Territórios ocupados por Israel,,,,,,,,,PS,PSE,Territórios_palestinos
+Q218,Roménia,Bucareste,Q19660,1859-01-24,238397,Ilie Bolojan,Partido Nacional Liberal,19053815,2022,RO,ROU,Romênia
+Q1037,Ruanda,Quigali,Q3859,1962-01-01,26338,Édouard Ngirente,político sem partido,14569341,2025,RW,RWA,Ruanda
+Q170164,Helena de Constantinopla,,,,,,,,,SH,SHN,Santa_Helena
+Q238,San Marino,San Marino,Q1848,0301-09-03,61,,,33600,2021,SM,SMR,San_Marino
+Q34617,Saint-Pierre e Miquelon,Saint-Pierre,Q185678,1700-00-00,242,Stéphane Artano,União por um Movimento Popular,5974,2019,PM,SPM,São_Pedro_e_Miquelão
+Q215,Eslovénia,Liubliana,Q437,1991-06-25,20271,Robert Golob,Freedom Movement,2116972,2022,SI,SVN,Eslovênia
+Q26273,São Martinho,Philipsburg,Q30958,2010-01-01,34,Leona Marlin-Romeo,United Democrats,43847,2020,SX,SXM,Sint_Maarten
+Q1042,Seychelles,Victoria,Q3940,1976-06-29,459,Wavel Ramkalawan,Seychelles National Party,119773,2023,SC,SYC,Seicheles
+Q755194,Tadjiquistão nos Jogos Olímpicos,,,,,,,,,TJ,TJK,Tadjiquistão
+Q874,Turquemenistão,Asgabate,Q23438,1991-10-27,491210,Serdar Berdimuhammedow,Partido Democrático do Turcomenistão,6117933,2021,TM,TKM,Turcomenistão
+Q678,Tonga,Nuku'alofa,Q38834,1970-00-00,748,'Aisake Eke,,105697,2020,TO,TON,Tonga
+Q754,Trindade e Tobago,Port of Spain,Q39178,1962-08-31,5128,Kamla Persad-Bissessar,United National Congress,1369125,2017,TT,TTO,Trinidad_e_Tobago
+Q865,Taiwan,Taipé,Q1867,1912-01-01,36193,Wu Den-yih,Kuomintang,23412899,2024,TW,TWN,Taiwan
+Q16645,Ilhas Menores Distantes dos Estados Unidos,,,1986-00-00,34,,,190,2010,UM,UMI,Ilhas_Menores_Distantes_dos_EUA
+Q237,Vaticano,,,1929-02-11,0,Raffaella Petrini,,882,2024,VA,VAT,Cidade_do_Vaticano
+Q881,Vietname,Hanói,Q1858,1976-07-02,331690,Phạm Minh Chính,Partido Comunista do Vietnã,96208984,2019,VN,VNM,Vietnã
+Q805,Iémen,Sana,Q2471,1990-05-22,555000,Maeen Abdulmalik Saeed,Congresso Geral do Povo,28250420,2017,YE,YEM,Iêmen

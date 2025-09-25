@@ -1,0 +1,42 @@
+# Base
+streamlit>=1.32
+pandas>=2.2
+numpy>=1.26
+requests>=2.31
+plotly>=5.20
+Pillow>=9.5
+# kaleido  # só se quiseres exportar gráficos Plotly para imagem (PNG/SVG)
+# pyarrow  # acelera operações de I/O com Parquet/Arrow, caso venhas a usar
+
+# Dados e ciência
+intake-esm>=2023.7.0
+xarray>=2024.6.0
+fsspec>=2024.6.0
+gcsfs>=2024.6.1
+zarr>=2.18.2
+
+# Gráficos / visualização
+matplotlib>=3.0.0
+streamlit-plotly-events>=0.0.6
+streamlit-echarts>=0.4.0
+pyecharts>=1.9.1
+
+# Strings, parsing, scraping
+rapidfuzz>=3.0
+Unidecode>=1.3
+beautifulsoup4>=4.12
+lxml>=5.0
+validators>=0.22
+
+# Players / multimédia
+m3u8>=4.0
+
+# Spotify / APIs
+spotipy>=2.23
+python-dotenv>=1.0
+streamlit-local-storage
+
+# Opcionais
+# kaleido          # exportar gráficos Plotly p/ imagem (PNG/SVG)
+# pyarrow          # acelera I/O com Parquet/Arrow
+# tmdbsimple>=2.9  # só se fores usar providers.tmdb

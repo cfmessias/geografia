@@ -1,0 +1,7 @@
+# .streamlit/config.toml
+[theme]
+primaryColor = "#2563EB"          # azul (altera o “encarnado” default)
+# (opcional)
+backgroundColor = "#0E1117"
+secondaryBackgroundColor = "#1F2937"
+textColor = "#E5E7EB"

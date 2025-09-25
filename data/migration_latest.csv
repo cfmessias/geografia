@@ -1,0 +1,1270 @@
+iso3,country,indicator,indicator_name,year,value
+WLD,World,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,740508109059.594
+IBT,IDA & IBRD total,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,578197349125.657
+LMY,Low & middle income,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,547647624566.402
+MIC,Middle income,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,546851944443.72
+EAR,Early-demographic dividend,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,435238150390.266
+IBD,IBRD only,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,404147751597.633
+OED,OECD members,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,249252062769.98
+ECS,Europe & Central Asia,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,218243565623.144
+PST,Post-demographic dividend,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,179871488554.552
+SAS,South Asia,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,179097518115.852
+TSA,South Asia (IDA & IBRD),BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,179097518115.852
+LCN,Latin America & Caribbean,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,155011238801.382
+TLA,Latin America & the Caribbean (IDA & IBRD countries),BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,154945309801.382
+EUU,European Union,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,154036123273.845
+LAC,Latin America & Caribbean (excluding high income),BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,153190817097.654
+IDA,IDA total,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,141741034587.644
+IND,India,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,137674533895.686
+EMU,Euro area,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,117439358784.283
+EAS,East Asia & Pacific,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,117039552152.706
+LTE,Late-demographic dividend,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,103001090816.635
+EAP,East Asia & Pacific (excluding high income),BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,102599895079.125
+TEA,East Asia & Pacific (IDA & IBRD countries),BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,102599895079.125
+TEC,Europe & Central Asia (IDA & IBRD countries),BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,82648334058.304
+IDB,IDA blend,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,73924641434.1608
+IDX,IDA only,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,67816393153.483
+MEX,Mexico,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,67637913797.0
+ECA,Europe & Central Asia (excluding high income),BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,53117494451.2201
+LDC,Least developed countries: UN classification,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,45815473811.5439
+CEB,Central Europe and the Baltics,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,43586711743.7402
+PHL,Philippines,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,40279405932.4328
+MEA,"Middle East, North Africa, Afghanistan & Pakistan",BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,38458501599.2341
+FRA,France,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,36860723168.8662
+MNA,"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,35705604953.7485
+TMN,"Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,34969997202.191
+PAK,Pakistan,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,34914000000.0
+FCS,Fragile and conflict affected situations,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,34579226761.3602
+CHN,China,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,31410598200.12
+BGD,Bangladesh,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,27122365385.1365
+SSA,Sub-Saharan Africa (excluding high income),BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,23936294868.8023
+SSF,Sub-Saharan Africa,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,23936294868.8023
+TSS,Sub-Saharan Africa (IDA & IBRD countries),BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,23936294868.8023
+PRE,Pre-demographic dividend,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,22322312043.6971
+AFW,Africa Western and Central,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,22157853993.4235
+GTM,Guatemala,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,21649327000.0
+NGA,Nigeria,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,21292957333.3537
+DEU,Germany,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,21225006283.5321
+EGY,"Egypt, Arab Rep.",BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,19532100000.0
+UZB,Uzbekistan,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,16579258955.3401
+IDN,Indonesia,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,16038366972.4451
+HPC,Heavily indebted poor countries (HIPC),BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,15574004167.9532
+BEL,Belgium,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,15208330615.0797
+NPL,Nepal,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,14185362324.0659
+VNM,Viet Nam,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,14000000000.0
+UKR,Ukraine,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,11969000000.0
+COL,Colombia,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,11873232976.2659
+MAR,Morocco,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,11755209354.6739
+DOM,Dominican Republic,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,11247000000.0
+ITA,Italy,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,11151789911.0753
+THA,Thailand,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,9584457475.02693
+HND,Honduras,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,9532724045.27075
+ROU,Romania,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,9523551275.51816
+NAC,North America,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,8721437898.4724
+POL,Poland,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,8688000000.0
+SLV,El Salvador,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,8488402967.26914
+USA,United States,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,7870000000.0
+KOR,"Korea, Rep.",BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,7449400000.0
+TJK,Tajikistan,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,6801890973.461
+HRV,Croatia,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,6739238331.5658
+LBN,Lebanon,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,6696174319.75807
+ECU,Ecuador,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,6544355900.6287
+ESP,Spain,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,6265012172.34861
+LKA,Sri Lanka,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,6022594532.62525
+SRB,Serbia,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,5772222602.6082
+NIC,Nicaragua,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,5245600000.0
+HUN,Hungary,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,5237273918.8111
+BRA,Brazil,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,4902400448.25
+GBR,United Kingdom,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,4833962372.39769
+SWE,Sweden,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,4701879680.36409
+JPN,Japan,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,4644199355.62275
+JOR,Jordan,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,4480000000.0
+PER,Peru,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,4446181861.99978
+NLD,Netherlands,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,4358133099.92793
+CZE,Czechia,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,4247984188.48437
+KEN,Kenya,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,4227611606.30686
+GEO,Georgia,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,3999181897.44
+SST,Small states,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,3879443737.36412
+YEM,"Yemen, Rep.",BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,3770584000.0
+HTI,Haiti,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,3753251985.08515
+AUT,Austria,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,3591781612.73455
+JAM,Jamaica,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,3564377716.20869
+CHE,Switzerland,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,3501719973.32564
+ZWE,Zimbabwe,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,3301267763.74879
+COD,"Congo, Dem. Rep.",BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,3298265099.18365
+SEN,Senegal,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,3267137360.56512
+BIH,Bosnia and Herzegovina,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,3124315487.86079
+TUN,Tunisia,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,2872131225.96717
+KGZ,Kyrgyz Republic,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,2850000000.0
+KHM,Cambodia,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,2827917512.10209
+SVK,Slovak Republic,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,2741066434.08153
+BGR,Bulgaria,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,2672220000.0
+ARB,Arab World,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,2576997370.28445
+GHA,Ghana,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,2431468248.62852
+LUX,Luxembourg,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,2430239294.26189
+OSS,Other small states,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,2334603226.76245
+ALB,Albania,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,2274440593.60034
+BMU,Bermuda,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,2035318440.28234
+MDA,Moldova,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,1917700000.0
+RUS,Russian Federation,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,1907830000.0
+AUS,Australia,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,1883610723.43181
+DZA,Algeria,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,1867646030.08864
+XKX,Kosovo,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,1832626789.98852
+PRT,Portugal,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,1804893649.4048
+AFE,Africa Eastern and Southern,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,1778440875.37881
+SOM,Somalia,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,1735000000.0
+MYS,Malaysia,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,1605279752.31516
+DNK,Denmark,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,1525855426.38462
+BOL,Bolivia,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,1449389659.8976
+QAT,Qatar,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,1443131868.13187
+UGA,Uganda,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,1430720000.0
+BLR,Belarus,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,1382627657.62
+AZE,Azerbaijan,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,1351678000.0
+LVA,Latvia,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,1335826280.91633
+ARM,Armenia,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,1181642797.64759
+SSD,South Sudan,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,1175432300.0
+IRQ,Iraq,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,1161700000.0
+MMR,Myanmar,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,1100000000.0
+LTU,Lithuania,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,1053040837.54854
+MLI,Mali,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,1045130736.94591
+ARG,Argentina,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,1044565331.42964
+CIV,Cote d'Ivoire,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,1041929443.64097
+SDN,Sudan,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,1000000000.0
+TUR,Turkiye,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,982000000.0
+ISR,Israel,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,952100000.0
+CSS,Caribbean small states,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,910539273.171854
+PRY,Paraguay,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,878191146.175132
+ZAF,South Africa,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,855374671.121348
+MNE,Montenegro,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,855216059.451431
+SVN,Slovenia,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,852252884.463344
+CAN,Canada,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,851437898.472405
+NZL,New Zealand,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,816120343.145301
+LBR,Liberia,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,800000000.0
+CMR,Cameroon,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,786560477.899988
+TZA,Tanzania,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,758814527.83441
+FIN,Finland,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,748914874.945902
+PSE,West Bank and Gaza,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,735607751.557531
+CRI,Costa Rica,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,724796054.747405
+TGO,Togo,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,650385610.227793
+PSS,Pacific island small states,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,634301237.429817
+NER,Niger,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,623844413.435543
+CYP,Cyprus,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,621725486.841502
+NOR,Norway,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,621067524.761032
+NCL,New Caledonia,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,621061715.841089
+BFA,Burkina Faso,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,584392246.516695
+PYF,French Polynesia,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,581560094.176844
+IRL,Ireland,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,570929940.536472
+GRC,Greece,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,561447512.229398
+GUY,Guyana,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,545579977.920031
+ETH,Ethiopia,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,539360389.32098
+PAN,Panama,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,531591166.76
+GMB,"Gambia, The",BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,528765281.012022
+RWA,Rwanda,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,518060502.154346
+FJI,Fiji,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,500000000.0
+LSO,Lesotho,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,499297840.179692
+GIN,Guinea,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,496840000.0
+EST,Estonia,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,496257592.351001
+HKG,"Hong Kong SAR, China",BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,462446994.526593
+MKD,North Macedonia,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,458150265.707038
+MNG,Mongolia,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,455273507.999481
+MDG,Madagascar,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,385290310.633864
+BEN,Benin,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,338542904.957819
+CPV,Cabo Verde,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,336131379.05782
+SAU,Saudi Arabia,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,321870198.443355
+AFG,Afghanistan,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,320000000.0
+MUS,Mauritius,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,315381359.563439
+COM,Comoros,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,305575360.886596
+SLE,Sierra Leone,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,293001735.693338
+LAO,Lao PDR,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,287186439.42367
+WSM,Samoa,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,282254313.310488
+MOZ,Mozambique,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,266914841.670452
+TON,Tonga,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,256868086.59404
+ZMB,Zambia,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,245688116.971317
+ISL,Iceland,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,240772256.544493
+KAZ,Kazakhstan,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,240391763.091781
+TLS,Timor-Leste,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,219567997.253272
+GNB,Guinea-Bissau,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,204382472.034073
+TTO,Trinidad and Tobago,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,199168367.349241
+BDI,Burundi,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,197847049.192108
+MWI,Malawi,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,179747922.998322
+CUW,Curacao,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,176607685.452514
+MRT,Mauritania,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,167738734.71534
+SUR,Suriname,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,160306201.685615
+FRO,Faroe Islands,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,158411749.981598
+BLZ,Belize,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,154149602.655516
+VUT,Vanuatu,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,144967341.399687
+NAM,Namibia,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,142746931.999637
+URY,Uruguay,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,136080578.605233
+MAC,"Macao SAR, China",BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,111515747.535097
+BTN,Bhutan,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,109604204.233408
+CHL,Chile,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,100140399.6
+SLB,Solomon Islands,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,95178837.5252889
+VCT,St. Vincent and the Grenadines,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,94443874.4444444
+BRB,Barbados,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,85175892.5
+SWZ,Eswatini,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,79945065.1185571
+GRD,Grenada,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,70237557.7777778
+BWA,Botswana,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,70025203.609462
+BHS,"Bahamas, The",BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,65929000.0
+LCA,St. Lucia,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,64958539.2592592
+DJI,Djibouti,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,55997202.1910131
+SXM,Sint Maarten (Dutch part),BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,48022544.575419
+AND,Andorra,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,48000000.0
+COG,"Congo, Rep.",BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,43959696.1855081
+OMN,Oman,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,39011703.5110533
+ABW,Aruba,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,38964260.6098554
+DMA,Dominica,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,38629993.3333333
+KNA,St. Kitts and Nevis,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,36437261.1111111
+MHL,Marshall Islands,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,34450053.0
+ATG,Antigua and Barbuda,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,26278875.5555556
+FSM,"Micronesia, Fed. Sts.",BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,23338700.0
+SMR,San Marino,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,21856304.0056664
+KWT,Kuwait,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,20390349.9606808
+GAB,Gabon,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,18458042.2530413
+MLT,Malta,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,15404228.9496756
+AGO,Angola,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,14106590.4076799
+KIR,Kiribati,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,11632326.68685
+SYC,Seychelles,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,11416890.5034536
+CYM,Cayman Islands,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,10839070.5044425
+PNG,Papua New Guinea,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,10667826.6481623
+STP,Sao Tome and Principe,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,10000000.0
+MDV,Maldives,BX.TRF.PWKR.CD.DT,Remittances received (US$),2024,5652306.73033269
+TUV,Tuvalu,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,2592766.17264003
+PLW,Palau,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,1953000.0
+BRN,Brunei Darussalam,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,1000000.0
+NRU,Nauru,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,880605.811639709
+BHR,Bahrain,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,0.0
+CAF,Central African Republic,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,0.0
+ERI,Eritrea,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,0.0
+GNQ,Equatorial Guinea,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,0.0
+IRN,"Iran, Islamic Rep.",BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,0.0
+LBY,Libya,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,0.0
+SGP,Singapore,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,0.0
+SYR,Syrian Arab Republic,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,0.0
+TCA,Turks and Caicos Islands,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,0.0
+TCD,Chad,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,0.0
+TKM,Turkmenistan,BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,0.0
+VEN,"Venezuela, RB",BX.TRF.PWKR.CD.DT,Remittances received (US$),2023,0.0
+TON,Tonga,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,49.9757027039835
+TJK,Tajikistan,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,47.8852110026872
+LBN,Lebanon,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,33.349773045666
+NPL,Nepal,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,33.0551187061918
+NIC,Nicaragua,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,26.6355465455205
+WSM,Samoa,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,26.4276818353757
+HND,Honduras,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,25.6991309025944
+SLV,El Salvador,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,24.0022976620619
+BMU,Bermuda,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,23.7237560180997
+LSO,Lesotho,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,21.9805697677301
+COM,Comoros,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,21.3610873639471
+GMB,"Gambia, The",BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,21.0871813503036
+GTM,Guatemala,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,19.1249171168734
+HTI,Haiti,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,18.9075125418804
+KGZ,Kyrgyz Republic,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,18.773661768124
+LBR,Liberia,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,18.2232346241458
+JAM,Jamaica,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,17.8842255361982
+XKX,Kosovo,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,17.5065745299546
+YEM,"Yemen, Rep.",BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2018,17.4514299824436
+SOM,Somalia,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,15.817999696441
+UZB,Uzbekistan,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,14.4210991468962
+MHL,Marshall Islands,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,13.2857898187428
+VUT,Vanuatu,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,12.8709599520492
+CPV,Cabo Verde,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,12.1452340797431
+PSS,Pacific island small states,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,11.8559016650532
+GEO,Georgia,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,11.8402569072994
+TLS,Timor-Leste,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,11.6712934296336
+NGA,Nigeria,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,11.3405363247915
+BIH,Bosnia and Herzegovina,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,11.0230816585769
+SEN,Senegal,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,10.6434131462935
+MNE,Montenegro,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,10.5980820473289
+MDA,Moldova,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,10.5366158547258
+GNB,Guinea-Bissau,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,9.8364079777502
+SSD,South Sudan,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2015,9.49107276206113
+ZWE,Zimbabwe,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,9.37025107247842
+PAK,Pakistan,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,9.3585188653641
+FJI,Fiji,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,9.18772000815007
+PYF,French Polynesia,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,9.08372381992482
+DOM,Dominican Republic,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,9.04956290595841
+JOR,Jordan,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,8.7691008249257
+PHL,Philippines,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,8.72571015588727
+ALB,Albania,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,8.368764172031
+VCT,St. Vincent and the Grenadines,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,8.16136103518688
+MAR,Morocco,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,8.13976259747665
+BDI,Burundi,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,7.52444212682554
+HRV,Croatia,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,7.28360191137077
+LKA,Sri Lanka,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,7.19406597922512
+SRB,Serbia,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,7.09618120334205
+TGO,Togo,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,7.09156080969601
+NCL,New Caledonia,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2022,6.45371658177669
+IDX,IDA only,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,6.29601601490489
+UKR,Ukraine,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,6.27499250337681
+IDA,IDA total,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,6.2569456993921
+IDB,IDA blend,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,6.20644382051202
+KHM,Cambodia,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,6.1008759866084
+BGD,Bangladesh,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,6.0255931873835
+TUN,Tunisia,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,5.95923818115727
+DMA,Dominica,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,5.60763997462338
+SLB,Solomon Islands,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,5.405531416316
+CUW,Curacao,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,5.38205169034654
+PSE,West Bank and Gaza,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,5.36505277882541
+FSM,"Micronesia, Fed. Sts.",BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,5.25744935330228
+ECU,Ecuador,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,5.24908721771676
+GRD,Grenada,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,5.04784683964569
+EGY,"Egypt, Arab Rep.",BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,4.93326942206534
+COD,"Congo, Dem. Rep.",BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,4.92228733828493
+LDC,Least developed countries: UN classification,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,4.807495537005
+HPC,Heavily indebted poor countries (HIPC),BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,4.76411779760904
+FCS,Fragile and conflict affected situations,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,4.7560990438621
+ARM,Armenia,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,4.58239334185429
+SLE,Sierra Leone,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,4.56973534169797
+BLZ,Belize,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,4.38450234938887
+MLI,Mali,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,4.24478119861362
+TUV,Tuvalu,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,4.16305908985762
+AFW,Africa Western and Central,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,4.07185999136584
+SAS,South Asia,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,4.05620405655914
+TSA,South Asia (IDA & IBRD),BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,4.05620405655914
+FRO,Faroe Islands,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,4.05422615449798
+KIR,Kiribati,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,4.0304553467405
+KEN,Kenya,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,3.91305703507243
+MNA,"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,3.88315386056987
+TMN,"Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,3.75590529738304
+NER,Niger,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,3.73586664973556
+MEX,Mexico,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,3.6507301947413
+RWA,Rwanda,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,3.61478178853266
+BTN,Bhutan,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,3.57497269708309
+IND,India,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,3.5186704980628
+KNA,St. Kitts and Nevis,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,3.4159457854752
+SUR,Suriname,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,3.40044748688064
+EAR,Early-demographic dividend,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,3.23557771335472
+VNM,Viet Nam,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,3.2268646150333
+GUY,Guyana,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,3.22475315141245
+BOL,Bolivia,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,3.21120389766953
+LVA,Latvia,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,3.0693991919491
+PRE,Pre-demographic dividend,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,3.03484530595356
+GHA,Ghana,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,3.01868947921858
+SXM,Sint Maarten (Dutch part),BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,2.95019195331676
+UGA,Uganda,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,2.93366953380786
+SSA,Sub-Saharan Africa (excluding high income),BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,2.91036387052457
+SSF,Sub-Saharan Africa,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,2.90749379300594
+TSS,Sub-Saharan Africa (IDA & IBRD countries),BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,2.90749379300594
+BFA,Burkina Faso,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,2.87529266718328
+COL,Colombia,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,2.83680771791186
+MKD,North Macedonia,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,2.74584220562203
+LAC,Latin America & Caribbean (excluding high income),BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,2.72743658939012
+LUX,Luxembourg,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,2.60762762198538
+LCA,St. Lucia,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,2.54833011985522
+SDN,Sudan,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,2.50637309140704
+ROU,Romania,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,2.48807683536191
+TLA,Latin America & the Caribbean (IDA & IBRD countries),BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,2.48340870009776
+LCN,Latin America & Caribbean,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,2.4781767030143
+MDG,Madagascar,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,2.42779857795667
+BGR,Bulgaria,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,2.38140406223299
+ECA,Europe & Central Asia (excluding high income),BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,2.37143444425049
+HUN,Hungary,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,2.34955717510195
+BEL,Belgium,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,2.28846679353848
+SST,Small states,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,2.25922835333413
+MNG,Mongolia,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,2.23995468059518
+MUS,Mauritius,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,2.23655756250985
+GIN,Guinea,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,2.21728188238975
+PRY,Paraguay,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,1.97532234333541
+AFE,Africa Eastern and Southern,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,1.96410089690076
+SVK,Slovak Republic,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,1.93338194623132
+CSS,Caribbean small states,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,1.91764901868582
+MEA,"Middle East, North Africa, Afghanistan & Pakistan",BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,1.88919567723931
+AFG,Afghanistan,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,1.8656461200228
+OSS,Other small states,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,1.84395533442676
+ARB,Arab World,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,1.84339565881309
+CYP,Cyprus,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,1.83470581068326
+THA,Thailand,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,1.82071663440562
+BLR,Belarus,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,1.82016021990828
+AZE,Azerbaijan,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,1.81882789681566
+LAO,Lao PDR,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,1.81268457051844
+CEB,Central Europe and the Baltics,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,1.77502183254202
+SWZ,Eswatini,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,1.73636134590705
+BEN,Benin,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,1.72082497549215
+PER,Peru,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,1.66549414382986
+MMR,Myanmar,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,1.64775199666723
+CMR,Cameroon,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,1.5961239434743
+MRT,Mauritania,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,1.57475884637863
+LMY,Low & middle income,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,1.56486617731543
+MIC,Middle income,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,1.56370545579321
+STP,Sao Tome and Principe,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,1.47280553355186
+IBT,IDA & IBRD total,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,1.47188361438453
+MWI,Malawi,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,1.41398521758895
+TEC,Europe & Central Asia (IDA & IBRD countries),BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,1.39704796507513
+DJI,Djibouti,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,1.37032999543718
+CIV,Cote d'Ivoire,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,1.30865973342027
+AND,Andorra,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,1.26814124539362
+BRB,Barbados,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,1.26736012225571
+LTU,Lithuania,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,1.24078068965149
+CZE,Czechia,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,1.23116888269338
+SMR,San Marino,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2022,1.19322471582122
+MOZ,Mozambique,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,1.1906990454892
+ATG,Antigua and Barbuda,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,1.18117136673881
+SVN,Slovenia,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,1.17576433672635
+FRA,France,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,1.16571161922638
+EST,Estonia,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,1.16043122715366
+IBD,IBRD only,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,1.15123550696207
+IDN,Indonesia,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,1.14863323387459
+ABW,Aruba,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,1.06793146679127
+NAM,Namibia,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,1.06747794092934
+TZA,Tanzania,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,0.959766578056916
+POL,Poland,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,0.949823319733451
+ZMB,Zambia,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,0.890885868311165
+EUU,European Union,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,0.818923040459741
+ECS,Europe & Central Asia,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,0.771271661833651
+SWE,Sweden,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,0.770651134567056
+CRI,Costa Rica,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,0.760139316219408
+DZA,Algeria,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,0.754219999382391
+TTO,Trinidad and Tobago,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,0.753598851517468
+EMU,Euro area,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,0.743644574529876
+WLD,World,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,0.722147294484718
+ISL,Iceland,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,0.719521973971494
+PLW,Palau,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,0.692923979533729
+AUT,Austria,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,0.688552378400084
+QAT,Qatar,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,0.662038822470756
+PAN,Panama,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,0.616263275802106
+PRT,Portugal,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,0.584707221838223
+NRU,Nauru,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,0.581426948575993
+SYC,Seychelles,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,0.521943685321322
+EAP,East Asia & Pacific (excluding high income),BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,0.473784715871639
+TEA,East Asia & Pacific (IDA & IBRD countries),BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,0.473784715871639
+ITA,Italy,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,0.469989444275158
+DEU,Germany,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,0.455479144619276
+IRQ,Iraq,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,0.432049782942699
+BHS,"Bahamas, The",BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,0.416407710575514
+KOR,"Korea, Rep.",BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,0.410732680413717
+ETH,Ethiopia,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2022,0.40245351230772
+EAS,East Asia & Pacific,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,0.393473754486556
+MYS,Malaysia,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,0.380423194742509
+LTE,Late-demographic dividend,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,0.375012118659398
+CHE,Switzerland,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,0.373890009955756
+OED,OECD members,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,0.371658611770347
+ESP,Spain,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,0.363664304031814
+BWA,Botswana,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,0.360745147280346
+DNK,Denmark,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,0.35529845931467
+NLD,Netherlands,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,0.355028688590887
+NZL,New Zealand,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,0.319802672676732
+COG,"Congo, Rep.",BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,0.286923412503501
+PST,Post-demographic dividend,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,0.286143912491146
+FIN,Finland,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,0.249775147156108
+MAC,"Macao SAR, China",BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,0.243467856083759
+BRA,Brazil,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,0.224941418439149
+GRC,Greece,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,0.218339039931367
+ZAF,South Africa,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,0.213704373012185
+ISR,Israel,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,0.176190854348739
+URY,Uruguay,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,0.168080581501943
+CHN,China,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,0.16757857471
+ARG,Argentina,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,0.164948724407145
+CYM,Cayman Islands,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,0.151819860886916
+GBR,United Kingdom,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,0.132661425354601
+NOR,Norway,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,0.128392050367847
+JPN,Japan,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,0.115349135003813
+HKG,"Hong Kong SAR, China",BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,0.11359354951797
+AUS,Australia,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,0.107500166534019
+IRL,Ireland,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,0.103542842266834
+GAB,Gabon,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,0.0920338032327516
+RUS,Russian Federation,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,0.0877632981361672
+KAZ,Kazakhstan,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,0.0833518192665908
+MDV,Maldives,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,0.0810349553568563
+TUR,Turkiye,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,0.074210952721995
+MLT,Malta,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,0.0633345315540432
+CAN,Canada,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,0.0379893662486224
+OMN,Oman,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,0.0368397397640783
+PNG,Papua New Guinea,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,0.0346174051762256
+CHL,Chile,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,0.0303210305442317
+NAC,North America,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,0.0277521738330189
+USA,United States,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,0.026966008780571
+VEN,"Venezuela, RB",BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2014,0.0265362345081267
+SAU,Saudi Arabia,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,0.0260090852845697
+AGO,Angola,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,0.0175461777703986
+KWT,Kuwait,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2024,0.0127258921522737
+BRN,Brunei Darussalam,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,0.00662467300310357
+BHR,Bahrain,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,0.0
+CAF,Central African Republic,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,0.0
+ERI,Eritrea,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2011,0.0
+GNQ,Equatorial Guinea,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,0.0
+IRN,"Iran, Islamic Rep.",BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,0.0
+LBY,Libya,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,0.0
+SGP,Singapore,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,0.0
+SYR,Syrian Arab Republic,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,0.0
+TCA,Turks and Caicos Islands,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,0.0
+TCD,Chad,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,0.0
+TKM,Turkmenistan,BX.TRF.PWKR.DT.GD.ZS,Remittances received (%GDP),2023,0.0
+PST,Post-demographic dividend,SM.POP.NETM,Net migration,2024,4106171.0
+OED,OECD members,SM.POP.NETM,Net migration,2024,2590723.0
+NAC,North America,SM.POP.NETM,Net migration,2024,1654726.0
+USA,United States,SM.POP.NETM,Net migration,2024,1286132.0
+ECS,Europe & Central Asia,SM.POP.NETM,Net migration,2024,1256850.0
+UKR,Ukraine,SM.POP.NETM,Net migration,2024,1146012.0
+FCS,Fragile and conflict affected situations,SM.POP.NETM,Net migration,2024,798608.0
+ECA,Europe & Central Asia (excluding high income),SM.POP.NETM,Net migration,2024,738424.0
+SYR,Syrian Arab Republic,SM.POP.NETM,Net migration,2024,546494.0
+ARB,Arab World,SM.POP.NETM,Net migration,2024,519176.0
+EMU,Euro area,SM.POP.NETM,Net migration,2024,454808.0
+GBR,United Kingdom,SM.POP.NETM,Net migration,2024,417114.0
+CAN,Canada,SM.POP.NETM,Net migration,2024,368599.0
+TEC,Europe & Central Asia (IDA & IBRD countries),SM.POP.NETM,Net migration,2024,289192.0
+ARE,United Arab Emirates,SM.POP.NETM,Net migration,2024,278439.0
+TCD,Chad,SM.POP.NETM,Net migration,2024,204040.0
+EUU,European Union,SM.POP.NETM,Net migration,2024,194612.0
+IRN,"Iran, Islamic Rep.",SM.POP.NETM,Net migration,2024,190156.0
+MYS,Malaysia,SM.POP.NETM,Net migration,2024,174770.0
+ZAF,South Africa,SM.POP.NETM,Net migration,2024,166972.0
+OMN,Oman,SM.POP.NETM,Net migration,2024,154219.0
+JPN,Japan,SM.POP.NETM,Net migration,2024,153357.0
+COL,Colombia,SM.POP.NETM,Net migration,2024,141643.0
+AUS,Australia,SM.POP.NETM,Net migration,2024,138510.0
+EGY,"Egypt, Arab Rep.",SM.POP.NETM,Net migration,2024,123884.0
+SAU,Saudi Arabia,SM.POP.NETM,Net migration,2024,122170.0
+NLD,Netherlands,SM.POP.NETM,Net migration,2024,121628.0
+ESP,Spain,SM.POP.NETM,Net migration,2024,111674.0
+ITA,Italy,SM.POP.NETM,Net migration,2024,95246.0
+FRA,France,SM.POP.NETM,Net migration,2024,90527.0
+KOR,"Korea, Rep.",SM.POP.NETM,Net migration,2024,75963.0
+KWT,Kuwait,SM.POP.NETM,Net migration,2024,61624.0
+CHL,Chile,SM.POP.NETM,Net migration,2024,58316.0
+SWE,Sweden,SM.POP.NETM,Net migration,2024,50115.0
+QAT,Qatar,SM.POP.NETM,Net migration,2024,46105.0
+NOR,Norway,SM.POP.NETM,Net migration,2024,44356.0
+CHE,Switzerland,SM.POP.NETM,Net migration,2024,40099.0
+IRL,Ireland,SM.POP.NETM,Net migration,2024,39059.0
+DEU,Germany,SM.POP.NETM,Net migration,2024,36954.0
+BEL,Belgium,SM.POP.NETM,Net migration,2024,36243.0
+ETH,Ethiopia,SM.POP.NETM,Net migration,2024,30069.0
+FIN,Finland,SM.POP.NETM,Net migration,2024,26894.0
+SOM,Somalia,SM.POP.NETM,Net migration,2024,26859.0
+DNK,Denmark,SM.POP.NETM,Net migration,2024,25639.0
+THA,Thailand,SM.POP.NETM,Net migration,2024,23321.0
+BHR,Bahrain,SM.POP.NETM,Net migration,2024,22699.0
+PRT,Portugal,SM.POP.NETM,Net migration,2024,20648.0
+SGP,Singapore,SM.POP.NETM,Net migration,2024,20011.0
+NZL,New Zealand,SM.POP.NETM,Net migration,2024,18766.0
+PER,Peru,SM.POP.NETM,Net migration,2024,18406.0
+HUN,Hungary,SM.POP.NETM,Net migration,2024,16223.0
+SSD,South Sudan,SM.POP.NETM,Net migration,2024,15374.0
+TKM,Turkmenistan,SM.POP.NETM,Net migration,2024,14646.0
+PRI,Puerto Rico (US),SM.POP.NETM,Net migration,2024,11561.0
+AZE,Azerbaijan,SM.POP.NETM,Net migration,2024,10864.0
+ISR,Israel,SM.POP.NETM,Net migration,2024,10612.0
+AUT,Austria,SM.POP.NETM,Net migration,2024,8813.0
+CYP,Cyprus,SM.POP.NETM,Net migration,2024,8138.0
+CIV,Cote d'Ivoire,SM.POP.NETM,Net migration,2024,7838.0
+ZMB,Zambia,SM.POP.NETM,Net migration,2024,7381.0
+PAN,Panama,SM.POP.NETM,Net migration,2024,6706.0
+MLT,Malta,SM.POP.NETM,Net migration,2024,6323.0
+LUX,Luxembourg,SM.POP.NETM,Net migration,2024,5677.0
+NAM,Namibia,SM.POP.NETM,Net migration,2024,4211.0
+GNQ,Equatorial Guinea,SM.POP.NETM,Net migration,2024,3891.0
+KGZ,Kyrgyz Republic,SM.POP.NETM,Net migration,2024,3645.0
+ISL,Iceland,SM.POP.NETM,Net migration,2024,3543.0
+ARG,Argentina,SM.POP.NETM,Net migration,2024,3454.0
+LBY,Libya,SM.POP.NETM,Net migration,2024,3448.0
+SVN,Slovenia,SM.POP.NETM,Net migration,2024,3319.0
+LTU,Lithuania,SM.POP.NETM,Net migration,2024,2617.0
+SYC,Seychelles,SM.POP.NETM,Net migration,2024,1747.0
+GEO,Georgia,SM.POP.NETM,Net migration,2024,1745.0
+MAC,"Macao SAR, China",SM.POP.NETM,Net migration,2024,1620.0
+SLB,Solomon Islands,SM.POP.NETM,Net migration,2024,1610.0
+TTO,Trinidad and Tobago,SM.POP.NETM,Net migration,2024,1334.0
+GAB,Gabon,SM.POP.NETM,Net migration,2024,1105.0
+BHS,"Bahamas, The",SM.POP.NETM,Net migration,2024,1018.0
+AND,Andorra,SM.POP.NETM,Net migration,2024,988.0
+CRI,Costa Rica,SM.POP.NETM,Net migration,2024,967.0
+CYM,Cayman Islands,SM.POP.NETM,Net migration,2024,896.0
+CHI,Channel Islands,SM.POP.NETM,Net migration,2024,747.0
+GIB,Gibraltar,SM.POP.NETM,Net migration,2024,598.0
+SXM,Sint Maarten (Dutch part),SM.POP.NETM,Net migration,2024,558.0
+BGR,Bulgaria,SM.POP.NETM,Net migration,2024,524.0
+CUW,Curacao,SM.POP.NETM,Net migration,2024,513.0
+BLZ,Belize,SM.POP.NETM,Net migration,2024,490.0
+FRO,Faroe Islands,SM.POP.NETM,Net migration,2024,488.0
+NCL,New Caledonia,SM.POP.NETM,Net migration,2024,455.0
+VGB,British Virgin Islands,SM.POP.NETM,Net migration,2024,212.0
+LIE,Liechtenstein,SM.POP.NETM,Net migration,2024,206.0
+IMN,Isle of Man,SM.POP.NETM,Net migration,2024,177.0
+TCA,Turks and Caicos Islands,SM.POP.NETM,Net migration,2024,176.0
+ABW,Aruba,SM.POP.NETM,Net migration,2024,141.0
+MCO,Monaco,SM.POP.NETM,Net migration,2024,110.0
+MNG,Mongolia,SM.POP.NETM,Net migration,2024,83.0
+SMR,San Marino,SM.POP.NETM,Net migration,2024,37.0
+ATG,Antigua and Barbuda,SM.POP.NETM,Net migration,2024,9.0
+BRN,Brunei Darussalam,SM.POP.NETM,Net migration,2024,0.0
+WLD,World,SM.POP.NETM,Net migration,2024,0.0
+BMU,Bermuda,SM.POP.NETM,Net migration,2024,-5.0
+KNA,St. Kitts and Nevis,SM.POP.NETM,Net migration,2024,-7.0
+LCA,St. Lucia,SM.POP.NETM,Net migration,2024,-7.0
+DJI,Djibouti,SM.POP.NETM,Net migration,2024,-11.0
+PLW,Palau,SM.POP.NETM,Net migration,2024,-14.0
+VUT,Vanuatu,SM.POP.NETM,Net migration,2024,-43.0
+BRB,Barbados,SM.POP.NETM,Net migration,2024,-70.0
+NRU,Nauru,SM.POP.NETM,Net migration,2024,-121.0
+GRD,Grenada,SM.POP.NETM,Net migration,2024,-192.0
+DMA,Dominica,SM.POP.NETM,Net migration,2024,-200.0
+BTN,Bhutan,SM.POP.NETM,Net migration,2024,-277.0
+TUV,Tuvalu,SM.POP.NETM,Net migration,2024,-280.0
+GRL,Greenland,SM.POP.NETM,Net migration,2024,-284.0
+VIR,Virgin Islands (U.S.),SM.POP.NETM,Net migration,2024,-420.0
+KIR,Kiribati,SM.POP.NETM,Net migration,2024,-471.0
+GUM,Guam,SM.POP.NETM,Net migration,2024,-504.0
+STP,Sao Tome and Principe,SM.POP.NETM,Net migration,2024,-604.0
+PNG,Papua New Guinea,SM.POP.NETM,Net migration,2024,-707.0
+VCT,St. Vincent and the Grenadines,SM.POP.NETM,Net migration,2024,-737.0
+MNP,Northern Mariana Islands,SM.POP.NETM,Net migration,2024,-1097.0
+FSM,"Micronesia, Fed. Sts.",SM.POP.NETM,Net migration,2024,-1104.0
+ASM,American Samoa,SM.POP.NETM,Net migration,2024,-1110.0
+SUR,Suriname,SM.POP.NETM,Net migration,2024,-1166.0
+CPV,Cabo Verde,SM.POP.NETM,Net migration,2024,-1209.0
+PYF,French Polynesia,SM.POP.NETM,Net migration,2024,-1261.0
+URY,Uruguay,SM.POP.NETM,Net migration,2024,-1348.0
+MAF,St. Martin (French part),SM.POP.NETM,Net migration,2024,-1424.0
+MWI,Malawi,SM.POP.NETM,Net migration,2024,-1507.0
+MNE,Montenegro,SM.POP.NETM,Net migration,2024,-1686.0
+GNB,Guinea-Bissau,SM.POP.NETM,Net migration,2024,-1712.0
+MHL,Marshall Islands,SM.POP.NETM,Net migration,2024,-1765.0
+MDG,Madagascar,SM.POP.NETM,Net migration,2024,-1795.0
+COM,Comoros,SM.POP.NETM,Net migration,2024,-2051.0
+TON,Tonga,SM.POP.NETM,Net migration,2024,-2149.0
+MRT,Mauritania,SM.POP.NETM,Net migration,2024,-2185.0
+LVA,Latvia,SM.POP.NETM,Net migration,2024,-2225.0
+MDV,Maldives,SM.POP.NETM,Net migration,2024,-2421.0
+PRK,"Korea, Dem. People's Rep.",SM.POP.NETM,Net migration,2024,-2473.0
+COG,"Congo, Rep.",SM.POP.NETM,Net migration,2024,-2491.0
+TLS,Timor-Leste,SM.POP.NETM,Net migration,2024,-2552.0
+AGO,Angola,SM.POP.NETM,Net migration,2024,-2629.0
+WSM,Samoa,SM.POP.NETM,Net migration,2024,-2754.0
+MUS,Mauritius,SM.POP.NETM,Net migration,2024,-2787.0
+GMB,"Gambia, The",SM.POP.NETM,Net migration,2024,-2989.0
+BOL,Bolivia,SM.POP.NETM,Net migration,2024,-3000.0
+BLR,Belarus,SM.POP.NETM,Net migration,2024,-3119.0
+FJI,Fiji,SM.POP.NETM,Net migration,2024,-3278.0
+NER,Niger,SM.POP.NETM,Net migration,2024,-4041.0
+BIH,Bosnia and Herzegovina,SM.POP.NETM,Net migration,2024,-4497.0
+HND,Honduras,SM.POP.NETM,Net migration,2024,-4821.0
+CSS,Caribbean small states,SM.POP.NETM,Net migration,2024,-4935.0
+LSO,Lesotho,SM.POP.NETM,Net migration,2024,-5107.0
+HRV,Croatia,SM.POP.NETM,Net migration,2024,-5186.0
+GUY,Guyana,SM.POP.NETM,Net migration,2024,-5407.0
+MKD,North Macedonia,SM.POP.NETM,Net migration,2024,-5728.0
+BWA,Botswana,SM.POP.NETM,Net migration,2024,-5778.0
+SWZ,Eswatini,SM.POP.NETM,Net migration,2024,-6754.0
+UZB,Uzbekistan,SM.POP.NETM,Net migration,2024,-7066.0
+KAZ,Kazakhstan,SM.POP.NETM,Net migration,2024,-7368.0
+BEN,Benin,SM.POP.NETM,Net migration,2024,-7725.0
+GTM,Guatemala,SM.POP.NETM,Net migration,2024,-7725.0
+EST,Estonia,SM.POP.NETM,Net migration,2024,-7742.0
+LBR,Liberia,SM.POP.NETM,Net migration,2024,-7779.0
+SRB,Serbia,SM.POP.NETM,Net migration,2024,-8132.0
+NIC,Nicaragua,SM.POP.NETM,Net migration,2024,-8189.0
+OSS,Other small states,SM.POP.NETM,Net migration,2024,-8306.0
+LAO,Lao PDR,SM.POP.NETM,Net migration,2024,-10284.0
+SEN,Senegal,SM.POP.NETM,Net migration,2024,-10307.0
+PSS,Pacific island small states,SM.POP.NETM,Net migration,2024,-10369.0
+YEM,"Yemen, Rep.",SM.POP.NETM,Net migration,2024,-10482.0
+JAM,Jamaica,SM.POP.NETM,Net migration,2024,-10506.0
+AFW,Africa Western and Central,SM.POP.NETM,Net migration,2024,-10854.0
+SLE,Sierra Leone,SM.POP.NETM,Net migration,2024,-11000.0
+GIN,Guinea,SM.POP.NETM,Net migration,2024,-12024.0
+PRY,Paraguay,SM.POP.NETM,Net migration,2024,-12451.0
+ERI,Eritrea,SM.POP.NETM,Net migration,2024,-12696.0
+GHA,Ghana,SM.POP.NETM,Net migration,2024,-13114.0
+CMR,Cameroon,SM.POP.NETM,Net migration,2024,-13892.0
+TGO,Togo,SM.POP.NETM,Net migration,2024,-14014.0
+TUN,Tunisia,SM.POP.NETM,Net migration,2024,-15221.0
+CAF,Central African Republic,SM.POP.NETM,Net migration,2024,-15357.0
+RWA,Rwanda,SM.POP.NETM,Net migration,2024,-15582.0
+LBN,Lebanon,SM.POP.NETM,Net migration,2024,-17267.0
+IRQ,Iraq,SM.POP.NETM,Net migration,2024,-17735.0
+HKG,"Hong Kong SAR, China",SM.POP.NETM,Net migration,2024,-19272.0
+ECU,Ecuador,SM.POP.NETM,Net migration,2024,-19704.0
+KEN,Kenya,SM.POP.NETM,Net migration,2024,-19781.0
+SVK,Slovak Republic,SM.POP.NETM,Net migration,2024,-21027.0
+TJK,Tajikistan,SM.POP.NETM,Net migration,2024,-21236.0
+XKX,Kosovo,SM.POP.NETM,Net migration,2024,-22178.0
+CUB,Cuba,SM.POP.NETM,Net migration,2024,-22356.0
+SLV,El Salvador,SM.POP.NETM,Net migration,2024,-23102.0
+PSE,West Bank and Gaza,SM.POP.NETM,Net migration,2024,-23145.0
+SST,Small states,SM.POP.NETM,Net migration,2024,-23610.0
+ALB,Albania,SM.POP.NETM,Net migration,2024,-24472.0
+BFA,Burkina Faso,SM.POP.NETM,Net migration,2024,-25807.0
+COD,"Congo, Dem. Rep.",SM.POP.NETM,Net migration,2024,-26968.0
+BDI,Burundi,SM.POP.NETM,Net migration,2024,-27074.0
+MDA,Moldova,SM.POP.NETM,Net migration,2024,-27088.0
+LKA,Sri Lanka,SM.POP.NETM,Net migration,2024,-27245.0
+ROU,Romania,SM.POP.NETM,Net migration,2024,-28466.0
+TZA,Tanzania,SM.POP.NETM,Net migration,2024,-29865.0
+ARM,Armenia,SM.POP.NETM,Net migration,2024,-29966.0
+DZA,Algeria,SM.POP.NETM,Net migration,2024,-31240.0
+HTI,Haiti,SM.POP.NETM,Net migration,2024,-31747.0
+KHM,Cambodia,SM.POP.NETM,Net migration,2024,-32960.0
+DOM,Dominican Republic,SM.POP.NETM,Net migration,2024,-34806.0
+NGA,Nigeria,SM.POP.NETM,Net migration,2024,-35202.0
+MMR,Myanmar,SM.POP.NETM,Net migration,2024,-37979.0
+IDN,Indonesia,SM.POP.NETM,Net migration,2024,-38469.0
+MOZ,Mozambique,SM.POP.NETM,Net migration,2024,-38940.0
+AFG,Afghanistan,SM.POP.NETM,Net migration,2024,-44089.0
+MAR,Morocco,SM.POP.NETM,Net migration,2024,-46802.0
+MLI,Mali,SM.POP.NETM,Net migration,2024,-46880.0
+VNM,Viet Nam,SM.POP.NETM,Net migration,2024,-59645.0
+ZWE,Zimbabwe,SM.POP.NETM,Net migration,2024,-60528.0
+CZE,Czechia,SM.POP.NETM,Net migration,2024,-86169.0
+MEX,Mexico,SM.POP.NETM,Net migration,2024,-104581.0
+VEN,"Venezuela, RB",SM.POP.NETM,Net migration,2024,-105297.0
+EAS,East Asia & Pacific,SM.POP.NETM,Net migration,2024,-117023.0
+UGA,Uganda,SM.POP.NETM,Net migration,2024,-117924.0
+GRC,Greece,SM.POP.NETM,Net migration,2024,-122772.0
+JOR,Jordan,SM.POP.NETM,Net migration,2024,-156369.0
+PHL,Philippines,SM.POP.NETM,Net migration,2024,-160373.0
+RUS,Russian Federation,SM.POP.NETM,Net migration,2024,-178042.0
+MEA,"Middle East, North Africa, Afghanistan & Pakistan",SM.POP.NETM,Net migration,2024,-197361.0
+BRA,Brazil,SM.POP.NETM,Net migration,2024,-225510.0
+POL,Poland,SM.POP.NETM,Net migration,2024,-238062.0
+TUR,Turkiye,SM.POP.NETM,Net migration,2024,-275952.0
+LTE,Late-demographic dividend,SM.POP.NETM,Net migration,2024,-296677.0
+CHN,China,SM.POP.NETM,Net migration,2024,-318992.0
+LAC,Latin America & Caribbean (excluding high income),SM.POP.NETM,Net migration,2024,-346807.0
+CEB,Central Europe and the Baltics,SM.POP.NETM,Net migration,2024,-366194.0
+TLA,Latin America & the Caribbean (IDA & IBRD countries),SM.POP.NETM,Net migration,2024,-369248.0
+LCN,Latin America & Caribbean,SM.POP.NETM,Net migration,2024,-378373.0
+NPL,Nepal,SM.POP.NETM,Net migration,2024,-401282.0
+BGD,Bangladesh,SM.POP.NETM,Net migration,2024,-473362.0
+TEA,East Asia & Pacific (IDA & IBRD countries),SM.POP.NETM,Net migration,2024,-474156.0
+EAP,East Asia & Pacific (excluding high income),SM.POP.NETM,Net migration,2024,-476494.0
+SDN,Sudan,SM.POP.NETM,Net migration,2024,-544257.0
+IND,India,SM.POP.NETM,Net migration,2024,-630830.0
+AFE,Africa Eastern and Southern,SM.POP.NETM,Net migration,2024,-670014.0
+SSF,Sub-Saharan Africa,SM.POP.NETM,Net migration,2024,-680868.0
+TSS,Sub-Saharan Africa (IDA & IBRD countries),SM.POP.NETM,Net migration,2024,-680868.0
+SSA,Sub-Saharan Africa (excluding high income),SM.POP.NETM,Net migration,2024,-712684.0
+IBD,IBRD only,SM.POP.NETM,Net migration,2024,-791929.0
+HPC,Heavily indebted poor countries (HIPC),SM.POP.NETM,Net migration,2024,-831646.0
+PRE,Pre-demographic dividend,SM.POP.NETM,Net migration,2024,-837885.0
+TMN,"Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",SM.POP.NETM,Net migration,2024,-876407.0
+MNA,"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",SM.POP.NETM,Net migration,2024,-899552.0
+IDX,IDA only,SM.POP.NETM,Net migration,2024,-1306368.0
+PAK,Pakistan,SM.POP.NETM,Net migration,2024,-1401173.0
+SAS,South Asia,SM.POP.NETM,Net migration,2024,-1535417.0
+TSA,South Asia (IDA & IBRD),SM.POP.NETM,Net migration,2024,-1535417.0
+IDB,IDA blend,SM.POP.NETM,Net migration,2024,-1548607.0
+LDC,Least developed countries: UN classification,SM.POP.NETM,Net migration,2024,-1748381.0
+IDA,IDA total,SM.POP.NETM,Net migration,2024,-2854975.0
+EAR,Early-demographic dividend,SM.POP.NETM,Net migration,2024,-2919860.0
+MIC,Middle income,SM.POP.NETM,Net migration,2024,-3051931.0
+LMY,Low & middle income,SM.POP.NETM,Net migration,2024,-3232530.0
+IBT,IDA & IBRD total,SM.POP.NETM,Net migration,2024,-3646904.0
+WLD,World,SM.POP.TOTL,"Migrant stock, total",2015,243192681.0
+PST,Post-demographic dividend,SM.POP.TOTL,"Migrant stock, total",2015,132210514.0
+OED,OECD members,SM.POP.TOTL,"Migrant stock, total",2015,128976484.0
+IBT,IDA & IBRD total,SM.POP.TOTL,"Migrant stock, total",2015,87196231.0
+ECS,Europe & Central Asia,SM.POP.TOTL,"Migrant stock, total",2015,85288550.0
+LMY,Low & middle income,SM.POP.TOTL,"Migrant stock, total",2015,84287737.0
+MIC,Middle income,SM.POP.TOTL,"Migrant stock, total",2015,74921389.0
+IBD,IBRD only,SM.POP.TOTL,"Migrant stock, total",2015,62895828.0
+NAC,North America,SM.POP.TOTL,"Migrant stock, total",2015,54481730.0
+EAR,Early-demographic dividend,SM.POP.TOTL,"Migrant stock, total",2015,50581758.0
+USA,United States,SM.POP.TOTL,"Migrant stock, total",2015,46627102.0
+LTE,Late-demographic dividend,SM.POP.TOTL,"Migrant stock, total",2015,46599687.0
+EUU,European Union,SM.POP.TOTL,"Migrant stock, total",2015,45527606.0
+EMU,Euro area,SM.POP.TOTL,"Migrant stock, total",2015,40935248.0
+MEA,"Middle East, North Africa, Afghanistan & Pakistan",SM.POP.TOTL,"Migrant stock, total",2015,38864804.0
+ARB,Arab World,SM.POP.TOTL,"Migrant stock, total",2015,34764700.0
+TEC,Europe & Central Asia (IDA & IBRD countries),SM.POP.TOTL,"Migrant stock, total",2015,29325118.0
+ECA,Europe & Central Asia (excluding high income),SM.POP.TOTL,"Migrant stock, total",2015,28128832.0
+EAS,East Asia & Pacific,SM.POP.TOTL,"Migrant stock, total",2015,25557256.0
+IDA,IDA total,SM.POP.TOTL,"Migrant stock, total",2015,24300403.0
+SSF,Sub-Saharan Africa,SM.POP.TOTL,"Migrant stock, total",2015,18676830.0
+TSS,Sub-Saharan Africa (IDA & IBRD countries),SM.POP.TOTL,"Migrant stock, total",2015,18676830.0
+SSA,Sub-Saharan Africa (excluding high income),SM.POP.TOTL,"Migrant stock, total",2015,18664039.0
+IDX,IDA only,SM.POP.TOTL,"Migrant stock, total",2015,15946814.0
+FCS,Fragile and conflict affected situations,SM.POP.TOTL,"Migrant stock, total",2015,14761958.0
+PRE,Pre-demographic dividend,SM.POP.TOTL,"Migrant stock, total",2015,13348827.0
+DEU,Germany,SM.POP.TOTL,"Migrant stock, total",2015,12005690.0
+HPC,Heavily indebted poor countries (HIPC),SM.POP.TOTL,"Migrant stock, total",2015,11941421.0
+LDC,Least developed countries: UN classification,SM.POP.TOTL,"Migrant stock, total",2015,11940491.0
+RUS,Russian Federation,SM.POP.TOTL,"Migrant stock, total",2015,11643276.0
+MNA,"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",SM.POP.TOTL,"Migrant stock, total",2015,11427673.0
+SAS,South Asia,SM.POP.TOTL,"Migrant stock, total",2015,11377262.0
+TSA,South Asia (IDA & IBRD),SM.POP.TOTL,"Migrant stock, total",2015,11377262.0
+TMN,"Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",SM.POP.TOTL,"Migrant stock, total",2015,11172166.0
+AFE,Africa Eastern and Southern,SM.POP.TOTL,"Migrant stock, total",2015,10406165.0
+SAU,Saudi Arabia,SM.POP.TOTL,"Migrant stock, total",2015,10185945.0
+LCN,Latin America & Caribbean,SM.POP.TOTL,"Migrant stock, total",2015,8946249.0
+GBR,United Kingdom,SM.POP.TOTL,"Migrant stock, total",2015,8543120.0
+EAP,East Asia & Pacific (excluding high income),SM.POP.TOTL,"Migrant stock, total",2015,8353990.0
+TLA,Latin America & the Caribbean (IDA & IBRD countries),SM.POP.TOTL,"Migrant stock, total",2015,8353697.0
+IDB,IDA blend,SM.POP.TOTL,"Migrant stock, total",2015,8353589.0
+TEA,East Asia & Pacific (IDA & IBRD countries),SM.POP.TOTL,"Migrant stock, total",2015,8291158.0
+AFW,Africa Western and Central,SM.POP.TOTL,"Migrant stock, total",2015,8270665.0
+ARE,United Arab Emirates,SM.POP.TOTL,"Migrant stock, total",2015,8095126.0
+CAN,Canada,SM.POP.TOTL,"Migrant stock, total",2015,7835502.0
+FRA,France,SM.POP.TOTL,"Migrant stock, total",2015,7784418.0
+AUS,Australia,SM.POP.TOTL,"Migrant stock, total",2015,6763663.0
+LAC,Latin America & Caribbean (excluding high income),SM.POP.TOTL,"Migrant stock, total",2015,6335941.0
+ESP,Spain,SM.POP.TOTL,"Migrant stock, total",2015,5852953.0
+ITA,Italy,SM.POP.TOTL,"Migrant stock, total",2015,5788875.0
+IND,India,SM.POP.TOTL,"Migrant stock, total",2015,5240960.0
+UKR,Ukraine,SM.POP.TOTL,"Migrant stock, total",2015,4834898.0
+SST,Small states,SM.POP.TOTL,"Migrant stock, total",2015,4583559.0
+OSS,Other small states,SM.POP.TOTL,"Migrant stock, total",2015,4185638.0
+THA,Thailand,SM.POP.TOTL,"Migrant stock, total",2015,3913258.0
+PAK,Pakistan,SM.POP.TOTL,"Migrant stock, total",2015,3628956.0
+KAZ,Kazakhstan,SM.POP.TOTL,"Migrant stock, total",2015,3546778.0
+CEB,Central Europe and the Baltics,SM.POP.TOTL,"Migrant stock, total",2015,3394733.0
+ZAF,South Africa,SM.POP.TOTL,"Migrant stock, total",2015,3142511.0
+JOR,Jordan,SM.POP.TOTL,"Migrant stock, total",2015,3112026.0
+TUR,Turkiye,SM.POP.TOTL,"Migrant stock, total",2015,2964916.0
+KWT,Kuwait,SM.POP.TOTL,"Migrant stock, total",2015,2866136.0
+HKG,"Hong Kong SAR, China",SM.POP.TOTL,"Migrant stock, total",2015,2838665.0
+IRN,"Iran, Islamic Rep.",SM.POP.TOTL,"Migrant stock, total",2015,2726420.0
+SGP,Singapore,SM.POP.TOTL,"Migrant stock, total",2015,2543638.0
+MYS,Malaysia,SM.POP.TOTL,"Migrant stock, total",2015,2514243.0
+CHE,Switzerland,SM.POP.TOTL,"Migrant stock, total",2015,2438702.0
+CIV,Cote d'Ivoire,SM.POP.TOTL,"Migrant stock, total",2015,2175399.0
+ARG,Argentina,SM.POP.TOTL,"Migrant stock, total",2015,2086302.0
+JPN,Japan,SM.POP.TOTL,"Migrant stock, total",2015,2043877.0
+ISR,Israel,SM.POP.TOTL,"Migrant stock, total",2015,2011727.0
+LBN,Lebanon,SM.POP.TOTL,"Migrant stock, total",2015,1997776.0
+NLD,Netherlands,SM.POP.TOTL,"Migrant stock, total",2015,1979486.0
+OMN,Oman,SM.POP.TOTL,"Migrant stock, total",2015,1844978.0
+QAT,Qatar,SM.POP.TOTL,"Migrant stock, total",2015,1687640.0
+SWE,Sweden,SM.POP.TOTL,"Migrant stock, total",2015,1639771.0
+AUT,Austria,SM.POP.TOTL,"Migrant stock, total",2015,1492374.0
+BGD,Bangladesh,SM.POP.TOTL,"Migrant stock, total",2015,1422805.0
+VEN,"Venezuela, RB",SM.POP.TOTL,"Migrant stock, total",2015,1404448.0
+BEL,Belgium,SM.POP.TOTL,"Migrant stock, total",2015,1387940.0
+KOR,"Korea, Rep.",SM.POP.TOTL,"Migrant stock, total",2015,1327324.0
+GRC,Greece,SM.POP.TOTL,"Migrant stock, total",2015,1242514.0
+NGA,Nigeria,SM.POP.TOTL,"Migrant stock, total",2015,1199115.0
+MEX,Mexico,SM.POP.TOTL,"Migrant stock, total",2015,1193155.0
+UZB,Uzbekistan,SM.POP.TOTL,"Migrant stock, total",2015,1170899.0
+KEN,Kenya,SM.POP.TOTL,"Migrant stock, total",2015,1084357.0
+BLR,Belarus,SM.POP.TOTL,"Migrant stock, total",2015,1082905.0
+ETH,Ethiopia,SM.POP.TOTL,"Migrant stock, total",2015,1072949.0
+NZL,New Zealand,SM.POP.TOTL,"Migrant stock, total",2015,1039736.0
+CHN,China,SM.POP.TOTL,"Migrant stock, total",2015,978046.0
+SYR,Syrian Arab Republic,SM.POP.TOTL,"Migrant stock, total",2015,875189.0
+PRT,Portugal,SM.POP.TOTL,"Migrant stock, total",2015,837257.0
+SSD,South Sudan,SM.POP.TOTL,"Migrant stock, total",2015,824122.0
+SRB,Serbia,SM.POP.TOTL,"Migrant stock, total",2015,807441.0
+LBY,Libya,SM.POP.TOTL,"Migrant stock, total",2015,771146.0
+UGA,Uganda,SM.POP.TOTL,"Migrant stock, total",2015,749471.0
+IRL,Ireland,SM.POP.TOTL,"Migrant stock, total",2015,746260.0
+NOR,Norway,SM.POP.TOTL,"Migrant stock, total",2015,741813.0
+BRA,Brazil,SM.POP.TOTL,"Migrant stock, total",2015,713568.0
+BFA,Burkina Faso,SM.POP.TOTL,"Migrant stock, total",2015,704676.0
+BHR,Bahrain,SM.POP.TOTL,"Migrant stock, total",2015,704137.0
+POL,Poland,SM.POP.TOTL,"Migrant stock, total",2015,619403.0
+HRV,Croatia,SM.POP.TOTL,"Migrant stock, total",2015,576883.0
+DNK,Denmark,SM.POP.TOTL,"Migrant stock, total",2015,572520.0
+COD,"Congo, Dem. Rep.",SM.POP.TOTL,"Migrant stock, total",2015,545694.0
+NPL,Nepal,SM.POP.TOTL,"Migrant stock, total",2015,518278.0
+TCD,Chad,SM.POP.TOTL,"Migrant stock, total",2015,516968.0
+SDN,Sudan,SM.POP.TOTL,"Migrant stock, total",2015,503477.0
+EGY,"Egypt, Arab Rep.",SM.POP.TOTL,"Migrant stock, total",2015,491643.0
+CHL,Chile,SM.POP.TOTL,"Migrant stock, total",2015,469436.0
+HUN,Hungary,SM.POP.TOTL,"Migrant stock, total",2015,449632.0
+RWA,Rwanda,SM.POP.TOTL,"Migrant stock, total",2015,441525.0
+CRI,Costa Rica,SM.POP.TOTL,"Migrant stock, total",2015,421697.0
+DOM,Dominican Republic,SM.POP.TOTL,"Migrant stock, total",2015,415564.0
+CZE,Czechia,SM.POP.TOTL,"Migrant stock, total",2015,405093.0
+GHA,Ghana,SM.POP.TOTL,"Migrant stock, total",2015,399471.0
+ZWE,Zimbabwe,SM.POP.TOTL,"Migrant stock, total",2015,398866.0
+COG,"Congo, Rep.",SM.POP.TOTL,"Migrant stock, total",2015,392996.0
+ECU,Ecuador,SM.POP.TOTL,"Migrant stock, total",2015,387513.0
+AFG,Afghanistan,SM.POP.TOTL,"Migrant stock, total",2015,382365.0
+CMR,Cameroon,SM.POP.TOTL,"Migrant stock, total",2015,381984.0
+MLI,Mali,SM.POP.TOTL,"Migrant stock, total",2015,363145.0
+IRQ,Iraq,SM.POP.TOTL,"Migrant stock, total",2015,353881.0
+CSS,Caribbean small states,SM.POP.TOTL,"Migrant stock, total",2015,349562.0
+YEM,"Yemen, Rep.",SM.POP.TOTL,"Migrant stock, total",2015,344131.0
+MAC,"Macao SAR, China",SM.POP.TOTL,"Migrant stock, total",2015,342703.0
+IDN,Indonesia,SM.POP.TOTL,"Migrant stock, total",2015,328846.0
+FIN,Finland,SM.POP.TOTL,"Migrant stock, total",2015,315881.0
+BDI,Burundi,SM.POP.TOTL,"Migrant stock, total",2015,286810.0
+TGO,Togo,SM.POP.TOTL,"Migrant stock, total",2015,276844.0
+TJK,Tajikistan,SM.POP.TOTL,"Migrant stock, total",2015,275059.0
+PRI,Puerto Rico (US),SM.POP.TOTL,"Migrant stock, total",2015,274972.0
+GAB,Gabon,SM.POP.TOTL,"Migrant stock, total",2015,268384.0
+AZE,Azerbaijan,SM.POP.TOTL,"Migrant stock, total",2015,264241.0
+SEN,Senegal,SM.POP.TOTL,"Migrant stock, total",2015,263242.0
+LVA,Latvia,SM.POP.TOTL,"Migrant stock, total",2015,263126.0
+TZA,Tanzania,SM.POP.TOTL,"Migrant stock, total",2015,261222.0
+PSE,West Bank and Gaza,SM.POP.TOTL,"Migrant stock, total",2015,255507.0
+LUX,Luxembourg,SM.POP.TOTL,"Migrant stock, total",2015,249325.0
+BEN,Benin,SM.POP.TOTL,"Migrant stock, total",2015,245399.0
+DZA,Algeria,SM.POP.TOTL,"Migrant stock, total",2015,242391.0
+SVN,Slovenia,SM.POP.TOTL,"Migrant stock, total",2015,235966.0
+GIN,Guinea,SM.POP.TOTL,"Migrant stock, total",2015,228413.0
+ROU,Romania,SM.POP.TOTL,"Migrant stock, total",2015,226943.0
+MOZ,Mozambique,SM.POP.TOTL,"Migrant stock, total",2015,222928.0
+MWI,Malawi,SM.POP.TOTL,"Migrant stock, total",2015,215158.0
+PHL,Philippines,SM.POP.TOTL,"Migrant stock, total",2015,211862.0
+KGZ,Kyrgyz Republic,SM.POP.TOTL,"Migrant stock, total",2015,204382.0
+EST,Estonia,SM.POP.TOTL,"Migrant stock, total",2015,202348.0
+TKM,Turkmenistan,SM.POP.TOTL,"Migrant stock, total",2015,196386.0
+CYP,Cyprus,SM.POP.TOTL,"Migrant stock, total",2015,196167.0
+GMB,"Gambia, The",SM.POP.TOTL,"Migrant stock, total",2015,192540.0
+ARM,Armenia,SM.POP.TOTL,"Migrant stock, total",2015,191199.0
+NER,Niger,SM.POP.TOTL,"Migrant stock, total",2015,189255.0
+PAN,Panama,SM.POP.TOTL,"Migrant stock, total",2015,184710.0
+SVK,Slovak Republic,SM.POP.TOTL,"Migrant stock, total",2015,177190.0
+GEO,Georgia,SM.POP.TOTL,"Migrant stock, total",2015,168802.0
+BWA,Botswana,SM.POP.TOTL,"Migrant stock, total",2015,160644.0
+PRY,Paraguay,SM.POP.TOTL,"Migrant stock, total",2015,156462.0
+BOL,Bolivia,SM.POP.TOTL,"Migrant stock, total",2015,142989.0
+MDA,Moldova,SM.POP.TOTL,"Migrant stock, total",2015,142904.0
+MRT,Mauritania,SM.POP.TOTL,"Migrant stock, total",2015,138162.0
+LTU,Lithuania,SM.POP.TOTL,"Migrant stock, total",2015,136036.0
+COL,Colombia,SM.POP.TOTL,"Migrant stock, total",2015,133134.0
+MKD,North Macedonia,SM.POP.TOTL,"Migrant stock, total",2015,130730.0
+ZMB,Zambia,SM.POP.TOTL,"Migrant stock, total",2015,127915.0
+LBR,Liberia,SM.POP.TOTL,"Migrant stock, total",2015,113779.0
+DJI,Djibouti,SM.POP.TOTL,"Migrant stock, total",2015,112351.0
+AGO,Angola,SM.POP.TOTL,"Migrant stock, total",2015,106845.0
+BRN,Brunei Darussalam,SM.POP.TOTL,"Migrant stock, total",2015,102733.0
+BGR,Bulgaria,SM.POP.TOTL,"Migrant stock, total",2015,102113.0
+MDV,Maldives,SM.POP.TOTL,"Migrant stock, total",2015,94086.0
+NAM,Namibia,SM.POP.TOTL,"Migrant stock, total",2015,93888.0
+SLE,Sierra Leone,SM.POP.TOTL,"Migrant stock, total",2015,91213.0
+PER,Peru,SM.POP.TOTL,"Migrant stock, total",2015,90881.0
+MAR,Morocco,SM.POP.TOTL,"Migrant stock, total",2015,88511.0
+MNE,Montenegro,SM.POP.TOTL,"Migrant stock, total",2015,82541.0
+CHI,Channel Islands,SM.POP.TOTL,"Migrant stock, total",2015,82307.0
+CAF,Central African Republic,SM.POP.TOTL,"Migrant stock, total",2015,81598.0
+GTM,Guatemala,SM.POP.TOTL,"Migrant stock, total",2015,76352.0
+GUM,Guam,SM.POP.TOTL,"Migrant stock, total",2015,76089.0
+KHM,Cambodia,SM.POP.TOTL,"Migrant stock, total",2015,73963.0
+MMR,Myanmar,SM.POP.TOTL,"Migrant stock, total",2015,73308.0
+VNM,Viet Nam,SM.POP.TOTL,"Migrant stock, total",2015,72793.0
+URY,Uruguay,SM.POP.TOTL,"Migrant stock, total",2015,71799.0
+NCL,New Caledonia,SM.POP.TOTL,"Migrant stock, total",2015,64290.0
+BHS,"Bahamas, The",SM.POP.TOTL,"Migrant stock, total",2015,59306.0
+ALB,Albania,SM.POP.TOTL,"Migrant stock, total",2015,57616.0
+VIR,Virgin Islands (U.S.),SM.POP.TOTL,"Migrant stock, total",2015,56721.0
+TUN,Tunisia,SM.POP.TOTL,"Migrant stock, total",2015,56701.0
+BLZ,Belize,SM.POP.TOTL,"Migrant stock, total",2015,53860.0
+BTN,Bhutan,SM.POP.TOTL,"Migrant stock, total",2015,51106.0
+TTO,Trinidad and Tobago,SM.POP.TOTL,"Migrant stock, total",2015,49883.0
+PRK,"Korea, Dem. People's Rep.",SM.POP.TOTL,"Migrant stock, total",2015,48458.0
+PSS,Pacific island small states,SM.POP.TOTL,"Migrant stock, total",2015,48359.0
+SUR,Suriname,SM.POP.TOTL,"Migrant stock, total",2015,46836.0
+IMN,Isle of Man,SM.POP.TOTL,"Migrant stock, total",2015,45221.0
+AND,Andorra,SM.POP.TOTL,"Migrant stock, total",2015,42082.0
+SLV,El Salvador,SM.POP.TOTL,"Migrant stock, total",2015,42045.0
+MLT,Malta,SM.POP.TOTL,"Migrant stock, total",2015,41442.0
+NIC,Nicaragua,SM.POP.TOTL,"Migrant stock, total",2015,40262.0
+HTI,Haiti,SM.POP.TOTL,"Migrant stock, total",2015,39529.0
+LKA,Sri Lanka,SM.POP.TOTL,"Migrant stock, total",2015,38706.0
+CUW,Curacao,SM.POP.TOTL,"Migrant stock, total",2015,37611.0
+ISL,Iceland,SM.POP.TOTL,"Migrant stock, total",2015,37522.0
+ABW,Aruba,SM.POP.TOTL,"Migrant stock, total",2015,36114.0
+BIH,Bosnia and Herzegovina,SM.POP.TOTL,"Migrant stock, total",2015,34803.0
+BRB,Barbados,SM.POP.TOTL,"Migrant stock, total",2015,34475.0
+MDG,Madagascar,SM.POP.TOTL,"Migrant stock, total",2015,32075.0
+SWZ,Eswatini,SM.POP.TOTL,"Migrant stock, total",2015,31579.0
+PYF,French Polynesia,SM.POP.TOTL,"Migrant stock, total",2015,30058.0
+MUS,Mauritius,SM.POP.TOTL,"Migrant stock, total",2015,28585.0
+ATG,Antigua and Barbuda,SM.POP.TOTL,"Migrant stock, total",2015,28083.0
+HND,Honduras,SM.POP.TOTL,"Migrant stock, total",2015,28070.0
+SXM,Sint Maarten (Dutch part),SM.POP.TOTL,"Migrant stock, total",2015,27295.0
+PNG,Papua New Guinea,SM.POP.TOTL,"Migrant stock, total",2015,25782.0
+SOM,Somalia,SM.POP.TOTL,"Migrant stock, total",2015,25291.0
+CYM,Cayman Islands,SM.POP.TOTL,"Migrant stock, total",2015,23726.0
+LIE,Liechtenstein,SM.POP.TOTL,"Migrant stock, total",2015,23493.0
+ASM,American Samoa,SM.POP.TOTL,"Migrant stock, total",2015,23216.0
+JAM,Jamaica,SM.POP.TOTL,"Migrant stock, total",2015,23167.0
+GNB,Guinea-Bissau,SM.POP.TOTL,"Migrant stock, total",2015,22333.0
+LAO,Lao PDR,SM.POP.TOTL,"Migrant stock, total",2015,22244.0
+MNP,Northern Mariana Islands,SM.POP.TOTL,"Migrant stock, total",2015,21648.0
+MCO,Monaco,SM.POP.TOTL,"Migrant stock, total",2015,21042.0
+BMU,Bermuda,SM.POP.TOTL,"Migrant stock, total",2015,19126.0
+MNG,Mongolia,SM.POP.TOTL,"Migrant stock, total",2015,17620.0
+VGB,British Virgin Islands,SM.POP.TOTL,"Migrant stock, total",2015,17308.0
+ERI,Eritrea,SM.POP.TOTL,"Migrant stock, total",2015,15941.0
+GUY,Guyana,SM.POP.TOTL,"Migrant stock, total",2015,15384.0
+CPV,Cabo Verde,SM.POP.TOTL,"Migrant stock, total",2015,14924.0
+FJI,Fiji,SM.POP.TOTL,"Migrant stock, total",2015,13751.0
+CUB,Cuba,SM.POP.TOTL,"Migrant stock, total",2015,13336.0
+SYC,Seychelles,SM.POP.TOTL,"Migrant stock, total",2015,12791.0
+LCA,St. Lucia,SM.POP.TOTL,"Migrant stock, total",2015,12771.0
+COM,Comoros,SM.POP.TOTL,"Migrant stock, total",2015,12555.0
+TCA,Turks and Caicos Islands,SM.POP.TOTL,"Migrant stock, total",2015,11688.0
+GIB,Gibraltar,SM.POP.TOTL,"Migrant stock, total",2015,11065.0
+TLS,Timor-Leste,SM.POP.TOTL,"Migrant stock, total",2015,10834.0
+GNQ,Equatorial Guinea,SM.POP.TOTL,"Migrant stock, total",2015,10825.0
+KNA,St. Kitts and Nevis,SM.POP.TOTL,"Migrant stock, total",2015,7443.0
+GRD,Grenada,SM.POP.TOTL,"Migrant stock, total",2015,7057.0
+DMA,Dominica,SM.POP.TOTL,"Migrant stock, total",2015,6720.0
+LSO,Lesotho,SM.POP.TOTL,"Migrant stock, total",2015,6572.0
+GRL,Greenland,SM.POP.TOTL,"Migrant stock, total",2015,6009.0
+TON,Tonga,SM.POP.TOTL,"Migrant stock, total",2015,5731.0
+PLW,Palau,SM.POP.TOTL,"Migrant stock, total",2015,5664.0
+FRO,Faroe Islands,SM.POP.TOTL,"Migrant stock, total",2015,5517.0
+WSM,Samoa,SM.POP.TOTL,"Migrant stock, total",2015,4929.0
+SMR,San Marino,SM.POP.TOTL,"Migrant stock, total",2015,4717.0
+VCT,St. Vincent and the Grenadines,SM.POP.TOTL,"Migrant stock, total",2015,4577.0
+MHL,Marshall Islands,SM.POP.TOTL,"Migrant stock, total",2015,3284.0
+VUT,Vanuatu,SM.POP.TOTL,"Migrant stock, total",2015,3187.0
+NRU,Nauru,SM.POP.TOTL,"Migrant stock, total",2015,3178.0
+KIR,Kiribati,SM.POP.TOTL,"Migrant stock, total",2015,3153.0
+FSM,"Micronesia, Fed. Sts.",SM.POP.TOTL,"Migrant stock, total",2015,2756.0
+SLB,Solomon Islands,SM.POP.TOTL,"Migrant stock, total",2015,2585.0
+STP,Sao Tome and Principe,SM.POP.TOTL,"Migrant stock, total",2015,2394.0
+TUV,Tuvalu,SM.POP.TOTL,"Migrant stock, total",2015,141.0
+ARE,United Arab Emirates,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,88.4040483728066
+QAT,Qatar,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,75.4976278935561
+KWT,Kuwait,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,73.6395507326993
+SXM,Sint Maarten (Dutch part),SM.POP.TOTL.ZS,"Migrant stock, % population",2015,70.4477997160924
+LIE,Liechtenstein,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,62.5962537635555
+AND,Andorra,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,59.713649198984
+MAC,"Macao SAR, China",SM.POP.TOTL.ZS,"Migrant stock, % population",2015,58.321902771585
+VGB,British Virgin Islands,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,57.4692034399177
+MCO,Monaco,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,55.7684662479129
+VIR,Virgin Islands (U.S.),SM.POP.TOTL.ZS,"Migrant stock, % population",2015,53.3638784092727
+IMN,Isle of Man,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,51.516290726817
+BHR,Bahrain,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,51.12678500505
+CHI,Channel Islands,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,50.2816264692227
+SGP,Singapore,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,45.3917919104027
+GUM,Guam,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,44.7885334196663
+LUX,Luxembourg,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,43.9641339422687
+ASM,American Samoa,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,41.8020094349815
+OMN,Oman,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,41.085873617455
+JOR,Jordan,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,40.9771116038916
+CYM,Cayman Islands,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,39.5650941351076
+MNP,Northern Mariana Islands,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,39.3099691301979
+HKG,"Hong Kong SAR, China",SM.POP.TOTL.ZS,"Migrant stock, % population",2015,38.9499399216491
+ABW,Aruba,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,34.7621018587146
+GIB,Gibraltar,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,34.3452214669274
+LBN,Lebanon,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,34.1456803007755
+TCA,Turks and Caicos Islands,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,34.0371006727045
+SAU,Saudi Arabia,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,32.2949424946542
+NRU,Nauru,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,31.089806300137
+BMU,Bermuda,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,30.8463970066447
+ATG,Antigua and Barbuda,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,30.5855061099131
+CHE,Switzerland,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,29.3866855419963
+AUS,Australia,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,28.2184096915625
+PLW,Palau,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,26.6027899112301
+MDV,Maldives,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,25.8721817536855
+ISR,Israel,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,24.9469000386407
+NCL,New Caledonia,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,24.4339041798737
+BRN,Brunei Darussalam,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,24.2759719084662
+CUW,Curacao,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,23.925115932902
+NZL,New Zealand,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,22.95970035283
+CAN,Canada,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,21.801663648343
+KAZ,Kazakhstan,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,20.1233050855632
+AUT,Austria,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,17.465726250517
+CYP,Cyprus,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,16.834034154295
+SWE,Sweden,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,16.7675587503806
+IRL,Ireland,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,15.9169365666588
+GAB,Gabon,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,15.5558595298651
+EST,Estonia,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,15.4163092221449
+BHS,"Bahamas, The",SM.POP.TOTL.ZS,"Migrant stock, % population",2015,15.2843030882508
+NAC,North America,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,15.2235571756152
+BLZ,Belize,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,14.990801225761
+DEU,Germany,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,14.8790512953233
+SMR,San Marino,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,14.8422013152513
+USA,United States,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,14.4906535240608
+NOR,Norway,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,14.2356111639164
+HRV,Croatia,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,13.6047139871854
+KNA,St. Kitts and Nevis,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,13.3934355430792
+LVA,Latvia,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,13.3532402640341
+SYC,Seychelles,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,13.2589068217392
+GBR,United Kingdom,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,13.200978246274
+MNE,Montenegro,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,13.1900776789324
+ESP,Spain,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,12.6902371918259
+DJI,Djibouti,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,12.6541204084874
+BEL,Belgium,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,12.2835331942319
+LBY,Libya,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,12.2824498704933
+EMU,Euro area,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,12.2402149050459
+BRB,Barbados,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,12.1299016589554
+PST,Post-demographic dividend,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,12.0949334351342
+FRA,France,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,12.0884793768866
+NLD,Netherlands,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,11.6956827411211
+FRO,Faroe Islands,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,11.4462955662981
+SVN,Slovenia,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,11.4129640933173
+BLR,Belarus,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,11.4040105621143
+ISL,Iceland,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,11.3901495029218
+GRC,Greece,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,11.3423773738507
+UKR,Ukraine,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,10.7864611551484
+GRL,Greenland,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,10.6948350122806
+PYF,French Polynesia,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,10.6300660621578
+EUU,European Union,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,10.3685476570991
+DNK,Denmark,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,10.0989913532723
+MLT,Malta,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,9.8984880693625
+OED,OECD members,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,9.72225034043681
+ITA,Italy,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,9.6807677420957
+GMB,"Gambia, The",SM.POP.TOTL.ZS,"Migrant stock, % population",2015,9.67088648285922
+CIV,Cote d'Ivoire,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,9.58259865535208
+ECS,Europe & Central Asia,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,9.48520585008576
+DMA,Dominica,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,9.24600990643918
+OSS,Other small states,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,9.18598356504522
+SRB,Serbia,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,9.12262208400769
+CRI,Costa Rica,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,8.77100991087492
+SUR,Suriname,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,8.62581150145034
+COG,"Congo, Rep.",SM.POP.TOTL.ZS,"Migrant stock, % population",2015,8.50579936930912
+ARB,Arab World,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,8.46859404730774
+MYS,Malaysia,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,8.28934891611083
+RUS,Russian Federation,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,8.11621785991527
+PRT,Portugal,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,8.0895935893659
+SST,Small states,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,7.8488698144053
+CSS,Caribbean small states,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,7.54090934527145
+PRI,Puerto Rico (US),SM.POP.TOTL.ZS,"Migrant stock, % population",2015,7.46549639203331
+BWA,Botswana,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,7.10033436685768
+LCA,St. Lucia,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,6.90328055827329
+ECA,Europe & Central Asia (excluding high income),SM.POP.TOTL.ZS,"Migrant stock, % population",2015,6.7824672058448
+SSD,South Sudan,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,6.67856203968099
+GRD,Grenada,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,6.60613152351978
+BTN,Bhutan,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,6.59576939457687
+TEC,Europe & Central Asia (IDA & IBRD countries),SM.POP.TOTL.ZS,"Migrant stock, % population",2015,6.50767657550548
+ARM,Armenia,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,6.33589288838696
+MKD,North Macedonia,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,6.28977417338761
+MEA,"Middle East, North Africa, Afghanistan & Pakistan",SM.POP.TOTL.ZS,"Migrant stock, % population",2015,6.28194827753063
+MHL,Marshall Islands,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,6.19704489272168
+ZAF,South Africa,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,5.76709044891315
+THA,Thailand,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,5.75823265195895
+FIN,Finland,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,5.73968325726902
+PSE,West Bank and Gaza,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,5.4730397522441
+TON,Tonga,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,5.39794668927192
+ARG,Argentina,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,4.80529233472193
+SYR,Syrian Arab Republic,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,4.73013438841734
+LTU,Lithuania,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,4.72608962255138
+PAN,Panama,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,4.70102752739085
+HUN,Hungary,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,4.56246525249104
+VEN,"Venezuela, RB",SM.POP.TOTL.ZS,"Migrant stock, % population",2015,4.51473657184212
+GEO,Georgia,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,4.22024835167253
+VCT,St. Vincent and the Grenadines,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,4.18135974128008
+DOM,Dominican Republic,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,3.94707985294239
+UZB,Uzbekistan,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,3.91690323992971
+BFA,Burkina Faso,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,3.89203985292924
+CZE,Czechia,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,3.84222568016916
+NAM,Namibia,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,3.81840143482876
+RWA,Rwanda,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,3.80308098441419
+TGO,Togo,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,3.79000676014412
+TUR,Turkiye,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,3.76900110251173
+TCD,Chad,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,3.68277137079953
+TTO,Trinidad and Tobago,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,3.66763032980219
+TKM,Turkmenistan,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,3.65471158287463
+MDA,Moldova,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,3.51210659793059
+IRN,"Iran, Islamic Rep.",SM.POP.TOTL.ZS,"Migrant stock, % population",2015,3.44639753479213
+KGZ,Kyrgyz Republic,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,3.44079642260338
+MRT,Mauritania,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,3.39667673329787
+WLD,World,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,3.30843122274193
+CEB,Central Europe and the Baltics,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,3.27629718054111
+SVK,Slovak Republic,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,3.26541789940692
+TJK,Tajikistan,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,3.24291089626031
+CPV,Cabo Verde,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,2.86723201832078
+KIR,Kiribati,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,2.80458625014454
+MNA,"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",SM.POP.TOTL.ZS,"Migrant stock, % population",2015,2.72522694013286
+AZE,Azerbaijan,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,2.70906158396255
+TMN,"Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",SM.POP.TOTL.ZS,"Migrant stock, % population",2015,2.70663442368882
+KOR,"Korea, Rep.",SM.POP.TOTL.ZS,"Migrant stock, % population",2015,2.63915935436429
+FSM,"Micronesia, Fed. Sts.",SM.POP.TOTL.ZS,"Migrant stock, % population",2015,2.63833046142064
+CHL,Chile,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,2.61551321666127
+BDI,Burundi,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,2.56563222872762
+ZWE,Zimbabwe,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,2.55638252510727
+WSM,Samoa,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,2.55087254435175
+LBR,Liberia,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,2.52649198234771
+SWZ,Eswatini,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,2.45374795061268
+ECU,Ecuador,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,2.40029910130242
+PRY,Paraguay,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,2.35666668624757
+KEN,Kenya,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,2.35472288542212
+BEN,Benin,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,2.25554096484421
+MUS,Mauritius,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,2.24510921983142
+FCS,Fragile and conflict affected situations,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,2.21411084880984
+AFW,Africa Western and Central,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,2.09798884549423
+URY,Uruguay,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,2.09231674852946
+MLI,Mali,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,2.06335973795908
+LTE,Late-demographic dividend,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,2.05276596057323
+IDB,IDA blend,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,2.03920130804556
+GUY,Guyana,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,2.00551438236962
+ALB,Albania,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,1.98903641031678
+PSS,Pacific island small states,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,1.98392959105155
+SSA,Sub-Saharan Africa (excluding high income),SM.POP.TOTL.ZS,"Migrant stock, % population",2015,1.97140507513622
+PAK,Pakistan,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,1.92084606074688
+UGA,Uganda,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,1.92012616805897
+SSF,Sub-Saharan Africa,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,1.88180682340762
+TSS,Sub-Saharan Africa (IDA & IBRD countries),SM.POP.TOTL.ZS,"Migrant stock, % population",2015,1.88180682340762
+NPL,Nepal,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,1.81764555283951
+GIN,Guinea,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,1.81156655898875
+SEN,Senegal,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,1.73995141736156
+AFE,Africa Eastern and Southern,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,1.73215604400024
+HPC,Heavily indebted poor countries (HIPC),SM.POP.TOTL.ZS,"Migrant stock, % population",2015,1.68886446647195
+CAF,Central African Republic,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,1.6651721924121
+CMR,Cameroon,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,1.63631370372888
+EAR,Early-demographic dividend,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,1.62942132082932
+JPN,Japan,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,1.61477505702794
+POL,Poland,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,1.60418083655994
+IDA,IDA total,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,1.59770770613948
+COM,Comoros,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,1.59231629704974
+PRE,Pre-demographic dividend,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,1.58272283745265
+FJI,Fiji,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,1.54134137387981
+GHA,Ghana,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,1.45739715218881
+IBT,IDA & IBRD total,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,1.43347369422556
+BGR,Bulgaria,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,1.428196392424
+LCN,Latin America & Caribbean,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,1.42735762126122
+TUV,Tuvalu,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,1.42194433239209
+SLE,Sierra Leone,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,1.41345729487955
+IBD,IBRD only,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,1.3773131486225
+TLA,Latin America & the Caribbean (IDA & IBRD countries),SM.POP.TOTL.ZS,"Migrant stock, % population",2015,1.37310093876597
+IDX,IDA only,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,1.35505697970982
+BOL,Bolivia,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,1.33326744185504
+YEM,"Yemen, Rep.",SM.POP.TOTL.ZS,"Migrant stock, % population",2015,1.28252922839207
+GNQ,Equatorial Guinea,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,1.28097413201429
+STP,Sao Tome and Principe,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,1.25772285966461
+SDN,Sudan,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,1.2513445422805
+MWI,Malawi,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,1.2498117945782
+LDC,Least developed countries: UN classification,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,1.24887783487868
+LMY,Low & middle income,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,1.23330210282503
+GNB,Guinea-Bissau,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,1.21090371816247
+VUT,Vanuatu,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,1.20422290404002
+MIC,Middle income,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,1.19295802975229
+AFG,Afghanistan,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,1.17554692684705
+ROU,Romania,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,1.16313480315329
+EAS,East Asia & Pacific,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,1.13310340522334
+ETH,Ethiopia,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,1.07952601222951
+LAC,Latin America & Caribbean (excluding high income),SM.POP.TOTL.ZS,"Migrant stock, % population",2015,1.02172140036218
+IRQ,Iraq,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,0.9715760982742
+NER,Niger,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,0.951072208218253
+MEX,Mexico,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,0.939364727416811
+TLS,Timor-Leste,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,0.914442948601621
+BIH,Bosnia and Herzegovina,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,0.913364839954483
+BGD,Bangladesh,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,0.883753735396142
+JAM,Jamaica,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,0.829367046917036
+MOZ,Mozambique,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,0.796801385438194
+ZMB,Zambia,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,0.789025650319302
+COD,"Congo, Dem. Rep.",SM.POP.TOTL.ZS,"Migrant stock, % population",2015,0.70624628058302
+SLV,El Salvador,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,0.686271613393632
+NIC,Nicaragua,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,0.66198270577991
+NGA,Nigeria,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,0.658124087599013
+DZA,Algeria,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,0.611072022730303
+MNG,Mongolia,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,0.595444478012824
+EGY,"Egypt, Arab Rep.",SM.POP.TOTL.ZS,"Migrant stock, % population",2015,0.537267286680377
+TUN,Tunisia,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,0.503849717164906
+TZA,Tanzania,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,0.488535530485828
+SAS,South Asia,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,0.482766540964756
+TSA,South Asia (IDA & IBRD),SM.POP.TOTL.ZS,"Migrant stock, % population",2015,0.482766540964756
+KHM,Cambodia,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,0.474794450779274
+GTM,Guatemala,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,0.46718767180629
+SLB,Solomon Islands,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,0.442947201036342
+AGO,Angola,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,0.427004679966497
+TEA,East Asia & Pacific (IDA & IBRD countries),SM.POP.TOTL.ZS,"Migrant stock, % population",2015,0.420232915335251
+EAP,East Asia & Pacific (excluding high income),SM.POP.TOTL.ZS,"Migrant stock, % population",2015,0.417012124789734
+IND,India,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,0.399752709149401
+HTI,Haiti,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,0.369048200333356
+HND,Honduras,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,0.3476135161844
+BRA,Brazil,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,0.34331320024167
+PNG,Papua New Guinea,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,0.338376608624312
+ERI,Eritrea,SM.POP.TOTL.ZS,"Migrant stock, % population",2010,0.334267017850319
+LAO,Lao PDR,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,0.327020358502169
+LSO,Lesotho,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,0.307818842147762
+PER,Peru,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,0.289645140800474
+COL,Colombia,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,0.276047226979187
+MAR,Morocco,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,0.257467738138459
+SOM,Somalia,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,0.234455883618068
+PHL,Philippines,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,0.210390539089137
+PRK,"Korea, Dem. People's Rep.",SM.POP.TOTL.ZS,"Migrant stock, % population",2015,0.192635219027453
+LKA,Sri Lanka,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,0.186850018416597
+MMR,Myanmar,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,0.13601460292319
+MDG,Madagascar,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,0.132347777361949
+IDN,Indonesia,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,0.127675543243526
+CUB,Cuba,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,0.117089665081063
+VNM,Viet Nam,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,0.07789713082094
+CHN,China,SM.POP.TOTL.ZS,"Migrant stock, % population",2015,0.071076396299372
