@@ -1,0 +1,135 @@
+
+--- 2025-09-25 18:08:21.857244Z ---
+Traceback (most recent call last):
+  File "C:\PythonProjects\emStreamlit\Geografia\meteo.py", line 95, in _safe_render
+    fn(*args, **kwargs)
+    ~~^^^^^^^^^^^^^^^^^
+  File "C:\PythonProjects\emStreamlit\Geografia\views\forecast.py", line 380, in render_forecast_tab
+    st.download_button("💾 Horário — Temperatura (CSV)", data=csv_hourly_temp,
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                       file_name="forecast_hourly_temperature.csv", mime="text/csv",
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                       key="dl_csv_hourly_temp", width="stretch")
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\messias\AppData\Local\Programs\Python\Python313\Lib\site-packages\streamlit\runtime\metrics_util.py", line 410, in wrapped_func
+    result = non_optional_func(*args, **kwargs)
+TypeError: ButtonMixin.download_button() got an unexpected keyword argument 'width'
+
+
+--- 2025-09-25 18:08:27.066127Z ---
+Traceback (most recent call last):
+  File "C:\PythonProjects\emStreamlit\Geografia\meteo.py", line 95, in _safe_render
+    fn(*args, **kwargs)
+    ~~^^^^^^^^^^^^^^^^^
+  File "C:\PythonProjects\emStreamlit\Geografia\views\seismicity.py", line 88, in render_seismicity_tab
+    st.dataframe(df[show_cols], width="stretch", hide_index=True)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\messias\AppData\Local\Programs\Python\Python313\Lib\site-packages\streamlit\runtime\metrics_util.py", line 410, in wrapped_func
+    result = non_optional_func(*args, **kwargs)
+  File "C:\Users\messias\AppData\Local\Programs\Python\Python313\Lib\site-packages\streamlit\elements\arrow.py", line 556, in dataframe
+    proto.width = width
+    ^^^^^^^^^^^
+TypeError: 'str' object cannot be interpreted as an integer
+
+
+--- 2025-09-25 18:12:09.578441Z ---
+Traceback (most recent call last):
+  File "C:\PythonProjects\emStreamlit\Geografia\meteo.py", line 95, in _safe_render
+    fn(*args, **kwargs)
+    ~~^^^^^^^^^^^^^^^^^
+  File "C:\PythonProjects\emStreamlit\Geografia\views\forecast.py", line 380, in render_forecast_tab
+    st.download_button("💾 Horário — Temperatura (CSV)", data=csv_hourly_temp,
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                       file_name="forecast_hourly_temperature.csv", mime="text/csv",
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                       key="dl_csv_hourly_temp", width="stretch")
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\messias\AppData\Local\Programs\Python\Python313\Lib\site-packages\streamlit\runtime\metrics_util.py", line 410, in wrapped_func
+    result = non_optional_func(*args, **kwargs)
+TypeError: ButtonMixin.download_button() got an unexpected keyword argument 'width'
+
+
+--- 2025-09-25 18:12:10.980349Z ---
+Traceback (most recent call last):
+  File "C:\PythonProjects\emStreamlit\Geografia\meteo.py", line 95, in _safe_render
+    fn(*args, **kwargs)
+    ~~^^^^^^^^^^^^^^^^^
+  File "C:\PythonProjects\emStreamlit\Geografia\views\seismicity.py", line 88, in render_seismicity_tab
+    st.dataframe(df[show_cols], width="stretch", hide_index=True)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\messias\AppData\Local\Programs\Python\Python313\Lib\site-packages\streamlit\runtime\metrics_util.py", line 410, in wrapped_func
+    result = non_optional_func(*args, **kwargs)
+  File "C:\Users\messias\AppData\Local\Programs\Python\Python313\Lib\site-packages\streamlit\elements\arrow.py", line 556, in dataframe
+    proto.width = width
+    ^^^^^^^^^^^
+TypeError: 'str' object cannot be interpreted as an integer
+
+
+--- 2025-09-25 18:13:18.663680Z ---
+Traceback (most recent call last):
+  File "C:\PythonProjects\emStreamlit\Geografia\meteo.py", line 95, in _safe_render
+    fn(*args, **kwargs)
+    ~~^^^^^^^^^^^^^^^^^
+  File "C:\PythonProjects\emStreamlit\Geografia\views\forecast.py", line 380, in render_forecast_tab
+    st.download_button("💾 Horário — Temperatura (CSV)", data=csv_hourly_temp,
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                       file_name="forecast_hourly_temperature.csv", mime="text/csv",
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                       key="dl_csv_hourly_temp", width="stretch")
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\messias\AppData\Local\Programs\Python\Python313\Lib\site-packages\streamlit\runtime\metrics_util.py", line 410, in wrapped_func
+    result = non_optional_func(*args, **kwargs)
+TypeError: ButtonMixin.download_button() got an unexpected keyword argument 'width'
+
+
+--- 2025-09-25 18:13:20.167658Z ---
+Traceback (most recent call last):
+  File "C:\PythonProjects\emStreamlit\Geografia\meteo.py", line 95, in _safe_render
+    fn(*args, **kwargs)
+    ~~^^^^^^^^^^^^^^^^^
+  File "C:\PythonProjects\emStreamlit\Geografia\views\seismicity.py", line 88, in render_seismicity_tab
+    st.dataframe(df[show_cols], width="stretch", hide_index=True)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\messias\AppData\Local\Programs\Python\Python313\Lib\site-packages\streamlit\runtime\metrics_util.py", line 410, in wrapped_func
+    result = non_optional_func(*args, **kwargs)
+  File "C:\Users\messias\AppData\Local\Programs\Python\Python313\Lib\site-packages\streamlit\elements\arrow.py", line 556, in dataframe
+    proto.width = width
+    ^^^^^^^^^^^
+TypeError: 'str' object cannot be interpreted as an integer
+
+
+--- 2025-09-25 19:02:41.177181Z ---
+Traceback (most recent call last):
+  File "C:\PythonProjects\emStreamlit\Geografia\meteo.py", line 95, in _safe_render
+    fn(*args, **kwargs)
+    ~~^^^^^^^^^^^^^^^^^
+  File "C:\PythonProjects\emStreamlit\Geografia\views\seismicity.py", line 88, in render_seismicity_tab
+    st.dataframe(df[show_cols], width="stretch", hide_index=True)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\messias\AppData\Local\Programs\Python\Python313\Lib\site-packages\streamlit\runtime\metrics_util.py", line 410, in wrapped_func
+    result = non_optional_func(*args, **kwargs)
+  File "C:\Users\messias\AppData\Local\Programs\Python\Python313\Lib\site-packages\streamlit\elements\arrow.py", line 556, in dataframe
+    proto.width = width
+    ^^^^^^^^^^^
+TypeError: 'str' object cannot be interpreted as an integer
+
+
+--- 2025-09-25 19:45:39.854148Z ---
+Traceback (most recent call last):
+  File "C:\PythonProjects\emStreamlit\Geografia\meteo.py", line 95, in _safe_render
+    fn(*args, **kwargs)
+    ~~^^^^^^^^^^^^^^^^^
+  File "C:\PythonProjects\emStreamlit\Geografia\views\climate_scenarios.py", line 388, in render_climate_tab
+    st.download_button(
+    ~~~~~~~~~~~~~~~~~~^
+        "💾 Download CSV (média e faixa por cenário)",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        key="dl_cmip6_mean_band",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\messias\AppData\Local\Programs\Python\Python313\Lib\site-packages\streamlit\runtime\metrics_util.py", line 410, in wrapped_func
+    result = non_optional_func(*args, **kwargs)
+TypeError: ButtonMixin.download_button() got an unexpected keyword argument 'width'
+

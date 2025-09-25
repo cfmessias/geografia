@@ -46,14 +46,14 @@ def render_temperature_tab(
                 y=[t_last2, t_last2], mode="lines", name="Média últimos 2 anos"
             )
     else:
-        annual = view_df.groupby("year", as_index=False)["t_mean"].mean()
+        annual = view_df.groupby("year", as_index=False, observed=False)["t_mean"].mean()
         fig_t = charts.line(
             annual, x="year", y="t_mean",
             title="Temperatura média anual (média dos 12 meses)",
             x_title="Ano", y_title="°C", markers=True
         )
 
-    st.plotly_chart(fig_t, use_container_width=True)
+    st.plotly_chart(fig_t, width="stretch")
 
     # ---- Métricas (inalterado)
     c1, c2 = st.columns(2)
@@ -126,3 +126,4 @@ def render_temperature_tab(
             mime="text/csv",
             key="dl_csv_temp"          # chave única
         )
+

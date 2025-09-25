@@ -46,14 +46,14 @@ def render_precipitation_tab(
                 y=[p_last2, p_last2], mode="lines", name="Média últimos 2 anos"
             )
     else:
-        annual_p = view_df.groupby("year", as_index=False)["precip"].sum()
+        annual_p = view_df.groupby("year", as_index=False, observed=False)["precip"].sum()
         fig_p = charts.bar(
             annual_p, x="year", y="precip",
             title="Pluviosidade anual (soma dos 12 meses)",
             x_title="Ano", y_title="mm"
         )
 
-    st.plotly_chart(fig_p, use_container_width=True)
+    st.plotly_chart(fig_p, width="stretch")
 
     # --- Métricas (inalterado)
     c3, c4 = st.columns(2)
@@ -129,3 +129,4 @@ def render_precipitation_tab(
             mime="text/csv",
             key="dl_csv_precip"
         )
+

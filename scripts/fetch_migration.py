@@ -108,7 +108,7 @@ def main() -> None:
     latest = (
         ts.dropna(subset=["value"])
           .sort_values(["iso3","indicator","year"])
-          .groupby(["iso3","indicator","indicator_name","country"], as_index=False)
+          .groupby(["iso3","indicator","indicator_name","country"], as_index=False, observed=False)
           .tail(1)
           .sort_values(["indicator","value"], ascending=[True, False])
     )
@@ -117,3 +117,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+

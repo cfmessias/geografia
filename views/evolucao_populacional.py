@@ -47,25 +47,25 @@ df["Continente"] = df["Regiao"].apply(mapear_continente)
 pop_col = "TotalPopulation,asof1January(thousands)"
 df[pop_col] = pd.to_numeric(df[pop_col], errors="coerce")
 # Agrupamento para população
-df_grouped_pop = df.groupby(["Continente", "Year"])[pop_col].sum().reset_index()
+df_grouped_pop = df.groupby(["Continente", "Year"], observed=False)[pop_col].sum().reset_index()
 
 # Substituir vírgula por ponto e depois converter
 densidade= "Population Density, as of 1 July (persons per square km)"
 df[densidade] = df[densidade].astype(str).str.replace(',', '.', regex=False)
 df[densidade] = pd.to_numeric(df[densidade], errors="coerce")
 # Agrupamento para densidade (média faz mais sentido que soma)
-df_grouped_densidade = df.groupby(["Continente", "Year"])[densidade].mean().reset_index()
+df_grouped_densidade = df.groupby(["Continente", "Year"], observed=False)[densidade].mean().reset_index()
 
 
 racio_genero="Population Sex Ratio, as of 1 July (males per 100 females)"
 df[racio_genero] = df[racio_genero].astype(str).str.replace(',', '.', regex=False)
 df[racio_genero] = pd.to_numeric(df[racio_genero], errors="coerce")
-df_grouped_racio_genero = df.groupby(["Continente", "Year"])[racio_genero].mean().reset_index()
+df_grouped_racio_genero = df.groupby(["Continente", "Year"], observed=False)[racio_genero].mean().reset_index()
 
 crescimento_populacional = "PopulationGrowthRate(percentage)"
 df[crescimento_populacional] = df[crescimento_populacional].astype(str).str.replace(',', '.', regex=False)
 df[crescimento_populacional] = pd.to_numeric(df[crescimento_populacional], errors="coerce")
-df_grouped_crescimento_populacional = df.groupby(["Continente", "Year"])[crescimento_populacional].mean().reset_index()
+df_grouped_crescimento_populacional = df.groupby(["Continente", "Year"], observed=False)[crescimento_populacional].mean().reset_index()
 
 # Seus gráficos...
 fig1, ax1 = plt.subplots(figsize=(8, 4.8))  # Tamanho maior
@@ -119,19 +119,19 @@ col1, col2 = st.columns(2, gap="large")  # gap="large" para mais espaço entre c
 
 with col1:
     fig1.tight_layout()  # Ajusta automaticamente o espaçamento
-    st.pyplot(fig1, use_container_width=True)
+    st.pyplot(fig1, width="stretch")
     
 with col2:
     fig2.tight_layout()  # Ajusta automaticamente o espaçamento
-    st.pyplot(fig2, use_container_width=True)
+    st.pyplot(fig2, width="stretch")
 
 # Segunda linha de gráficos
 col3, col4 = st.columns(2, gap="large")
 
 with col3:
     fig3.tight_layout()  # Ajusta automaticamente o espaçamento
-    st.pyplot(fig3, use_container_width=True)
+    st.pyplot(fig3, width="stretch")
     
 with col4:
     fig4.tight_layout()  # Ajusta automaticamente o espaçamento
-    st.pyplot(fig4, use_container_width=True)
+    st.pyplot(fig4, width="stretch")

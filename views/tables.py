@@ -47,4 +47,5 @@ def render_table(
         cells=dict(values=values, align="center", fill_color=fills),
     )])
     fig_tbl.update_layout(margin=dict(l=0, r=0, t=8, b=0), height=height or _auto_height(n_rows))
-    st.plotly_chart(fig_tbl, use_container_width=True, key=key or f"tbl_{uuid.uuid4().hex}")
+    st.plotly_chart(fig_tbl, width="stretch", key=key or f"tbl_{uuid.uuid4().hex}")
+

@@ -50,7 +50,7 @@ def render_seismicity_tab(lat: float, lon: float, start, end):
         bins, labels = _mag_bins(minmag)  # usa a minmag atual para o 1º limite
         dfa["mag_bin"] = pd.cut(dfa["mag"], bins=bins, labels=labels, right=False, include_lowest=True)
 
-        dist = dfa.groupby(["year", "mag_bin"], as_index=False).size().rename(columns={"size": "events"})
+        dist = dfa.groupby(["year", "mag_bin"], as_index=False, observed=False).size().rename(columns={"size": "events"})
 
         # Garantir todas as combinações (anos x bins) para barras vazias = 0
         years = sorted(dfa["year"].unique())
@@ -63,7 +63,7 @@ def render_seismicity_tab(lat: float, lon: float, start, end):
             x_title="Ano", y_title="Eventos"
         )
         fig_stack.update_layout(barmode="stack")
-        st.plotly_chart(fig_stack, use_container_width=True)
+        st.plotly_chart(fig_stack, width="stretch")
 
     # ====== Histograma (contagens) com agregação selecionada ======
     with right:
@@ -80,12 +80,13 @@ def render_seismicity_tab(lat: float, lon: float, start, end):
         fig_hist = charts.hist(dfts, x="mag", nbins=nb,
                                title=f"Histograma de magnitudes — {period_txt}",
                                x_title="Magnitude (Mw)")
-        st.plotly_chart(fig_hist, use_container_width=True)
+        st.plotly_chart(fig_hist, width="stretch")
 
     # ---------------- Tabela + CSV ----------------
     st.subheader("Eventos (tabela)")
     show_cols = ["time_utc","mag","depth_km","distance_km","place","latitude","longitude","id"]
     st.dataframe(df[show_cols], use_container_width=True, hide_index=True)
+
     st.download_button("💾 Download CSV (sismos)",
                        data=df[show_cols].to_csv(index=False),
                        file_name="sismos_usgs.csv", mime="text/csv",
@@ -127,3 +128,4 @@ def _mag_bins(minmag: float):
     # Para o cut: precisamos incluir o topo do penúltimo como início do último bin aberto
     cut_edges = edges + [np.inf]
     return cut_edges, labels
+

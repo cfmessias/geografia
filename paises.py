@@ -56,7 +56,7 @@ def _country_selector(countries_df: pd.DataFrame) -> tuple[str | None, str | Non
         opts = [n for n in names if q.lower() in n.lower()] if q else names
         if not opts:
             st.warning("Nenhum país corresponde ao filtro.")
-            st.form_submit_button("🔎 Abrir", use_container_width=True)  # mantém o layout da form
+            st.form_submit_button("🔎 Abrir")  # mantém o layout da form
             return None, None
 
         idx = opts.index(st.session_state["pais_selected"]) if st.session_state["pais_selected"] in opts else 0
@@ -72,7 +72,7 @@ def _country_selector(countries_df: pd.DataFrame) -> tuple[str | None, str | Non
                 label_visibility="collapsed"  # para alinhar melhor com o botão
             )
         with c2:
-            submitted = st.form_submit_button("🔎 Abrir", use_container_width=True)
+            submitted = st.form_submit_button("🔎 Abrir")
 
     if not submitted:
         return None, None
@@ -440,9 +440,11 @@ def render_paises_tab():
 
     st.markdown("---")
 
-    render_migration_section(iso3)
+    anchor = st.container()
+    with anchor:
+        render_migration_section(iso3)
 
-    # -------- Liderança (apenas Histórico, sem “Atuais”)
+    
     # -------- Histórico de liderança
     with st.expander("Histórico de liderança"):
         cur_df, hist_df = leaders_for_iso3(iso3)
@@ -483,6 +485,7 @@ def render_paises_tab():
             ).drop(columns="__ord")
 
             st.dataframe(show, use_container_width=True, hide_index=True)
+
         else:
             st.caption("—")
 
@@ -518,26 +521,26 @@ def render_paises_tab():
 
                 idx_latest = (
                     c.sort_values(["city", "__year"], ascending=[True, True])
-                    .groupby("city")["__year"].idxmax()
+                    .groupby("city", observed=False)["__year"].idxmax()
                     .dropna()
                     .astype(int)
                 )
                 if idx_latest.empty:
                     idx_latest = (
                         c.sort_values(["city", "__pop"], ascending=[True, True])
-                        .groupby("city")["__pop"].idxmax()
+                        .groupby("city", observed=False)["__pop"].idxmax()
                         .dropna()
                         .astype(int)
                     )
                 if idx_latest.empty:
-                    idx_latest = c.groupby("city").head(1).index
+                    idx_latest = c.groupby("city", observed=False).head(1).index
 
                 latest = c.loc[idx_latest, ["city","is_capital","population","__year"]].rename(
                     columns={"__year":"year"}
                 )
 
                 agg = (
-                    c.groupby("city", as_index=False)
+                    c.groupby("city", as_index=False, observed=False)
                     .agg(admin=("admin", _join_unique), type=("type", _join_unique))
                 )
                 show = latest.merge(agg, on="city", how="left")
@@ -587,7 +590,7 @@ def render_paises_tab():
 
             u = (
                 u.sort_values(["site_qid","year"])
-                .groupby("site_qid", as_index=False)
+                .groupby("site_qid", as_index=False, observed=False)
                 .agg({
                     "site": "first",
                     "type": _agg_types,
@@ -922,7 +925,7 @@ def render_paises_tab():
                 last = int(yy.max())
                 top = (
                     orig[orig["year"]==last]
-                    .groupby("origin", as_index=False)["arrivals"].sum()
+                    .groupby("origin", as_index=False, observed=False)["arrivals"].sum()
                     .sort_values("arrivals", ascending=False)
                     .head(10)
                     .rename(columns={"origin":"Origem (ISO2)","arrivals":"Chegadas"})
@@ -975,3 +978,6 @@ def render_paises_tab():
             "Os números podem divergir de estatísticas nacionais (p.ex., 'hóspedes' e 'dormidas' do Turismo de Portugal), "
             "pois medem universos/metodologias distintas."
         )
+
+
+

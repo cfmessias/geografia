@@ -103,7 +103,7 @@ def render_forecast_tab():
     if isinstance(res, pd.DataFrame) and not res.empty:
         st.caption("Resultados da pesquisa:")
         st.dataframe(res[["place","country","latitude","longitude","timezone"]],
-                     hide_index=True, use_container_width=True)
+                     hide_index=True, width="stretch")
         sel_idx = st.multiselect(
             "Selecionar locais (máx. 5):",
             options=list(res.index),
@@ -168,8 +168,8 @@ def render_forecast_tab():
     if "tavg" in df_all.columns:
         df_all["tmax"] = df_all["tmax"].fillna(df_all["tavg"])
         df_all["tmin"] = df_all["tmin"].fillna(df_all["tavg"])
-    df_all["tmax"] = df_all.groupby(["source","place"], group_keys=False)["tmax"].transform(lambda s: s.ffill().bfill())
-    df_all["tmin"] = df_all.groupby(["source","place"], group_keys=False)["tmin"].transform(lambda s: s.ffill().bfill())
+    df_all["tmax"] = df_all.groupby(["source","place"], group_keys=False, observed=False)["tmax"].transform(lambda s: s.ffill().bfill())
+    df_all["tmin"] = df_all.groupby(["source","place"], group_keys=False, observed=False)["tmin"].transform(lambda s: s.ffill().bfill())
     df_all = df_all.sort_values(["date","place","source"]).reset_index(drop=True)
 
     # ========= gráficos (diário) =========
@@ -184,7 +184,7 @@ def render_forecast_tab():
             height=280,           # ajusta se quiseres para mobile
             label_font_size=12,   # tamanho dos rótulos no fim das linhas
         )
-        st.plotly_chart(fig_max, use_container_width=True)
+        st.plotly_chart(fig_max, width="stretch")
 
     with c2:
         fig_min = charts.line_with_tail_labels(
@@ -193,7 +193,7 @@ def render_forecast_tab():
             height=280,
             label_font_size=12,
         )
-        st.plotly_chart(fig_min, use_container_width=True)
+        st.plotly_chart(fig_min, width="stretch")
 
     with st.expander("💧 Precipitação diária (abrir)", expanded=False):
         st.plotly_chart(
@@ -201,7 +201,7 @@ def render_forecast_tab():
                 dfp, x="date", y="precip", color="source",
                 title="Precipitação prevista", x_title="Data", y_title="mm"
             ),
-            use_container_width=True
+            width="stretch"
         )
 
     # ========= horários (2 em 2 h / 24 h) =========
@@ -269,7 +269,7 @@ def render_forecast_tab():
                 cells=dict(values=cell_vals_T, align="center",line_color="white", line_width=0.3),
             )])
             fig_T.update_layout(margin=dict(l=0, r=0, t=8, b=0), height=140)
-            st.plotly_chart(fig_T, use_container_width=True)
+            st.plotly_chart(fig_T, width="stretch")
 
             # ---------- IPMA: prob. precipitação (%) (ACIMA do mm) ----------
             if "IPMA" in sources:
@@ -296,7 +296,7 @@ def render_forecast_tab():
                     )])
                     fig_ipma.update_layout(margin=dict(l=0, r=0, t=8, b=0), height=220)
                     st.markdown("**Probabilidade de precipitação — IPMA (%)**")
-                    st.plotly_chart(fig_ipma, use_container_width=True)
+                    st.plotly_chart(fig_ipma, width="stretch")
                     # CSV p/ downloads
                     b_ip = io.StringIO(); ipma_prob.to_csv(b_ip, index=False); csv_ipma_prob = b_ip.getvalue()
 
@@ -310,7 +310,7 @@ def render_forecast_tab():
             )])
            
             fig_P.update_layout(margin=dict(l=0, r=0, t=8, b=0), height=140)
-            st.plotly_chart(fig_P, use_container_width=True)
+            st.plotly_chart(fig_P, width="stretch")
 
             # CSVs horários p/ downloads
             b1,b2 = io.StringIO(), io.StringIO()
@@ -372,23 +372,23 @@ def render_forecast_tab():
     )]
     )
     fig_tbl.update_layout(margin=dict(l=0, r=0, t=8, b=0), height=420)
-    st.plotly_chart(fig_tbl, use_container_width=True)
+    st.plotly_chart(fig_tbl, width="stretch")
 
     # ========= downloads =========
     st.markdown("---"); st.subheader("⬇️ Downloads")
     if csv_hourly_temp:
         st.download_button("💾 Horário — Temperatura (CSV)", data=csv_hourly_temp,
                            file_name="forecast_hourly_temperature.csv", mime="text/csv",
-                           key="dl_csv_hourly_temp", use_container_width=True)
+                           key="dl_csv_hourly_temp")
     if csv_hourly_prec:
         st.download_button("💾 Horário — Precipitação (CSV)", data=csv_hourly_prec,
                            file_name="forecast_hourly_precipitation.csv", mime="text/csv",
-                           key="dl_csv_hourly_prec", use_container_width=True)
+                           key="dl_csv_hourly_prec")
     if csv_ipma_prob:
         st.download_button("💾 IPMA — Prob. precipitação horária (%)", data=csv_ipma_prob,
                            file_name="ipma_hourly_precip_probability.csv", mime="text/csv",
-                           key="dl_csv_ipma_prob", use_container_width=True)
+                           key="dl_csv_ipma_prob")
     _buf = io.StringIO(); wide.to_csv(_buf, index=False)
     st.download_button("💾 Diário — Tabela larga (CSV)", data=_buf.getvalue(),
                        file_name="forecast_daily_wide.csv", mime="text/csv",
-                       key="dl_csv_daily_wide", use_container_width=True)
+                       key="dl_csv_daily_wide")

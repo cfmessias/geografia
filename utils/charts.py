@@ -62,7 +62,7 @@ def line_with_tail_labels(
         pass
 
     # rótulo no último ponto de cada série
-    for i, (serie, g) in enumerate(dff.groupby(color)):
+    for i, (serie, g) in enumerate(dff.groupby(color, observed=False)):
         g = g.dropna(subset=[y])
         if g.empty:
             continue
@@ -112,3 +112,4 @@ def set_y_range(fig: Figure, min_val: float, max_val: float) -> Figure:
 
 def add_trend_line(fig: Figure, x: Iterable, y_fit: Iterable, name: str) -> Figure:
     fig.add_scatter(x=list(x), y=list(y_fit), mode="lines", name=name); return fig
+

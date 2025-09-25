@@ -1,19 +1,27 @@
 # services/cmip6.py
 from __future__ import annotations
+from typing import Dict, Tuple, List, Optional
+
 import numpy as np
 import pandas as pd
 import xarray as xr
-import intake_esm
 from intake_esm import esm_datastore
 import streamlit as st
 
+# Catálogo público Pangeo/CMIP6 (Google Cloud)
 _PANGEO_CMIP6_CATALOG = "https://storage.googleapis.com/cmip6/pangeo-cmip6.json"
-_VAR = "tas"  # temperatura 2 m (Kelvin), tabela mensal Amon
 
-@st.cache_data(ttl=24*3600, show_spinner=False)
+# Variável alvo: temperatura do ar a 2 m, mensal (tabela Amon) em Kelvin
+_VAR = "tas"
+
+
+@st.cache_data(ttl=24 * 3600, show_spinner=False)
 def list_model_members() -> pd.DataFrame:
-    """Modelos/membros/grelha com 'tas' mensal disponível (historical + SSPs)."""
-    cat = cat = esm_datastore(_PANGEO_CMIP6_CATALOG)
+    """
+    Modelos/membros/grelha com 'tas' mensal disponível (historical + SSPs).
+    Devolve colunas: source_id, experiment_id, member_id, grid_label
+    """
+    cat = esm_datastore(_PANGEO_CMIP6_CATALOG)
     df = cat.df
     keep_exps = ["historical", "ssp126", "ssp245", "ssp370", "ssp585"]
     sel = df[
@@ -23,10 +31,19 @@ def list_model_members() -> pd.DataFrame:
     ][["source_id", "experiment_id", "member_id", "grid_label"]].drop_duplicates()
     return sel.sort_values(["source_id", "experiment_id", "member_id"])
 
+
+def _coord_name(ds: xr.Dataset, names: List[str]) -> Optional[str]:
+    """Primeiro nome existente em `names` que exista no dataset."""
+    for n in names:
+        if n in ds.coords:
+            return n
+    return None
+
+
 def _open_dataset(model: str, member: str, grid: str, experiment: str) -> xr.Dataset | None:
     """
-    Tenta abrir via intake_esm.to_dataset_dict(). Se falhar (ESMDataSourceError),
-    faz fallback para abrir diretamente o primeiro zstore com xarray.open_zarr.
+    Abre via intake_esm; se falhar, tenta abrir diretamente o primeiro zstore com xarray.open_zarr.
+    Mantém apenas a variável _VAR e normaliza o tempo (cftime ok).
     """
     try:
         cat = esm_datastore(_PANGEO_CMIP6_CATALOG)
@@ -41,7 +58,7 @@ def _open_dataset(model: str, member: str, grid: str, experiment: str) -> xr.Dat
         if len(q.df) == 0:
             return None
 
-        # 1) tentativa padrão via intake_esm
+        # 1) Tentativa padrão (to_dataset_dict)
         try:
             dset_dict = q.to_dataset_dict(
                 zarr_kwargs={"consolidated": True},
@@ -51,39 +68,84 @@ def _open_dataset(model: str, member: str, grid: str, experiment: str) -> xr.Dat
             ds = xr.decode_cf(ds, use_cftime=True)
             return ds
         except Exception:
-            # 2) fallback: abrir manualmente o primeiro zstore
+            # 2) Fallback: abre o primeiro zstore manualmente
             df = q.df.copy()
-            # preferir entradas com zstore definido
             df = df[df["zstore"].notna()]
             if df.empty:
                 return None
             z = df.iloc[0]["zstore"]
-
-            # tentar consolidated=True, depois False
             try:
                 ds = xr.open_zarr(z, consolidated=True, storage_options={"token": "anon"})
             except Exception:
                 ds = xr.open_zarr(z, consolidated=False, storage_options={"token": "anon"})
-
-            # manter só a variável de interesse e normalizar tempo
-            ds = ds[[ _VAR ]]
+            ds = ds[[_VAR]]
             ds = xr.decode_cf(ds, use_cftime=True)
             return ds
+
     except Exception as e:
-        # opcional: comentário discreto p/ diagnosticar
         st.caption(f"⚠️ CMIP6: falha a abrir {model}/{experiment} ({member},{grid}): {e}")
         return None
 
-@st.cache_data(ttl=24*3600, show_spinner=True)
-@st.cache_data(ttl=24*3600, show_spinner=True)
+
+def _subset_point(ds: xr.Dataset, lat: float, lon: float) -> xr.DataArray:
+    """
+    Série no ponto mais próximo; trata longitudes 0..360 vs -180..180 e nomes alternativos.
+    """
+    lat_name = _coord_name(ds, ["lat", "latitude"])
+    lon_name = _coord_name(ds, ["lon", "longitude"])
+    if lat_name is None or lon_name is None:
+        # dataset inesperado
+        return ds[_VAR]
+
+    lon_val = float(lon)
+    # datasets com 0..360
+    if float(ds[lon_name].max()) > 180:
+        lon_val = lon_val if lon_val >= 0 else lon_val + 360
+
+    return ds[_VAR].sel({lat_name: float(lat), lon_name: lon_val}, method="nearest")
+
+
+def _subset_box(ds: xr.Dataset, lat_min: float, lat_max: float, lon_min: float, lon_max: float) -> xr.DataArray:
+    """
+    Média espacial ponderada por cos(lat) numa caixa lat/lon. Lida com 0..360 e nomes alternativos.
+    """
+    lat_name = _coord_name(ds, ["lat", "latitude"])
+    lon_name = _coord_name(ds, ["lon", "longitude"])
+    if lat_name is None or lon_name is None:
+        return ds[_VAR]
+
+    def to360(x: float) -> float:
+        return x if x >= 0 else x + 360
+
+    if float(ds[lon_name].max()) > 180:
+        lon_min2, lon_max2 = to360(lon_min), to360(lon_max)
+        if lon_min2 <= lon_max2:
+            sub = ds[_VAR].sel({lat_name: slice(lat_min, lat_max), lon_name: slice(lon_min2, lon_max2)})
+        else:  # atravessa 0/360
+            s1 = ds[_VAR].sel({lat_name: slice(lat_min, lat_max), lon_name: slice(lon_min2, 360)})
+            s2 = ds[_VAR].sel({lat_name: slice(lat_min, lat_max), lon_name: slice(0, lon_max2)})
+            sub = xr.concat([s1, s2], dim=lon_name)
+    else:
+        sub = ds[_VAR].sel({lat_name: slice(lat_min, lat_max), lon_name: slice(lon_min, lon_max)})
+
+    # média ponderada por latitude
+    w = np.cos(np.deg2rad(sub[lat_name]))
+    return sub.weighted(w).mean(dim=(lat_name, lon_name))
+
+
+@st.cache_data(ttl=24 * 3600, show_spinner=True)
 def fetch_series(
     model: str,
     member: str,
     grid: str,
     experiment: str,   # "historical" | "ssp126" | "ssp245" | "ssp370" | "ssp585"
-    location: dict,    # {"type":"point","lat","lon"} ou {"type":"box","lat_min","lat_max","lon_min","lon_max"}
+    location: Dict,    # {"type":"point","lat","lon"} ou {"type":"box","lat_min","lat_max","lon_min","lon_max"}
     annual: bool = True,
 ) -> pd.Series:
+    """
+    Extrai uma série temporal (°C) para um ponto/caixa. Se annual=True devolve série anual (média),
+    caso contrário devolve mensal.
+    """
     ds = _open_dataset(model, member, grid, experiment)
     if ds is None:
         return pd.Series(dtype=float)
@@ -106,31 +168,29 @@ def fetch_series(
         # 2) Kelvin -> °C
         da = da - 273.15
 
+        # 3) agregação temporal
         if annual:
-            # 3) média anual (compatível com calendários não gregorianos)
-            da_ann = da.groupby("time.year").mean("time", skipna=True)
+            # via xarray, sem pandas.Grouper (evita conflitos de “by+groupers”)
+            # groupby por ano do eixo temporal (funciona com cftime)
+            da_ann = da.groupby("time.year").mean(dim="time", skipna=True)
 
-            # 4) remover quaisquer dimensões residuais (ex.: comprimento 1)
-            #    - se ainda houver dims além de 'year', achatamos
+            # remover dimensões residuais
             extra_dims = [d for d in da_ann.dims if d != "year"]
             if extra_dims:
                 da_ann = da_ann.squeeze(drop=True)
-                # se mesmo assim restar mais de 1 dim, reduzimos por média
                 extra_dims = [d for d in da_ann.dims if d != "year"]
                 if extra_dims:
                     da_ann = da_ann.mean(dim=extra_dims, skipna=True)
 
-            years = pd.Index(da_ann["year"].values, name="year")
-            vals = np.asarray(da_ann.values).reshape(-1)  # <- ACHATAR para 1D
+            years = pd.Index(np.asarray(da_ann["year"].values).reshape(-1), name="year")
+            vals = np.asarray(da_ann.values).reshape(-1)
 
-            # criar um índice de datas “gregoriano” (meados do ano)
+            # índice gregoriano aproximado (meados de ano)
             dt_index = pd.to_datetime(years.astype(str)) + pd.offsets.MonthBegin(6)
-            if len(vals) != len(dt_index):
-                # segurança extra se o motor CF devolveu algo estranho
-                vals = np.resize(vals, len(dt_index))
-            s = pd.Series(vals, index=dt_index)
+            n = min(len(vals), len(dt_index))
+            s = pd.Series(vals[:n], index=dt_index[:n])
         else:
-            # mensal (meio do mês) – também com achatamento seguro
+            # mensal (meio do mês)
             yy = np.asarray(da["time.year"].values).reshape(-1)
             mm = np.asarray(da["time.month"].values).reshape(-1)
             vals = np.asarray(da.values).reshape(-1)
@@ -140,37 +200,13 @@ def fetch_series(
 
         s.name = f"{model}|{experiment}"
         return s
+
     except Exception as e:
         st.caption(f"⚠️ CMIP6: erro ao sub-definir/agregar {model}/{experiment}: {e}")
         return pd.Series(dtype=float)
 
-    
-def _subset_point(ds: xr.Dataset, lat: float, lon: float) -> xr.DataArray:
-    """Série no ponto mais próximo; trata longitudes 0..360 vs -180..180."""
-    lon = float(lon)
-    if "lon" in ds.coords and float(ds.lon.max()) > 180:  # dataset em 0..360
-        lon = lon if lon >= 0 else lon + 360
-    return ds[_VAR].sel(lat=float(lat), lon=lon, method="nearest")
 
-def _subset_box(ds: xr.Dataset, lat_min: float, lat_max: float, lon_min: float, lon_max: float) -> xr.DataArray:
-    """Média espacial ponderada por cos(lat) numa caixa lat/lon. Lida com 0..360."""
-    if "lon" in ds.coords and float(ds.lon.max()) > 180:  # dataset em 0..360
-        to360 = lambda x: x if x >= 0 else x + 360
-        lon_min2, lon_max2 = to360(lon_min), to360(lon_max)
-        if lon_min2 <= lon_max2:
-            sub = ds[_VAR].sel(lat=slice(lat_min, lat_max), lon=slice(lon_min2, lon_max2))
-        else:  # atravessa 0/360
-            s1 = ds[_VAR].sel(lat=slice(lat_min, lat_max), lon=slice(lon_min2, 360))
-            s2 = ds[_VAR].sel(lat=slice(lat_min, lat_max), lon=slice(0, lon_max2))
-            sub = xr.concat([s1, s2], dim="lon")
-    else:
-        sub = ds[_VAR].sel(lat=slice(lat_min, lat_max), lon=slice(lon_min, lon_max))
-    # média ponderada por latitude
-    w = np.cos(np.deg2rad(sub["lat"]))
-    return sub.weighted(w).mean(dim=("lat", "lon"))
-
-
-def anomalies(s: pd.Series, baseline: tuple[int, int] = (1991, 2020)) -> pd.Series:
+def anomalies(s: pd.Series, baseline: Tuple[int, int] = (1991, 2020)) -> pd.Series:
     """Anomalias vs média no período baseline (inclusivo)."""
     if s.empty:
         return s
@@ -180,8 +216,9 @@ def anomalies(s: pd.Series, baseline: tuple[int, int] = (1991, 2020)) -> pd.Seri
     out.name = f"{s.name} Δ({baseline[0]}–{baseline[1]})"
     return out
 
-@st.cache_data(ttl=24*3600, show_spinner=False)
-def default_members_for_models(models: list[str]) -> pd.DataFrame:
+
+@st.cache_data(ttl=24 * 3600, show_spinner=False)
+def default_members_for_models(models: List[str]) -> pd.DataFrame:
     """Escolhe um membro/grelha por modelo (idealmente r1i1p1f1)."""
     df = list_model_members()
     rows = []

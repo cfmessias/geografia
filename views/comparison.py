@@ -39,7 +39,7 @@ def _plotly_centered_table(df: pd.DataFrame, formatters: dict | None = None, key
     )
     # Altura compacta: 36 (header) + 32 por linha + 12 folga
     fig.update_layout(margin=dict(l=0, r=0, t=8, b=0), height=int(36 + 32*n_rows + 12))
-    st.plotly_chart(fig, use_container_width=True, key=key)
+    st.plotly_chart(fig, width="stretch", key=key)
 
 
 # ─────────────────────────────────────────────────────────────
@@ -83,7 +83,7 @@ def render_comparison_tab(dfm: pd.DataFrame):
                              title="Temperatura média mensal — comparação",
                              x_title="Mês", y_title="°C", markers=True)
         fig_ct.update_xaxes(tickmode="linear", dtick=1)
-        st.plotly_chart(fig_ct, use_container_width=True)
+        st.plotly_chart(fig_ct, width="stretch")
     with c2:
         temp_delta = (temp_w.get(year_b) - temp_w.get(year_a)).rename("Δ Temp (°C)")
         fig_ctd = charts.bar(temp_delta.reset_index(), x="month", y="Δ Temp (°C)",
@@ -96,7 +96,7 @@ def render_comparison_tab(dfm: pd.DataFrame):
         except Exception:
             pass
         fig_ctd.update_xaxes(tickmode="linear", dtick=1)
-        st.plotly_chart(fig_ctd, use_container_width=True)
+        st.plotly_chart(fig_ctd, width="stretch")
 
     # ── Gráficos: precipitação
     c3, c4 = st.columns(2)
@@ -106,17 +106,17 @@ def render_comparison_tab(dfm: pd.DataFrame):
                              title="Pluviosidade mensal — comparação",
                              x_title="Mês", y_title="mm", markers=True)
         fig_cp.update_xaxes(tickmode="linear", dtick=1)
-        st.plotly_chart(fig_cp, use_container_width=True)
+        st.plotly_chart(fig_cp, width="stretch")
     with c4:
         rain_delta = (rain_w.get(year_b) - rain_w.get(year_a)).rename("Δ Chuva (mm)")
         fig_cpd = charts.bar(rain_delta.reset_index(), x="month", y="Δ Chuva (mm)",
                              title=f"Diferença de precipitação ( {year_b} − {year_a} )",
                              x_title="Mês", y_title="Δ Chuva (mm)")
         fig_cpd.update_xaxes(tickmode="linear", dtick=1)
-        st.plotly_chart(fig_cpd, use_container_width=True)
+        st.plotly_chart(fig_cpd, width="stretch")
 
     # ── Resumo anual
-    ann = dfm[dfm["year"].isin([year_a, year_b])].groupby("year", as_index=False).agg(
+    ann = dfm[dfm["year"].isin([year_a, year_b])].groupby("year", as_index=False, observed=False).agg(
         t_year=("t_mean","mean"), p_year=("precip","sum")
     )
     tA = float(ann.loc[ann["year"]==year_a, "t_year"].iloc[0]) if (ann["year"]==year_a).any() else np.nan
@@ -170,3 +170,4 @@ def render_comparison_tab(dfm: pd.DataFrame):
         mime="text/csv",
         key="dl_csv_cmp"
     )
+

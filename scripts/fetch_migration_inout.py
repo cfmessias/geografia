@@ -220,12 +220,12 @@ def _extract_inout_from_csv(csv_bytes: bytes) -> pd.DataFrame:
     WORLD = 900
     imm = (
         df[df["o"] == WORLD]
-        .groupby(["d", "y"], as_index=False)["v"].sum()
+        .groupby(["d", "y"], as_index=False, observed=False)["v"].sum()
         .rename(columns={"d": "m49", "y": "year", "v": "immigrants"})
     )
     emi = (
         df[df["d"] == WORLD]
-        .groupby(["o", "y"], as_index=False)["v"].sum()
+        .groupby(["o", "y"], as_index=False, observed=False)["v"].sum()
         .rename(columns={"o": "m49", "y": "year", "v": "emigrants"})
     )
 
@@ -407,3 +407,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

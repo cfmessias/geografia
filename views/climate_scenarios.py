@@ -198,12 +198,12 @@ def render_climate_tab():
         # =========================
         # suavização (opcional) por cenário+modelo antes de agregar
         smooth = (
-            full.groupby(["model", "scenario"], group_keys=False)
+            full.groupby(["model", "scenario"], group_keys=False, observed=False)
                 .apply(lambda g: _smooth_rolling(g, "ΔT (°C)", win))
         )
 
         # stats por cenário/ano
-        grp = smooth.groupby(["scenario", "time"])
+        grp = smooth.groupby(["scenario", "time"], observed=False)
         stat = grp["ΔT (°C)"].agg(["mean", "min", "max"]).reset_index()
         st.markdown(
             "<p style='font-size:14px'><b>O que são os SSP?</b> Cenários socioeconómicos combinados com trajetórias de emissões usados nas projeções CMIP6.</p>",
@@ -320,14 +320,14 @@ def render_climate_tab():
         fig.update_xaxes(gridcolor="rgba(160,160,160,0.18)", gridwidth=0.8)
 
         st.markdown(f"**Anomalias vs {baseline}** — média dos modelos (linha) e incerteza (faixa). Local: **{row['place']}**")
+        
         st.plotly_chart(fig, use_container_width=True)
-
         st.markdown("**Resumo por década (média dos modelos)**")
         smooth["decada"] = (smooth["year"] // 10) * 10
         
         dec = (
             smooth[smooth["year"] >= 1950]
-            .groupby(["scenario", "decada"])["ΔT (°C)"]
+            .groupby(["scenario", "decada"], observed=False)["ΔT (°C)"]
             .mean()
             .reset_index()
             .pivot(index="decada", columns="scenario", values="ΔT (°C)")
@@ -338,7 +338,7 @@ def render_climate_tab():
         # dec: pivot com uma linha por década (>=1950) e colunas por cenário
         dec = (
             smooth[smooth["year"] >= 1950]
-            .groupby(["scenario", "decada"])["ΔT (°C)"]
+            .groupby(["scenario", "decada"], observed=False)["ΔT (°C)"]
             .mean()
             .reset_index()
             .pivot(index="decada", columns="scenario", values="ΔT (°C)")
@@ -381,7 +381,6 @@ def render_climate_tab():
         fig_tbl.update_layout(margin=dict(l=0, r=0, t=8, b=0), height=420)
         st.plotly_chart(fig_tbl, use_container_width=True)
 
-
         # Download CSV dos pontos da média/min/máx
         csv_df = stat.rename(columns={"mean": "media", "min": "min", "max": "max"})
         buf = io.StringIO(); csv_df.to_csv(buf, index=False)
@@ -390,6 +389,7 @@ def render_climate_tab():
             data=buf.getvalue(),
             file_name="cmip6_scenarios_mean_band.csv",
             mime="text/csv",
-            use_container_width=True,
+            
             key="dl_cmip6_mean_band",
         )
+

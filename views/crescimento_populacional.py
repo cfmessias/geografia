@@ -46,25 +46,25 @@ df["Continente"] = df["Regiao"].apply(mapear_continente)
 pop_col = "TotalPopulation,asof1January(thousands)"
 df[pop_col] = pd.to_numeric(df[pop_col], errors="coerce")
 # Agrupamento para população
-df_grouped_pop = df.groupby(["Continente", "Year"])[pop_col].sum().reset_index()
+df_grouped_pop = df.groupby(["Continente", "Year"], observed=False)[pop_col].sum().reset_index()
 
 # Substituir vírgula por ponto e depois converter
 densidade= "Population Density, as of 1 July (persons per square km)"
 df[densidade] = df[densidade].astype(str).str.replace(',', '.', regex=False)
 df[densidade] = pd.to_numeric(df[densidade], errors="coerce")
 # Agrupamento para densidade (média faz mais sentido que soma)
-df_grouped_densidade = df.groupby(["Continente", "Year"])[densidade].mean().reset_index()
+df_grouped_densidade = df.groupby(["Continente", "Year"], observed=False)[densidade].mean().reset_index()
 
 
 racio_genero="Population Sex Ratio, as of 1 July (males per 100 females)"
 df[racio_genero] = df[racio_genero].astype(str).str.replace(',', '.', regex=False)
 df[racio_genero] = pd.to_numeric(df[racio_genero], errors="coerce")
-df_grouped_racio_genero = df.groupby(["Continente", "Year"])[racio_genero].mean().reset_index()
+df_grouped_racio_genero = df.groupby(["Continente", "Year"], observed=False)[racio_genero].mean().reset_index()
 
 crescimento_populacional = "PopulationGrowthRate(percentage)"
 df[crescimento_populacional] = df[crescimento_populacional].astype(str).str.replace(',', '.', regex=False)
 df[crescimento_populacional] = pd.to_numeric(df[crescimento_populacional], errors="coerce")
-df_grouped_crescimento_populacional = df.groupby(["Continente", "Year"])[crescimento_populacional].mean().reset_index()
+df_grouped_crescimento_populacional = df.groupby(["Continente", "Year"], observed=False)[crescimento_populacional].mean().reset_index()
 
 # Primeiro gráfico (população)
 fig, ax = plt.subplots(figsize=(8, 4.8))

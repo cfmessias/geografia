@@ -10,6 +10,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 import requests
 import streamlit as st
+from pandas.api.types import is_datetime64_any_dtype
 
 
 # ─────────────────────────── Constantes / Rótulos ─────────────────────────────
@@ -65,6 +66,37 @@ def _rolling(s: pd.Series, window: int) -> pd.Series:
 
 
 # ─────────────────────────── Helpers tabelas (formatação consistente) ─────────
+def _parse_time_col(s: pd.Series) -> pd.Series:
+    # já é datetime? devolve como está
+    if is_datetime64_any_dtype(s):
+        return pd.to_datetime(s, errors="coerce")
+
+    # normaliza para string
+    s = s.astype(str).str.strip()
+
+    out = pd.Series(pd.NaT, index=s.index, dtype="datetime64[ns]")
+
+    # YYYY-MM-DD
+    m_ymd = s.str.fullmatch(r"\d{4}-\d{2}-\d{2}")
+    if m_ymd.any():
+        out[m_ymd] = pd.to_datetime(s[m_ymd], format="%Y-%m-%d", errors="coerce")
+
+    # YYYY-MM  → assume dia 1
+    m_ym = s.str.fullmatch(r"\d{4}-\d{2}")
+    if m_ym.any():
+        out[m_ym] = pd.to_datetime(s[m_ym] + "-01", format="%Y-%m-%d", errors="coerce")
+
+    # YYYY
+    m_y = s.str.fullmatch(r"\d{4}")
+    if m_y.any():
+        out[m_y] = pd.to_datetime(s[m_y], format="%Y", errors="coerce")
+
+    # fallback para o resto (mantém silêncio; sem inferência ruidosa)
+    rest = out.isna() & s.ne("")
+    if rest.any():
+        out[rest] = pd.to_datetime(s[rest], errors="coerce")
+
+    return out
 
 def df_year_as_text(df: pd.DataFrame, year_col_candidates=("year", "ano")) -> pd.DataFrame:
     """Converte a coluna de ano em texto para evitar separadores de milhares."""
@@ -122,7 +154,7 @@ def load_co2_noaa() -> tuple[pd.DataFrame, pd.DataFrame]:
             df.loc[df[c] < 0, c] = np.nan
     df["date"] = pd.to_datetime(dict(year=df["year"].astype(int), month=df["month"].astype(int), day=1))
     df = df.sort_values("date")
-    ann = (df.set_index("date")["average"].resample("Y").mean()
+    ann = (df.set_index("date")["average"].resample("YE").mean()
              .rename("co2_annual_ppm").reset_index())
     ann["year"] = ann["date"].dt.year
     mo = df[["date", "average", "deseasonalized"]].rename(
@@ -179,7 +211,7 @@ def summarize_ibtracs(df: pd.DataFrame) -> dict[str, pd.DataFrame]:
     col_time = "ISO_TIME" if "ISO_TIME" in df.columns else df.columns[df.columns.str.upper().str.contains("TIME")][0]
     wind_col = next((c for c in ["WMO_WIND", "USA_WIND", "WIND_WMO", "WIND_USA"] if c in df.columns), None)
 
-    dt = pd.to_datetime(df[col_time], errors="coerce")
+    dt = _parse_time_col(df[col_time])
     year = dt.dt.year
 
     base = pd.DataFrame({
@@ -192,19 +224,19 @@ def summarize_ibtracs(df: pd.DataFrame) -> dict[str, pd.DataFrame]:
 
     annual_counts = (
         base.drop_duplicates(subset=[col_sid, "YEAR"])
-            .groupby("YEAR").size().rename("count").reset_index()
+            .groupby("YEAR", observed=False).size().rename("count").reset_index()
     )
     major_mask = base["WIND_KT"] >= 96
     annual_major = (
         base.loc[major_mask, [col_sid, "YEAR"]]
             .drop_duplicates()
-            .groupby("YEAR").size().rename("major_count").reset_index()
+            .groupby("YEAR", observed=False).size().rename("major_count").reset_index()
     )
     annual_major = annual_counts[["YEAR"]].merge(annual_major, on="YEAR", how="left").fillna({"major_count": 0}).astype({"major_count": int})
 
     annual_by_basin = (
         base.drop_duplicates(subset=[col_sid, "YEAR", "BASIN"])
-            .groupby(["YEAR", "BASIN"]).size().rename("count").reset_index()
+            .groupby(["YEAR", "BASIN"], observed=False).size().rename("count").reset_index()
     )
 
     return {
@@ -399,3 +431,4 @@ def render_climate_indicators_tab():
             "- **Ciclones** (IBTrACS): contagens anuais (total e major) e por bacia.  \n"
             "**Extensões**: nível do mar (NOAA/NASA), gelo Ártico/Antártida (NSIDC), ACE por ano/bacia."
         )
+

@@ -57,7 +57,7 @@ def _agg_by_year(df: pd.DataFrame, season: str | None) -> pd.DataFrame:
     d = df.copy()
     if season and season in _SEASONS_PT:
         d = d[d["season"] == season]
-    return d.groupby("year", as_index=False).agg(
+    return d.groupby("year", as_index=False, observed=False).agg(
         occurrences=("occurrences", "sum"),
         burned_area_ha=("burned_area_ha", "sum")
     ).sort_values("year")
@@ -115,14 +115,14 @@ def render_fires_tab(csv_path: str = "dados/fogos_icnf.csv"):
             title=f"Nº de ocorrências por ano{'' if not season_sel else f' — {season_sel}'}",
             x_title="Ano", y_title="Ocorrências"
         )
-        st.plotly_chart(fig_occ, use_container_width=True)
+        st.plotly_chart(fig_occ, width="stretch")
     with c2:
         fig_area = charts.bar(
             ser, x="year", y="burned_area_ha",
             title=f"Área ardida (ha) por ano{'' if not season_sel else f' — {season_sel}'}",
             x_title="Ano", y_title="ha"
         )
-        st.plotly_chart(fig_area, use_container_width=True)
+        st.plotly_chart(fig_area, width="stretch")
 
     # ---------- Comparação direta Ano A vs Ano B ----------
     st.subheader("Comparação entre anos")
@@ -153,7 +153,7 @@ def render_fires_tab(csv_path: str = "dados/fogos_icnf.csv"):
     # ---------- Distribuição por estação (empilhado), para os 2 anos (opcional e útil) ----------
     st.subheader("Composição por estação (apenas anos escolhidos)")
     picked = df_raw[df_raw["year"].isin([year_a, year_b])].copy()
-    comp = picked.groupby(["year", "season"], as_index=False).agg(
+    comp = picked.groupby(["year", "season"], as_index=False, observed=False).agg(
         occurrences=("occurrences", "sum"),
         burned_area_ha=("burned_area_ha", "sum")
     )
@@ -167,13 +167,13 @@ def render_fires_tab(csv_path: str = "dados/fogos_icnf.csv"):
                                 title="Ocorrências por estação (anos selecionados)",
                                 x_title="Ano", y_title="Ocorrências")
         fig_st_occ.update_layout(barmode="stack")
-        st.plotly_chart(fig_st_occ, use_container_width=True)
+        st.plotly_chart(fig_st_occ, width="stretch")
     with cc2:
         fig_st_area = charts.bar(comp, x="year", y="burned_area_ha", color="season",
                                  title="Área ardida por estação (anos selecionados)",
                                  x_title="Ano", y_title="ha")
         fig_st_area.update_layout(barmode="stack")
-        st.plotly_chart(fig_st_area, use_container_width=True)
+        st.plotly_chart(fig_st_area, width="stretch")
 
     # ---------- Tabela + Download ----------
     st.subheader("Tabela (conforme filtro de estação)")
@@ -183,10 +183,11 @@ def render_fires_tab(csv_path: str = "dados/fogos_icnf.csv"):
     # formatação leve
     grid_fmt = grid.copy()
     grid_fmt["year"] = grid_fmt["year"].astype(int).astype(str)
-    st.dataframe(grid_fmt, use_container_width=True, hide_index=True)
+    st.dataframe(grid_fmt, width="stretch", hide_index=True)
 
     buf = io.StringIO()
     grid.to_csv(buf, index=False)
     st.download_button("💾 Download CSV (fogos — ICNF)", data=buf.getvalue(),
                        file_name="fogos_icnf_filtrado.csv", mime="text/csv",
                        key="dl_csv_fires_icnf")
+

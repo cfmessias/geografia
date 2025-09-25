@@ -64,7 +64,7 @@ for url, country_col in urls:
 # Juntar as medalhas de verão e inverno
 df_medals = pd.concat(all_medals)
 # Agrupa por país
-df_final = df_medals.groupby('NOC', as_index=False)[['Gold', 'Silver', 'Bronze', 'Total']].sum()
+df_final = df_medals.groupby('NOC', as_index=False, observed=False)[['Gold', 'Silver', 'Bronze', 'Total']].sum()
 # Ordena por ouro, prata, bronze
 df_final = df_final.sort_values(['Gold', 'Silver', 'Bronze'], ascending=False)
 

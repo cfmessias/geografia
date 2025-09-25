@@ -8,7 +8,7 @@ def monthly(df: pd.DataFrame) -> pd.DataFrame:
     out["year"] = out["date"].dt.year
     out["month"] = out["date"].dt.month
     out["year_month"] = out["date"].dt.to_period("M").dt.to_timestamp()
-    grp = out.groupby(["year","month","year_month"], as_index=False).agg(
+    grp = out.groupby(["year","month","year_month"], as_index=False, observed=False).agg(
         t_mean=("t_mean","mean"),
         precip=("precip","sum")
     )
@@ -17,7 +17,7 @@ def monthly(df: pd.DataFrame) -> pd.DataFrame:
 def normals(dfm: pd.DataFrame, base_start: int, base_end: int) -> pd.DataFrame:
     base = dfm[(dfm["year"]>=base_start) & (dfm["year"]<=base_end)]
     if base.empty: return pd.DataFrame()
-    return base.groupby("month", as_index=False).agg(
+    return base.groupby("month", as_index=False, observed=False).agg(
         t_norm=("t_mean","mean"),
         p_norm=("precip","mean")
     )
@@ -37,3 +37,4 @@ def pick_value_for(dfm: pd.DataFrame, month: int, year: int, col: str):
 def fmt_num(x, sufixo="", nd=1):
     if x is None or (isinstance(x,float) and np.isnan(x)): return "—"
     return f"{x:.{nd}f}{sufixo}"
+

@@ -450,7 +450,7 @@ def main() -> None:
         part = events[events["season"]==season]
         if part.empty:
             return pd.DataFrame(columns=["iso3","country_pt",f"{season}_gold",f"{season}_silver",f"{season}_bronze",f"{season}_total"])
-        g = (part.groupby(["iso3","country_pt"], as_index=False)[["gold","silver","bronze","total"]].sum()
+        g = (part.groupby(["iso3","country_pt"], as_index=False, observed=False)[["gold","silver","bronze","total"]].sum()
              .rename(columns={"gold":f"{season}_gold","silver":f"{season}_silver","bronze":f"{season}_bronze","total":f"{season}_total"}))
         return g
 
@@ -480,3 +480,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
