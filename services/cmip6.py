@@ -232,3 +232,66 @@ def default_members_for_models(models: List[str]) -> pd.DataFrame:
             row = d.iloc[0]
         rows.append(row)
     return pd.DataFrame(rows).reset_index(drop=True)
+
+# --- CACHE DISCO PARA SÉRIES CMIP6 ---
+from pathlib import Path
+
+_CACHE_DIR = Path(__file__).resolve().parents[1] / "data" / "cmip6_cache"
+_CACHE_DIR.mkdir(parents=True, exist_ok=True)
+
+def _norm_loc_key(location: dict) -> str:
+    """Chave compacta e estável para a localização (arredonda p/ aumentar reutilização)."""
+    t = (location or {}).get("type", "point")
+    if t == "point":
+        lat = round(float(location["lat"]), 2)
+        lon = round(float(location["lon"]), 2)
+        return f"pt_{lat:+.2f}_{lon:+.2f}"
+    else:
+        lat_min = round(float(location["lat_min"]), 2)
+        lat_max = round(float(location["lat_max"]), 2)
+        lon_min = round(float(location["lon_min"]), 2)
+        lon_max = round(float(location["lon_max"]), 2)
+        return f"bx_{lat_min:+.2f}_{lat_max:+.2f}_{lon_min:+.2f}_{lon_max:+.2f}"
+
+def _series_to_parquet(path: Path, s: pd.Series) -> None:
+    df = pd.DataFrame({"time": s.index, "value": s.values})
+    # guardamos também o nome para restaurar
+    if s.name:
+        df.attrs = {"name": s.name}
+    df.to_parquet(path, index=False)
+
+def _parquet_to_series(path: Path) -> pd.Series:
+    df = pd.read_parquet(path)
+    s = pd.Series(df["value"].to_numpy(), index=pd.to_datetime(df["time"]))
+    nm = getattr(df, "attrs", {}).get("name")
+    if nm:
+        s.name = nm
+    return s
+
+def fetch_series_cached(
+    model: str,
+    member: str,
+    grid: str,
+    experiment: str,
+    location: dict,
+    annual: bool = True,
+    refresh: bool = False,     # força refazer e regravar
+) -> pd.Series:
+    """
+    Igual a fetch_series(), mas usa cache persistente em data/cmip6_cache/.
+    """
+    key = f"{model}__{member}__{grid}__{experiment}__{_norm_loc_key(location)}__{'ann' if annual else 'mon'}.parquet"
+    path = _CACHE_DIR / key
+    if path.exists() and not refresh:
+        try:
+            return _parquet_to_series(path)
+        except Exception:
+            pass  # se der erro, refaz
+
+    s = fetch_series(model, member, grid, experiment, location=location, annual=annual)
+    if not s.empty:
+        try:
+            _series_to_parquet(path, s)
+        except Exception:
+            pass
+    return s

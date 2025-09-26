@@ -52,3 +52,23 @@ def patch_streamlit():
 
 # aplicar patch ao importar
 patch_streamlit()
+
+# --- Aliases para manter compatibilidade de nomes ---------------------------
+# Usa o nome que já existe no teu projeto como "oficial".
+# ---------------------------------------------------------------------------
+# Compat aliases — mantém patch_streamlit como nome oficial
+# ---------------------------------------------------------------------------
+try:
+    patch_streamlit  # deve existir acima
+except NameError:
+    # fallback defensivo: no-op (não deve acontecer)
+    def patch_streamlit():
+        pass
+
+# Todos estes nomes passam a apontar para a MESMA função:
+patch_streamlit_width = patch_streamlit
+ensure_mobile_width    = patch_streamlit
+install_width_patch    = patch_streamlit
+compat_width           = patch_streamlit
+make_streamlit_mobile  = patch_streamlit
+

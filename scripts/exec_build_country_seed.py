@@ -96,6 +96,7 @@ def run_aux_scripts() -> None:
         "fetch_religion.py",
         "fetch_tourism_all.py",
         "fetch_migration_inout.py",
+        "fetch_cmip6_blobal.py",
     ]
 
     # 1) pega nos preferidos que existam
