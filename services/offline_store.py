@@ -11,7 +11,7 @@ import io
 import  unicodedata, requests
 from bs4 import BeautifulSoup
 from collections import namedtuple
-
+import streamlit as st
 # ---- Paths base -------------------------------------------------------------
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR     = PROJECT_ROOT / "data"
@@ -149,15 +149,27 @@ def load_cities_all() -> pd.DataFrame:
             df[c] = pd.to_numeric(df[c], errors="coerce")
     return df
 
+
 def cities_for_iso3(iso3: str) -> pd.DataFrame:
-    df = load_cities_all()
-    if df.empty:
-        return df
-    return (
-        df[df["iso3"] == str(iso3).upper()]
-        .sort_values(["is_capital","population"], ascending=[False, False])
-        .reset_index(drop=True)
-    )
+    """Wrapper que passa o mtime do ficheiro para invalidar cache quando muda."""
+    mtime_ns = cities_path.stat().st_mtime_ns
+    return _cities_for_iso3_cached(str(cities_path), mtime_ns, str(iso3).upper())
+
+@st.cache_data(show_spinner=False)
+def _cities_for_iso3_cached(path: str, _mtime_ns: int, iso3u: str) -> pd.DataFrame:
+    # BOM-safe + separador auto (suporta ',' e ';')
+    df = pd.read_csv(path, sep=None, engine="python", encoding="utf-8-sig")
+    # garantir colunas esperadas
+    for k in ("iso3","city","admin","is_capital","population","year","lat","lon"):
+        if k not in df.columns:
+            df[k] = pd.NA
+    # normalizar tipos
+    df["iso3"] = df["iso3"].astype(str).str.upper()
+    df["lat"]  = pd.to_numeric(df["lat"], errors="coerce")
+    df["lon"]  = pd.to_numeric(df["lon"], errors="coerce")
+    df["population"] = pd.to_numeric(df["population"], errors="coerce")
+    df["year"]       = pd.to_numeric(df["year"], errors="coerce").astype("Int64")
+    return df[df["iso3"] == iso3u].reset_index(drop=True)
 
 def country_has_cities(iso3: str) -> bool:
     df = load_cities_all()
@@ -805,3 +817,112 @@ def migration_inout_for_iso3(iso3: str) -> pd.DataFrame:
     )
     subm.insert(0, "iso3", iso)
     return subm.reset_index(drop=True)
+
+# services/offline_store.py
+# services/offline_store.py  (secção de migração)
+
+
+MIG_TS_CSV          = DATA_DIR / "migration_timeseries.csv"
+MIG_LATEST_CSV      = DATA_DIR / "migration_latest.csv"
+MIG_INOUT_CSV       = DATA_DIR / "migration_inout.csv"
+MIG_INOUT_M49_CSV   = DATA_DIR / "migration_inout_m49.csv"
+COUNTRIES_SEED_CSV  = DATA_DIR / "countries_seed.csv"   # só para fallback M49→ISO3 (se existir)
+
+# ── helpers ───────────────────────────────────────────────────────────────────
+def _empty(cols: list[str]) -> pd.DataFrame:
+    return pd.DataFrame({c: pd.Series(dtype="float" if c in {"value","immigrants","emigrants"} else "object")
+                         for c in cols})
+
+def _filter_iso3_csv(path: Path, iso3: str, usecols: list[str], dtypes: dict[str,str] | None = None,
+                     chunksize: int = 200_000) -> pd.DataFrame:
+    """Lê em chunks e devolve só as linhas do ISO3 pedido. Requer coluna 'iso3' no ficheiro."""
+    if not path.exists():
+        st.warning(f"Ficheiro não encontrado: {path}")
+        return _empty(usecols)
+    iso3u = str(iso3).upper()
+    frames = []
+    for ch in pd.read_csv(path, usecols=usecols, dtype=dtypes, chunksize=chunksize, low_memory=False):
+        ch["iso3"] = ch["iso3"].astype(str).str.upper()
+        frames.append(ch[ch["iso3"] == iso3u])
+    return pd.concat(frames, ignore_index=True) if frames else _empty(usecols)
+
+# ── loaders WDI: filtrados por país ───────────────────────────────────────────
+@st.cache_data(show_spinner=False)
+def load_migration_ts_for_iso3(iso3: str) -> pd.DataFrame:
+    # cols reais: iso3,country,indicator,indicator_name,year,value
+    usecols = ["iso3","indicator","year","value"]
+    dtypes  = {"iso3":"string","indicator":"string","year":"Int64","value":"float"}
+    df = _filter_iso3_csv(MIG_TS_CSV, iso3, usecols+[], dtypes)
+    return df
+
+@st.cache_data(show_spinner=False)
+def load_migration_latest_for_iso3(iso3: str) -> pd.DataFrame:
+    usecols = ["iso3","indicator","year","value"]
+    dtypes  = {"iso3":"string","indicator":"string","year":"Int64","value":"float"}
+    df = _filter_iso3_csv(MIG_LATEST_CSV, iso3, usecols+[], dtypes)
+    return df
+
+# ── loader UN DESA (in/out): filtrado por país ────────────────────────────────
+@st.cache_data(show_spinner=False)
+def load_migration_inout_for_iso3(iso3: str) -> pd.DataFrame:
+    iso3u = str(iso3).upper()
+    cols_out = ["iso3","year","immigrants","emigrants"]
+
+    if not MIG_INOUT_CSV.exists():
+        st.warning(f"Ficheiro não encontrado: {MIG_INOUT_CSV}")
+        return pd.DataFrame(columns=cols_out)
+
+    frames = []
+    # 👇 separador autodetectado + BOM-safe
+    it = pd.read_csv(
+        MIG_INOUT_CSV,
+        sep=None,              # autodetecta ',' ';' '\t' …
+        engine="python",       # necessário para sep=None
+        chunksize=200_000,
+        encoding="utf-8-sig",  # remove BOM se existir
+    )
+
+
+    for ch in it:
+        # normalizar cabeçalho
+        ch.columns = ch.columns.str.strip()
+        needed = {"iso3","year","immigrants","emigrants"}
+
+        # se ainda assim faltar algo, mostra o cabeçalho real para debug
+        if not needed.issubset(set(ch.columns)):
+            st.warning(
+                f"Cabeçalho inesperado em {MIG_INOUT_CSV.name}: {list(ch.columns)} "
+                f"(esperado: {sorted(needed)})"
+            )
+            # tenta mapear por variantes triviais
+            rename = {}
+            for c in ch.columns:
+                k = c.strip().lower()
+                if k in {"ï»¿iso3","﻿iso3"}: rename[c] = "iso3"
+                if k == "time": rename[c] = "year"
+            if rename:
+                ch = ch.rename(columns=rename)
+
+        # se mesmo assim não houver as 4, ignora o chunk
+        if not needed.issubset(set(ch.columns)):
+            continue
+
+        ch = ch[["iso3","year","immigrants","emigrants"]].copy()
+        ch["iso3"] = ch["iso3"].astype(str).str.upper()
+        ch = ch[ch["iso3"] == iso3u]
+
+        if ch.empty:
+            continue
+
+        ch["year"] = pd.to_numeric(ch["year"], errors="coerce").astype("Int64")
+        ch["immigrants"] = pd.to_numeric(ch["immigrants"], errors="coerce")
+        ch["emigrants"]  = pd.to_numeric(ch["emigrants"],  errors="coerce")
+
+        frames.append(ch)
+
+    if not frames:
+        return pd.DataFrame(columns=cols_out)
+
+    df = pd.concat(frames, ignore_index=True)
+    df = df.dropna(subset=["year"]).sort_values("year").drop_duplicates(subset=["year"], keep="last")
+    return df[cols_out].reset_index(drop=True)

@@ -1,0 +1,778 @@
+iso3,country,city,city_qid,admin,is_capital,population,year,lat,lon
+ABW,Aruba,Oranjestad,Q131243,Aruba,1,28658,
+AFG,Afeganistão,Cabul,Q5838,Canato de Chagatai,1,4273156,
+AFG,Afeganistão,Cabul,Q5838,Cabul (distrito),1,4273156,
+AFG,Afeganistão,Kandahar,Q45604,Kandahar,0,614254,
+AFG,Afeganistão,Herat,Q45313,Herat District,0,556205,
+AFG,Afeganistão,Mazar-e Sharif,Q130469,Mazar-i-Sharif District,0,469247,
+AFG,Afeganistão,Konduz,Q108155,Kunduz District,0,356536,
+AFG,Afeganistão,Jalalabad,Q183303,Nangarhar,0,263312,
+AFG,Afeganistão,Taloqan,Q477238,Taluqan,0,258758,
+AFG,Afeganistão,Lashkar Gah,Q476800,Lashkargah District,0,201546,
+AFG,Afeganistão,Sheberghan,Q838954,Shibirghan District,0,175599,
+AFG,Afeganistão,Khost,Q386682,Khost (Matun) District,0,160214,
+AFG,Afeganistão,Gázni,Q173731,Ghazni District,0,143379,
+AFG,Afeganistão,Pol-e Khomri,Q477148,Puli Khumri,0,113500,
+AFG,Afeganistão,Bamiyan,Q214495,Bamiyan,0,100000,
+AFG,Afeganistão,Baghlan,Q732879,Baghlan,0,83490,
+AFG,Afeganistão,Gardiz,Q467632,Gardez District,0,70000,
+AFG,Afeganistão,Farah,Q593156,Farah,0,54000,
+AFG,Afeganistão,Sar-e Pol,Q1649301,Sar-e Pol,0,51075,
+AFG,Afeganistão,Feyzabad,Q156558,Badakhshan,0,44421,
+AFG,Afeganistão,Andkhvoy,Q1054127,Faryab,0,39730,
+AGO,Angola,Luanda,Q3897,Província de Luanda,1,2487444,
+AGO,Angola,Cacuaco,Q1005770,Província de Luanda,0,1279488,
+AGO,Angola,Lubango,Q122044,Huíla,0,903564,
+AGO,Angola,Huambo,Q207322,Província do Huambo,0,844000,
+AGO,Angola,Cabinda,Q459360,Cabinda,0,739182,
+AGO,Angola,Malanje,Q621001,Província de Malanje,0,604215,
+AGO,Angola,Uíge,Q911191,Província do Uíge,0,599000,
+AGO,Angola,Benguela,Q214248,Benguela,0,561775,
+AGO,Angola,Benguela,Q3638179,Província de Benguela,0,512886,
+AGO,Angola,Cuíto,Q843980,Bié,0,512706,
+AGO,Angola,Talatona,Q60999936,Província de Luanda,0,500000,
+AGO,Angola,Belas,Q727233,Província de Luanda,0,500000,
+AGO,Angola,Lobito,Q223914,Província de Benguela,0,436467,
+AGO,Angola,Saurimo,Q635017,Lunda Sul,0,393000,
+AGO,Angola,Menongue,Q818731,Cuando Cubango,0,372500,
+AGO,Angola,Menongue,Q818731,Cubango Province,0,372500,
+AGO,Angola,Cubal,Q1142891,Província de Benguela,0,357618,
+AGO,Angola,Luena,Q618643,Moxico,0,357413,
+AGO,Angola,Ombadja,Q942273,Cunene,0,304964,
+AGO,Angola,Bailundo,Q1619845,Província do Huambo,0,294494,
+AIA,Anguila,The Valley,Q30994,Anguila,1,1067,
+ALB,Albânia,Tirana municipality,Q13037436,Tirana,0,557422,
+ALB,Albânia,Tirana,Q19689,Tirana municipality,1,418495,
+ALB,Albânia,Durrës Municipality,Q16350067,Durrës,0,175110,
+ALB,Albânia,Durrës Municipality,Q16350067,Durrës,0,175110,
+ALB,Albânia,Shkodër municipality,Q16350146,Shkodër,0,142513,
+ALB,Albânia,Elbasan municipality,Q16350072,Elbasan,0,141714,
+ALB,Albânia,Elbasan municipality,Q16350072,Elbasan,0,141714,
+ALB,Albânia,Vlorë,Q159610,Vlorë municipality,0,130827,
+ALB,Albânia,Kamëz,Q605160,Tirana,0,126777,
+ALB,Albânia,Kamëz,Q605160,Tirana,0,126777,
+ALB,Albânia,Kamëz,Q605160,Kamëz municipality,0,126777,
+ALB,Albânia,Durrës,Q83285,Durrës,0,113249,
+ALB,Albânia,Vlorë municipality,Q16350151,Vlorë,0,104827,
+ALB,Albânia,Vlorë municipality,Q16350151,Vlorë,0,104827,
+ALB,Albânia,Kamëz municipality,Q13037410,Tirana,0,104190,
+ALB,Albânia,Lushnjë municipality,Q13037420,Fier,0,83659,
+ALB,Albânia,Elbasan,Q114257,Elbasan municipality,0,78703,
+ALB,Albânia,Shkodër,Q131638,Shkodër municipality,0,76000,
+ALB,Albânia,Korçë municipality,Q13037414,Korçë,0,75994,
+ALB,Albânia,Dibër Municipality,Q13037427,Dibër,0,61619,
+AND,Andorra,Andorra-a-Velha,Q1863,Andorra-a-Velha,1,24042,,42.507222222222,1.5222222222222
+AND,Andorra,Andorra-a-Velha,Q2522163,Andorra,0,22615,,42.5,1.5
+AND,Andorra,Escaldes-Engordany,Q24286,Andorra,0,15506,,42.508889,1.540833
+AND,Andorra,Encamp,Q24269,Andorra,0,13521,,42.536111,1.582778
+AND,Andorra,La Massana,Q24276,Andorra,0,11591,,42.544166666667,1.5163888888889
+AND,Andorra,Sant Julià de Lòria,Q24282,Andorra,0,9915,,42.47,1.49
+AND,Andorra,Canillo,Q24260,Andorra,0,5781,,42.566378,1.60094
+AND,Andorra,Ordino,Q24272,Andorra,0,5440,,42.555,1.5330555555556
+ARE,Emirados Árabes Unidos,Dubai,Q612,Emirate of Dubai,0,3944751,,25.269722222222,55.309444444444
+ARE,Emirados Árabes Unidos,Abu Dhabi,Q1519,Emirado Abu Dhabi,1,1570000,,24.451111111111,54.396944444444
+ARE,Emirados Árabes Unidos,Xarja,Q289693,Emirado de Xarja,0,1247749,,25.3375,55.411944444444
+ARE,Emirados Árabes Unidos,Al Ain,Q234600,Emirado Abu Dhabi,0,766936,,24.2075,55.744722222222
+ARE,Emirados Árabes Unidos,Ajman (cidade),Q530171,Ajman,0,490035,,25.399444444444,55.479722222222
+ARE,Emirados Árabes Unidos,Ras al-Khaimah,Q2126436,Ras al-Khaimah,0,115949,,25.7851,55.9479
+ARE,Emirados Árabes Unidos,Fujeira (cidade),Q4045,Al Fujayrah,0,93673,,25.122222222222,56.334444444444
+ARE,Emirados Árabes Unidos,Doba (Fujeira),Q3696182,Al Fujayrah,0,41017,,25.6,56.35
+ARE,Emirados Árabes Unidos,Madinat Zayed,Q12241857,Emirado Abu Dhabi,0,29095,,23.65222222,53.65361111
+ARE,Emirados Árabes Unidos,Hatta,Q770233,Emirate of Dubai,0,15324,,24.80073,56.12726
+ARG,Argentina,Grande Buenos Aires,Q998798,Argentina,0,13985794,,-34.6083,-58.3719
+ARG,Argentina,Buenos Aires,Q1486,Argentina,1,3121707,,-34.599722222222,-58.381944444444
+ARG,Argentina,La Matanza,Q1308616,Buenos Aires,0,1841247,,-34.716666666667,-58.633333333333
+ARG,Argentina,Córdova,Q44210,Capital (departamento de Córdova),0,1329604,,-31.416666666667,-64.183333333333
+ARG,Argentina,Rosário,Q52535,Rosario (departamento),0,1193605,,-32.9575,-60.639444444444
+ARG,Argentina,La Plata,Q260600,Buenos Aires,0,768470,,-34.916666666667,-57.95
+ARG,Argentina,Lomas de Zamora,Q14638682,Buenos Aires,0,690323,,-34.76666667,-58.4
+ARG,Argentina,General Pueyrredón,Q671742,Buenos Aires,0,667082,,-38.003333333333,-57.552777777778
+ARG,Argentina,Quilmes,Q1855418,Buenos Aires,0,633391,,-34.716666666667,-58.266666666667
+ARG,Argentina,São Miguel de Tucumã,Q44255,Capital (departamento de Tucumán),0,605767,,-26.816666666667,-65.216666666667
+ARG,Argentina,Mar del Plata,Q52607,General Pueyrredón,0,593337,,-38.0,-57.55
+ARG,Argentina,Almirante Brown,Q1399432,Buenos Aires,0,584827,,-34.783333333333,-58.4
+ARG,Argentina,Merlo (partido),Q1239732,Buenos Aires,0,582486,,-34.666666666667,-58.716666666667
+ARG,Argentina,Moreno,Q2037611,Buenos Aires,0,576632,,-34.65,-58.783333333333
+ARG,Argentina,Salta,Q36307,Capital (departamento de Salta),0,535303,,-24.788333333333,-65.410555555556
+ARG,Argentina,Florencio Varela,Q2621603,Buenos Aires,0,496433,,-34.816666666667,-58.283333333333
+ARG,Argentina,San Juan,Q44241,Capital (departamento de San Juan),0,471389,,-31.5375,-68.536388888889
+ARG,Argentina,Lanús,Q730109,Buenos Aires,0,461267,,-34.7,-58.4
+ARG,Argentina,Lanús,Q1622565,Lanús,0,459263,,-34.7,-58.4
+ARG,Argentina,General San Martín,Q2157253,Buenos Aires,0,450575,,-34.566666666667,-58.516666666667
+ARM,Armênia,Erevã,Q1953,Arménia,1,1106300,,40.181388888889,44.514444444444
+ARM,Armênia,Guiumri,Q199500,Shirak,0,238000,,40.783333333333,43.833333333333
+ARM,Armênia,Abovyan,Q31493,Kotayk,0,58671,,40.273888888889,44.625555555556
+ARM,Armênia,Hrazdan,Q31610,Kotayk,0,52808,,40.5,44.766666666667
+ARM,Armênia,Dvin,Q429059,Erivansky Uyezd,0,1190,,40.004444444444,44.578333333333
+ARM,Armênia,Dvin,Q429059,Dvin,0,1190,,40.004444444444,44.578333333333
+ARM,Armênia,Dvin,Q429059,Ararate,0,1190,,40.004444444444,44.578333333333
+ATG,Antígua e Barbuda,São João,Q36262,São João,1,24451,,17.121111111111,-61.844722222222
+AUS,Austrália,Sydney,Q3130,Nova Gales do Sul,0,5450496,,-33.867777777778,151.21
+AUS,Austrália,Melbourne,Q3141,Vitória,0,5350705,,-37.814166666667,144.96305555556
+AUS,Austrália,Brisbane,Q34932,Queensland,0,2706966,,-27.467777777778,153.02777777778
+AUS,Austrália,Perth,Q3183,Austrália Ocidental,0,2141834,,-31.955833333333,115.85972222222
+AUS,Austrália,Adelaide,Q5112,Austrália Meridional,0,1387290,,-34.9275,138.6
+AUS,Austrália,Gold Coast,Q140075,City of Gold Coast,0,638090,,-28.016666666667,153.4
+AUS,Austrália,Gold Coast,Q140075,Queensland,0,638090,,-28.016666666667,153.4
+AUS,Austrália,City of Gold Coast,Q1069385,Queensland,0,625087,,-28.001111111111,153.42833333333
+AUS,Austrália,Newcastle,Q57278,City of Newcastle,0,481183,,-32.916666666667,151.75
+AUS,Austrália,Camberra,Q3114,Território da Capital Australiana,1,452670,,-35.293055555556,149.12694444444
+AUS,Austrália,Wollongong,Q187861,City of Wollongong,0,289236,,-34.433055555556,150.88305555556
+AUS,Austrália,Ipswich,Q1009253,City of Ipswich,0,232930,,-27.616666666667,152.76666666667
+AUS,Austrália,Hobart,Q40191,Tasmânia,0,222356,,-42.883333333333,147.31666666667
+AUS,Austrália,Geelong,Q231765,City of Greater Geelong,0,191440,,-38.15,144.35
+AUS,Austrália,Townsville,Q190021,City of Townsville,0,178649,,-19.262222222222,146.81583333333
+AUS,Austrália,Cairns,Q189133,Cairns Region,0,158653,,-16.925555555556,145.77527777778
+AUS,Austrália,Darwin,Q11568,Território do Norte,0,146982,,-12.438055555556,130.84111111111
+AUS,Austrália,Toowoomba,Q478302,Toowoomba Region,0,135631,,-27.55,151.95
+AUS,Austrália,Ballarat,Q17856,City of Ballarat,0,116201,,-37.560833333333,143.8475
+AUS,Austrália,Ballarat,Q17856,Vitória,0,116201,,-37.560833333333,143.8475
+AUT,Áustria,Viena,Q1741,Áustria,1,2083630,,48.208333333333,16.3725
+AUT,Áustria,Graz,Q13298,Estíria,0,292630,,47.070833333333,15.438611111111
+AUT,Áustria,Linz,Q41329,Alta Áustria,0,211944,,48.305833333333,14.286388888889
+AUT,Áustria,Salzburgo,Q34713,Salzburgo,0,155021,,47.8,13.045
+AUT,Áustria,Innsbruck,Q1735,Tirol,0,132493,,47.268333333333,11.393333333333
+AUT,Áustria,Klagenfurt,Q41753,Caríntia,0,101403,,46.616666666667,14.3
+AUT,Áustria,Wels,Q178582,Alta Áustria,0,65303,,48.15,14.016666666667
+AUT,Áustria,Villach,Q483522,Caríntia,0,65127,,46.616666666667,13.833333333333
+AUT,Áustria,Sankt Pölten,Q82500,Baixa Áustria,0,55514,,48.2,15.616666666667
+AUT,Áustria,Dornbirn,Q171219,Dornbirn,0,49278,,47.416666666667,9.75
+AUT,Áustria,Wiener Neustadt,Q131612,Baixa Áustria,0,44820,,47.816666666667,16.25
+AUT,Áustria,Steyr,Q260320,Alta Áustria,0,38344,,48.05,14.416666666667
+AUT,Áustria,Feldkirch,Q183104,Feldkirch,0,33420,,47.238055555556,9.5983333333333
+AUT,Áustria,Bregenz,Q1737,Bregenz,0,29806,,47.505,9.7491666666667
+AUT,Áustria,Leonding,Q487958,Linz-Land,0,28698,,48.279166666667,14.252777777778
+AUT,Áustria,Klosterneuburg,Q487522,Tulln,0,27058,,48.304166666667,16.316666666667
+AUT,Áustria,Baden,Q486450,Baden,0,26286,,48.0075,16.234444444444
+AUT,Áustria,Leoben,Q485294,Leoben (distrito),0,25350,,47.381666666667,15.097222222222
+AUT,Áustria,Krems an der Donau,Q131266,Baixa Áustria,0,25272,,48.416666666667,15.616666666667
+AUT,Áustria,Wolfsberg,Q487527,Wolfsberg,0,25051,,46.841944444444,14.840833333333
+AZE,Azerbaijão,Baku,Q9248,Azerbaijão,1,2300500,,40.366655555556,49.835183333333
+AZE,Azerbaijão,Sumqayit,Q179833,República Socialista Soviética Azeri,0,341200,,40.596111111111,49.67
+AZE,Azerbaijão,Sumqayit,Q179833,Azerbaijão,0,341200,,40.596111111111,49.67
+AZE,Azerbaijão,Ganja,Q131290,Azerbaijão,0,331400,,40.682777777778,46.360555555556
+AZE,Azerbaijão,Xirdalan,Q642109,Baku Uyezd,0,100900,,40.448611111111,49.756388888889
+AZE,Azerbaijão,Xirdalan,Q642109,Binagadi raion,0,100900,,40.448611111111,49.756388888889
+AZE,Azerbaijão,Xirdalan,Q642109,Absheron,0,100900,,40.448611111111,49.756388888889
+AZE,Azerbaijão,Naquichevão,Q230104,Nakhichevan Autonomous Region,0,95100,,39.208888888889,45.412222222222
+AZE,Azerbaijão,Naquichevão,Q230104,Nakhichevan Soviet Socialist Republic,0,95100,,39.208888888889,45.412222222222
+AZE,Azerbaijão,Naquichevão,Q230104,Nakhichevan uezd,0,95100,,39.208888888889,45.412222222222
+AZE,Azerbaijão,Naquichevão,Q230104,República Autónoma Socialista Soviética do Naquichevão,0,95100,,39.208888888889,45.412222222222
+AZE,Azerbaijão,Naquichevão,Q230104,República Autônoma do Naquichevão,0,95100,,39.208888888889,45.412222222222
+AZE,Azerbaijão,Samkir,Q390783,Vilaiete de Carabaque,0,67700,,40.829722222222,46.018888888889
+AZE,Azerbaijão,Samkir,Q390783,Shamkir,0,67700,,40.829722222222,46.018888888889
+AZE,Azerbaijão,Canquendi,Q129352,Shusha Uezd,0,56705,,39.815277777778,46.751944444444
+AZE,Azerbaijão,Canquendi,Q129352,Oblast Autónomo de Nagorno-Karabakh,0,56705,,39.815277777778,46.751944444444
+AZE,Azerbaijão,Canquendi,Q129352,Azerbaijão,0,56705,,39.815277777778,46.751944444444
+AZE,Azerbaijão,Mashtagha,Q4026905,Baku Uyezd,0,43700,,40.528611111111,50.010277777778
+AZE,Azerbaijão,Mashtagha,Q4026905,Sabunchu raion,0,43700,,40.528611111111,50.010277777778
+AZE,Azerbaijão,Jälilabad,Q1020627,Lankaran Uyezd,0,43300,,39.204166666667,48.495833333333
+BDI,Burundi,Bujumbura,Q3854,Bujumbura Mairie,0,658859,,-3.3825,29.361111111111
+BDI,Burundi,Guitega,Q167551,Gitega,1,135467,,-3.4283333333333,29.925
+BDI,Burundi,Ngozi,Q929689,Butanyerera,0,39884,,-2.9075,29.830555555556
+BDI,Burundi,Kayanza,Q2305839,Butanyerera,0,21767,,-2.9221,29.6293
+BDI,Burundi,Bubanza,Q2020432,Bujumbura Province,0,20031,,-3.083333,29.4
+BDI,Burundi,Kirundo,Q2640808,Kirundo,0,10024,,-2.58333333,30.1
+BDI,Burundi,Muyinga,Q2006076,Buhumuza,0,9609,,-2.85,30.333333
+BDI,Burundi,Makamba,Q1286083,Makamba,0,9396,,-4.1333333333333,29.8
+BDI,Burundi,Ruyigi,Q1018116,Buhumuza,0,7139,,-3.4666666666667,30.25
+BDI,Burundi,Rutana,Q246069,Burunga,0,5865,,-3.9236111111111,30.006111111111
+BDI,Burundi,Muramvya,Q557529,Gitega,0,5458,,-3.25,29.6
+BDI,Burundi,Bururi,Q992247,Bururi,0,4478,,-3.9333333333333,29.616666666667
+BDI,Burundi,Bururi,Q992247,Bururi,0,4478,,-3.9333333333333,29.616666666667
+BDI,Burundi,Mwaro,Q2458075,Mwaro,0,2403,,-3.533333,29.7
+BEL,Bélgica,Região de Bruxelas-Capital,Q240,Bélgica,0,1255795,,50.846666666667,4.3525
+BEL,Bélgica,Região de Bruxelas-Capital,Q240,Comunidade francesa da Bélgica,0,1255795,,50.846666666667,4.3525
+BEL,Bélgica,Região de Bruxelas-Capital,Q240,Comunidade flamenga,0,1255795,,50.846666666667,4.3525
+BEL,Bélgica,Antuérpia,Q12892,Arrondissement de Antuérpia,0,536079,,51.221111111111,4.3997222222222
+BEL,Bélgica,Gante,Q1296,Arrondissement of Ghent,0,272657,,51.053611111111,3.7252777777778
+BEL,Bélgica,Charleroi,Q81046,Arrondissement of Charleroi,0,204322,,50.416666666667,4.4441666666667
+BEL,Bélgica,Liège,Q3992,Arrondissement of Liège,0,197885,,50.639722222222,5.5705555555556
+BEL,Bélgica,Bruxelas,Q239,Arrondissement de Brussels-Capital,1,195546,,50.846666666667,4.3516666666667
+BEL,Bélgica,Schaerbeek,Q12887,Arrondissement de Brussels-Capital,0,133010,,50.8675,4.3736111111111
+BEL,Bélgica,Anderlecht,Q12886,Arrondissement de Brussels-Capital,0,120887,,50.839166666667,4.3297222222222
+BEL,Bélgica,Bruges,Q12994,Arrondissement of Bruges,0,118509,,51.208888888889,3.2241666666667
+BEL,Bélgica,Namur,Q134121,Arrondissement of Namur,0,114007,,50.466666666667,4.8666666666667
+BEL,Bélgica,Lovaina,Q118958,Arrondissement of Leuven,0,102126,,50.8775,4.704444
+BEL,Bélgica,Molenbeek-Saint-Jean,Q180775,Arrondissement de Brussels-Capital,0,97979,,50.854722222222,4.3386111111111
+BEL,Bélgica,Mons,Q83407,Arrondissement of Mons,0,95299,,50.454722222222,3.9525
+BEL,Bélgica,Hasselt,Q58780,Arrondissement of Hasselt,0,90249,,50.930480555556,5.3384972222222
+BEL,Bélgica,Aalst,Q13121,Arrondissement of Aalst,0,88854,,50.938333333333,4.0391666666667
+BEL,Bélgica,Ixelles,Q208713,Arrondissement de Brussels-Capital,0,87632,,50.833055555556,4.3669444444444
+BEL,Bélgica,Mechelen,Q162022,Arrondissement of Mechelen,0,86921,,51.028055555556,4.4802777777778
+BEL,Bélgica,Uccle,Q203312,Arrondissement de Brussels-Capital,0,83980,,50.803611111111,4.3338888888889
+BEN,Benin,Cotonu,Q43595,Littoral (departamento),0,679012,,6.3666666666667,2.4166666666667
+BEN,Benin,Porto Novo,Q3799,Oueme,1,267191,,6.4833333333333,2.6166666666667
+BEN,Benin,Uidá,Q850031,Atlântico,0,162034,,6.3666666666667,2.0833333333333
+BEN,Benin,Dogbo-Tota,Q2566827,Kouffo,0,101870,,6.8,1.783333
+BEN,Benin,Savé,Q21788742,Savé,0,31444,,8.03424,2.4866
+BEN,Benin,Q31891842,Q31891842,Segbana,0,26440,,10.96239175,3.80107349
+BFA,Burquina Faso,Uagadugu,Q3777,Ouagadougou,1,2453496,,12.368611111111,-1.5275
+BFA,Burquina Faso,Bobo Dioulasso,Q223761,Houet,0,903887,,11.183333333333,-4.2833333333333
+BFA,Burquina Faso,Koudougou,Q460697,Boulkiemdé,0,160207,,12.25,-2.3666666666667
+BFA,Burquina Faso,Ouahigouya,Q569904,Yatenga,0,124580,,13.583333333333,-2.4166666666667
+BFA,Burquina Faso,Kaya,Q766464,Sanmatenga,0,122949,,13.083333333333,-1.0833333333333
+BFA,Burquina Faso,Banfora,Q639674,Comoé,0,117200,,10.630833333333,-4.7588888888889
+BFA,Burquina Faso,Barsalogho Department,Q809135,Sanmatenga,0,113691,,13.418611111111,-1.0558333333333
+BFA,Burquina Faso,Pouytenga,Q3400815,Pouytenga,0,99950,,12.25,-0.43333333333333
+BFA,Burquina Faso,Houndé,Q999435,Tuy,0,87154,,11.5,-3.51666667
+BFA,Burquina Faso,Fada N'Gourma,Q990122,Gourma,0,73200,,12.05,0.36666666666667
+BFA,Burquina Faso,Dédougou,Q934436,Mouhoun,0,63617,,12.466666666667,-3.4666666666667
+BFA,Burquina Faso,Djibo,Q16629473,Djibo,0,61456,,14.101111111111,-1.6305555555556
+BFA,Burquina Faso,Tenkodogo,Q621925,Boulgou,0,58600,,11.783333333333,-0.36666666666667
+BFA,Burquina Faso,Kongoussi,Q163352,Bam,0,53641,,13.333333333333,-1.5333333333333
+BFA,Burquina Faso,Léo,Q650951,Sissili,0,51746,,11.1,-2.1
+BFA,Burquina Faso,Saponé,Q371596,Bazéga,0,50541,,12.1,-1.56666667
+BFA,Burquina Faso,Titao,Q1861898,Loroum,0,48242,,13.7667353,-2.0736431
+BFA,Burquina Faso,Koupéla,Q116524,Kouritenga,0,45900,,12.179444444444,-0.35166666666667
+BFA,Burquina Faso,Gaoua,Q1011882,Poni,0,45189,,10.316666666667,-3.1666666666667
+BFA,Burquina Faso,Garango,Q2668534,Garango,0,45150,,11.804722222222,-0.54888888888889
+BGD,Bangladesh,Daca,Q1354,Dhaka,1,16800000,,23.728888888889,90.394444444444
+BGD,Bangladesh,Chatigão,Q376749,Chatigão (distrito),0,2581643,,22.335,91.8325
+BGD,Bangladesh,Khulna,Q243325,Khulna,0,1400689,,22.816666666667,89.55
+BGD,Bangladesh,Rajshahi,Q322155,Rajshahi,0,775495,,24.366666666667,88.6
+BGD,Bangladesh,Bogra,Q1918837,Bogura District,0,540000,,24.85,89.366666666667
+BGD,Bangladesh,Sylhet,Q466221,Sylhet,0,479837,,24.9,91.866666666667
+BGD,Bangladesh,Tongi,Q1756617,Gazipur District,0,476350,,23.883333333333,90.4
+BGD,Bangladesh,Barisal,Q747840,Barisal,0,328278,,22.7,90.366666666667
+BGD,Bangladesh,Cumilla,Q1006296,Comilla,0,296010,,23.45,91.2
+BGD,Bangladesh,Rangpur,Q994514,Distrito de Rangpur,0,294265,,25.75,89.244444444444
+BGD,Bangladesh,Narsingdi,Q2799572,Narsingdi District,0,274763,,23.9,90.716666666667
+BGD,Bangladesh,Brahmanbaria,Q897320,Brahmanbaria (distrito),0,268279,,23.9723,91.1099
+BGD,Bangladesh,Mymensingh,Q1006303,Mymensingh District,0,258040,,24.75,90.416666666667
+BGD,Bangladesh,Jessore,Q1688300,Jessore,0,209330,,23.16666667,89.21666667
+BGD,Bangladesh,Dinajpur,Q4161769,Dinajpur,0,206200,,25.63,88.65
+BGD,Bangladesh,Dinajpur,Q4161769,Rangpur,0,206200,,25.63,88.65
+BGD,Bangladesh,Cox's Bazar,Q949746,Cox's Bazar Sadar Upazila,0,167477,,21.583333333333,92.016666666667
+BGD,Bangladesh,Jemalpur,Q4159797,Jamalpur District,0,158873,,24.9,89.94
+BGD,Bangladesh,Satkhira,Q478066,Satkhira,0,113322,,22.716667,89.1
+BGD,Bangladesh,Harinakunda,Q4495844,Harinakunda Upazila,0,17533,,23.65,89.033333333333
+BGR,Bulgária,Stolichna Municipality,Q4442915,Sofia City,0,1373335,,42.68647,23.30561
+BGR,Bulgária,Sófia,Q472,Stolichna Municipality,1,1242568,,42.697886,23.321726
+BGR,Bulgária,Plovdiv,Q459,Plovdiv,0,411347,,42.142086,24.741454
+BGR,Bulgária,Varna,Q6506,Varna,0,345235,,43.211375,27.91108
+BGR,Bulgária,Varna,Q748965,Varna,0,344775,,43.2077,27.918
+BGR,Bulgária,Burgas,Q167807,Burgas,0,232311,,42.493428,27.472515
+BGR,Bulgária,Burgas,Q6509,Burgas,0,225592,,42.502965,27.470179
+BGR,Bulgária,Ruse,Q160173,Ruse,0,202793,,43.844532,25.953907
+BGR,Bulgária,Stara Zagora,Q170415,Stara Zagora,0,182895,,42.425668,25.634595
+BGR,Bulgária,Pleven,Q165420,Pleven,0,163772,,43.413188,24.616916
+BGR,Bulgária,Dobrich,Q168668,Dobrich,0,129151,,43.566666666667,27.833333333333
+BGR,Bulgária,Pazardzhik,Q764056,Pazardzhik,0,122282,,42.18916667,24.3325
+BGR,Bulgária,Sliven,Q178385,Sliven,0,120515,,42.678146,26.325963
+BGR,Bulgária,Shumen,Q2219814,Shumen,0,101597,,43.21666667,26.98333333
+BGR,Bulgária,Haskovo,Q186254,Haskovo,0,99224,,41.93465,25.55556
+BGR,Bulgária,Haskovo,Q2454587,Haskovo,0,94156,,41.933,25.567
+BGR,Bulgária,Veliko Tarnovo,Q2991314,Veliko Tarnovo (província),0,91333,,43.0333,25.6333
+BGR,Bulgária,Kazanlăk,Q1750050,Stara Zagora (província),0,89197,,42.617,25.4
+BGR,Bulgária,Yambol,Q4537624,Yambol,0,83861,,42.4833,26.5
+BGR,Bulgária,Vratsa,Q2015244,Vratsa (província),0,83860,,43.2,23.55
+BHR,Barein,Manama,Q3882,Província da Capital,1,297502,,26.225,50.5775
+BHR,Barein,Al Muharraq,Q270500,Província de Muharraq,0,176583,,26.25,50.616666666667
+BHR,Barein,Madinat Hamad,Q2088687,Província do Norte,0,133550,,26.112777777778,50.513888888889
+BHR,Barein,Ar Rifa',Q1771398,Província do Sul,0,115495,,26.13,50.555
+BHR,Barein,Madinat 'Isa,Q1017673,Província Central,0,61293,,26.173611111111,50.547777777778
+BHS,Bahamas,Nassau,Q2467,New Providence,1,274400,,25.078055555556,-77.338611111111
+BHS,Bahamas,Freeport,Q867573,Bahamas,0,45945,,26.52,-78.66
+BIH,Bósnia e Herzegovina,Sarajevo,Q11194,Sarajevo Canton,1,350000,,43.856388888889,18.413055555556
+BIH,Bósnia e Herzegovina,Banja Luka,Q131127,República Socialista da Bósnia e Herzegovina,0,185042,,44.7725,17.1925
+BIH,Bósnia e Herzegovina,Banja Luka,Q131127,República Sérvia,0,185042,,44.7725,17.1925
+BIH,Bósnia e Herzegovina,Stari Grad,Q1258239,Sarajevo Canton,0,126598,,43.866666666667,18.433333333333
+BIH,Bósnia e Herzegovina,Bijeljina,Q207801,City of Bijeljina,0,114663,,44.756666666667,19.215555555556
+BIH,Bósnia e Herzegovina,Tuzla,Q174684,Tuzla,0,110979,,44.53842,18.66709
+BIH,Bósnia e Herzegovina,Prijedor,Q323986,City of Prijedor,0,89397,,44.966666666667,16.7
+BIH,Bósnia e Herzegovina,Bihać,Q204434,City of Bihać,0,70732,,44.814722222222,15.869166666667
+BIH,Bósnia e Herzegovina,Zenica,Q184046,City of Zenica,0,70553,,44.201666666667,17.903888888889
+BIH,Bósnia e Herzegovina,Doboj,Q169247,República Sérvia,0,68514,,44.733333333333,18.133333333333
+BIH,Bósnia e Herzegovina,Cazin,Q994203,City of Cazin,0,66149,,44.966944444444,15.943055555556
+BIH,Bósnia e Herzegovina,Sanski Most Municipality,Q12756667,Una Sana,0,43969,,44.766666666667,16.666666666667
+BIH,Bósnia e Herzegovina,Visoko,Q193229,City of Visoko,0,39938,,43.989444444444,18.180555555556
+BIH,Bósnia e Herzegovina,Brčko,Q322828,Distrito de Brčko,0,39893,,44.878333333333,18.809166666667
+BIH,Bósnia e Herzegovina,Trebinje,Q690052,City of Trebinje,0,31433,,42.708888888889,18.321666666667
+BIH,Bósnia e Herzegovina,Trebinje,Q690052,Bosnia Vilayet,0,31433,,42.708888888889,18.321666666667
+BIH,Bósnia e Herzegovina,Žepče Municipality,Q12756617,Zenica-Doboj,0,31067,,44.41944,17.96972
+BIH,Bósnia e Herzegovina,Žepče Municipality,Q12756617,Federação da Bósnia e Herzegovina,0,31067,,44.41944,17.96972
+BIH,Bósnia e Herzegovina,Čapljina,Q337683,City of Čapljina,0,28122,,43.11,17.7
+BIH,Bósnia e Herzegovina,Town of Novi Travnik,Q12756651,Cantão central de Bósnia,0,24859,,44.070277777778,17.658611111111
+BLR,Bielorrússia,Minsk,Q2280,Bielorrússia,1,2020600,,53.902246,27.561837
+BLR,Bielorrússia,Gomel,Q2678,Voblast de Homiel,0,535693,,52.441666666667,30.983333333333
+BLR,Bielorrússia,Mahilou,Q154835,Voblast de Mahilou,0,381353,,53.90894,30.34296
+BLR,Bielorrússia,Vitebsk,Q102217,Voblast de Viciebsk,0,377960,,55.183333333333,30.166666666667
+BLR,Bielorrússia,Hrodna,Q181376,Hrodna,0,363718,,53.666666666667,23.816666666667
+BLR,Bielorrússia,Brest,Q140147,Brest,0,346061,,52.084722222222,23.656944444444
+BLR,Bielorrússia,Babruysk,Q207294,Voblast de Mahilou,0,218271,,53.15,29.233333333333
+BLR,Bielorrússia,Baranavičy,Q237655,Brest,0,179439,,53.1325,26.017777777778
+BLR,Bielorrússia,Barysaŭ,Q19313,Barysaŭ District,0,147381,,54.22429,28.51198
+BLR,Bielorrússia,Pinsk,Q204150,Brest,0,138415,,52.115277777778,26.103055555556
+BLR,Bielorrússia,Mazyr,Q386487,Mazyr district,0,112187,,52.05,29.233333333333
+BLZ,Belize,Cidade de Belize,Q108223,Belize,0,63999,,17.498611111111,-88.188611111111
+BLZ,Belize,San Ignacio/Santa Elena,Q724815,Cayo,0,26151,,17.1588,-89.0696
+BLZ,Belize,Belmopan,Q3043,Cayo,1,20754,,17.25,-88.7675
+BLZ,Belize,San Pedro,Q677300,Cayo Ambergris,0,15456,,17.921388888889,-87.961111111111
+BLZ,Belize,Corozal,Q882907,Corozal,0,10287,,18.4,-88.4
+BLZ,Belize,Dangriga,Q888300,Stann Creek,0,9927,,16.966337206411,-88.224182353148
+BLZ,Belize,Benque Viejo,Q524851,Cayo,0,7020,,17.066666666667,-89.133333333333
+BLZ,Belize,Punta Gorda,Q883362,Toledo,0,5406,,16.1,-88.8
+BLZ,Belize,Shipyard,Q737412,Orange Walk,0,4070,,17.883333333333,-88.616666666667
+BLZ,Belize,San Lazaro,Q65330154,Orange Walk,0,1210,,18.039325124011,-88.661759015434
+BMU,Bermudas,Hamilton,Q30985,Bermudas,1,3686,,32.295,-64.783055555556
+BOL,Bolívia,Santa Cruz de la Sierra,Q170688,Andrés Ibáñez,0,3151676,,-17.789166666667,-63.1975
+BOL,Bolívia,La Paz,Q1491,Departamento de La Paz,0,2867504,,-16.495833333333,-68.133333333333
+BOL,Bolívia,La Paz,Q1491,Departamento de La Paz,1,2867504,,-16.495833333333,-68.133333333333
+BOL,Bolívia,El Alto,Q30996,El Alto Municipality,0,842378,,-16.504722222222,-68.163333333333
+BOL,Bolívia,Cochabamba,Q183124,Cercado,0,632013,,-17.3935419,-66.1570139
+BOL,Bolívia,Sucre,Q2907,Oropeza,1,360544,,-19.0475,-65.26
+BOL,Bolívia,Sucre,Q2907,Oropeza,0,360544,,-19.0475,-65.26
+BOL,Bolívia,Oruro,Q35246,Departamento de Oruro,0,264683,,-17.966666666667,-67.116666666667
+BOL,Bolívia,Warnes,Q973385,Ignacio Warnes,0,214216,,-17.51027778,-63.16472222
+BOL,Bolívia,Potosí,Q35045,Potosí Municipality,0,189652,,-19.589166666667,-65.753333333333
+BOL,Bolívia,Tarija,Q35004,Cercado,0,179528,,-21.533888888889,-64.734166666667
+BOL,Bolívia,Sacaba,Q995727,Sacaba Municipality,0,172466,,-17.404166666667,-66.040833333333
+BOL,Bolívia,Quillacollo,Q1002090,Quillacollo Municipality,0,137182,,-17.3975,-66.281666666667
+BOL,Bolívia,Montero,Q990706,Obispo Santistevan,0,126886,,-17.3425,-63.255277777778
+BOL,Bolívia,Trinidad,Q34986,Cercado,0,124357,,-14.833333333333,-64.9
+BOL,Bolívia,Riberalta,Q941357,Vaca Díez,0,78100,,-11.005,-66.066111111111
+BOL,Bolívia,Villa Tunari,Q1860785,Villa Tunari Municipality,0,71386,,-16.9725,-65.42
+BOL,Bolívia,Villa Yapacaní,Q1506556,Ichilo,0,57683,,-17.402777777778,-63.885
+BOL,Bolívia,Puerto Villarroel,Q2097756,Puerto Villarroel Municipality,0,46627,,-16.866666666667,-64.783055555556
+BOL,Bolívia,Cobija,Q34995,Nicolás Suárez,0,46267,,-11.0182955,-68.7537452
+BRA,Brasil,São Paulo,Q174,São Paulo,0,12396372,,-23.550394444444,-46.633947222222
+BRA,Brasil,Região Metropolitana do Rio de Janeiro,Q2720540,Rio de Janeiro,0,11900000,,-22.9028,-43.2078
+BRA,Brasil,Rio de Janeiro,Q8678,Rio de Janeiro,0,6775561,,-22.911111111111,-43.205555555556
+BRA,Brasil,Brasília,Q2844,Distrito Federal,1,3094325,,-15.793888888889,-47.882777777778
+BRA,Brasil,Salvador,Q36947,Bahia,0,2998056,,-12.983055555556,-38.492777777778
+BRA,Brasil,Fortaleza,Q43463,Ceará,0,2703391,,-3.7275,-38.5275
+BRA,Brasil,Belo Horizonte,Q42800,Minas Gerais,0,2530701,,-19.928055555556,-43.941944444444
+BRA,Brasil,Manaus,Q40236,Amazonas,0,2303732,,-3.1188888888889,-60.021666666667
+BRA,Brasil,Curitiba,Q4361,Paraná,0,1963726,,-25.429722222222,-49.271944444444
+BRA,Brasil,Recife,Q48344,Pernambuco,0,1661017,,-8.0538888888889,-34.880833333333
+BRA,Brasil,Goiânia,Q83189,Goiás,0,1555626,,-16.680555555556,-49.256388888889
+BRA,Brasil,Porto Alegre,Q40269,Rio Grande do Sul,0,1509939,,-30.032777777778,-51.23
+BRA,Brasil,Belém,Q12829733,Pará,0,1506420,,-1.4558333333333,-48.503888888889
+BRA,Brasil,Guarulhos,Q184409,São Paulo,0,1404694,,-23.466666666667,-46.533333333333
+BRA,Brasil,Nova Iguaçu,Q188897,Rio de Janeiro,0,1297704,,-22.758888888889,-43.450833333333
+BRA,Brasil,Campinas,Q171617,São Paulo,0,1223237,,-22.900913888889,-47.057294444444
+BRA,Brasil,São Luís,Q28441,Maranhão,0,1115932,,-2.53,-44.302777777778
+BRA,Brasil,São Gonçalo,Q83114,Rio de Janeiro,0,1098357,,-22.826944444444,-43.053888888889
+BRA,Brasil,Maceió,Q168888,Alagoas,0,1031597,,-9.6658333333333,-35.735
+BRA,Brasil,Campo Grande,Q168929,Mato Grosso do Sul,0,962883,,-20.468611111111,-54.622222222222
+BRB,Barbados,Bridgetown,Q36168,Saint Michael,1,110000,,13.0975,-59.616666666667
+BRN,Brunei,Bandar Seri Begawan,Q9279,Brunei e Muara,1,50000,,4.9166666666667,114.91666666667
+BTN,Butão,Thimbu,Q9270,Thimphu,1,114551,,27.47135,89.63367
+BTN,Butão,Trongsa,Q1019534,Trongsa,0,2695,,27.516805555556,90.5
+BTN,Butão,Paro,Q862041,Wangchang Gewog,0,2362,,27.433333333333,89.416666666667
+BWA,Botsuana,Gaborone,Q3919,Sudeste,1,246325,,-24.656944444444,25.908611111111
+BWA,Botsuana,City of Francistown,Q119806208,Francistown,0,147122,,,
+BWA,Botsuana,Maun,Q170732,Noroeste,0,85293,,-19.983333333333,23.416666666667
+BWA,Botsuana,Molepolole,Q170725,Kweneng,0,67598,,-24.4066,25.4951
+BWA,Botsuana,Selebi-Phikwe,Q141263,Central,0,49724,,-21.966666666667,27.916666666667
+BWA,Botsuana,Serowe,Q855634,Central,0,47447,,-22.383333,26.716667
+BWA,Botsuana,Palapye,Q170711,Central,0,36211,,-22.55,27.133333333333
+BWA,Botsuana,Bobonong,Q165988,Central,0,21216,,-21.9655,28.4363
+BWA,Botsuana,Shakawe,Q170663,Noroeste,0,6693,,-18.369166666667,21.845833333333
+CAF,República Centro-Africana,Bangui,Q3832,Ubangui-Chari,1,889231,,4.37325,18.562833333333
+CAF,República Centro-Africana,Bangui,Q3832,República Centro-Africana,1,889231,,4.37325,18.562833333333
+CAF,República Centro-Africana,Bimbo,Q863461,Ombella-M'Poko,0,124176,,4.3313055555556,18.516333333333
+CAF,República Centro-Africana,Berbérati,Q544701,Mambéré-Kadéï,0,76918,,4.2666666666667,15.783333333333
+CAF,República Centro-Africana,Carnot,Q521702,Mambéré-Kadéï,0,45421,,4.9333333333333,15.866666666667
+CAF,República Centro-Africana,Bambari,Q805946,Ouaka,0,41356,,5.7666666666667,20.683333333333
+CAF,República Centro-Africana,Bouar,Q512111,Nana-Mambéré,0,40353,,5.95,15.6
+CAF,República Centro-Africana,Bossangoa,Q894513,Ouham,0,37780,,6.4833333333333,17.45
+CAF,República Centro-Africana,Bria,Q598667,Haute-Kotto,0,35204,,6.5369444444444,21.991944444444
+CAF,República Centro-Africana,Bangassou,Q806478,Mbomou,0,31453,,4.737,22.819
+CAF,República Centro-Africana,Nola,Q522912,Sangha-Mbaéré,0,29181,,3.52494,16.04583
+CAF,República Centro-Africana,Kaga Bandoro,Q1210015,Nana-Grébizi,0,24661,,7.0005555555556,19.180833333333
+CAF,República Centro-Africana,Sibut,Q1757279,Kémo,0,22419,,5.7377777777778,19.086666666667
+CAF,República Centro-Africana,Mbaiki,Q593435,Lobaye,0,22166,,3.8833333333333,18.0
+CAF,República Centro-Africana,Bozoum,Q896185,Ouham-Pendé,0,20665,,6.3172222222222,16.378333333333
+CAF,República Centro-Africana,Mobaye,Q1025621,Basse-Kotto,0,7176,,4.3166666666667,21.183333333333
+CAF,República Centro-Africana,Baboua,Q797756,Nana-Mambéré,0,6812,,5.7833333333333,14.819166666667
+CAN,Canadá,Toronto,Q172,Ontário,0,3480000,,43.670277777778,-79.386666666667
+CAN,Canadá,Metro Vancouver,Q1061069,Colúmbia Britânica,0,2463431,,49.2494,-122.98
+CAN,Canadá,Montreal,Q340,aglomeração urbana de Montreal,0,1825208,,45.5033426,-73.5868411
+CAN,Canadá,Municipalidade Regional de Peel,Q50811,Ontário,0,1381739,,43.616666666667,-79.616666666667
+CAN,Canadá,Calgary,Q36312,Alberta,0,1306784,,51.05,-114.06666666667
+CAN,Canadá,Municipalidade Regional de York,Q18458,Ontário,0,1109909,,44.0514,-79.4803
+CAN,Canadá,Ottawa,Q1930,Ontário,1,1017449,,45.424722222222,-75.695
+CAN,Canadá,Edmonton,Q2096,Alberta,0,1010899,,53.533333333333,-113.5
+CAN,Canadá,Winnipeg,Q2135,Região da Capital Winnipeg,0,753700,,49.895555555556,-97.138611111111
+CAN,Canadá,Mississauga,Q50816,Municipalidade Regional de Peel,0,721599,,43.6,-79.65
+CAN,Canadá,Vancouver,Q24639,Metro Vancouver,0,662248,,49.260833333333,-123.11388888889
+CAN,Canadá,Brampton,Q44198,Municipalidade Regional de Peel,0,656480,,43.683333333333,-79.766666666667
+CAN,Canadá,Municipalidade Regional de Durham,Q381803,Ontário,0,645862,,43.916666666667,-78.933333333333
+CAN,Canadá,Hamilton,Q133116,Ontário,0,569353,,43.256666666667,-79.869166666667
+CAN,Canadá,Surrey,Q390583,Metro Vancouver,0,568322,,49.1833,-122.85
+CAN,Canadá,Quebec,Q2145,Québec,0,556066,,46.816111,-71.224167
+CAN,Canadá,Municipalidade Regional de Halton,Q382458,Ontário,0,548435,,43.508333333333,-79.887777777778
+CAN,Canadá,Municipalidade Regional de Waterloo,Q175735,Ontário,0,535154,,43.46666667,-80.5
+CAN,Canadá,Condado de Simcoe,Q1437636,Ontário,0,479650,,44.583333333333,-79.733333333333
+CAN,Canadá,Condado de Middlesex,Q1931946,Ontário,0,455526,,43.00009,-81.41646
+CHE,Suíça,Zurique,Q72,Distrito de Zurique,0,448664,,47.374444444444,8.5411111111111
+CHE,Suíça,Genebra,Q71,Genebra,0,206635,,46.2,6.15
+CHE,Suíça,Basileia-Cidade,Q12172,Suíça,0,201917,,47.566666666667,7.6
+CHE,Suíça,Basileia,Q78,Basileia-Cidade,0,178999,,47.560555555556,7.5905555555556
+CHE,Suíça,Berna,Q70,Distrito administrativo de Berna-Mittelland,1,166800,,46.94798,7.44743
+CHE,Suíça,Lausana,Q807,Distrito de Lausana,0,144426,,46.533333333333,6.6333333333333
+CHE,Suíça,Winterthur,Q9125,Distrito de Winterthur,0,119315,,47.4992,8.72671
+CHE,Suíça,Lucerna,Q4191,City of Lucerne Constituency,0,85534,,47.0523,8.3059
+CHE,Suíça,São Galo,Q25607,St. Gallen Constituency,0,78213,,47.423333333333,9.3772222222222
+CHE,Suíça,Lugano,Q7024,Distrito de Lugano,0,63932,,46.010277777778,8.9625
+CHE,Suíça,Bienna,Q1034,Bienna,0,56441,,47.137222222222,7.2472222222222
+CHE,Suíça,Kreis 3,Q675017,Zurique,0,51434,,47.366666666667,8.5166666666667
+CHE,Suíça,Tune,Q68978,Distrito administrativo de Thun,0,44271,,46.759,7.63
+CHE,Suíça,Bellinzona,Q64044,Bellinzona Subdistrict,0,43785,,46.195555,9.023809
+CHE,Suíça,Köniz,Q64058,Distrito administrativo de Berna-Mittelland,0,42958,,46.925,7.4152777777778
+CHE,Suíça,La Chaux-de-Fonds,Q68124,Neuchâtel,0,38965,,47.099627777778,6.8295583333333
+CHE,Suíça,Friburgo,Q36378,Sarine District,0,38829,,46.8,7.15
+CHE,Suíça,Schaffhausen,Q9009,Schaffhausen,0,38666,,47.69653,8.63386
+CHE,Suíça,Uster,Q64032,Distrito de Uster,0,36791,,47.349166666667,8.7191666666667
+CHE,Suíça,Altstetten,Q445711,District 9,0,36315,,47.387530555556,8.4858416666667
+CHL,Chile,Santiago,Q2887,Região Metropolitana de Santiago,1,6257516,,-33.4375,-70.65
+CHL,Chile,Puente Alto,Q51594,Cordillera,0,573935,,-33.616666666667,-70.583333333333
+CHL,Chile,Puente Alto,Q51594,Região Metropolitana de Santiago,0,573935,,-33.616666666667,-70.583333333333
+CHL,Chile,Maipú,Q16918,Santiago,0,521627,,-33.516666666667,-70.766666666667
+CHL,Chile,Santiago,Q188002,Santiago,0,404495,,-33.45,-70.666666666667
+CHL,Chile,La Florida,Q14460,Santiago,0,366916,,-33.55,-70.566666666667
+CHL,Chile,Antofagasta,Q3612,Antofagasta,0,348517,,-23.646388888889,-70.398055555556
+CHL,Chile,Viña del Mar,Q184345,Viña del Mar,0,332875,,-33.0245,-71.5518
+CHL,Chile,San Bernardo,Q56136,Maipo,0,301313,,-33.6,-70.716666666667
+CHL,Chile,Valparaíso,Q33986,Valparaíso,0,296655,,-33.046111111111,-71.619722222222
+CHL,Chile,Temuco,Q82128,Temuco,0,282415,,-38.7399,-72.5901
+CHL,Chile,Talcahuano,Q41997,Talcahuano,0,270000,,-36.7145,-73.1141
+CHL,Chile,Las Condes,Q14484,Santiago,0,249893,,-33.416666666667,-70.583333333333
+CHL,Chile,Rancagua,Q4582,Rancagua,0,231370,,-34.165388888889,-70.739805555556
+CHL,Chile,Concepción,Q1880,Concepción,0,229650,,-36.826944444444,-73.050277777778
+CHL,Chile,Talca,Q4469,Talca,0,206069,,-35.426944444444,-71.665555555556
+CHL,Chile,Coquimbo,Q3871,Coquimbo,0,204068,,-29.9532,-71.338
+CHL,Chile,Arica,Q2203,Arica,0,202131,,-18.478388888889,-70.321222222222
+CHL,Chile,La Serena,Q14467,La Serena,0,195382,,-29.9027,-71.252
+CHL,Chile,Chillán,Q3774,Chillán,0,190382,,-36.6067,-72.1033
+CHN,China,Chongqing,Q11725,China,0,32054159,,29.55,106.50694444444
+CHN,China,Xangai,Q8686,China,0,24870895,,31.222222222222,121.45805555556
+CHN,China,Pequim,Q956,China,1,21893095,,39.90403,116.407526
+CHN,China,Chengdu,Q30002,Sichuan,0,20937757,,30.66,104.06333333333
+CHN,China,Cantão,Q16572,Cantão,0,18676605,,23.13,113.26
+CHN,China,Shenzhen,Q15174,Cantão,0,17681600,,22.535,114.054
+CHN,China,Tianjin,Q11736,China,0,13866009,,39.146666666667,117.20555555556
+CHN,China,Xian,Q5826,Shaanxi,0,12952907,,34.261111111111,108.94222222222
+CHN,China,Suzhou,Q42622,Jiangsu,0,12748262,,31.3,120.61944444444
+CHN,China,Zhengzhou,Q30340,Henan,0,12600574,,34.74919,113.66051
+CHN,China,Wuhan,Q11746,Hubei,0,12447718,,30.587222222222,114.28805555556
+CHN,China,Hangzhou,Q4970,Zhejiang,0,11936010,,30.25,120.1675
+CHN,China,Baoding,Q58584,Hebei,0,11544036,,38.86712,115.48452
+CHN,China,Shijiazhuang,Q58401,Hebei,0,11235086,,38.0425,114.51
+CHN,China,Linyi,Q373346,Shandong,0,11018365,,35.10408,118.35019
+CHN,China,Harbin,Q42956,Heilongjiang,0,10635971,,45.75,126.63333333333
+CHN,China,Dongguan,Q59218,Cantão,0,10466625,,23.04749,113.74928
+CHN,China,Nanyang,Q404763,Henan,0,10263660,,32.99871,112.52921
+CHN,China,Qingdao,Q170322,Shandong,0,10071722,,36.116666666667,120.4
+CHN,China,Changsha,Q174091,Hunan,0,10047914,,28.19874,112.97087
+CIV,Costa do Marfim,Abidjan,Q1515,Abidjan Department,0,5616633,,5.3363888888889,-4.0266666666667
+CIV,Costa do Marfim,Abidjan,Q1515,Costa do Marfim,0,5616633,,5.3363888888889,-4.0266666666667
+CIV,Costa do Marfim,Bouaké,Q271000,Bouaké Department,0,832371,,7.68333,-5.03306
+CIV,Costa do Marfim,Korhogo,Q985627,Savanes,0,440926,,9.4577777777778,-5.6294444444444
+CIV,Costa do Marfim,San-Pédro,Q609831,Bas-Sassandra,0,390654,,4.73333333333,-6.63333333333
+CIV,Costa do Marfim,Yamoussoukro,Q3768,Yamoussoukro Autonomous District,1,355573,,6.8161111111111,-5.2741666666667
+CIV,Costa do Marfim,Divo (Costa do Marfim),Q1530295,Lôh-Djiboua,0,294559,,5.8372222222222,-5.3572222222222
+CIV,Costa do Marfim,Vavoua,Q12712267,Vavoua Department,0,286182,,7.3819444444444,-6.4777777777778
+CIV,Costa do Marfim,Gagnoa,Q18592055,Gagnoa Department,0,277044,,6.13333,-5.93333
+CIV,Costa do Marfim,Soubré (Costa do Marfim),Q1587131,Soubré Department,0,272773,,5.7836111111111,-6.5938888888889
+CIV,Costa do Marfim,Tabou,Q24910870,Tabou Department,0,270482,,4.4230555555556,-7.3527777777778
+CIV,Costa do Marfim,Man,Q1191011,Man,0,241969,,7.4125,-7.5536111111111
+CIV,Costa do Marfim,Duékoué,Q1268139,Duékoué Department,0,220953,,6.7419444444444,-7.3491666666667
+CIV,Costa do Marfim,Bouaflé,Q1588797,Bouaflé Department,0,213967,,6.9902777777778,-5.7441666666667
+CIV,Costa do Marfim,Bingerville,Q863795,Abidjan Department,0,204656,,5.35,-3.9
+CIV,Costa do Marfim,Guiglo,Q1553776,Guiglo Department,0,171454,,6.5436111111111,-7.4933333333333
+CIV,Costa do Marfim,Lakota,Q23188658,Lakota Department,0,169330,,5.8475,-5.6819444444444
+CIV,Costa do Marfim,Abengourou,Q1044225,Moyen-Comoé,0,164424,,6.7297222,-3.4963889
+CIV,Costa do Marfim,Ferquessedugu,Q2855736,Ferkessédougou Department,0,160267,,9.5927777777778,-5.1944444444444
+CIV,Costa do Marfim,Adzopé,Q1270691,La Mé,0,156488,,6.1035166666667,-3.8648138888889
+CMR,Camarões,Duala,Q132830,Litoral,0,2768436,,4.05,9.7
+CMR,Camarões,Duala,Q132830,Wouri,0,2768436,,4.05,9.7
+CMR,Camarões,Iaundé,Q3808,Centro,1,2440462,,3.8577777777778,11.518055555556
+CMR,Camarões,Garoua,Q157915,Bénoué,0,1750000,,9.3,13.4
+CMR,Camarões,Bafoussam,Q799808,Oeste,0,480000,,5.4666666666667,10.416666666667
+CMR,Camarões,Bamenda,Q528432,Noroeste,0,348766,,5.9613888888889,10.151666666667
+CMR,Camarões,Maroua,Q818824,Diamaré,0,201371,,10.590946,14.315925
+CMR,Camarões,Ngaoundéré,Q745906,Vina,0,189800,,7.3213888888889,13.583888888889
+CMR,Camarões,Bertoua,Q657734,Região Leste,0,173000,,4.5833333333333,13.683333333333
+CMR,Camarões,Kumba,Q997047,Meme,0,144268,,4.6333333333333,9.45
+CMR,Camarões,Nkongsamba,Q999070,Moungo,0,135405,,4.95,9.9166666666667
+CMR,Camarões,Bibemi,Q4902988,Bénoué,0,133191,,9.31667,13.8833
+CMR,Camarões,Buéa,Q312209,Sudoeste,0,131325,,4.1666666666667,9.2333333333333
+CMR,Camarões,Q115433458,Q115433458,Diamaré,0,108902,,10.6131,14.3275
+CMR,Camarões,Kousséri,Q697662,Diamaré,0,101246,,12.083333333333,15.033333333333
+CMR,Camarões,Kousséri,Q697662,Logone-et-Chari,0,101246,,12.083333333333,15.033333333333
+CMR,Camarões,Bogo,Q23012952,Diamaré,0,95230,,10.7361,14.6108
+CMR,Camarões,Bogo,Q23012952,Extremo Norte,0,95230,,10.7361,14.6108
+CMR,Camarões,Limbe,Q819314,Fako,0,84223,,4.0166666666667,9.2166666666667
+CMR,Camarões,Limbe,Q819314,Sudoeste,0,84223,,4.0166666666667,9.2166666666667
+COD,Congo - Kinshasa,Quinxassa,Q3838,Quinxassa,1,14565700,,-4.3219444444444,15.311944444444
+COD,Congo - Kinshasa,Buchimaie,Q319660,Kasaï-Oriental,0,2892000,,-6.1209,23.5967
+COD,Congo - Kinshasa,Kananga,Q205327,Cassai Central,0,1971704,,-5.8961111111111,22.416666666667
+COD,Congo - Kinshasa,Lubumbashi,Q187593,Haut-Katanga,0,1786397,,-11.664166666667,27.482777777778
+COD,Congo - Kinshasa,Quissangane,Q146723,Chopo,0,1366000,,0.51527777777778,25.191111111111
+COD,Congo - Kinshasa,Chicapa,Q277966,Cassai,0,1006387,,-6.4166666666667,20.8
+COD,Congo - Kinshasa,Goma,Q204381,Quivu do Norte,0,781875,,-1.6794444444444,29.233611111111
+COD,Congo - Kinshasa,Bucavu,Q222279,Quivu do Sul,0,707053,,-2.4908333333333,28.842777777778
+COD,Congo - Kinshasa,Mebandaca,Q211070,Congo Belga,0,470307,,0.048611111111111,18.260277777778
+COD,Congo - Kinshasa,Mebandaca,Q211070,Equador,0,470307,,0.048611111111111,18.260277777778
+COD,Congo - Kinshasa,Likasi,Q18780,Haut-Katanga,0,422535,,-10.983333333333,26.733333333333
+COD,Congo - Kinshasa,Likasi,Q18780,Catanga,0,422535,,-10.983333333333,26.733333333333
+COD,Congo - Kinshasa,Kolwezi,Q271404,Lualaba,0,418000,,-10.716666666667,25.466666666667
+COD,Congo - Kinshasa,Kolwezi,Q271404,Catanga,0,418000,,-10.716666666667,25.466666666667
+COD,Congo - Kinshasa,Quicuíte,Q261887,Cuílo,0,397737,,-5.0333333333333,18.816666666667
+COD,Congo - Kinshasa,Bunia,Q648298,Ituri,0,327837,,1.5666666666667,30.25
+COD,Congo - Kinshasa,Matadi,Q211073,Congo Central,0,306053,,-5.8166666666667,13.483333333333
+COD,Congo - Kinshasa,Beni (Kongo),Q817269,Quivu do Norte,0,232000,,0.49113,29.47306
+COD,Congo - Kinshasa,Butembo,Q518785,Quivu do Norte,0,217625,,0.1251,29.299
+COD,Congo - Kinshasa,Quindu,Q270225,Maniema,0,172321,,-2.95,25.916666666667
+COG,República do Congo,Brazavile,Q3844,África Equatorial Francesa,1,2145783,,-4.2694444444444,15.271111111111
+COG,República do Congo,Brazavile,Q3844,República do Congo,1,2145783,,-4.2694444444444,15.271111111111
+COG,República do Congo,Pointe-Noire,Q223920,Pointe-Noire Department,0,1420612,,-4.7975,11.850277777778
+COG,República do Congo,Dolisie,Q246554,Niari,0,117920,,-4.2005555555556,12.679166666667
+COG,República do Congo,Nkayi,Q2088506,Bouenza,0,100783,,-4.1841666666667,13.288333333333
+COG,República do Congo,Ouésso,Q627885,Sangha,0,39653,,1.6105555555556,16.051388888889
+COG,República do Congo,Impfondo,Q1142926,Likouala,0,39653,,1.6186111111111,18.062222222222
+COG,República do Congo,Gamboma,Q3307123,Nkéni-Alima,0,26053,,-1.8711111111111,15.878055555556
+COG,República do Congo,Gamboma,Q3307123,Gamboma,0,26053,,-1.8711111111111,15.878055555556
+COL,Colômbia,Bogotá,Q2841,Cundinamarca,1,8034649,,4.60971,-74.08175
+COL,Colômbia,Cáli,Q51103,Cauca State,0,3200653,,3.44,-76.519722222222
+COL,Colômbia,Cáli,Q51103,Valle del Cauca,0,3200653,,3.44,-76.519722222222
+COL,Colômbia,Medellín,Q48278,Antioquia,0,2529403,,6.250200154879,-75.567584500697
+COL,Colômbia,Barranquilla,Q62823,Atlántico,0,1326588,,10.983333333333,-74.801944444444
+COL,Colômbia,Cartagena das Índias,Q657461,Bolívar,0,973035,,10.423611111111,-75.525277777778
+COL,Colômbia,Cúcuta,Q216847,Norte de Santander,0,806378,,7.9075,-72.504722222222
+COL,Colômbia,Palermo,Q1442359,Huila,0,800000,,2.8883333333333,-75.433888888889
+COL,Colômbia,Soacha,Q1011151,Região Metropolitana de Bogotá,0,782647,,4.5780555555556,-74.214444444444
+COL,Colômbia,Soacha,Q1011151,Soacha Province,0,782647,,4.5780555555556,-74.214444444444
+COL,Colômbia,Soacha,Q1011151,Cundinamarca,0,782647,,4.5780555555556,-74.214444444444
+COL,Colômbia,Soledad (Colômbia),Q767071,Atlántico,0,676014,,10.909722222222,-74.785833333333
+COL,Colômbia,Villavicencio,Q749224,Meta,0,664148,,4.1425,-73.629444444444
+COL,Colômbia,Bucaramanga,Q243766,Santander,0,614860,,7.1186111111111,-73.116111111111
+COL,Colômbia,Pereira,Q51111,Risaralda,0,590554,,4.8142777777778,-75.694558333333
+COL,Colômbia,Bello,Q816024,Aburrá Valley,0,561955,,6.3319444444444,-75.558055555556
+COL,Colômbia,Ibagué,Q222755,Tolima,0,546003,,4.4377777777778,-75.200555555556
+COL,Colômbia,Valledupar,Q376903,Cesar,0,544134,,10.460277777778,-73.259722222222
+COL,Colômbia,Santa Marta,Q209016,Magdalena,0,515556,,11.236111111111,-74.201666666667
+COL,Colômbia,Manizales,Q235190,Centro Sur,0,454494,,5.0675,-75.51
+COM,Comores,Moroni,Q3901,Grande Comore,1,85400,,-11.703611111111,43.253611111111
+COM,Comores,Mutsamudu,Q691016,Q106390826,0,30000,,-12.1675,44.393888888889
+COM,Comores,Q106706598,Q106706598,Q106390972,0,9349,,-12.345524,43.8004382
+COM,Comores,Q25384279,Q25384279,Q25384275,0,9244,,-11.849930555556,43.378819444444
+COM,Comores,Q15918441,Q15918441,Q25384419,0,8470,,-11.63041,43.26923
+COM,Comores,Q15918441,Q15918441,Ahafo Ano North Municipal District,0,8470,,-11.63041,43.26923
+COM,Comores,Q15918441,Q15918441,Grande Comore,0,8470,,-11.63041,43.26923
+COM,Comores,Q106367624,Q106367624,Q25384419,0,8279,,-11.663332346471,43.272099494934
+COM,Comores,Q106706461,Q106706461,Q106390965,0,7914,,-12.35697,43.726144
+COM,Comores,Q106367519,Q106367519,Q25384419,0,7442,,,
+COM,Comores,Q106706284,Q106706284,Q106390973,0,7410,,-12.2975,43.773333333333
+COM,Comores,Mitsamiouli,Q3109029,Grande Comore,0,7235,,-11.38194444,43.3
+COM,Comores,Q56293501,Q56293501,Q106390973,0,6133,,,
+COM,Comores,Dembéni,Q3022078,Grande Comore,0,4723,,-11.87675,43.405527777778
+COM,Comores,Bandrani-Mtangani,Q2882380,Anjouan,0,3585,,-12.188888888889,44.341944444444
+COM,Comores,Q106706313,Q106706313,Q106390965,0,3470,,-12.312807,43.665741
+COM,Comores,Bambao,Q2881770,Anjouan,0,2699,,-12.2,44.516667
+CPV,Cabo Verde,Praia,Q3751,Praia,1,159050,,14.917719444444,-23.509155555556
+CPV,Cabo Verde,Praia,Q497019,Ilhas de Sotavento,0,130271,,14.95,-23.51666667
+CPV,Cabo Verde,São Vicente,Q648842,Ilhas de Barlavento,0,83467,,16.85,-24.97
+CPV,Cabo Verde,Mindelo,Q495547,São Vicente,0,70468,,16.891352777778,-24.987983333333
+CPV,Cabo Verde,Tarrafal,Q499598,Ilhas de Sotavento,0,30000,,15.278655555556,-23.751644444444
+CPV,Cabo Verde,Santa Maria,Q497445,Sal,0,25779,,16.6,-22.904166666667
+CPV,Cabo Verde,São Filipe (concelho de Cabo Verde),Q6430079,Ilhas de Sotavento,0,22227,,14.895111111111,-24.500444444444
+CPV,Cabo Verde,Ribeira Grande,Q1355642,Ilhas de Barlavento,0,18890,,17.18333333,-25.06666667
+CPV,Cabo Verde,Porto Novo,Q1552897,Ilhas de Barlavento,0,18028,,17.019505555556,-25.064630555556
+CPV,Cabo Verde,Assomada,Q490573,Santa Catarina,0,12026,,15.094880555556,-23.665394444444
+CPV,Cabo Verde,Pedra Badejo,Q490579,Santa Cruz,0,9530,,15.1375,-23.533333333333
+CPV,Cabo Verde,Mosteiros,Q516835,Ilhas de Sotavento,0,9524,,15.03333333,-24.325
+CPV,Cabo Verde,Boa Vista,Q2721025,Ilhas de Barlavento,0,8696,,16.176044444444,-22.917077777778
+CPV,Cabo Verde,São Filipe,Q13957085,Nossa Senhora da Conceição (Fogo),0,8122,,14.89659863,-24.49549913
+CPV,Cabo Verde,concelho de Ribeira Brava,Q747221,Ilhas de Barlavento,0,7580,,16.615852777778,-24.298288888889
+CPV,Cabo Verde,Paul,Q1475374,Ilhas de Barlavento,0,6997,,17.12,-25.025
+CPV,Cabo Verde,Sal Rei,Q501656,Boa Vista,0,6357,,16.176044444444,-22.917077777778
+CPV,Cabo Verde,Tarrafal,Q2311253,Tarrafal,0,6272,,15.266666666667,-23.75
+CPV,Cabo Verde,Q498968,Q498968,Sal,0,6173,,16.754583333333,-22.945277777778
+CPV,Cabo Verde,Tarrafal de São Nicolau,Q1895853,Ilhas de Barlavento,0,5237,,16.565988888889,-24.356833333333
+CRI,Costa Rica,San José,Q3070,San José,1,342188,,9.9325111111111,-84.079580555556
+CRI,Costa Rica,Limón,Q30620,Limón Canton,0,71514,,10.0022155,-83.0840367
+CRI,Costa Rica,Alajuela,Q37104,Alajuela,0,44374,,10.0310872,-84.2040672
+CRI,Costa Rica,Desamparados,Q14108797,Desamparados Canton,0,43352,,9.8966632,-84.0706388
+CRI,Costa Rica,Puntarenas,Q30687,Puntarenas,0,41528,,9.9773027777778,-84.834641666667
+CRI,Costa Rica,San Juan,Q3947434,San José,0,25978,,9.9597222222222,-84.081666666667
+CRI,Costa Rica,San Juan,Q3947434,Tibás Canton,0,25978,,9.9597222222222,-84.081666666667
+CRI,Costa Rica,El Roble,Q2412778,Puntarenas Canton,0,23953,,9.977073,-84.7442821
+CRI,Costa Rica,Cartago,Q30617,Cartago,0,22798,,9.8642111111111,-83.920441666667
+CRI,Costa Rica,Heredia,Q30616,Heredia Canton,0,22700,,9.9981194444444,-84.117019444444
+CRI,Costa Rica,Buenos Aires,Q1001817,Buenos Aires Canton,0,22619,,9.1984622,-83.2816226
+CRI,Costa Rica,Santa Ana,Q3948919,Santa Ana Canton,0,13186,,9.9319879,-84.1759787
+CRI,Costa Rica,Santiago,Q3556823,Puriscal Canton,0,12189,,9.8290594,-84.3043974
+CRI,Costa Rica,Zarcero,Q975960,Zarcero,0,4755,,10.1890471,-84.37505
+CUB,Cuba,Havana,Q1563,Cidade de Havana,1,2492618,,23.136666666667,-82.358888888889
+CUB,Cuba,Santiago de Cuba,Q117040,Oriente,0,509143,,20.021666666667,-75.829444444444
+CUB,Cuba,Santiago de Cuba,Q117040,Santiago de Cuba,0,509143,,20.021666666667,-75.829444444444
+CUB,Cuba,Camagüey,Q115329,Camagüey,0,354000,,21.378611111111,-77.918611111111
+CUB,Cuba,Holguín,Q244154,Holguín,0,350191,,20.887222222222,-76.263055555556
+CUB,Cuba,Santa Clara,Q211590,Villa Clara,0,247436,,22.406666666667,-79.953055555556
+CUB,Cuba,Bayamo,Q115382,Granma,0,235107,,20.381666666667,-76.642777777778
+CUB,Cuba,Guantánamo,Q185156,Guantánamo,0,228436,,20.138333,-75.206111
+CUB,Cuba,Diez de Octubre,Q2397948,Cidade de Havana,0,227293,,23.088055555556,-82.359722222222
+CUB,Cuba,Diez de Octubre,Q2397948,Havana,0,227293,,23.088055555556,-82.359722222222
+CUB,Cuba,Carlos Manuel de Céspedes,Q603146,Camagüey,0,224488,,21.576666666667,-78.2775
+CUB,Cuba,Arroyo Naranjo,Q1936053,Cidade de Havana,0,210053,,23.043611111111,-82.332777777778
+CUB,Cuba,Arroyo Naranjo,Q1936053,Havana,0,210053,,23.043611111111,-82.332777777778
+CUB,Cuba,Las Tunas,Q115527,Las Tunas,0,202105,,20.966666666667,-76.95
+CUB,Cuba,Pinar del Río,Q244139,Pinar del Río,0,188614,,22.412222222222,-83.671944444444
+CUB,Cuba,Playa,Q2066897,La Habana,0,175394,,23.094166666667,-82.448888888889
+CUB,Cuba,Playa,Q2066897,Cidade de Havana,0,175394,,23.094166666667,-82.448888888889
+CUB,Cuba,Playa,Q2066897,Havana,0,175394,,23.094166666667,-82.448888888889
+CUB,Cuba,Habana del Este,Q1566695,Cidade de Havana,0,172040,,23.159166666667,-82.271055555556
+CUB,Cuba,Habana del Este,Q1566695,Havana,0,172040,,23.159166666667,-82.271055555556
+CUW,Curaçao,Willemstad,Q132679,Curaçau,1,150000,,12.108,-68.935
+CYM,Ilhas Cayman,George Town,Q172996,Ilhas Cayman,1,27704,,19.295,-81.381111111111
+CYP,Chipre,Nicósia,Q3856,Nicósia,1,330000,,35.1725,33.365
+CYP,Chipre,Limassol,Q185632,Limassol,0,107970,,34.674997,33.044286
+CYP,Chipre,Limassol Municipality,Q28870916,Limassol,0,101000,,34.674997,33.044286
+CYP,Chipre,Larnaca,Q171882,Larnaca Municipality,0,72000,,34.916666666667,33.633333333333
+CYP,Chipre,Strovolos,Q668370,Nicósia,0,67904,,35.13671129,33.34850576
+CYP,Chipre,Nicósia (Norte),Q2762100,Distrito de Nicósia,0,61378,,35.19,33.363611111111
+CYP,Chipre,Nicosia Municipality,Q56037497,Nicósia,0,55014,,35.16952664,33.3608661
+CYP,Chipre,Larnaca Municipality,Q55099871,Larnaca,0,51214,,34.9155034,33.61976824
+CYP,Chipre,Famagusta,Q193190,Gazimağusa District,0,40920,,35.116666666667,33.95
+CYP,Chipre,Famagusta Municipality,Q56118759,Famagusta,0,38960,,35.11755298,33.94335461
+CYP,Chipre,Lakatamia,Q349503,Nicósia,0,38345,,35.11171774,33.31263982
+CYP,Chipre,Pafos,Q180918,Pafos,0,35961,,34.77612852,32.42651039
+CYP,Chipre,Cirénia,Q206760,Girne District,0,33207,,35.340277777778,33.319166666667
+CYP,Chipre,Cirénia,Q206760,Kyrenia,0,33207,,35.340277777778,33.319166666667
+CYP,Chipre,Paphos Municipality,Q56046916,Pafos,0,32892,,34.77441474,32.42290729
+CYP,Chipre,Kato Polemidia,Q2423938,Limassol,0,23174,,34.69313,32.999197
+CYP,Chipre,Aglandjia,Q2542169,Nicósia,0,20783,,35.14934501,33.39253622
+CYP,Chipre,Aradippou,Q2009604,Larnaca,0,19199,,34.94779146,33.58812756
+CYP,Chipre,Engomi,Q2430556,Nicósia,0,18010,,35.15596349,33.31354606
+CYP,Chipre,Latsia,Q2430447,Nicósia,0,16774,,35.09681029,33.37732184
+CZE,Tchéquia,Praga,Q1085,Chéquia,1,1397880,,50.0875,14.421388888889
+CZE,Tchéquia,Brno,Q14960,Brno (distrito),0,402739,,49.195277777778,16.608333333333
+CZE,Tchéquia,Ostrava,Q8385,Ostrava,0,327371,,49.835555555556,18.2925
+CZE,Tchéquia,Plzeň,Q43453,Distrito de Plzeň-Ciudad,0,187928,,49.741388888889,13.3825
+CZE,Tchéquia,Liberec,Q146351,Liberec,0,108090,,50.766666666667,15.05
+CZE,Tchéquia,Olomouc,Q81137,administrative district of Czech municipality with expanded powers Olomouc,0,106063,,49.593888888889,17.250833333333
+CZE,Tchéquia,Olomouc,Q81137,Olomouc,0,106063,,49.593888888889,17.250833333333
+CZE,Tchéquia,Ústí nad Labem,Q156974,Ústí nad Labem,0,100002,,50.659166666667,14.041666666667
+CZE,Tchéquia,Hradec Králové,Q180139,Q89660615,0,99917,,50.209166666667,15.831944444444
+CZE,Tchéquia,Hradec Králové,Q180139,Hradec Králové,0,99917,,50.209166666667,15.831944444444
+CZE,Tchéquia,Hradec Králové,Q180139,Reino da Boémia,0,99917,,50.209166666667,15.831944444444
+CZE,Tchéquia,České Budějovice,Q16506,Q89276496,0,97377,,48.974722222222,14.474722222222
+CZE,Tchéquia,České Budějovice,Q16506,České Budějovice,0,97377,,48.974722222222,14.474722222222
+CZE,Tchéquia,Pardubice,Q36989,Q89751681,0,94636,,50.03861,15.77916
+CZE,Tchéquia,Pardubice,Q36989,Pardubice,0,94636,,50.03861,15.77916
+CZE,Tchéquia,Havířov,Q192904,Karviná (distrito),0,89920,,49.777777777778,18.422777777778
+CZE,Tchéquia,Havířov,Q192904,Havířov (administrative district),0,89920,,49.777777777778,18.422777777778
+CZE,Tchéquia,Nové Město,Q753219,Praga,0,87329,,50.0767,14.4264
+CZE,Tchéquia,Zlín,Q171018,Q89187599,0,84522,,49.233055555556,17.666944444444
+CZE,Tchéquia,Zlín,Q171018,Zlín (distrito),0,84522,,49.233055555556,17.666944444444
+DEU,Alemanha,Berlim,Q64,Alemanha,1,4332834,,52.516666666667,13.383333333333
+DEU,Alemanha,Hamburgo,Q1055,Alemanha,0,1910160,,53.55,10.0
+DEU,Alemanha,Munique,Q1726,Alta Baviera,0,1512491,,48.1375,11.575
+DEU,Alemanha,Colónia,Q365,Colónia,0,1087863,,50.942222222222,6.9577777777778
+DEU,Alemanha,Frankfurt am Main,Q1794,Darmstadt,0,775790,,50.110555555556,8.6822222222222
+DEU,Alemanha,Düsseldorf,Q1718,Düsseldorf,0,702596,,51.225555555556,6.7766666666667
+DEU,Alemanha,Bremen,Q1209,Alemanha,0,693204,,53.133333333333,8.7333333333333
+DEU,Alemanha,Essen,Q2066,Düsseldorf,0,677568,,51.450833333333,7.0130555555556
+DEU,Alemanha,Dresden,Q1731,Saxónia,0,649252,,51.0493286,13.7381437
+DEU,Alemanha,Dortmund,Q1295,Arnsberg,0,642680,,51.513888888889,7.4652777777778
+DEU,Alemanha,Estugarda,Q1022,Reino de Württemberg,0,639103,,48.7775,9.18
+DEU,Alemanha,Estugarda,Q1022,Estugarda,0,639103,,48.7775,9.18
+DEU,Alemanha,Estugarda,Q1022,Neckarkreis,0,639103,,48.7775,9.18
+DEU,Alemanha,Leipzig,Q2079,Saxónia,0,625341,,51.33962,12.37129
+DEU,Alemanha,Duisburgo,Q2100,Düsseldorf,0,591635,,51.432222222222,6.7611111111111
+DEU,Alemanha,Hanôver,Q1715,Hanôver,0,580555,,52.374444444444,9.7386111111111
+DEU,Alemanha,Bremen,Q24879,Bremen,0,577026,,53.075833333333,8.8072222222222
+DEU,Alemanha,Nuremberga,Q2090,Média Francónia,0,526091,,49.453888888889,11.0775
+DEU,Alemanha,Bochum,Q2103,Arnsberg,0,414842,,51.483333333333,7.2166666666667
+DEU,Alemanha,Wuppertal,Q2107,Düsseldorf,0,405369,,51.266666666667,7.1833333333333
+DJI,Djibuti,Djibouti,Q3604,Djibouti Region,1,647000,,11.595,43.148055555556
+DJI,Djibuti,Ali Sabieh,Q842854,Região de Ali Sabieh,0,71230,,11.155833333333,42.7125
+DJI,Djibuti,Dikhil,Q620625,Dikhil,0,35000,,11.108611111111,42.366666666667
+DJI,Djibuti,Obock,Q860179,Região de Obock,0,21200,,11.966666666667,43.283333333333
+DJI,Djibuti,Tadjourah,Q820972,Região de Tadjourah,0,14820,,11.783333333333,42.883333333333
+DMA,Dominica,Roseau,Q36281,Saint George,1,16582,,15.3,-61.383333333333
+DMA,Dominica,Portsmouth,Q1014235,Saint John,0,3633,,15.573611111111,-61.459722222222
+DNK,Dinamarca,Copenhaga,Q1748,Região da Capital,1,768105,,55.676111111111,12.568888888889
+DNK,Dinamarca,Município de Copenhaga,Q504125,Região da Capital,0,633021,,55.675277777778,12.570277777778
+DNK,Dinamarca,Aarhus Municipality,Q240262,Jutlândia Central,0,361544,,56.1667,10.25
+DNK,Dinamarca,Aarhus,Q25319,Aarhus Municipality,0,310956,,56.156388888889,10.209722222222
+DNK,Dinamarca,Aalborg Municipality,Q300856,Jutlândia do Norte,0,210316,,57.046388888889,9.9191666666667
+DNK,Dinamarca,Odense,Q21146,Dinamarca do Sul,0,197480,,55.395966666667,10.388536111111
+DNK,Dinamarca,Odense,Q25331,Odense,0,185480,,55.4,10.383333333333
+DNK,Dinamarca,Aalborg,Q25410,Aalborg Municipality,0,128644,,57.05,9.9166666666667
+DNK,Dinamarca,Esbjerg Municipality,Q645747,Dinamarca do Sul,0,115748,,55.46666668,8.45000001
+DNK,Dinamarca,Esbjerg,Q26234,Esbjerg Municipality,0,115459,,55.470833333333,8.4513888888889
+DNK,Dinamarca,Vejle,Q28150,Dinamarca do Sul,0,111743,,55.705,9.5327777777778
+DNK,Dinamarca,Frederiksberg,Q30096,Frederiksberg Municipality,0,105840,,55.6779,12.5327
+DNK,Dinamarca,Frederiksberg Municipality,Q2488464,Região da Capital,0,104987,,55.677777777778,12.533333333333
+DNK,Dinamarca,Odense Municipality (1838-1970),Q88525327,Odense County,0,102814,,,
+DNK,Dinamarca,Randers Municipality,Q512457,Jutlândia Central,0,97520,,56.459722,10.036111
+DNK,Dinamarca,Viborg Municipality,Q502962,Jutlândia Central,0,95776,,56.45,9.3666694444444
+DNK,Dinamarca,Kolding,Q21101,Dinamarca do Sul,0,93161,,55.49,9.47
+DNK,Dinamarca,Horsens,Q512064,Jutlândia Central,0,90966,,55.86,9.84
+DNK,Dinamarca,Silkeborg Municipality,Q505151,Jutlândia Central,0,90719,,56.1783,9.5514
+DNK,Dinamarca,Herning,Q506877,Jutlândia Central,0,87593,,56.133333333333,8.9833333333333
+DOM,República Dominicana,São Domingos,Q34820,Distrito Nacional,1,2201941,,18.4625,-69.936111111111
+DOM,República Dominicana,Santiago de los Caballeros,Q42763,Santiago,0,1343423,,19.45,-70.7
+DOM,República Dominicana,Santo Domingo Este,Q2713354,Santo Domingo,0,948855,,18.485497222222,-69.873405555556
+DOM,República Dominicana,Santo Domingo Norte,Q3949487,Santo Domingo,0,529390,,18.55,-69.9
+DOM,República Dominicana,Santo Domingo Oeste,Q3949488,Santo Domingo,0,363321,,18.5,-70.0
+DOM,República Dominicana,San Felipe de Puerto Plata,Q988413,Puerto Plata,0,338339,,19.795833,-70.694444
+DOM,República Dominicana,Concepción de la Vega,Q538953,La Vega,0,282055,,19.224167,-70.528333
+DOM,República Dominicana,San Cristóbal,Q373759,San Cristóbal,0,275232,,18.416666666667,-70.133333333333
+DOM,República Dominicana,Los Alcarrizos,Q2560011,Santo Domingo,0,272776,,18.516666666667,-70.016666666667
+DOM,República Dominicana,Higüey,Q1020261,La Altagracia,0,251243,,18.618055555556,-68.711111111111
+DOM,República Dominicana,San Pedro de Macorís,Q680596,San Pedro de Macorís,0,217141,,18.457222,-69.306111
+DOM,República Dominicana,San Francisco de Macorís,Q681999,Duarte,0,188118,,19.3,-70.25
+DOM,República Dominicana,San Juan de la Maguana,Q2430320,San Juan,0,169032,,18.81,-71.23
+DOM,República Dominicana,Bonao,Q2306136,Monseñor Nouel,0,158034,,18.93333333,-70.4
+DOM,República Dominicana,Baní,Q1902349,Peravia,0,157316,,18.29,-70.33
+DOM,República Dominicana,Bajos de Haina,Q2438383,San Cristóbal,0,155985,,18.42,-70.03
+DOM,República Dominicana,Boca Chica,Q888935,Santo Domingo,0,142019,,18.453888888889,-69.606388888889
+DOM,República Dominicana,La Romana,Q40508,La Romana,0,139238,,18.43,-68.97
+DOM,República Dominicana,Santa Cruz de Barahona,Q958586,Barahona,0,138159,,18.2079,-71.0996
+DOM,República Dominicana,Azua de Compostela,Q1836680,Azua,0,128264,,18.46,-70.74
+DZA,Argélia,Argel,Q3561,Argel,1,3415811,,36.776388888889,3.0586111111111
+DZA,Argélia,Orã,Q131818,Orã,0,852000,,35.696944444444,-0.63305555555556
+DZA,Argélia,Constantina,Q187346,Constantina,0,465138,,36.365,6.6147222222222
+DZA,Argélia,Annaba,Q45942,Annaba,0,464740,,36.9,7.7666666666667
+DZA,Argélia,Batna,Q338844,Batna,0,290645,,35.55,6.1666666666667
+DZA,Argélia,Setif,Q244004,Sétif,0,288461,,36.19,5.41
+DZA,Argélia,Djelfa,Q2794758,Djelfa,0,265833,,34.666666666667,3.25
+DZA,Argélia,Sidi Bel Abbès,Q852276,Sidi Bel Abbès,0,212935,,35.2,-0.63333333333333
+DZA,Argélia,Biskra,Q312759,Biskra,0,204661,,34.85,5.7333333333333
+DZA,Argélia,Tébessa,Q984575,Tébessa,0,194461,,35.4,8.1166666666667
+DZA,Argélia,Blida,Q216990,arrondissement of Blida,0,191000,,36.472222222222,2.8333333333333
+DZA,Argélia,Blida,Q216990,Blida,0,191000,,36.472222222222,2.8333333333333
+DZA,Argélia,Tiaret,Q565568,Tiaret,0,178915,,35.366666666667,1.3166666666667
+DZA,Argélia,Bugia,Q59975,Bugia,0,176139,,36.751111111111,5.0641666666667
+DZA,Argélia,Tlemcen,Q185134,Tlemcen,0,173531,,34.882777777778,-1.3166666666667
+DZA,Argélia,Bordj Bou Arreridj,Q544733,Bordj Bou Arreridj,0,168346,,36.066666666667,4.7666666666667
+DZA,Argélia,Béchar,Q638704,Béchar,0,165627,,31.616388888889,-2.2183333333333
+DZA,Argélia,Skikda,Q2292517,Skikda,0,163318,,36.866666666667,6.9
+DZA,Argélia,Tizi-Ouzou,Q277201,Tizi Ouzou,0,156775,,36.716944444444,4.0497222222222
+DZA,Argélia,Souk Ahras,Q402992,Souk Ahras,0,155259,,36.286388888889,7.9511111111111
+ECU,Equador,Guaiaquil,Q43509,Guayaquil,0,2723665,,-2.19,-79.8875
+ECU,Equador,Quito,Q2900,Quito,1,2011388,,-0.22,-78.5125
+ECU,Equador,Cuenca,Q54886,Cuenca,0,361524,,-2.8974138888889,-79.004480555556
+ECU,Equador,Santo Domingo,Q1015654,Santo Domingo,0,334826,,-0.25416666666667,-79.171944444444
+ECU,Equador,Durán,Q1120810,Durán,0,295211,,-2.1733333333333,-79.831111111111
+ECU,Equador,Machala,Q215080,Machala,0,288072,,-3.2666666666667,-79.966666666667
+ECU,Equador,Manta,Q990738,Manta,0,258697,,-0.95002222222222,-80.7162
+ECU,Equador,Portoviejo,Q990716,Portoviejo,0,244129,,-1.0544444444444,-80.454444444444
+ECU,Equador,Loja,Q944697,Loja,0,203496,,-3.9905555555556,-79.205
+ECU,Equador,Quevedo,Q773225,Quevedo Canton,0,177792,,-1.0333333333333,-79.45
+ECU,Equador,Quevedo,Q773225,Los Ríos,0,177792,,-1.0333333333333,-79.45
+ECU,Equador,Ambato,Q210161,Ambato,0,177316,,-1.2422222222222,-78.628888888889
+ECU,Equador,Riobamba,Q478675,Riobamba,0,177213,,-1.6730555555556,-78.648333333333
+ECU,Equador,Riobamba,Q478675,Chimboraço,0,177213,,-1.6730555555556,-78.648333333333
+ECU,Equador,Daule,Q1014430,Daule,0,161498,,-1.86666667,-79.98333333
+ECU,Equador,Daule,Q1014430,Guaias,0,161498,,-1.86666667,-79.98333333
+ECU,Equador,Milagro,Q773238,Milagro Canton,0,159970,,-2.1347222222222,-79.587222222222
+ECU,Equador,Ibarra,Q946384,Ibarra Canton,0,157941,,0.362778,-78.13
+ECU,Equador,Esmeraldas,Q149955,Esmeraldas,0,155487,,0.95,-79.666666666667
+ECU,Equador,La Libertad,Q1798895,La Libertad Canton,0,112154,,-2.23333333,-80.9

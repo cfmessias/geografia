@@ -1,0 +1,173 @@
+year,season,noc,iso3,country_pt,gold,silver,bronze,total
+1904,summer,AUT,AUT,Áustria,0,0,1,0
+1904,summer,CAN,CAN,Canadá,4,1,1,4
+1904,summer,SUI,CHE,Suíça,1,0,1,1
+1904,summer,CUB,CUB,Cuba,4,2,3,4
+1904,summer,GER,DEU,Alemanha,4,4,5,4
+1904,summer,GBR,GBR,Reino Unido,1,1,0,1
+1904,summer,GRE,GRC,Grécia,1,0,1,1
+1904,summer,HUN,HUN,Hungria,2,1,1,2
+1904,summer,USA,USA,Estados Unidos,78,82,79,78
+1908,summer,AUT,AUT,Áustria,0,0,1,1
+1908,summer,BEL,BEL,Bélgica,1,5,2,8
+1908,summer,CAN,CAN,Canadá,3,3,10,16
+1908,summer,GER,DEU,Alemanha,3,5,5,13
+1908,summer,DEN,DNK,Dinamarca,0,2,3,5
+1908,summer,FIN,FIN,Finlândia,1,1,3,5
+1908,summer,FRA,FRA,França,5,5,9,19
+1908,summer,GRE,GRC,Grécia,0,3,1,4
+1908,summer,HUN,HUN,Hungria,3,4,2,9
+1908,summer,ITA,ITA,Itália,2,2,0,4
+1908,summer,NOR,NOR,Noruega,2,3,3,8
+1908,summer,SWE,SWE,Suécia,8,6,11,25
+1908,summer,USA,USA,Estados Unidos,23,12,12,47
+1908,summer,RSA,ZAF,África do Sul,1,1,0,2
+1924,summer,ARG,ARG,Argentina,1,3,2,1
+1924,summer,AUS,AUS,Austrália,3,1,2,3
+1924,summer,AUT,AUT,Áustria,0,3,1,0
+1924,summer,BEL,BEL,Bélgica,3,7,3,3
+1924,summer,CAN,CAN,Canadá,0,3,1,0
+1924,summer,SUI,CHE,Suíça,7,8,10,7
+1924,summer,DEN,DNK,Dinamarca,2,5,2,2
+1924,summer,EST,EST,Estónia,1,1,4,1
+1924,summer,FIN,FIN,Finlândia,14,13,10,14
+1924,summer,FRA,FRA,França,13,15,10,13
+1924,summer,GBR,GBR,Reino Unido,9,13,12,9
+1924,summer,HAI,HTI,Haiti,0,0,1,0
+1924,summer,HUN,HUN,Hungria,2,3,4,2
+1924,summer,ITA,ITA,Itália,8,3,5,8
+1924,summer,JPN,JPN,Japão,0,0,1,0
+1924,summer,NED,NLD,,4,1,5,4
+1924,summer,NOR,NOR,Noruega,5,2,3,5
+1924,summer,NZL,NZL,Nova Zelândia,0,0,1,0
+1924,summer,POL,POL,Polónia,0,1,1,0
+1924,summer,POR,PRT,Portugal,0,0,1,0
+1924,summer,ROU,ROU,Roménia,0,0,1,0
+1924,summer,SWE,SWE,Suécia,4,13,12,4
+1924,summer,URU,URY,Uruguai,1,0,0,1
+1924,summer,USA,USA,Estados Unidos,45,27,27,45
+1924,summer,RSA,ZAF,África do Sul,1,1,1,1
+1928,summer,ARG,ARG,Argentina,3,3,1,3
+1928,summer,AUS,AUS,Austrália,1,2,1,1
+1928,summer,AUT,AUT,Áustria,2,0,1,2
+1928,summer,BEL,BEL,Bélgica,0,1,2,0
+1928,summer,CAN,CAN,Canadá,4,4,7,4
+1928,summer,SUI,CHE,Suíça,7,4,4,7
+1928,summer,CHI,CHL,Chile,0,1,0,0
+1928,summer,GER,DEU,Alemanha,10,7,14,10
+1928,summer,DEN,DNK,Dinamarca,3,1,2,3
+1928,summer,EGY,EGY,Egito,2,1,1,2
+1928,summer,ESP,ESP,Espanha,1,0,0,1
+1928,summer,EST,EST,Estónia,2,1,2,2
+1928,summer,FIN,FIN,Finlândia,8,8,9,8
+1928,summer,FRA,FRA,França,6,10,5,6
+1928,summer,GBR,GBR,Reino Unido,3,10,7,3
+1928,summer,HAI,HTI,Haiti,0,1,0,0
+1928,summer,HUN,HUN,Hungria,4,5,0,4
+1928,summer,IND,IND,Índia,1,0,0,1
+1928,summer,IRL,IRL,República da Irlanda,1,0,0,1
+1928,summer,ITA,ITA,Itália,7,5,7,7
+1928,summer,JPN,JPN,Japão,2,2,1,2
+1928,summer,NED,NLD,,6,9,4,6
+1928,summer,NOR,NOR,Noruega,1,2,1,1
+1928,summer,NZL,NZL,Nova Zelândia,1,0,0,1
+1928,summer,PHI,PHL,Filipinas,0,0,1,0
+1928,summer,POL,POL,Polónia,1,1,3,1
+1928,summer,POR,PRT,Portugal,0,0,1,0
+1928,summer,SWE,SWE,Suécia,7,6,12,7
+1928,summer,URU,URY,Uruguai,1,0,0,1
+1928,summer,USA,USA,Estados Unidos,22,18,16,22
+1928,summer,RSA,ZAF,África do Sul,1,0,2,1
+1932,summer,ARG,ARG,Argentina,3,1,0,4
+1932,summer,AUS,AUS,Austrália,3,1,1,5
+1932,summer,AUT,AUT,Áustria,1,1,3,5
+1932,summer,BEL,BEL,Bélgica,0,0,1,1
+1932,summer,CAN,CAN,Canadá,2,5,9,16
+1932,summer,GER,DEU,Alemanha,5,12,7,24
+1932,summer,DEN,DNK,Dinamarca,0,5,3,8
+1932,summer,FIN,FIN,Finlândia,5,8,12,25
+1932,summer,FRA,FRA,França,11,5,4,20
+1932,summer,GBR,GBR,Reino Unido,5,7,5,17
+1932,summer,HUN,HUN,Hungria,6,5,5,16
+1932,summer,IND,IND,Índia,1,0,0,1
+1932,summer,IRL,IRL,República da Irlanda,2,0,0,2
+1932,summer,ITA,ITA,Itália,12,12,12,36
+1932,summer,JPN,JPN,Japão,7,7,4,18
+1932,summer,LAT,LVA,Letónia,0,1,0,1
+1932,summer,MEX,MEX,México,0,2,0,2
+1932,summer,NED,NLD,,2,5,1,8
+1932,summer,PHI,PHL,Filipinas,0,0,3,3
+1932,summer,POL,POL,Polónia,3,2,4,9
+1932,summer,SWE,SWE,Suécia,10,5,9,24
+1932,summer,RSA,ZAF,África do Sul,2,0,3,5
+1948,summer,FRA,FRA,França,1,1,0,2
+1948,summer,POR,PRT,Portugal,0,0,1,1
+1948,summer,SWE,SWE,Suécia,1,0,0,1
+1948,summer,USA,USA,Estados Unidos,0,1,1,2
+1960,summer,ARG,ARG,Argentina,0,1,1,2
+1960,summer,AUS,AUS,Austrália,8,8,6,22
+1960,summer,AUT,AUT,Áustria,1,1,0,2
+1960,summer,BEL,BEL,Bélgica,0,2,2,4
+1960,summer,BUL,BGR,Bulgária,1,3,3,7
+1960,summer,BRA,BRA,Brasil,0,0,2,2
+1960,summer,CAN,CAN,Canadá,0,1,0,1
+1960,summer,SUI,CHE,Suíça,0,3,3,6
+1960,summer,DEN,DNK,Dinamarca,2,3,1,6
+1960,summer,ETH,ETH,Etiópia,1,0,0,1
+1960,summer,FIN,FIN,Finlândia,1,1,3,5
+1960,summer,FRA,FRA,França,0,2,3,5
+1960,summer,GBR,GBR,Reino Unido,2,6,12,20
+1960,summer,HUN,HUN,Hungria,6,8,7,21
+1960,summer,IRI,IRN,Irão,0,1,3,4
+1960,summer,IRQ,IRQ,Iraque,0,0,1,1
+1960,summer,JPN,JPN,Japão,4,7,7,18
+1960,summer,NED,NLD,,0,1,2,3
+1960,summer,PAK,PAK,Paquistão,1,0,1,2
+1960,summer,POL,POL,Polónia,4,6,11,21
+1960,summer,ROU,ROU,Roménia,3,1,6,10
+1960,summer,SWE,SWE,Suécia,1,2,3,6
+1960,summer,TUR,TUR,Turquia,7,2,0,9
+1960,summer,USA,USA,Estados Unidos,34,21,16,71
+1976,winter,AUT,AUT,Áustria,2,2,2,2
+1976,winter,CAN,CAN,Canadá,1,1,1,1
+1976,winter,SUI,CHE,Suíça,1,3,1,1
+1976,winter,FIN,FIN,Finlândia,2,4,1,2
+1976,winter,FRA,FRA,França,0,0,1,0
+1976,winter,GBR,GBR,Reino Unido,1,0,0,1
+1976,winter,ITA,ITA,Itália,1,2,1,1
+1976,winter,LIE,LIE,Liechtenstein,0,0,2,0
+1976,winter,NED,NLD,,1,2,3,1
+1976,winter,NOR,NOR,Noruega,3,3,1,3
+1976,winter,SWE,SWE,Suécia,0,0,2,0
+1976,winter,USA,USA,Estados Unidos,3,3,4,3
+1980,winter,AUT,AUT,Áustria,3,2,2,3
+1980,winter,BUL,BGR,Bulgária,0,0,1,0
+1980,winter,CAN,CAN,Canadá,0,1,1,0
+1980,winter,SUI,CHE,Suíça,1,1,3,1
+1980,winter,FIN,FIN,Finlândia,1,5,3,1
+1980,winter,FRA,FRA,França,0,0,1,0
+1980,winter,GBR,GBR,Reino Unido,1,0,0,1
+1980,winter,HUN,HUN,Hungria,0,1,0,0
+1980,winter,ITA,ITA,Itália,0,2,0,0
+1980,winter,JPN,JPN,Japão,0,1,0,0
+1980,winter,LIE,LIE,Liechtenstein,2,2,0,2
+1980,winter,NED,NLD,,1,2,1,1
+1980,winter,NOR,NOR,Noruega,1,3,6,1
+1980,winter,SWE,SWE,Suécia,3,0,1,3
+1980,winter,USA,USA,Estados Unidos,6,4,2,6
+1984,winter,CAN,CAN,Canadá,2,1,1,4
+1984,winter,SUI,CHE,Suíça,2,2,1,5
+1984,winter,FIN,FIN,Finlândia,4,3,6,13
+1984,winter,ITA,ITA,Itália,2,0,0,2
+1984,winter,NOR,NOR,Noruega,3,2,4,9
+1984,winter,SWE,SWE,Suécia,4,2,2,8
+1984,winter,USA,USA,Estados Unidos,4,4,0,8
+2010,winter,AUT,AUT,Áustria,4,6,6,16
+2010,winter,SUI,CHE,Suíça,6,0,3,9
+2010,winter,CHN,CHN,China,5,2,4,11
+2010,winter,GER,DEU,Alemanha,10,13,7,30
+2010,winter,KOR,KOR,Coreia do Sul,6,6,2,14
+2010,winter,NED,NLD,,4,1,3,8
+2010,winter,NOR,NOR,Noruega,9,8,6,23
+2010,winter,SWE,SWE,Suécia,5,2,5,12
+2010,winter,USA,USA,Estados Unidos,9,15,13,37

@@ -6,26 +6,7 @@ import streamlit as st
 import pandas as pd
 import altair as alt
 import plotly.express as px
-from services.offline_store import (
-    list_available_countries,
-    load_profiles_master,
-    wb_series_for_country,
-    cities_for_iso3,
-    unesco_for_iso3,
-    leaders_for_iso3,
-    load_olympics_summer_csv,
-    load_religion,
-    load_migration_ts,
-    load_migration_latest,
-    load_flag_info,
-    # --- NOVOS ---
-    load_tourism_ts,
-    load_tourism_latest,
-    tourism_origin_for_iso3,
-    tourism_purpose_for_iso3,
-    migration_inout_for_iso3,
-    load_migration_inout,
-)
+import plotly.graph_objects as go
 
 
 # -------------------------- Helpers --------------------------
@@ -82,12 +63,22 @@ def _country_selector(countries_df: pd.DataFrame) -> tuple[str | None, str | Non
     return chosen, iso3
 
 def render_migration_section(iso3: str) -> None:
-    # -------- Migração
-    with st.expander("Migração"):
-        latest = load_migration_latest()
-        ts     = load_migration_ts()
+    
 
-        # Mapas (WDI)
+    # ✔ usar as versões filtradas
+    from services.offline_store import (
+        load_migration_latest_for_iso3,
+        load_migration_ts_for_iso3,
+        load_migration_inout_for_iso3,   # nova
+        # (opcional) versões "tudo" ficam disponíveis só para debug:
+        load_migration_inout,            # existe no teu código
+    )
+
+    with st.expander("Migração"):
+        # ——— WDI (apenas do país) ———
+        latest = load_migration_latest_for_iso3(iso3)
+        ts     = load_migration_ts_for_iso3(iso3)
+
         kmap = {
             "SM.POP.TOTL":         "Migrantes (stock, pessoas)",
             "SM.POP.TOTL.ZS":      "Migrantes (% população)",
@@ -110,13 +101,11 @@ def render_migration_section(iso3: str) -> None:
                 v = float(v)
             except Exception:
                 return "—"
-            if kind == "pct":
-                return f"{v:.1f}%"
-            return f"{int(round(v)):,}".replace(",", " ")
+            return f"{v:.1f}%" if kind == "pct" else f"{int(round(v)):,}".replace(",", " ")
 
-        def _latest_and_prev(df_all: pd.DataFrame, code: str, iso3_code: str):
+        def _latest_and_prev(df_iso: pd.DataFrame, code: str):
             d = (
-                df_all[(df_all["iso3"]==str(iso3_code).upper()) & (df_all["indicator"]==code)]
+                df_iso[df_iso["indicator"] == code]
                 .dropna(subset=["value"])
                 .sort_values("year")
             )
@@ -126,11 +115,11 @@ def render_migration_section(iso3: str) -> None:
             prev = d.iloc[-2] if len(d) > 1 else None
             return last, prev
 
-        # ─ Cards WDI (com ano e delta)
+        # ─ Cards WDI
         cols = st.columns(3)
         i = 0
         for code, label in kmap.items():
-            last, prev = _latest_and_prev(ts, code, iso3)
+            last, prev = _latest_and_prev(latest if not latest.empty else ts, code)
             if last is None:
                 continue
             year = int(last["year"])
@@ -142,13 +131,14 @@ def render_migration_section(iso3: str) -> None:
             cols[i%3].metric(f"{label} · {year}", _fmt(val, unit_fmt.get(code,"int")), delta=delta_txt)
             i += 1
 
-        # ─ Série temporal WDI (últimos 30 anos)
+        # ─ Série temporal (últimos 30 anos) — só do país
         series_opts = [(kmap[k], k) for k in kmap.keys()]
-        sel_lbl = st.selectbox("Série temporal (WDI — últimos 30 anos)", [x[0] for x in series_opts], index=0, key=f"mig_wdi_{iso3}")
+        sel_lbl = st.selectbox("Série temporal (WDI — últimos 30 anos)",
+                               [x[0] for x in series_opts], index=0, key=f"mig_wdi_{iso3}")
         code = dict(series_opts)[sel_lbl]
 
         base = (
-            ts[(ts["iso3"]==str(iso3).upper()) & (ts["indicator"]==code)]
+            ts[ts["indicator"]==code]
             .dropna(subset=["value"])
             .copy()
             .sort_values("year")
@@ -158,7 +148,6 @@ def render_migration_section(iso3: str) -> None:
             base = base.dropna(subset=["year"]).drop_duplicates(subset=["year"], keep="last")
             sub  = base.tail(30).copy()
             y_min, y_max = int(sub["year"].min()), int(sub["year"].max())
-
             st.altair_chart(
                 alt.Chart(sub)
                 .mark_line(point=True)
@@ -174,33 +163,21 @@ def render_migration_section(iso3: str) -> None:
 
         st.markdown("---")
 
-        # ─ Emigração vs. Imigração (UN DESA — últimos 30 anos)
-
-        # (opcional) limpa a cache para garantir leitura do CSV atual
-        try:
-            load_migration_inout.cache_clear()
-        except Exception:
-            pass
-
-        # lê TUDO e mostra debug SEMPRE que quiseres
-        df_all = load_migration_inout()
-        print(" inout:", "linhas", len(df_all), "cols", list(df_all.columns))
-        print(df_all)
-        st.markdown("---")
+        # ——— UN DESA (apenas do país) ———
         st.subheader("Emigração vs. Imigração (UN DESA) — últimos 30 anos")
 
-        if st.checkbox("debug UN DESA", key=f"dbg_mig_{iso3}"):
-            st.write("UN DESA total linhas:", len(df_all), list(df_all.columns))
-            linhas_iso = 0 if df_all.empty else int((df_all["iso3"] == str(iso3).upper()).sum())
-            st.write(f"Linhas {iso3}:", linhas_iso)
-            if linhas_iso:
-                st.dataframe(
-                    df_all[df_all["iso3"] == str(iso3).upper()].tail(10),
-                    use_container_width=True,
-                )
+        # Carrega só as linhas do país (filtrado a montante)
+        io_df = load_migration_inout_for_iso3(iso3)
 
-        # filtra p/ o país
-        io_df = migration_inout_for_iso3(iso3)
+        # (opcional) carregar o dataset completo SÓ se assinalares debug
+        if st.checkbox("debug UN DESA (carregar dataset completo)", key=f"dbg_mig_{iso3}"):
+            df_all = load_migration_inout()
+            st.write("UN DESA total linhas:", len(df_all), list(df_all.columns))
+            st.write(f"Linhas {iso3}:", int((df_all["iso3"] == str(iso3).upper()).sum()))
+            st.dataframe(
+                df_all[df_all["iso3"] == str(iso3).upper()].tail(10),
+                use_container_width=True,
+            )
 
         if io_df.empty:
             st.caption("— sem dados UN DESA para este país —")
@@ -212,46 +189,33 @@ def render_migration_section(iso3: str) -> None:
             io_df = io_df.dropna(subset=["year"]).sort_values("year").tail(30)
 
             long = io_df.melt(
-            id_vars="year",
-            value_vars=["immigrants", "emigrants"],
-            var_name="tipo",
-            value_name="valor",
+                id_vars="year",
+                value_vars=["immigrants", "emigrants"],
+                var_name="tipo",
+                value_name="valor",
             )
-
             long["tipo"] = long["tipo"].map({"immigrants": "Imigração", "emigrants": "Emigração"})
 
-            # — cores fixas: Imigração=verde, Emigração=encarnado
             color_enc = alt.Color(
                 "tipo:N",
                 title="",
-                scale=alt.Scale(
-                    domain=["Imigração", "Emigração"],
-                    range=["#2E7D32", "#E53935"],  # verde, encarnado
-                ),
-                legend=alt.Legend(orient="right")
+                scale=alt.Scale(domain=["Imigração", "Emigração"], range=["#2E7D32", "#E53935"]),
+                legend=alt.Legend(orient="right"),
             )
-
-            # — eixo X só com os anos que existem nos dados
             years_sorted = sorted(int(y) for y in long["year"].dropna().unique())
-            x_enc = alt.X("year:O", title="Ano", sort=years_sorted)   # 'O' = ordinal → só mostra anos presentes
+            x_enc = alt.X("year:O", title="Ano", sort=years_sorted)
 
             st.altair_chart(
-                alt.Chart(long)
-                .mark_line(point=True)
-                .encode(
+                alt.Chart(long).mark_line(point=True).encode(
                     x=x_enc,
                     y=alt.Y("valor:Q", title="Pessoas"),
                     color=color_enc,
-                    tooltip=[
-                        alt.Tooltip("year:O", title="Ano"),
-                        "tipo:N",
-                        alt.Tooltip("valor:Q", title="Pessoas", format=",.0f"),
-                    ],
-                )
-                .properties(height=260),
+                    tooltip=[alt.Tooltip("year:O", title="Ano"), "tipo:N",
+                             alt.Tooltip("valor:Q", title="Pessoas", format=",.0f")],
+                ).properties(height=260),
                 use_container_width=True,
             )
-            # métricas do último ano
+
             last_year = int(io_df["year"].max())
             last_row  = io_df[io_df["year"] == last_year].iloc[0]
             c1, c2 = st.columns(2)
@@ -259,6 +223,7 @@ def render_migration_section(iso3: str) -> None:
             c2.metric(f"Emigração · {last_year}", f"{last_row['emigrants']:,.0f}".replace(",", " "))
 
 def _profile_by_iso3(iso3: str) -> dict:
+    from services.offline_store import load_profiles_master
     df = load_profiles_master()
     if not df.empty:
         row = df[df["iso3"].astype(str).str.upper() == str(iso3).upper()]
@@ -293,7 +258,21 @@ def _mini_line(df: pd.DataFrame, ycol: str, ytitle: str):
 # -------------------------- UI principal --------------------------
 
 def render_paises_tab():
-    st.caption("Ficha de país (dados locais CSV)")
+    from services.offline_store import (
+        list_available_countries,
+        wb_series_for_country,
+        cities_for_iso3,
+        unesco_for_iso3,
+        leaders_for_iso3,
+        load_olympics_summer_csv,
+        load_religion,
+        load_flag_info,
+        load_tourism_ts,
+        load_tourism_latest,
+        tourism_origin_for_iso3,
+        tourism_purpose_for_iso3,
+    )
+    #st.caption("Ficha de país (dados locais CSV)")
 
     countries = list_available_countries()
     if countries.empty:
@@ -493,10 +472,13 @@ def render_paises_tab():
     # -------- Cidades
     with st.expander("Principais cidades"):
         cities = cities_for_iso3(iso3)
-        if not cities.empty:
+        if cities.empty:
+            st.info("Sem cidades. Corre `scripts/fetch_cities.py`.")
+        else:
             c = cities.copy()
 
-            for k in ("city","admin","type","is_capital","population","year"):
+            # garantir colunas esperadas (incluindo lat/lon)
+            for k in ("city","admin","type","is_capital","population","year","lat","lon"):
                 if k not in c.columns:
                     c[k] = pd.NA
 
@@ -512,6 +494,7 @@ def render_paises_tab():
             if c.empty:
                 st.info("Sem cidades válidas após limpeza.")
             else:
+                # —— tabela (como já tinhas) —— #
                 c["__year"] = pd.to_numeric(c["year"], errors="coerce")
                 c["__pop"]  = pd.to_numeric(c["population"], errors="coerce")
 
@@ -538,14 +521,11 @@ def render_paises_tab():
                 latest = c.loc[idx_latest, ["city","is_capital","population","__year"]].rename(
                     columns={"__year":"year"}
                 )
-
                 agg = (
                     c.groupby("city", as_index=False, observed=False)
                     .agg(admin=("admin", _join_unique), type=("type", _join_unique))
                 )
-                show = latest.merge(agg, on="city", how="left")
-
-                show = show.rename(columns={
+                show = latest.merge(agg, on="city", how="left").rename(columns={
                     "city": "Cidade",
                     "admin": "Região (P131)",
                     "type": "Tipo",
@@ -559,21 +539,64 @@ def render_paises_tab():
                 if "Ano" in show.columns:
                     show["Ano"] = show["Ano"].apply(lambda x: "" if pd.isna(x) else str(int(x)))
                 if "População" in show.columns:
-                    show["População"] = show["População"].apply(lambda v: "" if pd.isna(v) else f"{int(v):,}".replace(",", " "))
+                    show["População"] = show["População"].apply(
+                        lambda v: "" if pd.isna(v) else f"{int(v):,}".replace(",", " ")
+                    )
 
                 show["_cap"] = show["Capital?"].eq("Sim") if "Capital?" in show.columns else False
-                show["_pop"] = pd.to_numeric(show.get("População", 0).astype(str).str.replace(" ","").str.replace(",",""),
-                                            errors="coerce").fillna(0)
-                show = show.sort_values(["_cap","_pop","Cidade"], ascending=[False, False, True]).drop(columns=["_cap","_pop"])
-                show = show.drop(columns=["Tipo"], errors="ignore")
+                show["_pop"] = (
+                    pd.to_numeric(show.get("População", 0).astype(str).str.replace(" ","").str.replace(",",""),
+                                errors="coerce").fillna(0)
+                )
+                show = show.sort_values(["_cap","_pop","Cidade"], ascending=[False, False, True]) \
+                        .drop(columns=["_cap","_pop","Tipo"], errors="ignore")
                 cols = [c for c in ["Cidade","Capital?","Região (P131)","População","Ano"] if c in show.columns]
-                st.markdown("**Principais cidades / municípios (Wikidata – 1 linha por cidade)**")
-                st.dataframe(show[cols] if cols else show, use_container_width=True, hide_index=True)
-        else:
-            st.info("Sem cidades. Corre `scripts/fetch_cities.py`.")
 
-    
+                # —— layout: tabela à esquerda, mapa à direita —— #
+                colL, colR = st.columns([0.62, 0.38], gap="large")
+
+                with colL:
+                    st.markdown("**Principais cidades / municípios (Wikidata – 1 linha por cidade)**")
+                    st.dataframe(show[cols] if cols else show, use_container_width=True, hide_index=True)
+
+                with colR:
+                    st.markdown("**Mapa**")
+
+                    # garantir colunas e converter para float
+                    for k in ("lat", "lon"):
+                        if k not in c.columns:
+                            c[k] = pd.NA
+                    cc = c.copy()
+                    cc["lat"] = pd.to_numeric(cc["lat"], errors="coerce")
+                    cc["lon"] = pd.to_numeric(cc["lon"], errors="coerce")
+
+                    # 1º par válido por cidade + valores plausíveis
+                    pts = (
+                        cc.dropna(subset=["lat","lon"])
+                        .loc[cc["lat"].between(-90, 90) & cc["lon"].between(-180, 180),
+                            ["city","lat","lon"]]
+                        .drop_duplicates(subset=["city"], keep="first")
+                    )
+
+                    # diagnóstico rápido
+                    n_total = len(c)
+                    n_has_any_lat = int(cc["lat"].notna().sum())
+                    n_has_any_lon = int(cc["lon"].notna().sum())
+                    n_pts = len(pts)
+
+                    if n_pts > 0:
+                        st.map(pts[["lat","lon"]], use_container_width=True)
+                    else:
+                        st.caption(
+                            f"— Sem coordenadas para mapear — "
+                            f"(linhas: {n_total}, com lat: {n_has_any_lat}, com lon: {n_has_any_lon}, válidas: {n_pts})"
+                        )
+                        if st.checkbox("ver amostra das coords brutas", key=f"dbg_map_{iso3}"):
+                            st.dataframe(cc[["city","lat","lon"]].head(20), use_container_width=True, hide_index=True)
+
     # -------- UNESCO
+    
+
     with st.expander("Património Mundial (UNESCO)"):
         u = unesco_for_iso3(iso3)
 
@@ -601,21 +624,41 @@ def render_paises_tab():
                     "iso3": "first",
                 })
             )
-            u = u.rename(columns={"site":"Sítio","type":"Tipo","year":"Ano","lat":"lat","lon":"lon"})
+            u = u.rename(columns={"site":"Sítio","type":"Tipo","year":"Ano"})
             u["Ano"] = u["Ano"].apply(_fmt_year)
 
-            # ✅ ordenar por Tipo *depois* da agregação e rename
             if "Tipo" in u.columns:
-                u = u.sort_values("Tipo", ascending=True, kind="mergesort")  # estável
+                u = u.sort_values("Tipo", ascending=True, kind="mergesort")
 
-            st.dataframe(u[["Sítio","Tipo","Ano","lat","lon"]], use_container_width=True, hide_index=True)
+            cols = ["Sítio","Tipo","Ano","lat","lon"]
+
+            # viewport fixo -> scroll vertical automático
+            ROW_H, HDR_H, MAX_H = 28, 38, 420
+            n = len(u)
+            height = min(MAX_H, HDR_H + ROW_H * max(n, 1))
+
+            st.data_editor(
+                u[cols],
+                use_container_width=True,   # ocupa toda a largura do contentor
+                hide_index=True,
+                height=height,              # scroll vertical
+                disabled=True,              # read-only
+                column_config={
+                    "Sítio": st.column_config.TextColumn("Sítio"),
+                    "Tipo": st.column_config.TextColumn("Tipo"),
+                    "Ano": st.column_config.TextColumn("Ano"),
+                    "lat": st.column_config.NumberColumn("lat", format="%.4f"),
+                    "lon": st.column_config.NumberColumn("lon", format="%.4f"),
+                },
+            )
 
             if {"lat","lon"}.issubset(u.columns):
                 st.map(u[["lat","lon"]].dropna(), use_container_width=True)
         else:
             st.caption("—")
 
-    
+
+        
 
     # -------- Medalhas olímpicas
     with st.expander("Medalhas olímpicas (Totais e por edição)"):
@@ -626,6 +669,7 @@ def render_paises_tab():
         if cdf.empty:
             st.caption("— sem dados de medalhas de Verão no CSV manual —")
         else:
+            # ---- totais e gráfico ----
             vals = (
                 cdf.reindex(columns=["summer_gold", "summer_silver", "summer_bronze"])
                 .apply(pd.to_numeric, errors="coerce")
@@ -672,10 +716,8 @@ def render_paises_tab():
                 uniformtext_minsize=16,
                 uniformtext_mode="show",
             )
-            c1, c2, c3 = st.columns([1,3,1])
-            with c2:
-                st.plotly_chart(fig, use_container_width=True, config={"displayModeBar": False})
 
+            # ---- tabela por edição ----
             df_local = cdf.copy()
             for c in ("year", "city", "host_country"):
                 if c not in df_local.columns:
@@ -715,18 +757,25 @@ def render_paises_tab():
                 show_pt["Ano"] = show_pt["Ano"].apply(
                     lambda v: "" if pd.isna(v) or str(v).strip()=="" else f"{int(pd.to_numeric(v, errors='coerce'))}"
                 )
-            st.dataframe(
-                show_pt,
-                use_container_width=True,
-                hide_index=True,
-                column_config={
-                    "Ano":   st.column_config.TextColumn("Ano"),
-                    "Ouro":  st.column_config.NumberColumn("Ouro",   format="%d"),
-                    "Prata": st.column_config.NumberColumn("Prata",  format="%d"),
-                    "Bronze":st.column_config.NumberColumn("Bronze", format="%d"),
-                    "Total": st.column_config.NumberColumn("Total",  format="%d"),
-                },
-            )
+
+            # ---- layout lado a lado: tabela (esq) + gráfico (dir) ----
+            col_tab, col_fig = st.columns([3, 2], gap="medium")
+            with col_tab:
+                st.dataframe(
+                    show_pt,
+                    use_container_width=True,
+                    hide_index=True,
+                    column_config={
+                        "Ano":   st.column_config.TextColumn("Ano"),
+                        "Ouro":  st.column_config.NumberColumn("Ouro",   format="%d"),
+                        "Prata": st.column_config.NumberColumn("Prata",  format="%d"),
+                        "Bronze":st.column_config.NumberColumn("Bronze", format="%d"),
+                        "Total": st.column_config.NumberColumn("Total",  format="%d"),
+                    },
+                )
+            with col_fig:
+                st.plotly_chart(fig, use_container_width=True, config={"displayModeBar": False})
+
 
     # -------- Religiões
     with st.expander("Religiões"):
@@ -804,7 +853,7 @@ def render_paises_tab():
             st.caption("— sem dados de religião em data/religion.csv —")
 
    
-
+    
     # -------- Turismo
    
     with st.expander("Turismo"):

@@ -163,3 +163,161 @@ Traceback (most recent call last):
     result = non_optional_func(*args, **kwargs)
 TypeError: ButtonMixin.download_button() missing 1 required positional argument: 'data'
 
+
+--- 2025-09-26 22:12:15.295274Z ---
+Traceback (most recent call last):
+  File "C:\PythonProjects\emStreamlit\Geografia\meteo.py", line 98, in _safe_render
+    fn(*args, **kwargs)
+    ~~^^^^^^^^^^^^^^^^^
+  File "C:\PythonProjects\emStreamlit\Geografia\views\forecast.py", line 320, in render_forecast_tab
+    st.plotly_chart(
+    ~~~~~~~~~~~~~~~^
+        charts.bar(
+        ^^^^^^^^^^^
+    ...<3 lines>...
+        width="stretch"
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\PythonProjects\emStreamlit\Geografia\utils\streamlit_compat.py", line 26, in wrapper
+    return fn(*args, **kwargs)
+  File "C:\PythonProjects\emStreamlit\Geografia\utils\streamlit_compat.py", line 26, in wrapper
+    return fn(*args, **kwargs)
+  File "C:\PythonProjects\emStreamlit\Geografia\utils\streamlit_compat.py", line 26, in wrapper
+    return fn(*args, **kwargs)
+  [Previous line repeated 2 more times]
+  File "C:\Users\messias\AppData\Local\Programs\Python\Python313\Lib\site-packages\streamlit\runtime\metrics_util.py", line 410, in wrapped_func
+    result = non_optional_func(*args, **kwargs)
+  File "C:\Users\messias\AppData\Local\Programs\Python\Python313\Lib\site-packages\streamlit\elements\plotly_chart.py", line 509, in plotly_chart
+    plotly_chart_proto.id = compute_and_register_element_id(
+                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        "plotly_chart",
+        ^^^^^^^^^^^^^^^
+    ...<7 lines>...
+        use_container_width=use_container_width,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\messias\AppData\Local\Programs\Python\Python313\Lib\site-packages\streamlit\elements\lib\utils.py", line 225, in compute_and_register_element_id
+    _register_element_id(ctx, element_type, element_id)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\messias\AppData\Local\Programs\Python\Python313\Lib\site-packages\streamlit\elements\lib\utils.py", line 131, in _register_element_id
+    raise StreamlitDuplicateElementId(element_type)
+streamlit.errors.StreamlitDuplicateElementId: There are multiple `plotly_chart` elements with the same auto-generated ID. When this element is created, it is assigned an internal ID based on the element type and provided parameters. Multiple elements with the same type and parameters will cause this error.
+
+To fix this error, please pass a unique `key` argument to the `plotly_chart` element.
+
+
+--- 2025-09-26 22:12:20.197040Z ---
+Traceback (most recent call last):
+  File "C:\PythonProjects\emStreamlit\Geografia\meteo.py", line 98, in _safe_render
+    fn(*args, **kwargs)
+    ~~^^^^^^^^^^^^^^^^^
+  File "C:\PythonProjects\emStreamlit\Geografia\views\forecast.py", line 320, in render_forecast_tab
+    st.plotly_chart(
+    ~~~~~~~~~~~~~~~^
+        charts.bar(
+        ^^^^^^^^^^^
+    ...<3 lines>...
+        width="stretch"
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\PythonProjects\emStreamlit\Geografia\utils\streamlit_compat.py", line 26, in wrapper
+    return fn(*args, **kwargs)
+  File "C:\PythonProjects\emStreamlit\Geografia\utils\streamlit_compat.py", line 26, in wrapper
+    return fn(*args, **kwargs)
+  File "C:\PythonProjects\emStreamlit\Geografia\utils\streamlit_compat.py", line 26, in wrapper
+    return fn(*args, **kwargs)
+  [Previous line repeated 3 more times]
+  File "C:\Users\messias\AppData\Local\Programs\Python\Python313\Lib\site-packages\streamlit\runtime\metrics_util.py", line 410, in wrapped_func
+    result = non_optional_func(*args, **kwargs)
+  File "C:\Users\messias\AppData\Local\Programs\Python\Python313\Lib\site-packages\streamlit\elements\plotly_chart.py", line 509, in plotly_chart
+    plotly_chart_proto.id = compute_and_register_element_id(
+                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        "plotly_chart",
+        ^^^^^^^^^^^^^^^
+    ...<7 lines>...
+        use_container_width=use_container_width,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\messias\AppData\Local\Programs\Python\Python313\Lib\site-packages\streamlit\elements\lib\utils.py", line 225, in compute_and_register_element_id
+    _register_element_id(ctx, element_type, element_id)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\messias\AppData\Local\Programs\Python\Python313\Lib\site-packages\streamlit\elements\lib\utils.py", line 131, in _register_element_id
+    raise StreamlitDuplicateElementId(element_type)
+streamlit.errors.StreamlitDuplicateElementId: There are multiple `plotly_chart` elements with the same auto-generated ID. When this element is created, it is assigned an internal ID based on the element type and provided parameters. Multiple elements with the same type and parameters will cause this error.
+
+To fix this error, please pass a unique `key` argument to the `plotly_chart` element.
+
+
+--- 2025-09-26 22:12:34.494370Z ---
+Traceback (most recent call last):
+  File "C:\PythonProjects\emStreamlit\Geografia\meteo.py", line 98, in _safe_render
+    fn(*args, **kwargs)
+    ~~^^^^^^^^^^^^^^^^^
+  File "C:\PythonProjects\emStreamlit\Geografia\views\forecast.py", line 320, in render_forecast_tab
+    st.plotly_chart(
+    ~~~~~~~~~~~~~~~^
+        charts.bar(
+        ^^^^^^^^^^^
+    ...<3 lines>...
+        width="stretch"
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\PythonProjects\emStreamlit\Geografia\utils\streamlit_compat.py", line 26, in wrapper
+    return fn(*args, **kwargs)
+  File "C:\PythonProjects\emStreamlit\Geografia\utils\streamlit_compat.py", line 26, in wrapper
+    return fn(*args, **kwargs)
+  File "C:\PythonProjects\emStreamlit\Geografia\utils\streamlit_compat.py", line 26, in wrapper
+    return fn(*args, **kwargs)
+  [Previous line repeated 4 more times]
+  File "C:\Users\messias\AppData\Local\Programs\Python\Python313\Lib\site-packages\streamlit\runtime\metrics_util.py", line 410, in wrapped_func
+    result = non_optional_func(*args, **kwargs)
+  File "C:\Users\messias\AppData\Local\Programs\Python\Python313\Lib\site-packages\streamlit\elements\plotly_chart.py", line 509, in plotly_chart
+    plotly_chart_proto.id = compute_and_register_element_id(
+                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        "plotly_chart",
+        ^^^^^^^^^^^^^^^
+    ...<7 lines>...
+        use_container_width=use_container_width,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\messias\AppData\Local\Programs\Python\Python313\Lib\site-packages\streamlit\elements\lib\utils.py", line 225, in compute_and_register_element_id
+    _register_element_id(ctx, element_type, element_id)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\messias\AppData\Local\Programs\Python\Python313\Lib\site-packages\streamlit\elements\lib\utils.py", line 131, in _register_element_id
+    raise StreamlitDuplicateElementId(element_type)
+streamlit.errors.StreamlitDuplicateElementId: There are multiple `plotly_chart` elements with the same auto-generated ID. When this element is created, it is assigned an internal ID based on the element type and provided parameters. Multiple elements with the same type and parameters will cause this error.
+
+To fix this error, please pass a unique `key` argument to the `plotly_chart` element.
+
+
+--- 2025-09-27 09:34:45.340108Z ---
+Traceback (most recent call last):
+  File "C:\PythonProjects\emStreamlit\Geografia\meteo.py", line 98, in _safe_render
+    fn(*args, **kwargs)
+    ~~^^^^^^^^^^^^^^^^^
+  File "C:\PythonProjects\emStreamlit\Geografia\views\forecast.py", line 340, in render_forecast_tab
+    fig_precip_daily = charts.bar(
+        dfp, x="date", y="precip", color="source",
+        title=None, x_title="Data", y_title="mm", height=260
+    )
+TypeError: bar() got an unexpected keyword argument 'height'
+
+
+--- 2025-09-27 09:36:43.734879Z ---
+Traceback (most recent call last):
+  File "C:\PythonProjects\emStreamlit\Geografia\meteo.py", line 98, in _safe_render
+    fn(*args, **kwargs)
+    ~~^^^^^^^^^^^^^^^^^
+  File "C:\PythonProjects\emStreamlit\Geografia\views\forecast.py", line 340, in render_forecast_tab
+    fig_precip_daily = charts.bar(
+        dfp, x="date", y="precip", color="source",
+        title=None, x_title="Data", y_title="mm"
+    )
+TypeError: bar() got an unexpected keyword argument 'height'
+

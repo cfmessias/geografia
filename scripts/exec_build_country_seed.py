@@ -10,7 +10,7 @@ DATA_DIR     = PROJECT_ROOT / "data"
 OUT_SEED     = DATA_DIR / "countries_seed.csv"
 
 # Quais CSVs manter durante a limpeza
-KEEP_CSV_NAMES = {"demografia_mundial.csv","index.csv"}  # case-insensitive
+KEEP_CSV_NAMES = {"demografia_mundial.csv","index.csv","olympics_summer_manual.csv"}  # case-insensitive
 
 def slugify(s: str) -> str:
     s = re.sub(r"[^\w\-]+", "_", s, flags=re.U)
@@ -89,14 +89,14 @@ def run_aux_scripts() -> None:
         "fetch_worldbank_timeseries.py",
         "fetch_leaders.py",
         "fetch_unesco.py",
-        "fetch_olympics.py",
+        #"fetch_olympics.py",
         "fetch_gastronomy_all.py",
         "fetch_cities.py",
         "fetch_migration.py",
         "fetch_religion.py",
         "fetch_tourism_all.py",
         "fetch_migration_inout.py",
-        "fetch_cmip6_blobal.py",
+        "fetch_cmip6_global.py",
     ]
 
     # 1) pega nos preferidos que existam

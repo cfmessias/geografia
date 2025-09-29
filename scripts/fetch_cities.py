@@ -6,56 +6,71 @@ import csv, os, sys, time, random
 import pandas as pd
 import requests
 
+# ──────────────────────────────────────────────────────────────────────────────
+# Caminhos
+# ──────────────────────────────────────────────────────────────────────────────
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 SEED_PATH    = PROJECT_ROOT / "data" / "countries_seed.csv"
 OUT_PATH     = PROJECT_ROOT / "data" / "cities_all.csv"
+TMP_DIR      = PROJECT_ROOT / "data" / "tmp_cities"
 
-# ====== CONFIG ======
-TOP_N = 20
-REFRESH_ALL: bool = False            # True: recria ficheiro
-REFRESH_ISO3: set[str] = set()       # ex.: {"PRT","ESP"} para refazer só estes
-SKIP_DONE: bool = True               # salta países já presentes quando não em refresh
+# ──────────────────────────────────────────────────────────────────────────────
+# Config
+# ──────────────────────────────────────────────────────────────────────────────
+TOP_N = 20                       # nº final de cidades por país
+RAW_LIMIT = 1200                 # nº bruto sem ORDER BY (LIMIT obrigatório para evitar 504)
+REFRESH_ALL: bool = False        # True: recria ficheiro de saída
+REFRESH_ISO3: set[str] = set()   # ex.: {"PRT","ESP"} para reprocessar só estes
+SKIP_DONE: bool = True           # salta ISO3 já presentes quando não em refresh
 
-# tempo/ritmo
-TIMEOUT = 45
+# Ritmo / tolerância
+TIMEOUT = 90
 BASE_PAUSE = 0.35
 COOLDOWN_EVERY = 20
 COOLDOWN_SECS  = 8
 
 # HTTP
 WDQS = "https://query.wikidata.org/sparql"
-UA   = "GeoCities/4.0 (contact: teu_email@exemplo)"  # põe um contacto real
+UA   = "GeografiaApp/1.0 (+https://example.org; contact: you@example.org)"  # coloca contacto real
 WD_API = "https://www.wikidata.org/w/api.php"
 
-HEAD = ["iso3","country","city","city_qid","admin","is_capital","population","year"]
+# Cabeçalho (agora com lat/lon)
+HEAD = ["iso3","country","city","city_qid","admin","is_capital","population","year","lat","lon"]
 
-# ---------- util ----------
+# ──────────────────────────────────────────────────────────────────────────────
+# Util
+# ──────────────────────────────────────────────────────────────────────────────
 def load_seed() -> pd.DataFrame:
     if not SEED_PATH.exists():
         print(f"❌ Falta {SEED_PATH}. Corre scripts/build_country_seed.py", file=sys.stderr)
         sys.exit(1)
     df = pd.read_csv(SEED_PATH)
     for c in ("name_pt","name_en"):
-        if c not in df.columns: df[c] = ""
+        if c not in df.columns:
+            df[c] = ""
     return df
 
 def remove_iso3_from_csv(path: Path, iso3s: set[str]) -> None:
-    if not path.exists() or not iso3s: return
+    if not path.exists() or not iso3s:
+        return
     df = pd.read_csv(path)
     keep = ~df["iso3"].astype(str).str.upper().isin({i.upper() for i in iso3s})
-    if not keep.all(): df[keep].to_csv(path, index=False, encoding="utf-8")
+    if not keep.all():
+        df[keep].to_csv(path, index=False, encoding="utf-8")
 
 def read_done_iso3() -> set[str]:
-    if not OUT_PATH.exists(): return set()
+    if not OUT_PATH.exists():
+        return set()
     try:
         return set(pd.read_csv(OUT_PATH, usecols=["iso3"])["iso3"].astype(str).str.upper().unique())
     except Exception:
         return set()
 
-# ---------- HTTP ----------
+# ──────────────────────────────────────────────────────────────────────────────
+# HTTP helpers
+# ──────────────────────────────────────────────────────────────────────────────
 SQS = requests.Session()
 SQS.headers.update({"User-Agent": UA, "Accept": "application/sparql-results+json"})
-
 SWD = requests.Session()
 SWD.headers.update({"User-Agent": UA})
 
@@ -83,10 +98,9 @@ def sparql_post(q: str) -> dict | None:
     return None
 
 def wd_get_labels(qids: list[str], lang="pt") -> dict[str,str]:
-    """wbgetentities em batches para obter labels PT (fallback EN)."""
     out: dict[str,str] = {}
-    if not qids: return out
-    # remove vazios/duplicados
+    if not qids:
+        return out
     ids = [q for q in dict.fromkeys([q for q in qids if q])]
     for i in range(0, len(ids), 50):
         chunk = ids[i:i+50]
@@ -106,69 +120,189 @@ def wd_get_labels(qids: list[str], lang="pt") -> dict[str,str]:
                 time.sleep(0.4 * (attempt+1))
     return out
 
-# ---------- SPARQL (sem labels!) ----------
-def q_block(iso3: str) -> str:
-    # captura cidades Q515 e municipalities Q15284 num só pedido, sem SERVICE label
+# ──────────────────────────────────────────────────────────────────────────────
+# SPARQL SEM ORDER BY (LIMIT obrigatório para evitar timeouts)
+# ──────────────────────────────────────────────────────────────────────────────
+def q_block_no_order(iso3: str, raw_limit: int) -> str:
+    """
+    Sem ORDER BY e sem filtro de população.
+    Aceita cidade/município/assentamento humano e liga ao país por P17 direto OU via cadeia P131+.
+    """
     return f"""
-SELECT ?city ?admin (MAX(?pop_) AS ?pop) (SAMPLE(?yr_) AS ?yr) ?isCap WHERE {{
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX p: <http://www.wikidata.org/prop/>
+PREFIX ps: <http://www.wikidata.org/prop/statement/>
+PREFIX pq: <http://www.wikidata.org/prop/qualifier/>
+PREFIX psv: <http://www.wikidata.org/prop/statement/value/>
+PREFIX wikibase: <http://wikiba.se/ontology#>
+
+SELECT ?city ?admin ?pop ?yr ?isCap ?lat ?lon WHERE {{
+  # país por ISO3
   ?country wdt:P298 "{iso3}" .
-  OPTIONAL {{ ?country wdt:P36 ?capital }}
-  VALUES ?cls {{ wd:Q515 wd:Q15284 }}
-  ?city wdt:P17 ?country ;
-        wdt:P31/wdt:P279* ?cls ;
-        wdt:P1082 ?pop_ .
-  BIND(IF(BOUND(?capital) && ?city = ?capital, 1, 0) AS ?isCap)
-  OPTIONAL {{ ?city p:P1082 ?st . OPTIONAL {{ ?st pq:P585 ?yr_ }} }}
+
+  # capital (opcional)
+  OPTIONAL {{ ?country wdt:P36 ?capital . }}
+
+  # classes aceites: cidade, município, assentamento humano (e subtipos)
+  VALUES ?cls {{ wd:Q515 wd:Q15284 wd:Q486972 }}
+  ?city wdt:P31/wdt:P279* ?cls .
+
+  # pertença ao país: P17 direto OU via cadeia administrativa (P131+)
+  {{
+    ?city wdt:P17 ?country .
+  }} UNION {{
+    ?city (wdt:P131)+ ?admUnit .
+    ?admUnit wdt:P17 ?country .
+  }}
+
+  # admin (opcional)
   OPTIONAL {{ ?city wdt:P131 ?admin }}
+
+  # população: podem existir vários statements; escolhemos depois em Python
+  ?city p:P1082 ?stpop .
+  ?stpop ps:P1082 ?pop .
+  OPTIONAL {{ ?stpop pq:P585 ?yr }}
+
+  # coordenadas (opcional)
+  OPTIONAL {{
+    ?city p:P625 ?st .
+    ?st psv:P625 ?coord .
+    ?coord wikibase:geoLatitude ?lat ;
+           wikibase:geoLongitude ?lon .
+  }}
+
+  BIND(IF(BOUND(?capital) && ?city = ?capital, 1, 0) AS ?isCap)
 }}
-GROUP BY ?city ?admin ?isCap
-ORDER BY DESC(?pop)
-LIMIT {TOP_N}
+LIMIT {raw_limit}
 """
 
+
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Parse bruto
+# ──────────────────────────────────────────────────────────────────────────────
 def parse_rows(js: dict) -> list[tuple]:
+    """Tuplos: (city_qid, admin_q, is_cap, pop, yr, lat, lon)."""
     out = []
     for r in js.get("results", {}).get("bindings", []):
         g = lambda k: r.get(k, {}).get("value")
         city_qid = (g("city") or "").split("/")[-1]
         admin_q  = (g("admin") or "").split("/")[-1] if g("admin") else ""
-        cap      = 1 if (g("isCap") == "1") else 0
-        pop      = g("pop")
-        yr       = g("yr")
+        cap      = 1 if g("isCap") in ("1","true","True") else 0
+        pop, yr, lat, lon = g("pop"), g("yr"), g("lat"), g("lon")
+
         try: pop = int(float(pop)) if pop else None
-        except Exception: pop = None
-        try: yr  = int(yr) if yr else None
-        except Exception: yr = None
-        out.append((city_qid, admin_q, cap, pop, yr))
+        except: pop = None
+        try: yr = int(yr) if yr else None
+        except: yr = None
+        try: lat = float(lat) if lat else None
+        except: lat = None
+        try: lon = float(lon) if lon else None
+        except: lon = None
+
+        out.append((city_qid, admin_q, cap, pop, yr, lat, lon))
     return out
 
-# ---------- main ----------
+# ──────────────────────────────────────────────────────────────────────────────
+# Pipeline por país: query -> tmp -> dedupe+sort local -> Top-N -> final -> apaga tmp
+# ──────────────────────────────────────────────────────────────────────────────
 def process_iso3(iso3: str, country_name: str, writer: csv.writer) -> bool:
-    """Devolve True se escreveu linhas; False se falhou."""
-    js = sparql_post(q_block(iso3))
-    if not js:
-        return False
-    rows = parse_rows(js)
-    if not rows:
-        return True  # nada a gravar, mas não é falha
-    # labels via API (muito mais leve)
-    city_qids  = [q for q,_,_,_,_ in rows]
-    admin_qids = [q for _,q,_,_,_ in rows if q]
-    lbl_city   = wd_get_labels(city_qids, "pt")
-    lbl_admin  = wd_get_labels(admin_qids, "pt") if admin_qids else {}
+    # 1) Query SEM ORDER BY (LIMIT obrigatório)
+    js = sparql_post(q_block_no_order(iso3, raw_limit=RAW_LIMIT))
+    raw = parse_rows(js) if js else []
 
-    # escrever (dedupe será feito depois por iso3+city_qid quando for lido)
-    for cq, aq, cap, pop, yr in rows:
+    # 2) Guardar RAW em tmp SEMPRE (mesmo vazio) e mostrar caminho absoluto
+    TMP_DIR.mkdir(parents=True, exist_ok=True)
+    tmp_path = (TMP_DIR / f"{iso3}.csv").resolve()
+    df_raw = pd.DataFrame(raw, columns=["city_qid","admin_q","is_cap","pop","yr","lat","lon"])
+    df_raw.insert(0, "iso3", iso3)
+    df_raw.insert(1, "country", country_name)
+    df_raw.to_csv(tmp_path, index=False, encoding="utf-8")
+    print(f"[debug] {iso3}: {len(df_raw)} linhas brutas → tmp: {tmp_path}")
+
+    if df_raw.empty:
+        # nada para processar; deixa o tmp para inspecionar
+        return False  # marca como 'falhou' para reaparecer na lista de retries
+
+    # 3) (mantém o teu dedupe + sort por população desc + Top-N) …
+    by_city: dict[str, dict] = {}
+    for (cq, aq, cap, pop, yr, lat, lon) in raw:
+        if not cq:
+            continue
+        cur = by_city.get(cq)
+        if cur is None or (pop or -1) > (cur.get("pop") or -1):
+            by_city[cq] = {"admin_q": aq, "is_cap": int(bool(cap)), "pop": pop, "yr": yr, "lat": lat, "lon": lon}
+        else:
+            if cap:
+                cur["is_cap"] = 1
+            if not cur.get("admin_q") and aq:
+                cur["admin_q"] = aq
+
+    rows = []
+    for cq, d in by_city.items():
+        rows.append([cq, d.get("admin_q",""), d.get("is_cap",0), d.get("pop"), d.get("yr"), d.get("lat"), d.get("lon")])
+    df = pd.DataFrame(rows, columns=["city_qid","admin_q","is_cap","pop","yr","lat","lon"])
+
+    df["_pop_sort"] = df["pop"].fillna(-1)
+    df = df.sort_values(["_pop_sort","city_qid"], ascending=[False, True]).drop(columns=["_pop_sort"])
+    df_top = df.head(TOP_N).copy()
+
+    # 4) Salva também um preview das Top-N ao lado do tmp
+    top_path = (TMP_DIR / f"{iso3}_top.csv").resolve()
+    df_prev = df_top.copy()
+    df_prev.insert(0, "iso3", iso3)
+    df_prev.insert(1, "country", country_name)
+    df_prev.to_csv(top_path, index=False, encoding="utf-8")
+    print(f"[debug] {iso3}: Top {len(df_top)} preview → {top_path}")
+
+    # 5) Labels e escrita no ficheiro final (igual ao teu)
+    lbl_city  = wd_get_labels(df_top["city_qid"].tolist(), "pt")
+    admin_qids = [x for x in df_top["admin_q"].tolist() if x]
+    lbl_admin = wd_get_labels(admin_qids, "pt") if admin_qids else {}
+
+    wrote = 0
+    for _, r in df_top.iterrows():
+        cq = r["city_qid"]; aq = r["admin_q"] or ""
+        cap = int(r["is_cap"] or 0)
+        pop = int(r["pop"]) if pd.notna(r["pop"]) else None
+        yr  = int(r["yr"]) if pd.notna(r["yr"]) else None
+        lat = float(r["lat"]) if pd.notna(r["lat"]) else None
+        lon = float(r["lon"]) if pd.notna(r["lon"]) else None
         writer.writerow([
             iso3, country_name,
             lbl_city.get(cq, cq), cq,
-            lbl_admin.get(aq, ""), cap, pop, yr
+            lbl_admin.get(aq, ""), cap, pop, yr,
+            lat, lon
         ])
-    return True
+        wrote += 1
 
+    print(f"[ok] {iso3}: Top {len(df_top)} escritas")
+    # 6) REMOVE os temporários (como pediste)
+    try:
+        os.remove(tmp_path)
+        os.remove(top_path)
+    except OSError:
+        pass
+
+    return wrote > 0
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Main
+# ──────────────────────────────────────────────────────────────────────────────
 def main():
     seed = load_seed()
+
+    # Processar APENAS os ISO3 pedidos (se REFRESH_ISO3 definido)
+    if REFRESH_ISO3:
+        only = {i.upper() for i in REFRESH_ISO3}
+        before = len(seed)
+        seed = seed[seed["iso3"].astype(str).str.upper().isin(only)].copy()
+        print(f"[debug] seed filtrada: {len(seed)}/{before} países -> {sorted(only)}")
+
     OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
+    TMP_DIR.mkdir(parents=True, exist_ok=True)
+
     if REFRESH_ALL and OUT_PATH.exists():
         OUT_PATH.unlink()
     if REFRESH_ISO3:
@@ -190,6 +324,7 @@ def main():
         country = r.get("name_pt") or r.get("name_en") or iso3
         if not iso3:
             continue
+
         if SKIP_DONE and not REFRESH_ALL and (not REFRESH_ISO3 or iso3 not in {i.upper() for i in REFRESH_ISO3}):
             if iso3 in done:
                 continue
@@ -208,21 +343,15 @@ def main():
             print(f"  … cooldown {COOLDOWN_SECS}s", file=sys.stderr)
             time.sleep(COOLDOWN_SECS)
 
-    # segunda passada nos que falharam (timeout), com pausas maiores
-        # segunda passada nos que falharam (timeout), com pausas maiores
-        # segunda passada nos que falharam (timeout), com pausas maiores
+    # (opcional) segunda passada nos que falharam
     if failed:
         print(f"\n↻ Repetir países que falharam: {len(failed)}")
         time.sleep(3)
-        retry_base_pause = BASE_PAUSE * 1.8  # usa variável local, evita 'global'
         for iso3, country in failed:
             print(f"[retry] {iso3} {country}")
             ok = process_iso3(iso3, country, w)
             f.flush(); os.fsync(f.fileno())
-            # pequena pausa entre os retries
-            time.sleep(retry_base_pause + random.uniform(0, 0.2))
-
-
+            time.sleep(BASE_PAUSE * 1.8 + random.uniform(0, 0.2))
 
     f.close()
     print(f"✔️ Atualizado {OUT_PATH}")
