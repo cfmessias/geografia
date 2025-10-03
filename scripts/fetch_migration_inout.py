@@ -21,6 +21,7 @@ SEED_PATH = DATA_DIR / "countries_seed.csv"
 OUT_INOUT_ISO3 = DATA_DIR / "migration_inout.csv"
 OUT_INOUT_M49  = DATA_DIR / "migration_inout_m49.csv"
 CACHE_XLSX     = DATA_DIR / "migration_inout_source.xlsx"   # cache opcional
+MAP_UN_OFFICIAL = DATA_DIR / "un_m49_iso.csv" 
 
 S = requests.Session()
 S.headers.update({"User-Agent": UA})
@@ -322,16 +323,40 @@ def _extract_inout_from_xlsx(xlsx_bytes: bytes) -> pd.DataFrame:
     out["emigrants"]  = pd.to_numeric(out["emigrants"],  errors="coerce")
     return out.sort_values(["m49", "year"])
 
-def _m49_to_iso3_map(seed_path: Path) -> dict[int,str]:
-    if not seed_path.exists():
-        _log(f"⚠️  {seed_path} não existe — vou gravar apenas m49/country.")
+def _pick_col(df, *cands):
+    low = {str(c).strip().lower(): c for c in df.columns}
+    for n in cands:
+        k = str(n).strip().lower()
+        if k in low:
+            return low[k]
+    # fallback: remove não-alfanum (ex.: "ISO 3166-1 alpha-3 code")
+    def _norm(s): return "".join(ch for ch in str(s).lower() if ch.isalnum())
+    low2 = {_norm(c): c for c in df.columns}
+    for n in cands:
+        k = _norm(n)
+        if k in low2:
+            return low2[k]
+    return None
+
+def _load_un_official_map(path: Path) -> dict[int, str]:
+    if not path.exists():
         return {}
-    seed = pd.read_csv(seed_path)
-    if "name_en" not in seed.columns or "iso3" not in seed.columns:
-        _log("⚠️  countries_seed.csv sem name_en/iso3 — vou gravar apenas m49/country.")
+    df = pd.read_csv(path, sep=None, engine="python", encoding="utf-8-sig")
+    df.columns = df.columns.str.replace("\ufeff","", regex=False).str.strip()
+
+    # tenta vários cabeçalhos comuns da UN
+    m49c = _pick_col(df, "M49 code", "M49", "UN M49", "m49", "code")
+    i3c  = _pick_col(df, "ISO-alpha3 code", "ISO 3166-1 alpha-3 code",
+                        "alpha-3", "iso3", "ISO3", "Alpha-3 code")
+    if not m49c or not i3c:
+        _log(f"⚠️ Mapeamento UN sem colunas reconhecíveis. Colunas: {list(df.columns)}")
         return {}
-    seed["k"] = seed["name_en"].astype(str).map(_normalize_name).map(lambda x: NAME_FIX.get(x, x))
-    return dict(seed[["k","iso3"]].dropna().itertuples(index=False, name=None))
+
+    df[m49c] = pd.to_numeric(df[m49c], errors="coerce").astype("Int64")
+    df[i3c]  = df[i3c].astype(str).str.upper().str.strip()
+    df = df.dropna(subset=[m49c, i3c]).drop_duplicates(subset=[m49c])
+    return dict(df[[m49c, i3c]].itertuples(index=False, name=None))
+
 
 # ========================= Main ==========================
 def main():
@@ -386,24 +411,52 @@ def main():
     df.to_csv(OUT_INOUT_M49, index=False, sep=";", encoding="utf-8")
     _log(f"✔️ Escrevi {OUT_INOUT_M49} ({len(df):,} linhas)")
 
-    # mapear para ISO3 (opcional)
-    name_map = _m49_to_iso3_map(SEED_PATH)
-    if name_map:
-        seed = pd.read_csv(SEED_PATH)
-        seed["k"] = seed["name_en"].astype(str).map(_normalize_name).map(lambda x: NAME_FIX.get(x, x))
-        name_to_iso3 = dict(seed[["k","iso3"]].dropna().itertuples(index=False, name=None))
-
-        df_iso = df.copy()
-        # tenta via nome (m49 puro não está na seed — mapeamos pelo nome)
-        k = df_iso["country"].astype(str).map(_normalize_name).map(lambda x: NAME_FIX.get(x, x))
-        df_iso["iso3"] = k.map(name_to_iso3)
-
-        out = df_iso.dropna(subset=["iso3"])[["iso3","year","immigrants","emigrants"]].sort_values(["iso3","year"])
-        OUT_INOUT_ISO3.write_text("", encoding="utf-8")
-        out.to_csv(OUT_INOUT_ISO3, index=False, sep=";", encoding="utf-8")
-        _log(f"✔️ Escrevi {OUT_INOUT_ISO3} ({len(out):,} linhas)")
+    # mapear para ISO3 (robusto): 1) M49→ISO3, 2) fallback por NOME
+    # — construir mapping ISO3 (prioridade: UN oficial) —
+    m49_to_iso3 = _load_un_official_map(MAP_UN_OFFICIAL)
+    if m49_to_iso3:
+        _log(f"[map] a usar {MAP_UN_OFFICIAL.name} (UN oficial M49→ISO3)")
     else:
-        _log("⚠️  Sem mapeamento ISO3 (countries_seed.csv). Usa migration_inout_m49.csv ou fornece seed com name_en/iso3.")
+        # fallbacks (se quiseres manter)
+        _log(f"[map] {MAP_UN_OFFICIAL.name} não encontrado/sem colunas — a tentar iso_m49_map.csv / seed")
+        try:
+            m49_to_iso3, name_to_iso3 = _load_iso_m49_map(MAP_PATH)          # se tiveres este
+        except NameError:
+            m49_to_iso3, name_to_iso3 = ({}, {})
+        if not m49_to_iso3:
+            try:
+                m49_to_iso3, name_to_iso3 = _m49_to_iso3_from_seed(SEED_PATH)  # e este
+            except NameError:
+                m49_to_iso3, name_to_iso3 = ({}, {})
+            if not m49_to_iso3:
+                _log("⚠️ Sem mapeamento M49→ISO3. Fica apenas o migration_inout_m49.csv.")
+                return
+
+    # — aplicar mapping (apenas M49→ISO3) —
+    merged = df.copy()  # df: [m49,country,year,immigrants,emigrants]
+    merged["iso3"] = merged["m49"].map(m49_to_iso3)
+
+    # — escrever ISO3 —
+    out = (
+        merged.dropna(subset=["iso3"])[["iso3", "year", "immigrants", "emigrants"]]
+        .assign(
+            iso3=lambda d: d["iso3"].astype(str).str.upper().str.strip(),
+            year=lambda d: pd.to_numeric(d["year"], errors="coerce"),
+        )
+        .dropna(subset=["year"])
+        .sort_values(["iso3", "year"])
+    )
+    OUT_INOUT_ISO3.write_text("", encoding="utf-8")
+    out.to_csv(OUT_INOUT_ISO3, index=False, sep=";", encoding="utf-8")
+    _log(f"✔️ Escrevi {OUT_INOUT_ISO3} ({len(out):,} linhas)")
+
+    faltas = merged[merged["iso3"].isna()][["m49","country"]].drop_duplicates()
+    if not faltas.empty:
+        _log(f"ℹ️ M49 sem ISO3 no mapa UN: {len(faltas)} (p.ex.)")
+        _log(faltas.head(10).to_string(index=False))
+
+    else:
+        _log("⚠️ Sem mapeamento M49→ISO3 (countries_seed.csv). Usa migration_inout_m49.csv ou fornece seed com m49/iso3.")
 
 if __name__ == "__main__":
     main()

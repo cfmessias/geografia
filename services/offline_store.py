@@ -200,23 +200,35 @@ def unesco_for_iso3(iso3: str) -> pd.DataFrame:
 
 # ---- Leaders ----------------------------------------------------------------
 def load_leaders_current() -> pd.DataFrame:
-    df = _read_csv_safe(leaders_current_path, expected_cols=["iso3","country","role","person","person_qid","start","end"])
+    df = _read_csv_safe(
+        leaders_current_path,
+        expected_cols=["iso3","country","role","person","person_qid","start","end",
+                       "end_cause","party","party_qid"]
+    )
     if df.empty:
         return df
     df["iso3"] = df["iso3"].astype(str).str.upper()
     return df
 
 def load_leaders_history() -> pd.DataFrame:
-    df = _read_csv_safe(leaders_history_path, expected_cols=["iso3","country","role","person","person_qid","start","end"])
+    df = _read_csv_safe(
+        leaders_history_path,
+        expected_cols=["iso3","country","role","person","person_qid","start","end",
+                       "end_cause","party","party_qid"]
+    )
     if df.empty:
         return df
     df["iso3"] = df["iso3"].astype(str).str.upper()
     return df
 
-def leaders_for_iso3(iso3: str) -> Tuple[pd.DataFrame, pd.DataFrame]:
+def leaders_for_iso3(iso3: str) -> tuple[pd.DataFrame, pd.DataFrame]:
     iso3u = str(iso3).upper()
-    return (load_leaders_current().query("iso3 == @iso3u"),
-            load_leaders_history().query("iso3 == @iso3u"))
+    cur  = load_leaders_current()
+    hist = load_leaders_history()
+    return (
+        cur[cur["iso3"] == iso3u].copy(),
+        hist[hist["iso3"] == iso3u].copy(),
+    )
 
 # ---- Gastronomia ------------------------------------------------------------
 Gastro = namedtuple("Gastro", ["dishes", "beverages"])
@@ -926,3 +938,58 @@ def load_migration_inout_for_iso3(iso3: str) -> pd.DataFrame:
     df = pd.concat(frames, ignore_index=True)
     df = df.dropna(subset=["year"]).sort_values("year").drop_duplicates(subset=["year"], keep="last")
     return df[cols_out].reset_index(drop=True)
+
+
+# -----------------------
+# Consolidation footer
+# -----------------------
+
+# Ensure migration per-ISO3 function is available under both names.
+try:
+    load_migration_inout_for_iso3  # type: ignore[name-defined]
+except NameError:
+    # Fallback wrapper using the full loader if specific one isn't present
+    import pandas as pd
+    import streamlit as st
+    @st.cache_data(show_spinner=False)
+    def load_migration_inout_for_iso3(iso3: str) -> pd.DataFrame:
+        df = load_migration_inout() if 'load_migration_inout' in globals() else pd.DataFrame(columns=['iso3','year','immigrants','emigrants'])
+        if df.empty:
+            return df
+        df = df.copy()
+        df.columns = df.columns.str.replace('\ufeff','', regex=False).str.strip()
+        if 'iso3' not in df.columns or 'year' not in df.columns:
+            return pd.DataFrame(columns=['iso3','year','immigrants','emigrants'])
+        df['iso3'] = df['iso3'].astype(str).str.upper()
+        df['year'] = pd.to_numeric(df['year'], errors='coerce').astype('Int64')
+        for c in ('immigrants','emigrants'):
+            if c in df.columns:
+                df[c] = pd.to_numeric(df[c], errors='coerce')
+        out = df[df['iso3'] == str(iso3).upper()].dropna(subset=['year']).sort_values('year').drop_duplicates('year', keep='last')
+        return out[['iso3','year','immigrants','emigrants']] if set(['immigrants','emigrants']).issubset(out.columns) else out
+
+# Back-compat alias:
+migration_inout_for_iso3 = load_migration_inout_for_iso3
+
+# Curated export list (optional; comment out if you prefer wildcard imports)
+try:
+    __all__
+except NameError:
+    __all__ = [
+        # Cities / UNESCO / Leaders (if present in this module)
+        "load_cities_all","cities_for_iso3","country_has_cities",
+        "load_unesco_all","unesco_for_iso3",
+        "load_leaders_current","load_leaders_history","leaders_for_iso3",
+        # Tourism
+        "load_tourism_ts","load_tourism_latest","tourism_series_for_iso3",
+        "load_tourism_origin_eu","tourism_origin_for_iso3",
+        "load_tourism_purpose_eu","tourism_purpose_for_iso3",
+        # Migration (full and per-ISO3)
+        "load_migration_latest","load_migration_ts","load_migration_inout",
+        "load_migration_ts_for_iso3","load_migration_latest_for_iso3",
+        "load_migration_inout_for_iso3","migration_inout_for_iso3",
+        # World Bank
+        "load_worldbank_timeseries","wb_series_for_country",
+        # Misc profiles/countries (if present)
+        "list_available_countries","load_profiles_master"
+    ]

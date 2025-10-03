@@ -29,28 +29,31 @@ def _fmt_year(x) -> str:
 
 def _country_selector(countries_df: pd.DataFrame) -> tuple[str | None, str | None]:
     names = countries_df["name"].astype(str).tolist()
+    
+    # Inicializa o default
     if "pais_selected" not in st.session_state:
         st.session_state["pais_selected"] = "Portugal" if "Portugal" in names else (names[0] if names else None)
 
     with st.form("pais_form", clear_on_submit=False):
         q = st.text_input("Pesquisar (nome contém…)", value="", placeholder="ex.: Por, Bra, Ang…")
         opts = [n for n in names if q.lower() in n.lower()] if q else names
+        
         if not opts:
             st.warning("Nenhum país corresponde ao filtro.")
-            st.form_submit_button("🔎 Abrir")  # mantém o layout da form
+            st.form_submit_button("🔎 Abrir")
             return None, None
 
+        # Usa o pais_selected para definir o index
         idx = opts.index(st.session_state["pais_selected"]) if st.session_state["pais_selected"] in opts else 0
 
-        # --- select + botão na MESMA LINHA ---
         c1, c2 = st.columns([4, 1])
         with c1:
             chosen = st.selectbox(
                 "País",
                 options=opts,
                 index=idx,
-                key="pais_selectbox",
-                label_visibility="collapsed"  # para alinhar melhor com o botão
+                label_visibility="collapsed"
+                # SEM key - deixamos o form gerir o estado
             )
         with c2:
             submitted = st.form_submit_button("🔎 Abrir")
@@ -58,50 +61,74 @@ def _country_selector(countries_df: pd.DataFrame) -> tuple[str | None, str | Non
     if not submitted:
         return None, None
 
+    # Atualiza com o valor escolhido
     st.session_state["pais_selected"] = chosen
+    
     iso3 = countries_df.loc[countries_df["name"] == chosen, "iso3"].astype(str).str.upper().iloc[0]
     return chosen, iso3
 
 def render_migration_section(iso3: str) -> None:
-    
 
-    # ✔ usar as versões filtradas
     from services.offline_store import (
         load_migration_latest_for_iso3,
         load_migration_ts_for_iso3,
-        load_migration_inout_for_iso3,   # nova
-        # (opcional) versões "tudo" ficam disponíveis só para debug:
-        load_migration_inout,            # existe no teu código
+        load_migration_inout,     # UN DESA (full)
+        MIG_INOUT_CSV,            # Path p/ mostrar nome do ficheiro
     )
 
     with st.expander("Migração"):
-        # ——— WDI (apenas do país) ———
+        # ───────── WDI (apenas do país) ─────────
         latest = load_migration_latest_for_iso3(iso3)
         ts     = load_migration_ts_for_iso3(iso3)
 
         kmap = {
-            "SM.POP.TOTL":         "Migrantes (stock, pessoas)",
-            "SM.POP.TOTL.ZS":      "Migrantes (% população)",
-            "SM.POP.NETM":         "Migração líquida (pessoas)",
-            "SM.POP.REFG":         "Refugiados (asilo, pessoas)",
-            "BX.TRF.PWKR.CD.DT":   "Remessas recebidas (US$)",
-            "BX.TRF.PWKR.DT.GD.ZS":"Remessas (% PIB)",
+            #"SM.POP.TOTL":          "Migrantes (stock, pessoas)",
+            #"SM.POP.TOTL.ZS":       "Migrantes (% população)",
+            "SM.POP.NETM":          "Migração líquida (pessoas)",
+            #"SM.POP.REFG":          "Refugiados (asilo, pessoas)",
+            "BX.TRF.PWKR.CD.DT":    "Remessas recebidas (US$)",
+            "BX.TRF.PWKR.DT.GD.ZS": "Remessas (% PIB)",
         }
         unit_fmt = {
             "SM.POP.TOTL": "int",
             "SM.POP.TOTL.ZS": "pct",
             "SM.POP.NETM": "int",
             "SM.POP.REFG": "int",
-            "BX.TRF.PWKR.CD.DT": "int",
+            "BX.TRF.PWKR.CD.DT": "money",      # ← antes era "int"
             "BX.TRF.PWKR.DT.GD.ZS": "pct",
         }
 
-        def _fmt(v, kind):
+
+        def _fmt_value(v, kind, *, scale=None):
             try:
                 v = float(v)
             except Exception:
                 return "—"
-            return f"{v:.1f}%" if kind == "pct" else f"{int(round(v)):,}".replace(",", " ")
+            if kind == "pct":
+                return f"{v:.1f}%"
+            if kind == "money":
+                # deteta/força escala para alinhar com o delta
+                if scale is None:
+                    scale = "B" if abs(v) >= 1e9 else ("M" if abs(v) >= 1e6 else None)
+                if scale == "B":
+                    return f"{v/1e9:.2f} B"
+                if scale == "M":
+                    return f"{v/1e6:.2f} M"
+                return f"{int(round(v)):,}".replace(",", " ")
+            # int
+            return f"{int(round(v)):,}".replace(",", " ")
+
+        def _fmt_delta(delta, kind, *, ref_value=None):
+            if kind == "pct":
+                return f"{delta:+.1f} p.p."
+            if kind == "money":
+                ref_scale = "B" if (ref_value is not None and abs(ref_value) >= 1e9) else \
+                            ("M" if (ref_value is not None and abs(ref_value) >= 1e6) else None)
+                s = _fmt_value(delta, "money", scale=ref_scale)
+                return ("+" if delta > 0 else "") + s
+            # int
+            return f"{delta:+,.0f}".replace(",", " ")
+
 
         def _latest_and_prev(df_iso: pd.DataFrame, code: str):
             d = (
@@ -115,112 +142,201 @@ def render_migration_section(iso3: str) -> None:
             prev = d.iloc[-2] if len(d) > 1 else None
             return last, prev
 
-        # ─ Cards WDI
         cols = st.columns(3)
         i = 0
         for code, label in kmap.items():
-            last, prev = _latest_and_prev(latest if not latest.empty else ts, code)
+            src = latest if not latest.empty and (latest["indicator"] == code).any() else ts
+            last, prev = _latest_and_prev(src, code)
             if last is None:
                 continue
             year = int(last["year"])
-            val  = last["value"]
+            val  = float(last["value"])
+
+            # valor principal (usa B/M quando for dinheiro)
+            val_txt = _fmt_value(val, unit_fmt.get(code, "int"))
+
+            # delta na MESMA escala do valor principal
             delta_txt = ""
             if prev is not None and pd.notna(prev["value"]):
-                delta = val - prev["value"]
-                delta_txt = f"{delta:+.1f} p.p." if unit_fmt.get(code)=="pct" else f"{delta:+,.0f}".replace(",", " ")
-            cols[i%3].metric(f"{label} · {year}", _fmt(val, unit_fmt.get(code,"int")), delta=delta_txt)
+                delta = val - float(prev["value"])
+                delta_txt = _fmt_delta(delta, unit_fmt.get(code, "int"), ref_value=val)
+
+            cols[i % 3].metric(f"{label} · {year}", val_txt, delta=delta_txt)
             i += 1
 
-        # ─ Série temporal (últimos 30 anos) — só do país
-        series_opts = [(kmap[k], k) for k in kmap.keys()]
-        sel_lbl = st.selectbox("Série temporal (WDI — últimos 30 anos)",
-                               [x[0] for x in series_opts], index=0, key=f"mig_wdi_{iso3}")
-        code = dict(series_opts)[sel_lbl]
 
-        base = (
-            ts[ts["indicator"]==code]
-            .dropna(subset=["value"])
-            .copy()
-            .sort_values("year")
-        )
-        if not base.empty:
-            base["year"] = pd.to_numeric(base["year"], errors="coerce").astype("Int64")
-            base = base.dropna(subset=["year"]).drop_duplicates(subset=["year"], keep="last")
-            sub  = base.tail(30).copy()
-            y_min, y_max = int(sub["year"].min()), int(sub["year"].max())
+        # Série temporal (últimos 30 anos)
+        # ───────── Série temporal (WDI — desde 1990, máx. últimos 30 anos)
+        # ───────── Série temporal (WDI — desde 1990 até ao último ano disponível)
+        _FRAG = getattr(st, "fragment", None)
+
+        def _migration_wdi_timeseries(iso3: str, ts: pd.DataFrame, kmap: dict, unit_fmt: dict):
+            # opções (label→código)
+            series_opts = [(kmap[k], k) for k in kmap.keys()]
+            labels = [x[0] for x in series_opts]
+            code_by_label = dict(series_opts)
+
+            sel_lbl = st.selectbox(
+                "Série temporal (WDI — desde 1990)",
+                labels,
+                index=0,
+                key=f"mig_wdi_sel_{iso3}",  # impede refresh do resto
+            )
+            code = code_by_label[sel_lbl]
+
+            base = ts[(ts["iso3"] == iso3) & (ts["indicator"] == code)].copy()
+            if base.empty:
+                st.caption("— sem série temporal para o indicador selecionado —")
+                return
+
+            # coerção, ordenação e corte duro em 1990 (NÃO fazemos tail)
+            base["year"] = pd.to_numeric(base["year"], errors="coerce")
+            base["value"] = pd.to_numeric(base["value"], errors="coerce")
+            base = (
+                base.dropna(subset=["year", "value"])
+                    .sort_values("year")
+                    .drop_duplicates(subset=["year"], keep="last")
+            )
+            base = base.loc[base["year"] >= 1990, ["year", "value"]]
+
+            if base.empty:
+                st.caption("— sem observações desde 1990 —")
+                return
+
+            y_min, y_max = int(base["year"].min()), int(base["year"].max())
+            y_title = sel_lbl if unit_fmt.get(code) != "pct" else sel_lbl + " (%)"
+
             st.altair_chart(
-                alt.Chart(sub)
+                alt.Chart(base)
                 .mark_line(point=True)
                 .encode(
-                    x=alt.X("year:Q", title="Ano", scale=alt.Scale(domain=[y_min, y_max]), axis=alt.Axis(format="d")),
-                    y=alt.Y("value:Q", title=sel_lbl if unit_fmt.get(code)!="pct" else sel_lbl + " (%)"),
-                    tooltip=[alt.Tooltip("year:Q", title="Ano", format="d"),
-                             alt.Tooltip("value:Q", title="Valor", format=",.0f")]
+                    x=alt.X("year:Q", title="Ano",
+                            scale=alt.Scale(domain=[y_min, y_max]),
+                            axis=alt.Axis(format="d")),
+                    y=alt.Y("value:Q", title=y_title),
+                    tooltip=[
+                        alt.Tooltip("year:Q", title="Ano", format="d"),
+                        alt.Tooltip("value:Q", title="Valor", format=",.0f"),
+                    ],
                 )
                 .properties(height=240),
                 use_container_width=True
             )
 
+        # aplica fragment (Streamlit ≥ 1.32) para não refrescar o resto da página
+        if _FRAG:
+            _migration_wdi_timeseries = _FRAG(_migration_wdi_timeseries)
+
+        # chamada
+        _migration_wdi_timeseries(iso3, ts, kmap, unit_fmt)
+
+
+
         st.markdown("---")
 
-        # ——— UN DESA (apenas do país) ———
-        st.subheader("Emigração vs. Imigração (UN DESA) — últimos 30 anos")
+        # ───────── UN DESA (apenas do país, filtrado localmente) ─────────
+        df_all = load_migration_inout()
+        csv_name = getattr(MIG_INOUT_CSV, "name", "migration_inout.csv")
 
-        # Carrega só as linhas do país (filtrado a montante)
-        io_df = load_migration_inout_for_iso3(iso3)
+        if df_all.empty:
+            st.caption(f"— UN DESA: dataset vazio/não encontrado ({csv_name}) —")
+            return
 
-        # (opcional) carregar o dataset completo SÓ se assinalares debug
-        if st.checkbox("debug UN DESA (carregar dataset completo)", key=f"dbg_mig_{iso3}"):
-            df_all = load_migration_inout()
-            st.write("UN DESA total linhas:", len(df_all), list(df_all.columns))
-            st.write(f"Linhas {iso3}:", int((df_all["iso3"] == str(iso3).upper()).sum()))
-            st.dataframe(
-                df_all[df_all["iso3"] == str(iso3).upper()].tail(10),
-                use_container_width=True,
-            )
+        iso3u = str(iso3).upper()
+
+        # normalização leve de cabeçalhos
+        df = df_all.copy()
+        df.columns = df.columns.str.replace("\ufeff", "", regex=False).str.strip()
+
+        want = ["iso3", "year", "immigrants", "emigrants"]
+        missing = [c for c in want if c not in df.columns]
+        if missing:
+            st.caption(f"— UN DESA: cabeçalhos inesperados no {csv_name} — faltam: {missing} — lidos: {list(map(repr, df.columns))}")
+            return
+
+        # coerção + filtro ISO3
+        df["iso3"] = df["iso3"].astype(str).str.upper()
+        df["year"] = pd.to_numeric(df["year"], errors="coerce").astype("Int64")
+        df["immigrants"] = pd.to_numeric(df["immigrants"], errors="coerce")
+        df["emigrants"]  = pd.to_numeric(df["emigrants"],  errors="coerce")
+
+        io_df = (
+            df.loc[df["iso3"] == iso3u, want]
+              .dropna(subset=["year"])
+              .sort_values("year")
+              .drop_duplicates("year", keep="last")
+              .tail(30)
+              .copy()
+        )
 
         if io_df.empty:
-            st.caption("— sem dados UN DESA para este país —")
-        else:
-            io_df = io_df.copy()
-            io_df["year"] = pd.to_numeric(io_df["year"], errors="coerce").astype("Int64")
-            io_df["immigrants"] = pd.to_numeric(io_df["immigrants"], errors="coerce")
-            io_df["emigrants"]  = pd.to_numeric(io_df["emigrants"],  errors="coerce")
-            io_df = io_df.dropna(subset=["year"]).sort_values("year").tail(30)
+            st.caption(f"— sem dados UN DESA para este país — (no {csv_name} não há linhas para ISO3={iso3u})")
+            return
 
-            long = io_df.melt(
+        # dataset longo para as duas séries
+        long = (
+            io_df.melt(
                 id_vars="year",
                 value_vars=["immigrants", "emigrants"],
                 var_name="tipo",
                 value_name="valor",
             )
-            long["tipo"] = long["tipo"].map({"immigrants": "Imigração", "emigrants": "Emigração"})
+            .assign(tipo=lambda d: d["tipo"].map({"immigrants": "Imigração", "emigrants": "Emigração"}))
+        )
 
-            color_enc = alt.Color(
-                "tipo:N",
-                title="",
-                scale=alt.Scale(domain=["Imigração", "Emigração"], range=["#2E7D32", "#E53935"]),
-                legend=alt.Legend(orient="right"),
+        years_sorted = sorted(int(y) for y in long["year"].dropna().unique())
+
+        color_enc = alt.Color(
+            "tipo:N", title="",
+            scale=alt.Scale(domain=["Imigração", "Emigração"], range=["#2E7D32", "#E53935"]),
+            legend=alt.Legend(orient="right"),
+        )
+        x_enc = alt.X("year:O", title="Ano", sort=years_sorted)
+
+        # ── cálculo do delta e posição média (entre as linhas) ──
+        ann = io_df.copy()
+        ann["diff"]  = ann["emigrants"] - ann["immigrants"]              # >0: sai mais gente
+        ann["label"] = ann["diff"].apply(lambda x: f"{x/1_000:+.0f} K")  # em K, com sinal
+        ann["mid"]   = (ann["emigrants"] + ann["immigrants"]) / 2        # meio entre as séries
+
+        # linhas principais
+        lines = (
+            alt.Chart(long)
+            .mark_line(point=True)
+            .encode(
+                x=x_enc,
+                y=alt.Y("valor:Q", title="Pessoas"),
+                color=color_enc,
+                tooltip=[
+                    alt.Tooltip("year:O", title="Ano"),
+                    "tipo:N",
+                    alt.Tooltip("valor:Q", title="Pessoas", format=",.0f"),
+                ],
             )
-            years_sorted = sorted(int(y) for y in long["year"].dropna().unique())
-            x_enc = alt.X("year:O", title="Ano", sort=years_sorted)
+        )
 
-            st.altair_chart(
-                alt.Chart(long).mark_line(point=True).encode(
-                    x=x_enc,
-                    y=alt.Y("valor:Q", title="Pessoas"),
-                    color=color_enc,
-                    tooltip=[alt.Tooltip("year:O", title="Ano"), "tipo:N",
-                             alt.Tooltip("valor:Q", title="Pessoas", format=",.0f")],
-                ).properties(height=260),
-                use_container_width=True,
+        # rótulos do delta (entre as linhas) — cor clara para tema escuro
+        labels = (
+            alt.Chart(ann)
+            .mark_text(size=11, color="#E0E0E0", baseline="middle")   # ← visível no dark theme
+            .encode(
+                x=alt.X("year:O", sort=years_sorted, title="Ano"),
+                y=alt.Y("mid:Q"),
+                text="label:N",
+                tooltip=[
+                    alt.Tooltip("year:O", title="Ano"),
+                    alt.Tooltip("diff:Q", title="Δ (E−I)", format=",.0f"),
+                ],
             )
+        )
 
-            last_year = int(io_df["year"].max())
-            last_row  = io_df[io_df["year"] == last_year].iloc[0]
-            c1, c2 = st.columns(2)
-            c1.metric(f"Imigração · {last_year}", f"{last_row['immigrants']:,.0f}".replace(",", " "))
-            c2.metric(f"Emigração · {last_year}", f"{last_row['emigrants']:,.0f}".replace(",", " "))
+        st.altair_chart((lines + labels).properties(height=260), use_container_width=True)
+
+        # last_year = int(io_df["year"].max())
+        # last_row  = io_df[io_df["year"] == last_year].iloc[0]
+        # c1, c2 = st.columns(2)
+        # c1.metric(f"Imigração · {last_year}", f"{last_row['immigrants']:,.0f}".replace(",", " "))
+        # c2.metric(f"Emigração · {last_year}", f"{last_row['emigrants']:,.0f}".replace(",", " "))
 
 def _profile_by_iso3(iso3: str) -> dict:
     from services.offline_store import load_profiles_master
@@ -427,47 +543,51 @@ def render_paises_tab():
     # -------- Histórico de liderança
     with st.expander("Histórico de liderança"):
         cur_df, hist_df = leaders_for_iso3(iso3)
-
-        # Usa histórico se existir; caso contrário, mostra os atuais para não ficar vazio
         base = hist_df if (hist_df is not None and not hist_df.empty) else cur_df
 
         if base is not None and not base.empty:
             h = base.copy()
 
-            # Mapeamento das funções para PT
-            role_map = {
-                "head_of_state": "Presidente",
-                "head_of_government": "Chefe de governo",
-            }
+            # ─ normalizações (datas + labels PT)
+            role_map = {"head_of_state": "Presidente", "head_of_government": "Chefe de governo"}
             h["Função"] = h.get("role").map(role_map).fillna(h.get("role"))
-
-            # Datas em AAAA-MM-DD (string), sem "None"/NaT
             h["__start_dt"] = pd.to_datetime(h.get("start"), errors="coerce")
             h["__end_dt"]   = pd.to_datetime(h.get("end"),   errors="coerce")
             h["Início"] = h["__start_dt"].dt.strftime("%Y-%m-%d").fillna("")
             h["Fim"]    = h["__end_dt"].dt.strftime("%Y-%m-%d").fillna("")
 
-            # Seleção/renomeação de colunas para PT
-            show = pd.DataFrame({
-                "ISO3":   h.get("iso3"),
-                "País":   h.get("country"),
-                "Função": h["Função"],
-                "Pessoa": h.get("person"),
-                "QID":    h.get("person_qid"),
-                "Início": h["Início"],
-                "Fim":    h["Fim"],
-            })
+            # coluna Partido: usar labels; se não houver, fica vazio (não mostramos QIDs)
+            h["Partido"] = h.get("party").fillna("").astype(str).str.strip()
+            h["Causa do fim"] = h.get("end_cause").fillna("").astype(str)
 
-            # Ordenar por função e início (desc)
-            show = show.assign(__ord=h["__start_dt"]).sort_values(
-                ["Função", "__ord"], ascending=[True, False]
-            ).drop(columns="__ord")
+            def _prep(df: pd.DataFrame) -> pd.DataFrame:
+                if df is None or df.empty:
+                    return pd.DataFrame(columns=["Pessoa","Partido","Início","Fim","Causa do fim"])
+                show = pd.DataFrame({
+                    # "ISO3":   df.get("iso3"),        # se quiseres manter, descomenta
+                    # "País":   df.get("country"),
+                    "Pessoa": df.get("person"),
+                    "Partido": df.get("Partido"),
+                    "Início": df.get("Início"),
+                    "Fim":    df.get("Fim"),
+                    "Causa do fim": df.get("Causa do fim"),
+                })
+                return (show.assign(__ord=h.loc[show.index, "__start_dt"])
+                            .sort_values(["__ord"], ascending=[False])
+                            .drop(columns="__ord"))
 
-            st.dataframe(show, use_container_width=True, hide_index=True)
+            pres = _prep(h[h.get("role") == "head_of_state"])
+            gov  = _prep(h[h.get("role") == "head_of_government"])
 
+            c1, c2 = st.columns(2)
+            with c1:
+                st.markdown("**Presidentes**")
+                st.dataframe(pres, use_container_width=True, hide_index=True)
+            with c2:
+                st.markdown("**Chefes de Governo**")
+                st.dataframe(gov, use_container_width=True, hide_index=True)
         else:
             st.caption("—")
-
 
     # -------- Cidades
     with st.expander("Principais cidades"):
@@ -556,7 +676,7 @@ def render_paises_tab():
                 colL, colR = st.columns([0.62, 0.38], gap="large")
 
                 with colL:
-                    st.markdown("**Principais cidades / municípios (Wikidata – 1 linha por cidade)**")
+                    st.markdown("**Principais cidades / municípios **")
                     st.dataframe(show[cols] if cols else show, use_container_width=True, hide_index=True)
 
                 with colR:
@@ -595,8 +715,6 @@ def render_paises_tab():
                             st.dataframe(cc[["city","lat","lon"]].head(20), use_container_width=True, hide_index=True)
 
     # -------- UNESCO
-    
-
     with st.expander("Património Mundial (UNESCO)"):
         u = unesco_for_iso3(iso3)
 
@@ -656,9 +774,6 @@ def render_paises_tab():
                 st.map(u[["lat","lon"]].dropna(), use_container_width=True)
         else:
             st.caption("—")
-
-
-        
 
     # -------- Medalhas olímpicas
     with st.expander("Medalhas olímpicas (Totais e por edição)"):
@@ -799,66 +914,50 @@ def render_paises_tab():
             ]
             df_rel = pd.DataFrame(items, columns=["Religião", "% População"])
             df_rel["% População"] = pd.to_numeric(df_rel["% População"], errors="coerce").fillna(0.0)
+            df_rel = df_rel.sort_values("% População", ascending=False).reset_index(drop=True)
 
-            c1, c2 ,c3= st.columns([0.65, 0.3,1.05])
-            with c1:
-                st.dataframe(
-                    df_rel,
-                    use_container_width=True,
-                    hide_index=True,
-                    column_config={
-                        "Religião": st.column_config.TextColumn("Religião"),
-                        "% População": st.column_config.NumberColumn("% População", format="%.2f"),
-                    },
+            # texto formatado e posição do rótulo (ligeiro offset e clamp para não sair do gráfico)
+            df_rel["label"] = df_rel["% População"].map(lambda v: f"{v:.2f}")
+            df_rel["label_pos"] = (df_rel["% População"] + 0.8).clip(upper=99.2)  # 0.8 à direita, máximo 99.2
+
+            base = (
+                alt.Chart(df_rel)
+                .mark_bar()
+                .encode(
+                    y=alt.Y("Religião:N", sort="-x", title=""),
+                    x=alt.X("% População:Q",
+                            title="% população",
+                            scale=alt.Scale(domain=[0, 100])),   # eixo fixo 0–100
+                    tooltip=["Religião", alt.Tooltip("% População:Q", format=".2f")],
                 )
-            with c3:
-                maxv = max(1.0, float(df_rel["% População"].max()))
-                TOP_PAD = 32  # ↑ espaço extra no topo (px)
+                .properties(height=300)
+            )
 
-                base = (
-                    alt.Chart(df_rel)
-                    .mark_bar()
-                    .encode(
-                        y=alt.Y("Religião:N", sort="-x", title=""),
-                        x=alt.X("% População:Q", title="% população",
-                                scale=alt.Scale(domain=[0, maxv * 1.1])),
-                        tooltip=["Religião", alt.Tooltip("% População:Q", format=".2f")],
-                    )
-                    .properties(height=290)
+            labels = (
+                alt.Chart(df_rel)
+                .mark_text(align="left", baseline="middle", dx=3, color="#e6e6e6")  # texto claro p/ tema escuro
+                .encode(
+                    y="Religião:N",
+                    x="label_pos:Q",
+                    text="label:N",
                 )
-                labels = (
-                    alt.Chart(df_rel)
-                    .mark_text(align="left", baseline="middle", dx=3)
-                    .encode(
-                        y="Religião:N",
-                        x="% População:Q",
-                        text=alt.Text("% População:Q", format=".2f"),
-                    )
-                )
+            )
 
-                chart = base + labels
-
-                # Tenta padding nativo; se não existir (Altair mais antigo), usa spacer invisível
-                try:
-                    chart = chart.properties(padding={"top": TOP_PAD, "left": 5, "right": 10, "bottom": 5})
-                except TypeError:
-                    spacer = alt.Chart(pd.DataFrame({"_":[0]})).mark_text(text="").properties(height=TOP_PAD)
-                    chart = spacer & chart  # vconcat cria “margem” acima do gráfico
-
-                st.altair_chart(chart, use_container_width=True)
+            c1, c2,c3 = st.columns([1,8, 1])
+            with c2:
+                st.altair_chart(base + labels, use_container_width=True)
 
 
             st.caption(f"Ano de referência: {int(pd.to_numeric(r.get('source_year', 2010), errors='coerce'))}")
         else:
             st.caption("— sem dados de religião em data/religion.csv —")
 
-   
+    
     
     # -------- Turismo
-   
     with st.expander("Turismo"):
         # Carrega dados (World Bank WDI + Eurostat quando existir)
-        t_latest = load_tourism_latest()
+        #t_latest = load_tourism_latest()
         t_ts     = load_tourism_ts()
 
         # Mapas de rótulos e “tipos” para formatação
@@ -879,7 +978,7 @@ def render_paises_tab():
             "ST.INT.XPND.MP.ZS": "pct",
         }
 
-        def _fmt_tour(v, kind):
+        def _fmt_value(v, kind, *, scale=None):
             try:
                 v = float(v)
             except Exception:
@@ -887,10 +986,28 @@ def render_paises_tab():
             if kind == "pct":
                 return f"{v:.1f}%"
             if kind == "money":
-                if abs(v) >= 1e9:  return f"{v/1e9:.2f} B"
-                if abs(v) >= 1e6:  return f"{v/1e6:.2f} M"
+                # força escala (para o delta igualar a do valor principal)
+                if scale is None:
+                    scale = "B" if abs(v) >= 1e9 else ("M" if abs(v) >= 1e6 else None)
+                if scale == "B":
+                    return f"{v/1e9:.2f} B"
+                if scale == "M":
+                    return f"{v/1e6:.2f} M"
                 return f"{int(round(v)):,}".replace(",", " ")
+            # int
             return f"{int(round(v)):,}".replace(",", " ")
+
+        def _fmt_delta(delta, kind, *, ref_value=None):
+            # pct em p.p.; dinheiro segue a escala do valor principal
+            if kind == "pct":
+                return f"{delta:+.1f} p.p."
+            if kind == "money":
+                ref_scale = "B" if (ref_value is not None and abs(ref_value) >= 1e9) else \
+                            ("M" if (ref_value is not None and abs(ref_value) >= 1e6) else None)
+                s = _fmt_value(delta, "money", scale=ref_scale)
+                return ("+" if delta > 0 else "") + s
+            # int
+            return f"{delta:+,.0f}".replace(",", " ")
 
         def _latest_and_prev(df_all, code):
             """Devolve (último, anterior) para um indicador."""
@@ -913,120 +1030,110 @@ def render_paises_tab():
             if last is None:
                 continue
             year = int(last["year"])
-            val  = last["value"]
+            val  = float(last["value"])
+
+            # valor principal
+            val_txt = _fmt_value(val, unit.get(code, "int"))
+
+            # delta na mesma escala
             delta_txt = ""
             if prev is not None and pd.notna(prev["value"]):
-                delta = val - prev["value"]
-                if unit.get(code) == "pct":
-                    delta_txt = f"{delta:+.1f} p.p."
-                else:
-                    delta_txt = f"{delta:+,.0f}".replace(",", " ")
-            cols[i%3].metric(f"{label} · {year}", _fmt_tour(val, unit.get(code,"int")), delta=delta_txt)
+                delta = val - float(prev["value"])
+                delta_txt = _fmt_delta(delta, unit.get(code, "int"), ref_value=val)
+
+            cols[i % 3].metric(f"{label} · {year}", val_txt, delta=delta_txt)
             i += 1
 
-        # ───────────────────────── Série temporal (MOSTRAR SEMPRE os últimos 30 anos)
-        series_opts = [(kmap[k], k) for k in kmap.keys()]
-        sel_lbl = st.selectbox("Série temporal (turismo — últimos 30 anos)", [x[0] for x in series_opts], index=0)
-        code = dict(series_opts)[sel_lbl]
+       
+        # ───────────────────────── Série temporal (turismo — últimos 20 anos, comparativo)
+        _FRAG = getattr(st, "fragment", None)
 
-        base = (
-            t_ts[(t_ts["iso3"]==iso3) & (t_ts["indicator"]==code)]
-            .dropna(subset=["value"])
-            .copy()
-            .sort_values("year")
-        )
+        def _tourism_timeseries_compare(iso3: str, t_ts: pd.DataFrame, kmap: dict):
+            # 3 visões (pares de indicadores)
+            VIEWS = {
+                "Receitas vs Despesas (US$ correntes)": {
+                    "codes": ["ST.INT.RCPT.CD", "ST.INT.XPND.CD"],
+                    "y_title": "US$ correntes",
+                },
+                "% Receitas vs % Despesas": {
+                    "codes": ["ST.INT.RCPT.XP.ZS", "ST.INT.XPND.MP.ZS"],
+                    "y_title": "%",
+                },
+                "Chegadas vs Partidas": {
+                    "codes": ["ST.INT.ARVL", "ST.INT.DPRT"],
+                    "y_title": "Número de pessoas",
+                },
+            }
 
-        if not base.empty:
-            # garantir numérico e único por ano
+            view_label = st.selectbox(
+                "Série temporal (turismo — últimos 20 anos)",
+                list(VIEWS.keys()),
+                index=0,
+                key=f"tour_series_cmp_{iso3}",
+            )
+            codes = VIEWS[view_label]["codes"]
+            y_title = VIEWS[view_label]["y_title"]
+
+            # prepara dataset longo (year, metric, value)
+            base = (
+                t_ts[(t_ts["iso3"] == iso3) & (t_ts["indicator"].isin(codes))]
+                .dropna(subset=["value"]).copy()
+            )
+            if base.empty:
+                st.caption("— sem série temporal para os indicadores selecionados —")
+                return
+
             base["year"] = pd.to_numeric(base["year"], errors="coerce").astype("Int64")
-            base = base.dropna(subset=["year"]).drop_duplicates(subset=["year"], keep="last")
+            base = (
+                base.dropna(subset=["year"])
+                    .sort_values(["indicator", "year"])
+                    .drop_duplicates(subset=["indicator", "year"], keep="last")
+            )
 
-            # recortar estritamente para no máx. 30 pontos (anos mais recentes)
-            sub = base.sort_values("year").tail(30).copy()
+            # últimos 20 anos (por segurança, corta após unir tudo)
+            # renomeia para label PT na legenda
+            label_map = {c: kmap.get(c, c) for c in codes}
+            base["metric"] = base["indicator"].map(label_map)
 
-            y_min = int(sub["year"].min())
-            y_max = int(sub["year"].max())
+            # recorte estrito 20 anos mais recentes considerando o conjunto
+            most_recent_years = (
+                base[["year"]].drop_duplicates().sort_values("year").tail(20)["year"].tolist()
+            )
+            sub = base[base["year"].isin(most_recent_years)].copy()
+
+            if sub.empty:
+                st.caption("— sem observações nos últimos 20 anos —")
+                return
+
+            y_min, y_max = int(min(most_recent_years)), int(max(most_recent_years))
 
             st.altair_chart(
                 alt.Chart(sub)
                 .mark_line(point=True)
                 .encode(
-                    x=alt.X("year:Q", title="Ano",
-                            scale=alt.Scale(domain=[y_min, y_max]),
-                            axis=alt.Axis(format="d")),
-                    y=alt.Y("value:Q", title=sel_lbl),
-                    tooltip=[alt.Tooltip("year:Q", title="Ano", format="d"),
-                            alt.Tooltip("value:Q", title="Valor", format=",.0f")]
+                    x=alt.X(
+                        "year:Q",
+                        title="Ano",
+                        scale=alt.Scale(domain=[y_min, y_max]),
+                        axis=alt.Axis(format="d"),
+                    ),
+                    y=alt.Y("value:Q", title=y_title),
+                    color=alt.Color("metric:N", title="", sort=list(label_map.values())),
+                    tooltip=[
+                        alt.Tooltip("metric:N", title="Indicador"),
+                        alt.Tooltip("year:Q", title="Ano", format="d"),
+                        alt.Tooltip("value:Q", title="Valor", format=",.0f"),
+                    ],
                 )
                 .properties(height=260),
-                use_container_width=True
+                use_container_width=True,
             )
-        else:
-            st.caption("— sem série temporal para o indicador selecionado —")
+
+        # aplica fragment se disponível (Streamlit ≥ 1.32) para evitar refresh do resto da página
+        if _FRAG:
+            _tourism_timeseries_compare = _FRAG(_tourism_timeseries_compare)
+
+        _tourism_timeseries_compare(iso3, t_ts, kmap)
+
 
         st.markdown("---")
-
-        # ───────────────────────── Origem dos turistas (UE/EFTA apenas)
-        orig = tourism_origin_for_iso3(iso3)
-        if not orig.empty:
-            yy = pd.to_numeric(orig["year"], errors="coerce")
-            if yy.notna().any():
-                last = int(yy.max())
-                top = (
-                    orig[orig["year"]==last]
-                    .groupby("origin", as_index=False, observed=False)["arrivals"].sum()
-                    .sort_values("arrivals", ascending=False)
-                    .head(10)
-                    .rename(columns={"origin":"Origem (ISO2)","arrivals":"Chegadas"})
-                )
-                c1, c2 = st.columns([1,1])
-                with c1:
-                    st.markdown(f"**Origem dos turistas (Top 10, {last})**")
-                    st.dataframe(
-                        top, use_container_width=True, hide_index=True,
-                        column_config={"Chegadas": st.column_config.NumberColumn("Chegadas", format="%.0f")}
-                    )
-                with c2:
-                    st.altair_chart(
-                        alt.Chart(top).mark_bar().encode(
-                            x=alt.X("Chegadas:Q", title="Chegadas"),
-                            y=alt.Y("Origem (ISO2):N", sort="-x", title=""),
-                            tooltip=["Origem (ISO2)", alt.Tooltip("Chegadas:Q", format=",.0f")]
-                        ).properties(height=300),
-                        use_container_width=True
-                    )
-        else:
-            #st.caption("— sem detalhe de origem (apenas disponível para UE/EFTA) —")
-            st.caption("")
-
-        # ───────────────────────── Propósito das viagens (residentes UE/EFTA)
-        purp = tourism_purpose_for_iso3(iso3)
-        if not purp.empty:
-            yy = pd.to_numeric(purp["year"], errors="coerce")
-            if yy.notna().any():
-                last = int(yy.max())
-                p = purp[purp["year"]==last].copy()
-                p = p.rename(columns={"purpose":"Propósito","destination":"Destino","trips":"Viagens"})
-                labels_p = {"BUS":"Negócios", "HOL":"Férias/lazer"}
-                p["Propósito"] = p["Propósito"].map(labels_p).fillna(p["Propósito"])
-                st.markdown(f"**Propósito das viagens dos residentes ({last})**")
-                st.altair_chart(
-                    alt.Chart(p).mark_bar().encode(
-                        x=alt.X("Viagens:Q", title="Viagens"),
-                        y=alt.Y("Propósito:N", title=""),
-                        color="Destino:N",
-                        tooltip=["Propósito","Destino", alt.Tooltip("Viagens:Q", format=",.0f")]
-                    ).properties(height=300),
-                    use_container_width=True
-                )
-        else:
-            #st.caption("— sem detalhe de propósito (apenas disponível para UE/EFTA) —")
-            st.caption("")
-        st.caption(
-            "Fonte: World Bank — WDI (chegadas/partidas/receitas/despesas anuais). "
-            "Os números podem divergir de estatísticas nacionais (p.ex., 'hóspedes' e 'dormidas' do Turismo de Portugal), "
-            "pois medem universos/metodologias distintas."
-        )
-
-
-
