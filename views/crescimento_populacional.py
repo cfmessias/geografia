@@ -1,10 +1,16 @@
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
+from services.i18n import t as tr
+try:
+    from services.i18n_boot import _ensure_lang_state
+except ImportError:
+    from services.i18n_boot import init_i18n_state as _ensure_lang_state
 
 # Título da app
-st.title("📈 Evolução Populacional por Continente")
+st.title(tr("crescimento_populacional.evolucao_populacional_por_continente"))
 st.set_page_config(layout="wide")
+_ensure_lang_state()
 # Carregar os dados
 df = pd.read_csv("data/demografia_mundial.csv", sep=";", encoding="utf-8", 
                  skipinitialspace=True, decimal=",", low_memory=False)
@@ -72,10 +78,10 @@ for continente in df_grouped_pop["Continente"].unique():
     dados = df_grouped_pop[df_grouped_pop["Continente"] == continente]
     ax.plot(dados["Year"], dados[pop_col] / 1e3, label=continente)
 
-ax.set_title("Evolução da População por Continente (1980 ao mais recente)")
-ax.set_xlabel("Ano")
-ax.set_ylabel("População (milhões)")
-ax.legend(title="Continente")
+ax.set_title(tr("crescimento_populacional.evolucao_da_populacao_por_continente_1980_ao_mais_recente"))
+ax.set_xlabel(tr("climate_indicators.ano"))
+ax.set_ylabel(tr("crescimento_populacional.populacao_milhoes"))
+ax.legend(title=tr("crescimento_populacional.continente"))
 ax.grid(True)
 
 
@@ -85,10 +91,10 @@ for continente in df_grouped_densidade["Continente"].unique():
     dados = df_grouped_densidade[df_grouped_densidade["Continente"] == continente]
     ax.plot(dados["Year"], dados[densidade], label=continente)  
 
-ax.set_title("Densidade Populacional por Continente (habitantes por km²)")
-ax.set_xlabel("Ano")
-ax.set_ylabel("Habitantes por km²")
-ax.legend(title="Continente")
+ax.set_title(tr("crescimento_populacional.densidade_populacional_por_continente_habitantes_por_km2"))
+ax.set_xlabel(tr("climate_indicators.ano"))
+ax.set_ylabel(tr("crescimento_populacional.habitantes_por_km2"))
+ax.legend(title=tr("crescimento_populacional.continente"))
 ax.grid(True)
 
 
@@ -97,10 +103,10 @@ for continente in df_grouped_racio_genero["Continente"].unique():
     dados = df_grouped_racio_genero[df_grouped_racio_genero["Continente"] == continente]
     ax.plot(dados["Year"], dados[racio_genero] , label=continente)
 
-ax.set_title("Racio - Número de homens por cada 100 mulheres por Continente (1980 ao mais recente)")
-ax.set_xlabel("Ano")
-ax.set_ylabel("Número de homens")
-ax.legend(title="Continente")
+ax.set_title(tr("crescimento_populacional.racio_numero_de_homens_por_cada_100_mulheres_por_continente_1980_ao_mais_recente"))
+ax.set_xlabel(tr("climate_indicators.ano"))
+ax.set_ylabel(tr("crescimento_populacional.numero_de_homens"))
+ax.legend(title=tr("crescimento_populacional.continente"))
 ax.grid(True)
 
 
@@ -110,10 +116,10 @@ for continente in df_grouped_crescimento_populacional["Continente"].unique():
     dados = df_grouped_crescimento_populacional[df_grouped_crescimento_populacional["Continente"] == continente]
     ax.plot(dados["Year"], dados[crescimento_populacional], label=continente)
 
-ax.set_title("Crescimento da População por Continente (1980 ao mais recente)")
-ax.set_xlabel("Ano")
-ax.set_ylabel("Taxa de crescimento")
-ax.legend(title="Continente")
+ax.set_title(tr("crescimento_populacional.crescimento_da_populacao_por_continente_1980_ao_mais_recente"))
+ax.set_xlabel(tr("climate_indicators.ano"))
+ax.set_ylabel(tr("crescimento_populacional.taxa_de_crescimento"))
+ax.legend(title=tr("crescimento_populacional.continente"))
 ax.grid(True)
 
 
@@ -170,12 +176,12 @@ for i, continente in enumerate(continentes):
            label=continente, color=cores[i % len(cores)], alpha=0.8)
 
 # Configurar eixo X
-ax.set_xlabel('Ano')
-ax.set_ylabel('Número de homens')
-ax.set_title('Racio - Número de homens por cada 100 mulheres por Continente')
+ax.set_xlabel(tr("climate_indicators.ano"))
+ax.set_ylabel(tr("crescimento_populacional.numero_de_homens"))
+ax.set_title(tr("crescimento_populacional.racio_numero_de_homens_por_cada_100_mulheres_por_continente"))
 ax.set_xticks([x + largura_barra * (n_continentes-1) / 2 for x in range(n_anos)])
 ax.set_xticklabels(anos_disponiveis)
-ax.legend(title="Continente")
+ax.legend(title=tr("crescimento_populacional.continente"))
 ax.grid(True, alpha=0.3, axis='y')
 
 plt.tight_layout()

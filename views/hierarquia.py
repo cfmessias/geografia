@@ -1,5 +1,10 @@
 import pandas as pd
 import json
+_ensure_lang_state()
+try:
+    from services.i18n_boot import _ensure_lang_state
+except ImportError:
+    from services.i18n_boot import init_i18n_state as _ensure_lang_state
 
 # Carregar ficheiro
 df = pd.read_csv("data/demografia_mundial.csv", sep=";")

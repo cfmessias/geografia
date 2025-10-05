@@ -1,4 +1,9 @@
 import pandas as pd
+_ensure_lang_state()
+try:
+    from services.i18n_boot import _ensure_lang_state
+except ImportError:
+    from services.i18n_boot import init_i18n_state as _ensure_lang_state
 
 # Carregar sem nenhuma conversão
 df_raw = pd.read_csv("data/demografia_mundial.csv", sep=";", encoding="utf-8", 

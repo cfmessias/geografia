@@ -11,6 +11,11 @@ import plotly.graph_objects as go
 import requests
 import streamlit as st
 from pandas.api.types import is_datetime64_any_dtype
+from services.i18n import t as tr
+try:
+    from services.i18n_boot import _ensure_lang_state
+except ImportError:
+    from services.i18n_boot import init_i18n_state as _ensure_lang_state
 
 
 # ─────────────────────────── Constantes / Rótulos ─────────────────────────────
@@ -249,11 +254,12 @@ def summarize_ibtracs(df: pd.DataFrame) -> dict[str, pd.DataFrame]:
 # ─────────────────────────── Render principal ─────────────────────────────────
 
 def render_climate_indicators_tab():
-    st.subheader("📈 Indicadores climáticos")
-    st.caption("NOAA GML (CO₂), NASA GISTEMP (temperatura global), NOAA/NCEI IBTrACS (ciclones tropicais).")
+    _ensure_lang_state()
+    st.subheader(tr("climate_indicators.indicadores_climaticos"))
+    st.caption(tr("climate_indicators.noaa_gml_co2_nasa_gistemp_temperatura_global_noaa_ncei_ibtracs_ciclones_tropicais"))
 
     # ── CO₂ ───────────────────────────────────────────────────────────────────
-    st.markdown("### CO₂ atmosférico — Mauna Loa (NOAA)")
+    st.markdown(tr("climate_indicators.co2_atmosferico_mauna_loa_noaa"))
     try:
         co2_mo, co2_ann = load_co2_noaa()
 
@@ -262,13 +268,19 @@ def render_climate_indicators_tab():
         with c1:
             df_plot = co2_mo.copy()
             df_plot["mm_12"] = _rolling(df_plot["co2_ppm"], 12)
-            fig = _line(df_plot, "date", "co2_ppm", "CO₂ (ppm) — mensal", "ppm")
-            fig.add_trace(go.Scatter(x=df_plot["date"], y=df_plot["mm_12"], mode="lines", name="Média móvel 12 m", line=dict(width=2)))
+            fig = _line(df_plot, "date", "co2_ppm",
+                        tr("climate_indicators.co2_ppm_mensal_title"),
+                        tr("units.ppm"))
+
+            fig.add_trace(go.Scatter(x=df_plot["date"], y=df_plot["mm_12"], mode="lines", name=tr("climate_indicators.media_movel_12_m"), line=dict(width=2)))
             fig.update_xaxes(tickformat="%Y")  # anos sem separador
             st.plotly_chart(fig, use_container_width=True)
 
         with c2:
-            co2_ann_tbl = co2_ann.rename(columns={"year": "Ano", "co2_annual_ppm": "CO₂ (ppm)"})
+            co2_ann_tbl = co2_ann.rename(columns={
+                "year": tr("climate_indicators.ano"),
+                "co2_annual_ppm": tr("climate_indicators.co2_ppm")
+            })
             dataframe_fmt(
                 co2_ann_tbl, year_col="Ano",
                 float_cols={"CO₂ (ppm)": "%.1f"}
@@ -276,16 +288,16 @@ def render_climate_indicators_tab():
             # downloads
             b1 = io.StringIO(); co2_mo.to_csv(b1, index=False)
             b2 = io.StringIO(); co2_ann.to_csv(b2, index=False)
-            st.download_button("💾 Monthly CSV (ppm)", b1.getvalue(), "co2_noaa_monthly.csv", "text/csv", key="dl_co2_m")
-            st.download_button("💾 Annual CSV (ppm)", b2.getvalue(), "co2_noaa_annual.csv", "text/csv", key="dl_co2_a")
+            st.download_button(tr("climate_indicators.monthly_csv_ppm"), b1.getvalue(), "co2_noaa_monthly.csv", "text/csv", key="dl_co2_m")
+            st.download_button(tr("climate_indicators.annual_csv_ppm"), b2.getvalue(), "co2_noaa_annual.csv", "text/csv", key="dl_co2_a")
 
-        st.caption("Fonte: NOAA/GML — Mauna Loa Observatory.")
+        st.caption(tr("climate_indicators.fonte_noaa_gml_mauna_loa_observatory"))
     except Exception as e:
-        st.error(f"Falhou o carregamento do CO₂: {e}")
+        st.error(tr("climate_indicators.erro_co2", error=str(e)))
 
     # ── Temperatura global ────────────────────────────────────────────────────
-    st.markdown("---")
-    st.markdown("### Temperatura global — anomalia (NASA GISTEMP v4)")
+    st.markdown(tr("labels.text"))
+    st.markdown(tr("climate_indicators.temperatura_global_anomalia_nasa_gistemp_v4"))
     try:
         temp_mo, temp_ann = load_temp_gistemp()
 
@@ -294,36 +306,44 @@ def render_climate_indicators_tab():
         with c1:
             df_plot = temp_mo.copy()
             df_plot["mm_12"] = _rolling(df_plot["anom_c"], 12)
-            fig = _line(df_plot, "date", "anom_c", "Anomalia mensal (°C)", "°C")
-            fig.add_trace(go.Scatter(x=df_plot["date"], y=df_plot["mm_12"], mode="lines", name="Média móvel 12 m", line=dict(width=2)))
+            fig = _line(df_plot, "date", "anom_c",
+                        tr("climate_indicators.anomalia_mensal_c_title"),
+                        tr("units.deg_c"))
+            fig.add_trace(go.Scatter(x=df_plot["date"], y=df_plot["mm_12"], mode="lines", name=tr("climate_indicators.media_movel_12_m"), line=dict(width=2)))
             fig.update_xaxes(tickformat="%Y")
             st.plotly_chart(fig, use_container_width=True)
 
         with c2:
-            temp_ann_tbl = temp_ann.rename(columns={"year": "Ano", "anom_c": "Anomalia (°C)"})
+            temp_ann_tbl = temp_ann.rename(columns={
+                "year": tr("climate_indicators.ano"),
+                "anom_c": tr("climate_indicators.anomalia_c")
+            })
+
             dataframe_fmt(
                 temp_ann_tbl, year_col="Ano",
                 float_cols={"Anomalia (°C)": "%.2f"}
             )
             b1 = io.StringIO(); temp_mo.to_csv(b1, index=False)
             b2 = io.StringIO(); temp_ann.to_csv(b2, index=False)
-            st.download_button("💾 Monthly CSV (anom °C)", b1.getvalue(), "gistemp_global_monthly.csv", "text/csv", key="dl_tmp_m")
-            st.download_button("💾 Annual CSV (anom °C)", b2.getvalue(), "gistemp_global_annual.csv", "text/csv", key="dl_tmp_a")
+            st.download_button(tr("climate_indicators.monthly_csv_anom_c"), b1.getvalue(), "gistemp_global_monthly.csv", "text/csv", key="dl_tmp_m")
+            st.download_button(tr("climate_indicators.annual_csv_anom_c"), b2.getvalue(), "gistemp_global_annual.csv", "text/csv", key="dl_tmp_a")
 
-        st.caption("Fonte: NASA GISTEMP v4 (anomalias relativas a 1951–1980).")
+        st.caption(tr("climate_indicators.fonte_nasa_gistemp_v4_anomalias_relativas_a_1951_1980"))
     except Exception as e:
-        st.error(f"Falhou o carregamento da temperatura global (GISTEMP): {e}")
+        st.error(tr("climate_indicators.erro_temp", error=str(e)))
+
 
     # ── IBTrACS (Ciclones) ────────────────────────────────────────────────────
-    st.markdown("---")
-    st.markdown("### Ciclones tropicais — contagem global e por bacia (IBTrACS)")
-    st.caption("Arquivo global da NOAA/NCEI; contagens por ano e por bacia. Atualizado regularmente.")
+    st.markdown(tr("labels.text"))
+    st.markdown(tr("climate_indicators.ciclones_tropicais_contagem_global_e_por_bacia_ibtracs"))
+    st.caption(tr("climate_indicators.arquivo_global_da_noaa_ncei_contagens_por_ano_e_por_bacia_atualizado_regularmente"))
 
     try:
         ib = load_ibtracs_list()
         out = summarize_ibtracs(ib)
         if not out:
-            st.info("Sem dados IBTrACS interpretáveis.")
+            st.info(tr("climate_indicators.sem_dados_ibtracs"))
+
             return
 
         annual = out["annual_counts"]
@@ -331,17 +351,17 @@ def render_climate_indicators_tab():
         bybas  = out["annual_by_basin"]
 
         # Filtros num expander (fechado por defeito)
-        with st.expander("Filtros", expanded=False):
+        with st.expander(tr("climate_indicators.filtros"), expanded=False):
             min_y, max_y = int(annual["YEAR"].min()), int(annual["YEAR"].max())
             y0, y1 = st.slider(
-                "Intervalo de anos",
+                tr("climate_indicators.intervalo_de_anos"),
                 min_value=min_y, max_value=max_y,
                 value=(max(1950, min_y), max_y), step=1, key="ind_yr"
             )
             codes = list(BASIN_LABELS.keys())
             default_codes = ["EP", "NI", "SI"]
             basins_sel = st.multiselect(
-                "Bacias",
+                tr("climate_indicators.bacias"),
                 options=codes,
                 default=codes,
                 format_func=lambda k: BASIN_LABELS.get(k, k),
@@ -361,12 +381,12 @@ def render_climate_indicators_tab():
             g["major_count"] = g["major_count"].fillna(0).astype(int)
 
             fig = go.Figure()
-            fig.add_bar(x=g["YEAR"], y=g["count"], name="Total/ano")
-            fig.add_scatter(x=g["YEAR"], y=g["major_count"], name="Major (Cat ≥3)", mode="lines+markers")
+            fig.add_bar(x=g["YEAR"], y=g["count"], name=tr("climate_indicators.total_ano"))
+            fig.add_scatter(x=g["YEAR"], y=g["major_count"], name=tr("climate_indicators.major_cat_3"), mode="lines+markers")
             fig.update_layout(
-                title="Ciclones/ano (global) e major",
+                title=tr("climate_indicators.ciclones_ano_global_e_major"),
                 margin=dict(l=6, r=6, t=40, b=0),
-                xaxis_title="Ano", yaxis_title="N.º",
+                xaxis_title=tr("climate_indicators.ano"), yaxis_title=tr("climate_indicators.n_o"),
                 legend=dict(orientation="h", y=1.02, x=0),
             )
             fig.update_yaxes(gridcolor="rgba(160,160,160,0.35)")
@@ -380,12 +400,12 @@ def render_climate_indicators_tab():
                 int_cols=["Total", "Major (Cat ≥3)"]
             )
             b = io.StringIO(); show.to_csv(b, index=False)
-            st.download_button("💾 CSV (global)", b.getvalue(), "ibtracs_global_counts.csv", "text/csv", key="dl_ibtracs_global")
+            st.download_button(tr("climate_indicators.csv_global"), b.getvalue(), "ibtracs_global_counts.csv", "text/csv", key="dl_ibtracs_global")
 
         # Por bacia
-        st.markdown("**Por bacia**")
-        fig2 = px.line(bas_plot, x="YEAR", y="count", color="BASIN", title="Ciclones/ano por bacia", markers=True)
-        fig2.update_layout(margin=dict(l=6, r=6, t=40, b=0), xaxis_title="Ano", yaxis_title="N.º")
+        st.markdown(tr("climate_indicators.por_bacia"))
+        fig2 = px.line(bas_plot, x="YEAR", y="count", color="BASIN", title=tr("climate_indicators.ciclones_ano_por_bacia"), markers=True)
+        fig2.update_layout(margin=dict(l=6, r=6, t=40, b=0), xaxis_title=tr("climate_indicators.ano"), yaxis_title=tr("climate_indicators.n_o"))
         fig2.update_yaxes(gridcolor="rgba(160,160,160,0.35)")
         fig2.update_xaxes(gridcolor="rgba(160,160,160,0.18)", tickformat="d")
         st.plotly_chart(fig2, use_container_width=True)
@@ -402,33 +422,21 @@ def render_climate_indicators_tab():
             int_cols=[c for c in piv.columns if c != "Ano"]
         )
         b2 = io.StringIO(); piv.to_csv(b2, index=False)
-        st.download_button("💾 CSV (por bacia)", b2.getvalue(), "ibtracs_by_basin.csv", "text/csv", key="dl_ibtracs_basin")
+        st.download_button(tr("climate_indicators.csv_por_bacia"), b2.getvalue(), "ibtracs_by_basin.csv", "text/csv", key="dl_ibtracs_basin")
 
-        with st.expander("ℹ️ O que significam as siglas das bacias?"):
+        with st.expander(tr("climate_indicators.siglas_bacias_info_title")):
             st.markdown(
-                """
-                - **NA** — Atlântico Norte  
-                - **EP** — Pacífico Este  
-                - **WP** — Pacífico Oeste  
-                - **NI** — Índico Norte  
-                - **SI** — Índico Sul  
-                - **SP** — Pacífico Sul  
-                - **SA** — Atlântico Sul  
-                """
+                tr("climate_indicators.na_atlantico_norte_ep_pacifico_este_wp_pacifico_oeste_ni_indico_norte_si_indico_sul_sp_pacifico_sul_sa_atlantico_sul")
             )
 
-        st.caption("Fonte: NOAA/NCEI IBTrACS v4 (lista global).")
+        st.caption(tr("climate_indicators.fonte_noaa_ncei_ibtracs_v4_lista_global"))
 
     except Exception as e:
         st.error(f"Falhou o carregamento de ciclones (IBTrACS): {e}")
 
     # Rodapé
-    st.markdown("---")
-    with st.expander("Notas e próximos passos"):
-        st.markdown(
-            "- **CO₂** (NOAA/GML): série de Mauna Loa com dados mensais desde 1958.  \n"
-            "- **GISTEMP v4** (NASA): anomalia de temperatura global (°C), mensal desde 1880.  \n"
-            "- **Ciclones** (IBTrACS): contagens anuais (total e major) e por bacia.  \n"
-            "**Extensões**: nível do mar (NOAA/NASA), gelo Ártico/Antártida (NSIDC), ACE por ano/bacia."
-        )
+    st.markdown(tr("labels.text"))
+    with st.expander(tr("climate_indicators.notas_title")):
+        st.markdown(tr("climate_indicators.notas_md"))
+
 

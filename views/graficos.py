@@ -1,7 +1,13 @@
 import matplotlib.pyplot as plt
 import matplotlib.colors as mc
 import colorsys
+from services.i18n import t as tr
 
+try:
+    from services.i18n_boot import _ensure_lang_state
+except ImportError:
+    from services.i18n_boot import init_i18n_state as _ensure_lang_state
+_ensure_lang_state()
 cores_continentes = {
     "África": "#1f77b4",
     "América": "#ff7f0e",
@@ -24,7 +30,7 @@ def grafico_evolucao(dados, titulo, ylabel, dado, tipo,ax):
 
     ax.set_title(titulo)
     ax.set_ylabel(ylabel)
-    ax.set_xlabel("Ano")
+    ax.set_xlabel(tr("climate_indicators.ano"))
     ax.grid(True, linestyle="--", alpha=0.5)
     #legenda = ax.legend(title="Continente", loc="best")
     #legenda.get_frame().set_facecolor("none")
@@ -62,11 +68,11 @@ def grafico_mortalidade_stack(df_homens, df_mulheres):
 
     ax.set_xticks([p + largura for p in x])
     ax.set_xticklabels(anos)
-    ax.set_ylabel("Óbitos por 1.000")
-    ax.set_title("Mortalidade entre 15–50 anos por sexo e continente")
+    ax.set_ylabel(tr("graficos.obitos_por_1_000"))
+    ax.set_title(tr("graficos.mortalidade_entre_15_50_anos_por_sexo_e_continente"))
     ax.spines["top"].set_visible(False)
     ax.spines["right"].set_visible(False)
-    legenda = ax.legend(title="Continente", frameon=False, loc="upper left", bbox_to_anchor=(1.0, 1.0))
+    legenda = ax.legend(title=tr("crescimento_populacional.continente"), frameon=False, loc="upper left", bbox_to_anchor=(1.0, 1.0))
     legenda.get_frame().set_facecolor('none')
     return fig
 

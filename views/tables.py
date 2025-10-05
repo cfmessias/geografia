@@ -4,6 +4,10 @@ import uuid
 import pandas as pd
 import plotly.graph_objects as go
 import streamlit as st
+try:
+    from services.i18n_boot import _ensure_lang_state
+except ImportError:
+    from services.i18n_boot import init_i18n_state as _ensure_lang_state
 
 def _to_dataframe(obj):
     if isinstance(obj, pd.io.formats.style.Styler):
@@ -25,6 +29,7 @@ def render_table(
     highlight_color: str = "#17c9c3",
     **_ignored
 ):
+    _ensure_lang_state()
     df = _to_dataframe(df_like)
     if df is None or len(df) == 0:
         st.info("Sem dados para mostrar.")

@@ -3,37 +3,42 @@ from __future__ import annotations
 
 from datetime import date
 import traceback
-import streamlit as st
 import pandas as pd
+import streamlit as st
 
-# utils
+# Utils / i18n
 from utils.timing import timed
-from utils.profiler import cprofile_block  # opcional; só é usado se o checkbox estiver ativo
+from services.i18n import t as tr
+try:
+    from services.i18n_boot import _ensure_lang_state
+except ImportError:
+    from services.i18n_boot import init_i18n_state as _ensure_lang_state
 
-# -----------------------------------------------------------------------------
-# DATA-ONLY HELPERS (podem ser cacheados; não usam st.* nem widgets)
-# -----------------------------------------------------------------------------
+
+# ─────────────────────────────────────────────────────────────────────────────
+# DATA HELPERS (sem UI → seguros para cache)
+# ─────────────────────────────────────────────────────────────────────────────
 
 @st.cache_data(ttl=24 * 3600, show_spinner=False)
 def _geocode_cached(query: str) -> pd.DataFrame:
-    """Procura locais (geocoding). Sem UI. Cache 24h."""
+    """Procura locais (geocoding). Cache 24h."""
     from services.open_meteo import geocode
     return geocode(query)
 
 @st.cache_data(ttl=3600, show_spinner=True)
 def _fetch_daily_cached(lat: float, lon: float, tz: str, start: date, end: date) -> pd.DataFrame:
-    """Descarga diários. Sem UI. Cache 1h."""
+    """Descarga diários. Cache 1h."""
     from services.open_meteo import fetch_daily
     return fetch_daily(float(lat), float(lon), str(tz), start, end)
 
 def _prep_monthly_no_ui(
     lat: float, lon: float, tz: str,
     start: date, end: date,
-    month_num: int, base_start: date, base_end: date,
+    month_num: int | None, base_start: date, base_end: date,
 ) -> dict | None:
     """
     Prepara agregados mensais + normais + valores de referência.
-    Não usa widgets nem Streamlit → segura para ser chamada dentro de cache/profilers.
+    (não cria widgets → seguro para cache/perf)
     """
     from utils.transform import monthly, normals, pick_value_for
 
@@ -48,32 +53,23 @@ def _prep_monthly_no_ui(
     norm = normals(dfm, base_start, base_end)
     if norm is not None and not norm.empty:
         dfm = dfm.merge(norm, on="month", how="left")
-        if "t_norm" in dfm.columns:
-            dfm["t_anom"] = dfm["t_mean"] - dfm["t_norm"]
-        else:
-            dfm["t_anom"] = pd.NA
-        if "p_norm" in dfm.columns:
-            dfm["p_anom"] = dfm["precip"] - dfm["p_norm"]
-        else:
-            dfm["p_anom"] = pd.NA
+        dfm["t_anom"] = (dfm["t_mean"] - dfm["t_norm"]) if "t_norm" in dfm else pd.NA
+        dfm["p_anom"] = (dfm["precip"] - dfm["p_norm"]) if "p_norm" in dfm else pd.NA
     else:
         dfm["t_norm"] = pd.NA; dfm["p_norm"] = pd.NA
         dfm["t_anom"] = pd.NA; dfm["p_anom"] = pd.NA
 
-    view_df = dfm if not month_num else dfm[dfm["month"] == month_num]
+    view_df = dfm if (month_num is None) else dfm[dfm["month"] == month_num]
     ref_year    = max(start.year, end.year - 50)
     last2_years = [end.year, end.year - 1]
-    m = month_num or end.month
+    m = (month_num or end.month)
 
     def _safe(v):
-        try:
-            return float(v) if v is not None else None
-        except Exception:
-            return None
+        try: return float(v) if v is not None else None
+        except Exception: return None
 
-    t_50 = _safe(pick_value_for(dfm, m, ref_year, "t_mean"))
-    p_50 = _safe(pick_value_for(dfm, m, ref_year, "precip"))
-
+    t_50   = _safe(pick_value_for(dfm, m, ref_year, "t_mean"))
+    p_50   = _safe(pick_value_for(dfm, m, ref_year, "precip"))
     t_last2 = view_df[(view_df["month"] == m) & (view_df["year"].isin(last2_years))]["t_mean"].mean()
     p_last2 = view_df[(view_df["month"] == m) & (view_df["year"].isin(last2_years))]["precip"].mean()
 
@@ -85,24 +81,25 @@ def _prep_monthly_no_ui(
         p_last2=(None if pd.isna(p_last2) else float(p_last2)),
     )
 
-# -----------------------------------------------------------------------------
-# UI HELPERS (podem usar widgets; NÃO usar cache aqui)
-# -----------------------------------------------------------------------------
+
+# ─────────────────────────────────────────────────────────────────────────────
+# UI HELPERS
+# ─────────────────────────────────────────────────────────────────────────────
 
 def _pick_place_ui(query: str, key_prefix: str):
-    """Mostra selectbox para escolher um local a partir do geocoding cacheado."""
+    """Selectbox para escolher um local (geocoding com cache)."""
     try:
         places = _geocode_cached(query)
     except Exception as e:
-        st.error(f"Falha a geocodificar '{query}': {e}")
+        st.error(tr("meteo.falha_geocodificar_q", q=query, error=str(e)))
         return None, None, None, None
 
     if places is None or places.empty:
-        st.warning("Nenhum local encontrado.")
+        st.warning(tr("meteo.nenhum_local_encontrado"))
         return None, None, None, None
 
     idx = st.selectbox(
-        "Escolher local",
+        tr("labels.escolher_local"),
         options=places.index,
         format_func=lambda i: places.loc[i, "label"],
         label_visibility="collapsed",
@@ -114,239 +111,215 @@ def _pick_place_ui(query: str, key_prefix: str):
     label = row.get("label", f"{lat:.4f},{lon:.4f}")
     return lat, lon, tz, label
 
-# -----------------------------------------------------------------------------
+
+# ─────────────────────────────────────────────────────────────────────────────
 # RENDER PRINCIPAL
-# -----------------------------------------------------------------------------
+# ─────────────────────────────────────────────────────────────────────────────
 
 def render_meteo(embed: bool = True, key_prefix: str = "meteo", show_title: bool = True) -> None:
-    """
-    Desenha a UI completa de Meteorologia.
-    - embed=True: para correr dentro de outra app/tab.
-    - key_prefix: prefixo para widgets.
-    """
+    _ensure_lang_state()
     from services.open_meteo import YESTERDAY
 
-    # Estilo mínimo
-    st.markdown(
-        """
-        <style>
-          .stSelectbox, .stDateInput, .stTextInput { font-size: 0.9rem; }
-          div[data-baseweb="select"] > div { min-height: 34px; }
-          .stDateInput input { height: 34px; padding: 2px 8px; }
-        </style>
-        """,
-        unsafe_allow_html=True,
-    )
-
+    # Título
     if show_title:
-        st.title("☁️ Meteorologia (ERA5)")
+        st.header("🌥️ " + tr("meteorologia_era5"))
 
-    # Filtros (com botão para evitar reruns a cada alteração)
-    try:
+    # Tabs logo abaixo do título (opcional: sticky quando faz scroll)
+    st.markdown("""
+    <style>
+    div[data-baseweb="tab-list"]{
+      position: sticky; top: 56px; z-index: 10;
+      background: var(--background-color, #0e1117);
+      padding-top: .25rem;
+    }
+    </style>""", unsafe_allow_html=True)
+
+    tabs = st.tabs([
+        "🌧️ " + tr("tabs.forecast"),
+        "📜 " + tr("tabs.history"),
+        "🌐 " + tr("tabs.seismicity"),
+        "🧭 " + tr("tabs.indicators"),
+        "📊 " + tr("tabs.scenarios2100"),
+    ])
+
+    # Helper: filtros partilhados (renderiza dentro da tab ativa)
+    def _render_shared_filters():
         from views.filters import render_filters
-    except Exception:
-        st.error("Falha a carregar o módulo de filtros.")
-        st.exception(traceback.format_exc())
-        return
+        with st.form(f"{key_prefix}_filters_form"):
+            with timed("Meteo · filtros"):
+                flt = render_filters(
+                    mode="full",
+                    key_prefix=f"{key_prefix}_flt",
+                    default_place="Lisboa",
+                    default_start=date(YESTERDAY.year - 10, 1, 1),
+                    default_end=YESTERDAY,
+                    place_full_label=st.session_state.get(f"{key_prefix}_place_label"),
+                )
+            submitted = st.form_submit_button(tr("meteo.atualizar"))
+        if submitted or f"{key_prefix}_lastflt" not in st.session_state:
+            st.session_state[f"{key_prefix}_lastflt"] = flt
+        return st.session_state[f"{key_prefix}_lastflt"]
 
-    with st.form(f"{key_prefix}_filters_form"):
-        with timed("Meteo · filtros"):
-            flt = render_filters(
-                mode="full",
-                key_prefix=f"{key_prefix}_flt",
-                default_place="Lisboa",
-                default_start=date(YESTERDAY.year - 10, 1, 1),
-                default_end=YESTERDAY,
-                place_full_label=st.session_state.get(f"{key_prefix}_place_label"),
-            )
-        submitted = st.form_submit_button("Atualizar")
+    # ── TAB 0: PREVISÃO ──────────────────────────────────────────────────────
+    with tabs[0]:
+        flt = _render_shared_filters()
 
-    # manter últimos filtros se não clicares
-    if not submitted and f"{key_prefix}_lastflt" in st.session_state:
-        flt = st.session_state[f"{key_prefix}_lastflt"]
-    else:
-        st.session_state[f"{key_prefix}_lastflt"] = flt
+        q           = str(flt.get("query", "")).strip()
+        start       = flt.get("start");  end = flt.get("end")
+        month_num   = flt.get("month_num")                      # None ou 1..12
+        month_label = flt.get("month_label") or ""
+        base_start  = flt.get("base_start") or start
+        base_end    = flt.get("base_end") or end
+        show_50     = bool(flt.get("show_50", False))
+        show_last2  = bool(flt.get("show_last2", False))
 
-    # Extração robusta dos valores dos filtros
-    def _as_int(v, default: int) -> int:
-        try:
-            return int(v)
-        except Exception:
-            return default
+        with timed("Meteo · geocoding"):
+            lat, lon, tz, label = _pick_place_ui(q, key_prefix=f"{key_prefix}_geo")
+        if label:
+            st.session_state[f"{key_prefix}_place_label"] = label
 
-    q           = str(flt.get("query", "")).strip()
-    start       = flt.get("start");  end = flt.get("end")
-    month_num   = _as_int(flt.get("month_num"), default=(end.month if hasattr(end, "month") else date.today().month))
-    month_label = flt.get("month_label") or ""
-    base_start  = flt.get("base_start") or start
-    base_end    = flt.get("base_end") or end
-    show_50     = bool(flt.get("show_50", False))
-    show_last2  = bool(flt.get("show_last2", False))
-
-    # Geocoding / escolha do local (UI; sem cache para não dar CachedWidgetWarning)
-    with timed("Meteo · geocoding"):
-        lat, lon, tz, label = _pick_place_ui(q, key_prefix=f"{key_prefix}_geo")
-    if label:
-        st.session_state[f"{key_prefix}_place_label"] = label
-
-    if lat is None or lon is None:
-        st.info("Escolhe um local válido.")
-        return
-
-    st.caption(f"Local: **{label}** • Lat/Lon: {lat:.4f}, {lon:.4f} • Fuso: {tz}")
-
-    # Tabs principais (cálculos pesados só quando necessário)
-    tab_fc, tab_hist, tab_eq, tab_ind, tab_cs = st.tabs(
-        ["🌦️ Previsão", "📚 Histórico", "🌍 Sismicidade", "🧭 Indicadores", "📅 Cenários 2100"]
-    )
-
-    
-    # --- PREVISÃO ---
-    with tab_fc:
-        try:
-            from views.forecast import render_forecast_tab as _rft
-            with timed("Meteo · previsão"):
+        if lat is None or lon is None:
+            st.info(tr("meteo.escolhe_um_local_valido"))
+        else:
+            st.caption(tr("labels.local_label_lat_lon_lat_4f_lon_4f_fuso_tz",
+                          label=label, lat=lat, lon=lon, tz=tz))
+            try:
+                from views.forecast import render_forecast_tab as _rft
                 import inspect
-
-                sig = inspect.signature(_rft)
-                params = sig.parameters
-
-                # tenta chamar por keywords que a função realmente aceita
-                candidates = {
-                    "lat": lat, "lon": lon,
-                    "latitude": lat, "longitude": lon,
-                    "tz": tz, "timezone": tz,
-                    "place_label": label, "label": label,
-                    "key_prefix": f"{key_prefix}_fc",
-                }
+                sig = inspect.signature(_rft); params = sig.parameters
+                candidates = dict(
+                    lat=lat, lon=lon, latitude=lat, longitude=lon,
+                    tz=tz, timezone=tz, place_label=label, label=label,
+                    key_prefix=f"{key_prefix}_fc"
+                )
                 kwargs = {k: v for k, v in candidates.items() if k in params}
-
-                if kwargs:
-                    _rft(**kwargs)
+                if kwargs: _rft(**kwargs)
                 else:
-                    # fallback por posição: [lat, lon, tz, label, key_prefix]
                     ordered_args = [lat, lon, tz, label, f"{key_prefix}_fc"]
-                    _rft(*ordered_args[:len(params)])
-        except Exception:
-            st.error("Falha a carregar a view de previsão.")
-            st.exception(traceback.format_exc())
+                    _rft(*ordered_args[:len(params)]) 
+            except Exception:
+                st.error(tr("meteo.falha_view_previsao"))
+                st.exception(traceback.format_exc())
 
-    # HISTÓRICO (onde costuma estar o custo pesado)
-    with tab_hist:
-        st.checkbox("🔬 Profiling detalhado do processamento mensal", key=f"{key_prefix}_profile", value=False)
-        do_prof = st.session_state.get(f"{key_prefix}_profile", False)
+    # ── TAB 1: HISTÓRICO ─────────────────────────────────────────────────────
+    with tabs[1]:
+        flt = st.session_state.get(f"{key_prefix}_lastflt", {})
+        if not flt:
+            st.info(tr("meteo.escolhe_um_local_valido"))
+        else:
+            q           = str(flt.get("query", "")).strip()
+            start       = flt.get("start");  end = flt.get("end")
+            month_num   = flt.get("month_num")
+            month_label = flt.get("month_label") or ""
+            base_start  = flt.get("base_start") or start
+            base_end    = flt.get("base_end") or end
+            show_50     = bool(flt.get("show_50", False))
+            show_last2  = bool(flt.get("show_last2", False))
 
-        with timed("Meteo · preparar mensal"):
-            if do_prof:
-                with cprofile_block(
-                    "prep mensal (top 30)", sort="cumtime",
-                    include=("meteo.py", "services/open_meteo", "utils/transform"),
-                    top=30,
-                ):
-                    prep = _prep_monthly_no_ui(lat, lon, tz, start, end, month_num, base_start, base_end)
+            with timed("Meteo · geocoding"):
+                lat, lon, tz, label = _pick_place_ui(q, key_prefix=f"{key_prefix}_geo_hist")
+            if (lat is None) or (lon is None):
+                st.info(tr("meteo.escolhe_um_local_valido"))
             else:
-                prep = _prep_monthly_no_ui(lat, lon, tz, start, end, month_num, base_start, base_end)
+                st.caption(tr("labels.local_label_lat_lon_lat_4f_lon_4f_fuso_tz",
+                              label=label, lat=lat, lon=lon, tz=tz))
 
-        if not prep:
-            st.info("Sem dados para o período selecionado.")
-        else:
-            dfm = prep["dfm"]; view_df = prep["view_df"]
-            ref_year = prep["ref_year"]; last2_years = prep["last2_years"]
-            t_50 = prep["t_50"]; p_50 = prep["p_50"]
-            t_last2 = prep["t_last2"]; p_last2 = prep["p_last2"]
+                with timed("Meteo · preparar mensal"):
+                    prep = _prep_monthly_no_ui(lat, lon, tz, start, end, month_num, base_start, base_end)
 
-            sub_t, sub_p, sub_cmp = st.tabs(["🌡️ Temperatura", "🌧️ Precipitação", "📊 Comparação"])
+                if not prep:
+                    st.info(tr("meteo.sem_dados_periodo"))
+                else:
+                    dfm = prep["dfm"]; view_df = prep["view_df"]
+                    ref_year = prep["ref_year"]; last2_years = prep["last2_years"]
+                    t_50 = prep["t_50"]; p_50 = prep["p_50"]
+                    t_last2 = prep["t_last2"]; p_last2 = prep["p_last2"]
 
-            with sub_t:
-                try:
-                    from views.temperature import render_temperature_tab
-                    with timed("Meteo · tabs · temperatura"):
-                        render_temperature_tab(view_df, month_num, month_label,
-                                               ref_year, last2_years, t_50, t_last2, show_50, show_last2)
-                except Exception:
-                    st.error("Falha a carregar a view de temperatura.")
-                    st.exception(traceback.format_exc())
+                    sub_t, sub_p, sub_cmp = st.tabs([
+                        tr("app.tabs.temperatura"), tr("app.tabs.precipita_o"), tr("app.tabs.compara_o")
+                    ])
 
-            with sub_p:
-                try:
-                    from views.precipitation import render_precipitation_tab
-                    with timed("Meteo · tabs · precipitação"):
-                        render_precipitation_tab(view_df, month_num, month_label,
-                                                 ref_year, last2_years, p_50, p_last2, show_50, show_last2)
-                except Exception:
-                    st.error("Falha a carregar a view de precipitação.")
-                    st.exception(traceback.format_exc())
+                    with sub_t:
+                        try:
+                            from views.temperature import render_temperature_tab
+                            with timed("Meteo · tabs · temperatura"):
+                                render_temperature_tab(view_df, month_num, month_label,
+                                                       ref_year, last2_years, t_50, t_last2,
+                                                       show_50, show_last2)
+                        except Exception:
+                            st.error(tr("meteo.falha_view_temperatura"))
+                            st.exception(traceback.format_exc())
 
-            with sub_cmp:
-                try:
-                    from views.comparison import render_comparison_tab
-                    with timed("Meteo · tabs · comparação"):
-                        render_comparison_tab(dfm)
-                except Exception:
-                    st.error("Falha a carregar a view de comparação.")
-                    st.exception(traceback.format_exc())
+                    with sub_p:
+                        try:
+                            from views.precipitation import render_precipitation_tab
+                            with timed("Meteo · tabs · precipitação"):
+                                render_precipitation_tab(view_df, month_num, month_label,
+                                                         ref_year, last2_years, p_50, p_last2,
+                                                         show_50, show_last2)
+                        except Exception:
+                            st.error(tr("meteo.falha_view_precipitacao"))
+                            st.exception(traceback.format_exc())
 
-    # SISMICIDADE
-    with tab_eq:
-        try:
-            from views.seismicity import render_seismicity_tab
-            with timed("Meteo · sismicidade"):
-                render_seismicity_tab(lat, lon,
-                                      start=date.today().replace(year=date.today().year - 10),
-                                      end=date.today(), key_prefix=f"{key_prefix}_eq")
-        except Exception:
-            st.error("Falha a carregar a view de sismicidade.")
-            st.exception(traceback.format_exc())
+                    with sub_cmp:
+                        try:
+                            from views.comparison import render_comparison_tab
+                            with timed("Meteo · tabs · comparação"):
+                                render_comparison_tab(dfm)
+                        except Exception:
+                            st.error(tr("meteo.falha_view_comparacao"))
+                            st.exception(traceback.format_exc())
 
-    # INDICADORES
-    # ───────────────────── INDICADORES ─────────────────────
-    with tab_ind:
-        st.subheader("🧭 Indicadores climáticos")
+    # ── TAB 2: SISMICIDADE ───────────────────────────────────────────────────
+    with tabs[2]:
+        flt = st.session_state.get(f"{key_prefix}_lastflt", {})
+        q = str(flt.get("query", "")).strip() if flt else ""
+        with timed("Meteo · geocoding"):
+            lat, lon, tz, label = _pick_place_ui(q, key_prefix=f"{key_prefix}_geo_eq")
+        if lat and lon:
+            try:
+                from views.seismicity import render_seismicity_tab
+                with timed("Meteo · sismicidade"):
+                    render_seismicity_tab(
+                        lat, lon,
+                        start=date.today().replace(year=date.today().year - 10),
+                        end=date.today(),
+                        key_prefix=f"{key_prefix}_eq"
+                    )
+            except Exception:
+                st.error(tr("meteo.falha_view_sismicidade"))
+                st.exception(traceback.format_exc())
 
-        # não calcular por defeito: o utilizador decide quando carregar
-        load_ind = st.toggle("Carregar indicadores", value=False,
-                            key=f"{key_prefix}_load_ind")
-
+    # ── TAB 3: INDICADORES ───────────────────────────────────────────────────
+    with tabs[3]:
+        st.subheader(tr("labels.indicadores_clim_ticos"))
+        load_ind = st.toggle(tr("labels.carregar_indicadores"), value=False,
+                             key=f"{key_prefix}_load_ind")
         if not load_ind:
-            st.caption("Carregamento adiado para acelerar o arranque desta página.")
+            st.caption(tr("labels.carregamento_adiado_para_acelerar_o_arranque_desta_p_gina"))
         else:
-            # opcional: profiling detalhado (top 30 funções por tempo cumulativo)
-            do_prof = st.toggle("🔬 Profiling detalhado", value=False,
-                                key=f"{key_prefix}_ind_prof")
-
             try:
                 from views.climate_indicators import render_climate_indicators_tab
-            except Exception:
-                st.error("Falha a carregar indicadores.")
-                st.exception(traceback.format_exc())
-            else:
                 with timed("Meteo · indicadores"):
-                    if do_prof:
-                        from utils.profiler import cprofile_block
-                        with cprofile_block(
-                            "indicadores (top 30)",
-                            sort="cumtime",
-                            include=("views/climate_indicators", "services", "pandas"),
-                            top=30,
-                        ):
-                            render_climate_indicators_tab()
-                    else:
-                        render_climate_indicators_tab()
+                    render_climate_indicators_tab()
+            except Exception:
+                st.error(tr("meteo.falha_carregar_indicadores"))
+                st.exception(traceback.format_exc())
 
-    # CENÁRIOS
-    with tab_cs:
+    # ── TAB 4: CENÁRIOS ──────────────────────────────────────────────────────
+    with tabs[4]:
         try:
             from views.climate_scenarios import render_climate_tab
             with timed("Meteo · cenários"):
                 render_climate_tab()
         except Exception:
-            st.error("Falha a carregar cenários climáticos.")
+            st.error(tr("meteo.falha_view_cenarios"))
             st.exception(traceback.format_exc())
 
 
-# Suporte a execução standalone deste módulo (opcional)
+# Execução standalone opcional
 def _standalone():
-    st.set_page_config(page_title="Meteorologia", layout="wide")
+    st.set_page_config(page_title=tr("meteorologia_era5"), layout="wide")
     render_meteo(embed=False, key_prefix="meteo", show_title=True)
 
 if __name__ == "__main__":

@@ -2,13 +2,29 @@
 from __future__ import annotations
 
 import streamlit as st
-
+from services.i18n_boot import render_lang_select
+from services.i18n import t
+from services.i18n import t as tr
+from services.i18n import t as tr   # <-- se estás a usar tr("..."); caso contrário, podes omitir
+from utils.timing import timed, show_perf_panel
+# importar a inicialização do idioma (compat com nomes antigos)
+try:
+    from services.i18n_boot import _ensure_lang_state, render_lang_select_right
+except ImportError:
+    from services.i18n_boot import init_i18n_state as _ensure_lang_state
+    from services.i18n_boot import render_lang_select_right
 # ── PAGE CONFIG ───────────────────────────────────────────────────────────────
 st.set_page_config(page_title="Geografía e Metereologia Mundiais", layout="wide")
+_ensure_lang_state()
 
+# seletor no canto superior direito
+render_lang_select(ratios=(10, 2), show_label=False)  # ajusta ratios se quiseres
+
+
+#st.title(t("app.title"))
 # ── IMPORTS DOS MÓDULOS DA APP ───────────────────────────────────────────────
 from paises import render_paises_tab
-from views.ind_demograficos import render_indicadores_tab
+from demografia import render_indicadores_tab
 from meteo import render_meteo
 from utils.streamlit_compat import patch_streamlit
 from utils.timing import timed, clear_perf, show_perf_panel
@@ -73,14 +89,14 @@ def _css_mobile() -> None:
 
 
 # ── HEADER ───────────────────────────────────────────────────────────────────
-st.title("🌎 Geográfia e Metereologia Mundiais")
-st.markdown("---")
-st.markdown("### Explore dados demográficos e informações sobre países")
+st.title(tr("labels.geografia_e_metereologia_mundiais"))
+st.markdown(tr("labels.text"))
+st.markdown(tr("labels.explore_dados_demogr_ficos_e_informa_es_sobre_pa_ses"))
 
 # Toggle para forçar mobile (também vale ?mobile=1 na URL)
 left, _, _ = st.columns([2, 3, 7])
 with left:
-    st.toggle("Mobile", key="mobile_mode", value=_is_mobile(), help="Também podes usar ?mobile=1 na URL")
+    st.toggle(tr("labels.mobile"), key="mobile_mode", value=_is_mobile(), help="Também podes usar ?mobile=1 na URL")
 
 mobile = _is_mobile()
 
@@ -95,21 +111,22 @@ if fragment is None:
 def _tab_paises():
     with timed("🌍 Países"):
         render_paises_tab()
-
+        
 @fragment
 def _tab_demografia():
     with timed("📊 Demografia"):
         render_indicadores_tab()
-
+        
 @fragment
 def _tab_meteo():
     with timed("☁️ Meteorologia"):
         render_meteo(embed=True, key_prefix="meteo", show_title=True)
-
+        
 @fragment
 def _tab_meteo_mobile():
     with timed("☁️ Meteorologia (mobile)"):
         render_meteo(embed=True, key_prefix="meteo_m", show_title=True)
+        
 
 # ── LAYOUT ───────────────────────────────────────────────────────────────────
 if not mobile:
@@ -117,7 +134,7 @@ if not mobile:
     _css_desktop_tabs()
 
     tab_paises, tab_ind, tab_meteo = st.tabs([
-        "🌍 Países", "📊 Demografia", "☁️ Meteorologia"
+        tr("app.tabs.pa_ses"), tr("app.tabs.demografia"), tr("app.tabs.meteorologia")
     ])
 
     with tab_paises:
@@ -138,9 +155,9 @@ else:
     if callable(segmented):
         choice = st.segmented_control("Navegar", options=options, default=options[0], key="mobile_nav_choice")
     else:
-        choice = st.radio("Navegar", options=options, horizontal=True, key="mobile_nav_choice")
+        choice = st.radio(tr("labels.navegar"), options=options, horizontal=True, key="mobile_nav_choice")
 
-    st.markdown("---")
+    st.markdown(tr("labels.text"))
 
     if choice.startswith("🌍"):
         _tab_paises()
