@@ -13,18 +13,25 @@ try:
 except ImportError:
     from services.i18n_boot import init_i18n_state as _ensure_lang_state
     from services.i18n_boot import render_lang_select_right
+from utils.header import render_brand_header
 # ── PAGE CONFIG ───────────────────────────────────────────────────────────────
-st.set_page_config(page_title="Geografía e Metereologia Mundiais", layout="wide")
+st.set_page_config(
+    page_title=f"{tr('app.name')} — {tr('app.tagline')}",
+    layout="wide",
+    menu_items={
+        "About": f"{tr('app.name')} · {tr('app.tagline')}"
+    }
+)
 _ensure_lang_state()
 
 # seletor no canto superior direito
 render_lang_select(ratios=(10, 2), show_label=False)  # ajusta ratios se quiseres
-
+render_brand_header(icon="🌍", show_divider=False)
 
 #st.title(t("app.title"))
 # ── IMPORTS DOS MÓDULOS DA APP ───────────────────────────────────────────────
 from paises import render_paises_tab
-from demografia import render_indicadores_tab
+from demografia import render_demografia_tab
 from meteo import render_meteo
 from utils.streamlit_compat import patch_streamlit
 from utils.timing import timed, clear_perf, show_perf_panel
@@ -89,9 +96,9 @@ def _css_mobile() -> None:
 
 
 # ── HEADER ───────────────────────────────────────────────────────────────────
-st.title(tr("labels.geografia_e_metereologia_mundiais"))
+#st.title(tr("labels.geografia_e_metereologia_mundiais"))
 st.markdown(tr("labels.text"))
-st.markdown(tr("labels.explore_dados_demogr_ficos_e_informa_es_sobre_pa_ses"))
+#st.markdown(tr("labels.explore_dados_demogr_ficos_e_informa_es_sobre_pa_ses"))
 
 # Toggle para forçar mobile (também vale ?mobile=1 na URL)
 left, _, _ = st.columns([2, 3, 7])
@@ -115,7 +122,7 @@ def _tab_paises():
 @fragment
 def _tab_demografia():
     with timed("📊 Demografia"):
-        render_indicadores_tab()
+        render_demografia_tab()
         
 @fragment
 def _tab_meteo():

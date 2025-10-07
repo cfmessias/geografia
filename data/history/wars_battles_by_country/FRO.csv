@@ -1,0 +1,2 @@
+ISO3;Country_ID;Country;Conflict_ID;Conflict;Conflict_Type;Start;End;PointInTime;Start_Year;End_Year;Point_Year;Winner_ID;Winner;PartOf_ID;PartOf;Context_ID;Context;Place_ID;Place;Coordinates;Deaths;Source;Deaths_Num
+FRO;http://www.wikidata.org/entity/Q4628;Ilhas Feroe;http://www.wikidata.org/entity/Q7130016;Psilander Affair;pirataria marítima;;;1940-06-20T00:00:00Z;;;1940;;;http://www.wikidata.org/entity/Q362;Segunda Guerra Mundial;;;http://www.wikidata.org/entity/Q10704;Tórshavn;;;location;

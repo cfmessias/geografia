@@ -1,0 +1,2 @@
+ISO3;Country_ID;Country;Conflict_ID;Conflict;Conflict_Type;Start;End;PointInTime;Start_Year;End_Year;Point_Year;Winner_ID;Winner;PartOf_ID;PartOf;Context_ID;Context;Place_ID;Place;Coordinates;Deaths;Source;Deaths_Num
+CYP;http://www.wikidata.org/entity/Q229;Chipre;http://www.wikidata.org/entity/Q112762812;Battle of Nicosia Airport;batalha;1974-07-19T00:00:00Z;1974-07-23T00:00:00Z;;1974;1974;;;;http://www.wikidata.org/entity/Q1050999;Invasão turca de Chipre;;;http://www.wikidata.org/entity/Q1432185;Aeroporto Internacional de Nicósia;;;participant;

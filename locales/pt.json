@@ -21,7 +21,10 @@
       "sismicidade": "🌍 Sismicidade",
       "temperatura": "🌡️ Temperatura"
     },
-    "title": "Geografia"
+    "title": "Geografia",
+	"name": "Good2Know",
+    "tagline": "Vale a pena saber — país a país.",
+	"subtitle": "Explora países, demografia e fenómenos metereológicos."
   },
 
   "climate_indicators": {
@@ -300,7 +303,8 @@
 	"ano_de_fundacao_ou_independencia": "**Ano de fundação/independência:** {year}",
     "moeda": "Moeda",
     "presidente": "Presidente",
-    "chefe_de_governo": "Chefe de governo"
+    "chefe_de_governo": "Chefe de governo",
+	"selecione_um_pais": "Selecione um país"
   },
 
   "meteo": { 
@@ -334,6 +338,14 @@
     "migracao_liquida_pessoas": "Migração líquida (pessoas)",
     "remessas_recebidas_usd": "Remessas recebidas (US$)",
     "remessas_percent_pib": "Remessas (% PIB)",
+	"migracoes_stocks_title": "Fluxos migratórios (UN DESA)",
+    "fonte_un_desa": "Fonte: UN DESA — International migrant stock (por sexo)",
+    "mulheres_origem": "Mulheres — Origem dos imigrantes",
+    "mulheres_destino": "Mulheres — Destino dos emigrantes",
+    "homens_origem": "Homens — Origem dos imigrantes",
+    "homens_destino": "Homens — Destino dos emigrantes",
+    "ficheiros_em_falta": "Ficheiros em falta",
+    "sem_m49_para_iso3": "Sem mapeamento m49 para ISO3={iso3}.",
 	"facts": {
       "estado_soberano": "Estado soberano",
       "codigos_pais": "Códigos dos países",
@@ -344,7 +356,23 @@
       "pib_per_capita": "PIB per capita",
       "codigo_area_tel": "Código de área telefónica",
       "dominio_nacional": "Domínio nacional"
-    }
+    },
+	"linguas_oficiais": "Línguas oficiais",
+	"outras_linguas": "Outras línguas",
+	"sub": {
+		"co_oficiais_regionais": "Co-oficiais (regionais)",
+		"outras_linguas_usadas": "Outras línguas usadas"
+	},
+	"col": {
+		"lingua": "Língua",
+		"regiao": "Região/jurisdição",
+		"desde": "Desde",
+		"ate": "Até",
+		"iso639_1": "ISO 639-1",
+		"iso639_3": "ISO 639-3"
+	},
+   "sem_co_oficiais_regionais": "— sem co-oficiais regionais —",
+   "sem_outras_linguas": "— sem outras línguas —"
   },
   "meteorologia_era5": "Meteorologia (ERA5)",
   "tabs": {
@@ -442,6 +470,7 @@
       "mort_esp": "Mortalidade Específica",
       "indic_adic": "Indicadores Adicionais"
     },
+	 "title": "📊 Demografia",
     "titles": {
       "pop_total": "População Total",
       "density": "Densidade Populacional",
@@ -500,5 +529,19 @@
       "people": "Número de pessoas"
     
     }
+  },
+  "subnav": {
+    "perfil": "Perfil",
+    "visao_global": "Visão global",
+    "demografia_pais": "Demografia",
+    "migracoes": "Mobilidade",
+    "historia": "História",
+    "continentes": "Continentes",
+    "comparar_paises": "Comparar países",
+    "fluxos_migratorios": "Fluxos migratórios"
+
   }
+  
+   
+  
 }

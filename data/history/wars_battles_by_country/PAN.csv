@@ -1,0 +1,2 @@
+ISO3;Country_ID;Country;Conflict_ID;Conflict;Conflict_Type;Start;End;PointInTime;Start_Year;End_Year;Point_Year;Winner_ID;Winner;PartOf_ID;PartOf;Context_ID;Context;Place_ID;Place;Coordinates;Deaths;Source;Deaths_Num
+PAN;http://www.wikidata.org/entity/Q804;Panamá;http://www.wikidata.org/entity/Q133873549;Battle of Pacora River Bridge;batalha;;;1989-12-20T00:00:00Z;;;1989;;;http://www.wikidata.org/entity/Q7097329;Operation Nifty Package;;;http://www.wikidata.org/entity/Q7123105;Pacora River;;;participant;

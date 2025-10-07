@@ -1,0 +1,2 @@
+ISO3;Country_ID;Country;Conflict_ID;Conflict;Conflict_Type;Start;End;PointInTime;Start_Year;End_Year;Point_Year;Winner_ID;Winner;PartOf_ID;PartOf;Context_ID;Context;Place_ID;Place;Coordinates;Deaths;Source;Deaths_Num
+MNG;http://www.wikidata.org/entity/Q711;Mongólia;http://www.wikidata.org/entity/Q11871384;Sino–Mongolian War;guerra;1913-01-01T00:00:00Z;1915-01-01T00:00:00Z;;1913;1915;;;;;;;;;;;;participant;

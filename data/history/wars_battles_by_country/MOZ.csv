@@ -1,0 +1,2 @@
+ISO3;Country_ID;Country;Conflict_ID;Conflict;Conflict_Type;Start;End;PointInTime;Start_Year;End_Year;Point_Year;Winner_ID;Winner;PartOf_ID;PartOf;Context_ID;Context;Place_ID;Place;Coordinates;Deaths;Source;Deaths_Num
+MOZ;http://www.wikidata.org/entity/Q1029;Moçambique;http://www.wikidata.org/entity/Q125293494;Battle of Mocímboa da Praia;batalha;;;2020-06-27T00:00:00Z;;;2020;;;http://www.wikidata.org/entity/Q47499139;Insurreição islâmica em Moçambique;;;http://www.wikidata.org/entity/Q466538;Província de Cabo Delgado;;;participant;

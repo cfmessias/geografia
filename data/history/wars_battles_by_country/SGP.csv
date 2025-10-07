@@ -1,0 +1,2 @@
+ISO3;Country_ID;Country;Conflict_ID;Conflict;Conflict_Type;Start;End;PointInTime;Start_Year;End_Year;Point_Year;Winner_ID;Winner;PartOf_ID;PartOf;Context_ID;Context;Place_ID;Place;Coordinates;Deaths;Source;Deaths_Num
+SGP;http://www.wikidata.org/entity/Q334;Singapura;http://www.wikidata.org/entity/Q796498;Terceira Guerra da Indochina;guerra;1975-05-01T00:00:00Z;1991-10-23T00:00:00Z;;1975;1991;;;;http://www.wikidata.org/entity/Q8683;Guerra Fria;;;http://www.wikidata.org/entity/Q148;China;;;participant;

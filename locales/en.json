@@ -21,7 +21,10 @@
       "sismicidade": "🌍 Seismicity",
       "temperatura": "🌡️ Temperature"
     },
-    "title": "Geography"
+    "title": "Geography",
+	"name": "Good2Know",
+    "tagline": "Worth knowing — country by country.",
+	"subtitle": "Explore countries, demographics and meteorological phenomena."
   },
 
   "climate_indicators": {
@@ -278,7 +281,8 @@
 	"ano_de_fundacao_ou_independencia": "**Year of foundation/independence:** {year}",
     "moeda": "Currency",
     "presidente": "President",
-    "chefe_de_governo": "Head of government"
+    "chefe_de_governo": "Head of government",
+	"selecione_um_pais": "Select a country"
   },
 
   "meteo": { 
@@ -350,6 +354,14 @@
     "migracao_liquida_pessoas": "Net migration (people)",
     "remessas_recebidas_usd": "Remittances received (US$)",
     "remessas_percent_pib": "Remittances (% of GDP)",
+	"migracoes_stocks_title": "Migratory flows (UN DESA)",
+    "fonte_un_desa": "Source: UN DESA — International migrant stock (by sex)",
+    "mulheres_origem": "Women — Immigrants’ country of origin",
+    "mulheres_destino": "Women — Emigrants’ country of destination",
+    "homens_origem": "Men — Immigrants’ country of origin",
+    "homens_destino": "Men — Emigrants’ country of destination",
+    "ficheiros_em_falta": "Missing files",
+    "sem_m49_para_iso3": "No m49 mapping for ISO3={iso3}.",
 	"facts": {
       "estado_soberano": "Sovereign state",
       "codigos_pais": "Country codes",
@@ -360,7 +372,23 @@
       "pib_per_capita": "GDP per capita",
       "codigo_area_tel": "Telephone area code",
       "dominio_nacional": "Top-level domain"
-    }
+    },
+	"linguas_oficiais": "Official languages",
+    "outras_linguas": "Other languages",
+    "sub": {
+      "co_oficiais_regionais": "Co-official (regional)",
+      "outras_linguas_usadas": "Other languages in use"
+    },
+    "col": {
+      "lingua": "Language",
+      "regiao": "Region/jurisdiction",
+      "desde": "From",
+      "ate": "To",
+      "iso639_1": "ISO 639-1",
+      "iso639_3": "ISO 639-3"
+    },
+    "sem_co_oficiais_regionais": "— no regional co-officials —",
+    "sem_outras_linguas": "— no other languages —"
   },
   "meteorologia_era5": "Weather (ERA5)",
   "tabs": {
@@ -422,6 +450,7 @@
       "mort_esp": "Specific Mortality",
       "indic_adic": "Additional Indicators"
     },
+	"title": "📊 Demography",
     "titles": {
       "pop_total": "Total population",
       "density": "Population density",
@@ -479,5 +508,16 @@
       "percent": "%",
       "people": "Number of people"
     }
+  },
+  "subnav": {
+    "perfil": "Profile",
+    "visao_global": "Overview",
+    "demografia_pais": "Demography",
+    "migracoes": "Mobility",
+    "historia": "History",
+    "continentes": "Continents",
+    "comparar_paises": "Compare countries",
+    "fluxos_migratorios": "Migration flows"
+
   }
 }

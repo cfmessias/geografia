@@ -1,0 +1,2 @@
+ISO3;Country_ID;Country;Conflict_ID;Conflict;Conflict_Type;Start;End;PointInTime;Start_Year;End_Year;Point_Year;Winner_ID;Winner;PartOf_ID;PartOf;Context_ID;Context;Place_ID;Place;Coordinates;Deaths;Source;Deaths_Num
+BWA;http://www.wikidata.org/entity/Q963;Botsuana;http://www.wikidata.org/entity/Q327237;Guerra do Quivu;guerra;2004-06-02T00:00:00Z;;;2004;;;;;http://www.wikidata.org/entity/Q364610;Guerra Civil no Congo;;;http://www.wikidata.org/entity/Q130625;Quivu do Norte;;;participant;

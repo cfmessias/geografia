@@ -1,0 +1,2 @@
+ISO3;Country_ID;Country;Conflict_ID;Conflict;Conflict_Type;Start;End;PointInTime;Start_Year;End_Year;Point_Year;Winner_ID;Winner;PartOf_ID;PartOf;Context_ID;Context;Place_ID;Place;Coordinates;Deaths;Source;Deaths_Num
+SXM;http://www.wikidata.org/entity/Q26273;São Martinho;http://www.wikidata.org/entity/Q4818004;Attack on Saint Martin;batalha naval;1644-03-20T00:00:00Z;1644-04-17T00:00:00Z;;1644;1644;;;;http://www.wikidata.org/entity/Q164432;Guerra dos Oitenta Anos;;;http://www.wikidata.org/entity/Q5470723;Fort Amsterdam;Point(-63.0458 18.0237);;location;

@@ -1,0 +1,2 @@
+ISO3;Country_ID;Country;Conflict_ID;Conflict;Conflict_Type;Start;End;PointInTime;Start_Year;End_Year;Point_Year;Winner_ID;Winner;PartOf_ID;PartOf;Context_ID;Context;Place_ID;Place;Coordinates;Deaths;Source;Deaths_Num
+KEN;http://www.wikidata.org/entity/Q114;Quénia;http://www.wikidata.org/entity/Q1271059;Guerra de Shifta;guerra;1963-01-01T00:00:00Z;1967-01-01T00:00:00Z;;1963;1967;;;;http://www.wikidata.org/entity/Q7559159;Somali-Kenyan conflict;;;http://www.wikidata.org/entity/Q390213;Nordeste;;;participant;

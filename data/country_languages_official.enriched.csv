@@ -1,0 +1,559 @@
+iso3;qid_country;lang_qid;lang_label;scope;region_label;start_year;end_year;country_label_en;lang_label_en
+ABW;Q21203;Q33856;Papiamento;national;;;;Aruba;Papiamento
+ABW;Q21203;Q7411;neerlandês;national;;;;Aruba;Dutch
+AFG;Q889;Q36670;Pashayi;regional;língua regional;;;Afghanistan;Pashayi
+AFG;Q889;Q33049;Língua balúchi;regional;língua regional;;;Afghanistan;Balochi
+AFG;Q889;Q161804;Nuristani;regional;língua regional;;;Afghanistan;Nuristani
+AFG;Q889;Q58680;pastó;national;;;;Afghanistan;Pashto
+AFG;Q889;Q9267;Língua turcomena;national;;;;Afghanistan;Turkmen
+AFG;Q889;Q178440;Língua dari;national;;;;Afghanistan;Dari
+AFG;Q889;Q13955;árabe;regional;língua regional;;;Afghanistan;Arabic
+AFG;Q889;Q1772864;línguas pamir;regional;língua regional;;;Afghanistan;Pamir
+AFG;Q889;Q9264;língua uzbeque;regional;língua regional;;;Afghanistan;Uzbek
+AGO;Q916;Q5146;português;national;;;;Angola;Portuguese
+AIA;Q25228;Q1860;inglês;national;;;;Anguilla;English
+ALA;Q5689;Q9027;língua sueca;national;;;;Åland;Swedish
+ALB;Q222;Q8748;língua albanesa;national;;;;Albania;Albanian
+AND;Q228;Q7026;língua catalã;national;;;;Andorra;Catalan
+ARE;Q878;Q13955;árabe;national;;;;United Arab Emirates;Arabic
+ARG;Q414;Q1321;espanhol;national;;;;Argentina;Spanish
+ARM;Q399;Q8785;língua arménia;national;;;;Armenia;Armenian
+ASM;Q16641;Q34011;Língua samoana;national;;;;American Samoa;Samoan
+ASM;Q16641;Q1860;inglês;national;;;;American Samoa;English
+ATF;Q129003;Q150;francês;national;;;;French Southern and Antarctic Lands;French
+ATG;Q781;Q1860;inglês;national;;;;Antigua and Barbuda;English
+AUS;Q408;Q44679;inglês australiano;national;;;;Australia;Australian English
+AUS;Q408;Q29525;língua de sinais australiana;national;;;;Australia;Auslan
+AUT;Q40;Q188;alemão;national;;;;Austria;German
+AUT;Q40;Q36668;língua de sinais austríaca;national;;;;Austria;Austrian Sign Language
+AZE;Q227;Q9292;Língua azeri;regional;Standart Azerbaijani;;;Azerbaijan;Azerbaijani
+AZE;Q227;Q55698568;Língua gestual azerbaijana;national;;;;Azerbaijan;Azerbaijani Sign Language
+BDI;Q967;Q150;francês;national;;;;Burundi;French
+BDI;Q967;Q33583;Língua kirundi;national;;;;Burundi;Kirundi
+BDI;Q967;Q1860;inglês;national;;;;Burundi;English
+BEL;Q31;Q188;alemão;regional;Comunidade germanófona da Bélgica;;;Belgium;German
+BEL;Q31;Q188;alemão;regional;Welkenraedt;;;Belgium;German
+BEL;Q31;Q188;alemão;regional;Malmedy;;;Belgium;German
+BEL;Q31;Q188;alemão;regional;Waimes;;;Belgium;German
+BEL;Q31;Q188;alemão;regional;Baelen;;;Belgium;German
+BEL;Q31;Q188;alemão;regional;Plombières;;;Belgium;German
+BEL;Q31;Q150;francês;regional;Valónia;;;Belgium;French
+BEL;Q31;Q150;francês;regional;Região de Bruxelas-Capital;;;Belgium;French
+BEL;Q31;Q150;francês;regional;Ronse;;;Belgium;French
+BEL;Q31;Q150;francês;regional;Voeren;;;Belgium;French
+BEL;Q31;Q150;francês;regional;Herstappe;;;Belgium;French
+BEL;Q31;Q150;francês;regional;Linkebeek;;;Belgium;French
+BEL;Q31;Q150;francês;regional;Drogenbos;;;Belgium;French
+BEL;Q31;Q150;francês;regional;Mesen;;;Belgium;French
+BEL;Q31;Q150;francês;regional;Bever;;;Belgium;French
+BEL;Q31;Q150;francês;regional;Sint-Genesius-Rode;;;Belgium;French
+BEL;Q31;Q150;francês;regional;Spiere-Helkijn;;;Belgium;French
+BEL;Q31;Q7411;neerlandês;regional;Flandres;;;Belgium;Dutch
+BEL;Q31;Q7411;neerlandês;regional;Região de Bruxelas-Capital;;;Belgium;Dutch
+BEL;Q31;Q7411;neerlandês;regional;Welkenraedt;;;Belgium;Dutch
+BEL;Q31;Q7411;neerlandês;regional;Mouscron;;;Belgium;Dutch
+BEL;Q31;Q7411;neerlandês;regional;Comines-Warneton;;;Belgium;Dutch
+BEL;Q31;Q7411;neerlandês;regional;Enghien;;;Belgium;Dutch
+BEL;Q31;Q7411;neerlandês;regional;Baelen;;;Belgium;Dutch
+BEL;Q31;Q7411;neerlandês;regional;Plombières;;;Belgium;Dutch
+BEN;Q962;Q150;francês;national;;;;Benin;French
+BES;Q27561;Q33856;Papiamento;regional;Bonaire;;;Caribbean Netherlands;Papiamento
+BES;Q27561;Q1860;inglês;national;;;;Caribbean Netherlands;English
+BES;Q27561;Q7411;neerlandês;national;;;;Caribbean Netherlands;Dutch
+BFA;Q965;Q32706;Língua dioula;national;;;;Burkina Faso;Dioula
+BFA;Q965;Q32934;Língua bissa;national;;;;Burkina Faso;Bissa
+BFA;Q965;Q36096;Língua more;national;;;;Burkina Faso;Mooré
+BGD;Q902;Q9610;língua bangla;national;;;;Bangladesh;Bangla
+BGR;Q219;Q7918;língua búlgara;national;;;;Bulgaria;Bulgarian
+BHR;Q398;Q13955;árabe;national;;;;Bahrain;Arabic
+BHS;Q778;Q1860;inglês;national;;;;The Bahamas;English
+BIH;Q225;Q6654;croata;national;;;;Bosnia and Herzegovina;Croatian
+BIH;Q225;Q9303;Língua bósnia;national;;;;Bosnia and Herzegovina;Bosnian
+BIH;Q225;Q9299;língua sérvia;national;;;;Bosnia and Herzegovina;Serbian
+BLM;Q25362;Q150;francês;national;;;;Saint Barthélemy;French
+BLR;Q184;Q9091;Língua bielorrussa;national;;;;Belarus;Belarusian
+BLR;Q184;Q7737;russo;national;;1995;;Belarus;Russian
+BLZ;Q242;Q1860;inglês;national;;;;Belize;English
+BMU;Q23635;Q1860;inglês;national;;;;Bermuda;English
+BOL;Q750;Q5218;quíchua;national;;;;Bolivia;Quechua
+BOL;Q750;Q1321;espanhol;national;;;;Bolivia;Spanish
+BOL;Q750;Q35876;língua guarani;national;;;;Bolivia;Guarani
+BOL;Q750;Q4627;Língua aymará;national;;;;Bolivia;Aymara
+BRA;Q155;Q5146;português;national;;;;Brazil;Portuguese
+BRA;Q155;Q3436689;língua brasileira de sinais;national;;;;Brazil;Brazilian Sign Language
+BRB;Q244;Q2524014;Crioulo bajan;national;;;;Barbados;Bajan Creole
+BRB;Q244;Q1860;inglês;national;;;;Barbados;English
+BRN;Q921;Q7979;inglês britânico;national;;;;Brunei;British English
+BRN;Q921;Q9237;malaio;national;;;;Brunei;Malay
+BTN;Q917;Q33081;língua butanesa;national;;;;Bhutan;Dzongkha
+BWA;Q963;Q1860;inglês;national;;;;Botswana;English
+CAF;Q929;Q33954;Língua sango;national;;;;Central African Republic;Sango
+CAF;Q929;Q150;francês;national;;;;Central African Republic;French
+CAN;Q16;Q1860;inglês;national;;1972;;Canada;English
+CAN;Q16;Q150;francês;national;;1972;;Canada;French
+CCK;Q36004;Q1860;inglês;national;;;;Cocos (Keeling) Islands;English
+CHE;Q39;Q150;francês;national;;;;Switzerland;French
+CHE;Q39;Q652;italiano;national;;;;Switzerland;Italian
+CHE;Q39;Q188;alemão;national;;;;Switzerland;German
+CHE;Q39;Q13199;romanche;national;;;;Switzerland;Romansh
+CHL;Q298;Q1321;espanhol;national;;;;Chile;Spanish
+CHN;Q148;Q24841726;Putonghua;national;;;;People's Republic of China;Putonghua
+CHN;Q148;Q7850;língua chinesa;national;;;;People's Republic of China;Chinese
+CHN;Q148;Q727694;mandarim padrão;national;;;;People's Republic of China;Standard Chinese
+CHN;Q148;Q835866;Línguas da China;national;;;;People's Republic of China;languages of China
+CIV;Q1008;Q150;francês;national;;;;Ivory Coast;French
+CMR;Q1009;Q150;francês;national;;;;Cameroon;French
+CMR;Q1009;Q1860;inglês;national;;;;Cameroon;English
+COD;Q974;Q150;francês;national;;;;Democratic Republic of the Congo;French
+COG;Q971;Q150;francês;national;;;;Republic of the Congo;French
+COK;Q26988;Q1860;inglês;national;;;;Cook Islands;English
+COK;Q26988;Q36745;Maori das Ilhas Cook;national;;;;Cook Islands;Cook Islands Maori
+COL;Q739;Q1321;espanhol;national;;;;Colombia;Spanish
+COM;Q970;Q150;francês;national;;;;Comoros;French
+COM;Q970;Q13955;árabe;national;;;;Comoros;Arabic
+COM;Q970;Q33077;Língua comoriana;national;;;;Comoros;Comorian
+CPV;Q1011;Q5146;português;national;;;;Cape Verde;Portuguese
+CPV;Q1011;Q35963;crioulo cabo-verdiano;national;;;;Cape Verde;Cape Verdean Creole
+CRI;Q800;Q1321;espanhol;national;;;;Costa Rica;Spanish
+CUB;Q241;Q1321;espanhol;national;;;;Cuba;Spanish
+CUW;Q25279;Q1860;inglês;national;;;;Curaçao;English
+CUW;Q25279;Q33856;Papiamento;national;;;;Curaçao;Papiamento
+CUW;Q25279;Q7411;neerlandês;national;;;;Curaçao;Dutch
+CXR;Q31063;Q1860;inglês;national;;;;Christmas Island;English
+CYM;Q5785;Q1860;inglês;national;;;;Cayman Islands;English
+CYP;Q229;Q9129;grego;national;;;;Cyprus;Greek
+CYP;Q229;Q256;língua turca;national;;;;Cyprus;Turkish
+CYP;Q229;Q36510;grego moderno;national;;;;Cyprus;Modern Greek
+CZE;Q213;Q9056;checo;national;;;;Czech Republic;Czech
+DEU;Q183;Q188;alemão;national;;;;Germany;German
+DJI;Q977;Q150;francês;national;;;;Djibouti;French
+DJI;Q977;Q13955;árabe;national;;;;Djibouti;Arabic
+DMA;Q784;Q1860;inglês;national;;;;Dominica;English
+DNK;Q35;Q9035;dinamarquês;national;;;;Denmark;Danish
+DOM;Q786;Q1321;espanhol;national;;;;Dominican Republic;Spanish
+DZA;Q262;Q61053330;Standard Algerian Berber;national;;2002;;Algeria;Standard Algerian Berber
+DZA;Q262;Q13955;árabe;national;;;;Algeria;Arabic
+ECU;Q736;Q1321;espanhol;national;;;;Ecuador;Spanish
+ECU;Q736;Q1740805;Língua quichua;national;;;;Ecuador;Northern Quichua
+ECU;Q736;Q617291;Língua shuar;national;;;;Ecuador;Shuar
+EGY;Q79;Q13955;árabe;national;;;;Egypt;Arabic
+ERI;Q986;Q1860;inglês;national;;;;Eritrea;English
+ERI;Q986;Q13955;árabe;national;;;;Eritrea;Arabic
+ERI;Q986;Q34124;Língua tigrínia;national;;;;Eritrea;Tigrinya
+ESP;Q29;Q1321;espanhol;national;;;;Spain;Spanish
+ESP;Q29;Q14185;língua occitana;regional;Catalunha;;;Spain;Occitan
+ESP;Q29;Q7026;língua catalã;regional;Catalunha;;;Spain;Catalan
+ESP;Q29;Q7026;língua catalã;regional;Comunidade Valenciana;;;Spain;Catalan
+ESP;Q29;Q7026;língua catalã;regional;Ilhas Baleares;;;Spain;Catalan
+ESP;Q29;Q9307;galego;regional;Galiza;;;Spain;Galician
+ESP;Q29;Q8752;basco;regional;Comunidade Autónoma do País Basco;;;Spain;Basque
+ESP;Q29;Q8752;basco;regional;zona bascófona de Navarra;;;Spain;Basque
+EST;Q191;Q9072;estónio;national;;;;Estonia;Estonian
+ETH;Q115;Q28244;Língua amárica;national;;;;Ethiopia;Amharic
+FIN;Q33;Q9027;língua sueca;national;;;;Finland;Swedish
+FIN;Q33;Q1412;finlandês;national;;;;Finland;Finnish
+FJI;Q712;Q33295;Língua fidjiana;national;;;;Fiji;Fijian
+FJI;Q712;Q46728;Hindi fijiano;national;;;;Fiji;Fiji Hindi
+FJI;Q712;Q1860;inglês;national;;;;Fiji;English
+FLK;Q9648;Q1860;inglês;national;;;;Falkland Islands;English
+FRA;Q142;Q150;francês;national;;1992;;France;French
+FRO;Q4628;Q25258;Língua feroesa;national;;;;Faroe Islands;Faroese
+FRO;Q4628;Q9035;dinamarquês;national;;;;Faroe Islands;Danish
+FSM;Q702;Q1860;inglês;national;;;;Federated States of Micronesia;English
+GAB;Q1000;Q150;francês;national;;;;Gabon;French
+GBR;Q145;Q9309;galês;regional;País de Gales;;;United Kingdom;Welsh
+GBR;Q145;Q9142;irlandês;national;;;;United Kingdom;Irish
+GBR;Q145;Q201966;scots de Ulster;national;;;;United Kingdom;Ulster Scots
+GBR;Q145;Q33000;língua de sinais britânica;national;;;;United Kingdom;British Sign Language
+GBR;Q145;Q25289;córnico;national;;;;United Kingdom;Cornish
+GBR;Q145;Q9314;Língua gaélica escocesa;national;;;;United Kingdom;Scottish Gaelic
+GBR;Q145;Q1860;inglês;national;;;;United Kingdom;English
+GBR;Q145;Q14549;Scots;national;;;;United Kingdom;Scots
+GEO;Q230;Q8108;língua georgiana;national;;;;Georgia;Georgian
+GEO;Q230;Q5111;Língua abecásia;national;;;;Georgia;Abkhaz
+GGY;Q25230;Q1860;inglês;national;;;;Guernsey;English
+GGY;Q25230;Q150;francês;national;;;1948;Guernsey;French
+GHA;Q117;Q1860;inglês;national;;;;Ghana;English
+GIB;Q1410;Q1860;inglês;national;;;;Gibraltar;English
+GIN;Q1006;Q150;francês;national;;;;Guinea;French
+GIN;Q1006;Q1339026;languages of Guinea;national;;;;Guinea;languages of Guinea
+GMB;Q1005;Q1860;inglês;national;;;;The Gambia;English
+GNB;Q1007;Q5146;português;national;;;;Guinea-Bissau;Portuguese
+GNQ;Q983;Q1321;espanhol;national;;;;Equatorial Guinea;Spanish
+GNQ;Q983;Q150;francês;national;;1997;;Equatorial Guinea;French
+GNQ;Q983;Q5146;português;national;;;;Equatorial Guinea;Portuguese
+GRC;Q41;Q36510;grego moderno;national;;;;Greece;Modern Greek
+GRC;Q41;Q9129;grego;national;;;;Greece;Greek
+GRC;Q41;Q35392;Grego demótico;national;;;;Greece;Demotic Greek
+GRD;Q769;Q1860;inglês;national;;;;Grenada;English
+GRD;Q769;Q4252500;Crioulo inglês de Granada;national;;;;Grenada;Grenadian Creole English
+GRL;Q223;Q25355;gronelandês;national;;;;Greenland;Greenlandic
+GTM;Q774;Q1321;espanhol;national;;;;Guatemala;Spanish
+GUF;Q3769;Q150;francês;national;;;;French Guiana;French
+GUF;Q3769;Q1363072;Crioulo da Guiana Francesa;national;;;;French Guiana;Guianan Creole
+GUM;Q16635;Q1860;inglês;national;;;;Guam;English
+GUM;Q16635;Q33262;Língua chamorro;national;;;;Guam;Chamorro
+GUY;Q734;Q1860;inglês;national;;;;Guyana;English
+HKG;Q8646;Q727694;mandarim padrão;national;;;;Hong Kong;Standard Chinese
+HKG;Q8646;Q1860;inglês;national;;;;Hong Kong;English
+HKG;Q8646;Q3110592;chinês escrito;national;;;;Hong Kong;written Chinese language
+HKG;Q8646;Q7850;língua chinesa;national;;;;Hong Kong;Chinese
+HKG;Q8646;Q9186;Cantonês;regional;língua falada;;;Hong Kong;Cantonese
+HMD;Q131198;Q1860;inglês;national;;;;Heard Island and McDonald Islands;English
+HND;Q783;Q1321;espanhol;national;;;;Honduras;Spanish
+HRV;Q224;Q6654;croata;national;;;;Croatia;Croatian
+HTI;Q790;Q33491;crioulo haitiano;national;;;;Haiti;Haitian Creole
+HTI;Q790;Q150;francês;national;;;;Haiti;French
+HUN;Q28;Q9067;húngaro;national;;1844;;Hungary;Hungarian
+IDN;Q252;Q9240;língua indonésia;national;;;;Indonesia;Indonesian
+IMN;Q9676;Q12175;Língua manesa;national;;;;Isle of Man;Manx
+IMN;Q9676;Q1860;inglês;national;;;;Isle of Man;English
+IND;Q668;Q1568;língua hindi;national;;;;India;Hindi
+IND;Q668;Q1860;inglês;national;;;;India;English
+IOT;Q43448;Q1860;inglês;national;;;;British Indian Ocean Territory;English
+IRL;Q27;Q9142;irlandês;national;;;;Ireland;Irish
+IRL;Q27;Q1860;inglês;national;;;;Ireland;English
+IRN;Q794;Q9168;persa;national;;;;Iran;Persian
+IRQ;Q796;Q36368;língua curda;national;;;;Iraq;Kurdish
+IRQ;Q796;Q13955;árabe;national;;;;Iraq;Arabic
+ISL;Q189;Q294;islandês;national;;;;Iceland;Icelandic
+ISR;Q801;Q9288;hebraico;national;;1948;;Israel;Hebrew
+ISR;Q801;Q13955;árabe;national;;1948;2018;Israel;Arabic
+ITA;Q38;Q652;italiano;national;;;;Italy;Italian
+JAM;Q766;Q1860;inglês;national;;;;Jamaica;English
+JAM;Q766;Q35939;patoá jamaicano;national;;;;Jamaica;Jamaican Patois
+JEY;Q785;Q2047043;Jersey Legal French;national;;;;Jersey;Jersey Legal French
+JEY;Q785;Q1860;inglês;national;;;;Jersey;English
+JEY;Q785;Q56430;Jèrriais;national;;;;Jersey;Jèrriais
+JOR;Q810;Q13955;árabe;national;;;;Jordan;Arabic
+JPN;Q17;Q5287;japonês;national;;;;Japan;Japanese
+KAZ;Q232;Q7737;russo;national;;;;Kazakhstan;Russian
+KAZ;Q232;Q9252;língua cazaque;national;;;;Kazakhstan;Kazakh
+KEN;Q114;Q1860;inglês;national;;;;Kenya;English
+KEN;Q114;Q7838;Língua suaíli;national;;;;Kenya;Swahili
+KGZ;Q813;Q7737;russo;national;;;;Kyrgyzstan;Russian
+KGZ;Q813;Q9255;quirguiz;national;;;;Kyrgyzstan;Kyrgyz
+KHM;Q424;Q9205;Língua khmer;national;;;;Cambodia;Khmer
+KIR;Q710;Q1860;inglês;national;;;;Kiribati;English
+KIR;Q710;Q30898;Gilbertês;national;;;;Kiribati;Gilbertese
+KNA;Q763;Q1860;inglês;national;;;;Saint Kitts and Nevis;English
+KOR;Q884;Q9176;coreano;national;;;;South Korea;Korean
+KOR;Q884;Q3073428;língua de sinais coreana;national;;;;South Korea;Korean Sign Language
+KWT;Q817;Q13955;árabe;national;;;;Kuwait;Arabic
+LAO;Q819;Q9211;Língua laociana;national;;;;Laos;Lao
+LBN;Q822;Q13955;árabe;national;;;;Lebanon;Arabic
+LBN;Q822;Q150;francês;national;;1926;http;Lebanon;French
+LBR;Q1014;Q1860;inglês;national;;;;Liberia;English
+LBY;Q1016;Q56467;árabe moderno padrão;national;;;;Libya;Modern Standard Arabic
+LBY;Q1016;Q13955;árabe;national;;;;Libya;Arabic
+LCA;Q760;Q1860;inglês;national;;;;Saint Lucia;English
+LIE;Q347;Q188;alemão;national;;;;Liechtenstein;German
+LKA;Q854;Q13267;cingalês;national;;;;Sri Lanka;Sinhala
+LKA;Q854;Q5885;Língua tâmil;national;;;;Sri Lanka;Tamil
+LSO;Q1013;Q1860;inglês;national;;;;Lesotho;English
+LSO;Q1013;Q34340;língua soto do sul;national;;;;Lesotho;Sesotho
+LTU;Q37;Q9083;língua lituana;national;;;;Lithuania;Lithuanian
+LUX;Q32;Q9051;língua luxemburguesa;national;;;;Luxembourg;Luxembourgish
+LUX;Q32;Q150;francês;national;;;;Luxembourg;French
+LUX;Q32;Q188;alemão;national;;;;Luxembourg;German
+LVA;Q211;Q9078;língua letã;national;;;;Latvia;Latvian
+MAC;Q14773;Q5146;português;national;;;;Macau;Portuguese
+MAC;Q14773;Q727694;mandarim padrão;national;;;;Macau;Standard Chinese
+MAC;Q14773;Q9186;Cantonês;national;;;;Macau;Cantonese
+MAF;Q126125;Q150;francês;national;;;;Saint-Martin;French
+MAR;Q1028;Q7598268;Standard Moroccan Amazigh;national;;;;Morocco;Standard Moroccan Amazigh
+MAR;Q1028;Q13955;árabe;national;;;;Morocco;Arabic
+MCO;Q235;Q150;francês;national;;;;Monaco;French
+MDA;Q217;Q7913;língua romena;national;;1991;;Moldova;Romanian
+MDA;Q217;Q36392;língua moldávia;national;;1994;2023;Moldova;Moldovan
+MDA;Q217;Q36392;língua moldávia;national;;1940;1989;Moldova;Moldovan
+MDG;Q1019;Q150;francês;national;;;;Madagascar;French
+MDG;Q1019;Q7930;Língua malgaxe;national;;;;Madagascar;Malagasy
+MDV;Q826;Q32656;Língua divehi;national;;;;Maldives;Divehi
+MEX;Q96;Q13354;Iucateque;national;;;;Mexico;Yucatec Maya
+MEX;Q96;Q13300;nauatle;national;;;;Mexico;Nahuatl
+MEX;Q96;Q1321;espanhol;national;;;;Mexico;Spanish
+MHL;Q709;Q36280;Língua marshalesa;national;;;;Marshall Islands;Marshallese
+MHL;Q709;Q1860;inglês;national;;;;Marshall Islands;English
+MKD;Q221;Q8748;língua albanesa;national;;;;North Macedonia;Albanian
+MKD;Q221;Q9296;língua macedônia;national;;;;North Macedonia;Macedonian
+MLI;Q912;Q36186;Línguas maninkas;national;;;;Mali;Maninka
+MLI;Q912;Q1234776;Dogon;national;;;;Mali;Dogon
+MLI;Q912;Q33795;Senufo;national;;;;Mali;Senufo
+MLI;Q912;Q36905;Kassonke;national;;;;Mali;Kassonke
+MLI;Q912;Q56231;Árabe hassani;national;;;;Mali;Hassaniya Arabic
+MLI;Q912;Q33243;Língua bambara;national;;;;Mali;Bambara
+MLI;Q912;Q33454;Língua fula;national;;;;Mali;Fula
+MLI;Q912;Q4670066;Tamasheq;national;;;;Mali;Tamasheq
+MLI;Q912;Q12628055;Bobo;national;;;;Mali;Bobo
+MLI;Q912;Q36660;Língua soninquê;national;;;;Mali;Soninke
+MLI;Q912;Q36187;Minyanka;national;;;;Mali;Minyanka
+MLI;Q912;Q505198;Línguas songai;national;;;;Mali;Songhay
+MLI;Q912;Q35021;Bozo;national;;;;Mali;Bozo
+MLT;Q233;Q1860;inglês;national;;;;Malta;English
+MLT;Q233;Q9166;Maltês;national;;;;Malta;Maltese
+MMR;Q836;Q9228;birmanês;national;;;;Myanmar;Burmese
+MNE;Q236;Q9299;língua sérvia;national;;;;Montenegro;Serbian
+MNE;Q236;Q6654;croata;national;;;;Montenegro;Croatian
+MNE;Q236;Q9303;Língua bósnia;national;;;;Montenegro;Bosnian
+MNE;Q236;Q8821;língua montenegrina;national;;;;Montenegro;Montenegrin
+MNE;Q236;Q8748;língua albanesa;national;;;;Montenegro;Albanian
+MNG;Q711;Q9246;Língua mongol;national;;;;Mongolia;Mongolian
+MNP;Q16644;Q1860;inglês;national;;;;Northern Mariana Islands;English
+MNP;Q16644;Q33262;Língua chamorro;national;;;;Northern Mariana Islands;Chamorro
+MNP;Q16644;Q28427;Língua caroliniana;national;;;;Northern Mariana Islands;Carolinian
+MOZ;Q1029;Q5146;português;national;;;;Mozambique;Portuguese
+MRT;Q1025;Q13955;árabe;national;;;;Mauritania;Arabic
+MSR;Q13353;Q1860;inglês;national;;;;Montserrat;English
+MUS;Q1027;Q1860;inglês;national;;;;Mauritius;English
+MUS;Q1027;Q150;francês;national;;;;Mauritius;French
+MWI;Q1020;Q1860;inglês;national;;;;Malawi;English
+MWI;Q1020;Q33273;língua nianja;national;;;;Malawi;Chewa
+MWI;Q1020;Q34138;Língua tumbuka;national;;;;Malawi;Tumbuka
+MYS;Q833;Q9237;malaio;national;;;;Malaysia;Malay
+MYT;Q17063;Q150;francês;national;;;;Mayotte;French
+MYT;Q17063;Q34075;shimaore;national;;;;Mayotte;Maore
+MYT;Q17063;Q5150795;Língua bushi;national;;;;Mayotte;Bushi
+NAM;Q1030;Q1860;inglês;national;;;;Namibia;English
+NCL;Q33788;Q150;francês;national;;;;New Caledonia;French
+NER;Q1032;Q56475;Língua haúça;national;;;;Niger;Hausa
+NFK;Q31057;Q1860;inglês;national;;;;Norfolk Island;English
+NFK;Q31057;Q33797;norfuk;national;;;;Norfolk Island;Norfuk
+NGA;Q1033;Q1860;inglês;national;;;;Nigeria;English
+NIC;Q811;Q1321;espanhol;national;;;;Nicaragua;Spanish
+NIU;Q34020;Q1860;inglês;national;;;;Niue;English
+NIU;Q34020;Q33790;Língua niueana;national;;;;Niue;Niuean
+NLD;Q29999;Q7411;neerlandês;national;;;;Kingdom of the Netherlands;Dutch
+NOR;Q20;Q25164;novo norueguês;national;;;;Norway;Nynorsk
+NOR;Q20;Q56463;línguas sami;national;;;;Norway;Sámi
+NOR;Q20;Q9043;língua norueguesa;national;;;;Norway;Norwegian
+NOR;Q20;Q25167;bokmål;national;;;;Norway;Bokmål
+NPL;Q837;Q33823;língua nepali;national;;;;Nepal;Nepali
+NRU;Q697;Q13307;Língua nauruana;national;;;;Nauru;Nauruan
+NRU;Q697;Q1860;inglês;national;;;;Nauru;English
+NZL;Q664;Q1860;inglês;national;;;;New Zealand;English
+NZL;Q664;Q36451;língua maori;national;;1987;;New Zealand;Māori
+NZL;Q664;Q36239;língua de sinais da Nova Zelândia;national;;2006;;New Zealand;New Zealand Sign Language
+OMN;Q842;Q13955;árabe;national;;;;Oman;Arabic
+PAK;Q843;Q1617;Língua urdu;national;;;;Pakistan;Urdu
+PAK;Q843;Q1860;inglês;national;;;;Pakistan;English
+PAN;Q804;Q1321;espanhol;national;;;;Panama;Spanish
+PCN;Q35672;Q1860;inglês;national;;;;Pitcairn Islands;English
+PCN;Q35672;Q36554;pitcairnes;national;;;;Pitcairn Islands;Pitkern
+PER;Q419;Q1321;espanhol;national;;;;Peru;Spanish
+PER;Q419;Q4627;Língua aymará;national;;;;Peru;Aymara
+PER;Q419;Q5218;quíchua;national;;;;Peru;Quechua
+PHL;Q928;Q2530387;Taglish;national;;;;Philippines;Taglish
+PHL;Q928;Q1860;inglês;national;;;;Philippines;English
+PHL;Q928;Q33298;filipino;national;;;;Philippines;Filipino
+PLW;Q695;Q1860;inglês;national;;;;Palau;English
+PLW;Q695;Q5287;japonês;regional;Angaur;;;Palau;Japanese
+PLW;Q695;Q33776;palauense;national;;;;Palau;Palauan
+PNG;Q691;Q33617;Língua hiri motu;national;;;;Papua New Guinea;Hiri Motu
+PNG;Q691;Q25044405;Língua de sinais da Papua-Nova Guiné;national;;;;Papua New Guinea;Papua New Guinean Sign Language
+PNG;Q691;Q34159;Tok Pisin;national;;;;Papua New Guinea;Tok Pisin
+PNG;Q691;Q1860;inglês;national;;;;Papua New Guinea;English
+POL;Q36;Q809;polaco;national;;;;Poland;Polish
+POL;Q36;Q30319;silesiano;national;;;;Poland;Silesian
+POL;Q36;Q33690;cassúbio;national;;;;Poland;Kashubian
+POL;Q36;Q9091;Língua bielorrussa;national;;;;Poland;Belarusian
+PRI;Q1183;Q1860;inglês;national;;;;Puerto Rico;English
+PRI;Q1183;Q1321;espanhol;national;;;;Puerto Rico;Spanish
+PRK;Q423;Q9176;coreano;national;;;;North Korea;Korean
+PRK;Q423;Q18784;Munhwaŏ;national;;;;North Korea;North Korean standard language
+PRT;Q45;Q13330;mirandês;national;;1999;;Portugal;Mirandese
+PRT;Q45;Q5146;português;national;;;;Portugal;Portuguese
+PRY;Q733;Q1321;espanhol;national;;;;Paraguay;Spanish
+PRY;Q733;Q35876;língua guarani;national;;;;Paraguay;Guarani
+PSE;Q219060;Q13955;árabe;national;;;;State of Palestine;Arabic
+PYF;Q30971;Q150;francês;national;;;;French Polynesia;French
+QAT;Q846;Q13955;árabe;national;;;;Qatar;Arabic
+REU;Q17070;Q150;francês;national;;;;Réunion;French
+ROU;Q218;Q7913;língua romena;national;;;;Romania;Romanian
+RUS;Q159;Q33357;tártaro da Crimeia;regional;República da Crimeia;;;Russia;Crimean Tatar
+RUS;Q159;Q36498;Língua agul;regional;Daguestão;;;Russia;Aghul
+RUS;Q159;Q31746;Língua lezgui;regional;Daguestão;;;Russia;Lezgian
+RUS;Q159;Q1991779;Southern Altai;regional;Altai;;;Russia;Southern Altai
+RUS;Q159;Q7737;russo;national;;;;Russia;Russian
+RUS;Q159;Q973685;língua mari;regional;Mari El;;;Russia;Mari
+RUS;Q159;Q36206;Língua lak;regional;Daguestão;;;Russia;Lak
+RUS;Q159;Q33522;Língua cabardiana;regional;Cabárdia-Balcária;;;Russia;Kabardian
+RUS;Q159;Q33522;Língua cabardiana;regional;Carachai-Circássia;;;Russia;Kabardian
+RUS;Q159;Q33871;Língua nogai;regional;Daguestão;;;Russia;Nogai
+RUS;Q159;Q33968;Língua osseta;regional;Ossétia do Norte-Alânia;;;Russia;Ossetian
+RUS;Q159;Q33575;Língua khakas;regional;Cacássia;;;Russia;Khakas
+RUS;Q159;Q29561;Língua ávara;regional;Daguestão;;;Russia;Avar
+RUS;Q159;Q34299;Língua iacuta;regional;Sakha;;;Russia;Yakut
+RUS;Q159;Q34119;Língua tuviniana;regional;Tuva;;;Russia;Tuvan
+RUS;Q159;Q33120;Língua buriata;regional;Buriácia;;;Russia;Buryat
+RUS;Q159;Q25285;tártaro;regional;Tartaristão;;;Russia;Tatar
+RUS;Q159;Q36853;Língua tsakhur;regional;Daguestão;;;Russia;Tsakhur
+RUS;Q159;Q33509;língua inguche;regional;Inguchétia;;;Russia;Ingush
+RUS;Q159;Q33350;checheno;regional;Daguestão;;;Russia;Chechen
+RUS;Q159;Q33350;checheno;regional;Chechénia;;;Russia;Chechen
+RUS;Q159;Q32332;Língua dargínica;regional;Daguestão;;;Russia;Dargwa
+RUS;Q159;Q33634;calmuco;regional;Calmúquia;;;Russia;Kalmyk
+RUS;Q159;Q33348;tchuvache;regional;Chuváchia;;;Russia;Chuvash
+RUS;Q159;Q33871;Língua nogai;regional;Carachai-Circássia;;;Russia;Nogai
+RUS;Q159;Q56489;Língua tat;regional;Daguestão;;;Russia;Tat
+RUS;Q159;Q13343;moksha;regional;Mordóvia;;;Russia;Moksha
+RUS;Q159;Q13389;Língua bashkir;regional;Bascortostão;;;Russia;Bashkir
+RUS;Q159;Q27776;língua adigue;regional;Adiguésia;;;Russia;Adyghe
+RUS;Q159;Q34079;Língua tabassarã;regional;Daguestão;;;Russia;Tabasaran
+RUS;Q159;Q36757;Língua rutul;regional;Daguestão;;;Russia;Rutulian
+RUS;Q159;Q8798;ucraniano;regional;República da Crimeia;;;Russia;Ukrainian
+RUS;Q159;Q36209;Língua kumyk;regional;Daguestão;;;Russia;Kumyk
+RUS;Q159;Q9292;Língua azeri;regional;Daguestão;;;Russia;Azerbaijani
+RUS;Q159;Q29952;Língua erzya;regional;Mordóvia;;;Russia;Erzya
+RUS;Q159;Q36126;língua komi;regional;República de Komi;;;Russia;Komi
+RUS;Q159;Q13238;Língua udmurte;regional;Udmúrtia;;;Russia;Udmurt
+RUS;Q159;Q27567;Língua abaza;regional;Carachai-Circássia;;;Russia;Abaza
+RUS;Q159;Q33714;Língua carachaio-bálcara;regional;Cabárdia-Balcária;;;Russia;Karachay-Balkar
+RUS;Q159;Q33714;Língua carachaio-bálcara;regional;Carachai-Circássia;;;Russia;Karachay-Balkar
+RWA;Q1037;Q150;francês;national;;;;Rwanda;French
+RWA;Q1037;Q7838;Língua suaíli;national;;;;Rwanda;Swahili
+RWA;Q1037;Q1860;inglês;national;;;;Rwanda;English
+RWA;Q1037;Q33573;Língua kinyarwanda;national;;;;Rwanda;Kinyarwanda
+SAU;Q851;Q13955;árabe;national;;;;Saudi Arabia;Arabic
+SDN;Q1049;Q1860;inglês;national;;;;Sudan;English
+SDN;Q1049;Q13955;árabe;national;;;;Sudan;Arabic
+SEN;Q1041;Q35095;Badyara;national;;;;Senegal;Badyara
+SEN;Q1041;Q35006;Língua balanta;national;;;;Senegal;Balanta
+SEN;Q1041;Q34257;Língua uolofe;national;;;;Senegal;Wolof
+SEN;Q1041;Q150;francês;national;;;;Senegal;French
+SGP;Q334;Q727694;mandarim padrão;national;;1965;;Singapore;Standard Chinese
+SGP;Q334;Q5885;Língua tâmil;national;;1965;;Singapore;Tamil
+SGP;Q334;Q1860;inglês;national;;1965;;Singapore;English
+SGP;Q334;Q9237;malaio;national;;1965;;Singapore;Malay
+SGS;Q35086;Q1860;inglês;national;;;;South Georgia and the South Sandwich Islands;English
+SHN;Q192184;Q1860;inglês;national;;;;Saint Helena, Ascension and Tristan da Cunha;English
+SJM;Q842829;Q9043;língua norueguesa;national;;;;Svalbard and Jan Mayen;Norwegian
+SLB;Q685;Q1860;inglês;national;;;;Solomon Islands;English
+SLE;Q1044;Q1860;inglês;national;;;;Sierra Leone;English
+SLE;Q1044;Q35744;Língua krio;national;;;;Sierra Leone;Krio
+SLV;Q792;Q1321;espanhol;national;;;;El Salvador;Spanish
+SMR;Q238;Q652;italiano;national;;;;San Marino;Italian
+SOM;Q1045;Q13955;árabe;national;;;;Somalia;Arabic
+SOM;Q1045;Q13275;Língua somali;national;;;;Somalia;Somali
+SPM;Q34617;Q150;francês;national;;;;Saint Pierre and Miquelon;French
+SRB;Q403;Q9299;língua sérvia;national;;;;Serbia;Serbian
+SSD;Q958;Q1860;inglês;national;;;;South Sudan;English
+STP;Q1039;Q5146;português;national;;;;São Tomé and Príncipe;Portuguese
+SUR;Q730;Q7411;neerlandês;national;;;;Suriname;Dutch
+SVK;Q214;Q9058;eslovaco;national;;;;Slovakia;Slovak
+SVN;Q215;Q652;italiano;regional;Italians in Slovenia;;;Slovenia;Italian
+SVN;Q215;Q9063;língua eslovena;national;;;;Slovenia;Slovene
+SVN;Q215;Q9067;húngaro;regional;Q126208659;;;Slovenia;Hungarian
+SWE;Q34;Q9027;língua sueca;national;;2009;;Sweden;Swedish
+SWE;Q34;Q8641;língua iídiche;national;;;;Sweden;Yiddish
+SWE;Q34;Q13201;Romani;national;;;;Sweden;Romani
+SWE;Q34;Q1412;finlandês;national;;;;Sweden;Finnish
+SWE;Q34;Q56463;línguas sami;national;;;;Sweden;Sámi
+SWE;Q34;Q13357;Língua meänkieli;national;;;;Sweden;Meänkieli
+SWZ;Q1050;Q1860;inglês;national;;;;Eswatini;English
+SWZ;Q1050;Q34014;língua suázi;national;;;;Eswatini;Swazi
+SXM;Q26273;Q1860;inglês;national;;;;Sint Maarten;English
+SXM;Q26273;Q7411;neerlandês;national;;;;Sint Maarten;Dutch
+SYC;Q1042;Q150;francês;national;;;;Seychelles;French
+SYC;Q1042;Q34015;Crioulo de Seychelles;national;;;;Seychelles;Seychellois Creole
+SYC;Q1042;Q1860;inglês;national;;;;Seychelles;English
+SYR;Q858;Q13955;árabe;national;;;;Syria;Arabic
+TCA;Q18221;Q1860;inglês;national;;;;Turks and Caicos Islands;English
+TCD;Q657;Q150;francês;national;;;;Chad;French
+TCD;Q657;Q13955;árabe;national;;;;Chad;Arabic
+TGO;Q945;Q150;francês;national;;;;Togo;French
+THA;Q869;Q9217;tailandês;national;;;;Thailand;Thai
+TJK;Q863;Q9260;Língua tadjique;national;;;;Tajikistan;Tajik language
+TJK;Q863;Q7737;russo;national;;;;Tajikistan;Russian
+TKL;Q36823;Q34097;língua toquelauana;national;;;;Tokelau;Tokelauan
+TKL;Q36823;Q1860;inglês;national;;;;Tokelau;English
+TKM;Q874;Q9267;Língua turcomena;national;;;;Turkmenistan;Turkmen
+TLS;Q574;Q5146;português;national;;;;Timor-Leste;Portuguese
+TLS;Q574;Q34125;língua tétum;national;;;;Timor-Leste;Tetum
+TON;Q678;Q34094;Língua tonganesa;national;;;;Tonga;Tongan
+TON;Q678;Q1860;inglês;national;;;;Tonga;English
+TTO;Q754;Q1860;inglês;national;;;;Trinidad and Tobago;English
+TUN;Q948;Q13955;árabe;national;;;;Tunisia;Arabic
+TUR;Q43;Q256;língua turca;national;;;;Turkey;Turkish
+TUV;Q672;Q1860;inglês;national;;;;Tuvalu;English
+TUV;Q672;Q34055;língua tuvaluana;national;;;;Tuvalu;Tuvaluan
+TWN;Q865;Q35132;amis;national;;;;Taiwan;Amis
+TWN;Q865;Q262828;mandarim taiwanês;national;;;;Taiwan;Standard Taiwanese Mandarin
+TWN;Q865;Q56278342;Kinmen dialect;national;;;;Taiwan;Kinmen dialect
+TWN;Q865;Q34019;língua de sinais de Taiwan;national;;;;Taiwan;Taiwanese Sign Language
+TWN;Q865;Q716627;Língua kavalan;national;;;;Taiwan;Kavalan
+TWN;Q865;Q11071864;Truku;national;;;;Taiwan;Truku
+TWN;Q865;Q36778;Língua taiwanesa;national;;;;Taiwan;Taiwanese Hokkien
+TWN;Q865;Q172244;língua kanakanavu;national;;;;Taiwan;Kanakanavu
+TWN;Q865;Q19599280;Matsu dialect;national;;;;Taiwan;Matsu dialect
+TWN;Q865;Q718269;Língua sakisaya;national;;;;Taiwan;Sakizaya
+TWN;Q865;Q61055662;O-ku-uā;national;;;;Taiwan;O-ku-uā
+TWN;Q865;Q715755;Língua paiwan;national;;;;Taiwan;Paiwan
+TWN;Q865;Q716599;Língua saaroa;national;;;;Taiwan;Saaroa
+TWN;Q865;Q716690;Língua puyuma;national;;;;Taiwan;Puyuma
+TWN;Q865;Q715766;Língua atayal;national;;;;Taiwan;Atayal
+TWN;Q865;Q716681;Língua tsou;national;;;;Taiwan;Tsou
+TWN;Q865;Q49232;Língua rukai;national;;;;Taiwan;Rukai
+TWN;Q865;Q715760;Língua yami;national;;;;Taiwan;Yami
+TWN;Q865;Q716686;Língua seediq;national;;;;Taiwan;Seediq
+TWN;Q865;Q716695;Língua saisiyat;national;;;;Taiwan;Saisiyat
+TWN;Q865;Q2391532;Taiwanese Hakka;national;;;;Taiwan;Taiwanese Hakka
+TWN;Q865;Q56505;Língua bunun;national;;;;Taiwan;Bunun
+TZA;Q924;Q1860;inglês;national;;;;Tanzania;English
+TZA;Q924;Q7838;Língua suaíli;national;;;;Tanzania;Swahili
+UGA;Q1036;Q7838;Língua suaíli;national;;;;Uganda;Swahili
+UGA;Q1036;Q1860;inglês;national;;;;Uganda;English
+UKR;Q212;Q8798;ucraniano;national;;;;Ukraine;Ukrainian
+UMI;Q16645;Q1860;inglês;national;;;;United States Minor Outlying Islands;English
+URY;Q77;Q1321;espanhol;national;;;;Uruguay;Spanish
+USA;Q30;Q33569;havaiano;regional;Havaí;;;United States;Hawaiian
+USA;Q30;Q1321;espanhol;regional;Porto Rico;;;United States;Spanish
+USA;Q30;Q1860;inglês;national;;;;United States;English
+UZB;Q265;Q9264;língua uzbeque;national;;;;Uzbekistan;Uzbek
+VAT;Q237;Q397;latim;national;;;;Vatican City;Latin
+VAT;Q237;Q150;francês;national;;;;Vatican City;French
+VAT;Q237;Q652;italiano;national;;;;Vatican City;Italian
+VCT;Q757;Q1860;inglês;national;;;;Saint Vincent and the Grenadines;English
+VEN;Q717;Q3322064;Língua de Sinais Venezuelana;national;;;;Venezuela;Venezuelan Sign Language
+VEN;Q717;Q1321;espanhol;national;;;;Venezuela;Spanish
+VGB;Q25305;Q1860;inglês;national;;;;British Virgin Islands;English
+VIR;Q11703;Q1860;inglês;national;;;;United States Virgin Islands;English
+VNM;Q881;Q9199;vietnamita;national;;;;Vietnam;Vietnamese
+VUT;Q686;Q1860;inglês;national;;;;Vanuatu;English
+VUT;Q686;Q35452;Língua bislamá;national;;;;Vanuatu;Bislama
+VUT;Q686;Q150;francês;national;;;;Vanuatu;French
+WLF;Q35555;Q150;francês;national;;;;Wallis and Futuna;French
+WLF;Q35555;Q35334;Língua futunana;national;;;;Wallis and Futuna;Futunan
+WLF;Q35555;Q36979;Língua wallisiana;national;;;;Wallis and Futuna;Wallisian
+WSM;Q683;Q34011;Língua samoana;national;;;;Samoa;Samoan
+WSM;Q683;Q1860;inglês;national;;;;Samoa;English
+YEM;Q805;Q13955;árabe;national;;;;Yemen;Arabic
+ZAF;Q258;Q32704;língua venda;national;;;;South Africa;Venda
+ZAF;Q258;Q13218;língua xhosa;national;;;;South Africa;Xhosa
+ZAF;Q258;Q34137;língua tswana;national;;;;South Africa;Tswana
+ZAF;Q258;Q34340;língua soto do sul;national;;;;South Africa;Sesotho
+ZAF;Q258;Q36785;língua ndebele;national;;;;South Africa;Southern Ndebele
+ZAF;Q258;Q34327;língua tsonga;national;;;;South Africa;Tsonga
+ZAF;Q258;Q10179;língua zulu;national;;;;South Africa;Zulu
+ZAF;Q258;Q14196;língua africâner;national;;;;South Africa;Afrikaans
+ZAF;Q258;Q33890;língua soto do norte;national;;;;South Africa;Northern Sotho
+ZAF;Q258;Q34014;língua suázi;national;;;;South Africa;Swazi
+ZAF;Q258;Q3322093;Língua gestual sul-africana;national;;;;South Africa;South African Sign Language
+ZAF;Q258;Q1860;inglês;national;;;;South Africa;English
+ZMB;Q953;Q1860;inglês;national;;;;Zambia;English
+ZWE;Q954;Q33614;Línguas khoisan;national;;;;Zimbabwe;Khoisan
+ZWE;Q954;Q13218;língua xhosa;national;;;;Zimbabwe;Xhosa
+ZWE;Q954;Q8826802;Barwe;national;;;;Zimbabwe;Barwe
+ZWE;Q954;Q13311;Língua ndau;national;;;;Zimbabwe;Ndau
+ZWE;Q954;Q34101;Língua tonga;national;;;;Zimbabwe;Tonga
+ZWE;Q954;Q1860;inglês;national;;;;Zimbabwe;English
+ZWE;Q954;Q34004;Língua chona;national;;;;Zimbabwe;Shona
+ZWE;Q954;Q35613;língua ndebele do norte;national;;;;Zimbabwe;Northern Ndebele
+ZWE;Q954;Q34340;língua soto do sul;national;;;;Zimbabwe;Sesotho
+ZWE;Q954;Q33273;língua nianja;national;;;;Zimbabwe;Chewa
+ZWE;Q954;Q34137;língua tswana;national;;;;Zimbabwe;Tswana
+ZWE;Q954;Q33672;Língua calanga;national;;;;Zimbabwe;Kalanga
+ZWE;Q954;Q8072097;Língua de Sinais do Zimbábue;national;;;;Zimbabwe;Zimbabwe Sign Language
+ZWE;Q954;Q34327;língua tsonga;national;;;;Zimbabwe;Tsonga
+ZWE;Q954;Q3553981;Nambya;national;;;;Zimbabwe;Nambya
+ZWE;Q954;Q32704;língua venda;national;;;;Zimbabwe;Venda

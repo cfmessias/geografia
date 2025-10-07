@@ -1,0 +1,2 @@
+ISO3;Country_ID;Country;Conflict_ID;Conflict;Conflict_Type;Start;End;PointInTime;Start_Year;End_Year;Point_Year;Winner_ID;Winner;PartOf_ID;PartOf;Context_ID;Context;Place_ID;Place;Coordinates;Deaths;Source;Deaths_Num
+SEN;http://www.wikidata.org/entity/Q1041;Senegal;http://www.wikidata.org/entity/Q209965;Conflito de Casamança;guerra civil;1982-01-01T00:00:00Z;2014-05-01T00:00:00Z;;1982;2014;;;;;;;;http://www.wikidata.org/entity/Q1041;Senegal;;5000;participant;5000

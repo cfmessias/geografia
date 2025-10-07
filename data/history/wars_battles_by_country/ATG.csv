@@ -1,0 +1,2 @@
+ISO3;Country_ID;Country;Conflict_ID;Conflict;Conflict_Type;Start;End;PointInTime;Start_Year;End_Year;Point_Year;Winner_ID;Winner;PartOf_ID;PartOf;Context_ID;Context;Place_ID;Place;Coordinates;Deaths;Source;Deaths_Num
+ATG;http://www.wikidata.org/entity/Q781;Antígua e Barbuda;http://www.wikidata.org/entity/Q4677225;Action of 10 February 1809;batalha naval;1809-02-08T00:00:00Z;1809-02-10T00:00:00Z;;1809;1809;;;;http://www.wikidata.org/entity/Q78994;Guerras Napoleónicas;;;http://www.wikidata.org/entity/Q29971;Ilhas de Sotavento (Antilhas);Point(-61.5 19.83333333);;location;
