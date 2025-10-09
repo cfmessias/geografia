@@ -87,17 +87,17 @@ def _fmt_year(x) -> str:
 
 def _country_selector(countries_df: pd.DataFrame) -> tuple[str | None, str | None]:
     """
-    - Labels em PT/EN a partir de name_pt/name_en (fallback para 'name').
-    - Placeholder "Selecione um país" (index=None na 1.ª visita).
-    - Mantém seleção entre sub-abas (key estável + guarda em session_state).
-    - Se não houver submit, devolve a seleção corrente (para as outras sub-abas renderizarem).
+    - Pesquisa + select + botão numa única linha.
+    - Labels PT/EN (fallback para 'name' ou iso3).
+    - Mantém seleção entre sub-abas (session_state).
+    - Se não houver submit, devolve a seleção corrente para as outras sub-abas renderizarem.
     """
     lang = st.session_state.get("lang", "pt")
 
     df = countries_df.copy()
     df["iso3u"] = df["iso3"].astype(str).str.upper()
 
-    # escolhe a coluna de rótulo conforme o idioma
+    # label por idioma
     if lang == "pt" and "name_pt" in df.columns:
         df["label"] = df["name_pt"].astype(str)
     elif lang != "pt" and "name_en" in df.columns:
@@ -111,41 +111,51 @@ def _country_selector(countries_df: pd.DataFrame) -> tuple[str | None, str | Non
     iso_by_label = {v: k for k, v in label_by_iso.items()}
 
     with st.form("pais_form", clear_on_submit=False):
-        # filtro por texto (em cima das labels no idioma atual)
-        q = st.text_input(
-            tr("paises.pesquisar_nome_contem"),
-            value=st.session_state.get("paises_search", ""),
-            placeholder=tr("paises.placeholder_pesquisa"),
-            key="paises_search",
-        ).strip().lower()
+        col_q, col_sel, col_btn = st.columns([3, 7, 2], gap="small")
 
+        # --- pesquisa (coluna 1) ---
+        with col_q:
+            q = st.text_input(
+                tr("paises.pesquisar_nome_contem"),
+                value=st.session_state.get("paises_search", ""),
+                placeholder=tr("paises.placeholder_pesquisa"),
+                key="paises_search",
+                label_visibility="collapsed",
+            ).strip().lower()
+
+        # filtra opções com base na pesquisa
         opts = df if not q else df[df["label"].str.lower().str.contains(q)]
-        if opts.empty:
-            st.warning(tr("labels.nenhum_pa_s_corresponde_ao_filtro"))
-            st.form_submit_button(tr("paises.abrir"))
-            # devolve seleção corrente (se existir) para não quebrar outras sub-abas
-            cur_iso = st.session_state.get("paises_iso3")
-            cur_lbl = label_by_iso.get(cur_iso) if cur_iso else None
-            return (cur_lbl, cur_iso) if cur_iso else (None, None)
-
         options = opts["label"].tolist()
 
         # valor atualmente guardado (para manter seleção entre sub-abas)
         cur_iso = st.session_state.get("paises_iso3")
         cur_label = label_by_iso.get(cur_iso) if cur_iso else None
-        idx = options.index(cur_label) if cur_label in options else None  # None => placeholder
+        idx = options.index(cur_label) if cur_label in options else None
 
-        chosen_label = st.selectbox(
-            tr("labels.pa_s"),
-            options=options,
-            index=idx,                         # se None => mostra placeholder
-            key="paises_country_select",       # key ESTÁVEL entre sub-abas
-            label_visibility="collapsed",
-            placeholder=tr("labels.selecione_um_pais"),
-        )
-        submitted = st.form_submit_button(tr("paises.abrir"))
+        # garantir que o selectbox recebe uma lista não vazia
+        options_safe = options if options else [""]
+        idx_safe = idx if options else 0
 
-    # se ainda não escolheu nada (placeholder ativo)
+        # --- select (coluna 2) ---
+        with col_sel:
+            chosen_label = st.selectbox(
+                tr("labels.pa_s"),
+                options=options_safe,
+                index=idx_safe,
+                key="paises_country_select",     # key ESTÁVEL entre sub-abas
+                label_visibility="collapsed",
+                placeholder=tr("labels.selecione_um_pais"),
+            )
+            # se colocámos [""] só para não rebentar o select, trata como None
+            if options == []:
+                chosen_label = None
+                st.warning(tr("labels.nenhum_pa_s_corresponde_ao_filtro"))
+
+        # --- botão (coluna 3) ---
+        with col_btn:
+            submitted = st.form_submit_button(tr("paises.abrir"), use_container_width=True)
+
+    # se ainda não escolheu nada (placeholder ativo ou lista vazia)
     if not chosen_label:
         cur_iso = st.session_state.get("paises_iso3")
         return (label_by_iso.get(cur_iso), cur_iso) if cur_iso else (None, None)
@@ -155,8 +165,9 @@ def _country_selector(countries_df: pd.DataFrame) -> tuple[str | None, str | Non
     st.session_state["pais_selected"] = chosen_label
     st.session_state["paises_iso3"]   = chosen_iso3
 
-    # mesmo sem submit, devolvemos a seleção corrente para não forçar 4 escolhas
+    # mesmo sem submit, devolvemos a seleção corrente
     return chosen_label, chosen_iso3
+
 
 
 
