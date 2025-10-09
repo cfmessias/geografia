@@ -1,2 +1,0 @@
-ISO3;Country_ID;Country;Conflict_ID;Conflict;Conflict_Type;Start;End;PointInTime;Start_Year;End_Year;Point_Year;Winner_ID;Winner;PartOf_ID;PartOf;Context_ID;Context;Place_ID;Place;Coordinates;Deaths;Source;Deaths_Num
-BGR;http://www.wikidata.org/entity/Q219;Bulgária;http://www.wikidata.org/entity/Q573472;Soviet-Bulgarian War;guerra;1944-09-05T00:00:00Z;1944-10-28T00:00:00Z;;1944;1944;;;;http://www.wikidata.org/entity/Q362;Segunda Guerra Mundial;;;http://www.wikidata.org/entity/Q219;Bulgária;;;participant;

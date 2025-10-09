@@ -1,2 +1,0 @@
-ISO3;Country_ID;Country;Conflict_ID;Conflict;Conflict_Type;Start;End;PointInTime;Start_Year;End_Year;Point_Year;Winner_ID;Winner;PartOf_ID;PartOf;Context_ID;Context;Place_ID;Place;Coordinates;Deaths;Source;Deaths_Num
-MLT;http://www.wikidata.org/entity/Q233;Malta;http://www.wikidata.org/entity/Q207318;Guerras Revolucionárias Francesas;guerra;1792-04-20T00:00:00Z;1802-03-25T00:00:00Z;;1792;1802;;;;http://www.wikidata.org/entity/Q6534;Revolução Francesa;;;http://www.wikidata.org/entity/Q46;Europa;;;participant;

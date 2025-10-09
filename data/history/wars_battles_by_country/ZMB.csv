@@ -1,2 +1,0 @@
-ISO3;Country_ID;Country;Conflict_ID;Conflict;Conflict_Type;Start;End;PointInTime;Start_Year;End_Year;Point_Year;Winner_ID;Winner;PartOf_ID;PartOf;Context_ID;Context;Place_ID;Place;Coordinates;Deaths;Source;Deaths_Num
-ZMB;http://www.wikidata.org/entity/Q953;Zâmbia;http://www.wikidata.org/entity/Q127608912;Capture of Lubumbashi;batalha;;;1997-04-09T00:00:00Z;;;1997;;;http://www.wikidata.org/entity/Q838695;Primeira Guerra do Congo;;;http://www.wikidata.org/entity/Q187593;Lubumbashi;;;participant;

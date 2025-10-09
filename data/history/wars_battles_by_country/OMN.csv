@@ -1,2 +1,0 @@
-ISO3;Country_ID;Country;Conflict_ID;Conflict;Conflict_Type;Start;End;PointInTime;Start_Year;End_Year;Point_Year;Winner_ID;Winner;PartOf_ID;PartOf;Context_ID;Context;Place_ID;Place;Coordinates;Deaths;Source;Deaths_Num
-OMN;http://www.wikidata.org/entity/Q842;Omã;http://www.wikidata.org/entity/Q2889338;Battle of Mirbat;batalha;;;1972-07-19T00:00:00Z;;;1972;;;http://www.wikidata.org/entity/Q2363565;Rebelião Dhofar;;;http://www.wikidata.org/entity/Q1938064;Mirbat;Point(54.691947 16.992493);;participant;

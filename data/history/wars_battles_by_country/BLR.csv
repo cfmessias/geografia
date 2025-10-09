@@ -1,2 +1,0 @@
-ISO3;Country_ID;Country;Conflict_ID;Conflict;Conflict_Type;Start;End;PointInTime;Start_Year;End_Year;Point_Year;Winner_ID;Winner;PartOf_ID;PartOf;Context_ID;Context;Place_ID;Place;Coordinates;Deaths;Source;Deaths_Num
-BLR;http://www.wikidata.org/entity/Q184;Bielorrússia;http://www.wikidata.org/entity/Q110999040;invasão da Ucrânia pela Rússia (2022–presente);guerra;2022-02-24T00:00:00Z;;2022-01-01T00:00:00Z;2022;;2022;;;http://www.wikidata.org/entity/Q1975306;Conflitos pós-soviéticos;;;http://www.wikidata.org/entity/Q159;Rússia;;10000;participant;10000

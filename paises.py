@@ -12,6 +12,7 @@ from services.i18n_boot import _ensure_lang_state
 from utils.subnav import subnav
 from views.migration_tables import render_country_migration_tables
 from views.languages import render_country_languages_line, render_country_languages_expander
+from views.wars_battles_monarchy import render_wars_battles_expander,render_monarchy_expander
 # -------------------------- Helpers --------------------------
 def _paises_submenu() -> str:
     """Submenu de Países (aparece imediatamente ao render)."""
@@ -1020,45 +1021,50 @@ def render_paises_tab():
 
     # ---------- História ----------
     elif mode == "hist":
+
+        render_monarchy_expander(iso3, default_open=False)
         cur_df, hist_df = leaders_for_iso3(iso3)
         base = hist_df if (hist_df is not None and not hist_df.empty) else cur_df
+        
+        with st.expander(tr("labels.lideranca_atual_e_historica"), expanded=False):
+            if base is not None and not base.empty:
+                h = base.copy()
+                role_map = {"head_of_state": tr("labels.presidente"), "head_of_government": tr("labels.chefe_de_governo")}
+                h["Função"] = h.get("role").map(role_map).fillna(h.get("role"))
+                h["__start_dt"] = pd.to_datetime(h.get("start"), errors="coerce")
+                h["__end_dt"]   = pd.to_datetime(h.get("end"),   errors="coerce")
+                h["Início"] = h["__start_dt"].dt.strftime("%Y-%m-%d").fillna("")
+                h["Fim"]    = h["__end_dt"].dt.strftime("%Y-%m-%d").fillna("")
+                h["Partido"] = h.get("party").fillna("").astype(str).str.strip()
+                h["Causa do fim"] = h.get("end_cause").fillna("").astype(str)
 
-        if base is not None and not base.empty:
-            h = base.copy()
-            role_map = {"head_of_state": tr("labels.presidente"), "head_of_government": tr("labels.chefe_de_governo")}
-            h["Função"] = h.get("role").map(role_map).fillna(h.get("role"))
-            h["__start_dt"] = pd.to_datetime(h.get("start"), errors="coerce")
-            h["__end_dt"]   = pd.to_datetime(h.get("end"),   errors="coerce")
-            h["Início"] = h["__start_dt"].dt.strftime("%Y-%m-%d").fillna("")
-            h["Fim"]    = h["__end_dt"].dt.strftime("%Y-%m-%d").fillna("")
-            h["Partido"] = h.get("party").fillna("").astype(str).str.strip()
-            h["Causa do fim"] = h.get("end_cause").fillna("").astype(str)
+                def _prep(df: pd.DataFrame) -> pd.DataFrame:
+                    if df is None or df.empty:
+                        return pd.DataFrame(columns=["Pessoa","Partido","Início","Fim","Causa do fim"])
+                    show = pd.DataFrame({
+                        "Pessoa": df.get("person"),
+                        "Partido": h.loc[df.index, "Partido"],
+                        "Início": h.loc[df.index, "Início"],
+                        "Fim":    h.loc[df.index, "Fim"],
+                        "Causa do fim": h.loc[df.index, "Causa do fim"],
+                    })
+                    return (show.assign(__ord=h.loc[show.index, "__start_dt"])
+                                .sort_values(["__ord"], ascending=[False])
+                                .drop(columns="__ord"))
 
-            def _prep(df: pd.DataFrame) -> pd.DataFrame:
-                if df is None or df.empty:
-                    return pd.DataFrame(columns=["Pessoa","Partido","Início","Fim","Causa do fim"])
-                show = pd.DataFrame({
-                    "Pessoa": df.get("person"),
-                    "Partido": h.loc[df.index, "Partido"],
-                    "Início": h.loc[df.index, "Início"],
-                    "Fim":    h.loc[df.index, "Fim"],
-                    "Causa do fim": h.loc[df.index, "Causa do fim"],
-                })
-                return (show.assign(__ord=h.loc[show.index, "__start_dt"])
-                            .sort_values(["__ord"], ascending=[False])
-                            .drop(columns="__ord"))
+                pres = _prep(h[h.get("role") == "head_of_state"])
+                gov  = _prep(h[h.get("role") == "head_of_government"])
 
-            pres = _prep(h[h.get("role") == "head_of_state"])
-            gov  = _prep(h[h.get("role") == "head_of_government"])
+                c1, c2 = st.columns(2)
+                with c1:
+                    st.markdown(tr("labels.presidentes"))
+                    st.dataframe(pres, use_container_width=True, hide_index=True,
+                                column_config=_colcfg_leadership())
+                with c2:
+                    st.markdown(tr("labels.chefes_de_governo"))
+                    st.dataframe(gov, use_container_width=True, hide_index=True,
+                                column_config=_colcfg_leadership())
+            else:
+                st.caption(tr("paises.label"))
 
-            c1, c2 = st.columns(2)
-            with c1:
-                st.markdown(tr("labels.presidentes"))
-                st.dataframe(pres, use_container_width=True, hide_index=True,
-                             column_config=_colcfg_leadership())
-            with c2:
-                st.markdown(tr("labels.chefes_de_governo"))
-                st.dataframe(gov, use_container_width=True, hide_index=True,
-                             column_config=_colcfg_leadership())
-        else:
-            st.caption(tr("paises.label"))
+        render_wars_battles_expander(iso3, default_open=False)

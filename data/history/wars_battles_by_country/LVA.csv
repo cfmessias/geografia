@@ -1,2 +1,0 @@
-ISO3;Country_ID;Country;Conflict_ID;Conflict;Conflict_Type;Start;End;PointInTime;Start_Year;End_Year;Point_Year;Winner_ID;Winner;PartOf_ID;PartOf;Context_ID;Context;Place_ID;Place;Coordinates;Deaths;Source;Deaths_Num
-LVA;http://www.wikidata.org/entity/Q211;Letónia;http://www.wikidata.org/entity/Q17182139;Attack on Bari Alai;batalha;;;2009-05-01T00:00:00Z;;;2009;;;http://www.wikidata.org/entity/Q182865;Guerra do Afeganistão;;;http://www.wikidata.org/entity/Q7075429;Observation Post Bari Alai;;;participant;

@@ -1,4 +1,0 @@
-ISO3;Country_ID;Country;Conflict_ID;Conflict;Conflict_Type;Start;End;PointInTime;Start_Year;End_Year;Point_Year;Winner_ID;Winner;PartOf_ID;PartOf;Context_ID;Context;Place_ID;Place;Coordinates;Deaths;Source;Deaths_Num
-KWT;http://www.wikidata.org/entity/Q817;Kuwait;http://www.wikidata.org/entity/Q37643;Guerra do Golfo;guerra;1990-08-02T00:00:00Z;1991-02-28T00:00:00Z;;1990;1991;;;;;;;;http://www.wikidata.org/entity/Q796;Iraque;;;participant;
-KWT;http://www.wikidata.org/entity/Q817;Kuwait;http://www.wikidata.org/entity/Q4870215;Battle of Ad-Dawrah;batalha naval;1991-01-18T00:00:00Z;1991-01-19T00:00:00Z;;1991;1991;;;;http://www.wikidata.org/entity/Q37643;Guerra do Golfo;;;;;;;participant;
-KWT;http://www.wikidata.org/entity/Q817;Kuwait;http://www.wikidata.org/entity/Q4870995;Battle of Failaka;batalha;;;1990-08-02T00:00:00Z;;;1990;;;http://www.wikidata.org/entity/Q37643;Guerra do Golfo;;;http://www.wikidata.org/entity/Q817;Kuwait;Point(47.997381 29.386933);;participant;

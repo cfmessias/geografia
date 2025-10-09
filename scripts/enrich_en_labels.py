@@ -16,7 +16,8 @@ FILES = [
     DATA / "country_languages_official.csv",
     DATA / "country_languages_used.csv",
     DATA / "colonization.csv",
-    DATA / "history" / "wars_battles.csv",
+    DATA / "wars_battles.csv",
+    DATA / "wars_battles_comprehensive.csv",
 ]
 
 API_URL = "https://www.wikidata.org/w/api.php"

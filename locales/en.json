@@ -282,7 +282,9 @@
     "moeda": "Currency",
     "presidente": "President",
     "chefe_de_governo": "Head of government",
-	"selecione_um_pais": "Select a country"
+	"selecione_um_pais": "Select a country",
+	"lideranca_atual_e_historica": "Political leadership"
+	
   },
 
   "meteo": { 
@@ -491,6 +493,36 @@
     "other": "Other",
     "judaism": "Judaism"
   },
+  
+  "history": {
+    "guerras_e_batalhas": "Wars & battles",
+    "monarquia": "Monarchy",
+    "formas": "forms",
+    "monarcas": "monarchs",
+    "formas_de_governo": "Forms of government",
+    "lista_monarcas": "Monarchs (historical)",
+    "registos": "records",
+    "tipo_desconhecido": "No type",
+    "download_csv": "💾 Download CSV",
+    "sem_dados": "— no data —",
+    "col": {
+      "conflito": "Conflict",
+      "tipo": "Type",
+      "inicio": "Start",
+      "fim": "End",
+      "ano": "Year",
+      "local": "Place",
+      "resultado": "Outcome",
+      "mortes": "Deaths",
+      "forma_governo": "Form of government",
+      "e_monarquia": "Monarchy?",
+      "monarca": "Monarch",
+      "titulo": "Title",
+      "casa": "Dynasty/House"
+    }
+  },
+
+
   "tourism": {
     "arrivals": "Arrivals (international tourists)",
     "departures": "Departures (international tourists)",

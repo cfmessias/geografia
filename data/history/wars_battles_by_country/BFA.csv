@@ -1,2 +1,0 @@
-ISO3;Country_ID;Country;Conflict_ID;Conflict;Conflict_Type;Start;End;PointInTime;Start_Year;End_Year;Point_Year;Winner_ID;Winner;PartOf_ID;PartOf;Context_ID;Context;Place_ID;Place;Coordinates;Deaths;Source;Deaths_Num
-BFA;http://www.wikidata.org/entity/Q965;Burquina Fasso;http://www.wikidata.org/entity/Q580961;Guerra da Faixa de Agacher;guerra;1985-12-14T00:00:00Z;1985-12-30T00:00:00Z;;1985;1985;;;;;;;;http://www.wikidata.org/entity/Q3089020;Fronteira Burquina Fasso-Mali;Point(-0.4 14.9);;participant;

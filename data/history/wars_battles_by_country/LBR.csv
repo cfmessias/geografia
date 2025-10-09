@@ -1,3 +1,0 @@
-ISO3;Country_ID;Country;Conflict_ID;Conflict;Conflict_Type;Start;End;PointInTime;Start_Year;End_Year;Point_Year;Winner_ID;Winner;PartOf_ID;PartOf;Context_ID;Context;Place_ID;Place;Coordinates;Deaths;Source;Deaths_Num
-LBR;http://www.wikidata.org/entity/Q1014;Libéria;http://www.wikidata.org/entity/Q134254356;Liberian–Grebo War;guerra civil;1875-09-08T00:00:00Z;1876-03-01T00:00:00Z;;1875;1876;;;;;;;;http://www.wikidata.org/entity/Q870138;Maryland;;;participant;
-LBR;http://www.wikidata.org/entity/Q1014;Libéria;http://www.wikidata.org/entity/Q42410655;Second Liberia War;guerra civil;1992-01-01T00:00:00Z;1995-01-01T00:00:00Z;;1992;1995;;;;;;;;http://www.wikidata.org/entity/Q1014;Libéria;;;participant;

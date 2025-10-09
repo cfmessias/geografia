@@ -1,2 +1,0 @@
-ISO3;Country_ID;Country;Conflict_ID;Conflict;Conflict_Type;Start;End;PointInTime;Start_Year;End_Year;Point_Year;Winner_ID;Winner;PartOf_ID;PartOf;Context_ID;Context;Place_ID;Place;Coordinates;Deaths;Source;Deaths_Num
-SYC;http://www.wikidata.org/entity/Q1042;Seychelles;http://www.wikidata.org/entity/Q18920215;Battle of Mahé;batalha naval;;;1801-08-19T00:00:00Z;;;1801;;;http://www.wikidata.org/entity/Q207318;Guerras Revolucionárias Francesas;;;http://www.wikidata.org/entity/Q219642;Ilha de Mahé;;;location;

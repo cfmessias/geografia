@@ -1,3 +1,0 @@
-ISO3;Country_ID;Country;Conflict_ID;Conflict;Conflict_Type;Start;End;PointInTime;Start_Year;End_Year;Point_Year;Winner_ID;Winner;PartOf_ID;PartOf;Context_ID;Context;Place_ID;Place;Coordinates;Deaths;Source;Deaths_Num
-GIN;http://www.wikidata.org/entity/Q1006;Guiné;http://www.wikidata.org/entity/Q130548400;Portuguese attack on the Catherine;batalha naval;;;1618-09-01T00:00:00Z;;;1618;;;;;;;http://www.wikidata.org/entity/Q160819;Rio Gâmbia;;;location;
-GIN;http://www.wikidata.org/entity/Q1006;Guiné;http://www.wikidata.org/entity/Q94796398;Battle of Porédaka;batalha;;;1896-11-03T00:00:00Z;;;1896;;;;;;;http://www.wikidata.org/entity/Q7232880;Porédaka;Point(-12.066667 10.733333);;location;

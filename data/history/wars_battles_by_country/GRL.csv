@@ -1,2 +1,0 @@
-ISO3;Country_ID;Country;Conflict_ID;Conflict;Conflict_Type;Start;End;PointInTime;Start_Year;End_Year;Point_Year;Winner_ID;Winner;PartOf_ID;PartOf;Context_ID;Context;Place_ID;Place;Coordinates;Deaths;Source;Deaths_Num
-GRL;http://www.wikidata.org/entity/Q223;Gronelândia;http://www.wikidata.org/entity/Q696607;Batalha do Estreito da Dinamarca;batalha naval;;;1941-05-24T00:00:00Z;;;1941;;;http://www.wikidata.org/entity/Q157627;Batalha do Atlântico;;;http://www.wikidata.org/entity/Q152058;Estreito da Dinamarca;Point(-31.0 67.766667);;location;

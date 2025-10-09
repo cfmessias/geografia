@@ -1,3 +1,0 @@
-ISO3;Country_ID;Country;Conflict_ID;Conflict;Conflict_Type;Start;End;PointInTime;Start_Year;End_Year;Point_Year;Winner_ID;Winner;PartOf_ID;PartOf;Context_ID;Context;Place_ID;Place;Coordinates;Deaths;Source;Deaths_Num
-QAT;http://www.wikidata.org/entity/Q846;Catar;http://www.wikidata.org/entity/Q128395214;Qatari–Abu Dhabi War;guerra;1881-01-01T00:00:00Z;1893-01-01T00:00:00Z;;1881;1893;;;;;;;;http://www.wikidata.org/entity/Q4165357;Eastern Arabia;;;participant;
-QAT;http://www.wikidata.org/entity/Q846;Catar;http://www.wikidata.org/entity/Q125496766;Battle of Khannour;batalha;1889-01-01T00:00:00Z;1889-02-01T00:00:00Z;;1889;1889;;;;;;;;http://www.wikidata.org/entity/Q187712;Emirado Abu Dhabi;;;participant;

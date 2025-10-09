@@ -1,2 +1,0 @@
-ISO3;Country_ID;Country;Conflict_ID;Conflict;Conflict_Type;Start;End;PointInTime;Start_Year;End_Year;Point_Year;Winner_ID;Winner;PartOf_ID;PartOf;Context_ID;Context;Place_ID;Place;Coordinates;Deaths;Source;Deaths_Num
-NPL;http://www.wikidata.org/entity/Q837;Nepal;http://www.wikidata.org/entity/Q383614;Batalha de Kohima;batalha;1944-04-04T00:00:00Z;1944-06-22T00:00:00Z;1944-01-01T00:00:00Z;1944;1944;1944;;;http://www.wikidata.org/entity/Q362;Segunda Guerra Mundial;;;http://www.wikidata.org/entity/Q234056;Kohima;Point(94.103175 25.667645);12000;participant;12000

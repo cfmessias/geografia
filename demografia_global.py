@@ -15,7 +15,7 @@ import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 import streamlit as st
 
-from data.dados import carregar_dados
+from data.carrega_dados_demografia import carregar_dados
 from views.graficos import grafico_evolucao, grafico_mortalidade_stack  # (mantemos o import se precisares)
 from services.i18n import t as tr
 from services.i18n_boot import _ensure_lang_state

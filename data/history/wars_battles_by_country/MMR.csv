@@ -1,2 +1,0 @@
-ISO3;Country_ID;Country;Conflict_ID;Conflict;Conflict_Type;Start;End;PointInTime;Start_Year;End_Year;Point_Year;Winner_ID;Winner;PartOf_ID;PartOf;Context_ID;Context;Place_ID;Place;Coordinates;Deaths;Source;Deaths_Num
-MMR;http://www.wikidata.org/entity/Q836;Myanmar;http://www.wikidata.org/entity/Q2652686;Conflito Kachin;guerra;1961-02-05T00:00:00Z;;1961-02-05T00:00:00Z;1961;;1961;;;http://www.wikidata.org/entity/Q852088;conflitos armados em Myanmar;;;http://www.wikidata.org/entity/Q140646;Kachin;;;participant;

@@ -101,6 +101,7 @@ def run_aux_scripts() -> None:
         "fetch_country_languages_pt.py",
         "fetch_colonization_pt.py",
         "enrich_en_labels.py",
+        "fetch_monarchs.py",
     ]
 
     # 1) pega nos preferidos que existam

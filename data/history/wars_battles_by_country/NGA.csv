@@ -1,2 +1,0 @@
-ISO3;Country_ID;Country;Conflict_ID;Conflict;Conflict_Type;Start;End;PointInTime;Start_Year;End_Year;Point_Year;Winner_ID;Winner;PartOf_ID;PartOf;Context_ID;Context;Place_ID;Place;Coordinates;Deaths;Source;Deaths_Num
-NGA;http://www.wikidata.org/entity/Q1033;Nigéria;http://www.wikidata.org/entity/Q42410655;Second Liberia War;guerra civil;1992-01-01T00:00:00Z;1995-01-01T00:00:00Z;;1992;1995;;;;;;;;http://www.wikidata.org/entity/Q1014;Libéria;;;participant;

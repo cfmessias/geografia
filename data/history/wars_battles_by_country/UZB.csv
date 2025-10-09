@@ -1,2 +1,0 @@
-ISO3;Country_ID;Country;Conflict_ID;Conflict;Conflict_Type;Start;End;PointInTime;Start_Year;End_Year;Point_Year;Winner_ID;Winner;PartOf_ID;PartOf;Context_ID;Context;Place_ID;Place;Coordinates;Deaths;Source;Deaths_Num
-UZB;http://www.wikidata.org/entity/Q265;Uzbequistão;http://www.wikidata.org/entity/Q1122110;Guerra Civil do Tadjiquistão;guerra civil;1992-05-05T00:00:00Z;1997-06-27T00:00:00Z;;1992;1997;;;;;;;;http://www.wikidata.org/entity/Q863;Tajiquistão;;;participant;

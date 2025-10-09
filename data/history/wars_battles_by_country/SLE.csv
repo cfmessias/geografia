@@ -1,3 +1,0 @@
-ISO3;Country_ID;Country;Conflict_ID;Conflict;Conflict_Type;Start;End;PointInTime;Start_Year;End_Year;Point_Year;Winner_ID;Winner;PartOf_ID;PartOf;Context_ID;Context;Place_ID;Place;Coordinates;Deaths;Source;Deaths_Num
-SLE;http://www.wikidata.org/entity/Q1044;Serra Leoa;http://www.wikidata.org/entity/Q124749527;Dano-Dutch War;guerra;1661-01-01T00:00:00Z;1665-01-01T00:00:00Z;;1661;1665;;;;;;;;http://www.wikidata.org/entity/Q3445630;Sierra Leone River;;;location;
-SLE;http://www.wikidata.org/entity/Q1044;Serra Leoa;http://www.wikidata.org/entity/Q795269;Guerra Civil de Serra Leoa;guerra civil;1991-03-23T00:00:00Z;2002-01-18T00:00:00Z;;1991;2002;;;;;;;;http://www.wikidata.org/entity/Q1044;Serra Leoa;;;location;

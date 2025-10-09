@@ -1,3 +1,0 @@
-ISO3;Country_ID;Country;Conflict_ID;Conflict;Conflict_Type;Start;End;PointInTime;Start_Year;End_Year;Point_Year;Winner_ID;Winner;PartOf_ID;PartOf;Context_ID;Context;Place_ID;Place;Coordinates;Deaths;Source;Deaths_Num
-TWN;http://www.wikidata.org/entity/Q865;Taiwan;http://www.wikidata.org/entity/Q170314;Segunda Guerra Sino-Japonesa;guerra;1937-07-07T00:00:00Z;1945-09-09T00:00:00Z;;1937;1945;;;;http://www.wikidata.org/entity/Q362;Segunda Guerra Mundial;;;http://www.wikidata.org/entity/Q29520;China;;;participant;
-TWN;http://www.wikidata.org/entity/Q865;Taiwan;http://www.wikidata.org/entity/Q362;Segunda Guerra Mundial;guerra mundial;1939-09-01T00:00:00Z;1945-09-02T00:00:00Z;;1939;1945;;;;;;;;http://www.wikidata.org/entity/Q15;África;;73000000;participant;73000000.0

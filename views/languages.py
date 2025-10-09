@@ -43,20 +43,28 @@ def _load_first(paths: list[Path]) -> pd.DataFrame:
 
 def _pick_label_cols(df: pd.DataFrame) -> tuple[str, str]:
     """
-    Decide as colunas de label de acordo com a língua da UI.
-    Retorna (lang_label_col, region_label_col).
+    Decide as colunas de label conforme o idioma da UI.
+    Prefere PT→ 'lang_label_pt' e depois 'lang_label' (genérico) antes de 'lang_label_en'.
+    Para regiões idem.
     """
-    lang = (getattr(st.session_state, "lang", "pt") or "pt").lower()
-    lang_col_candidates = [f"lang_label_{lang}", "lang_label_pt", "lang_label_en", "lang_label"]
-    reg_col_candidates  = [f"region_label_{lang}", "region_label_pt", "region_label_en", "region_label"]
+    lang_ui = (getattr(st.session_state, "lang", "pt") or "pt").lower()
 
-    def _first_ok(cands):
+    if lang_ui == "pt":
+        lang_candidates = ["lang_label_pt", "lang_label", "lang_label_en"]
+        reg_candidates  = ["region_label_pt", "region_label", "region_label_en"]
+    else:
+        lang_candidates = ["lang_label_en", "lang_label", "lang_label_pt"]
+        reg_candidates  = ["region_label_en", "region_label", "region_label_pt"]
+
+    def first_ok(cands):
         for c in cands:
             if c in df.columns:
                 return c
+        # se nada existir, devolve o 1º nome (devolve algo para evitar KeyError)
         return cands[0]
 
-    return _first_ok(lang_col_candidates), _first_ok(reg_col_candidates)
+    return first_ok(lang_candidates), first_ok(reg_candidates)
+
 
 def _fmt_list(items: list[str]) -> str:
     # lista curta bonitinha: "A", "A e B", "A, B e C"

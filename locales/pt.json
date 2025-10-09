@@ -304,7 +304,8 @@
     "moeda": "Moeda",
     "presidente": "Presidente",
     "chefe_de_governo": "Chefe de governo",
-	"selecione_um_pais": "Selecione um país"
+	"selecione_um_pais": "Selecione um país", 
+	"lideranca_atual_e_historica": "Liderança política"
   },
 
   "meteo": { 
@@ -511,6 +512,36 @@
     "other": "Outras",
     "judaism": "Judaísmo"
   },
+
+  "history": {
+    "guerras_e_batalhas": "Guerras e batalhas",
+    "monarquia": "Monarquia",
+    "formas": "formas",
+    "monarcas": "monarcas",
+    "formas_de_governo": "Formas de governo",
+    "lista_monarcas": "Monarcas (histórico)",
+    "registos": "registos",
+    "tipo_desconhecido": "Sem tipo",
+    "download_csv": "💾 Descarregar CSV",
+    "sem_dados": "— sem dados —",
+    "col": {
+      "conflito": "Conflito",
+      "tipo": "Tipo",
+      "inicio": "Início",
+      "fim": "Fim",
+      "ano": "Ano",
+      "local": "Local",
+      "resultado": "Resultado",
+      "mortes": "Mortes",
+      "forma_governo": "Forma de governo",
+      "e_monarquia": "É monarquia?",
+      "monarca": "Monarca",
+      "titulo": "Título",
+      "casa": "Dinastia/Casa"
+    }
+  },
+
+
   "tourism": {
     "arrivals": "Chegadas (turistas internacionais)",
     "departures": "Partidas (turistas internacionais)",
