@@ -1,0 +1,2793 @@
+type_qid;type_label;root_qid;root_label
+Q3596827;102/35 su SPA 9000;Q180684;military conflict
+Q4388339;1918 Ukrainian coup d'état;Q180684;military conflict
+Q85722364;1938 deportation of Jews from Slovakia;Q180684;military conflict
+Q127273725;1946 Palestine general strike;Q180684;military conflict
+Q4566043;1947 Royal New Zealand Navy mutinies;Q180684;military conflict
+Q4566043;1947 Royal New Zealand Navy mutinies;Q350604;battle
+Q12158103;1990s Donbas miners' strikes;Q180684;military conflict
+Q4617641;2010 Kashmir unrest;Q180684;military conflict
+Q97976264;2017 Season of Bullfighting Fair in Granada;Q180684;military conflict
+Q66711913;2019 Hong Kong Lennon Wall;Q180684;military conflict
+Q94953459;2019 Season of Bullfighting Festival of Corpus Christi in Granada;Q180684;military conflict
+Q97970431;2019 Season of Saint Ignatius in Azpeitia;Q180684;military conflict
+Q97216201;2020–2022 Slovenian protests;Q180684;military conflict
+Q111334724;2022 Beersheba attack;Q180684;military conflict
+Q111420818;2022 Bnei Brak shootings;Q180684;military conflict
+Q111845482;2022 El'ad attack;Q180684;military conflict
+Q111383118;2022 Hadera shooting;Q180684;military conflict
+Q111524362;2022 Tel Aviv shooting;Q180684;military conflict
+Q111430223;2022 wave of terrorism in Israel;Q180684;military conflict
+Q133859307;2023 Datong rape case;Q180684;military conflict
+Q124568074;2024 Kiryat Malakhi attack;Q180684;military conflict
+Q124290874;2024 Ra'anana attack;Q180684;military conflict
+Q133552741;2025 Gaza Strip anti-Hamas protests;Q180684;military conflict
+Q4031158;3M8;Q180684;military conflict
+Q4031162;3М9;Q180684;military conflict
+Q3599282;51T6 Gorgon;Q180684;military conflict
+Q4640332;53T6;Q180684;military conflict
+Q3118356;59 minutes strike;Q180684;military conflict
+Q1130330;9K31 Strela-1;Q180684;military conflict
+Q329148;9K310 Igla-1;Q180684;military conflict
+Q17277328;9K333 Verba;Q180684;military conflict
+Q5653155;9K338 Igla-S;Q180684;military conflict
+Q1051186;9K34 Strela-3;Q180684;military conflict
+Q633510;9K35 Strela-10;Q180684;military conflict
+Q147847;9K38 Igla;Q180684;military conflict
+Q11188509;9M311;Q180684;military conflict
+Q65226806;9M318;Q180684;military conflict
+Q4032821;9M38;Q180684;military conflict
+Q1084294;A-350;Q180684;military conflict
+Q277754;A–135 anti-ballistic missile system;Q180684;military conflict
+Q28532983;Ababeel;Q180684;military conflict
+Q16335379;Abalroamento aéreo;Q180684;military conflict
+Q3040277;Abastecimento aéreo;Q645883;civil conflict
+Q7995869;abolição de monarquia;Q180684;military conflict
+Q2892865;Abraço de urso;Q180684;military conflict
+Q4348173;absolute war;Q198;war
+Q4348173;absolute war;Q180684;military conflict
+Q4348173;absolute war;Q350604;battle
+Q2415157;abuso político da psiquiatria;Q180684;military conflict
+Q4006775;Abuso político da psiquiatria na União Soviética;Q180684;military conflict
+Q93430598;academic dispute;Q180684;military conflict
+Q506259;ação direta;Q180684;military conflict
+Q3631521;Ação direta;Q645883;civil conflict
+Q676027;Ação Pauliana;Q180684;military conflict
+Q3309962;Ação policial;Q645883;civil conflict
+Q451584;ação popular;Q180684;military conflict
+Q4215744;accounting scandal;Q180684;military conflict
+Q116430223;Acefalism;Q180684;military conflict
+Q123138957;aceifa;Q645883;civil conflict
+Q102197252;Ações judiciais pós-eleitorais relacionadas à eleição presidencial de 2020 nos EUA;Q180684;military conflict
+Q422635;action art;Q180684;military conflict
+Q7356125;Acusações de corrupção contra Rod Blagojevich;Q180684;military conflict
+Q123248286;AD-08;Q180684;military conflict
+Q4680016;Adam and Eve in LDS doctrine;Q180684;military conflict
+Q2889084;Administração militar;Q645883;civil conflict
+Q129820183;Administrative court cases in mainland China;Q180684;military conflict
+Q133520154;Administrative disputes;Q180684;military conflict
+Q11626120;Administrative Litigation;Q180684;military conflict
+Q129820369;Administrative Litigation (mainland China);Q180684;military conflict
+Q129820379;Administrative Reconsideration;Q180684;military conflict
+Q133890420;Administrative reconsideration case filed at Ministry of Industry and Information Technology of China;Q180684;military conflict
+Q129820225;Administrative Reconsideration cases;Q180684;military conflict
+Q131567018;Administrative Review Tribunal decision;Q180684;military conflict
+Q11640222;advance and occupation;Q180684;military conflict
+Q11640222;advance and occupation;Q645883;civil conflict
+Q11640222;advance and occupation;Q350604;battle
+Q4686864;advisory opinion;Q180684;military conflict
+Q15104954;aerial interception;Q645883;civil conflict
+Q125887591;aerial naval mine delivery;Q180684;military conflict
+Q125887591;aerial naval mine delivery;Q645883;civil conflict
+Q125887591;aerial naval mine delivery;Q350604;battle
+Q4688999;affirmative action bake sale;Q180684;military conflict
+Q114363090;agrarian uprising;Q180684;military conflict
+Q114363090;agrarian uprising;Q350604;battle
+Q16486639;Aipenkuit;Q180684;military conflict
+Q1897017;air battle;Q180684;military conflict
+Q1897017;air battle;Q178561;rebellion
+Q1897017;air battle;Q645883;civil conflict
+Q1897017;air battle;Q350604;battle
+Q18015493;air combat;Q180684;military conflict
+Q290105;Air Defense Anti-Tank System;Q180684;military conflict
+Q4698343;air offensive;Q180684;military conflict
+Q4698343;air offensive;Q645883;civil conflict
+Q4698343;air offensive;Q350604;battle
+Q1373607;Air raids of the Battle of the Gilbert Islands;Q180684;military conflict
+Q1373607;Air raids of the Battle of the Gilbert Islands;Q645883;civil conflict
+Q1373607;Air raids of the Battle of the Gilbert Islands;Q350604;battle
+Q4698397;air warfare in Yugoslavia;Q180684;military conflict
+Q952209;air warfare of World War II;Q180684;military conflict
+Q76370269;air-to-surface warfare;Q180684;military conflict
+Q89541131;airborne warfare;Q180684;military conflict
+Q2652759;Akash;Q180684;military conflict
+Q105438625;Akash-NG;Q180684;military conflict
+Q133297584;Algerian cave warfare;Q180684;military conflict
+Q134302830;Alicante in the Spanish Civil War;Q180684;military conflict
+Q2583287;All Japan Women's Pro-Wrestling;Q180684;military conflict
+Q18015698;all-weather interception;Q645883;civil conflict
+Q19606784;Allied bombing;Q180684;military conflict
+Q19606784;Allied bombing;Q645883;civil conflict
+Q19606784;Allied bombing;Q350604;battle
+Q127773696;Allied bombing of Yugoslavia in World War II;Q180684;military conflict
+Q127773696;Allied bombing of Yugoslavia in World War II;Q645883;civil conflict
+Q127773696;Allied bombing of Yugoslavia in World War II;Q350604;battle
+Q4738731;Alysh;Q180684;military conflict
+Q117020505;AMAN;Q645883;civil conflict
+Q4111554;Amateur Pankration;Q180684;military conflict
+Q5928045;Ambivalência;Q180684;military conflict
+Q17149403;American military operations other than war;Q645883;civil conflict
+Q3354924;amphibious military operation;Q645883;civil conflict
+Q4748201;amphibious reconnaissance;Q180684;military conflict
+Q194465;anexação;Q180684;military conflict
+Q388924;Anexo:Lista de batalhas na série de livros As Crônicas de Nárnia;Q180684;military conflict
+Q12230894;Anglican Communion sexual abuse cases;Q180684;military conflict
+Q30323964;animal-baiting;Q180684;military conflict
+Q4771217;Antelope air defence system;Q180684;military conflict
+Q28668602;anti-aircraft grenade launcher;Q180684;military conflict
+Q86739852;anti-aircraft warfare;Q180684;military conflict
+Q4774129;anti-Catholic riots;Q180684;military conflict
+Q11517839;anti-Chinese riots;Q180684;military conflict
+Q19950013;Anti-Francoist urban guerrilla;Q180684;military conflict
+Q13538715;Anti-Habsburg uprisings;Q180684;military conflict
+Q13538715;Anti-Habsburg uprisings;Q350604;battle
+Q247735;Anti-Jewish pogroms in the Russian Empire;Q180684;military conflict
+Q11079230;anti-missionary riot in China;Q180684;military conflict
+Q15466187;anti-nuclear protest;Q180684;military conflict
+Q4774420;anti-nuclear protests in the United States;Q180684;military conflict
+Q2334946;anti-psychiatry in Netherlands;Q180684;military conflict
+Q47657138;Anti-Russian rebellions;Q180684;military conflict
+Q47657138;Anti-Russian rebellions;Q350604;battle
+Q107722568;Anti-ship weapons;Q180684;military conflict
+Q1964176;anti-U-boat operations;Q645883;civil conflict
+Q582667;antipsiquiatria;Q180684;military conflict
+Q584205;antitrinitarismo;Q180684;military conflict
+Q61221204;antitrust case;Q180684;military conflict
+Q3696223;Anza (míssil);Q180684;military conflict
+Q7234541;Apologia do nazismo;Q180684;military conflict
+Q5400540;Arabian Gauntlet;Q645883;civil conflict
+Q12835951;Aratan;Q180684;military conflict
+Q131751107;arbitration case;Q180684;military conflict
+Q4788547;area bombardment;Q180684;military conflict
+Q4788547;area bombardment;Q645883;civil conflict
+Q4788547;area bombardment;Q350604;battle
+Q108323073;Argentinian genocide;Q180684;military conflict
+Q83922;arianismo;Q180684;military conflict
+Q24936119;Arianismo na Hispânia;Q180684;military conflict
+Q664017;Arianização;Q180684;military conflict
+Q4792474;Arm triangle choke;Q180684;military conflict
+Q1418029;Armas combinadas;Q645883;civil conflict
+Q350604;armed conflict;Q180684;military conflict
+Q350604;armed conflict;Q350604;battle
+Q3267933;armed struggle;Q180684;military conflict
+Q880637;armored reconnaissance;Q180684;military conflict
+Q15517541;army co-operation;Q645883;civil conflict
+Q131627884;Arrow;Q645883;civil conflict
+Q5363532;Arrow 3;Q180684;military conflict
+Q136462954;artificial intelligence controversies;Q180684;military conflict
+Q4070286;artillery offensive;Q180684;military conflict
+Q4070286;artillery offensive;Q645883;civil conflict
+Q4070286;artillery offensive;Q350604;battle
+Q2497090;artillery preparation;Q645883;civil conflict
+Q2865836;artivismo;Q180684;military conflict
+Q4804181;asentamiento;Q180684;military conflict
+Q16533779;asonada;Q180684;military conflict
+Q16533779;asonada;Q350604;battle
+Q4654336;ASRAD-HELLAS;Q180684;military conflict
+Q939087;Assalto aéreo;Q645883;civil conflict
+Q115892552;Assassination of Majid Sharif-Vaghefi;Q645883;civil conflict
+Q115791837;Assassination of Rockwell International personnel in Tehran;Q645883;civil conflict
+Q2206565;assédio judicial;Q180684;military conflict
+Q747354;Aster;Q180684;military conflict
+Q30588142;ataque de drone;Q180684;military conflict
+Q30588142;ataque de drone;Q645883;civil conflict
+Q30588142;ataque de drone;Q350604;battle
+Q123513446;Ataque de tiro duplo;Q180684;military conflict
+Q123513446;Ataque de tiro duplo;Q645883;civil conflict
+Q123513446;Ataque de tiro duplo;Q350604;battle
+Q1470138;ataque militar;Q180684;military conflict
+Q1470138;ataque militar;Q645883;civil conflict
+Q1470138;ataque militar;Q350604;battle
+Q127260330;Ataques aéreos à Ucrânia de 8 de julho de 2024;Q180684;military conflict
+Q127260330;Ataques aéreos à Ucrânia de 8 de julho de 2024;Q645883;civil conflict
+Q127260330;Ataques aéreos à Ucrânia de 8 de julho de 2024;Q350604;battle
+Q721668;Ataques aéreos de luta profissional;Q180684;military conflict
+Q756540;Atlantic pockets;Q180684;military conflict
+Q756540;Atlantic pockets;Q350604;battle
+Q98607365;atmospheric nuclear test;Q645883;civil conflict
+Q12840408;attack;Q645883;civil conflict
+Q127325186;Attacks against computer networks;Q180684;military conflict
+Q127325186;Attacks against computer networks;Q645883;civil conflict
+Q127325186;Attacks against computer networks;Q350604;battle
+Q508284;Attacks on North America during World War II;Q180684;military conflict
+Q508284;Attacks on North America during World War II;Q645883;civil conflict
+Q508284;Attacks on North America during World War II;Q350604;battle
+Q115902065;attempted assassination of Morteza Samadieh-Labbaf;Q645883;civil conflict
+Q4460509;auto-golpe;Q180684;military conflict
+Q786766;autogenocide;Q180684;military conflict
+Q24931116;Avar raids;Q645883;civil conflict
+Q11762688;Aviation Assault;Q180684;military conflict
+Q3815060;backflip kick;Q180684;military conflict
+Q1779477;Backyard wrestling;Q180684;military conflict
+Q4840830;Badger-baiting;Q180684;military conflict
+Q20105468;Balearic privateering;Q180684;military conflict
+Q795400;BALTOPS;Q645883;civil conflict
+Q17100946;Bambule;Q180684;military conflict
+Q2882324;Bandido;Q180684;military conflict
+Q1317135;Barak 1;Q180684;military conflict
+Q16695097;Barak 8;Q180684;military conflict
+Q304860;barragem;Q180684;military conflict
+Q106506622;barróg;Q180684;military conflict
+Q28068509;baseball choke;Q180684;military conflict
+Q18120972;Bashkir Uprisings;Q180684;military conflict
+Q18120972;Bashkir Uprisings;Q350604;battle
+Q810704;bataireacht;Q180684;military conflict
+Q178561;batalha;Q180684;military conflict
+Q178561;batalha;Q178561;rebellion
+Q178561;batalha;Q645883;civil conflict
+Q178561;batalha;Q350604;battle
+Q743488;batalha campal;Q180684;military conflict
+Q743488;batalha campal;Q178561;rebellion
+Q743488;batalha campal;Q645883;civil conflict
+Q743488;batalha campal;Q350604;battle
+Q15047343;batalha da Guerra do Paraguai;Q180684;military conflict
+Q15047343;batalha da Guerra do Paraguai;Q178561;rebellion
+Q15047343;batalha da Guerra do Paraguai;Q645883;civil conflict
+Q15047343;batalha da Guerra do Paraguai;Q350604;battle
+Q7578135;Batalha espiritual;Q180684;military conflict
+Q1261499;batalha naval;Q180684;military conflict
+Q1261499;batalha naval;Q178561;rebellion
+Q1261499;batalha naval;Q645883;civil conflict
+Q1261499;batalha naval;Q350604;battle
+Q15991159;Batalhas da Idade Média;Q180684;military conflict
+Q15991159;Batalhas da Idade Média;Q178561;rebellion
+Q15991159;Batalhas da Idade Média;Q645883;civil conflict
+Q15991159;Batalhas da Idade Média;Q350604;battle
+Q2890633;Battle of the Queens;Q180684;military conflict
+Q3241463;battle royal;Q180684;military conflict
+Q14944691;battle royal;Q180684;military conflict
+Q1075565;Battles of Beleriand;Q180684;military conflict
+Q2630136;battles of Osgiliath during the War of the Ring;Q180684;military conflict
+Q18370757;battles of the Fellowship of the Ring;Q180684;military conflict
+Q3637155;beach wrestling;Q180684;military conflict
+Q11656574;bear fighting;Q180684;military conflict
+Q2041094;Bear-baiting;Q180684;military conflict
+Q131765225;Beit Sahour tax strike;Q180684;military conflict
+Q815747;Bell X-9 Shrike;Q180684;military conflict
+Q2093039;Belt-and-jacket;Q180684;military conflict
+Q4886918;bench-clearing brawl;Q180684;military conflict
+Q4903270;Biblical Unitarianism;Q180684;military conflict
+Q5728153;Bici Crítica of Madrid;Q180684;military conflict
+Q1971764;Big boot;Q180684;military conflict
+Q11656589;bird fighting;Q180684;military conflict
+Q119061362;bird song competition;Q180684;military conflict
+Q3394581;black operation;Q645883;civil conflict
+Q43305506;black operations of CIA;Q645883;civil conflict
+Q122694725;Blacklist Campaign;Q180684;military conflict
+Q12195269;bloodless coup d'état;Q180684;military conflict
+Q4927953;bloodless war;Q198;war
+Q4927953;bloodless war;Q180684;military conflict
+Q4927953;bloodless war;Q350604;battle
+Q273976;bloqueio;Q645883;civil conflict
+Q1959141;bloqueio naval;Q645883;civil conflict
+Q774960;Blowpipe;Q180684;military conflict
+Q48810523;Boar-baiting;Q180684;military conflict
+Q4931439;boardroom coup;Q180684;military conflict
+Q120197854;Boateng v. National Media Commission and Another;Q180684;military conflict
+Q9182943;bój;Q180684;military conflict
+Q9182943;bój;Q178561;rebellion
+Q9182943;bój;Q645883;civil conflict
+Q9182943;bój;Q350604;battle
+Q4939425;Boli Khela;Q180684;military conflict
+Q2380335;bombardeamento aéreo;Q180684;military conflict
+Q17912683;Bombardeamento aéreo;Q180684;military conflict
+Q2380335;bombardeamento aéreo;Q645883;civil conflict
+Q17912683;Bombardeamento aéreo;Q645883;civil conflict
+Q2380335;bombardeamento aéreo;Q350604;battle
+Q17912683;Bombardeamento aéreo;Q350604;battle
+Q4688003;bombardeamento aéreo de uma cidade;Q180684;military conflict
+Q4688003;bombardeamento aéreo de uma cidade;Q645883;civil conflict
+Q4688003;bombardeamento aéreo de uma cidade;Q350604;battle
+Q15212263;Bombardeamento de Berlim;Q180684;military conflict
+Q15212263;Bombardeamento de Berlim;Q645883;civil conflict
+Q15212263;Bombardeamento de Berlim;Q350604;battle
+Q841418;bombardeio estratégico;Q180684;military conflict
+Q841418;bombardeio estratégico;Q645883;civil conflict
+Q841418;bombardeio estratégico;Q350604;battle
+Q1422289;bombardeio tático;Q180684;military conflict
+Q1422289;bombardeio tático;Q645883;civil conflict
+Q1422289;bombardeio tático;Q350604;battle
+Q715695;Bombardeios estratégicos durante a Segunda Guerra Mundial;Q180684;military conflict
+Q715695;Bombardeios estratégicos durante a Segunda Guerra Mundial;Q645883;civil conflict
+Q715695;Bombardeios estratégicos durante a Segunda Guerra Mundial;Q350604;battle
+Q678146;bombardment;Q180684;military conflict
+Q678146;bombardment;Q645883;civil conflict
+Q678146;bombardment;Q350604;battle
+Q107637520;border conflict;Q180684;military conflict
+Q107637520;border conflict;Q350604;battle
+Q42750320;border incident;Q180684;military conflict
+Q42750320;border incident;Q350604;battle
+Q22944244;borroka;Q180684;military conflict
+Q107238090;botched military raid;Q645883;civil conflict
+Q188257;bottom procedure;Q180684;military conflict
+Q895266;Bous a la mar;Q180684;military conflict
+Q898242;Brandschatten;Q645883;civil conflict
+Q1709241;brawling;Q180684;military conflict
+Q6857782;British military operations other than war;Q645883;civil conflict
+Q11545912;buke-ryō;Q180684;military conflict
+Q812983;bull-baiting;Q180684;military conflict
+Q20107343;Bullangues;Q645883;civil conflict
+Q3001425;bullfighting festival;Q180684;military conflict
+Q19844197;bullfighting in New Spain;Q180684;military conflict
+Q32024778;Bullfighting in the Community of Madrid;Q180684;military conflict
+Q4997163;Bultong;Q180684;military conflict
+Q1670655;Bundeswehr Panzertruppen;Q180684;military conflict
+Q4997896;Buno;Q180684;military conflict
+Q131702251;BYD Slavery-Like Conditions Controversy in Brazil;Q180684;military conflict
+Q60846342;CA-94;Q180684;military conflict
+Q109595168;calf slicer;Q180684;military conflict
+Q5026800;camisado;Q180684;military conflict
+Q5026800;camisado;Q645883;civil conflict
+Q2935206;Camp for Climate Action;Q180684;military conflict
+Q831663;campanha militar;Q180684;military conflict
+Q831663;campanha militar;Q645883;civil conflict
+Q831663;campanha militar;Q350604;battle
+Q65061153;campus protest;Q180684;military conflict
+Q1715416;Canarian wrestling;Q180684;military conflict
+Q2937260;Capea;Q180684;military conflict
+Q90573599;Capeas de Segura de León;Q180684;military conflict
+Q18480501;Capeia arraiana;Q180684;military conflict
+Q88456792;Capelado;Q180684;military conflict
+Q2126793;CARAT;Q645883;civil conflict
+Q838364;carpet bombing;Q180684;military conflict
+Q838364;carpet bombing;Q645883;civil conflict
+Q838364;carpet bombing;Q350604;battle
+Q5046123;carriage dispute;Q180684;military conflict
+Q1045072;carrier onboard delivery;Q645883;civil conflict
+Q907950;case;Q180684;military conflict
+Q13513031;Case Dutroux;Q180684;military conflict
+Q129837193;case filed at administrative authorities in mainland China;Q180684;military conflict
+Q133274088;Cases filed in courts in Beijing;Q180684;military conflict
+Q133441595;Cases filed with police of mainland China;Q180684;military conflict
+Q133441065;cases from mainland China;Q180684;military conflict
+Q106179662;Casino Battle Royale;Q180684;military conflict
+Q2055205;caso arquivado;Q180684;military conflict
+Q21044347;Caso corpesca;Q180684;military conflict
+Q16738832;caso criminal;Q180684;military conflict
+Q16057981;Caso de aborto de menina brasileira em 2009;Q180684;military conflict
+Q749501;Caso Plame-Wilson;Q180684;military conflict
+Q5050921;casualty evacuation;Q180684;military conflict
+Q18482565;Catástrofe demográfica;Q180684;military conflict
+Q2408025;catch wrestling;Q180684;military conflict
+Q616762;catfight;Q180684;military conflict
+Q5053315;Catholic Church sexual abuse cases in France;Q180684;military conflict
+Q3210851;Catholic sexual abuse cases in Canada;Q180684;military conflict
+Q2823677;cause of action;Q180684;military conflict
+Q5392931;cavalry raid;Q180684;military conflict
+Q5392931;cavalry raid;Q178561;rebellion
+Q5392931;cavalry raid;Q645883;civil conflict
+Q5392931;cavalry raid;Q350604;battle
+Q112765787;central trial;Q180684;military conflict
+Q1110236;Centro de gravidade (militar);Q180684;military conflict
+Q1110236;Centro de gravidade (militar);Q645883;civil conflict
+Q1110236;Centro de gravidade (militar);Q350604;battle
+Q188055;cerco;Q180684;military conflict
+Q188055;cerco;Q645883;civil conflict
+Q188055;cerco;Q350604;battle
+Q2337039;channel conflict;Q180684;military conflict
+Q30637971;Chanter v Blackwood;Q180684;military conflict
+Q172336;chave de braço;Q180684;military conflict
+Q4380025;Chave de braço;Q180684;military conflict
+Q615518;Chegas de Touros;Q180684;military conflict
+Q25696027;Chelishish;Q180684;military conflict
+Q118930816;chemical/biological warfare;Q180684;military conflict
+Q1070938;Chevauchée;Q645883;civil conflict
+Q4515707;Chidaoba;Q180684;military conflict
+Q111207998;Chidaoba;Q180684;military conflict
+Q109041057;Child sexual abuse in the diocese of Luçon;Q180684;military conflict
+Q95252032;child sexual abuse scandal;Q180684;military conflict
+Q6857776;Chinese military operations other than war;Q645883;civil conflict
+Q4499038;Cholera Riots;Q180684;military conflict
+Q118072761;Christomonism;Q180684;military conflict
+Q5116922;Church of Jesus Christ Restored 1830;Q180684;military conflict
+Q7497152;Chute na canela;Q180684;military conflict
+Q7988539;CIA Tibetan program;Q645883;civil conflict
+Q849340;ciberguerra;Q180684;military conflict
+Q781894;CIM-10 Bomarc;Q180684;military conflict
+Q41521;cisma;Q180684;military conflict
+Q65083733;cisma;Q180684;military conflict
+Q126325378;cisma do Islã;Q180684;military conflict
+Q126287984;cisma religioso;Q180684;military conflict
+Q127512667;civil conflict;Q180684;military conflict
+Q133467586;civil dispute;Q180684;military conflict
+Q133467577;Civil disputes in mainland China;Q180684;military conflict
+Q10706788;civil matter;Q180684;military conflict
+Q107614552;claim for restitution of an artwork;Q180684;military conflict
+Q3354903;clandestine operation;Q645883;civil conflict
+Q79084310;clash;Q180684;military conflict
+Q2783852;class action;Q180684;military conflict
+Q11659309;Class actions;Q180684;military conflict
+Q116004037;climate protest;Q180684;military conflict
+Q122955400;climate strike;Q180684;military conflict
+Q130704399;coal strike;Q180684;military conflict
+Q123593345;cognitive warfare;Q198;war
+Q123593345;cognitive warfare;Q180684;military conflict
+Q123593345;cognitive warfare;Q350604;battle
+Q21971240;Cold War Europe;Q180684;military conflict
+Q108392871;Cold War in Asia;Q180684;military conflict
+Q3682694;Collar-and-elbow;Q180684;military conflict
+Q136486544;collective grievance;Q180684;military conflict
+Q5146995;collegiate wrestling;Q180684;military conflict
+Q104872632;Colonialism and genocide;Q180684;military conflict
+Q1047607;Colonização espanhola da América;Q180684;military conflict
+Q16271678;Colos;Q180684;military conflict
+Q2164772;combat air patrol;Q645883;civil conflict
+Q681969;Combat de Reines;Q180684;military conflict
+Q1696856;Combat reenactment;Q180684;military conflict
+Q11303148;Combat Wrestling;Q180684;military conflict
+Q650711;combate;Q180684;military conflict
+Q15041854;Combate aproximado;Q180684;military conflict
+Q602507;combate corpo a corpo;Q180684;military conflict
+Q1102423;combate em ambientes confinados;Q180684;military conflict
+Q1505845;Comboios do Ártico;Q180684;military conflict
+Q1505845;Comboios do Ártico;Q350604;battle
+Q19609158;comício;Q180684;military conflict
+Q25810859;command post exercise;Q645883;civil conflict
+Q986676;commerce raiding;Q180684;military conflict
+Q5153280;Common Anti-Air Modular Missile;Q180684;military conflict
+Q131621892;commune;Q180684;military conflict
+Q131621892;commune;Q350604;battle
+Q2379628;communication with submarines;Q180684;military conflict
+Q27791637;Communist insurgency in the Philippines;Q180684;military conflict
+Q27791637;Communist insurgency in the Philippines;Q350604;battle
+Q2614462;company campaigning;Q180684;military conflict
+Q22084970;concerns and controversies at the 2020 Summer Olympics;Q180684;military conflict
+Q108570112;concerns and controversies at the 2020 Summer Paralympics;Q180684;military conflict
+Q101142288;conflict incident;Q180684;military conflict
+Q5160197;Conflict of marriage laws;Q180684;military conflict
+Q180684;conflito;Q180684;military conflict
+Q5683226;conflito ambiental;Q180684;military conflict
+Q16146546;Conflito civil nas Filipinas;Q180684;military conflict
+Q16146546;Conflito civil nas Filipinas;Q350604;battle
+Q2912528;conflito comercial;Q180684;military conflict
+Q14395607;conflito congelado;Q180684;military conflict
+Q14395607;conflito congelado;Q350604;battle
+Q5193269;conflito cultural;Q180684;military conflict
+Q369799;conflito de baixa intensidade;Q180684;military conflict
+Q766875;conflito étnico;Q180684;military conflict
+Q105071637;conflito fundiário;Q180684;military conflict
+Q5153967;Conflito intercomunitário;Q180684;military conflict
+Q1502007;conflito intergeracional;Q180684;military conflict
+Q1334080;Conflito Pais-Filhos;Q180684;military conflict
+Q2870014;Conflito sectário no Iraque;Q180684;military conflict
+Q2672648;conflito social;Q180684;military conflict
+Q8035179;Conflitos entre trabalho e família;Q180684;military conflict
+Q9848046;Conflitos na Indonésia;Q180684;military conflict
+Q1136021;Confrontos fronteiriços entre Bangladesh e Índia em 2001;Q180684;military conflict
+Q1136021;Confrontos fronteiriços entre Bangladesh e Índia em 2001;Q350604;battle
+Q1361229;Conquista militar;Q645883;civil conflict
+Q1374897;consumer boycott;Q180684;military conflict
+Q6024878;consumer revolt;Q180684;military conflict
+Q122889179;consumer rights controversy;Q180684;military conflict
+Q105499756;contempt of court proceedings;Q180684;military conflict
+Q10080014;Contestador fiscal;Q180684;military conflict
+Q17144660;Contra ofensiva do ar;Q180684;military conflict
+Q2329143;contra-ataque;Q645883;civil conflict
+Q125956566;Contragolpe;Q180684;military conflict
+Q1255828;controvérsia;Q180684;military conflict
+Q545170;"Controvérsia ""Garotos são estúpidos, joguem pedras neles!""";Q180684;military conflict
+Q122584592;Controvérsia filosófica;Q180684;military conflict
+Q19396147;controversial invention;Q180684;military conflict
+Q300945;Controvérsias de South Park;Q180684;military conflict
+Q5111484;Controvérsias do Natal;Q180684;military conflict
+Q2033227;Controvérsias em torno de Mortal Kombat;Q180684;military conflict
+Q123685131;controvérsias envolvendo a Nestlé;Q180684;military conflict
+Q23037921;controvérsias envolvendo a psiquiatria;Q180684;military conflict
+Q2575667;controvérsias sobre os ogm;Q180684;military conflict
+Q50377401;controversies of Xi Jinping;Q180684;military conflict
+Q1044852;controversies surrounding Call of Duty: Modern Warfare 2;Q180684;military conflict
+Q121815942;controversies surrounding Genshin Impact;Q180684;military conflict
+Q5165996;controversies surrounding Grand Theft Auto IV;Q180684;military conflict
+Q19867757;controversies surrounding Grand Theft Auto V;Q180684;military conflict
+Q115868941;controversies surrounding the Saudi Arabian Grand Prix;Q180684;military conflict
+Q112663;Controversies surrounding Yasukuni Shrine;Q180684;military conflict
+Q118118221;controversy between Lunar New Year and Chinese New Year;Q180684;military conflict
+Q84056433;controversy surrounding the 2019–20 Wuhan coronavirus outbreak;Q180684;military conflict
+Q107304919;Coors strike and boycott;Q180684;military conflict
+Q123550907;copyright legal case;Q180684;military conflict
+Q60963472;cordão sanitário;Q180684;military conflict
+Q4354339;Cornish wrestling;Q180684;military conflict
+Q1770766;Correbous;Q180684;military conflict
+Q2997943;corrida de rejón;Q180684;military conflict
+Q1778149;Corsa camarguenca;Q180684;military conflict
+Q3773159;Cosmologia Mórmon;Q180684;military conflict
+Q5175752;Cotton diplomacy;Q180684;military conflict
+Q81859300;counter-celebration;Q180684;military conflict
+Q58815974;counter-demonstration;Q180684;military conflict
+Q5176896;counter-offensive;Q180684;military conflict
+Q5176896;counter-offensive;Q645883;civil conflict
+Q5176896;counter-offensive;Q350604;battle
+Q5176895;counter-protest;Q180684;military conflict
+Q1047367;counter-terrorist operation;Q645883;civil conflict
+Q4231697;counterattack;Q645883;civil conflict
+Q109471870;country in World War I;Q180684;military conflict
+Q109473326;country in World War II;Q180684;military conflict
+Q5177950;county seat war;Q180684;military conflict
+Q1418066;Coup de main;Q645883;civil conflict
+Q135557561;Coupvolution;Q180684;military conflict
+Q830090;Course landaise;Q180684;military conflict
+Q114148658;Cradle Suplex;Q180684;military conflict
+Q5185258;crime control;Q180684;military conflict
+Q1266971;Crime de pensamento;Q180684;military conflict
+Q16667597;Crimean–Circassian wars;Q198;war
+Q16667597;Crimean–Circassian wars;Q180684;military conflict
+Q16667597;Crimean–Circassian wars;Q350604;battle
+Q4249087;criminal cases against supporters of Yulia Tymoshenko;Q180684;military conflict
+Q60845736;criminal law case;Q180684;military conflict
+Q146071;criminal procedure;Q180684;military conflict
+Q5791104;crise diplomática;Q180684;military conflict
+Q15857791;crisis of conscience;Q180684;military conflict
+Q94588406;Critical Mass Barcelona;Q180684;military conflict
+Q107635454;Critical Mass Berlin;Q180684;military conflict
+Q107636079;Critical Mass Cologne;Q180684;military conflict
+Q87412854;Critical Mass Hamburg;Q180684;military conflict
+Q12322991;critical psychiatry;Q180684;military conflict
+Q10262032;Críticas à doutrina da Trindade;Q180684;military conflict
+Q21213422;Criticism of SpongeBob SquarePants;Q180684;military conflict
+Q21213326;Criticism of The Simpsons;Q180684;military conflict
+Q94590779;Criticona;Q180684;military conflict
+Q111165597;Crusades against Christians;Q180684;military conflict
+Q111165597;Crusades against Christians;Q645883;civil conflict
+Q111165597;Crusades against Christians;Q350604;battle
+Q115898880;Crusades against vice;Q180684;military conflict
+Q12546;Cruzada;Q180684;military conflict
+Q12546;Cruzada;Q645883;civil conflict
+Q12546;Cruzada;Q350604;battle
+Q48734726;Cruzadas populares;Q180684;military conflict
+Q48734726;Cruzadas populares;Q645883;civil conflict
+Q48734726;Cruzadas populares;Q350604;battle
+Q79083864;cultural clash;Q180684;military conflict
+Q3123011;cultural genocide;Q180684;military conflict
+Q5193986;Cumberland and Westmorland wrestling;Q180684;military conflict
+Q10718812;custody dispute;Q180684;military conflict
+Q5196413;Customary freehold;Q180684;military conflict
+Q101239385;customs war;Q180684;military conflict
+Q5197745;Cyber electronic warfare;Q180684;military conflict
+Q108864859;cyberwarfare and China;Q180684;military conflict
+Q5197870;cyberwarfare by Russia;Q180684;military conflict
+Q85755065;DARVO;Q645883;civil conflict
+Q12540032;Daw;Q180684;military conflict
+Q24887818;death match;Q180684;military conflict
+Q25091704;Death penalty for Homosexuality;Q180684;military conflict
+Q1344887;Decapitação (estratégia militar);Q180684;military conflict
+Q1344887;Decapitação (estratégia militar);Q645883;civil conflict
+Q1344887;Decapitação (estratégia militar);Q350604;battle
+Q19930933;decision of the Supreme Court of Canada;Q180684;military conflict
+Q96482904;decision of the Supreme Court of Sweden;Q180684;military conflict
+Q129836865;Decisive documents by administrative reconsideration authorities;Q180684;military conflict
+Q11552344;decisive warfare;Q180684;military conflict
+Q11552344;decisive warfare;Q178561;rebellion
+Q11552344;decisive warfare;Q645883;civil conflict
+Q11552344;decisive warfare;Q350604;battle
+Q121423280;deditio;Q180684;military conflict
+Q9385839;deep cavalry raid;Q180684;military conflict
+Q9385839;deep cavalry raid;Q178561;rebellion
+Q9385839;deep cavalry raid;Q645883;civil conflict
+Q9385839;deep cavalry raid;Q350604;battle
+Q374696;Defenestrações de Praga;Q180684;military conflict
+Q111114562;Defensive Counter Air;Q180684;military conflict
+Q2518545;defensive war;Q198;war
+Q2518545;defensive war;Q180684;military conflict
+Q2518545;defensive war;Q350604;battle
+Q5251508;deferred prosecution;Q180684;military conflict
+Q843941;defesa antiaérea;Q180684;military conflict
+Q5255065;demarcation dispute;Q180684;military conflict
+Q5255897;democratic revolution;Q180684;military conflict
+Q11547167;denka no watariryō;Q180684;military conflict
+Q5259397;dental amalgam controversy;Q180684;military conflict
+Q112651297;deportation of Jews;Q180684;military conflict
+Q1191628;deportation of Jews from Germany;Q180684;military conflict
+Q20053673;Desafio - Jiu Jitsu vs Luta Livre;Q180684;military conflict
+Q3024254;Descabello;Q180684;military conflict
+Q1182852;desert warfare;Q180684;military conflict
+Q1345044;Desminagem;Q180684;military conflict
+Q47217;desobediência civil;Q180684;military conflict
+Q686984;Desordem civil;Q180684;military conflict
+Q1929372;desporto sangrento;Q180684;military conflict
+Q5267797;Devon wrestling;Q180684;military conflict
+Q11555358;dharma discussion;Q180684;military conflict
+Q16968855;Dharna;Q180684;military conflict
+Q133802592;discurso de protesto;Q180684;military conflict
+Q2447975;Disputa;Q180684;military conflict
+Q1123131;disputa;Q180684;military conflict
+Q1078001;disputa territorial;Q180684;military conflict
+Q2912496;Disputas cristológicas;Q180684;military conflict
+Q2405450;Disputas territoriais no mar da China Meridional;Q180684;military conflict
+Q133859378;disputed territories of India;Q180684;military conflict
+Q133819846;Disputes in China;Q180684;military conflict
+Q133819844;Disputes in mainland China;Q180684;military conflict
+Q124757;distúrbio;Q180684;military conflict
+Q50433857;dive bombing;Q180684;military conflict
+Q50433857;dive bombing;Q645883;civil conflict
+Q50433857;dive bombing;Q350604;battle
+Q104842164;DK-10;Q180684;military conflict
+Q20076359;Dnipro (anti-air missile);Q180684;military conflict
+Q207674;Docetismo;Q180684;military conflict
+Q130259300;doctors' strike;Q180684;military conflict
+Q133460191;documents authored by administrative reconsideration authorities;Q180684;military conflict
+Q830494;Dogfight;Q180684;military conflict
+Q110573458;Donald Trump rally;Q180684;military conflict
+Q3308329;donkey vote;Q180684;military conflict
+Q5296218;donkey-baiting;Q180684;military conflict
+Q136443614;dopaminergic mismatch;Q180684;military conflict
+Q109342426;Douyin-related controversies;Q180684;military conflict
+Q328475;dragnet;Q645883;civil conflict
+Q77597785;drug war;Q198;war
+Q77597785;drug war;Q180684;military conflict
+Q77597785;drug war;Q350604;battle
+Q5311414;duck-baiting;Q180684;military conflict
+Q191503;duelo;Q180684;military conflict
+Q444694;Dumog;Q180684;military conflict
+Q2905670;Dúvida razoável;Q180684;military conflict
+Q2525814;early modern warfare;Q180684;military conflict
+Q4530410;economic blockade;Q645883;civil conflict
+Q19710363;Economic Information Warfare;Q180684;military conflict
+Q764327;edit war;Q180684;military conflict
+Q109591810;egg fried rice protests;Q180684;military conflict
+Q21886655;El tren de la libertad;Q180684;military conflict
+Q5358340;electronic civil disobedience;Q180684;military conflict
+Q125888468;electronic warfare training;Q180684;military conflict
+Q61357727;Elephant duel;Q180684;military conflict
+Q111951768;Elevator Strikes;Q180684;military conflict
+Q989265;embargo;Q180684;military conflict
+Q4793859;embargo de armas;Q180684;military conflict
+Q680838;emboscada;Q645883;civil conflict
+Q2992546;emotional conflict;Q180684;military conflict
+Q1160214;Encierro;Q180684;military conflict
+Q104519344;Encierros de Guadalajara;Q180684;military conflict
+Q124329045;enemy base attack ability;Q180684;military conflict
+Q124329045;enemy base attack ability;Q645883;civil conflict
+Q124329045;enemy base attack ability;Q350604;battle
+Q48767773;Engajamento militar;Q180684;military conflict
+Q48767773;Engajamento militar;Q178561;rebellion
+Q48767773;Engajamento militar;Q645883;civil conflict
+Q48767773;Engajamento militar;Q350604;battle
+Q2832578;Engano militar;Q645883;civil conflict
+Q5378545;English feudal barony;Q180684;military conflict
+Q16192025;Ensinos católicos sobre heresia;Q180684;military conflict
+Q902927;entomological warfare;Q180684;military conflict
+Q116004036;environmental protest;Q180684;military conflict
+Q1124012;erro judicial;Q180684;military conflict
+Q192909;escândalo;Q180684;military conflict
+Q21996358;escândalo corporativo;Q180684;military conflict
+Q18343076;escândalo de corrupção;Q180684;military conflict
+Q70152878;escândalo desportivo;Q180684;military conflict
+Q3107784;escândalo jornalístico;Q180684;military conflict
+Q934744;escândalo político;Q180684;military conflict
+Q997267;escaramuça;Q180684;military conflict
+Q997267;escaramuça;Q178561;rebellion
+Q997267;escaramuça;Q645883;civil conflict
+Q997267;escaramuça;Q350604;battle
+Q5945014;Esgrima crioula;Q180684;military conflict
+Q1967324;esquizofrenia progressiva;Q180684;military conflict
+Q472298;Estados Unidos vs. La Amistad;Q180684;military conflict
+Q706243;Estatuto da República da China;Q180684;military conflict
+Q3059026;Estocada;Q180684;military conflict
+Q130307730;Ethically disputed business practices;Q180684;military conflict
+Q3588250;ethnic riot;Q180684;military conflict
+Q1371470;etnocídio;Q180684;military conflict
+Q63088843;EU Capacity Building Mission;Q645883;civil conflict
+Q16467788;EU mission;Q645883;civil conflict
+Q699417;EUFOR;Q645883;civil conflict
+Q63088922;European Union Advisory Mission;Q645883;civil conflict
+Q63088829;European Union Border Assistance Mission;Q645883;civil conflict
+Q63088967;European Union Integrated Rule of Law Missio;Q645883;civil conflict
+Q63088929;European Union Naval Forces;Q645883;civil conflict
+Q63088934;European Union Police Mission;Q645883;civil conflict
+Q1276245;European Union Rule of Law Mission;Q645883;civil conflict
+Q63088946;European Union security sector reform mission;Q645883;civil conflict
+Q29913079;European Union Training Mission;Q645883;civil conflict
+Q261985;Evala;Q180684;military conflict
+Q8038643;execução injusta;Q180684;military conflict
+Q357104;exercício militar;Q645883;civil conflict
+Q16935379;Exercise Able Archer;Q645883;civil conflict
+Q45311815;Exercise Bersama Lima;Q645883;civil conflict
+Q45311841;Exercise Bersama Shield;Q645883;civil conflict
+Q45386330;Exercise Cooperation Spirit;Q645883;civil conflict
+Q28406203;Exercise Croix du Sud;Q645883;civil conflict
+Q129254874;Exercise Garuda;Q645883;civil conflict
+Q3108944;Exercise Global Guardian;Q645883;civil conflict
+Q109535947;Exercise Green Dagger;Q645883;civil conflict
+Q45385407;Exercise Lightning Focus;Q645883;civil conflict
+Q5420038;Exercise Pitch Black;Q645883;civil conflict
+Q101583461;Exercise Slavic Brotherhood;Q645883;civil conflict
+Q133836565;Exercise Southern Jackaroo;Q645883;civil conflict
+Q45333534;Exercise Southern Tiger;Q645883;civil conflict
+Q5420046;Exercise Talisman Sabre;Q645883;civil conflict
+Q129254754;Exercise Tarang Shakti;Q645883;civil conflict
+Q2509088;Exercise Valiant Shield;Q645883;civil conflict
+Q20711462;Exhibition fight;Q180684;military conflict
+Q582956;expedição punitiva;Q645883;civil conflict
+Q39086821;explosão de críticas;Q180684;military conflict
+Q1428579;Exportação da revolução;Q180684;military conflict
+Q878794;expulsions and exoduses of Jews;Q180684;military conflict
+Q1609633;extraction;Q645883;civil conflict
+Q1549399;Extraterrestrial real estate;Q180684;military conflict
+Q124828395;faction fighting;Q180684;military conflict
+Q4038589;Fairey Stooge;Q180684;military conflict
+Q5432397;Falling on a grenade;Q180684;military conflict
+Q55492423;family conflict;Q180684;military conflict
+Q3740152;Fatti di Innsbruck;Q180684;military conflict
+Q5438161;fault line war;Q198;war
+Q5438161;fault line war;Q180684;military conflict
+Q5438161;fault line war;Q350604;battle
+Q10280357;Favelas na cidade de São Paulo;Q180684;military conflict
+Q8960966;Favelas na cidade do Rio de Janeiro;Q180684;military conflict
+Q693827;favelas no brasil;Q180684;military conflict
+Q130631678;Federal Court of Australia case;Q180684;military conflict
+Q21978021;federal war;Q198;war
+Q21978021;federal war;Q180684;military conflict
+Q21978021;federal war;Q350604;battle
+Q125870673;feint;Q645883;civil conflict
+Q22124045;Feminist Self Defense;Q180684;military conflict
+Q123310602;ferret mission;Q645883;civil conflict
+Q16836659;feudal land tenure in England;Q180684;military conflict
+Q632475;Feuerlilie;Q180684;military conflict
+Q125887683;fictional armed conflict;Q180684;military conflict
+Q15707521;fictional battle;Q180684;military conflict
+Q125887753;fictional military action or armed conflict;Q180684;military conflict
+Q125889355;fictional violent conflict;Q180684;military conflict
+Q17198419;fictional war;Q180684;military conflict
+Q1714297;field training exercise;Q645883;civil conflict
+Q107504166;fifth-generation warfare;Q180684;military conflict
+Q5447880;Fighting Cholitas;Q180684;military conflict
+Q132167738;Fighting of the Ocean Coast Army rally;Q180684;military conflict
+Q132167738;Fighting of the Ocean Coast Army rally;Q178561;rebellion
+Q132167738;Fighting of the Ocean Coast Army rally;Q645883;civil conflict
+Q132167738;Fighting of the Ocean Coast Army rally;Q350604;battle
+Q1388613;FIM-43 Redeye;Q180684;military conflict
+Q223697;FIM-92 Stinger;Q180684;military conflict
+Q3072784;fireforce;Q645883;civil conflict
+Q11396575;first battle;Q180684;military conflict
+Q11396575;first battle;Q178561;rebellion
+Q11396575;first battle;Q645883;civil conflict
+Q11396575;first battle;Q350604;battle
+Q1208337;first strike;Q180684;military conflict
+Q1208337;first strike;Q645883;civil conflict
+Q1208337;first strike;Q350604;battle
+Q133274127;First-instance court cases in mainland China;Q180684;military conflict
+Q12050454;fish fight;Q180684;military conflict
+Q27031692;fist fight;Q180684;military conflict
+Q70998750;fist-fighting;Q180684;military conflict
+Q1984664;fizzle;Q645883;civil conflict
+Q5426001;FJ ABM;Q180684;military conflict
+Q10282703;Flak;Q180684;military conflict
+Q3073511;Fleet Problems;Q645883;civil conflict
+Q3275749;fleet review;Q645883;civil conflict
+Q704383;Fliegerfaust;Q180684;military conflict
+Q28733268;Fliegerfaust;Q180684;military conflict
+Q136384550;flotilla;Q180684;military conflict
+Q1517239;FN-6;Q180684;military conflict
+Q5463796;Foal Eagle;Q645883;civil conflict
+Q1303061;fogo amigo;Q180684;military conflict
+Q1303061;fogo amigo;Q645883;civil conflict
+Q1303061;fogo amigo;Q350604;battle
+Q5465517;food riot;Q180684;military conflict
+Q8564321;Food riots in the Middle East;Q180684;military conflict
+Q1671228;food scandal;Q180684;military conflict
+Q5467543;forced sale;Q180684;military conflict
+Q23021792;forced sterilization of the deaf;Q180684;military conflict
+Q28456918;foreign electoral intervention;Q645883;civil conflict
+Q23015264;Foreign missions of the Czech Air Force;Q645883;civil conflict
+Q100332920;forest walk;Q180684;military conflict
+Q2976102;fourth-generation warfare;Q180684;military conflict
+Q2976102;fourth-generation warfare;Q350604;battle
+Q5476832;Fox News controversies;Q180684;military conflict
+Q5490609;frankalmoin;Q180684;military conflict
+Q5500839;freedom suit;Q180684;military conflict
+Q2665700;French nuclear tests;Q645883;civil conflict
+Q842332;frente de batalha;Q180684;military conflict
+Q842332;frente de batalha;Q350604;battle
+Q60674974;Fridays for Future;Q180684;military conflict
+Q111364530;Fridays for Future Russia;Q180684;military conflict
+Q104245439;Fridays for Future Sweden;Q180684;military conflict
+Q111364537;Fridays for Future Ukraine;Q180684;military conflict
+Q5504094;friendly suit;Q180684;military conflict
+Q637160;Frisian participation in the Crusades;Q180684;military conflict
+Q637160;Frisian participation in the Crusades;Q645883;civil conflict
+Q637160;Frisian participation in the Crusades;Q350604;battle
+Q11456124;Fuji Firepower Review;Q645883;civil conflict
+Q64158;Funda de Davi;Q180684;military conflict
+Q965093;Fundamentalismo Mórmon;Q180684;military conflict
+Q4493460;Funryu;Q180684;military conflict
+Q10288113;Galhofa;Q180684;military conflict
+Q116196470;garbage collectors' strike;Q180684;military conflict
+Q108167241;Gatta gusthi;Q180684;military conflict
+Q5962003;Gauntlet;Q180684;military conflict
+Q2416571;gekokujō;Q180684;military conflict
+Q12018141;general attack;Q180684;military conflict
+Q12018141;general attack;Q645883;civil conflict
+Q12018141;general attack;Q350604;battle
+Q9266805;general battle;Q180684;military conflict
+Q9266805;general battle;Q178561;rebellion
+Q9266805;general battle;Q645883;civil conflict
+Q9266805;general battle;Q350604;battle
+Q4122592;generations of warfare;Q180684;military conflict
+Q123660539;genocide committed by Russia;Q180684;military conflict
+Q135455936;Genocides in history;Q180684;military conflict
+Q41397;genocídio;Q180684;military conflict
+Q5533462;genocídio dos povos indígenas;Q180684;military conflict
+Q108733451;Genocídio indígena nos Estados Unidos;Q180684;military conflict
+Q113165548;genocídio transgénero;Q180684;military conflict
+Q17029088;Genocídio utilitário;Q180684;military conflict
+Q104901608;Genocídios otomanos tardios;Q180684;military conflict
+Q12018162;geophysical warfare;Q180684;military conflict
+Q96379411;German Intercept Station Operations during World War II;Q645883;civil conflict
+Q106223176;ghazawat;Q180684;military conflict
+Q106223176;ghazawat;Q645883;civil conflict
+Q106223176;ghazawat;Q350604;battle
+Q6000336;ghazwa;Q198;war
+Q6000336;ghazwa;Q180684;military conflict
+Q6000336;ghazwa;Q350604;battle
+Q4137764;Ghetto Liubča;Q180684;military conflict
+Q16914253;ghettoization and deportation of the Hungarian rural Jewry;Q180684;military conflict
+Q124963252;Ghost town day;Q180684;military conflict
+Q11972165;gladiator games;Q180684;military conflict
+Q23580679;GMO conspiracy theories;Q180684;military conflict
+Q131293533;Gollion witchcraft trials;Q180684;military conflict
+Q10290435;golpe branco;Q180684;military conflict
+Q45382;golpe de Estado;Q180684;military conflict
+Q3449092;golpe militar;Q180684;military conflict
+Q8964625;golpe palaciano;Q180684;military conflict
+Q8964629;Golpes de Estado na Venezuela;Q180684;military conflict
+Q1546073;Golpismo;Q645883;civil conflict
+Q19863859;Google litigation;Q180684;military conflict
+Q11489110;goryōsho;Q180684;military conflict
+Q3088619;Gouren;Q180684;military conflict
+Q5588655;government-organized demonstration;Q180684;military conflict
+Q130318015;goyesca bullfighting of Ronda;Q180684;military conflict
+Q2997942;goyesca-style bullfighting;Q180684;military conflict
+Q18609332;grand jury hearing;Q180684;military conflict
+Q5596010;Grannygate;Q180684;military conflict
+Q906297;grappling;Q180684;military conflict
+Q49776;greve;Q180684;military conflict
+Q3118387;greve de sexo;Q180684;military conflict
+Q49775;greve geral;Q180684;military conflict
+Q1198713;greve selvagem;Q180684;military conflict
+Q54866660;Greves dos trabalhadores da educação nos Estados Unidos em 2018–2019;Q180684;military conflict
+Q2337859;Grom;Q180684;military conflict
+Q19254021;Ground-Based Interceptor;Q180684;military conflict
+Q1140599;Ground-Based Midcourse Defense;Q180684;military conflict
+Q5610846;ground-controlled interception;Q180684;military conflict
+Q17091170;group conflict;Q180684;military conflict
+Q113303442;grypomachy;Q180684;military conflict
+Q113303442;grypomachy;Q178561;rebellion
+Q113303442;grypomachy;Q645883;civil conflict
+Q113303442;grypomachy;Q350604;battle
+Q1487366;GTR-18 Smokey SAM;Q180684;military conflict
+Q198;guerra;Q198;war
+Q12786121;guerra;Q180684;military conflict
+Q198;guerra;Q180684;military conflict
+Q198;guerra;Q350604;battle
+Q471145;guerra aérea;Q180684;military conflict
+Q4688044;Guerra aérea na Guerra de Inverno;Q180684;military conflict
+Q348120;Guerra anfíbia;Q180684;military conflict
+Q1073579;guerra antissubmarino;Q180684;military conflict
+Q316936;guerra antitanque;Q198;war
+Q316936;guerra antitanque;Q180684;military conflict
+Q316936;guerra antitanque;Q350604;battle
+Q8242560;guerra biológica;Q180684;military conflict
+Q1608736;guerra cambial;Q180684;military conflict
+Q8465;guerra civil;Q198;war
+Q8465;guerra civil;Q180684;military conflict
+Q8465;guerra civil;Q350604;battle
+Q10292596;Guerra Civil no Chipre;Q180684;military conflict
+Q2659056;guerra colonial;Q198;war
+Q2659056;guerra colonial;Q180684;military conflict
+Q2659056;guerra colonial;Q350604;battle
+Q692412;Guerra comercial;Q180684;military conflict
+Q429245;guerra convencional;Q198;war
+Q429245;guerra convencional;Q180684;military conflict
+Q429245;guerra convencional;Q350604;battle
+Q3480226;Guerra cultural;Q180684;military conflict
+Q911036;guerra da informação;Q180684;military conflict
+Q1348385;guerra da sucessão;Q198;war
+Q1348385;guerra da sucessão;Q180684;military conflict
+Q1348385;guerra da sucessão;Q350604;battle
+Q474138;guerra de agressão;Q180684;military conflict
+Q752646;Guerra de Aniquilação;Q198;war
+Q752646;Guerra de Aniquilação;Q180684;military conflict
+Q752646;Guerra de Aniquilação;Q350604;battle
+Q232777;Guerra de duas frentes;Q198;war
+Q232777;Guerra de duas frentes;Q180684;military conflict
+Q232777;Guerra de duas frentes;Q350604;battle
+Q831550;guerra de exaustão;Q180684;military conflict
+Q1437482;guerra de formatos;Q180684;military conflict
+Q21994376;guerra de independência;Q198;war
+Q21994376;guerra de independência;Q180684;military conflict
+Q21994376;guerra de independência;Q350604;battle
+Q1006311;guerra de libertação nacional;Q198;war
+Q1006311;guerra de libertação nacional;Q180684;military conflict
+Q1006311;guerra de libertação nacional;Q350604;battle
+Q6653224;Guerra de litoral;Q180684;military conflict
+Q88222;guerra de túnel;Q180684;military conflict
+Q2454921;Guerra e armamento da Antiguidade;Q180684;military conflict
+Q71266556;guerra e conflitos armados;Q180684;military conflict
+Q2296073;Guerra econômica;Q180684;military conflict
+Q272826;guerra eletrónica;Q180684;military conflict
+Q4379451;Guerra em clima frio;Q180684;military conflict
+Q5376043;guerra endêmica;Q180684;military conflict
+Q1190578;Guerra espacial;Q180684;military conflict
+Q11682252;Guerra expedicionária;Q180684;military conflict
+Q4176199;guerra fria;Q180684;military conflict
+Q8683;Guerra Fria;Q180684;military conflict
+Q5953349;Guerra Híbrida;Q198;war
+Q5953349;Guerra Híbrida;Q180684;military conflict
+Q5953349;Guerra Híbrida;Q350604;battle
+Q131543987;Guerra híbrida russa;Q198;war
+Q131543987;Guerra híbrida russa;Q180684;military conflict
+Q131543987;Guerra híbrida russa;Q350604;battle
+Q568312;guerra mecanizada;Q180684;military conflict
+Q1348131;Guerra Moderna;Q198;war
+Q1348131;Guerra Moderna;Q180684;military conflict
+Q1348131;Guerra Moderna;Q350604;battle
+Q103495;guerra mundial;Q198;war
+Q103495;guerra mundial;Q180684;military conflict
+Q103495;guerra mundial;Q350604;battle
+Q655045;guerra na idade média;Q180684;military conflict
+Q2454605;Guerra na Pré-História;Q198;war
+Q2454605;Guerra na Pré-História;Q180684;military conflict
+Q2454605;Guerra na Pré-História;Q350604;battle
+Q1342628;guerra não convencional;Q198;war
+Q1342628;guerra não convencional;Q180684;military conflict
+Q1342628;guerra não convencional;Q350604;battle
+Q7883019;guerra não declarada;Q198;war
+Q7883019;guerra não declarada;Q180684;military conflict
+Q7883019;guerra não declarada;Q350604;battle
+Q876274;guerra naval;Q180684;military conflict
+Q201424;guerra nuclear;Q198;war
+Q201424;guerra nuclear;Q180684;military conflict
+Q201424;guerra nuclear;Q350604;battle
+Q17143698;guerra panfletária;Q180684;military conflict
+Q7225141;Guerra política;Q180684;military conflict
+Q864113;guerra por procuração;Q198;war
+Q864113;guerra por procuração;Q180684;military conflict
+Q864113;guerra por procuração;Q350604;battle
+Q969619;guerra preventiva;Q198;war
+Q969619;guerra preventiva;Q180684;military conflict
+Q969619;guerra preventiva;Q350604;battle
+Q163698;guerra psicológica;Q180684;military conflict
+Q483610;guerra química;Q180684;military conflict
+Q3512464;Guerra radiológica;Q180684;military conflict
+Q1827102;guerra religiosa;Q198;war
+Q1827102;guerra religiosa;Q180684;military conflict
+Q1827102;guerra religiosa;Q350604;battle
+Q13573188;guerra santa;Q198;war
+Q13573188;guerra santa;Q180684;military conflict
+Q13573188;guerra santa;Q350604;battle
+Q1119089;guerra submarina irrestrita;Q180684;military conflict
+Q11682254;Guerra suja;Q198;war
+Q11682254;Guerra suja;Q180684;military conflict
+Q11682254;Guerra suja;Q350604;battle
+Q1190472;Guerra terrestre;Q198;war
+Q1190472;Guerra terrestre;Q180684;military conflict
+Q1190472;Guerra terrestre;Q350604;battle
+Q154605;guerra total;Q198;war
+Q154605;guerra total;Q180684;military conflict
+Q154605;guerra total;Q350604;battle
+Q860251;guerra urbana;Q180684;military conflict
+Q2490042;Guerras de religião na Europa;Q198;war
+Q2490042;Guerras de religião na Europa;Q180684;military conflict
+Q2490042;Guerras de religião na Europa;Q350604;battle
+Q1758829;guerrilha urbana;Q180684;military conflict
+Q2889695;guillotine choke;Q180684;military conflict
+Q10379715;Gulesh;Q180684;military conflict
+Q4845233;hadaka jime;Q180684;military conflict
+Q15898861;Han Kuang Exercise;Q645883;civil conflict
+Q26885514;hard case;Q180684;military conflict
+Q2707048;hardcore wrestling;Q180684;military conflict
+Q123924201;Hardpoint;Q180684;military conflict
+Q260690;hare hunting;Q180684;military conflict
+Q63466832;health scandal;Q180684;military conflict
+Q11482422;Heike mokkanryō;Q180684;military conflict
+Q2089968;Hell in a Cell;Q180684;military conflict
+Q1545104;Henschel Hs 117;Q180684;military conflict
+Q5736070;Herbicidal warfare;Q180684;military conflict
+Q160598;heresia;Q180684;military conflict
+Q16050150;Herz-9;Q180684;military conflict
+Q64796768;High Court of Australia case;Q180684;military conflict
+Q48817613;high explosive nuclear effects testing;Q645883;civil conflict
+Q3780403;high-altitude nuclear explosion;Q645883;civil conflict
+Q5629656;high-to-medium air defence;Q180684;military conflict
+Q5759962;highway revolt;Q180684;military conflict
+Q21070764;highway revolts in the United States;Q180684;military conflict
+Q193814;Hinaiana;Q180684;military conflict
+Q491502;hip hop rivalry;Q180684;military conflict
+Q20988259;HISAR;Q180684;military conflict
+Q17112061;history of professional wrestling;Q180684;military conflict
+Q4040282;HN-5;Q180684;military conflict
+Q1474788;holmgang;Q180684;military conflict
+Q125545102;Holocaust by bullets;Q180684;military conflict
+Q12364047;Holocaust in Pärnu;Q180684;military conflict
+Q61927259;Holocaust train journey;Q180684;military conflict
+Q2763;Holocausto;Q180684;military conflict
+Q1867101;Holocausto na Bélgica;Q180684;military conflict
+Q2278817;Holocausto na Holanda;Q180684;military conflict
+Q1752358;Holocausto na Lituânia;Q180684;military conflict
+Q2587808;Holocausto na Polônia;Q180684;military conflict
+Q4499410;Holocausto na Ucrânia;Q180684;military conflict
+Q18486913;Hong Qi;Q180684;military conflict
+Q11926032;honor regalis;Q180684;military conflict
+Q1525203;honour;Q180684;military conflict
+Q61060197;hooliganism i Denmark;Q180684;military conflict
+Q219954;hooliganismo;Q180684;military conflict
+Q23036198;hostage-rescue mission;Q645883;civil conflict
+Q18487144;HQ-1;Q180684;military conflict
+Q17032968;HQ-10;Q180684;military conflict
+Q4040299;HQ-12;Q180684;military conflict
+Q4040298;HQ-16;Q180684;military conflict
+Q104036493;HQ-17;Q180684;military conflict
+Q18487157;HQ-2;Q180684;military conflict
+Q60850345;HQ-26;Q180684;military conflict
+Q2599549;HQ-61;Q180684;military conflict
+Q4040300;HQ-64;Q180684;military conflict
+Q1152032;HQ-7;Q180684;military conflict
+Q169261;HQ-9;Q180684;military conflict
+Q3752418;Huelga a la japonesa;Q180684;military conflict
+Q5936738;human-baiting;Q180684;military conflict
+Q124150517;human-carnivore conflict;Q180684;military conflict
+Q5936811;human–wildlife conflict;Q180684;military conflict
+Q5955729;hyena-baiting;Q180684;military conflict
+Q124042044;hypothetical war;Q198;war
+Q124042044;hypothetical war;Q180684;military conflict
+Q124042044;hypothetical war;Q350604;battle
+Q1151655;IDAS;Q180684;military conflict
+Q85850751;Identicide;Q180684;military conflict
+Q3442035;identity cleansing;Q180684;military conflict
+Q104741931;ideological rivalry;Q180684;military conflict
+Q10299828;Idjassú;Q180684;military conflict
+Q112073322;Igbo Traditional Wrestling (Mgba);Q180684;military conflict
+Q8191556;ikki;Q180684;military conflict
+Q8191556;ikki;Q645883;civil conflict
+Q8191556;ikki;Q350604;battle
+Q947533;Ikko-ikki;Q180684;military conflict
+Q947533;Ikko-ikki;Q645883;civil conflict
+Q947533;Ikko-ikki;Q350604;battle
+Q131917674;ilhad;Q180684;military conflict
+Q17122930;impasse;Q180684;military conflict
+Q41086;Impasse mexicano;Q180684;military conflict
+Q480498;impeachment;Q180684;military conflict
+Q3731370;Impeachment in Norway;Q180684;military conflict
+Q4340041;impeachment in Russia;Q180684;military conflict
+Q105320378;Impeachment in South Africa;Q180684;military conflict
+Q17003182;Impeachment in the Philippines;Q180684;military conflict
+Q55262446;Impeachment in Ukraine;Q180684;military conflict
+Q25422198;impeachment no Brasil;Q180684;military conflict
+Q3149408;Impeachment no Reino Unido;Q180684;military conflict
+Q1949797;impeachment nos Estados Unidos;Q180684;military conflict
+Q1456466;Imposição da paz;Q645883;civil conflict
+Q6014004;Inbuan wrestling;Q180684;military conflict
+Q11371169;incident;Q180684;military conflict
+Q705043;Incident of 1873;Q180684;military conflict
+Q133865830;India-Bangladesh border clashes;Q180684;military conflict
+Q133865830;India-Bangladesh border clashes;Q350604;battle
+Q864874;Indian Ballistic Missile Defence Programme;Q180684;military conflict
+Q104386849;Indigo;Q180684;military conflict
+Q3532270;indoor bullfighting;Q180684;military conflict
+Q628191;industrial action;Q180684;military conflict
+Q2290702;Industrial warfare;Q180684;military conflict
+Q91679040;infantry command;Q180684;military conflict
+Q63101742;infantry warfare;Q180684;military conflict
+Q18600568;Information Operations;Q180684;military conflict
+Q118575041;inquisitorial ＆ adversarial system;Q180684;military conflict
+Q25113091;Institutionalized Riot Systems;Q180684;military conflict
+Q1323212;insurgência;Q180684;military conflict
+Q1323212;insurgência;Q350604;battle
+Q2996100;intactivismo;Q180684;military conflict
+Q5974529;intelligence, surveillance, target acquisition, and reconnaissance;Q180684;military conflict
+Q331435;interdição aérea;Q180684;military conflict
+Q331435;interdição aérea;Q645883;civil conflict
+Q331435;interdição aérea;Q350604;battle
+Q6046081;interdiction;Q645883;civil conflict
+Q115364762;interest dispute;Q180684;military conflict
+Q15820262;intergroup conflict;Q180684;military conflict
+Q109311521;internal armed conflict;Q180684;military conflict
+Q109311521;internal armed conflict;Q350604;battle
+Q10860599;internal conflict;Q180684;military conflict
+Q11422542;international conflict;Q180684;military conflict
+Q118279225;international tensions;Q180684;military conflict
+Q9813868;interpersonal conflict;Q180684;military conflict
+Q2661982;interstellar war;Q198;war
+Q2661982;interstellar war;Q180684;military conflict
+Q2661982;interstellar war;Q350604;battle
+Q5919191;intervenção armada;Q180684;military conflict
+Q5919191;intervenção armada;Q645883;civil conflict
+Q5919191;intervenção armada;Q350604;battle
+Q16140900;intervenções militares de Cuba;Q180684;military conflict
+Q16140900;intervenções militares de Cuba;Q645883;civil conflict
+Q16140900;intervenções militares de Cuba;Q350604;battle
+Q1753200;Intifada;Q180684;military conflict
+Q1753200;Intifada;Q350604;battle
+Q15820347;intragroup conflict;Q180684;military conflict
+Q467011;invasão;Q180684;military conflict
+Q467011;invasão;Q645883;civil conflict
+Q467011;invasão;Q350604;battle
+Q2086638;invasions in Europe;Q180684;military conflict
+Q2086638;invasions in Europe;Q645883;civil conflict
+Q2086638;invasions in Europe;Q350604;battle
+Q6061147;invisible class empire;Q180684;military conflict
+Q6578437;Iran and state-sponsored terrorism;Q645883;civil conflict
+Q135287525;Iranian influence operations in the UK;Q198;war
+Q135287525;Iranian influence operations in the UK;Q180684;military conflict
+Q135287525;Iranian influence operations in the UK;Q350604;battle
+Q112855977;Işık;Q645883;civil conflict
+Q31070346;Israel e o terrorismo patrocinado pelo Estado;Q645883;civil conflict
+Q97451722;Israeli Central Elections Committee Chairperson decision;Q180684;military conflict
+Q98517089;Israeli criminal procedure;Q180684;military conflict
+Q97451302;Israeli district court decision;Q180684;military conflict
+Q97451648;Israeli magistrate court decision;Q180684;military conflict
+Q16987800;jackal coursing;Q180684;military conflict
+Q708992;Japanese history textbook controversies;Q180684;military conflict
+Q17051901;Japanese military operations other than war;Q645883;civil conflict
+Q110760892;Japanese naval bombardments of North America during World War II;Q180684;military conflict
+Q110760892;Japanese naval bombardments of North America during World War II;Q645883;civil conflict
+Q110760892;Japanese naval bombardments of North America during World War II;Q350604;battle
+Q1347944;Javelin;Q180684;military conflict
+Q15914667;Jehovah's Witnesses and the Trinity;Q180684;military conflict
+Q6190126;Jewish schisms;Q180684;military conflict
+Q133467573;Jiang Qiulian v. Liu Nuanxi (former Liu Xin);Q180684;military conflict
+Q11458054;jisha-honjo-ryō;Q180684;military conflict
+Q11458058;jisha-ryō;Q180684;military conflict
+Q3324182;Judaism and Mormonism;Q180684;military conflict
+Q85821037;judgment of the Constitutional Court of South Africa;Q180684;military conflict
+Q9283157;Juicio de residencia;Q180684;military conflict
+Q4116621;Julgamento do século;Q180684;military conflict
+Q120330450;July 2023 Tel Aviv attack;Q180684;military conflict
+Q1190467;jungle warfare;Q180684;military conflict
+Q3771751;Justiça política;Q180684;military conflict
+Q12581288;K-SAAM;Q180684;military conflict
+Q562998;K-SAM Pegasus;Q180684;military conflict
+Q3174923;Kale borroka;Q180684;military conflict
+Q4041963;KAN Little Joe;Q180684;military conflict
+Q11732882;KAN-1;Q180684;military conflict
+Q11625866;kani basami;Q180684;military conflict
+Q12814843;Kanly;Q180684;military conflict
+Q195986;Kansetsu waza;Q180684;military conflict
+Q11655959;Kantō gobunkoku;Q180684;military conflict
+Q11655961;Kantō goryō;Q180684;military conflict
+Q11656004;Kantō shinshi shoryō;Q180684;military conflict
+Q691366;KAPAP;Q180684;military conflict
+Q6368153;Karakucak;Q180684;military conflict
+Q11499675;katakiuchi;Q180684;military conflict
+Q196431;katame waza;Q180684;military conflict
+Q113510224;Kazakh Kuresi;Q180684;military conflict
+Q4207613;Kazakh wrestling;Q180684;military conflict
+Q108113361;Kene;Q180684;military conflict
+Q11455594;keryō;Q180684;military conflict
+Q3641667;Khmer traditional wrestling;Q180684;military conflict
+Q65195759;Khordad 15;Q180684;military conflict
+Q4357683;Khuresh;Q180684;military conflict
+Q117468354;Kidical Mass;Q180684;military conflict
+Q115899578;Killing of Hasan Hosnan;Q645883;civil conflict
+Q16568970;Kimura lock;Q180684;military conflict
+Q11739279;Kindermord;Q645883;civil conflict
+Q6130253;Kinetic Energy Interceptor;Q180684;military conflict
+Q122624860;King's Road style;Q180684;military conflict
+Q28130248;Kingdom of Jesus Christ;Q180684;military conflict
+Q12321889;Kinomutay;Q180684;military conflict
+Q3197286;Kipura;Q180684;military conflict
+Q12321894;kirib;Q180684;military conflict
+Q1924206;knife fight;Q180684;military conflict
+Q4236497;Kokh;Q180684;military conflict
+Q107294785;Koral;Q180684;military conflict
+Q12623876;Korean Air and Missile Defense;Q180684;military conflict
+Q6781874;Koshti;Q180684;military conflict
+Q1347107;Kriens RSC Missile;Q180684;military conflict
+Q114731387;Kryvyi Rih strikes (2022–present);Q180684;military conflict
+Q114731387;Kryvyi Rih strikes (2022–present);Q645883;civil conflict
+Q114731387;Kryvyi Rih strikes (2022–present);Q350604;battle
+Q42393128;KS-1 SAM;Q180684;military conflict
+Q11392019;kuge-ryō;Q180684;military conflict
+Q159879;Kulturkampf;Q180684;military conflict
+Q9683607;kuni-ikki;Q180684;military conflict
+Q9683607;kuni-ikki;Q645883;civil conflict
+Q9683607;kuni-ikki;Q350604;battle
+Q11621880;kurairichi;Q180684;military conflict
+Q936515;Kurash;Q180684;military conflict
+Q129742020;Kursk region in the Russo-Ukrainian War;Q180684;military conflict
+Q129742020;Kursk region in the Russo-Ukrainian War;Q350604;battle
+Q106610633;Kuwait and state-sponsored terrorism;Q645883;civil conflict
+Q19696961;Kyin;Q180684;military conflict
+Q11370241;Kyūshū campaign;Q180684;military conflict
+Q11370241;Kyūshū campaign;Q645883;civil conflict
+Q11370241;Kyūshū campaign;Q350604;battle
+Q22971925;L-SAM;Q180684;military conflict
+Q5782934;labor dispute;Q180684;military conflict
+Q1037755;labor unrest;Q180684;military conflict
+Q3937904;land claim;Q180684;military conflict
+Q6483832;land-use conflict;Q180684;military conflict
+Q2371837;language conflict;Q180684;military conflict
+Q9020347;larrikinism;Q180684;military conflict
+Q3817498;last stand;Q180684;military conflict
+Q3817498;last stand;Q350604;battle
+Q6498435;launch on warning;Q645883;civil conflict
+Q116176464;laundry workers' strike;Q180684;military conflict
+Q1554584;law of criminal procedure;Q180684;military conflict
+Q1056489;lawsuit against a supernatural being;Q180684;military conflict
+Q6505031;Lawsuits involving Dell Inc.;Q180684;military conflict
+Q96389593;Lawsuits involving Meta Platforms;Q180684;military conflict
+Q133154470;Lawsuits involving the Department of Government Efficiency;Q180684;military conflict
+Q125217043;Lawsuits involving TikTok;Q180684;military conflict
+Q16932409;legal case management;Q180684;military conflict
+Q6517480;legal debate;Q180684;military conflict
+Q6942426;Legal issues surrounding music sampling;Q180684;military conflict
+Q2698974;legal purge in Norway after World War II;Q180684;military conflict
+Q26913948;legendary battle;Q180684;military conflict
+Q26913948;legendary battle;Q178561;rebellion
+Q26913948;legendary battle;Q645883;civil conflict
+Q26913948;legendary battle;Q350604;battle
+Q1165564;Lekianoba;Q645883;civil conflict
+Q104518926;Lenovo controversies;Q180684;military conflict
+Q1518249;LFK NG;Q180684;military conflict
+Q29028238;LGBT protests against Donald Trump;Q180684;military conflict
+Q125506609;LGBT+ protest;Q180684;military conflict
+Q123857836;Libya and state-sponsored terrorism;Q645883;civil conflict
+Q62168047;light bombing;Q180684;military conflict
+Q62168047;light bombing;Q645883;civil conflict
+Q62168047;light bombing;Q350604;battle
+Q1452759;LIM-49A Spartan;Q180684;military conflict
+Q2247326;limited war;Q198;war
+Q2247326;limited war;Q180684;military conflict
+Q2247326;limited war;Q350604;battle
+Q154278;limpeza étnica;Q180684;military conflict
+Q13582471;Limpeza social;Q180684;military conflict
+Q6555360;lion-baiting;Q180684;military conflict
+Q124611982;list of terrorist incidents against Israelis in Israel and the Palestinian territories in 2024;Q180684;military conflict
+Q131618649;List of terrorist incidents against Israelis in Israel and the Palestinian territories in 2025;Q180684;military conflict
+Q13427130;Lista de Revoltas Camponesas;Q180684;military conflict
+Q13427130;Lista de Revoltas Camponesas;Q645883;civil conflict
+Q13427130;Lista de Revoltas Camponesas;Q350604;battle
+Q4291346;Local anti-aircraft defence;Q180684;military conflict
+Q112765848;local trial;Q180684;military conflict
+Q134303927;location in Spanish Civil War;Q180684;military conflict
+Q159377;locaute;Q180684;military conflict
+Q10319505;Lockin;Q180684;military conflict
+Q11653052;long-running court case;Q180684;military conflict
+Q106006806;lordship;Q180684;military conflict
+Q1126912;low altitude parachute extraction system;Q645883;civil conflict
+Q28669018;Luftfaust-A;Q180684;military conflict
+Q28669001;Luftfaust-B;Q180684;military conflict
+Q42486;luta;Q180684;military conflict
+Q838089;luta amadora;Q180684;military conflict
+Q2527950;Luta antissuperfície;Q180684;military conflict
+Q1066914;luta de cães;Q180684;military conflict
+Q1722922;Luta de camelo;Q180684;military conflict
+Q1744607;luta de classes;Q180684;military conflict
+Q6037238;Luta de inseto;Q180684;military conflict
+Q644638;Luta de Lancashire;Q180684;military conflict
+Q4923444;luta de rua;Q180684;military conflict
+Q389654;luta greco-romana;Q180684;military conflict
+Q1877811;Luta livre esportiva;Q180684;military conflict
+Q327223;luta livre olímpica;Q180684;military conflict
+Q10321058;Luta marajoara;Q180684;military conflict
+Q644522;Luta senegalesa;Q180684;military conflict
+Q327248;Luta tradicional;Q180684;military conflict
+Q6705952;Lutte Traditionnelle;Q180684;military conflict
+Q6460438;LY-60 / FD-60 / PL10;Q180684;military conflict
+Q88468342;M-1 Volna;Q180684;military conflict
+Q4123575;M-1 Volna;Q180684;military conflict
+Q11273512;M-SAM;Q180684;military conflict
+Q56279868;Mahoney v Ashton;Q180684;military conflict
+Q25512705;main battle;Q180684;military conflict
+Q25512705;main battle;Q178561;rebellion
+Q25512705;main battle;Q645883;civil conflict
+Q25512705;main battle;Q350604;battle
+Q125456254;mainland China court decision;Q180684;military conflict
+Q4273016;malicious prosecution;Q180684;military conflict
+Q6741161;Malla khra;Q180684;military conflict
+Q6744011;Malla-yuddha;Q180684;military conflict
+Q371006;Malón;Q645883;civil conflict
+Q1465101;Man-portable air-defense system;Q180684;military conflict
+Q17990729;managerial revolution;Q180684;military conflict
+Q3374310;mandatory sentencing;Q180684;military conflict
+Q1176224;manufactured controversy;Q180684;military conflict
+Q15631336;marcha de protesto;Q180684;military conflict
+Q125470976;Marcha do Orgulho Trans de São Paulo;Q180684;military conflict
+Q7833678;Marcha trans;Q180684;military conflict
+Q1894011;Marconi scandal;Q180684;military conflict
+Q24884785;Mard o-mard;Q180684;military conflict
+Q67912210;Marengo trial;Q180684;military conflict
+Q3515785;marine paratrooper jump;Q645883;civil conflict
+Q3746796;Marinha de águas marrons;Q180684;military conflict
+Q6765759;marital breakdown;Q180684;military conflict
+Q2492461;Maritime delimitation between Romania and Ukraine;Q180684;military conflict
+Q17049991;maritime interdiction;Q645883;civil conflict
+Q11558718;Maritime Security Action;Q645883;civil conflict
+Q374318;Maritime security operations;Q645883;civil conflict
+Q1415495;Markomannia incident;Q180684;military conflict
+Q133828508;mass protest;Q180684;military conflict
+Q11867144;mass resignation;Q180684;military conflict
+Q318702;Massa Crítica;Q180684;military conflict
+Q810406;Massacre da Basileia;Q180684;military conflict
+Q579179;Massacre de Halabja;Q180684;military conflict
+Q74435466;massive fare evasion;Q180684;military conflict
+Q578967;Masurca;Q180684;military conflict
+Q747376;match fixing;Q180684;military conflict
+Q16844746;match fixing in association football;Q180684;military conflict
+Q65119406;Match fixing in tennis;Q180684;military conflict
+Q23808565;match fixing related to gambling;Q180684;military conflict
+Q3828206;Matxinada;Q645883;civil conflict
+Q1362172;May Day in Kreuzberg;Q180684;military conflict
+Q116226652;meat industry strike;Q180684;military conflict
+Q1427900;meat scandal;Q180684;military conflict
+Q91680087;mechanized infantry command;Q180684;military conflict
+Q91198419;mechanized infantry warfare;Q180684;military conflict
+Q3119107;media warfare;Q180684;military conflict
+Q422886;Medidas ativas;Q180684;military conflict
+Q20479353;Medieval heretical movements;Q180684;military conflict
+Q135091735;MediSafe controversy;Q180684;military conflict
+Q814290;meeting engagement;Q180684;military conflict
+Q814290;meeting engagement;Q178561;rebellion
+Q814290;meeting engagement;Q645883;civil conflict
+Q814290;meeting engagement;Q350604;battle
+Q106432602;Mehrab;Q180684;military conflict
+Q1293039;mêlée;Q180684;military conflict
+Q2882967;Membros da Igreja de Deus Internacional;Q180684;military conflict
+Q30324955;Memetic warfare;Q180684;military conflict
+Q104865403;memory war;Q180684;military conflict
+Q112813327;mention in witch trial  in Scotland;Q180684;military conflict
+Q6820528;Mersad;Q180684;military conflict
+Q1430863;Metralhamento;Q180684;military conflict
+Q1430863;Metralhamento;Q645883;civil conflict
+Q1430863;Metralhamento;Q350604;battle
+Q122848031;Microsoft controversy;Q180684;military conflict
+Q2549531;migração de regresso;Q180684;military conflict
+Q2575688;militarization;Q180684;military conflict
+Q96393187;militarization of the internet;Q180684;military conflict
+Q11613845;military aircraft operation;Q645883;civil conflict
+Q135105539;Military attacks on nuclear facilities;Q645883;civil conflict
+Q105197913;military blow;Q645883;civil conflict
+Q25339878;military charge;Q180684;military conflict
+Q25339878;military charge;Q645883;civil conflict
+Q25339878;military charge;Q350604;battle
+Q131782363;military conflict;Q180684;military conflict
+Q41950781;military conflict;Q180684;military conflict
+Q41950781;military conflict;Q350604;battle
+Q131656428;military convoy;Q180684;military conflict
+Q131656428;military convoy;Q350604;battle
+Q25416338;military convoy series;Q180684;military conflict
+Q25416338;military convoy series;Q350604;battle
+Q5256317;military demonstration;Q645883;civil conflict
+Q11571100;military diversion;Q645883;civil conflict
+Q1384277;military expedition;Q180684;military conflict
+Q1384277;military expedition;Q645883;civil conflict
+Q1384277;military expedition;Q350604;battle
+Q112214020;military mutiny;Q180684;military conflict
+Q112214020;military mutiny;Q350604;battle
+Q2739113;military operations other than war;Q645883;civil conflict
+Q130975199;military operations other than war;Q645883;civil conflict
+Q16145053;military sabotage;Q180684;military conflict
+Q123822512;military satellite communications;Q180684;military conflict
+Q11657076;military scandal;Q180684;military conflict
+Q2508200;military simulation;Q645883;civil conflict
+Q6857862;military strike;Q180684;military conflict
+Q6857862;military strike;Q645883;civil conflict
+Q6857862;military strike;Q350604;battle
+Q12409220;Milkhemet Mitzvah;Q198;war
+Q12409220;Milkhemet Mitzvah;Q180684;military conflict
+Q12409220;Milkhemet Mitzvah;Q350604;battle
+Q3027784;MilSim;Q645883;civil conflict
+Q482925;MIM-14 Nike Hercules;Q180684;military conflict
+Q482414;MIM-23 Hawk;Q180684;military conflict
+Q130324670;MIM-23 Hawk Launcher;Q180684;military conflict
+Q689403;MIM-46 Mauler;Q180684;military conflict
+Q16126375;mine warfare;Q180684;military conflict
+Q6864043;mine-clearing line charge;Q180684;military conflict
+Q25416696;minelaying;Q645883;civil conflict
+Q853284;Mineriad;Q180684;military conflict
+Q130704709;miners' strike;Q180684;military conflict
+Q16821261;minesweeping;Q180684;military conflict
+Q5562337;Minor battles in The Lord of the Rings;Q180684;military conflict
+Q2903115;Misagh-1;Q180684;military conflict
+Q2903473;Misagh-2;Q180684;military conflict
+Q28713960;Misagh-3;Q180684;military conflict
+Q11631563;misbombing;Q180684;military conflict
+Q11631563;misbombing;Q645883;civil conflict
+Q11631563;misbombing;Q350604;battle
+Q756212;Mísseis SA-15 Gauntlet;Q180684;military conflict
+Q574594;míssil antibalístico;Q180684;military conflict
+Q1755193;Míssil Sea Dart;Q180684;military conflict
+Q466704;míssil superfície-ar;Q180684;military conflict
+Q119441857;Missile attack on Kryvyi Rih, 13 June 2023;Q180684;military conflict
+Q119441857;Missile attack on Kryvyi Rih, 13 June 2023;Q645883;civil conflict
+Q119441857;Missile attack on Kryvyi Rih, 13 June 2023;Q350604;battle
+Q124347434;missile blow to Ukraine;Q180684;military conflict
+Q124347434;missile blow to Ukraine;Q645883;civil conflict
+Q124347434;missile blow to Ukraine;Q350604;battle
+Q111034471;missile strike;Q180684;military conflict
+Q111034471;missile strike;Q645883;civil conflict
+Q111034471;missile strike;Q350604;battle
+Q11631566;mistaken arrest;Q180684;military conflict
+Q54225;Mistral;Q180684;military conflict
+Q98716897;Mixed emotions;Q180684;military conflict
+Q112765883;mixed trial;Q180684;military conflict
+Q56524590;Mokkar Boli Khela;Q180684;military conflict
+Q1207182;Mongolian wrestling;Q180684;military conflict
+Q65171;Monika Bergmann-Schmuderer;Q65171;world war
+Q6900693;monkey-baiting;Q180684;military conflict
+Q1844009;Monopsiquismo;Q180684;military conflict
+Q747802;Mórmon;Q180684;military conflict
+Q124030970;Mormon apologetics;Q180684;military conflict
+Q24946927;Mormon sexual abuse cases;Q180684;military conflict
+Q3850041;Mormon studies;Q180684;military conflict
+Q6912692;Mormonism and Freemasonry;Q180684;military conflict
+Q5909263;Mormonism in Russia;Q180684;military conflict
+Q30674637;Mormonism in the Pacific Northwest;Q180684;military conflict
+Q2235125;mortes em massa sob regimes comunistas;Q180684;military conflict
+Q511866;motim;Q180684;military conflict
+Q511866;motim;Q350604;battle
+Q7209603;Motim policial;Q180684;military conflict
+Q134086509;motion to compel disclosure;Q180684;military conflict
+Q62935524;motorized warfare;Q180684;military conflict
+Q1210930;mountain warfare;Q180684;military conflict
+Q10332881;Movimentos Emancipacionistas;Q645883;civil conflict
+Q12222393;Mowag Spy;Q180684;military conflict
+Q3147745;mud fighting;Q180684;military conflict
+Q1747884;mud wrestling;Q180684;military conflict
+Q4571027;Mukna;Q180684;military conflict
+Q65280870;music hoarding;Q180684;military conflict
+Q25051720;Mutual combat;Q180684;military conflict
+Q1749274;Naban;Q180684;military conflict
+Q172560;nage waza;Q180684;military conflict
+Q1703630;Nam tiến;Q180684;military conflict
+Q20986437;naming dispute;Q180684;military conflict
+Q6966097;Narodno rvanje;Q180684;military conflict
+Q18458312;national flag and anthem controversies in Japan;Q180684;military conflict
+Q102100590;NATO operation;Q645883;civil conflict
+Q27653727;naval bombing of a city;Q180684;military conflict
+Q27653727;naval bombing of a city;Q645883;civil conflict
+Q27653727;naval bombing of a city;Q350604;battle
+Q17772965;naval capture;Q180684;military conflict
+Q17772965;naval capture;Q178561;rebellion
+Q17772965;naval capture;Q645883;civil conflict
+Q17772965;naval capture;Q350604;battle
+Q6982006;naval gunfire support;Q180684;military conflict
+Q6982006;naval gunfire support;Q645883;civil conflict
+Q6982006;naval gunfire support;Q350604;battle
+Q133800469;naval mutiny;Q180684;military conflict
+Q133800469;naval mutiny;Q350604;battle
+Q6982012;naval offensive;Q180684;military conflict
+Q6982012;naval offensive;Q645883;civil conflict
+Q6982012;naval offensive;Q350604;battle
+Q113782315;naval operation;Q645883;civil conflict
+Q55624886;Nazi persecution of Jews during the 1936 Olympic Games;Q180684;military conflict
+Q113527644;neighborhood dispute;Q180684;military conflict
+Q1140666;network-centric warfare;Q180684;military conflict
+Q121470056;Nevada Supreme Court decision;Q180684;military conflict
+Q1437158;New Zealand foreshore and seabed controversy;Q180684;military conflict
+Q115599065;nice sailing;Q645883;civil conflict
+Q125364588;Nigeria Supreme Court decision;Q180684;military conflict
+Q15138428;night bombing;Q180684;military conflict
+Q15138428;night bombing;Q645883;civil conflict
+Q15138428;night bombing;Q350604;battle
+Q1962707;night combat;Q180684;military conflict
+Q1990116;Nike Ajax;Q180684;military conflict
+Q7034798;Nike J;Q180684;military conflict
+Q20203096;Nike-X;Q180684;military conflict
+Q2310318;Njinga;Q180684;military conflict
+Q65229975;NKPWA World Heavyweight Champions;Q180684;military conflict
+Q1093520;Nobel Prize controversies;Q180684;military conflict
+Q3735153;non-combatant evacuation operation;Q645883;civil conflict
+Q38704413;nontrinitarian;Q180684;military conflict
+Q118119509;Norwegian Supreme Court decision;Q180684;military conflict
+Q3345493;Novilhada;Q180684;military conflict
+Q700291;NRA Military Region;Q180684;military conflict
+Q700291;NRA Military Region;Q350604;battle
+Q3112909;Nuba fighting;Q180684;military conflict
+Q29828960;nuclear escalation;Q198;war
+Q29828960;nuclear escalation;Q180684;military conflict
+Q29828960;nuclear escalation;Q350604;battle
+Q757581;Nuclear Explosions for the National Economy;Q645883;civil conflict
+Q11409997;Nuclear plant-related lawsuits;Q180684;military conflict
+Q98391050;nuclear test series;Q645883;civil conflict
+Q28053962;nuclear tests in Algeria;Q645883;civil conflict
+Q134944302;nuclear weapons tests of the Soviet Union;Q645883;civil conflict
+Q78867551;Nude wrestling;Q180684;military conflict
+Q7068391;nudity in combat;Q180684;military conflict
+Q133766;O-Ie Sōdō;Q180684;military conflict
+Q2254537;occupation of apartments in the German Democratic Republic;Q180684;military conflict
+Q11620652;ochimusha-gari;Q180684;military conflict
+Q11620652;ochimusha-gari;Q178561;rebellion
+Q11620652;ochimusha-gari;Q645883;civil conflict
+Q11620652;ochimusha-gari;Q350604;battle
+Q44854;ocupação;Q180684;military conflict
+Q528892;Ocupação (protesto);Q180684;military conflict
+Q188686;ocupação estrangeira;Q645883;civil conflict
+Q106512266;Ocupações na Venezuela;Q180684;military conflict
+Q2001676;ofensiva militar;Q180684;military conflict
+Q2001676;ofensiva militar;Q645883;civil conflict
+Q2001676;ofensiva militar;Q350604;battle
+Q12186271;offensive war;Q198;war
+Q12186271;offensive war;Q180684;military conflict
+Q12186271;offensive war;Q350604;battle
+Q2946056;Oil boycott (embargo);Q180684;military conflict
+Q113868732;Old Belief;Q180684;military conflict
+Q45790;One Billion Rising;Q180684;military conflict
+Q420474;operação de bandeira falsa;Q645883;civil conflict
+Q646740;operação de desembarque;Q180684;military conflict
+Q646740;operação de desembarque;Q645883;civil conflict
+Q108316224;Operação Formosa;Q645883;civil conflict
+Q645883;operação militar;Q645883;civil conflict
+Q1078746;operação-padrão;Q180684;military conflict
+Q1060062;operações especiais;Q645883;civil conflict
+Q116924613;Operation Boot;Q180684;military conflict
+Q2059536;Operation Mersad;Q645883;civil conflict
+Q55138152;Operation Muskox;Q645883;civil conflict
+Q3354777;Operation Nanook;Q645883;civil conflict
+Q22947367;Operation Saegheh;Q180684;military conflict
+Q5254589;opposition to United States involvement in the Vietnam War;Q180684;military conflict
+Q116203577;optical industry strike;Q180684;military conflict
+Q112078203;Orange Nell;Q180684;military conflict
+Q2310419;organizational conflict;Q180684;military conflict
+Q24964493;organized horse fighting;Q180684;military conflict
+Q60791082;Origenist Crises;Q180684;military conflict
+Q11497732;ōryō;Q645883;civil conflict
+Q15618399;outsize cargo transport;Q645883;civil conflict
+Q1800677;overtime ban;Q180684;military conflict
+Q130217630;PAC-3 Missile Segment Enhancement;Q180684;military conflict
+Q7122778;Pacific blockade;Q645883;civil conflict
+Q30897656;Pahlavāni;Q180684;military conflict
+Q7125743;Pakistan and state sponsored terrorism;Q645883;civil conflict
+Q65149951;Palantin;Q180684;military conflict
+Q678011;Pále;Q180684;military conflict
+Q4330027;Palestinian rocket attacks on Israel;Q180684;military conflict
+Q4330027;Palestinian rocket attacks on Israel;Q645883;civil conflict
+Q4330027;Palestinian rocket attacks on Israel;Q350604;battle
+Q85875011;pamphlet raid;Q180684;military conflict
+Q85875011;pamphlet raid;Q645883;civil conflict
+Q85875011;pamphlet raid;Q350604;battle
+Q1025005;panelaço;Q180684;military conflict
+Q1424781;Pantsir-S1;Q180684;military conflict
+Q7131948;panty raid;Q180684;military conflict
+Q131394630;Paper genocide;Q180684;military conflict
+Q66108287;paratrooper drop;Q645883;civil conflict
+Q42374984;parliamentary expenses scandal;Q180684;military conflict
+Q106508963;party donations scandal;Q180684;military conflict
+Q3367750;Paseíllo;Q180684;military conflict
+Q113411195;Patriotism in the Russian Empire at the beginning of the First World War;Q180684;military conflict
+Q113411195;Patriotism in the Russian Empire at the beginning of the First World War;Q350604;battle
+Q7157511;peace camp;Q180684;military conflict
+Q2065755;peace support operation;Q645883;civil conflict
+Q4382347;peaceful nuclear explosion;Q645883;civil conflict
+Q20082270;peacekeeping mission;Q645883;civil conflict
+Q2404776;Pehlwani;Q180684;military conflict
+Q2466181;Pentecostais do Nome de Jesus;Q180684;military conflict
+Q247649;perception management;Q180684;military conflict
+Q2007759;Perfídia (militar);Q645883;civil conflict
+Q130459577;persecution of Assyrians;Q180684;military conflict
+Q112029888;persecution of Jews in the Nazi era;Q180684;military conflict
+Q84082210;Persecution of the Jews in Schleswig-Holstein;Q180684;military conflict
+Q48136;perseguição de Judeus;Q180684;military conflict
+Q8425767;petitioning in China;Q180684;military conflict
+Q2736450;petrodollar warfare;Q198;war
+Q2736450;petrodollar warfare;Q180684;military conflict
+Q2736450;petrodollar warfare;Q350604;battle
+Q913939;petty warfare;Q198;war
+Q913939;petty warfare;Q180684;military conflict
+Q913939;petty warfare;Q350604;battle
+Q7180913;phase;Q180684;military conflict
+Q5156789;Philippine revolts against Spain;Q180684;military conflict
+Q5156789;Philippine revolts against Spain;Q350604;battle
+Q7194742;pin;Q180684;military conflict
+Q721547;pin (wrestling profissional);Q180684;military conflict
+Q104639638;Piorun;Q180684;military conflict
+Q1480879;piquete de greve;Q180684;military conflict
+Q11632156;plotting rebellion;Q180684;military conflict
+Q11632156;plotting rebellion;Q350604;battle
+Q7206160;poaching;Q180684;military conflict
+Q177716;pogrom;Q180684;military conflict
+Q12174482;Pokémon battle;Q180684;military conflict
+Q27406;polémica;Q180684;military conflict
+Q7209607;police strike;Q180684;military conflict
+Q10528555;police-civilian conflicts;Q180684;military conflict
+Q1682379;Poliorcética;Q180684;military conflict
+Q1682379;Poliorcética;Q645883;civil conflict
+Q1682379;Poliorcética;Q350604;battle
+Q7210244;Political abuse of psychiatry in Russia;Q180684;military conflict
+Q108809873;political conflict;Q180684;military conflict
+Q19977634;political gridlock;Q180684;military conflict
+Q2101542;political iconoclasm;Q180684;military conflict
+Q126329412;political schism;Q180684;military conflict
+Q16480656;political status of Triệu Dynasty;Q180684;military conflict
+Q106818827;Popsy;Q180684;military conflict
+Q116292789;popular bullfighting festival;Q180684;military conflict
+Q1738401;postal war;Q180684;military conflict
+Q16969638;Potências neutras na Segunda Guerra Mundial;Q180684;military conflict
+Q134963816;power struggle;Q180684;military conflict
+Q28003555;Prayer protest;Q180684;military conflict
+Q9377327;preemptive war;Q198;war
+Q9377327;preemptive war;Q180684;military conflict
+Q9377327;preemptive war;Q350604;battle
+Q18536127;preliminary hearing;Q180684;military conflict
+Q76647964;preliminary ruling;Q180684;military conflict
+Q1759312;Preliminary ruling before the European Court of Justice;Q180684;military conflict
+Q11898537;Preparation fire;Q180684;military conflict
+Q11898537;Preparation fire;Q645883;civil conflict
+Q11898537;Preparation fire;Q350604;battle
+Q136338700;Primavera Asiática;Q180684;military conflict
+Q111953439;Princely rebellion;Q198;war
+Q111953439;Princely rebellion;Q180684;military conflict
+Q111953439;Princely rebellion;Q350604;battle
+Q7245793;prison strike;Q180684;military conflict
+Q30906782;privateering;Q180684;military conflict
+Q697327;processo cautelar;Q180684;military conflict
+Q2334719;processo judicial;Q180684;military conflict
+Q18288926;processo penale;Q180684;military conflict
+Q118496881;professional wrestling match type;Q180684;military conflict
+Q11316150;professional wrestling tag team match types;Q180684;military conflict
+Q111097809;professional wrestling throw;Q180684;military conflict
+Q116175863;professional wrestling trainer;Q180684;military conflict
+Q123587857;promissory coup;Q180684;military conflict
+Q57399871;promote a democratic referendum;Q180684;military conflict
+Q2112892;Pronunciamento;Q180684;military conflict
+Q1635930;Propaganda pelo ato;Q180684;military conflict
+Q7251589;protest camp;Q180684;military conflict
+Q98099118;protest emigration;Q180684;military conflict
+Q42685104;protest note;Q180684;military conflict
+Q273120;protesto;Q180684;military conflict
+Q7251595;Protesto artístico;Q180684;military conflict
+Q1679887;Protesto estudantil;Q180684;military conflict
+Q4115422;Protesto nu;Q180684;military conflict
+Q4115422;Protesto nu;Q350604;battle
+Q1147337;protesto sentado;Q180684;military conflict
+Q7251588;Protestos e dissidência na China;Q180684;military conflict
+Q30253388;Protestos na Rússia em 2017;Q180684;military conflict
+Q133458419;Protests against Elon Musk;Q180684;military conflict
+Q131850305;protests against the second presidency of Donald Trump;Q180684;military conflict
+Q20526846;protests of Croatian war veterans in 2014-2015;Q180684;military conflict
+Q124458867;protests related to the meeting of right wing extremists at Potsdam in 2023 in Berlin;Q180684;military conflict
+Q7252185;Protracted social conflict;Q180684;military conflict
+Q4231811;psychic conflict;Q180684;military conflict
+Q4120592;psychological operations;Q645883;civil conflict
+Q2177151;public action;Q180684;military conflict
+Q1761866;puroresu;Q180684;military conflict
+Q102327942;Q102327942;Q180684;military conflict
+Q10433153;Q10433153;Q180684;military conflict
+Q10437082;Q10437082;Q180684;military conflict
+Q10437082;Q10437082;Q350604;battle
+Q104536173;Q104536173;Q180684;military conflict
+Q10481251;Q10481251;Q180684;military conflict
+Q10501340;Q10501340;Q180684;military conflict
+Q10535390;Q10535390;Q180684;military conflict
+Q10579231;Q10579231;Q180684;military conflict
+Q10585844;Q10585844;Q180684;military conflict
+Q106560100;Q106560100;Q180684;military conflict
+Q106612811;Q106612811;Q180684;military conflict
+Q106816738;Q106816738;Q180684;military conflict
+Q106963495;Q106963495;Q180684;military conflict
+Q108134690;Q108134690;Q180684;military conflict
+Q108761356;Q108761356;Q645883;civil conflict
+Q108799197;Q108799197;Q180684;military conflict
+Q108921040;Q108921040;Q180684;military conflict
+Q109018958;Q109018958;Q180684;military conflict
+Q109312672;Q109312672;Q180684;military conflict
+Q109314645;Q109314645;Q180684;military conflict
+Q110521716;Q110521716;Q180684;military conflict
+Q111008574;Q111008574;Q180684;military conflict
+Q111210437;Q111210437;Q180684;military conflict
+Q111211318;Q111211318;Q180684;military conflict
+Q112660671;Q112660671;Q180684;military conflict
+Q11312547;Q11312547;Q180684;military conflict
+Q1131895;Q1131895;Q180684;military conflict
+Q113454288;Q113454288;Q180684;military conflict
+Q11407139;Q11407139;Q180684;military conflict
+Q11434254;Q11434254;Q180684;military conflict
+Q114673644;Q114673644;Q180684;military conflict
+Q11498662;Q11498662;Q180684;military conflict
+Q11498662;Q11498662;Q645883;civil conflict
+Q11498662;Q11498662;Q350604;battle
+Q116958156;Q116958156;Q180684;military conflict
+Q117196736;Q117196736;Q180684;military conflict
+Q11741362;Q11741362;Q180684;military conflict
+Q11790278;Q11790278;Q180684;military conflict
+Q11827307;Q11827307;Q180684;military conflict
+Q118588116;Q118588116;Q180684;military conflict
+Q118957122;Q118957122;Q180684;military conflict
+Q11900102;Q11900102;Q180684;military conflict
+Q12041579;Q12041579;Q180684;military conflict
+Q121084644;Q121084644;Q180684;military conflict
+Q121084644;Q121084644;Q645883;civil conflict
+Q121084644;Q121084644;Q350604;battle
+Q12195211;Q12195211;Q180684;military conflict
+Q12288035;Q12288035;Q180684;military conflict
+Q12289443;Q12289443;Q180684;military conflict
+Q122938397;Q122938397;Q180684;military conflict
+Q123149274;Q123149274;Q180684;military conflict
+Q123235767;Q123235767;Q180684;military conflict
+Q123476273;Q123476273;Q180684;military conflict
+Q123914751;Q123914751;Q180684;military conflict
+Q123975001;Q123975001;Q180684;military conflict
+Q124012559;Q124012559;Q180684;military conflict
+Q124023201;Q124023201;Q180684;military conflict
+Q12527811;Q12527811;Q180684;military conflict
+Q125384445;Q125384445;Q180684;military conflict
+Q12540139;Q12540139;Q180684;military conflict
+Q125471889;Q125471889;Q180684;military conflict
+Q125471901;Q125471901;Q180684;military conflict
+Q125471913;Q125471913;Q180684;military conflict
+Q125505401;Q125505401;Q180684;military conflict
+Q125505402;Q125505402;Q180684;military conflict
+Q12551662;Q12551662;Q180684;military conflict
+Q12551662;Q12551662;Q350604;battle
+Q125537868;Q125537868;Q180684;military conflict
+Q125537870;Q125537870;Q180684;military conflict
+Q125637007;Q125637007;Q645883;civil conflict
+Q125738559;Q125738559;Q180684;military conflict
+Q12593535;Q12593535;Q180684;military conflict
+Q125961950;Q125961950;Q645883;civil conflict
+Q126048147;Q126048147;Q180684;military conflict
+Q126112424;Q126112424;Q180684;military conflict
+Q126112709;Q126112709;Q180684;military conflict
+Q126939107;Q126939107;Q180684;military conflict
+Q127839240;Q127839240;Q180684;military conflict
+Q1288220;Q1288220;Q180684;military conflict
+Q129754761;Q129754761;Q180684;military conflict
+Q129754784;Q129754784;Q180684;military conflict
+Q129754880;Q129754880;Q180684;military conflict
+Q129820073;Q129820073;Q180684;military conflict
+Q129836725;Q129836725;Q180684;military conflict
+Q129836757;Q129836757;Q180684;military conflict
+Q129843444;Q129843444;Q180684;military conflict
+Q131141356;Q131141356;Q180684;military conflict
+Q131161328;Q131161328;Q180684;military conflict
+Q131381781;Q131381781;Q180684;military conflict
+Q13142674;Q13142674;Q180684;military conflict
+Q131440979;Q131440979;Q180684;military conflict
+Q131705244;Q131705244;Q180684;military conflict
+Q133274054;Q133274054;Q180684;military conflict
+Q133274076;Q133274076;Q180684;military conflict
+Q133274078;Q133274078;Q180684;military conflict
+Q133274079;Q133274079;Q180684;military conflict
+Q133274111;Q133274111;Q180684;military conflict
+Q133274112;Q133274112;Q180684;military conflict
+Q133274121;Q133274121;Q180684;military conflict
+Q133274123;Q133274123;Q180684;military conflict
+Q133274256;Q133274256;Q180684;military conflict
+Q133274258;Q133274258;Q180684;military conflict
+Q133274270;Q133274270;Q180684;military conflict
+Q133274390;Q133274390;Q180684;military conflict
+Q133274392;Q133274392;Q180684;military conflict
+Q133274420;Q133274420;Q180684;military conflict
+Q133274437;Q133274437;Q180684;military conflict
+Q133274438;Q133274438;Q180684;military conflict
+Q133274440;Q133274440;Q180684;military conflict
+Q133275438;Q133275438;Q180684;military conflict
+Q133275450;Q133275450;Q180684;military conflict
+Q133275458;Q133275458;Q180684;military conflict
+Q133275463;Q133275463;Q180684;military conflict
+Q133275530;Q133275530;Q180684;military conflict
+Q133275535;Q133275535;Q180684;military conflict
+Q133275546;Q133275546;Q180684;military conflict
+Q133275551;Q133275551;Q180684;military conflict
+Q133286368;Q133286368;Q180684;military conflict
+Q133286383;Q133286383;Q180684;military conflict
+Q133286387;Q133286387;Q180684;military conflict
+Q133286388;Q133286388;Q180684;military conflict
+Q133286393;Q133286393;Q180684;military conflict
+Q133286394;Q133286394;Q180684;military conflict
+Q133286395;Q133286395;Q180684;military conflict
+Q133286414;Q133286414;Q180684;military conflict
+Q133286417;Q133286417;Q180684;military conflict
+Q133286431;Q133286431;Q180684;military conflict
+Q133286432;Q133286432;Q180684;military conflict
+Q133286473;Q133286473;Q180684;military conflict
+Q133286474;Q133286474;Q180684;military conflict
+Q133286490;Q133286490;Q180684;military conflict
+Q133286561;Q133286561;Q180684;military conflict
+Q133286604;Q133286604;Q180684;military conflict
+Q133286609;Q133286609;Q180684;military conflict
+Q133286615;Q133286615;Q180684;military conflict
+Q133286618;Q133286618;Q180684;military conflict
+Q133286662;Q133286662;Q180684;military conflict
+Q133286663;Q133286663;Q180684;military conflict
+Q133286670;Q133286670;Q180684;military conflict
+Q133286673;Q133286673;Q180684;military conflict
+Q133286674;Q133286674;Q180684;military conflict
+Q133286675;Q133286675;Q180684;military conflict
+Q133286709;Q133286709;Q180684;military conflict
+Q133286731;Q133286731;Q180684;military conflict
+Q133286732;Q133286732;Q180684;military conflict
+Q133286734;Q133286734;Q180684;military conflict
+Q133286735;Q133286735;Q180684;military conflict
+Q133286751;Q133286751;Q180684;military conflict
+Q133286753;Q133286753;Q180684;military conflict
+Q133286756;Q133286756;Q180684;military conflict
+Q133286761;Q133286761;Q180684;military conflict
+Q133286762;Q133286762;Q180684;military conflict
+Q133286766;Q133286766;Q180684;military conflict
+Q133286768;Q133286768;Q180684;military conflict
+Q133286771;Q133286771;Q180684;military conflict
+Q133286775;Q133286775;Q180684;military conflict
+Q133286777;Q133286777;Q180684;military conflict
+Q133286778;Q133286778;Q180684;military conflict
+Q133286801;Q133286801;Q180684;military conflict
+Q133286806;Q133286806;Q180684;military conflict
+Q133286812;Q133286812;Q180684;military conflict
+Q133286815;Q133286815;Q180684;military conflict
+Q133286840;Q133286840;Q180684;military conflict
+Q133286841;Q133286841;Q180684;military conflict
+Q133286868;Q133286868;Q180684;military conflict
+Q133286883;Q133286883;Q180684;military conflict
+Q133286891;Q133286891;Q180684;military conflict
+Q133286898;Q133286898;Q180684;military conflict
+Q133286966;Q133286966;Q180684;military conflict
+Q133286967;Q133286967;Q180684;military conflict
+Q133286984;Q133286984;Q180684;military conflict
+Q133286992;Q133286992;Q180684;military conflict
+Q133287014;Q133287014;Q180684;military conflict
+Q133287015;Q133287015;Q180684;military conflict
+Q133287016;Q133287016;Q180684;military conflict
+Q133287019;Q133287019;Q180684;military conflict
+Q133287028;Q133287028;Q180684;military conflict
+Q133287030;Q133287030;Q180684;military conflict
+Q133287031;Q133287031;Q180684;military conflict
+Q133287038;Q133287038;Q180684;military conflict
+Q133287039;Q133287039;Q180684;military conflict
+Q133287078;Q133287078;Q180684;military conflict
+Q133287079;Q133287079;Q180684;military conflict
+Q133287080;Q133287080;Q180684;military conflict
+Q133287081;Q133287081;Q180684;military conflict
+Q133287116;Q133287116;Q180684;military conflict
+Q133287127;Q133287127;Q180684;military conflict
+Q133287128;Q133287128;Q180684;military conflict
+Q133287136;Q133287136;Q180684;military conflict
+Q133287138;Q133287138;Q180684;military conflict
+Q133287140;Q133287140;Q180684;military conflict
+Q133287148;Q133287148;Q180684;military conflict
+Q133287153;Q133287153;Q180684;military conflict
+Q133287154;Q133287154;Q180684;military conflict
+Q133287156;Q133287156;Q180684;military conflict
+Q133287159;Q133287159;Q180684;military conflict
+Q133287204;Q133287204;Q180684;military conflict
+Q133287214;Q133287214;Q180684;military conflict
+Q133287217;Q133287217;Q180684;military conflict
+Q133287734;Q133287734;Q180684;military conflict
+Q133287747;Q133287747;Q180684;military conflict
+Q133287764;Q133287764;Q180684;military conflict
+Q133287765;Q133287765;Q180684;military conflict
+Q133287786;Q133287786;Q180684;military conflict
+Q133287798;Q133287798;Q180684;military conflict
+Q133287804;Q133287804;Q180684;military conflict
+Q133287806;Q133287806;Q180684;military conflict
+Q133287809;Q133287809;Q180684;military conflict
+Q133287815;Q133287815;Q180684;military conflict
+Q133287862;Q133287862;Q180684;military conflict
+Q133287863;Q133287863;Q180684;military conflict
+Q133287864;Q133287864;Q180684;military conflict
+Q133460173;Q133460173;Q180684;military conflict
+Q133460174;Q133460174;Q180684;military conflict
+Q133460188;Q133460188;Q180684;military conflict
+Q133467472;Q133467472;Q180684;military conflict
+Q133467526;Q133467526;Q180684;military conflict
+Q133467683;Q133467683;Q180684;military conflict
+Q133467704;Q133467704;Q180684;military conflict
+Q133467706;Q133467706;Q180684;military conflict
+Q133467780;Q133467780;Q180684;military conflict
+Q133467798;Q133467798;Q180684;military conflict
+Q133478428;Q133478428;Q180684;military conflict
+Q133478464;Q133478464;Q180684;military conflict
+Q133503472;Q133503472;Q180684;military conflict
+Q133503478;Q133503478;Q180684;military conflict
+Q133503614;Q133503614;Q180684;military conflict
+Q133503616;Q133503616;Q180684;military conflict
+Q133503617;Q133503617;Q180684;military conflict
+Q133503620;Q133503620;Q180684;military conflict
+Q133810486;Q133810486;Q180684;military conflict
+Q133810488;Q133810488;Q180684;military conflict
+Q133812473;Q133812473;Q180684;military conflict
+Q133812474;Q133812474;Q180684;military conflict
+Q133812475;Q133812475;Q180684;military conflict
+Q133812482;Q133812482;Q180684;military conflict
+Q133812483;Q133812483;Q180684;military conflict
+Q133812484;Q133812484;Q180684;military conflict
+Q133812485;Q133812485;Q180684;military conflict
+Q133812491;Q133812491;Q180684;military conflict
+Q133812501;Q133812501;Q180684;military conflict
+Q133812506;Q133812506;Q180684;military conflict
+Q133812507;Q133812507;Q180684;military conflict
+Q133812508;Q133812508;Q180684;military conflict
+Q133812510;Q133812510;Q180684;military conflict
+Q133812511;Q133812511;Q180684;military conflict
+Q133812525;Q133812525;Q180684;military conflict
+Q133812527;Q133812527;Q180684;military conflict
+Q133812551;Q133812551;Q180684;military conflict
+Q133812591;Q133812591;Q180684;military conflict
+Q133812592;Q133812592;Q180684;military conflict
+Q133812595;Q133812595;Q180684;military conflict
+Q133812640;Q133812640;Q180684;military conflict
+Q133812655;Q133812655;Q180684;military conflict
+Q133812656;Q133812656;Q180684;military conflict
+Q133812659;Q133812659;Q180684;military conflict
+Q133812660;Q133812660;Q180684;military conflict
+Q133812752;Q133812752;Q180684;military conflict
+Q133812755;Q133812755;Q180684;military conflict
+Q133812757;Q133812757;Q180684;military conflict
+Q133812761;Q133812761;Q180684;military conflict
+Q133812778;Q133812778;Q180684;military conflict
+Q133812840;Q133812840;Q180684;military conflict
+Q133812841;Q133812841;Q180684;military conflict
+Q133812862;Q133812862;Q180684;military conflict
+Q133812892;Q133812892;Q180684;military conflict
+Q133812951;Q133812951;Q180684;military conflict
+Q133812957;Q133812957;Q180684;military conflict
+Q133812986;Q133812986;Q180684;military conflict
+Q133812987;Q133812987;Q180684;military conflict
+Q133813016;Q133813016;Q180684;military conflict
+Q133813027;Q133813027;Q180684;military conflict
+Q133813029;Q133813029;Q180684;military conflict
+Q133813030;Q133813030;Q180684;military conflict
+Q133813031;Q133813031;Q180684;military conflict
+Q133813034;Q133813034;Q180684;military conflict
+Q133813079;Q133813079;Q180684;military conflict
+Q133813080;Q133813080;Q180684;military conflict
+Q133813082;Q133813082;Q180684;military conflict
+Q133813084;Q133813084;Q180684;military conflict
+Q133813085;Q133813085;Q180684;military conflict
+Q133813159;Q133813159;Q180684;military conflict
+Q133813166;Q133813166;Q180684;military conflict
+Q133813169;Q133813169;Q180684;military conflict
+Q133813170;Q133813170;Q180684;military conflict
+Q133813655;Q133813655;Q180684;military conflict
+Q133814489;Q133814489;Q180684;military conflict
+Q133814493;Q133814493;Q180684;military conflict
+Q133814909;Q133814909;Q180684;military conflict
+Q133815130;Q133815130;Q180684;military conflict
+Q133815131;Q133815131;Q180684;military conflict
+Q133815135;Q133815135;Q180684;military conflict
+Q133815272;Q133815272;Q180684;military conflict
+Q133815304;Q133815304;Q180684;military conflict
+Q133815305;Q133815305;Q180684;military conflict
+Q133815329;Q133815329;Q180684;military conflict
+Q133815347;Q133815347;Q180684;military conflict
+Q133815355;Q133815355;Q180684;military conflict
+Q133815398;Q133815398;Q180684;military conflict
+Q133815450;Q133815450;Q180684;military conflict
+Q133815487;Q133815487;Q180684;military conflict
+Q133815525;Q133815525;Q180684;military conflict
+Q133815526;Q133815526;Q180684;military conflict
+Q133815528;Q133815528;Q180684;military conflict
+Q133815530;Q133815530;Q180684;military conflict
+Q133815636;Q133815636;Q180684;military conflict
+Q133815639;Q133815639;Q180684;military conflict
+Q133815640;Q133815640;Q180684;military conflict
+Q133815647;Q133815647;Q180684;military conflict
+Q133815712;Q133815712;Q180684;military conflict
+Q133815751;Q133815751;Q180684;military conflict
+Q133815804;Q133815804;Q180684;military conflict
+Q133815805;Q133815805;Q180684;military conflict
+Q133815806;Q133815806;Q180684;military conflict
+Q133815808;Q133815808;Q180684;military conflict
+Q133815810;Q133815810;Q180684;military conflict
+Q133815915;Q133815915;Q180684;military conflict
+Q133815918;Q133815918;Q180684;military conflict
+Q133815948;Q133815948;Q180684;military conflict
+Q133816038;Q133816038;Q180684;military conflict
+Q133816044;Q133816044;Q180684;military conflict
+Q133816045;Q133816045;Q180684;military conflict
+Q133816064;Q133816064;Q180684;military conflict
+Q133816077;Q133816077;Q180684;military conflict
+Q133816181;Q133816181;Q180684;military conflict
+Q133819479;Q133819479;Q180684;military conflict
+Q133819480;Q133819480;Q180684;military conflict
+Q133819481;Q133819481;Q180684;military conflict
+Q133819511;Q133819511;Q180684;military conflict
+Q133819521;Q133819521;Q180684;military conflict
+Q133819523;Q133819523;Q180684;military conflict
+Q133819524;Q133819524;Q180684;military conflict
+Q133819525;Q133819525;Q180684;military conflict
+Q133819527;Q133819527;Q180684;military conflict
+Q133819529;Q133819529;Q180684;military conflict
+Q133819530;Q133819530;Q180684;military conflict
+Q133819531;Q133819531;Q180684;military conflict
+Q133819533;Q133819533;Q180684;military conflict
+Q133819646;Q133819646;Q180684;military conflict
+Q133819718;Q133819718;Q180684;military conflict
+Q133819728;Q133819728;Q180684;military conflict
+Q133819778;Q133819778;Q180684;military conflict
+Q133819783;Q133819783;Q180684;military conflict
+Q133819786;Q133819786;Q180684;military conflict
+Q133819800;Q133819800;Q180684;military conflict
+Q133819805;Q133819805;Q180684;military conflict
+Q133820116;Q133820116;Q180684;military conflict
+Q133820117;Q133820117;Q180684;military conflict
+Q133820121;Q133820121;Q180684;military conflict
+Q133820122;Q133820122;Q180684;military conflict
+Q133820123;Q133820123;Q180684;military conflict
+Q133820256;Q133820256;Q180684;military conflict
+Q133820272;Q133820272;Q180684;military conflict
+Q133820322;Q133820322;Q180684;military conflict
+Q133820328;Q133820328;Q180684;military conflict
+Q133820331;Q133820331;Q180684;military conflict
+Q133820334;Q133820334;Q180684;military conflict
+Q133824708;Q133824708;Q180684;military conflict
+Q133824709;Q133824709;Q180684;military conflict
+Q133824716;Q133824716;Q180684;military conflict
+Q133824727;Q133824727;Q180684;military conflict
+Q133824790;Q133824790;Q180684;military conflict
+Q133824795;Q133824795;Q180684;military conflict
+Q133824872;Q133824872;Q180684;military conflict
+Q133825051;Q133825051;Q180684;military conflict
+Q133825052;Q133825052;Q180684;military conflict
+Q133828318;Q133828318;Q180684;military conflict
+Q133829250;Q133829250;Q180684;military conflict
+Q133829259;Q133829259;Q180684;military conflict
+Q133829307;Q133829307;Q180684;military conflict
+Q133829318;Q133829318;Q180684;military conflict
+Q133830554;Q133830554;Q180684;military conflict
+Q133830766;Q133830766;Q180684;military conflict
+Q133830855;Q133830855;Q180684;military conflict
+Q133830868;Q133830868;Q180684;military conflict
+Q133859305;Q133859305;Q180684;military conflict
+Q134454990;Q134454990;Q180684;military conflict
+Q134454990;Q134454990;Q350604;battle
+Q1348047;Q1348047;Q180684;military conflict
+Q1349831;Q1349831;Q180684;military conflict
+Q135400588;Q135400588;Q180684;military conflict
+Q135400803;Q135400803;Q180684;military conflict
+Q135400900;Q135400900;Q180684;military conflict
+Q135415154;Q135415154;Q180684;military conflict
+Q136358851;Q136358851;Q180684;military conflict
+Q1409414;Q1409414;Q180684;military conflict
+Q14806537;Q14806537;Q180684;military conflict
+Q15849377;Q15849377;Q180684;military conflict
+Q15908416;Q15908416;Q180684;military conflict
+Q15919006;Q15919006;Q180684;military conflict
+Q16034281;Q16034281;Q180684;military conflict
+Q16553259;Q16553259;Q180684;military conflict
+Q1664663;Q1664663;Q180684;military conflict
+Q16713422;Q16713422;Q180684;military conflict
+Q16714335;Q16714335;Q180684;military conflict
+Q16714337;Q16714337;Q180684;military conflict
+Q16714340;Q16714340;Q180684;military conflict
+Q16714342;Q16714342;Q180684;military conflict
+Q16714344;Q16714344;Q180684;military conflict
+Q16714348;Q16714348;Q180684;military conflict
+Q16714350;Q16714350;Q180684;military conflict
+Q16714352;Q16714352;Q180684;military conflict
+Q16714354;Q16714354;Q180684;military conflict
+Q16714356;Q16714356;Q180684;military conflict
+Q1726409;Q1726409;Q180684;military conflict
+Q17494967;Q17494967;Q180684;military conflict
+Q1797316;Q1797316;Q180684;military conflict
+Q18279614;Q18279614;Q180684;military conflict
+Q18545643;Q18545643;Q180684;military conflict
+Q1863747;Q1863747;Q180684;military conflict
+Q19692664;Q19692664;Q180684;military conflict
+Q19692666;Q19692666;Q180684;military conflict
+Q19692667;Q19692667;Q180684;military conflict
+Q19724875;Q19724875;Q645883;civil conflict
+Q19772490;Q19772490;Q180684;military conflict
+Q19772491;Q19772491;Q180684;military conflict
+Q19772492;Q19772492;Q180684;military conflict
+Q19850449;Q19850449;Q180684;military conflict
+Q20064845;Q20064845;Q180684;military conflict
+Q2029384;Q2029384;Q180684;military conflict
+Q2047421;Q2047421;Q180684;military conflict
+Q20735954;Q20735954;Q180684;military conflict
+Q2116757;Q2116757;Q180684;military conflict
+Q2116757;Q2116757;Q350604;battle
+Q21392779;Q21392779;Q180684;military conflict
+Q21392790;Q21392790;Q180684;military conflict
+Q2144800;Q2144800;Q180684;military conflict
+Q2168332;Q2168332;Q180684;military conflict
+Q21843452;Q21843452;Q180684;military conflict
+Q2276414;Q2276414;Q180684;military conflict
+Q2292353;Q2292353;Q180684;military conflict
+Q2324008;Q2324008;Q180684;military conflict
+Q2332799;Q2332799;Q180684;military conflict
+Q2352868;Q2352868;Q180684;military conflict
+Q2355310;Q2355310;Q180684;military conflict
+Q2355716;Q2355716;Q180684;military conflict
+Q2355716;Q2355716;Q350604;battle
+Q23642660;Q23642660;Q180684;military conflict
+Q23658042;Q23658042;Q180684;military conflict
+Q2392404;Q2392404;Q180684;military conflict
+Q24934929;Q24934929;Q180684;military conflict
+Q2514015;Q2514015;Q180684;military conflict
+Q2549600;Q2549600;Q180684;military conflict
+Q2732241;Q2732241;Q180684;military conflict
+Q27889468;Q27889468;Q180684;military conflict
+Q2823674;Q2823674;Q180684;military conflict
+Q2839588;Q2839588;Q180684;military conflict
+Q2865639;Q2865639;Q180684;military conflict
+Q28666573;Q28666573;Q180684;military conflict
+Q28667722;Q28667722;Q180684;military conflict
+Q28667788;Q28667788;Q180684;military conflict
+Q2877903;Q2877903;Q180684;military conflict
+Q2997934;Q2997934;Q180684;military conflict
+Q2997940;Q2997940;Q180684;military conflict
+Q30888406;Q30888406;Q180684;military conflict
+Q30888613;Q30888613;Q180684;military conflict
+Q30889028;Q30889028;Q180684;military conflict
+Q30889342;Q30889342;Q180684;military conflict
+Q30891623;Q30891623;Q180684;military conflict
+Q30928406;Q30928406;Q180684;military conflict
+Q31896965;Q31896965;Q180684;military conflict
+Q32028215;Q32028215;Q180684;military conflict
+Q3215231;Q3215231;Q180684;military conflict
+Q3228875;Q3228875;Q180684;military conflict
+Q32362634;Q32362634;Q180684;military conflict
+Q3296012;Q3296012;Q180684;military conflict
+Q3317404;Q3317404;Q180684;military conflict
+Q3420130;Q3420130;Q180684;military conflict
+Q3457824;Q3457824;Q180684;military conflict
+Q4137731;Q4137731;Q180684;military conflict
+Q4137733;Q4137733;Q180684;military conflict
+Q4137734;Q4137734;Q180684;military conflict
+Q4137736;Q4137736;Q180684;military conflict
+Q4137739;Q4137739;Q180684;military conflict
+Q4137741;Q4137741;Q180684;military conflict
+Q4137744;Q4137744;Q180684;military conflict
+Q4137745;Q4137745;Q180684;military conflict
+Q4137747;Q4137747;Q180684;military conflict
+Q4137756;Q4137756;Q180684;military conflict
+Q4137759;Q4137759;Q180684;military conflict
+Q4137760;Q4137760;Q180684;military conflict
+Q4137763;Q4137763;Q180684;military conflict
+Q4137765;Q4137765;Q180684;military conflict
+Q4137772;Q4137772;Q180684;military conflict
+Q4137775;Q4137775;Q180684;military conflict
+Q4197896;Q4197896;Q180684;military conflict
+Q4311061;Q4311061;Q180684;military conflict
+Q4311061;Q4311061;Q645883;civil conflict
+Q4311061;Q4311061;Q350604;battle
+Q4476549;Q4476549;Q180684;military conflict
+Q48944981;Q48944981;Q180684;military conflict
+Q48947201;Q48947201;Q180684;military conflict
+Q5493480;Q5493480;Q180684;military conflict
+Q55659753;Q55659753;Q180684;military conflict
+Q55659754;Q55659754;Q180684;military conflict
+Q55659755;Q55659755;Q180684;military conflict
+Q56315594;Q56315594;Q180684;military conflict
+Q56349462;Q56349462;Q180684;military conflict
+Q56398985;Q56398985;Q180684;military conflict
+Q5651642;Q5651642;Q180684;military conflict
+Q5730419;Q5730419;Q180684;military conflict
+Q60029764;Q60029764;Q180684;military conflict
+Q60826226;Q60826226;Q180684;military conflict
+Q6149939;Q6149939;Q180684;military conflict
+Q62020230;Q62020230;Q180684;military conflict
+Q63974624;Q63974624;Q180684;military conflict
+Q64438516;Q64438516;Q180684;military conflict
+Q65164730;Q65164730;Q180684;military conflict
+Q65165610;Q65165610;Q180684;military conflict
+Q65243848;Q65243848;Q180684;military conflict
+Q65267555;Q65267555;Q180684;military conflict
+Q66363230;Q66363230;Q180684;military conflict
+Q66363230;Q66363230;Q645883;civil conflict
+Q66363230;Q66363230;Q350604;battle
+Q759797;Q759797;Q180684;military conflict
+Q759798;Q759798;Q180684;military conflict
+Q76160314;Q76160314;Q180684;military conflict
+Q81376620;Q81376620;Q180684;military conflict
+Q81376626;Q81376626;Q180684;military conflict
+Q81376675;Q81376675;Q180684;military conflict
+Q81376685;Q81376685;Q180684;military conflict
+Q81376693;Q81376693;Q180684;military conflict
+Q85305773;Q85305773;Q180684;military conflict
+Q86681411;Q86681411;Q180684;military conflict
+Q86726484;Q86726484;Q180684;military conflict
+Q885211;Q885211;Q645883;civil conflict
+Q89822180;Q89822180;Q180684;military conflict
+Q9139064;Q9139064;Q180684;military conflict
+Q97006937;Q97006937;Q180684;military conflict
+Q97007122;Q97007122;Q180684;military conflict
+Q97007449;Q97007449;Q180684;military conflict
+Q97178039;Q97178039;Q180684;military conflict
+Q97960925;Q97960925;Q180684;military conflict
+Q97999411;Q97999411;Q180684;military conflict
+Q98085342;Q98085342;Q180684;military conflict
+Q124697151;Qaem;Q180684;military conflict
+Q121926321;Qaem;Q180684;military conflict
+Q22949271;Qatar and state-sponsored terrorism;Q645883;civil conflict
+Q48731975;QRSAM;Q180684;military conflict
+Q1859176;quail fighting;Q180684;military conflict
+Q2357965;quarrel;Q180684;military conflict
+Q7311306;Questão religiosa;Q180684;military conflict
+Q7265620;QW-1 Vanguard;Q180684;military conflict
+Q753803;QW-2;Q180684;military conflict
+Q15965742;QW-3;Q180684;military conflict
+Q82827;R-25 Vulkan;Q180684;military conflict
+Q752536;R-73;Q180684;military conflict
+Q7278372;Raad;Q180684;military conflict
+Q6878284;Radar lock-on;Q180684;military conflict
+Q6878284;Radar lock-on;Q645883;civil conflict
+Q6878284;Radar lock-on;Q350604;battle
+Q476807;raide;Q645883;civil conflict
+Q68157611;rally;Q180684;military conflict
+Q7292715;Range war;Q180684;military conflict
+Q7292715;Range war;Q350604;battle
+Q942769;rat-baiting;Q180684;military conflict
+Q89815516;Rattening;Q180684;military conflict
+Q494497;razia;Q645883;civil conflict
+Q6130595;razia;Q645883;civil conflict
+Q1849777;RBS 23 BAMSE;Q180684;military conflict
+Q1346290;RBS 70;Q180684;military conflict
+Q1788694;rear;Q180684;military conflict
+Q1788694;rear;Q350604;battle
+Q124734;rebelião;Q180684;military conflict
+Q124734;rebelião;Q350604;battle
+Q2254427;rebelião das máquinas;Q180684;military conflict
+Q2254427;rebelião das máquinas;Q350604;battle
+Q1155622;rebelião de escravos;Q180684;military conflict
+Q1155622;rebelião de escravos;Q350604;battle
+Q2920604;rebelião prisional;Q180684;military conflict
+Q15112333;rebeliões do período regencial brasileiro;Q180684;military conflict
+Q15112333;rebeliões do período regencial brasileiro;Q350604;battle
+Q264352;reconnaissance in force;Q180684;military conflict
+Q264352;reconnaissance in force;Q645883;civil conflict
+Q264352;reconnaissance in force;Q350604;battle
+Q79791;Reconquista;Q180684;military conflict
+Q79791;Reconquista;Q645883;civil conflict
+Q79791;Reconquista;Q350604;battle
+Q3001431;Recortes;Q180684;military conflict
+Q7307130;reference question;Q180684;military conflict
+Q783953;Reivindicações territoriais da Antártida;Q180684;military conflict
+Q3023186;Reivindicações territoriais soviéticas contra a Turquia;Q180684;military conflict
+Q124684292;relationship breakdown;Q180684;military conflict
+Q97243058;relationship conflict;Q180684;military conflict
+Q130544135;release of heifers;Q180684;military conflict
+Q7311339;religious cleansing;Q180684;military conflict
+Q7311342;religious controversy;Q180684;military conflict
+Q86228393;religious question (Europe);Q180684;military conflict
+Q5794065;Religious question during the Second Spanish Republic;Q180684;military conflict
+Q125730744;Religious relations in Israel;Q180684;military conflict
+Q7313519;rent strike;Q180684;military conflict
+Q8561702;repartiment;Q645883;civil conflict
+Q17400461;reply in the Diet;Q180684;military conflict
+Q18236783;reputation and controversies of Hong Kong Police;Q180684;military conflict
+Q84400137;resident action;Q180684;military conflict
+Q1937612;resistência fiscal;Q180684;military conflict
+Q111660983;resource war;Q198;war
+Q111660983;resource war;Q180684;military conflict
+Q111660983;resource war;Q350604;battle
+Q1785729;Restoration Church of Jesus Christ of Latter Day Saints;Q180684;military conflict
+Q1760704;retirada;Q645883;civil conflict
+Q5441540;Retirada fingida;Q645883;civil conflict
+Q7317803;Revelation in Mormonism;Q180684;military conflict
+Q102076559;reverse strike;Q180684;military conflict
+Q11410671;revocation suit;Q180684;military conflict
+Q6107280;revolt;Q645883;civil conflict
+Q13427116;revolta camponesa;Q180684;military conflict
+Q13427116;revolta camponesa;Q645883;civil conflict
+Q13427116;revolta camponesa;Q350604;battle
+Q6103609;revolts during the Turkish War of Independence;Q645883;civil conflict
+Q10931;revolução;Q180684;military conflict
+Q751967;Revolução burguesa;Q180684;military conflict
+Q2415843;revolução comunista;Q180684;military conflict
+Q874579;revolução mundial;Q180684;military conflict
+Q3827292;revolução não violenta;Q180684;military conflict
+Q875948;revolução permanente;Q180684;military conflict
+Q29502;revolução proletária;Q180684;military conflict
+Q2279967;revolução social;Q180684;military conflict
+Q5959004;Revolução tecnológica;Q180684;military conflict
+Q3699;Revoluções de 1848 nos Estados alemães;Q180684;military conflict
+Q1400365;Revoluções de 1848 nos estados italianos;Q645883;civil conflict
+Q5555532;revolutionary general strike;Q180684;military conflict
+Q3119121;revolutionary war;Q198;war
+Q3119121;revolutionary war;Q180684;military conflict
+Q3119121;revolutionary war;Q350604;battle
+Q11604427;rice riot;Q180684;military conflict
+Q255043;Rigorosum;Q180684;military conflict
+Q7276786;RIM-101;Q180684;military conflict
+Q7276789;RIM-113;Q180684;military conflict
+Q1060737;RIM-116 Rolling Airframe Missile;Q180684;military conflict
+Q900937;RIM-161 Standard Missile 3;Q180684;military conflict
+Q1073199;RIM-162 ESSM;Q180684;military conflict
+Q1051738;RIM-174 Standard ERAM;Q180684;military conflict
+Q1190906;RIM-2 Terrier;Q180684;military conflict
+Q44402;RIM-24 Tartar;Q180684;military conflict
+Q1082702;RIM-50 Typhon;Q180684;military conflict
+Q1054228;RIM-66 Standard MR;Q180684;military conflict
+Q1136147;RIM-67 Standard ER;Q180684;military conflict
+Q602715;RIM-7 Sea Sparrow;Q180684;military conflict
+Q741489;RIM-8 Talos;Q180684;military conflict
+Q3928291;RIM-85;Q180684;military conflict
+Q633954;RIMPAC;Q645883;civil conflict
+Q38482;Rinha;Q180684;military conflict
+Q319771;rinha de galo;Q180684;military conflict
+Q7335248;Rio Grande border dispute;Q180684;military conflict
+Q3319892;riots and uprisings in Amsterdam;Q180684;military conflict
+Q3319892;riots and uprisings in Amsterdam;Q350604;battle
+Q17166488;Ristynės;Q180684;military conflict
+Q2155583;riverine operations;Q180684;military conflict
+Q2541205;road blocking;Q180684;military conflict
+Q7356122;Rod Blagojevich controversies;Q180684;military conflict
+Q7357511;Rodéo;Q180684;military conflict
+Q705254;Roland;Q180684;military conflict
+Q943496;role conflict;Q180684;military conflict
+Q124684302;romantic relationship breakdown;Q180684;military conflict
+Q1675174;Romzug;Q180684;military conflict
+Q1675174;Romzug;Q645883;civil conflict
+Q1675174;Romzug;Q350604;battle
+Q55631960;Rook shooting;Q180684;military conflict
+Q29530429;roundup;Q645883;civil conflict
+Q7371358;rout;Q645883;civil conflict
+Q16980448;Rowbottom;Q180684;military conflict
+Q21644203;RS-25 Dal;Q180684;military conflict
+Q1758846;RSA Missile;Q180684;military conflict
+Q7277711;RSD 58;Q180684;military conflict
+Q3452808;Rugball;Q180684;military conflict
+Q2343450;Russian fist fighting;Q180684;military conflict
+Q113535918;Russian occupation of Kyiv Oblast;Q645883;civil conflict
+Q136212404;Russian sabotage operations in Europe;Q645883;civil conflict
+Q131407017;Russian withdrawal from Syria;Q645883;civil conflict
+Q28704246;Russian–Ukrainian church war;Q180684;military conflict
+Q312471;S-125 Neva/Pechora;Q180684;military conflict
+Q326673;S-200;Q180684;military conflict
+Q164648;S-25 Berkut;Q180684;military conflict
+Q1984243;S-300VM;Q180684;military conflict
+Q4112522;S-350E Vityaz 50R6;Q180684;military conflict
+Q24938354;S-375;Q180684;military conflict
+Q2502230;S-500;Q180684;military conflict
+Q163186;S-75 Dvina;Q180684;military conflict
+Q60831391;Sabbatarian Pentecostalists, Ukraine;Q180684;military conflict
+Q11429084;sakai sōron;Q180684;military conflict
+Q7388617;SAM-N-2 Lark;Q180684;military conflict
+Q1248258;sanção econômica;Q180684;military conflict
+Q3471715;Sanções contra a Coreia do Norte;Q180684;military conflict
+Q11396978;sanctions war;Q198;war
+Q11396978;sanctions war;Q180684;military conflict
+Q11396978;sanctions war;Q350604;battle
+Q15734469;Sayyad-1;Q180684;military conflict
+Q15712129;Sayyad-2;Q180684;military conflict
+Q30093169;Sayyad-3;Q180684;military conflict
+Q86663418;Sayyad-4;Q180684;military conflict
+Q115775705;Sayyad-4B;Q180684;military conflict
+Q126288065;schism from the Catholic Church;Q180684;military conflict
+Q126288051;schism in Buddhism;Q180684;military conflict
+Q3332105;schisms in early Christianity;Q180684;military conflict
+Q7432080;scholastic wrestling;Q180684;military conflict
+Q780417;school strike;Q180684;military conflict
+Q134553409;Schriever wargame;Q645883;civil conflict
+Q685078;Schwingen;Q180684;military conflict
+Q131426226;scienticide;Q198;war
+Q131426226;scienticide;Q180684;military conflict
+Q131426226;scienticide;Q350604;battle
+Q2996078;scientific controversy;Q180684;military conflict
+Q7433868;Scientology controversies;Q180684;military conflict
+Q2878361;Scottish Backhold;Q180684;military conflict
+Q2530348;Scouting controversy and conflict;Q180684;military conflict
+Q2089676;Sea Cat;Q180684;military conflict
+Q2461272;Sea Wolf;Q180684;military conflict
+Q106040085;seabed warfare;Q180684;military conflict
+Q685067;Seaslug;Q180684;military conflict
+Q4122585;second-generation warfare;Q180684;military conflict
+Q4122585;second-generation warfare;Q350604;battle
+Q133274264;Second-instance court cases in mainland China;Q180684;military conflict
+Q2352121;sectarismo;Q180684;military conflict
+Q1797871;Senior Guardian;Q180684;military conflict
+Q25053005;Sentinel program;Q180684;military conflict
+Q2273342;Serhildan;Q180684;military conflict
+Q2273342;Serhildan;Q350604;battle
+Q104212151;series of wars;Q198;war
+Q104212151;series of wars;Q180684;military conflict
+Q104212151;series of wars;Q350604;battle
+Q2197458;sex scandal;Q180684;military conflict
+Q5097924;sexual abuse by UN peacekeepers;Q180684;military conflict
+Q109314556;sexual abuse in sport;Q180684;military conflict
+Q7458704;Sexual abuse in St. John's archdiocese;Q180684;military conflict
+Q7458714;Sexual abuse scandal in Catholic archdiocese of Milwaukee;Q180684;military conflict
+Q65121085;sexual abuse scandal in Southern Baptist churches;Q180684;military conflict
+Q65555161;Shandong University buddy controversy;Q180684;military conflict
+Q7492431;Sheep Wars;Q180684;military conflict
+Q106889565;Shindenkai;Q180684;military conflict
+Q4191404;ship-launched anti-aircraft missile;Q180684;military conflict
+Q10931495;shizoku rebellion;Q180684;military conflict
+Q10931495;shizoku rebellion;Q350604;battle
+Q11496740;shomu sata;Q180684;military conflict
+Q7501875;short range air defence;Q180684;military conflict
+Q4277662;short victorious war;Q198;war
+Q4277662;short victorious war;Q180684;military conflict
+Q4277662;short victorious war;Q350604;battle
+Q11496813;shoryō;Q180684;military conflict
+Q110419686;show fight;Q180684;military conflict
+Q2280140;show of force;Q645883;civil conflict
+Q1230072;showdown;Q180684;military conflict
+Q280502;Shuai jiao;Q180684;military conflict
+Q11450111;shugo-ryō;Q180684;military conflict
+Q11521520;shuinchi and kokuinchi;Q180684;military conflict
+Q11368736;shukun oshikome;Q180684;military conflict
+Q12041935;siege in the Middle Ages;Q180684;military conflict
+Q12041935;siege in the Middle Ages;Q645883;civil conflict
+Q12041935;siege in the Middle Ages;Q350604;battle
+Q12041934;siege warfare in antiquity;Q180684;military conflict
+Q12041934;siege warfare in antiquity;Q645883;civil conflict
+Q12041934;siege warfare in antiquity;Q350604;battle
+Q3625537;Siegecraft in Ancient Greece;Q180684;military conflict
+Q3625537;Siegecraft in Ancient Greece;Q645883;civil conflict
+Q3625537;Siegecraft in Ancient Greece;Q350604;battle
+Q2255532;silent protest;Q180684;military conflict
+Q2238766;silent running;Q645883;civil conflict
+Q126453973;Silesian Uprisings participants;Q180684;military conflict
+Q126453973;Silesian Uprisings participants;Q350604;battle
+Q1046469;single combat;Q180684;military conflict
+Q16682549;Single-person picket;Q180684;military conflict
+Q2279234;sinking exercise;Q645883;civil conflict
+Q11498660;sinking in action;Q180684;military conflict
+Q11498660;sinking in action;Q645883;civil conflict
+Q11498660;sinking in action;Q350604;battle
+Q4173940;Sistema Unificado de Comunicação por Satélite;Q180684;military conflict
+Q14523556;sit-in;Q180684;military conflict
+Q3118398;sitdown strike;Q180684;military conflict
+Q909470;ski warfare;Q180684;military conflict
+Q4301459;Sky Bow;Q180684;military conflict
+Q691737;Skyguard System;Q180684;military conflict
+Q109654755;Skyranger 30;Q180684;military conflict
+Q7539194;slave raid;Q645883;civil conflict
+Q16889816;slow genocide;Q180684;military conflict
+Q31351;slowdown;Q180684;military conflict
+Q32360778;SM-1;Q180684;military conflict
+Q11464774;small claims action;Q180684;military conflict
+Q105425009;Social media censorship controversy;Q180684;military conflict
+Q12230891;social scandal;Q180684;military conflict
+Q126165959;social unrest;Q180684;military conflict
+Q7551432;Social unrest in Trinidad and Tobago;Q180684;military conflict
+Q131427213;Socio-environmental conflict due to “El Rabanal” real estate megaproject in Algarrobo, Valparaíso Region;Q180684;military conflict
+Q131720751;Socio-environmental conflict due to “El Torito” tailings dam at El Soldado Mine, Valparaíso Region;Q180684;military conflict
+Q118488481;Socio-environmental conflict due to “Las Vizcachitas” mining project in Putaendo, Valparaíso Region;Q180684;military conflict
+Q131470831;Socio-environmental conflict due to hydroelectric power station Alto Maipo, San José de Maipo, Región Metropolitana de Santiago;Q180684;military conflict
+Q131142088;socio-environmental conflict due to mega-mining in Andalgalá, Catamarca;Q180684;military conflict
+Q131142090;socio-environmental conflict due to mega-mining in Antofagasta de las Sierras, Catamarca;Q180684;military conflict
+Q131142091;socio-environmental conflict due to mega-mining in Esquel, Chubut;Q180684;military conflict
+Q131142089;socio-environmental conflict due to mega-mining in Fiambalá, Catamarca.;Q180684;military conflict
+Q119688239;Socio-environmental conflict due to sacrifice zone in Mejillones, Región of Antofagasta;Q180684;military conflict
+Q131426967;Socio-environmental conflict due to sacrifice zone in Tocopilla, Región of Antofagasta;Q180684;military conflict
+Q131427316;Socio-environmental conflict due to the “Maratué” real estate megaproject in Puchuncaví, Valparaíso Region;Q180684;military conflict
+Q131426835;Socio-environmental conflict due to Thermal power station Andino in Mejillones, Region of Antofagasta;Q180684;military conflict
+Q131350434;Socio-environmental conflict due to Thermal power station Angamos in Mejillones, Region of Antofagasta;Q180684;military conflict
+Q131426751;Socio-environmental conflict due to thermal power station Cochrane in Mejillones, Region of Antofagasta;Q180684;military conflict
+Q131470805;Socio-environmental conflict due to thermal power station Guacolda in Huasco, Region of Atacama;Q180684;military conflict
+Q131350402;Socio-environmental conflict due to Thermal power station Hornitos in Mejillones, Region of Antofagasta;Q180684;military conflict
+Q131349326;Socio-environmental conflict due to Thermal power station Pacífico in Punta Patillo, Region of Tarapacá;Q180684;military conflict
+Q131350339;Socio-environmental conflict due to Thermal power station Patache in Puerto Patache, Region of Tarapacá;Q180684;military conflict
+Q131470770;Socio-environmental conflict due to thermal power station Punta Alcalde in Huasco, Region of Atacama;Q180684;military conflict
+Q131470849;Socio-environmental conflict due to thermal power station, Constitución, Region of Maule;Q180684;military conflict
+Q118488370;Socio-environmental conflict due to urbanization in Dunas de Concón, Valparaíso Region;Q180684;military conflict
+Q131427383;Socio-environmental conflict due to urbanization in Los Molles, Valparaíso Region;Q180684;military conflict
+Q131303919;Socio-environmental conflict due to urbanization in Punta de Fraile, Valparaíso Region;Q180684;military conflict
+Q131720752;Socio-environmental conflict over mining exploration project in Parque Andino Juncal, Valparaiso Region;Q180684;military conflict
+Q131427890;Socio-environmental conflict over real estate projects in Paso Hondo, Valparaíso Region;Q180684;military conflict
+Q129093608;Socio-environmental conflict over real estate projects in Tunquén, Valparaíso Region;Q180684;military conflict
+Q130373896;Socio-environmental conflict over San Antonio external megaport, Valparaíso Region;Q180684;military conflict
+Q131427564;Socio-environmental conflict over social housing megaproject in Quebrada El Olivar, Valparaíso Region;Q180684;military conflict
+Q131427436;Socio-environmental conflict over the “Punta Pite” real estate project in Papudo, Valparaíso Region;Q180684;military conflict
+Q119688099;Socio-environmental conflicts in Chile;Q180684;military conflict
+Q7554388;Software wars;Q180684;military conflict
+Q11703975;Sokamuturra;Q180684;military conflict
+Q20045350;sōkoku-ikki;Q180684;military conflict
+Q20045350;sōkoku-ikki;Q645883;civil conflict
+Q20045350;sōkoku-ikki;Q350604;battle
+Q125107;solidarity action;Q180684;military conflict
+Q117863659;solved cold case;Q180684;military conflict
+Q4429478;Sosna-R;Q180684;military conflict
+Q17069171;South Korean nuclear scandal;Q180684;military conflict
+Q136305847;Southern Griffin;Q645883;civil conflict
+Q64044640;Soviet citizen movement;Q180684;military conflict
+Q106635994;Soviet public trials against foreign military perpetrators (1943—1949);Q180684;military conflict
+Q2306437;Spada;Q180684;military conflict
+Q12055541;Spanilé jízdy;Q645883;civil conflict
+Q2640883;Spanish-style bullfighting;Q180684;military conflict
+Q115755337;spelling dispute;Q180684;military conflict
+Q55137157;spinning bee;Q180684;military conflict
+Q7579940;sports riot;Q180684;military conflict
+Q2706803;Sprint;Q180684;military conflict
+Q1157008;Spyder;Q180684;military conflict
+Q106485879;Squatting in Cambodia;Q180684;military conflict
+Q106085603;Squatting in Chile;Q180684;military conflict
+Q110004630;Squatting in Croatia;Q180684;military conflict
+Q105925311;Squatting in Fiji;Q180684;military conflict
+Q106129858;Squatting in Guyana;Q180684;military conflict
+Q106209549;Squatting in Honduras;Q180684;military conflict
+Q106209475;Squatting in Iran;Q180684;military conflict
+Q106405978;Squatting in Pakistan;Q180684;military conflict
+Q117798899;Squatting in Romania;Q180684;military conflict
+Q105906676;Squatting in Serbia;Q180684;military conflict
+Q106245835;Squatting in Sudan;Q180684;military conflict
+Q106113509;Squatting in Suriname;Q180684;military conflict
+Q106485870;Squatting in Thailand;Q180684;military conflict
+Q2155825;squatting in the Netherlands;Q180684;military conflict
+Q106512281;Squatting in Tunisia;Q180684;military conflict
+Q105990703;Squatting in Vanuatu;Q180684;military conflict
+Q106001160;Squatting in Zimbabwe;Q180684;military conflict
+Q715774;Ssireum;Q180684;military conflict
+Q1888541;Starburst;Q180684;military conflict
+Q2302329;Starstreak;Q180684;military conflict
+Q1639256;stasis;Q198;war
+Q1639256;stasis;Q180684;military conflict
+Q1639256;stasis;Q350604;battle
+Q117389020;state in American Civil War;Q180684;military conflict
+Q3406090;state-sponsored terrorism;Q645883;civil conflict
+Q17107941;Stay away;Q180684;military conflict
+Q116146212;steel industry strike;Q180684;military conflict
+Q923844;Stenka;Q180684;military conflict
+Q19878453;sterilization of Native American women;Q180684;military conflict
+Q30895192;Stinger Alternate;Q180684;military conflict
+Q18657996;stopping the market;Q180684;military conflict
+Q55807387;Storms in the South;Q180684;military conflict
+Q7621825;strategic bombing during World War I;Q180684;military conflict
+Q7621825;strategic bombing during World War I;Q645883;civil conflict
+Q7621825;strategic bombing during World War I;Q350604;battle
+Q72850604;street blockade;Q180684;military conflict
+Q99959001;street name controversy;Q180684;military conflict
+Q115903339;street railroad strike;Q180684;military conflict
+Q7623077;Streetcar strikes in the United States;Q180684;military conflict
+Q160810;Strela 2;Q180684;military conflict
+Q89065286;strikes during the COVID-19 pandemic;Q180684;military conflict
+Q122624883;strong style;Q180684;military conflict
+Q7627882;student riot;Q180684;military conflict
+Q11612571;Subcritical experiment;Q645883;civil conflict
+Q1757301;submarine warfare;Q180684;military conflict
+Q196092;submission;Q180684;military conflict
+Q1999695;Submission wrestling;Q180684;military conflict
+Q196249;Submissões de wrestling profissional;Q180684;military conflict
+Q1060330;subversão;Q180684;military conflict
+Q15813155;succession controversy;Q180684;military conflict
+Q7633294;Sudan Air Campaign;Q180684;military conflict
+Q3502977;suerte;Q180684;military conflict
+Q133441842;Suicide cases in mainland China;Q180684;military conflict
+Q360632;suicide mission;Q645883;civil conflict
+Q59369;SummerSlam 2003;Q180684;military conflict
+Q2293072;Suplex;Q180684;military conflict
+Q1310978;suppression of enemy air defenses;Q180684;military conflict
+Q114079647;Supreme Court of Ghana decision;Q180684;military conflict
+Q96251253;Supreme Court of Israel decision;Q180684;military conflict
+Q125677284;Supreme court of Nigeria case;Q180684;military conflict
+Q3560882;surface warfare;Q180684;military conflict
+Q336710;surgical strike;Q180684;military conflict
+Q336710;surgical strike;Q645883;civil conflict
+Q336710;surgical strike;Q350604;battle
+Q117304574;Sushi terrorism;Q180684;military conflict
+Q56704157;swiss federal court decision;Q180684;military conflict
+Q4448844;T382;Q180684;military conflict
+Q22101363;Ta-zhi case;Q180684;military conflict
+Q60617;Tables, Ladders, and Chairs match;Q180684;military conflict
+Q3997846;tactical airlift;Q645883;civil conflict
+Q96407570;Taer 2;Q180684;military conflict
+Q636270;Taifun;Q180684;military conflict
+Q119586659;Taiwan Constitutional Court judgement;Q180684;military conflict
+Q123398707;Taiwan Constitutional Court ruling;Q180684;military conflict
+Q119586705;Taiwan Constitutional Court's Decisions;Q180684;military conflict
+Q28169595;Talaash;Q180684;military conflict
+Q135467957;tank battle;Q180684;military conflict
+Q135467957;tank battle;Q178561;rebellion
+Q135467957;tank battle;Q645883;civil conflict
+Q135467957;tank battle;Q350604;battle
+Q3981030;Taran;Q180684;military conflict
+Q20061441;tarracá;Q180684;military conflict
+Q6024855;tax riot;Q180684;military conflict
+Q11497058;te-waza;Q180684;military conflict
+Q116885608;teacher strike;Q180684;military conflict
+Q7691643;Team conflict;Q180684;military conflict
+Q718893;teatro de operações;Q180684;military conflict
+Q718893;teatro de operações;Q350604;battle
+Q649595;Tegumi;Q180684;military conflict
+Q7698940;temporal war;Q180684;military conflict
+Q112119704;Tencent controversies;Q180684;military conflict
+Q3518201;tenência;Q180684;military conflict
+Q1685411;tenryō;Q180684;military conflict
+Q17225815;tenshin;Q645883;civil conflict
+Q25906438;tentativa de golpe de Estado;Q180684;military conflict
+Q25906438;tentativa de golpe de Estado;Q350604;battle
+Q221382;Tentativa de golpe de Estado na União Soviética em 1991;Q180684;military conflict
+Q29933858;territorial claim;Q180684;military conflict
+Q1503926;territorial claims in the Arctic;Q180684;military conflict
+Q19705370;territorial dispute of Russia;Q180684;military conflict
+Q20982973;territorial disputes of Japan;Q180684;military conflict
+Q18409471;territorial disputes of Russia;Q180684;military conflict
+Q4456192;territorial disputes of the People's Republic of China;Q180684;military conflict
+Q118907918;territorial disputes of the Republic of China;Q180684;military conflict
+Q28710139;territorial expansion;Q180684;military conflict
+Q2342867;Terrorismo palestino;Q180684;military conflict
+Q124004907;Terrorist attacks against Israelis during the First Intifada;Q180684;military conflict
+Q110350343;terrorist attacks against Israelis in 2022;Q180684;military conflict
+Q116455963;terrorist attacks against Israelis in 2023;Q180684;military conflict
+Q210112;teste nuclear;Q645883;civil conflict
+Q11499348;textbook controversy;Q180684;military conflict
+Q116225248;textile industry strike;Q180684;military conflict
+Q793818;The Battles of Beruna;Q180684;military conflict
+Q125552320;The Church of Jesus Christ of Latter-day Saints theology;Q180684;military conflict
+Q4499387;The Holocaust in Austria;Q180684;military conflict
+Q2478315;The Holocaust in Belarus;Q180684;military conflict
+Q10293068;The Holocaust in Bohemia and Moravia;Q180684;military conflict
+Q85227623;The Holocaust in East Upper Silesia;Q180684;military conflict
+Q4499404;The Holocaust in France;Q180684;military conflict
+Q3188158;The Holocaust in Germany;Q180684;military conflict
+Q4499391;The Holocaust in Greece;Q180684;military conflict
+Q926080;the Holocaust in Hungary;Q180684;military conflict
+Q4499393;The Holocaust in Italy;Q180684;military conflict
+Q4499395;The Holocaust in Latvia;Q180684;military conflict
+Q4499394;The Holocaust in Luxembourg;Q180684;military conflict
+Q60745735;The Holocaust in Slovakia;Q180684;military conflict
+Q4137724;The Holocaust in the Baranavichy District;Q180684;military conflict
+Q19692663;The Holocaust in the Byaroza District;Q180684;military conflict
+Q4137729;The Holocaust in the Byerazino District;Q180684;military conflict
+Q117066804;The Holocaust in the Crimea;Q180684;military conflict
+Q21559019;The Holocaust in the Kamyenyets District;Q180684;military conflict
+Q5863813;The policy of exporting the Islamic Revolution;Q180684;military conflict
+Q12005316;theater brawl;Q180684;military conflict
+Q104705174;theological controversy;Q180684;military conflict
+Q2419033;theomachy;Q180684;military conflict
+Q7782444;Theory of obligationes;Q180684;military conflict
+Q4122599;third-generation warfare;Q180684;military conflict
+Q4122599;third-generation warfare;Q350604;battle
+Q118412010;This profile has had a significant increase in reviews;Q180684;military conflict
+Q24841189;Tien Kung Ⅱ;Q180684;military conflict
+Q24841188;Tien Kung Ⅲ;Q180684;military conflict
+Q2406205;Tiroteio;Q180684;military conflict
+Q7809293;Tirthika;Q180684;military conflict
+Q20755546;tithing in Mormonism;Q180684;military conflict
+Q11490312;tokusei-ikki;Q180684;military conflict
+Q11490312;tokusei-ikki;Q645883;civil conflict
+Q11490312;tokusei-ikki;Q350604;battle
+Q116961260;Tor-M2DT;Q180684;military conflict
+Q16616368;toreo cómico;Q180684;military conflict
+Q6149124;Toreo de la vincha;Q180684;military conflict
+Q1770779;Toro embolado;Q180684;military conflict
+Q5861858;Toro enmaromado;Q180684;military conflict
+Q21027484;Toro-piscine;Q180684;military conflict
+Q2444392;torpedo;Q180684;military conflict
+Q50295027;torpedo attack;Q180684;military conflict
+Q50295027;torpedo attack;Q645883;civil conflict
+Q50295027;torpedo attack;Q350604;battle
+Q18015660;torpedo bombing;Q180684;military conflict
+Q18015660;torpedo bombing;Q645883;civil conflict
+Q18015660;torpedo bombing;Q350604;battle
+Q184940;tourada;Q180684;military conflict
+Q2374581;Tourada;Q180684;military conflict
+Q1631955;Tourada à corda;Q180684;military conflict
+Q16049382;TPAJAX;Q180684;military conflict
+Q100327107;trademark dispute;Q180684;military conflict
+Q49095175;träffning;Q180684;military conflict
+Q49095175;träffning;Q178561;rebellion
+Q49095175;träffning;Q645883;civil conflict
+Q49095175;träffning;Q350604;battle
+Q107453693;Trans* March;Q180684;military conflict
+Q2736535;transmissões;Q180684;military conflict
+Q11561932;transoceanic bombing;Q180684;military conflict
+Q11561932;transoceanic bombing;Q645883;civil conflict
+Q11561932;transoceanic bombing;Q350604;battle
+Q256905;transporte aéreo tático;Q645883;civil conflict
+Q811531;Tree sitting;Q180684;military conflict
+Q123348093;trial of Françoise Bonvin;Q180684;military conflict
+Q1961430;Trials against Nazi Crimes;Q180684;military conflict
+Q2375061;triângulo;Q180684;military conflict
+Q14705398;Trinity Baptist Church sex scandal (Concord, New Hampshire);Q180684;military conflict
+Q12432833;Trishul;Q180684;military conflict
+Q11422932;tsuchi-ikki;Q180684;military conflict
+Q11422932;tsuchi-ikki;Q645883;civil conflict
+Q11422932;tsuchi-ikki;Q350604;battle
+Q11070774;Tsui Po-ko case;Q180684;military conflict
+Q9362661;Tumult;Q180684;military conflict
+Q7854874;turf war;Q180684;military conflict
+Q113510194;Turkmen Goresh;Q180684;military conflict
+Q21213456;TV reality show controversy;Q180684;military conflict
+Q21213179;TV show controversy;Q180684;military conflict
+Q7859368;Two by Twos;Q180684;military conflict
+Q16145203;Type 11 Surface-to-Air Missile;Q180684;military conflict
+Q385077;Type 3 Chū-SAM;Q180684;military conflict
+Q863729;Type 91 (míssel);Q180684;military conflict
+Q863075;Type 93 (míssel);Q180684;military conflict
+Q111448505;type of protest;Q180684;military conflict
+Q6994626;Tzefa Shiryon;Q180684;military conflict
+Q11393845;uchi-geba;Q180684;military conflict
+Q11497203;uchikowashi;Q180684;military conflict
+Q1771272;Uki-otoshi;Q180684;military conflict
+Q129550387;Ukraine and electronic warfare;Q180684;military conflict
+Q498182;Ulchi-Freedom Guardian;Q645883;civil conflict
+Q2302835;Umkhonto;Q180684;military conflict
+Q3058675;underground nuclear weapons test;Q645883;civil conflict
+Q4367188;underwater nuclear explosion;Q645883;civil conflict
+Q7883883;underwater warfare;Q180684;military conflict
+Q818545;United Nations Observer Mission;Q645883;civil conflict
+Q3474978;United States Army beef scandal;Q180684;military conflict
+Q85811481;United States presidential impeachment;Q180684;military conflict
+Q19692072;United States Supreme Court decision;Q180684;military conflict
+Q55636710;unity of the intellect;Q180684;military conflict
+Q7897387;unrest;Q180684;military conflict
+Q11519624;unsolved crime;Q180684;military conflict
+Q19393843;unsolved murder;Q180684;military conflict
+Q7900161;urban riot;Q180684;military conflict
+Q42531060;USA Gymnastics sex abuse scandal;Q180684;military conflict
+Q17028978;use of chemical weapons in the Syrian civil war;Q180684;military conflict
+Q11570011;ushi no tsunotsuki;Q180684;military conflict
+Q6652925;Utthalum;Q180684;military conflict
+Q11488325;uwanari-uchi;Q180684;military conflict
+Q38623210;V-611;Q180684;military conflict
+Q18487092;V-750;Q180684;military conflict
+Q105750245;vaccinegate;Q180684;military conflict
+Q4382293;Valais witch trials;Q180684;military conflict
+Q5981996;Valtu;Q180684;military conflict
+Q467033;vendeta;Q180684;military conflict
+Q98936066;Venezuela e o terrorismo patrocinado pelo Estado;Q645883;civil conflict
+Q12072096;VERTREP;Q645883;civil conflict
+Q137030;Vi et armis;Q180684;military conflict
+Q1412362;video game controversies;Q180684;military conflict
+Q122937574;video game controversy;Q180684;military conflict
+Q2006536;Videoscandals;Q180684;military conflict
+Q13634374;violência étnica;Q180684;military conflict
+Q6589923;violência étnica no Sudão do Sul;Q180684;military conflict
+Q2001756;violência no futebol;Q180684;military conflict
+Q3774758;violência sectária;Q180684;military conflict
+Q7444557;violência sectária entre muçulmanos;Q180684;military conflict
+Q1751831;Violência urbana;Q180684;military conflict
+Q115431196;violent conflict;Q180684;military conflict
+Q11515007;violent revolution;Q180684;military conflict
+Q13048421;Visigothic arianism;Q180684;military conflict
+Q7936275;visit, board, search, and seizure;Q645883;civil conflict
+Q6812827;voto de protesto;Q180684;military conflict
+Q115804274;VSHORAD;Q180684;military conflict
+Q113541081;VSM-1 mine system;Q645883;civil conflict
+Q23058456;Walk to Work protest;Q180684;military conflict
+Q685160;Walkout;Q180684;military conflict
+Q11353805;Wan An Exercise;Q645883;civil conflict
+Q127260473;war;Q180684;military conflict
+Q127260473;war;Q350604;battle
+Q1265353;war crimes trial;Q180684;military conflict
+Q5666568;war in the World of Ice and Fire;Q180684;military conflict
+Q3119022;war of pacification;Q198;war
+Q3119022;war of pacification;Q180684;military conflict
+Q3119022;war of pacification;Q350604;battle
+Q123517489;war on the woods;Q180684;military conflict
+Q105370834;war phase;Q198;war
+Q105370834;war phase;Q180684;military conflict
+Q105370834;war phase;Q350604;battle
+Q104875634;Warfare in Sumer;Q180684;military conflict
+Q5887925;Wars between the valar and Melkor;Q180684;military conflict
+Q130525743;wars of individual sovereign;Q198;war
+Q130525743;wars of individual sovereign;Q180684;military conflict
+Q130525743;wars of individual sovereign;Q350604;battle
+Q620347;Wasserfall;Q180684;military conflict
+Q2464727;water conflict;Q180684;military conflict
+Q7973470;Water conflict in the Middle East and North Africa;Q180684;military conflict
+Q136400771;weaponization of information;Q198;war
+Q136400771;weaponization of information;Q180684;military conflict
+Q136400771;weaponization of information;Q350604;battle
+Q4543437;Wednesday Demonstration;Q180684;military conflict
+Q98246204;Wheel war;Q180684;military conflict
+Q7993766;Whipsaw strike;Q180684;military conflict
+Q31074642;Whistling at the Spanish national anthem;Q180684;military conflict
+Q105151488;Wikipedia controversy;Q180684;military conflict
+Q111750056;Windsor Witches;Q180684;military conflict
+Q1299275;WINTEX;Q645883;civil conflict
+Q110923162;witch hunts in Davensberg;Q180684;military conflict
+Q19902850;witch trial;Q180684;military conflict
+Q97135699;Witch trials in Nysa;Q180684;military conflict
+Q86662406;Witch Trials in Vaud;Q180684;military conflict
+Q66458810;witchcraft investigation;Q180684;military conflict
+Q8029782;wolf-baiting;Q180684;military conflict
+Q111916156;women's freestyle wrestling;Q180684;military conflict
+Q11446353;women's professional wrestling;Q180684;military conflict
+Q12057768;world communist revolution;Q180684;military conflict
+Q8037702;wrecking amendment;Q180684;military conflict
+Q131359;wrestling profissional;Q180684;military conflict
+Q1785362;Wristlock;Q180684;military conflict
+Q131624844;wrongful conviction;Q180684;military conflict
+Q113994878;Wycliffism;Q180684;military conflict
+Q18204913;X Band Satellite Communication;Q180684;military conflict
+Q104518955;Xiaomi controversies;Q180684;military conflict
+Q3820346;XLIM-49 Nike-Zeus;Q180684;military conflict
+Q101145633;XLIM-49A Nike-Zeus;Q180684;military conflict
+Q8046249;Ya Zahra air defense system;Q180684;military conflict
+Q296721;yağlı güreş;Q180684;military conflict
+Q123155303;Yaroslav Hunka scandal;Q180684;military conflict
+Q528542;Yáwar Fiesta;Q180684;military conflict
+Q11362482;yonaoshi-ikki;Q180684;military conflict
+Q11362482;yonaoshi-ikki;Q645883;civil conflict
+Q11362482;yonaoshi-ikki;Q350604;battle
+Q120379823;youth unrest;Q180684;military conflict
+Q51390076;Zagłebie Critical Mass;Q180684;military conflict
+Q131918241;zandaqa;Q180684;military conflict
+Q10553801;Zapad;Q645883;civil conflict
+Q192028;Zersetzung;Q180684;military conflict
+Q192028;Zersetzung;Q645883;civil conflict

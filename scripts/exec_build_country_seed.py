@@ -4,35 +4,87 @@ from __future__ import annotations
 from pathlib import Path
 import csv, re, sys, os
 import subprocess
+import argparse
+from typing import Iterable, List
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR     = PROJECT_ROOT / "data"
 OUT_SEED     = DATA_DIR / "countries_seed.csv"
 
-# Quais CSVs manter durante a limpeza
-KEEP_CSV_NAMES = {"demografia_mundial.csv","index.csv","olympics_summer_manual.csv"}  # case-insensitive
+# Quais CSVs manter durante a limpeza (case-insensitive)
+KEEP_CSV_NAMES = {"demografia_mundial.csv","index.csv","olympics_summer_manual.csv","un_m49_iso.csv"}
 
 def slugify(s: str) -> str:
     s = re.sub(r"[^\w\-]+", "_", s, flags=re.U)
     s = re.sub(r"_+", "_", s).strip("_")
     return s or "pais"
 
-def purge_csvs_except_demografia() -> None:
-    """
-    Apaga todos os .csv dentro de data/ (recursivo), EXCETO 'demografia_mundial.csv'.
-    Útil para forçar refresh limpo antes de reconstruir datasets.
-    """
+def _gather_csvs_to_delete() -> List[Path]:
+    """Lista de CSVs dentro de data/ a remover (exclui KEEP_CSV_NAMES)."""
+    keep_lower = {n.lower() for n in KEEP_CSV_NAMES}
+    to_delete: List[Path] = []
     DATA_DIR.mkdir(parents=True, exist_ok=True)
-    deleted = 0
     for p in DATA_DIR.rglob("*.csv"):
-        try:
-            if p.name.lower() in {n.lower() for n in KEEP_CSV_NAMES}:
-                continue
-            p.unlink()
-            deleted += 1
-        except Exception as e:
-            print(f"⚠️ Não consegui apagar {p}: {e}", file=sys.stderr)
-    print(f"🧹 Limpeza concluída: removidos {deleted} CSV(s) (preservado(s): {', '.join(KEEP_CSV_NAMES)})")
+        if p.name.lower() in keep_lower:
+            continue
+        to_delete.append(p)
+    return to_delete
+
+def _confirm_dangerous_action(to_delete: List[Path], assume_yes: bool, dry_run: bool) -> None:
+    """Pede confirmação explícita antes de apagar muitos ficheiros."""
+    if dry_run:
+        print("🔎 [dry-run] Simulação ativa: não será apagado nenhum ficheiro.")
+        return
+    if assume_yes:
+        print("⚠️  '--yes' fornecido: a limpeza prosseguirá sem confirmação interativa.")
+        return
+
+    total = len(to_delete)
+    if total == 0:
+        print("🧹 Nada para apagar.")
+        return
+
+    examples = "\n".join(f"   · {p}" for p in to_delete[:10])
+    rest = "" if total <= 10 else f"\n   … e mais {total-10} ficheiro(s)."
+    keep_list = ", ".join(sorted(KEEP_CSV_NAMES))
+
+    print(
+        f"⚠️  ATENÇÃO!\n"
+        f"Isto vai apagar {total} ficheiro(s) CSV dentro de '{DATA_DIR}'.\n"
+        f"Os seguintes ficheiros serão PRESERVADOS: {keep_list}\n\n"
+        f"Exemplos de ficheiros a remover:\n{examples}{rest}\n"
+    )
+    print("Para continuar, escreve exatamente: APAGAR")
+    try:
+        answer = input("> ").strip()
+    except (EOFError, KeyboardInterrupt):
+        print("\n❌ Ação cancelada.")
+        sys.exit(1)
+
+    if answer != "APAGAR":
+        print("❌ Confirmação falhada. Nada foi apagado.")
+        sys.exit(1)
+
+def purge_csvs_except_demografia(assume_yes: bool = False, dry_run: bool = False) -> None:
+    """
+    Apaga todos os .csv dentro de data/ (recursivo), EXCETO os em KEEP_CSV_NAMES.
+    Agora com confirmação interativa.
+    """
+    to_delete = _gather_csvs_to_delete()
+    _confirm_dangerous_action(to_delete, assume_yes=assume_yes, dry_run=dry_run)
+
+    deleted = 0
+    if dry_run:
+        print(f"🧪 [dry-run] Seriam removidos {len(to_delete)} CSV(s).")
+    else:
+        for p in to_delete:
+            try:
+                p.unlink()
+                deleted += 1
+            except Exception as e:
+                print(f"⚠️ Não consegui apagar {p}: {e}", file=sys.stderr)
+        print(f"🧹 Limpeza concluída: removidos {deleted} CSV(s) "
+              f"(preservado(s): {', '.join(KEEP_CSV_NAMES)})")
 
 def build_seed() -> None:
     try:
@@ -71,10 +123,16 @@ def build_seed() -> None:
 
     OUT_SEED.parent.mkdir(parents=True, exist_ok=True)
     with OUT_SEED.open("w", newline="", encoding="utf-8") as f:
-        w = csv.DictWriter(f, fieldnames=["iso2", "iso3", "name_en", "name_pt", "slug"])
+        w = csv.DictWriter(
+            f,
+            fieldnames=["iso2", "iso3", "name_en", "name_pt", "slug"],
+            delimiter=";",             # ← separador ponto e vírgula
+            quoting=csv.QUOTE_MINIMAL, # só cita quando precisa
+            lineterminator="\n",       # linhas limpas
+        )
         w.writeheader()
         w.writerows(rows)
-    print(f"✔️ Escrevi {OUT_SEED} ({len(rows)} países)")
+    print(f"✔️ Escrevi {OUT_SEED} ({len(rows)} países) em CSV com SEP=';'")
 
 def run_aux_scripts() -> None:
     """
@@ -85,32 +143,36 @@ def run_aux_scripts() -> None:
 
     # Ordem recomendada (se existirem). O resto vai a seguir por ordem alfabética.
     preferred_order = [
-        "extract_country_data.py",
-        "fetch_worldbank_timeseries.py",
-        "fetch_leaders.py",
-        "fetch_unesco.py",
-        #"fetch_olympics.py",
-        "fetch_gastronomy_all.py",
-        "fetch_cities.py",
-        "fetch_migration.py",
-        "fetch_religion.py",
-        "fetch_tourism_all.py",
-        "fetch_migration_inout.py",
-        "fetch_cmip6_global.py",
-        "fetch_wars_battles.py",
-        "fetch_country_languages_pt.py",
-        "fetch_colonization_pt.py",
-        "enrich_en_labels.py",
-        "fetch_monarchs.py",
+        # "extract_country_data.py",
+        # "fetch_worldbank_timeseries.py",
+        # "fetch_leaders.py",
+        # "fetch_unesco.py",
+        # # "fetch_olympics.py",
+        # "fetch_gastronomy_all.py",
+        # "fetch_cities.py",
+        # "fetch_migration.py",
+        # "fetch_religion.py",
+        # "fetch_tourism_all.py",
+        # "fetch_migration_inout.py",
+        # "fetch_cmip6_global.py",
+        "fetch_all_country_forms.py",
+        "fetch_conflicts_participants.py",
+        "fetch_conflicts_countries.py",
+        "merge_conflicts_with_labels.py",
+        "enrich_conflicts_long_for_ui.py",
+        "clean_enriched_conflicts.py",
+        "online_backfill_iso3_mwapi.py",
+        ##"map_qids_to_iso3.py",
+        #"fetch_country_languages_pt.py",
+        #"fetch_colonies_from_forms.py",
+        "enrich_en_pt_labels.py",
+        #"fetch_monarchs.py",
     ]
 
-    # 1) pega nos preferidos que existam
-    to_run = [SCRIPTS_DIR / s for s in preferred_order if (SCRIPTS_DIR / s).exists()]
-
-    # 2) acrescenta quaisquer outros .py na pasta (exclui este próprio ficheiro e já listados)
+    to_run = [p for s in preferred_order if (p := (SCRIPTS_DIR / s)).exists()]
     others = [
         p for p in sorted(SCRIPTS_DIR.glob("*.py"))
-        if p.name not in preferred_order and p.name != SELF_NAME
+        if p.name not in {Path(x).name for x in preferred_order} and p.name != SELF_NAME
     ]
     to_run.extend(others)
 
@@ -124,10 +186,42 @@ def run_aux_scripts() -> None:
     else:
         print("✔ Todos os scripts concluídos.")
 
+def parse_args() -> argparse.Namespace:
+    ap = argparse.ArgumentParser(
+        description="Constrói countries_seed.csv e (opcionalmente) limpa CSVs em data/ com confirmação."
+    )
+    ap.add_argument(
+        "--yes", action="store_true",
+        help="Não pedir confirmação interativa para a limpeza (atenção: perigoso)."
+    )
+    ap.add_argument(
+        "--dry-run", action="store_true",
+        help="Simular a limpeza (não apaga ficheiros)."
+    )
+    ap.add_argument(
+        "--skip-clean", action="store_true",
+        help="Não executar a limpeza de CSVs."
+    )
+    ap.add_argument(
+        "--skip-run", action="store_true",
+        help="Não executar scripts auxiliares após gerar o seed."
+    )
+    return ap.parse_args()
+
 if __name__ == "__main__":
-    # 1) Limpeza de CSVs (preserva apenas demografia_mundial.csv)
-    purge_csvs_except_demografia()
+    args = parse_args()
+
+    # 1) Limpeza de CSVs (preserva apenas os de KEEP_CSV_NAMES)
+    if not args.skip_clean:
+        purge_csvs_except_demografia(assume_yes=args.yes, dry_run=args.dry_run)
+    else:
+        print("⏭️  Limpeza ignorada por --skip-clean.")
+
     # 2) Construir seed de países
     build_seed()
+
     # 3) Executar os restantes scripts por ordem
-    run_aux_scripts()
+    if not args.skip_run:
+        run_aux_scripts()
+    else:
+        print("⏭️  Execução de scripts auxiliares ignorada por --skip-run.")

@@ -1,0 +1,1152 @@
+Iso3Start;Level;QID;Label;FormationYear;SourceFlag
+GAB;0;Q1000;Gabão;;seed
+GAB;1;Q107783136;Middle Congo;;seed_evidence
+GAB;2;Q265319;Congo francês;1882;seed_evidence
+GMB;0;Q1005;Gâmbia;;seed
+GMB;1;Q7735661;Commonwealth realm of the Gambia;1965;seed_evidence
+GIN;0;Q1006;Guiné;;seed
+GIN;1;Q98605707;People's Revolutionary Republic of Guinea;1958;seed_evidence
+GIN;1;Q210682;África Ocidental Francesa;1895;seed_evidence
+GIN;2;Q797433;Guiné francesa;1894;seed_evidence
+GIN;2;Q568712;Império de Uassulu;1878;seed_evidence
+GIN;2;Q536476;Império Tuculor;1836;seed_evidence
+GNB;0;Q1007;Guiné-Bissau;;seed
+GNB;1;Q2002279;Privíncia Ultramarina da Guiné;1474;seed_evidence
+CIV;0;Q1008;Costa do Marfim;;seed
+CIV;1;Q39074482;French Ivory Coast;1893;seed_evidence
+CIV;1;Q210682;África Ocidental Francesa;1895;seed_evidence
+CIV;2;Q568712;Império de Uassulu;1878;seed_evidence
+CIV;2;Q536476;Império Tuculor;1836;seed_evidence
+CMR;0;Q1009;Camarões;;seed
+CMR;1;Q60023785;United Republic of Cameroon;1972;seed_evidence
+CMR;2;Q30744169;Federal Republic of Cameroon;1961;seed_evidence
+CPV;0;Q1011;Cabo Verde;;seed
+CPV;1;Q4393598;República das Ilhas de Cabo Verde;1975;seed_evidence
+CPV;2;Q3023340;Província Ultramarina de Cabo Verde;1462;seed_evidence
+LSO;0;Q1013;Lesoto;;seed
+LSO;1;Q2340665;Basutolândia;1884;seed_evidence
+LBR;0;Q1014;Libéria;;seed
+LBR;1;Q544630;Republic of Maryland;1854;seed_evidence
+LBR;1;Q104830524;Colony of Liberia;1822;seed_evidence
+LBR;2;Q1014;Libéria;1822;seed_evidence
+LBY;0;Q1016;Líbia;;seed
+LBY;1;Q4843701;Líbia Era Muammar al-Gaddafi;1977;seed_evidence
+LBY;2;Q2347668;República Árabe da Líbia;1969;seed_evidence
+MDG;0;Q1019;Madagáscar;;seed
+MDG;1;Q5501842;French Madagascar;1897;seed_evidence
+MDG;2;Q1071439;Reino de Madagascar;1540;seed_evidence
+MDG;2;Q16540904;Colony of Mayotte and Dependencies;1886;seed_evidence
+MDG;2;Q25424205;Sultanate of Mohéli;1830;seed_evidence
+MWI;0;Q1020;Malawi;;seed
+MWI;1;Q6741448;Commonwealth realm of Malawi;1964;seed_evidence
+MRT;0;Q1025;Mauritânia;;seed
+MRT;1;Q210682;África Ocidental Francesa;1895;seed_evidence
+MRT;2;Q536476;Império Tuculor;1836;seed_evidence
+MUS;0;Q1027;Maurícia;;seed
+MUS;1;Q14759030;Commonwealth realm of Mauritius;1968;seed_evidence
+MUS;2;Q12053604;Maurício Britânico;1810;seed_evidence
+MAR;0;Q1028;Marrocos;;seed
+MAR;1;Q457242;Marrocos Espanhol;1912;seed_evidence
+MAR;2;Q12183875;Sharifian Empire;1510;seed_evidence
+MAR;2;Q37102;República do Rife;1921;seed_evidence
+MOZ;0;Q1029;Moçambique;;seed
+MOZ;1;Q617078;República Popular de Moçambique;1975;seed_evidence
+NAM;0;Q1030;Namíbia;;seed
+NAM;1;Q953068;Sudoeste Africano;1915;seed_evidence
+NAM;2;Q153665;Sudoeste Africano Alemão;1884;seed_evidence
+NER;0;Q1032;Níger;;seed
+NER;1;Q210682;África Ocidental Francesa;1895;seed_evidence
+NER;2;Q536476;Império Tuculor;1836;seed_evidence
+NGA;0;Q1033;Nigéria;;seed
+NGA;1;Q5440850;Federation of Nigeria;1960;seed_evidence
+NGA;2;Q2046345;Nigéria colonial;1914;seed_evidence
+UGA;0;Q1036;Uganda;;seed
+UGA;1;Q7877575;Commonwealth realm of Uganda;1962;seed_evidence
+UGA;2;Q1097943;Protetorado do Uganda;1894;seed_evidence
+RWA;0;Q1037;Ruanda;;seed
+STP;0;Q1039;São Tomé e Príncipe;;seed
+STP;1;Q7232692;Província Ultramarina de São Tomé e Príncipe;1470;seed_evidence
+SEN;0;Q1041;Senegal;;seed
+SEN;1;Q216632;Federação do Mali;1959;seed_evidence
+SEN;1;Q210682;África Ocidental Francesa;1895;seed_evidence
+SEN;2;Q3456487;Sudanese Republic;1958;seed_evidence
+SEN;2;Q536476;Império Tuculor;1836;seed_evidence
+SYC;0;Q1042;Seychelles;;seed
+SLE;0;Q1044;Serra Leoa;;seed
+SLE;1;Q14920623;Commonwealth realm of Sierra Leone;1961;seed_evidence
+SLE;2;Q15240191;Colony of Sierra Leone;;seed_evidence
+SLE;2;Q30059027;Colônia e Protetorado de Serra Leoa;1808;seed_evidence
+SOM;0;Q1045;Somália;;seed
+SOM;1;Q1477220;República Democrática da Somália;1969;seed_evidence
+SOM;1;Q1106857;Estado da Somalilândia;1960;seed_evidence
+SOM;2;Q7559152;República Somali;1960;seed_evidence
+SOM;2;Q662653;Somalilândia Britânica;1884;seed_evidence
+SDN;0;Q1049;Sudão;;seed
+SDN;1;Q541455;Sudão Anglo-Egípcio;1899;seed_evidence
+SWZ;0;Q1050;Essuatíni;;seed
+SWZ;1;Q21815946;British Swaziland;;seed_evidence
+KEN;0;Q114;Quénia;;seed
+KEN;1;Q6392538;Kenya (1963–1964);1963;seed_evidence
+KEN;2;Q2538511;Quênia britânico;1920;seed_evidence
+ETH;0;Q115;Etiópia;;seed
+GHA;0;Q117;Gana;;seed
+GHA;1;Q5555325;Dominion of Ghana;1957;seed_evidence
+GHA;1;Q503623;Costa do Ouro;1821;seed_evidence
+GHA;1;Q797527;Togolândia britânica;1916;seed_evidence
+GHA;2;Q23498721;Costa do Ouro;;seed_evidence
+VIR;0;Q11703;Ilhas Virgens Americanas;;seed
+VIR;1;Q829655;Índias Ocidentais Dinamarquesas;1754;seed_evidence
+PRI;0;Q1183;Porto Rico;;seed
+ATF;0;Q129003;Terras Austrais e Antárticas Francesas;;seed
+ATF;1;Q5501842;French Madagascar;1897;seed_evidence
+ATF;2;Q1071439;Reino de Madagascar;1540;seed_evidence
+ATF;2;Q16540904;Colony of Mayotte and Dependencies;1886;seed_evidence
+ATF;2;Q25424205;Sultanate of Mohéli;1830;seed_evidence
+HMD;0;Q131198;Ilha Heard e Ilhas McDonald;;seed
+MSR;0;Q13353;Monserrate;;seed
+MSR;1;Q652560;Federação das Índias Ocidentais;1958;seed_evidence
+MSR;2;Q920396;Índias Ocidentais Britânicas;1783;seed_evidence
+MSR;2;Q116282722;Colony of Trinidad and Tobago;1889;seed_evidence
+GIB;0;Q1410;Gibraltar;;seed
+GIB;1;Q1796239;Taifa de Sevilha;1248;seed_evidence
+GIB;2;Q199688;Califado Almóada;1121;seed_evidence
+FRA;0;Q142;França;;seed
+FRA;1;Q2313140;Republic of Bouillon;1794;seed_evidence
+FRA;1;Q70972;Reino da França;987;seed_evidence
+FRA;1;Q3559284;Free Cities of Menton and Roquebrune;1848;seed_evidence
+FRA;1;Q3446152;Reino de Bora Bora;;seed_evidence
+FRA;1;Q684430;Rauracian Republic;1792;seed_evidence
+FRA;2;Q688859;Ducado de Bulhão;;seed_evidence
+FRA;2;Q538677;Império Plantageneta;1154;seed_evidence
+FRA;2;Q46370;Frância Ocidental;843;seed_evidence
+FRA;2;Q3456417;República de Saint-Malo;1590;seed_evidence
+FRA;2;Q63021609;Kingdom of Navarre beyond the Pyrenees;1512;seed_evidence
+FRA;2;Q100272879;Principality of Dombes;1560;seed_evidence
+FRA;2;Q235;Mónaco;1297;seed_evidence
+GBR;0;Q145;Reino Unido;;seed
+GBR;1;Q174193;Reino Unido da Grã-Bretanha e Irlanda;1801;seed_evidence
+GBR;2;Q161885;Reino da Grã-Bretanha;1707;successor_resolved
+GBR;2;Q215530;Reino da Irlanda;1542;seed_evidence
+CHN;0;Q148;China;;seed
+CHN;1;Q13426199;República da China;1912;seed_evidence
+CHN;1;Q4120908;Inner Mongolian People's Republic;1945;seed_evidence
+CHN;2;Q30623;Manchukuo;1932;successor_resolved
+BRA;0;Q155;Brasil;;seed
+BRA;1;Q2088324;Colónia do Brasil;1500;seed_evidence
+BRA;1;Q217230;Império do Brasil;1822;seed_evidence
+BRA;2;Q3932042;Reino do Brasil;1815;seed_evidence
+BRA;2;Q903779;Reino Unido de Portugal, Brasil e Algarves;1815;seed_evidence
+RUS;0;Q159;Rússia;;seed
+RUS;1;Q15180;União Soviética;1922;seed_evidence
+RUS;1;Q2184;República Socialista Federativa Soviética Russa;1917;successor_resolved
+RUS;2;Q545205;República Socialista Federativa Soviética Transcaucasiana;1922;seed_evidence
+RUS;2;Q2184;República Socialista Federativa Soviética Russa;1917;successor_resolved
+RUS;2;Q2369784;Interwar Latvia;1918;seed_evidence
+RUS;2;Q2305208;Rússia bolchevique;1917;seed_evidence
+RUS;2;Q61292;República do Extremo Oriente;1920;seed_evidence
+RUS;2;Q4533605;Rússia do Sul;1919;seed_evidence
+RUS;2;Q139319;República Russa;1917;seed_evidence
+RUS;2;Q2305208;Rússia bolchevique;1917;seed_evidence
+CAN;0;Q16;Canadá;;seed
+CAN;1;Q1121436;Província do Canadá;1841;seed_evidence
+CAN;2;Q795427;Canadá Superior;1791;seed_evidence
+CAN;2;Q7721124;The Canadas;1791;seed_evidence
+CAN;2;Q1134180;Canadá Inferior;1791;seed_evidence
+GUM;0;Q16635;Guam;;seed
+ASM;0;Q16641;Samoa Americana;;seed
+MNP;0;Q16644;Marianas Setentrionais;;seed
+UMI;0;Q16645;Ilhas Menores Distantes dos Estados Unidos;;seed
+JPN;0;Q17;Japão;;seed
+JPN;1;Q188712;Império do Japão;1868;seed_evidence
+JPN;2;Q205662;Xogunato Tokugawa;1603;seed_evidence
+GLP;0;Q17012;Guadalupe;;seed
+SHN;0;Q170164;Helena de Constantinopla;;seed
+MTQ;0;Q17054;Martinica;;seed
+MYT;0;Q17063;Mayotte;;seed
+REU;0;Q17070;Reunião;;seed
+TCA;0;Q18221;Ilhas Turcas e Caicos;;seed
+TCA;1;Q652560;Federação das Índias Ocidentais;1958;seed_evidence
+TCA;2;Q920396;Índias Ocidentais Britânicas;1783;seed_evidence
+TCA;2;Q116282722;Colony of Trinidad and Tobago;1889;seed_evidence
+DEU;0;Q183;Alemanha;;seed
+DEU;1;Q16957;República Democrática Alemã;1949;seed_evidence
+DEU;1;Q1206012;Reich Alemão;1871;seed_evidence
+DEU;1;Q713750;Alemanha Ocidental;1949;seed_evidence
+DEU;2;Q1206012;Reich Alemão;1871;seed_evidence
+DEU;2;Q150981;Confederação da Alemanha do Norte;1867;seed_evidence
+DEU;2;Q150981;Confederação da Alemanha do Norte;1867;seed_evidence
+DEU;2;Q1206012;Reich Alemão;1871;seed_evidence
+BLR;0;Q184;Bielorrússia;;seed
+BLR;1;Q15180;União Soviética;1922;seed_evidence
+BLR;1;Q2895;República Socialista Soviética Bielorrussa;1919;successor_resolved
+BLR;2;Q2369784;Interwar Latvia;1918;seed_evidence
+BLR;2;Q207272;Segunda República Polonesa;1918;seed_evidence
+BLR;2;Q2305208;Rússia bolchevique;1917;seed_evidence
+BLR;2;Q2895;República Socialista Soviética Bielorrussa;1919;successor_resolved
+BLR;2;Q68678;República Socialista Soviética Bielorrussa;1919;seed_evidence
+BLR;2;Q842199;República Popular Bielorrussa;1918;seed_evidence
+BLR;2;Q76236;República Socialista Soviética Lituano-Bielorrussa;1919;seed_evidence
+ISL;0;Q189;Islândia;;seed
+ISL;1;Q62567;Reino da Islândia;1918;seed_evidence
+EST;0;Q191;Estónia;;seed
+EST;1;Q15180;União Soviética;1922;seed_evidence
+EST;1;Q130280;República Socialista Soviética Estoniana;1940;seed_evidence
+EST;2;Q2369784;Interwar Latvia;1918;seed_evidence
+EST;2;Q2305208;Rússia bolchevique;1917;seed_evidence
+NOR;0;Q20;Noruega;;seed
+LVA;0;Q211;Letónia;;seed
+LVA;1;Q2300296;Latvian Socialist Soviet Republic;1918;seed_evidence
+UKR;0;Q212;Ucrânia;;seed
+UKR;1;Q15180;União Soviética;1922;seed_evidence
+UKR;1;Q243610;República Popular da Ucrânia;1917;seed_evidence
+UKR;1;Q133356;República Socialista Soviética Ucraniana;1919;successor_resolved
+UKR;2;Q2369784;Interwar Latvia;1918;seed_evidence
+UKR;2;Q207272;Segunda República Polonesa;1918;seed_evidence
+UKR;2;Q2305208;Rússia bolchevique;1917;seed_evidence
+UKR;2;Q133356;República Socialista Soviética Ucraniana;1919;successor_resolved
+UKR;2;Q1508143;Estado Ucraniano;1918;seed_evidence
+UKR;2;Q203493;Reino da Romênia;1881;seed_evidence
+UKR;2;Q243610;República Popular da Ucrânia;1917;seed_evidence
+UKR;2;Q4533605;Rússia do Sul;1919;seed_evidence
+UKR;2;Q207272;Segunda República Polonesa;1918;seed_evidence
+ABW;0;Q21203;Aruba;;seed
+ABW;1;Q25227;Antilhas Neerlandesas;1954;seed_evidence
+ABW;2;Q1953333;Curaçau e Dependências;1815;seed_evidence
+CZE;0;Q213;Chéquia;;seed
+CZE;1;Q1998866;República Federal Checa e Eslovaca;1990;seed_evidence
+CZE;2;Q11177699;Czechoslovak Federative Republic;1990;seed_evidence
+CZE;2;Q33946;Checoslováquia;1918;seed_evidence
+SVK;0;Q214;Eslováquia;;seed
+SVK;1;Q1998866;República Federal Checa e Eslovaca;1990;seed_evidence
+SVK;2;Q11177699;Czechoslovak Federative Republic;1990;seed_evidence
+SVK;2;Q33946;Checoslováquia;1918;seed_evidence
+SVN;0;Q215;Eslovénia;;seed
+SVN;1;Q83286;República Socialista Federativa da Jugoslávia;;seed_evidence
+SVN;1;Q211092;República Socialista da Eslovénia;1945;seed_evidence
+SVN;2;Q777147;Reino Albanês;1943;seed_evidence
+SVN;2;Q1277557;Iugoslávia Federal Democrática;1945;seed_evidence
+SVN;2;Q1290149;República Popular Federal da Iugoslávia;1945;seed_evidence
+MDA;0;Q217;Moldávia;;seed
+MDA;1;Q15180;União Soviética;1922;seed_evidence
+MDA;2;Q2369784;Interwar Latvia;1918;seed_evidence
+MDA;2;Q2305208;Rússia bolchevique;1917;seed_evidence
+ROU;0;Q218;Roménia;;seed
+ROU;1;Q842794;República Socialista da Romênia;1965;seed_evidence
+ROU;1;Q958291;Principados Unidos;1859;seed_evidence
+ROU;2;Q2685298;República Popular da Romênia;1947;seed_evidence
+ROU;2;Q10957559;Principado da Moldávia;1346;seed_evidence
+ROU;2;Q389004;Principado da Valáquia;1330;seed_evidence
+BGR;0;Q219;Bulgária;;seed
+BGR;1;Q121932;República Popular da Bulgária;1946;seed_evidence
+BGR;2;Q147909;Czarado da Bulgária;1908;seed_evidence
+MKD;0;Q221;Macedónia do Norte;;seed
+MKD;1;Q83286;República Socialista Federativa da Jugoslávia;;seed_evidence
+MKD;2;Q777147;Reino Albanês;1943;seed_evidence
+MKD;2;Q1277557;Iugoslávia Federal Democrática;1945;seed_evidence
+MKD;2;Q1290149;República Popular Federal da Iugoslávia;1945;seed_evidence
+ALB;0;Q222;Albânia;;seed
+ALB;1;Q467864;República Popular Socialista da Albânia;1946;seed_evidence
+ALB;2;Q777147;Reino Albanês;1943;seed_evidence
+ALB;2;Q19915237;People's Republic of Albania;1946;seed_evidence
+GRL;0;Q223;Gronelândia;;seed
+HRV;0;Q224;Croácia;;seed
+HRV;1;Q83286;República Socialista Federativa da Jugoslávia;;seed_evidence
+HRV;1;Q5330471;Eastern Slavonia, Baranja and Western Syrmia;1995;seed_evidence
+HRV;2;Q777147;Reino Albanês;1943;seed_evidence
+HRV;2;Q1277557;Iugoslávia Federal Democrática;1945;seed_evidence
+HRV;2;Q1290149;República Popular Federal da Iugoslávia;1945;seed_evidence
+HRV;2;Q211853;República Sérvia de Krajina;1991;seed_evidence
+BIH;0;Q225;Bósnia e Herzegovina;;seed
+BIH;1;Q1274468;República da Bósnia e Herzegovina;1992;seed_evidence
+AZE;0;Q227;Azerbaijão;;seed
+AZE;1;Q15180;União Soviética;1922;seed_evidence
+AZE;1;Q131337;República Socialista Soviética Azeri;1920;seed_evidence
+AZE;2;Q545205;República Socialista Federativa Soviética Transcaucasiana;1922;seed_evidence
+AZE;2;Q2369784;Interwar Latvia;1918;seed_evidence
+AZE;2;Q2305208;Rússia bolchevique;1917;seed_evidence
+AZE;2;Q206411;República Democrática do Azerbaijão;1918;seed_evidence
+AZE;2;Q545205;República Socialista Federativa Soviética Transcaucasiana;1922;seed_evidence
+AND;0;Q228;Andorra;;seed
+CYP;0;Q229;Chipre;;seed
+CYP;1;Q15240466;Chipre britânico;1878;seed_evidence
+GEO;0;Q230;Geórgia;;seed
+GEO;1;Q154816;Tao-Klarjeti;888;seed_evidence
+GEO;1;Q130229;República Socialista Soviética Geórgia;1921;seed_evidence
+GEO;1;Q7216494;First Kingdom of Kakheti;1020;seed_evidence
+GEO;2;Q199389;Principado da Ibéria;588;seed_evidence
+GEO;2;Q545205;República Socialista Federativa Soviética Transcaucasiana;1922;seed_evidence
+GEO;2;Q245160;República Democrática da Geórgia;1918;seed_evidence
+GEO;2;Q187461;Reino de Hereti;893;seed_evidence
+KAZ;0;Q232;Cazaquistão;;seed
+KAZ;1;Q15180;União Soviética;1922;seed_evidence
+KAZ;1;Q168811;República Socialista Soviética Cazaque;1936;seed_evidence
+KAZ;2;Q2369784;Interwar Latvia;1918;seed_evidence
+KAZ;2;Q2305208;Rússia bolchevique;1917;seed_evidence
+MLT;0;Q233;Malta;;seed
+MLT;1;Q7603765;Estado de Malta;1964;seed_evidence
+MLT;1;Q6744657;Colônia da Coroa de Malta;1813;seed_evidence
+MLT;2;Q6744657;Colônia da Coroa de Malta;1813;seed_evidence
+BVT;0;Q23408;Ilha Bouvet;;seed
+MCO;0;Q235;Mónaco;;seed
+MNE;0;Q236;Montenegro;;seed
+MNE;1;Q37024;União Estatal da Sérvia e Montenegro;2003;seed_evidence
+MNE;2;Q838261;República Federal da Jugoslávia;1992;seed_evidence
+BMU;0;Q23635;Bermudas;;seed
+VAT;0;Q237;Vaticano;;seed
+VAT;1;Q170174;Estados Papais;754;successor_resolved
+VAT;2;Q106396892;Lordship of Forlì;;seed_evidence
+VAT;2;Q3968612;Províncias Unidas Italianas;1831;seed_evidence
+VAT;2;Q2829270;Ducado de Spoleto;570;seed_evidence
+VAT;2;Q848383;Ducado de Roma;590;seed_evidence
+VAT;2;Q1072140;República Romana;1849;seed_evidence
+VAT;2;Q2393278;República de Cospaia;1441;seed_evidence
+VAT;2;Q5154037;Comuna de Roma;1143;seed_evidence
+SMR;0;Q238;San Marino;;seed
+CUB;0;Q241;Cuba;;seed
+CUB;1;Q14905932;República de Cuba;1902;seed_evidence
+CUB;1;Q2039931;Antilhas Espanholas;1607;seed_evidence
+CUB;2;Q7891201;Governo Militar dos Estados Unidos em Cuba;1898;seed_evidence
+BLZ;0;Q242;Belize;;seed
+BLZ;1;Q1643555;Honduras Britânicas;1862;seed_evidence
+BRB;0;Q244;Barbados;;seed
+BRB;1;Q63973349;Colônia de Barbados;1627;seed_evidence
+BRB;1;Q652560;Federação das Índias Ocidentais;1958;seed_evidence
+BRB;2;Q920396;Índias Ocidentais Britânicas;1783;seed_evidence
+BRB;2;Q116282722;Colony of Trinidad and Tobago;1889;seed_evidence
+IDN;0;Q252;Indonésia;;seed
+IDN;1;Q15788609;Q15788609;1630;seed_evidence
+IDN;1;Q523435;Estados Unidos da Indonésia;1949;seed_evidence
+IDN;1;Q19746028;Mempawah Kingdom;1740;seed_evidence
+IDN;1;Q11950939;Tasik;1630;seed_evidence
+IDN;1;Q892292;Bone Sultanate;1330;seed_evidence
+IDN;1;Q3403538;Q3403538;1868;seed_evidence
+IDN;1;Q2030015;Sultanate of Deli;1632;seed_evidence
+IDN;1;Q2988765;Sultanate of Siak Sri Indrapura;1723;seed_evidence
+IDN;1;Q188161;Índias Orientais Holandesas;1800;seed_evidence
+IDN;2;Q188161;Índias Orientais Holandesas;1800;seed_evidence
+IDN;2;Q3177715;Pagaruyung Kingdom;1347;seed_evidence
+IDN;2;Q1061057;Sultanato de Achém;1496;seed_evidence
+IDN;2;Q1660566;Sultanate of Banjar;1526;seed_evidence
+IDN;2;Q5317276;Company rule in the Dutch East Indies;1610;seed_evidence
+IDN;2;Q25459978;Kingdom of Bolaang Mongondow;1670;seed_evidence
+IDN;2;Q1794655;Kutai;400;seed_evidence
+IDN;2;Q422065;Sultanato de Sulu;1405;seed_evidence
+IDN;2;Q3233989;Lanfang Republic;1777;seed_evidence
+IDN;2;Q4969562;British Bencoolen;1785;seed_evidence
+IDN;2;Q3503555;Palembang Sultanate;;seed_evidence
+IDN;2;Q12491027;Bali Kingdom;914;seed_evidence
+IDN;2;Q3503548;Sultanate of Bulungan;1731;seed_evidence
+IDN;2;Q4118614;Sultanate of Tidore;1450;seed_evidence
+IDN;2;Q3177715;Pagaruyung Kingdom;1347;seed_evidence
+IDN;2;Q20427320;Soppeng Sultanate;1300;seed_evidence
+AIA;0;Q25228;Anguila;;seed
+GGY;0;Q25230;Guernsey;;seed
+CUW;0;Q25279;Curaçau;;seed
+CUW;1;Q25227;Antilhas Neerlandesas;1954;seed_evidence
+CUW;2;Q1953333;Curaçau e Dependências;1815;seed_evidence
+VGB;0;Q25305;Ilhas Virgens Britânicas;;seed
+VGB;1;Q1796551;Ilhas de Sotavento Britânicas;1671;successor_resolved
+VGB;2;Q1637975;São Cristóvão-Neves-Anguila;1958;seed_evidence
+VGB;2;Q61996551;Antigua-Barbuda-Montserrat;1816;seed_evidence
+ZAF;0;Q258;África do Sul;;seed
+ZAF;1;Q3456382;Republic of South Africa (1961—1994);1961;seed_evidence
+ZAF;2;Q193619;União Sul-Africana;1910;seed_evidence
+DZA;0;Q262;Argélia;;seed
+MAF;0;Q26273;São Martinho;;seed
+MAF;2;Q1953333;Curaçau e Dependências;1815;seed_evidence
+SXM;0;Q26273;São Martinho;;seed
+SXM;1;Q25227;Antilhas Neerlandesas;1954;seed_evidence
+SXM;2;Q1953333;Curaçau e Dependências;1815;seed_evidence
+UZB;0;Q265;Uzbequistão;;seed
+UZB;1;Q15180;União Soviética;1922;seed_evidence
+UZB;1;Q484578;República Socialista Soviética Uzbeque;1924;seed_evidence
+UZB;2;Q2369784;Interwar Latvia;1918;seed_evidence
+UZB;2;Q2305208;Rússia bolchevique;1917;seed_evidence
+UZB;2;Q61291;República Soviética Popular de Corásmia;1920;seed_evidence
+UZB;2;Q75903;República Soviética Socialista Autônoma do Turquestão;1918;seed_evidence
+UZB;2;Q68682;Bukharan People's Soviet Republic;1920;seed_evidence
+COK;0;Q26988;Ilhas Cook;;seed
+IRL;0;Q27;República da Irlanda;;seed
+IRL;1;Q31747;Estado Livre Irlandês;1922;seed_evidence
+IRL;1;Q174193;Reino Unido da Grã-Bretanha e Irlanda;1801;seed_evidence
+IRL;2;Q174193;Reino Unido da Grã-Bretanha e Irlanda;1801;seed_evidence
+IRL;2;Q1140152;República da Irlanda;1919;seed_evidence
+IRL;2;Q215530;Reino da Irlanda;1542;seed_evidence
+BES;0;Q27561;Países Baixos Caribenhos;;seed
+BES;1;Q25227;Antilhas Neerlandesas;1954;seed_evidence
+BES;2;Q1953333;Curaçau e Dependências;1815;seed_evidence
+HUN;0;Q28;Hungria;;seed
+HUN;1;Q16410;República Popular da Hungria;1949;seed_evidence
+HUN;2;Q940741;República da Hungria;1946;seed_evidence
+ESP;0;Q29;Espanha;;seed
+ESP;1;Q766543;Monarquia Hispânica;1479;seed_evidence
+ESP;1;Q80702;Império Espanhol;1402;seed_evidence
+ESP;1;Q497777;Primeira República Espanhola;1873;seed_evidence
+ESP;1;Q199442;Reino de Aragão;1035;seed_evidence
+ESP;1;Q204920;Coroa de Aragão;1164;seed_evidence
+ESP;2;Q21088788;Catholic Monarchy;;seed_evidence
+ESP;2;Q217196;Coroa de Castela;1230;seed_evidence
+ESP;2;Q204920;Coroa de Aragão;1164;seed_evidence
+ESP;2;Q3399982;Reino de Espanha;1700;seed_evidence
+ESP;2;Q2991433;County of Sobrarbe;724;seed_evidence
+ESP;2;Q199688;Califado Almóada;1121;seed_evidence
+ESP;2;Q3572054;Lordship of Albarracin;1167;seed_evidence
+ESP;2;Q1297894;Condado de Ribagorza;900;seed_evidence
+ESP;2;Q1235737;Condado de Aragão;802;seed_evidence
+ESP;2;Q1233672;Condado de Barcelona;801;seed_evidence
+ESP;2;Q199442;Reino de Aragão;1035;seed_evidence
+CHL;0;Q298;Chile;;seed
+USA;0;Q30;Estados Unidos;;seed
+USA;1;Q81931;Estados Confederados da América;1861;seed_evidence
+USA;1;Q7887623;United Colonies;1774;seed_evidence
+USA;2;Q368986;Republic of Mississippi;1861;seed_evidence
+USA;2;Q179997;Treze Colônias;1607;seed_evidence
+PYF;0;Q30971;Polinésia Francesa;;seed
+BEL;0;Q31;Bélgica;;seed
+BEL;1;Q15864;Reino Unido dos Países Baixos;1815;seed_evidence
+BEL;2;Q774783;Soberano Principado dos Países Baixos Unidos;1813;seed_evidence
+NFK;0;Q31057;Ilha Norfolk;;seed
+CXR;0;Q31063;Ilha Christmas;;seed
+LUX;0;Q32;Luxemburgo;;seed
+LUX;1;Q151624;Confederação Germânica;1815;seed_evidence
+LUX;2;Q27306;Reino da Prússia;1701;seed_evidence
+LUX;2;Q154741;Confederação do Reno;1806;seed_evidence
+LUX;2;Q18285930;Império Alemão (1848–1849);1848;seed_evidence
+FIN;0;Q33;Finlândia;;seed
+FIN;1;Q615902;Reino da Finlândia;1918;seed_evidence
+FIN;2;Q1811029;República Socialista dos Trabalhadores da Finlândia;1918;seed_evidence
+FIN;2;Q62633;Grão-Ducado da Finlândia;1809;seed_evidence
+SGP;0;Q334;Singapura;;seed
+NCL;0;Q33788;Nova Caledónia;;seed
+SWE;0;Q34;Suécia;;seed
+NIU;0;Q34020;Niue;;seed
+SPM;0;Q34617;Saint-Pierre e Miquelon;;seed
+LIE;0;Q347;Liechtenstein;;seed
+LIE;1;Q66087897;Q66087897;1719;seed_evidence
+DNK;0;Q35;Dinamarca;;seed
+SGS;0;Q35086;Ilhas Geórgia do Sul e Sandwich do Sul;;seed
+SGS;1;Q5431953;Falkland Islands Dependencies;1843;seed_evidence
+WLF;0;Q35555;Wallis e Futuna;;seed
+PCN;0;Q35672;Ilhas Pitcairn;;seed
+POL;0;Q36;Polónia;;seed
+POL;1;Q221457;Congresso da Polónia;1815;seed_evidence
+POL;1;Q211274;República Popular da Polônia;1944;seed_evidence
+POL;1;Q7308003;Conselho de Regência (Polônia);1917;seed_evidence
+POL;1;Q303836;Republic of Tarnobrzeg;1918;seed_evidence
+POL;1;Q9301958;Rada Narodowa Księstwa Cieszyńskiego;1918;seed_evidence
+POL;2;Q11750128;Kingdom of Poland;1830;seed_evidence
+POL;2;Q152115;ducado de Varsóvia;1807;seed_evidence
+POL;2;Q207272;Segunda República Polonesa;1918;seed_evidence
+CCK;0;Q36004;Ilhas Cocos;;seed
+TKL;0;Q36823;Tokelau;;seed
+LTU;0;Q37;Lituânia;;seed
+LTU;1;Q15180;União Soviética;1922;seed_evidence
+LTU;2;Q2369784;Interwar Latvia;1918;seed_evidence
+LTU;2;Q207272;Segunda República Polonesa;1918;seed_evidence
+LTU;2;Q2305208;Rússia bolchevique;1917;seed_evidence
+GUF;0;Q3769;Guiana Francesa;;seed
+GUF;1;Q1440788;França Equinocial;1612;seed_evidence
+ITA;0;Q38;Itália;;seed
+ITA;1;Q172579;Reino da Itália;1861;seed_evidence
+ITA;2;Q180393;Reino das Duas Sicílias;1738;seed_evidence
+ITA;2;Q548114;Estado Livre de Fiume;1920;seed_evidence
+ITA;2;Q209857;Reino Lombardo-Vêneto;1815;seed_evidence
+ITA;2;Q268970;Áustria Alemã;1918;seed_evidence
+ITA;2;Q131964;Império Austríaco;1804;seed_evidence
+ITA;2;Q2577303;Reino da Sardenha;1720;seed_evidence
+ITA;2;Q165154;Reino da Sardenha;1324;seed_evidence
+ITA;2;Q6006584;Imperial Free City of Trieste;1382;seed_evidence
+CHE;0;Q39;Suíça;;seed
+BHR;0;Q398;Bahrein;;seed
+BHR;1;Q16826607;State of Bahrain;1971;seed_evidence
+BHR;2;Q17061755;Bahrain and its Dependencies;1783;seed_evidence
+ARM;0;Q399;Arménia;;seed
+ARM;1;Q15180;União Soviética;1922;seed_evidence
+ARM;2;Q545205;República Socialista Federativa Soviética Transcaucasiana;1922;seed_evidence
+ARM;2;Q2369784;Interwar Latvia;1918;seed_evidence
+ARM;2;Q2305208;Rússia bolchevique;1917;seed_evidence
+AUT;0;Q40;Áustria;;seed
+AUT;1;Q28513;Áustria-Hungria;1867;seed_evidence
+AUT;2;Q131964;Império Austríaco;1804;seed_evidence
+SRB;0;Q403;Sérvia;;seed
+SRB;1;Q37024;União Estatal da Sérvia e Montenegro;2003;seed_evidence
+SRB;2;Q838261;República Federal da Jugoslávia;1992;seed_evidence
+AUS;0;Q408;Austrália;;seed
+AUS;1;Q174193;Reino Unido da Grã-Bretanha e Irlanda;1801;seed_evidence
+AUS;2;Q215530;Reino da Irlanda;1542;seed_evidence
+GRC;0;Q41;Grécia;;seed
+GRC;1;Q17765809;Third Hellenic Republic;1974;seed_evidence
+ARG;0;Q414;Argentina;;seed
+ARG;1;Q738144;Províncias Unidas do Rio da Prata;1810;seed_evidence
+ARG;2;Q210551;Vice-Reino do Rio da Prata;1776;seed_evidence
+PER;0;Q419;Peru;;seed
+PER;1;Q7251405;Protectorate of San Martín;1821;seed_evidence
+PER;2;Q211435;Vice-Reino do Peru;1542;seed_evidence
+PRK;0;Q423;Coreia do Norte;;seed
+PRK;1;Q18097;Coreia;;seed_evidence
+PRK;1;Q705044;Comitê Popular para a Coreia do Norte;1947;seed_evidence
+PRK;2;Q28179;Dinastia Joseon;1392;seed_evidence
+PRK;2;Q60770428;Comitê Popular Provisório da Coreia do Norte;1946;seed_evidence
+KHM;0;Q424;Camboja;;seed
+TUR;0;Q43;Turquia;;seed
+TUR;1;Q12560;Império Otomano;1299;seed_evidence
+TUR;2;Q6874824;Beylik of Bafra;1400;seed_evidence
+TUR;2;Q178913;Império de Trebizonda;1204;seed_evidence
+TUR;2;Q12544;Império Bizantino;395;seed_evidence
+TUR;2;Q6753657;Maona of Chios and Phocaea;1346;seed_evidence
+TUR;2;Q12536;Califado Abássida;750;seed_evidence
+TUR;2;Q4338046;Beylik of Osman;1299;seed_evidence
+TUR;2;Q127607963;Duchy of Leucas;1360;seed_evidence
+IOT;0;Q43448;Território Britânico do Oceano Índico;;seed
+BLM;0;Q43982;São Bartolomeu;;seed
+PRT;0;Q45;Portugal;;seed
+PRT;1;Q45670;Reino de Portugal;1139;seed_evidence
+PRT;1;Q200464;Império Português;1415;successor_resolved
+PRT;2;Q1139807;Condado Portucalense;868;seed_evidence
+PRT;2;Q199688;Califado Almóada;1121;seed_evidence
+PRT;2;Q903779;Reino Unido de Portugal, Brasil e Algarves;1815;seed_evidence
+FRO;0;Q4628;Ilhas Feroe;;seed
+ATA;0;Q51;Antártida;;seed
+NLD;0;Q55;Países Baixos;;seed
+NLD;1;Q15864;Reino Unido dos Países Baixos;1815;seed_evidence
+NLD;2;Q774783;Soberano Principado dos Países Baixos Unidos;1813;seed_evidence
+ALA;0;Q5689;Åland;;seed
+TLS;0;Q574;Timor-Leste;;seed
+TLS;1;Q142965;Província Ultramarina de Timor;1702;seed_evidence
+PSE;0;Q575187;Territórios ocupados por Israel;;seed
+CYM;0;Q5785;Ilhas Cayman;;seed
+CYM;1;Q652560;Federação das Índias Ocidentais;1958;seed_evidence
+CYM;2;Q920396;Índias Ocidentais Britânicas;1783;seed_evidence
+CYM;2;Q116282722;Colony of Trinidad and Tobago;1889;seed_evidence
+ESH;0;Q6250;Sara Ocidental;;seed
+TCD;0;Q657;Chade;;seed
+NZL;0;Q664;Nova Zelândia;;seed
+NZL;1;Q5148518;Colony of New Zealand;1841;seed_evidence
+IND;0;Q668;Índia;;seed
+IND;1;Q18127928;Mayurbhanj State;1790;seed_evidence
+IND;1;Q104152108;Pathari State;1794;seed_evidence
+IND;1;Q18126780;Kharsawan State;1650;seed_evidence
+IND;1;Q104152109;Rajpur State, Baroda;;seed_evidence
+IND;1;Q17297442;Hasht-Bhaiya;1690;seed_evidence
+IND;1;Q17618911;Malpur State;1466;seed_evidence
+IND;1;Q13389050;Banganapalle State;1790;seed_evidence
+IND;1;Q11946883;Sangri State;;seed_evidence
+IND;1;Q11954352;Wadagam State;1800;seed_evidence
+IND;1;Q11925661;Hindol State;1554;seed_evidence
+IND;1;Q122955960;Nasvadi;;seed_evidence
+IND;1;Q104152102;Kumharsain State;1500;seed_evidence
+IND;1;Q266923;Reino de Mysore;1399;seed_evidence
+IND;1;Q23136942;Kothi State;1800;seed_evidence
+IND;1;Q11905286;Ambliara State;1600;seed_evidence
+IND;1;Q18126222;Janjira State;1489;seed_evidence
+IND;1;Q18111824;Dhrol State;1595;seed_evidence
+IND;1;Q11923882;Gaurihar State;1807;seed_evidence
+IND;1;Q11909106;Beri State;1750;seed_evidence
+IND;1;Q1396700;Faridkot State;1803;seed_evidence
+IND;1;Q104152111;Somna State;1900;seed_evidence
+IND;1;Q11927113;Chaube Jagirs;1812;seed_evidence
+IND;1;Q17311418;Guler State;1415;seed_evidence
+IND;1;Q11927151;Jambughoda State;1400;seed_evidence
+IND;1;Q18126687;Kawardha State;1751;seed_evidence
+IND;1;Q17298275;Surgana State;1800;seed_evidence
+IND;1;Q104151601;Maurha State;1894;seed_evidence
+IND;1;Q104152106;Mundru State;1621;seed_evidence
+IND;1;Q17318475;Chuda State;;seed_evidence
+IND;1;Q11927544;Jhansi State;1804;seed_evidence
+IND;1;Q11916643;Daspalla;1498;seed_evidence
+IND;1;Q16852121;Khaniadhana State;1724;seed_evidence
+IND;1;Q11929623;Kamta-Rajaula;1812;seed_evidence
+IND;1;Q16932578;Nazargunj;1899;seed_evidence
+IND;1;Q104152103;Lathi State;1340;seed_evidence
+IND;1;Q11916768;Dedhrota;1900;seed_evidence
+IND;1;Q17399594;Ranpur State;1700;seed_evidence
+IND;1;Q104152107;Patan State, Rajasthan;1200;seed_evidence
+IND;1;Q17267634;Vijaynagar State;1577;seed_evidence
+IND;1;Q18127026;Kurundvad Junior;1733;seed_evidence
+IND;1;Q18127028;Kurundvad Senior;1733;seed_evidence
+IND;1;Q17514653;Balasinor State;1758;seed_evidence
+IND;1;Q17991935;Pataudi;1804;seed_evidence
+IND;1;Q104151568;Angadh Estate;1874;seed_evidence
+IND;1;Q18129046;Oudh State;1732;seed_evidence
+IND;1;Q104152246;Vallbhapur State;1600;seed_evidence
+IND;1;Q104152100;Kotharia State, Rajkot;1733;seed_evidence
+IND;1;Q18164260;Radhanpur State;1787;seed_evidence
+IND;1;Q11951827;Tigiria State;1600;seed_evidence
+IND;1;Q17513023;Danta State;1061;seed_evidence
+IND;1;Q11949691;Siba State;1450;seed_evidence
+IND;1;Q17513838;Athmallik State;1874;seed_evidence
+IND;1;Q21075471;Limbda;1780;seed_evidence
+IND;1;Q104152105;Mohrampur Jagir State;1580;seed_evidence
+IND;1;Q18127558;Lunavada State;1434;seed_evidence
+IND;1;Q104152097;Bhith Bhagwanpur State;1711;seed_evidence
+IND;1;Q104152096;Balladhdarh State;1710;seed_evidence
+IND;1;Q17198610;Sant State;1255;seed_evidence
+IND;1;Q104152104;Vallavpur State;1434;seed_evidence
+IND;1;Q104152110;Stok jair State;1842;seed_evidence
+IND;1;Q18164343;Principado de Sawantwadi;1627;seed_evidence
+IND;1;Q17244162;Talcher State;1200;seed_evidence
+IND;1;Q11927430;Jawhar State;1343;seed_evidence
+IND;1;Q104151575;Jasrota;1020;seed_evidence
+IND;1;Q104152101;Kulpahar State;1700;seed_evidence
+IND;1;Q14552167;Porbandar State;1193;seed_evidence
+IND;1;Q17342164;Tripura;1809;seed_evidence
+IND;1;Q19669126;Narsinghpur State;1292;seed_evidence
+IND;1;Q19792051;Keonjhar State;1200;seed_evidence
+IND;1;Q15630982;Orissa Tributary States;1888;seed_evidence
+IND;1;Q18008280;Taraon State;1812;seed_evidence
+IND;1;Q11909259;Bhaisunda;1812;seed_evidence
+IND;1;Q17315177;Sambalpur District;1493;seed_evidence
+IND;1;Q16849282;Jafarabad State;1650;seed_evidence
+IND;1;Q28179897;Rajpara State;1811;seed_evidence
+IND;1;Q3530610;Thanjavur Maratha kingdom;1674;seed_evidence
+IND;1;Q11927206;Jaso State;1732;seed_evidence
+IND;1;Q19605411;Pethapur State;1300;seed_evidence
+IND;1;Q11927549;Jigni State;1730;seed_evidence
+IND;1;Q11952191;Tori Fatehpur;1690;seed_evidence
+IND;1;Q14491604;Estado de Junagadh;1748;seed_evidence
+IND;1;Q18126183;Jalaun State;1806;seed_evidence
+IND;1;Q104152343;Vijaipur State;1542;seed_evidence
+IND;1;Q11917045;Dhurwai;1690;seed_evidence
+IND;1;Q12816977;Kanker State;200;seed_evidence
+IND;1;Q65063637;Jesar State;;seed_evidence
+IND;1;Q11916665;Datarpur;1550;seed_evidence
+IND;1;Q18127719;Makrai State;1663;seed_evidence
+IND;1;Q101242375;Varsoda State;745;seed_evidence
+IND;1;Q5105376;Chota Nagpur States;1821;seed_evidence
+IND;1;Q11953949;Umri;1000;seed_evidence
+IND;1;Q17986421;Chhota Udaipur State;1743;seed_evidence
+IND;1;Q104152099;Kotharia State, Rajasthan;1527;seed_evidence
+IND;1;Q2056970;Patna State;1191;seed_evidence
+IND;1;Q2128542;Rairakhol State;1200;seed_evidence
+IND;1;Q807288;Baraundha State;1169;seed_evidence
+IND;1;Q176466;Rewa State;1755;seed_evidence
+IND;1;Q1545942;Nawanagar State;1540;seed_evidence
+IND;1;Q1798703;Sonepur State;1556;seed_evidence
+IND;1;Q855058;Bhor State;1697;seed_evidence
+IND;1;Q854850;Bharatpur State;1680;seed_evidence
+IND;1;Q918500;Bantva Manavadar State;1760;seed_evidence
+IND;1;Q1720882;Cutch State;1147;seed_evidence
+IND;1;Q1785349;Kota State;1613;seed_evidence
+IND;1;Q892061;Bonai State;1200;seed_evidence
+IND;1;Q810557;Bastar State;1853;seed_evidence
+IND;1;Q999297;Maihar State;1778;seed_evidence
+IND;1;Q1681450;Jamkhandi State;1811;seed_evidence
+IND;1;Q806019;Bamra;1545;seed_evidence
+IND;1;Q1784316;Koriya;1600;seed_evidence
+IND;1;Q809955;Bashahr State;1412;seed_evidence
+IND;1;Q932487;Miraj Senior;1820;seed_evidence
+IND;1;Q532048;Sandur State;1713;seed_evidence
+IND;1;Q1683106;Jaora State;1817;seed_evidence
+IND;1;Q1071493;Chhatarpur State;1785;seed_evidence
+IND;1;Q809652;Barwani State;836;seed_evidence
+IND;1;Q894995;Baudh State;1874;seed_evidence
+IND;1;Q1557792;Gwalior State;1761;seed_evidence
+IND;1;Q1963593;Nagod State;1344;seed_evidence
+IND;1;Q1728782;Kapurthala State;1772;seed_evidence
+IND;1;Q1252744;Jind State;1763;seed_evidence
+IND;1;Q932370;Changbhakar;1790;seed_evidence
+IND;1;Q973433;Dungarpur State;1197;seed_evidence
+IND;1;Q1207641;Dhenkanal State;1529;seed_evidence
+IND;1;Q922317;Morvi State;1698;seed_evidence
+IND;1;Q807069;Baoni State;1784;seed_evidence
+IND;1;Q808575;Baroda State;1721;seed_evidence
+IND;1;Q1028095;Cambay State;1730;seed_evidence
+IND;1;Q1683780;Jashpur State;1800;seed_evidence
+IND;1;Q150056;Kingdom of Cochin;1500;seed_evidence
+IND;1;Q657946;Kolhâpur;1707;seed_evidence
+IND;1;Q180235;Wadhwan State;1630;seed_evidence
+IND;1;Q806963;Banswara State;1497;seed_evidence
+IND;1;Q976913;Narsinghgarh State;1681;seed_evidence
+IND;1;Q2128715;Rajgarh State;1681;seed_evidence
+IND;1;Q932393;Raigarh State;1911;seed_evidence
+IND;1;Q914031;Tonk State;1817;seed_evidence
+IND;1;Q1457519;Udaipur State;1818;seed_evidence
+IND;1;Q860407;Kahlur State;697;seed_evidence
+IND;1;Q1261743;Samthar State;1760;seed_evidence
+IND;1;Q1604981;Ratlam State;1652;seed_evidence
+IND;1;Q649310;Idar State;1257;seed_evidence
+IND;1;Q1240096;Estado de Hiderabade;1724;seed_evidence
+IND;1;Q1060520;Chamba State;550;seed_evidence
+IND;1;Q1172600;Datia State;1626;seed_evidence
+IND;1;Q175934;Pratapgarh State;1775;seed_evidence
+IND;1;Q1688822;Jhabua State;1584;seed_evidence
+IND;1;Q1476723;Sachin State;1791;seed_evidence
+IND;1;Q716890;Indore State;1732;seed_evidence
+IND;1;Q657861;Dholpur State;1806;seed_evidence
+IND;1;Q859966;Bikaner State;1465;seed_evidence
+IND;1;Q929357;Nabha State;1763;seed_evidence
+IND;1;Q1588594;Panna State;1731;seed_evidence
+IND;1;Q1951726;Mudhol State;1465;seed_evidence
+IND;1;Q1776972;Ramdurg State;1742;seed_evidence
+IND;1;Q150058;Travancore;1729;seed_evidence
+IND;1;Q1964552;Nandgaon State;1833;seed_evidence
+IND;1;Q854917;Bhavnagar State;1723;seed_evidence
+IND;1;Q917553;Patiala State;1761;seed_evidence
+IND;1;Q668415;Orchha State;1501;seed_evidence
+IND;1;Q1207105;Dewas State;1728;seed_evidence
+IND;1;Q1778255;Sarangarh State;;seed_evidence
+IND;1;Q810432;Basoda State;1753;seed_evidence
+IND;1;Q1375154;Benares State;1770;seed_evidence
+IND;1;Q1951905;Muhammadgarh State;1853;seed_evidence
+IND;1;Q1541353;Sirmoor State;1616;seed_evidence
+IND;1;Q933413;Jath State;1642;seed_evidence
+IND;1;Q1400780;Sailana State;1736;seed_evidence
+IND;1;Q1207561;Dhar State;1728;seed_evidence
+IND;1;Q7180358;Phaltan State;1284;seed_evidence
+IND;1;Q7126114;Pal Lahara State;1100;seed_evidence
+IND;1;Q11944509;Rajouli;-40;seed_evidence
+IND;1;Q4837532;Babariawad;;seed_evidence
+IND;1;Q7126720;Palanpur State;1370;seed_evidence
+IND;1;Q3192661;Kangra-Lambagraon;1400;seed_evidence
+IND;1;Q11937876;Muli State;1470;seed_evidence
+IND;1;Q3200690;Kuthar;1700;seed_evidence
+IND;1;Q2879034;Baghal State;1310;seed_evidence
+IND;1;Q11929746;Khairagarh State;1833;seed_evidence
+IND;1;Q7530545;Sirohi State;1405;seed_evidence
+IND;1;Q11940483;Patdi State;1741;seed_evidence
+IND;1;Q10797411;Nayagarh State;1500;seed_evidence
+IND;1;Q7037080;Nilgiri State;1125;seed_evidence
+IND;1;Q6206774;Jobat State;1500;seed_evidence
+IND;1;Q3195357;Keonthal State;1800;seed_evidence
+IND;1;Q6448442;Kutlehar State;1803;seed_evidence
+IND;1;Q5915498;Tulsipur State;1600;seed_evidence
+IND;1;Q2221701;Sangli State;1801;seed_evidence
+IND;1;Q7905915;Bijawar State;1765;seed_evidence
+IND;1;Q4726842;Alipura State;1757;seed_evidence
+IND;1;Q2290502;Sitamau State;1701;seed_evidence
+IND;1;Q3277580;Carnatic state;1692;seed_evidence
+IND;1;Q1381495;Garhwal Kingdom;1358;seed_evidence
+IND;1;Q7127625;Palitana State;1194;seed_evidence
+IND;1;Q7197455;Piploda State;1547;seed_evidence
+IND;1;Q2276431;Shahpura State;1629;seed_evidence
+IND;1;Q2548416;Wankaner State;1807;seed_evidence
+IND;1;Q16838406;Gangpur State;1821;seed_evidence
+IND;1;Q6156427;Jaoli State;1700;seed_evidence
+IND;1;Q7825423;Torawati;1200;seed_evidence
+IND;1;Q1553143;Alwar State;1770;seed_evidence
+IND;1;Q1607154;Savanur State;1680;seed_evidence
+IND;1;Q5269129;Dharampur State;1262;seed_evidence
+IND;1;Q3454186;Rampur State;1719;seed_evidence
+IND;1;Q2869051;Athgarh State;1178;seed_evidence
+IND;1;Q2624304;Charkhari State;1765;seed_evidence
+IND;1;Q7286362;Rajoli Zamindari Estate;1775;seed_evidence
+IND;1;Q1535236;Kalahandi State;1005;seed_evidence
+IND;1;Q6416549;Kishangarh State;1611;seed_evidence
+IND;1;Q11944704;Ranasan State;1700;seed_evidence
+IND;1;Q6401617;Khilchipur State;1544;seed_evidence
+IND;1;Q6503547;Lawa Thikana;1772;seed_evidence
+IND;1;Q1678787;Jaitpur State;1731;successor_resolved
+IND;1;Q11939770;Pahra;1812;seed_evidence
+IND;1;Q11934705;Malerkotla State;1657;seed_evidence
+IND;1;Q3016348;Darkoti;1100;seed_evidence
+IND;1;Q4726858;Alirajpur State;1437;seed_evidence
+IND;1;Q3488924;Sohawal State;1550;seed_evidence
+IND;1;Q5301066;Ajaigarh State;1765;seed_evidence
+IND;1;Q2368545;Surguja State;1613;seed_evidence
+IND;1;Q2963204;Chhuikhadan State;1750;seed_evidence
+IND;1;Q11929645;Kapshi Estate;1750;seed_evidence
+IND;1;Q6164350;Jaswan;1170;seed_evidence
+IND;1;Q3241025;Limbdi State;1500;seed_evidence
+IND;1;Q6748050;Mandi State;1290;seed_evidence
+IND;1;Q7403120;Sakti State;1800;seed_evidence
+IND;1;Q11944481;Raghogarh State;1673;seed_evidence
+IND;1;Q16839606;Gondal State;1634;seed_evidence
+IND;1;Q4857117;Bansda;1781;seed_evidence
+IND;1;Q3315863;Miraj Junior;1820;seed_evidence
+IND;1;Q3963975;Akkalkot State;1725;seed_evidence
+IND;1;Q7127047;Paldeo State;1812;seed_evidence
+IND;1;Q6368814;Karauli State;1348;seed_evidence
+IND;1;Q11929762;Khandpara State;1599;seed_evidence
+IND;1;Q2571484;Jamu e Caxemira;1846;seed_evidence
+IND;1;Q7423761;Sardargarh Bantva;1760;seed_evidence
+IND;1;Q3025690;Dhami (state);1815;seed_evidence
+IND;1;Q1678784;Jaisalmer State;1156;seed_evidence
+IND;1;Q4997536;Bundi State;1342;seed_evidence
+IND;1;Q16829581;Dhrangadhra State;1742;seed_evidence
+IND;1;Q1261339;Jhalawar State;1838;seed_evidence
+IND;1;Q7422962;Saraikela State;1620;seed_evidence
+IND;1;Q3503368;Suket State;765;seed_evidence
+IND;1;Q11937172;Mohanpur State;1227;seed_evidence
+IND;1;Q11931118;Lakhtar State;1604;seed_evidence
+IND;1;Q2871819;Aundh State;1699;seed_evidence
+IND;1;Q2902467;Beja State;1800;seed_evidence
+IND;1;Q3535371;Pudukkottai State;1680;seed_evidence
+IND;1;Q3258086;Loharu State;1806;seed_evidence
+IND;1;Q6747689;Manda (zamindari);1542;seed_evidence
+IND;1;Q2128743;Rajkot State;1620;seed_evidence
+IND;1;Q2884562;Baria State;1524;seed_evidence
+IND;1;Q85774522;Jeypore Estate;1453;seed_evidence
+IND;1;Q1534153;Vallabhi;1740;seed_evidence
+IND;1;Q520403;Baghat State;1600;seed_evidence
+IND;1;Q918204;Rajpipla State;1340;seed_evidence
+IND;1;Q6207845;Jodhpur State;1250;seed_evidence
+IND;1;Q642037;Bhajji State;1800;seed_evidence
+IND;1;Q509572;Cooch Behar;1586;seed_evidence
+IND;1;Q6124144;Jaipur State;1128;seed_evidence
+IND;1;Q17319155;Kingdom of Mewar;1666;seed_evidence
+IND;1;Q889030;Kingdom of Manipur;1110;seed_evidence
+IND;1;Q932359;Kalsia State;1760;seed_evidence
+IND;1;Q855044;Estado de Bhopal;1723;seed_evidence
+IND;1;Q129286;Raj Britânico;1858;successor_resolved
+IND;1;Q65085646;Tanjung Surat;;seed_evidence
+IND;2;Q167639;Reino de Bisnaga;1336;seed_evidence
+IND;2;Q1545942;Nawanagar State;1540;seed_evidence
+IND;2;Q668;Índia;1947;seed_evidence
+IND;2;Q3192661;Kangra-Lambagraon;1400;seed_evidence
+IND;2;Q83618;Império Maratha;1674;seed_evidence
+IND;2;Q83618;Império Maratha;1674;seed_evidence
+IND;2;Q83618;Império Maratha;1674;seed_evidence
+IND;2;Q17311418;Guler State;1415;seed_evidence
+IND;2;Q83618;Império Maratha;1674;seed_evidence
+IND;2;Q1588434;Reino de Tanjavur;1532;seed_evidence
+IND;2;Q83618;Império Maratha;1674;seed_evidence
+IND;2;Q83618;Império Maratha;1674;seed_evidence
+IND;2;Q17311418;Guler State;1415;seed_evidence
+IND;2;Q83618;Império Maratha;1674;seed_evidence
+IND;2;Q83618;Império Maratha;1674;seed_evidence
+IND;2;Q83618;Império Maratha;1674;seed_evidence
+IND;2;Q83618;Império Maratha;1674;seed_evidence
+IND;2;Q83618;Império Maratha;1674;seed_evidence
+IND;2;Q2578028;Sikh Confederacy;1748;seed_evidence
+IND;2;Q83618;Império Maratha;1674;seed_evidence
+IND;2;Q83618;Império Maratha;1674;seed_evidence
+IND;2;Q83618;Império Maratha;1674;seed_evidence
+IND;2;Q19605411;Pethapur State;1300;seed_evidence
+IND;2;Q33296;Império Mogol;1526;seed_evidence
+IND;2;Q83618;Império Maratha;1674;seed_evidence
+IND;2;Q877155;Chera dynasty;800;seed_evidence
+IND;2;Q83618;Império Maratha;1674;seed_evidence
+IND;2;Q83618;Império Maratha;1674;seed_evidence
+IND;2;Q83618;Império Maratha;1674;seed_evidence
+IND;2;Q33296;Império Mogol;1526;seed_evidence
+IND;2;Q111016259;Sheikhsar State;;seed_evidence
+IND;2;Q33296;Império Mogol;1526;seed_evidence
+IND;2;Q83618;Império Maratha;1674;seed_evidence
+IND;2;Q83618;Império Maratha;1674;seed_evidence
+IND;2;Q3532158;Venad;1100;seed_evidence
+IND;2;Q83618;Império Maratha;1674;seed_evidence
+IND;2;Q83618;Império Maratha;1674;seed_evidence
+IND;2;Q83618;Império Maratha;1674;seed_evidence
+IND;2;Q83618;Império Maratha;1674;seed_evidence
+IND;2;Q83618;Império Maratha;1674;seed_evidence
+IND;2;Q33296;Império Mogol;1526;seed_evidence
+IND;2;Q83618;Império Maratha;1674;seed_evidence
+IND;2;Q83618;Império Maratha;1674;seed_evidence
+IND;2;Q6124144;Jaipur State;1128;seed_evidence
+IND;2;Q83618;Império Maratha;1674;seed_evidence
+IND;2;Q3192661;Kangra-Lambagraon;1400;seed_evidence
+IND;2;Q33296;Império Mogol;1526;seed_evidence
+IND;2;Q83618;Império Maratha;1674;seed_evidence
+IND;2;Q83618;Império Maratha;1674;seed_evidence
+IND;2;Q1395011;Chalukya;543;seed_evidence
+IND;2;Q83618;Império Maratha;1674;seed_evidence
+IND;2;Q28913445;Trankebar;1620;seed_evidence
+IND;2;Q1335260;Emirado do Afeganistão;1823;seed_evidence
+IND;2;Q6427080;Kolathunadu;-60;seed_evidence
+IND;2;Q1678787;Jaitpur State;1731;successor_resolved
+IND;2;Q2001966;Governo da Companhia Britânica das Índias Orientais na Índia;1757;seed_evidence
+TUV;0;Q672;Tuvalu;;seed
+TUV;1;Q21815222;Territory of Tuvalu;;seed_evidence
+TUV;1;Q3593530;Ellice Islands;1892;seed_evidence
+TUV;2;Q1050859;Ilhas Gilbert e Ellice;1916;seed_evidence
+TON;0;Q678;Tonga;;seed
+TON;1;Q17197946;British Tonga;1900;seed_evidence
+WSM;0;Q683;Samoa;;seed
+SLB;0;Q685;Ilhas Salomão;;seed
+SLB;1;Q13410267;Protetorado Britânico das Ilhas Salomão;1893;seed_evidence
+SLB;2;Q165008;Nova Guiné Alemã;1885;seed_evidence
+VUT;0;Q686;Vanuatu;;seed
+VUT;1;Q752431;Novas Hébridas;1907;seed_evidence
+VUT;1;Q99868017;Q99868017;1957;seed_evidence
+PNG;0;Q691;Papua-Nova Guiné;;seed
+PNG;1;Q4393602;República de Salomão do Norte;1975;seed_evidence
+PLW;0;Q695;Palau;;seed
+NRU;0;Q697;Nauru;;seed
+NRU;1;Q21816219;Trust Territory of Nauru;1947;seed_evidence
+NRU;2;Q104177909;Territory of Nauru;1920;seed_evidence
+FSM;0;Q702;Micronésia;;seed
+MHL;0;Q709;Ilhas Marshall;;seed
+KIR;0;Q710;Kiribati;;seed
+MNG;0;Q711;Mongólia;;seed
+MNG;1;Q12060881;Chinese Empire;-21;successor_resolved
+FJI;0;Q712;Fiji;;seed
+FJI;1;Q5148320;Colônia de Fiji;1874;seed_evidence
+FJI;1;Q5291089;Dominion of Fiji;1970;seed_evidence
+VEN;0;Q717;Venezuela;;seed
+VEN;1;Q199821;Grã-Colômbia;1819;seed_evidence
+VEN;2;Q8965;Vice-Reino de Nova Granada;1717;seed_evidence
+SUR;0;Q730;Suriname;;seed
+SUR;1;Q19901436;Suriname;1954;seed_evidence
+SUR;2;Q7646305;Suriname;1667;seed_evidence
+PRY;0;Q733;Paraguai;;seed
+GUY;0;Q734;Guiana;;seed
+GUY;1;Q5622720;Commonwealth realm of Guyana;1966;seed_evidence
+GUY;2;Q918126;Guiana Britânica;1814;seed_evidence
+ECU;0;Q736;Equador;;seed
+ECU;1;Q199821;Grã-Colômbia;1819;seed_evidence
+ECU;2;Q8965;Vice-Reino de Nova Granada;1717;seed_evidence
+COL;0;Q739;Colômbia;;seed
+COL;1;Q6037274;Nação Misquita;1687;seed_evidence
+COL;1;Q1061488;Estados Unidos da Colômbia;1863;seed_evidence
+COL;2;Q1141215;Confederação Granadina;1858;seed_evidence
+BOL;0;Q750;Bolívia;;seed
+TTO;0;Q754;Trindade e Tobago;;seed
+TTO;1;Q2660774;British Windward Islands;1833;successor_resolved
+TTO;1;Q7842409;Trinidad and Tobago;1962;seed_evidence
+TTO;1;Q652560;Federação das Índias Ocidentais;1958;seed_evidence
+TTO;2;Q63973349;Colônia de Barbados;1627;seed_evidence
+TTO;2;Q652560;Federação das Índias Ocidentais;1958;seed_evidence
+TTO;2;Q116282722;Colony of Trinidad and Tobago;1889;seed_evidence
+TTO;2;Q2660774;British Windward Islands;1833;successor_resolved
+TTO;2;Q920396;Índias Ocidentais Britânicas;1783;seed_evidence
+TTO;2;Q116282722;Colony of Trinidad and Tobago;1889;seed_evidence
+TJK;0;Q755194;Tadjiquistão nos Jogos Olímpicos;;seed
+VCT;0;Q757;São Vicente e Granadinas;;seed
+VCT;1;Q15240384;Saint Vincent;;seed_evidence
+VCT;1;Q652560;Federação das Índias Ocidentais;1958;seed_evidence
+VCT;2;Q652560;Federação das Índias Ocidentais;1958;seed_evidence
+VCT;2;Q920396;Índias Ocidentais Britânicas;1783;seed_evidence
+VCT;2;Q116282722;Colony of Trinidad and Tobago;1889;seed_evidence
+LCA;0;Q760;Santa Lúcia;;seed
+LCA;1;Q15238409;Colony of Saint Lucia;;seed_evidence
+LCA;1;Q652560;Federação das Índias Ocidentais;1958;seed_evidence
+LCA;2;Q920396;Índias Ocidentais Britânicas;1783;seed_evidence
+LCA;2;Q116282722;Colony of Trinidad and Tobago;1889;seed_evidence
+KNA;0;Q763;São Cristóvão e Neves;;seed
+JAM;0;Q766;Jamaica;;seed
+JAM;1;Q2526023;Colony of Jamaica;1655;successor_resolved
+JAM;1;Q652560;Federação das Índias Ocidentais;1958;seed_evidence
+JAM;2;Q920396;Índias Ocidentais Britânicas;1783;seed_evidence
+JAM;2;Q2526023;Colony of Jamaica;1655;successor_resolved
+JAM;2;Q116282722;Colony of Trinidad and Tobago;1889;seed_evidence
+GRD;0;Q769;Granada;;seed
+GRD;1;Q652560;Federação das Índias Ocidentais;1958;seed_evidence
+GRD;2;Q920396;Índias Ocidentais Britânicas;1783;seed_evidence
+GRD;2;Q116282722;Colony of Trinidad and Tobago;1889;seed_evidence
+URY;0;Q77;Uruguai;;seed
+URY;1;Q8842946;Estado Oriental do Uruguai;1830;seed_evidence
+GTM;0;Q774;Guatemala;;seed
+GTM;1;Q68257522;State of Guatemala;1824;seed_evidence
+BHS;0;Q778;Bahamas;;seed
+BHS;1;Q920396;Índias Ocidentais Britânicas;1783;seed_evidence
+ATG;0;Q781;Antígua e Barbuda;;seed
+ATG;1;Q652560;Federação das Índias Ocidentais;1958;seed_evidence
+ATG;2;Q920396;Índias Ocidentais Britânicas;1783;seed_evidence
+ATG;2;Q116282722;Colony of Trinidad and Tobago;1889;seed_evidence
+HND;0;Q783;Honduras;;seed
+HND;1;Q68253870;State of Honduras;1824;seed_evidence
+HND;1;Q6037274;Nação Misquita;1687;seed_evidence
+DMA;0;Q784;Dominica;;seed
+DMA;1;Q652560;Federação das Índias Ocidentais;1958;seed_evidence
+DMA;2;Q920396;Índias Ocidentais Britânicas;1783;seed_evidence
+DMA;2;Q116282722;Colony of Trinidad and Tobago;1889;seed_evidence
+JEY;0;Q785;Jersey;;seed
+DOM;0;Q786;República Dominicana;;seed
+EGY;0;Q79;Egito;;seed
+EGY;1;Q2051582;All-Palestine Government;1948;seed_evidence
+EGY;1;Q124943;Reino do Egito;1922;seed_evidence
+EGY;2;Q370173;Sultanato do Egipto;1914;seed_evidence
+HTI;0;Q790;Haiti;;seed
+HTI;1;Q2979717;Império do Haiti;1849;seed_evidence
+HTI;1;Q861551;Saint-Domingue;1626;seed_evidence
+HTI;2;Q95408244;Republic of Haiti (1820–1849);1820;seed_evidence
+SLV;0;Q792;El Salvador;;seed
+IRN;0;Q794;Irão;;seed
+IRN;1;Q107258515;Irã Pahlavi;1925;seed_evidence
+IRN;2;Q63158027;Irã Cajar;1796;seed_evidence
+IRQ;0;Q796;Iraque;;seed
+IRQ;1;Q965174;Autoridade Provisória da Coalizão;2003;seed_evidence
+IRQ;1;Q149805;Reino do Iraque;1921;seed_evidence
+IRQ;2;Q146720;Mandato Britânico da Mesopotâmia;1920;seed_evidence
+CRI;0;Q800;Costa Rica;;seed
+CRI;1;Q6037274;Nação Misquita;1687;seed_evidence
+ISR;0;Q801;Israel;;seed
+ISR;1;Q193714;Mandato Britânico da Palestina;1920;seed_evidence
+PAN;0;Q804;Panamá;;seed
+PAN;1;Q6037274;Nação Misquita;1687;seed_evidence
+PAN;1;Q1061488;Estados Unidos da Colômbia;1863;seed_evidence
+PAN;2;Q1141215;Confederação Granadina;1858;seed_evidence
+YEM;0;Q805;Iémen;;seed
+YEM;1;Q267584;República Árabe do Iémen;1962;seed_evidence
+YEM;1;Q199841;Iémen do Sul;1967;seed_evidence
+YEM;2;Q580188;Reino do Iêmen;1918;seed_evidence
+YEM;2;Q834486;Federação da Arábia do Sul;1962;seed_evidence
+YEM;2;Q1517772;Protectorate of South Arabia;1963;seed_evidence
+JOR;0;Q810;Jordânia;;seed
+JOR;1;Q193714;Mandato Britânico da Palestina;1920;seed_evidence
+NIC;0;Q811;Nicarágua;;seed
+NIC;1;Q68257039;State of Nicaragua;1824;seed_evidence
+NIC;1;Q6037274;Nação Misquita;1687;seed_evidence
+KGZ;0;Q813;Quirguistão;;seed
+KGZ;1;Q15180;União Soviética;1922;seed_evidence
+KGZ;2;Q2369784;Interwar Latvia;1918;seed_evidence
+KGZ;2;Q2305208;Rússia bolchevique;1917;seed_evidence
+KWT;0;Q817;Kuwait;;seed
+KWT;1;Q868942;República do Kuwait;1990;seed_evidence
+LAO;0;Q819;Laos;;seed
+LBN;0;Q822;Líbano;;seed
+MDV;0;Q826;Maldivas;;seed
+MDV;1;Q150069;República Unida da Suvadiva;1959;seed_evidence
+MDV;1;Q11344632;Sultanate of the Maldives;1153;seed_evidence
+MDV;2;Q11344632;Sultanate of the Maldives;1153;seed_evidence
+MYS;0;Q833;Malásia;;seed
+MYS;1;Q16933920;North Borneo;1946;seed_evidence
+MYS;1;Q5589708;Colônia de Sarawak;1946;seed_evidence
+MYS;1;Q1479726;Federação da Malásia;1948;seed_evidence
+MYS;2;Q1658411;Reino de Sarawak;1841;seed_evidence
+MYS;2;Q976099;União Malaia;1946;seed_evidence
+NPL;0;Q837;Nepal;;seed
+NPL;1;Q1078602;Reino do Nepal;1768;seed_evidence
+NPL;2;Q2366229;Malla;;seed_evidence
+OMN;0;Q842;Omã;;seed
+OMN;1;Q2342282;Oman proper;751;seed_evidence
+SJM;0;Q842829;Svalbard e Jan Mayen;;seed
+PAK;0;Q843;Paquistão;;seed
+PAK;1;Q2006542;Domínio do Paquistão;1947;seed_evidence
+PAK;2;Q28913445;Trankebar;1620;seed_evidence
+PAK;2;Q1335260;Emirado do Afeganistão;1823;seed_evidence
+PAK;2;Q6427080;Kolathunadu;-60;seed_evidence
+PAK;2;Q2001966;Governo da Companhia Britânica das Índias Orientais na Índia;1757;seed_evidence
+PAK;2;Q3249587;Khairpur State;1775;seed_evidence
+PAK;2;Q372426;Nagar State;1400;seed_evidence
+PAK;2;Q2841472;Amb State;1900;seed_evidence
+PAK;2;Q14957246;Hunza State;1600;seed_evidence
+PAK;2;Q3246260;Swat State;1849;seed_evidence
+PAK;2;Q2989469;Makran;1701;seed_evidence
+PAK;2;Q7260195;The Punial State;;seed_evidence
+PAK;2;Q3246273;Phulra;1828;seed_evidence
+PAK;2;Q28172756;Jandol State;1830;seed_evidence
+PAK;2;Q1806438;Las Bela State;1742;seed_evidence
+PAK;2;Q800236;Bahawalpur State;1690;seed_evidence
+PAK;2;Q11317232;Chitral State;1571;seed_evidence
+PAK;2;Q2989491;Kharan State;1697;seed_evidence
+PAK;2;Q104152114;Q104152114;1640;seed_evidence
+PAK;2;Q139948;Khanate of Kalat;1638;seed_evidence
+PAK;2;Q3243592;Dir State;1900;seed_evidence
+QAT;0;Q846;Catar;;seed
+SAU;0;Q851;Arábia Saudita;;seed
+SAU;1;Q1756546;Reino do Hejaz e Nejd;1926;seed_evidence
+SAU;1;Q56885910;Emirate of Diriyah;1447;seed_evidence
+SAU;2;Q956357;Reino do Hejaz;1916;seed_evidence
+LKA;0;Q854;Sri Lanka;;seed
+LKA;1;Q2670092;Domínio do Ceilão;1948;seed_evidence
+LKA;2;Q918153;Ceilão britânico;1815;seed_evidence
+SYR;0;Q858;Síria;;seed
+SYR;1;Q131404661;Síria Baathista;1963;seed_evidence
+SYR;2;Q146885;República Síria;1930;seed_evidence
+TWN;0;Q865;Taiwan;;seed
+TWN;1;Q13426199;República da China;1912;seed_evidence
+TWN;1;Q8733;Dinastia Qing;1636;successor_resolved
+TWN;1;Q137816;Taiwan sob domínio japonês;1895;seed_evidence
+TWN;2;Q8733;Dinastia Qing;1636;successor_resolved
+TWN;2;Q9903;Dinastia Ming;1368;seed_evidence
+TWN;2;Q1062546;Dinastia Jin Posterior;1616;seed_evidence
+TWN;2;Q1178974;Xi dynasty;1643;seed_evidence
+TWN;2;Q1198163;Dinastia Ming do Sul;1644;seed_evidence
+TWN;2;Q3486676;Reino Celestial Taiping;1851;seed_evidence
+TWN;2;Q152855;Reino de Tungning;1661;seed_evidence
+TWN;2;Q2370784;dinastia Shun;1644;seed_evidence
+TWN;2;Q1923401;Canato de Zungar;1635;seed_evidence
+TWN;2;Q391189;Taiwan under Qing dynasty rule;1683;seed_evidence
+TWN;2;Q319881;República de Formosa;1895;seed_evidence
+THA;0;Q869;Tailândia;;seed
+THA;1;Q1155700;Reino Rattanakosin;1782;seed_evidence
+THA;2;Q7416493;Kingdom of Reman;1810;seed_evidence
+THA;2;Q1115291;Reino de Thonburi;1768;seed_evidence
+THA;2;Q4202331;Kingdom of Chiangmai;1802;seed_evidence
+TKM;0;Q874;Turquemenistão;;seed
+TKM;1;Q15180;União Soviética;1922;seed_evidence
+TKM;2;Q2369784;Interwar Latvia;1918;seed_evidence
+TKM;2;Q2305208;Rússia bolchevique;1917;seed_evidence
+ARE;0;Q878;Emirados Árabes Unidos;;seed
+ARE;1;Q1852345;Estados da Trégua;1820;seed_evidence
+VNM;0;Q881;Vietname;;seed
+VNM;1;Q1072362;República do Vietname do Sul;1969;seed_evidence
+VNM;1;Q172640;Vietname do Norte;1945;seed_evidence
+VNM;1;Q430309;Đại Việt;1428;seed_evidence
+VNM;2;Q180573;Vietname do Sul;1955;seed_evidence
+VNM;2;Q701337;Império do Vietnã;1945;seed_evidence
+VNM;2;Q185682;Indochina Francesa;1887;seed_evidence
+VNM;2;Q10841085;Dai Co Viet;;seed_evidence
+VNM;2;Q10841085;Dai Co Viet;;seed_evidence
+KOR;0;Q884;Coreia do Sul;;seed
+KOR;1;Q18097;Coreia;;seed_evidence
+KOR;2;Q28179;Dinastia Joseon;1392;seed_evidence
+AFG;0;Q889;Afeganistão;;seed
+BGD;0;Q902;Bangladesh;;seed
+MLI;0;Q912;Mali;;seed
+MLI;1;Q216632;Federação do Mali;1959;seed_evidence
+MLI;1;Q508014;Sudão Francês;1880;seed_evidence
+MLI;1;Q210682;África Ocidental Francesa;1895;seed_evidence
+MLI;2;Q3456487;Sudanese Republic;1958;seed_evidence
+MLI;2;Q3090194;Khasso;1681;seed_evidence
+MLI;2;Q797440;Alto Volta francês;1919;seed_evidence
+MLI;2;Q568712;Império de Uassulu;1878;seed_evidence
+MLI;2;Q536476;Império Tuculor;1836;seed_evidence
+AGO;0;Q916;Angola;;seed
+AGO;1;Q2208280;República Popular de Angola;1975;seed_evidence
+BTN;0;Q917;Butão;;seed
+BRN;0;Q921;Brunei;;seed
+TZA;0;Q924;Tanzânia;;seed
+TZA;1;Q157535;República Popular de Zanzibar e Pemba;1964;seed_evidence
+TZA;1;Q431731;Tanganica;1961;seed_evidence
+TZA;2;Q3574782;Zanzibar Protectorate;1890;seed_evidence
+TZA;2;Q19929935;Commonwealth realm of Tanganyika;1961;seed_evidence
+PHL;0;Q928;Filipinas;;seed
+PHL;1;Q146328;Comunidade das Filipinas;1935;seed_evidence
+CAF;0;Q929;República Centro-Africana;;seed
+CAF;1;Q189988;Império Centro-Africano;1976;seed_evidence
+TGO;0;Q945;Togo;;seed
+TGO;1;Q797214;Togolândia francesa;1916;seed_evidence
+TUN;0;Q948;Tunísia;;seed
+TUN;1;Q4899891;Beylik of Tunis;1705;seed_evidence
+TUN;1;Q2017684;Protetorado Francês da Tunísia;1881;seed_evidence
+ZMB;0;Q953;Zâmbia;;seed
+ZMB;1;Q953903;Rodésia do Norte;1924;seed_evidence
+ZMB;2;Q96964585;Northern Rhodesia;;seed_evidence
+ZMB;2;Q20312596;Barotziland-North-Western Rhodesia;1899;seed_evidence
+ZWE;0;Q954;Zimbábue;;seed
+ZWE;1;Q750583;Rodésia do Sul;1923;seed_evidence
+ZWE;2;Q890120;Zimbabwe-Rodésia;1979;seed_evidence
+SSD;0;Q958;Sudão do Sul;;seed
+MEX;0;Q96;México;;seed
+MEX;1;Q671658;República do Iucatã;1841;seed_evidence
+MEX;1;Q2608489;Aztec Empire;1325;seed_evidence
+MEX;1;Q170603;Vice-Reino da Nova Espanha;1521;seed_evidence
+MEX;1;Q285658;Primeiro Império Mexicano;1822;seed_evidence
+MEX;1;Q5788450;Restored Republic;1867;seed_evidence
+MEX;2;Q5062192;República Centralista (México);1835;seed_evidence
+MEX;2;Q796651;Azcapotzalco;995;seed_evidence
+MEX;2;Q20978063;Kingdom of New Spain;1521;seed_evidence
+MEX;2;Q170603;Vice-Reino da Nova Espanha;1521;seed_evidence
+MEX;2;Q371334;Segundo Império Mexicano;1864;seed_evidence
+BEN;0;Q962;Benim;;seed
+BEN;1;Q210682;África Ocidental Francesa;1895;seed_evidence
+BEN;2;Q536476;Império Tuculor;1836;seed_evidence
+BWA;0;Q963;Botsuana;;seed
+BWA;1;Q747314;Protetorado de Bechuanalândia;1885;seed_evidence
+FLK;0;Q9648;Ilhas Malvinas;;seed
+BFA;0;Q965;Burquina Fasso;;seed
+BFA;1;Q58053082;Emirate of Liptako;1809;seed_evidence
+BFA;1;Q797422;Alto Volta;1958;seed_evidence
+BFA;1;Q210682;África Ocidental Francesa;1895;seed_evidence
+BFA;2;Q797440;Alto Volta francês;1919;seed_evidence
+BFA;2;Q536476;Império Tuculor;1836;seed_evidence
+BDI;0;Q967;Burundi;;seed
+BDI;1;Q1192936;Reino de Burundi;1680;seed_evidence
+IMN;0;Q9676;Ilha de Man;;seed
+COM;0;Q970;Comores;;seed
+COM;1;Q16674377;Federal Islamic Republic of the Comoros;1978;seed_evidence
+COM;1;Q5501842;French Madagascar;1897;seed_evidence
+COM;2;Q16685842;State of the Comoros;1975;seed_evidence
+COM;2;Q1071439;Reino de Madagascar;1540;seed_evidence
+COM;2;Q16540904;Colony of Mayotte and Dependencies;1886;seed_evidence
+COM;2;Q25424205;Sultanate of Mohéli;1830;seed_evidence
+COG;0;Q971;República do Congo;;seed
+COG;1;Q1152126;República Popular do Congo;1969;seed_evidence
+DJI;0;Q977;Djibouti;;seed
+DJI;1;Q1450765;Território Francês dos Afars e Issas;1967;seed_evidence
+DJI;2;Q333126;Somalilândia Francesa;1896;seed_evidence
+GNQ;0;Q983;Guiné Equatorial;;seed
+GNQ;1;Q1232509;Guiné Espanhola;1926;seed_evidence
+ERI;0;Q986;Eritreia;;seed

@@ -12,24 +12,50 @@ from services.i18n_boot import _ensure_lang_state
 from utils.subnav import subnav
 from views.migration_tables import render_country_migration_tables
 from views.languages import render_country_languages_line, render_country_languages_expander
-from views.wars_battles_monarchy import render_wars_battles_expander,render_monarchy_expander
+from views.render_monarchy_expander import render_monarchy_expander
+from views.origins import render_origins_expander
+from views.colonizacao import render_colonization_expander
+from views.render_wars_battles_expander import render_wars_battles_expander
 # -------------------------- Helpers --------------------------
+
 def _paises_submenu() -> str:
-    """Submenu de Países (aparece imediatamente ao render)."""
-    mode = subnav(
-        "paises",
-        [
-            ("ov",    tr("subnav.visao_global") if "subnav.visao_global" in tr.__code__.co_consts else "Visão global"),
-            ("demog", tr("subnav.demografia")   if "subnav.demografia"   in tr.__code__.co_consts else "Demografia"),
-            ("hist",  tr("subnav.historia")     if "subnav.historia"     in tr.__code__.co_consts else "História"),
-            
-            
-            
-        ],
-        default=st.session_state.get("paises_mode", "ov"),
+    """Submenu de Países (aparece imediatamente ao render). Retorna a key da aba."""
+    # etiquetas a partir do i18n
+    try:
+        label_ov    = tr("subnav.visao_global")
+        label_demog = tr("subnav.demografia_pais")
+        label_hist  = tr("subnav.historia")
+    except Exception:
+        # fallback simples caso tr() não esteja disponível
+        label_ov, label_demog, label_hist = "Visão global", "Demografia", "História"
+
+    tabs = [
+        ("ov",    label_ov),
+        ("demog", label_demog),
+        ("hist",  label_hist),
+    ]
+
+    keys   = [k for k, _ in tabs]
+    labels = {k: v for k, v in tabs}
+
+    # valor atual (persistido) ou default
+    cur = st.session_state.get("paises_mode", "ov")
+    if cur not in keys:
+        cur = "ov"
+
+    # selector horizontal
+    mode = st.radio(
+        label="",
+        options=keys,
+        index=keys.index(cur),
+        format_func=lambda k: labels[k],
+        horizontal=True,
     )
+
+    # persistir e devolver
     st.session_state["paises_mode"] = mode
     return mode
+
 
 def _colcfg_leadership():
     return {
@@ -87,17 +113,14 @@ def _fmt_year(x) -> str:
 
 def _country_selector(countries_df: pd.DataFrame) -> tuple[str | None, str | None]:
     """
-    - Pesquisa + select + botão numa única linha.
-    - Labels PT/EN (fallback para 'name' ou iso3).
-    - Mantém seleção entre sub-abas (session_state).
-    - Se não houver submit, devolve a seleção corrente para as outras sub-abas renderizarem.
+    Pesquisa + select + botão numa linha, sem mexer no session_state do select.
+    'paises_iso3' é a única fonte de verdade. O índice do select é calculado a partir dela.
     """
-    lang = st.session_state.get("lang", "pt")
+    lang = st.session_state.get("lang", "pt").lower()
 
     df = countries_df.copy()
-    df["iso3u"] = df["iso3"].astype(str).str.upper()
+    df["iso3u"] = df["iso3"].astype(str).str.upper().str.strip()
 
-    # label por idioma
     if lang == "pt" and "name_pt" in df.columns:
         df["label"] = df["name_pt"].astype(str)
     elif lang != "pt" and "name_en" in df.columns:
@@ -110,10 +133,12 @@ def _country_selector(countries_df: pd.DataFrame) -> tuple[str | None, str | Non
     label_by_iso = dict(zip(df["iso3u"], df["label"]))
     iso_by_label = {v: k for k, v in label_by_iso.items()}
 
+    placeholder_label = tr("labels.selecione_um_pais")
+
     with st.form("pais_form", clear_on_submit=False):
         col_q, col_sel, col_btn = st.columns([3, 7, 2], gap="small")
 
-        # --- pesquisa (coluna 1) ---
+        # campo de pesquisa
         with col_q:
             q = st.text_input(
                 tr("paises.pesquisar_nome_contem"),
@@ -121,54 +146,61 @@ def _country_selector(countries_df: pd.DataFrame) -> tuple[str | None, str | Non
                 placeholder=tr("paises.placeholder_pesquisa"),
                 key="paises_search",
                 label_visibility="collapsed",
-            ).strip().lower()
-
-        # filtra opções com base na pesquisa
-        opts = df if not q else df[df["label"].str.lower().str.contains(q)]
-        options = opts["label"].tolist()
-
-        # valor atualmente guardado (para manter seleção entre sub-abas)
-        cur_iso = st.session_state.get("paises_iso3")
-        cur_label = label_by_iso.get(cur_iso) if cur_iso else None
-        idx = options.index(cur_label) if cur_label in options else None
-
-        # garantir que o selectbox recebe uma lista não vazia
-        options_safe = options if options else [""]
-        idx_safe = idx if options else 0
-
-        # --- select (coluna 2) ---
-        with col_sel:
-            chosen_label = st.selectbox(
-                tr("labels.pa_s"),
-                options=options_safe,
-                index=idx_safe,
-                key="paises_country_select",     # key ESTÁVEL entre sub-abas
-                label_visibility="collapsed",
-                placeholder=tr("labels.selecione_um_pais"),
             )
-            # se colocámos [""] só para não rebentar o select, trata como None
-            if options == []:
-                chosen_label = None
-                st.warning(tr("labels.nenhum_pa_s_corresponde_ao_filtro"))
 
-        # --- botão (coluna 3) ---
+        # filtra labels conforme pesquisa
+        if q:
+            opts = df[df["label"].str.contains(q, case=False, na=False)]
+        else:
+            opts = df
+
+        labels = opts["label"].tolist()
+        options_ui = [placeholder_label] + labels
+
+        # índice calculado apenas a partir de paises_iso3 (fonte de verdade)
+        cur_iso = st.session_state.get("paises_iso3")
+        cur_lbl = label_by_iso.get(cur_iso) if cur_iso else None
+        if cur_lbl and cur_lbl in options_ui:
+            idx = options_ui.index(cur_lbl)
+        else:
+            idx = 0  # placeholder
+
+        with col_sel:
+            chosen_label_ui = st.selectbox(
+                tr("labels.pa_s"),
+                options=options_ui,
+                index=idx,
+                key="paises_country_select",   # nunca escrever este key manualmente
+                label_visibility="collapsed",
+            )
+
         with col_btn:
             submitted = st.form_submit_button(tr("paises.abrir"), use_container_width=True)
 
-    # se ainda não escolheu nada (placeholder ativo ou lista vazia)
-    if not chosen_label:
-        cur_iso = st.session_state.get("paises_iso3")
-        return (label_by_iso.get(cur_iso), cur_iso) if cur_iso else (None, None)
+    # interpreta seleção
+    chosen_label = None if chosen_label_ui == placeholder_label else chosen_label_ui
 
-    # persistir seleção para as outras sub-abas
-    chosen_iso3 = iso_by_label.get(chosen_label)
-    st.session_state["pais_selected"] = chosen_label
-    st.session_state["paises_iso3"]   = chosen_iso3
+    if submitted:
+        if chosen_label:
+            chosen_iso3 = iso_by_label.get(chosen_label)
+            st.session_state["pais_selected"] = chosen_label
+            st.session_state["paises_iso3"]   = chosen_iso3
+            return chosen_label, chosen_iso3
+        else:
+            # clicou sem escolher -> mantém o atual, se houver
+            cur_iso = st.session_state.get("paises_iso3")
+            return (label_by_iso.get(cur_iso), cur_iso) if cur_iso else (None, None)
 
-    # mesmo sem submit, devolvemos a seleção corrente
-    return chosen_label, chosen_iso3
+    # sem submit: devolve o atual
+    cur_iso = st.session_state.get("paises_iso3")
+    if cur_iso:
+        return (label_by_iso.get(cur_iso), cur_iso)
 
+    # se já escolheu no select mas ainda não submeteu
+    if chosen_label:
+        return chosen_label, iso_by_label.get(chosen_label)
 
+    return None, None
 
 
 # -------------------------- Secções --------------------------
@@ -1033,7 +1065,9 @@ def render_paises_tab():
     # ---------- História ----------
     elif mode == "hist":
 
+        render_origins_expander(iso3, default_open=False)
         render_monarchy_expander(iso3, default_open=False)
+        render_colonization_expander(iso3, default_open=False)  
         cur_df, hist_df = leaders_for_iso3(iso3)
         base = hist_df if (hist_df is not None and not hist_df.empty) else cur_df
         
@@ -1078,4 +1112,5 @@ def render_paises_tab():
             else:
                 st.caption(tr("paises.label"))
 
+        
         render_wars_battles_expander(iso3, default_open=False)

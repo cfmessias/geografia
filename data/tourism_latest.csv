@@ -695,7 +695,7 @@ MNA;Middle East, North Africa, Afghanistan & Pakistan (excluding high income);ST
 TMN;Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD);ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2019;15.4521046807926
 KEN;Kenya;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2019;15.360146445829
 NIC;Nicaragua;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);1999;15.2177686471166
-IDX;IDA only;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2019;15.141170854486
+IDX;IDA only;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2019;15.1411709086052
 MNE;Montenegro;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2020;14.4298170246928
 MMR;Myanmar;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2019;14.2723589404508
 NPL;Nepal;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2020;13.4362036771379
@@ -703,17 +703,17 @@ NCL;New Caledonia;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2016;13.2255
 MUS;Mauritius;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2020;12.929472599635
 YEM;Yemen, Rep.;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2016;12.360562989795
 SLV;El Salvador;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2020;12.3429614370238
-HPC;Heavily indebted poor countries (HIPC);ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2019;12.298889531888
+HPC;Heavily indebted poor countries (HIPC);ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2019;12.2988896088113
 PRT;Portugal;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2020;12.2444835483225
-ECA;Europe & Central Asia (excluding high income);ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2019;12.1796758254919
+ECA;Europe & Central Asia (excluding high income);ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2019;12.1809019952508
 EGY;Egypt, Arab Rep.;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2020;12.1540960837403
 MAR;Morocco;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2020;12.0227919278399
 ISL;Iceland;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2008;11.8548072920544
-AFE;Africa Eastern and Southern;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2019;11.5456398164546
+AFE;Africa Eastern and Southern;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2019;11.5456398571054
 MLT;Malta;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2007;11.4793796158274
-LDC;Least developed countries: UN classification;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2019;11.3736229747961
+LDC;Least developed countries: UN classification;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2019;11.3736230212898
 ARB;Arab World;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2019;11.2253387676056
-IDA;IDA total;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2019;11.1092223657687
+IDA;IDA total;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2019;11.1092223881761
 RWA;Rwanda;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2020;10.9903672762395
 MDA;Moldova;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2020;10.9860440000372
 BTN;Bhutan;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2020;10.6777751698148
@@ -723,39 +723,39 @@ MEA;Middle East, North Africa, Afghanistan & Pakistan;ST.INT.RCPT.XP.ZS;Tourism 
 LSO;Lesotho;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);1999;10.146718158786
 GEO;Georgia;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2020;9.88758071323542
 PSE;West Bank and Gaza;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2018;9.43033102386451
-NAC;North America;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2019;9.42146112769139
+NAC;North America;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2019;9.39264784374305
 NER;Niger;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2019;9.3750805613737
 PAN;Panama;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2020;9.29636264630468
-UGA;Uganda;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2020;9.21439295294612
+UGA;Uganda;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2020;9.21438436794719
 BMU;Bermuda;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2020;9.14979233689064
-TUN;Tunisia;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2020;8.96160222338669
+TUN;Tunisia;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2020;8.9616022233867
 EAR;Early-demographic dividend;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2019;8.91641236449303
-SSF;Sub-Saharan Africa;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2019;8.71322032503385
-TSS;Sub-Saharan Africa (IDA & IBRD countries);ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2019;8.71322032503385
+SSF;Sub-Saharan Africa;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2019;8.71322034383544
+TSS;Sub-Saharan Africa (IDA & IBRD countries);ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2019;8.71322034383544
 AUS;Australia;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2020;8.70537003723551
 FCS;Fragile and conflict affected situations;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2019;8.28423885263444
 GBR;United Kingdom;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);1998;8.23743263842199
 LKA;Sri Lanka;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2020;8.22453929535838
 KGZ;Kyrgyz Republic;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2020;8.00683978454576
-TEC;Europe & Central Asia (IDA & IBRD countries);ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2019;7.9044821452607
-ARM;Armenia;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2020;7.85562441388365
+ARM;Armenia;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2020;7.96943911161369
+TEC;Europe & Central Asia (IDA & IBRD countries);ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2019;7.90476576882868
 LMY;Low & middle income;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2006;7.80443476656544
 MDG;Madagascar;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2020;7.80155066853256
 MIC;Middle income;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2006;7.75271636674229
-SSA;Sub-Saharan Africa (excluding high income);ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2019;7.74870789437776
+SSA;Sub-Saharan Africa (excluding high income);ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2019;7.74870791157021
 URY;Uruguay;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2020;7.70839260241391
 LTU;Lithuania;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2004;7.53823942915032
-WLD;World;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2019;7.46291159026091
 CRI;Costa Rica;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2020;7.40531362400924
+WLD;World;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2019;7.39667886049654
 IBT;IDA & IBRD total;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2014;7.29282679071974
 TJK;Tajikistan;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2020;7.26672932568659
 LVA;Latvia;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2007;7.25171850508644
 CMR;Cameroon;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2020;7.13534067687559
-PST;Post-demographic dividend;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2019;7.06502392279577
+PST;Post-demographic dividend;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2019;7.06020569820489
 LCN;Latin America & Caribbean;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2019;6.94806237297716
 AUT;Austria;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2020;6.85054108492959
 BEN;Benin;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2019;6.71867329850777
-OED;OECD members;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2019;6.67151399822183
+OED;OECD members;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2019;6.66736831501929
 TUR;Turkiye;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2020;6.63221568306379
 SAS;South Asia;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2019;6.60676946837761
 TSA;South Asia (IDA & IBRD);ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2019;6.60676946837761
@@ -767,32 +767,32 @@ TLA;Latin America & the Caribbean (IDA & IBRD countries);ST.INT.RCPT.XP.ZS;Touri
 BIH;Bosnia and Herzegovina;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2020;6.23963753418712
 EAP;East Asia & Pacific (excluding high income);ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2004;6.01486109053837
 TEA;East Asia & Pacific (IDA & IBRD countries);ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2004;6.01486109053837
-ECS;Europe & Central Asia;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2019;5.96544018396932
+ECS;Europe & Central Asia;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2019;5.96547921487623
 THA;Thailand;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2020;5.95392489312268
 IDB;IDA blend;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2019;5.88706971835528
+EAS;East Asia & Pacific;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2012;5.8398013538007
 EMU;Euro area;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2019;5.77593907555173
 EUU;European Union;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2019;5.74233992580894
-EAS;East Asia & Pacific;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2011;5.69022057418029
 SRB;Serbia;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2020;5.57653856424374
 MLI;Mali;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2018;5.51808960010454
 SLE;Sierra Leone;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2018;5.49166592820223
 LAC;Latin America & Caribbean (excluding high income);ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2019;5.4798437475028
-PRE;Pre-demographic dividend;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2019;5.46582748554675
+PRE;Pre-demographic dividend;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2019;5.46582750070598
 KHM;Cambodia;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2020;5.37394870532807
 COL;Colombia;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2020;5.12510160368679
 AFG;Afghanistan;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2020;5.08024772390036
 HKG;Hong Kong SAR, China;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2019;5.06906418805101
 SWE;Sweden;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2010;4.84572671641509
 FRA;France;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2020;4.80404188740468
-BWA;Botswana;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2020;4.61370471983027
 CHN;China;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2004;4.58931225127819
+BWA;Botswana;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2020;4.56136335506176
 DNK;Denmark;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2018;4.49513143884501
 BGR;Bulgaria;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2020;4.4878009199491
 AFW;Africa Western and Central;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2019;4.22928350885585
 GUY;Guyana;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2003;4.21179302045728
 NAM;Namibia;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2020;3.99163629632835
 EST;Estonia;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2020;3.9817677512326
-USA;United States;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2020;3.89811795041537
+USA;United States;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2020;3.87533930216739
 BFA;Burkina Faso;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2019;3.8722645969355
 CAN;Canada;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2011;3.6567012814317
 ITA;Italy;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2020;3.6537052187448
@@ -872,7 +872,7 @@ LBY;Libya;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2010;0.3445124237259
 MRT;Mauritania;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2020;0.229888482112193
 DZA;Algeria;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2020;0.200787778540167
 AGO;Angola;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2020;0.0904570431814327
-PNG;Papua New Guinea;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2018;0.0418462815408545
+PNG;Papua New Guinea;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2018;0.0418462815408546
 GIN;Guinea;ST.INT.RCPT.XP.ZS;Tourism receipts (% of exports);2020;0.014339642352113
 WLD;World;ST.INT.XPND.CD;Tourism expenditures (current US$);2019;1439120572186.1
 PST;Post-demographic dividend;ST.INT.XPND.CD;Tourism expenditures (current US$);2019;887822263226.139
@@ -1130,7 +1130,7 @@ PYF;French Polynesia;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2016;
 TON;Tonga;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2020;12.0725942613809
 AFW;Africa Western and Central;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2019;11.7447309622194
 HTI;Haiti;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2019;11.4652098915271
-PRE;Pre-demographic dividend;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2019;11.3142181790843
+PRE;Pre-demographic dividend;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2019;11.3142179131633
 VEN;Venezuela, RB;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2016;11.3134444013948
 LBN;Lebanon;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2020;11.173483480162
 SSD;South Sudan;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2020;11.0475113655101
@@ -1146,11 +1146,11 @@ MEA;Middle East, North Africa, Afghanistan & Pakistan;ST.INT.XPND.MP.ZS;Tourism 
 CMR;Cameroon;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2020;9.66383499313774
 AND;Andorra;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2019;9.20230138613722
 NGA;Nigeria;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2020;9.16201578875311
-SSA;Sub-Saharan Africa (excluding high income);ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2019;8.32397399277286
+SSA;Sub-Saharan Africa (excluding high income);ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2019;8.32397384078606
 SYR;Syrian Arab Republic;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2010;8.233380322273
 ZMB;Zambia;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2020;8.08019435306442
-SSF;Sub-Saharan Africa;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2019;8.07710250375018
-TSS;Sub-Saharan Africa (IDA & IBRD countries);ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2019;8.07710250375018
+SSF;Sub-Saharan Africa;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2019;8.07710236401612
+TSS;Sub-Saharan Africa (IDA & IBRD countries);ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2019;8.07710236401612
 NZL;New Zealand;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2018;7.8858480252394
 OSS;Other small states;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2018;7.81913147046208
 MNG;Mongolia;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2020;7.8062634158588
@@ -1158,7 +1158,7 @@ MNA;Middle East, North Africa, Afghanistan & Pakistan (excluding high income);ST
 TMN;Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD);ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2019;7.71637579498366
 UKR;Ukraine;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2020;7.64524054846635
 IRQ;Iraq;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2020;7.60417464084309
-IDA;IDA total;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2019;7.47520805569611
+IDA;IDA total;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2019;7.47520796060987
 NCL;New Caledonia;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2016;7.46403951813906
 CUW;Curacao;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2020;7.43150932704208
 CAN;Canada;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2011;7.25592432657076
@@ -1168,40 +1168,40 @@ TZA;Tanzania;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2019;7.095613
 PSE;West Bank and Gaza;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2020;7.03014438410668
 DEU;Germany;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2019;6.94337169149417
 GAB;Gabon;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2015;6.85248546722255
-TEC;Europe & Central Asia (IDA & IBRD countries);ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2019;6.79504155641759
+TEC;Europe & Central Asia (IDA & IBRD countries);ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2019;6.79531064129538
 NRU;Nauru;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2018;6.54371697274439
-ARM;Armenia;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2020;6.45190387068973
+ARM;Armenia;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2020;6.52214588654734
 BDI;Burundi;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2011;6.40253891441921
 COG;Congo, Rep.;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2016;6.26798792148121
 PSS;Pacific island small states;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2019;6.1626311415698
-IBT;IDA & IBRD total;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2019;6.12716424217953
-WLD;World;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2019;6.01162360833671
-NAC;North America;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2019;5.99829887117632
-PST;Post-demographic dividend;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2019;5.91118520498442
+IBT;IDA & IBRD total;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2019;6.12722697158571
+WLD;World;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2019;6.02646004234094
+NAC;North America;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2019;5.98348598356293
+PST;Post-demographic dividend;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2019;5.9069614517673
 IBD;IBRD only;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2016;5.89225590603528
 CPV;Cabo Verde;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2020;5.85521757610805
 MAC;Macao SAR, China;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2020;5.82345148655527
-ECA;Europe & Central Asia (excluding high income);ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2019;5.79898414883911
+ECA;Europe & Central Asia (excluding high income);ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2019;5.79956750133297
 LVA;Latvia;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2007;5.72061616847736
-ECS;Europe & Central Asia;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2019;5.6991293861733
-HPC;Heavily indebted poor countries (HIPC);ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2019;5.69370102636493
+ECS;Europe & Central Asia;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2019;5.69916995289415
+HPC;Heavily indebted poor countries (HIPC);ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2019;5.69370081223839
 DNK;Denmark;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2018;5.69267197024338
 CSS;Caribbean small states;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2019;5.66844992664611
 LTE;Late-demographic dividend;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2004;5.60126064957903
 SLB;Solomon Islands;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2020;5.556751673744
 LCN;Latin America & Caribbean;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2019;5.52745632512836
 LAC;Latin America & Caribbean (excluding high income);ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2019;5.49880881871179
-OED;OECD members;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2019;5.45206647799949
-TLA;Latin America & the Caribbean (IDA & IBRD countries);ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2019;5.45142693597642
+TLA;Latin America & the Caribbean (IDA & IBRD countries);ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2019;5.45142693597643
+OED;OECD members;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2019;5.44870760215803
 EMU;Euro area;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2019;5.43159735766485
 EAR;Early-demographic dividend;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2019;5.28627280244772
 ARG;Argentina;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2020;5.24618156983027
 EUU;European Union;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2019;5.24079690620092
-AFE;Africa Eastern and Southern;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2019;5.23333385180887
+AFE;Africa Eastern and Southern;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2019;5.23333369107258
 MDA;Moldova;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2020;5.11960962554195
 SLE;Sierra Leone;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2019;5.11405475750475
 LTU;Lithuania;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2004;5.07830192310282
-IDX;IDA only;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2019;5.02087845776398
+IDX;IDA only;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2019;5.02087834927088
 VUT;Vanuatu;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2020;5.01855476164859
 SAU;Saudi Arabia;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2020;4.97794237693877
 JAM;Jamaica;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2020;4.92115231548935
@@ -1209,9 +1209,9 @@ PHL;Philippines;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2020;4.874
 BHS;Bahamas, The;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2020;4.86689191542631
 UZB;Uzbekistan;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2020;4.69121385546077
 ATG;Antigua and Barbuda;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2020;4.65032653301157
+EAS;East Asia & Pacific;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2014;4.64727248761392
 SAS;South Asia;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2019;4.62329083536384
 TSA;South Asia (IDA & IBRD);ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2019;4.62329083536384
-EAS;East Asia & Pacific;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2012;4.62202833638762
 TLS;Timor-Leste;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2020;4.59681481045185
 KGZ;Kyrgyz Republic;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2020;4.56694303320836
 AGO;Angola;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2020;4.56235480401657
@@ -1226,7 +1226,7 @@ LKA;Sri Lanka;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2020;4.39486
 MDV;Maldives;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2020;4.32935061146898
 GUY;Guyana;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2003;4.30169199885288
 MUS;Mauritius;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2020;4.28949666390259
-LDC;Least developed countries: UN classification;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2019;4.26690975947475
+LDC;Least developed countries: UN classification;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2019;4.26690964551161
 NER;Niger;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2019;4.25623682283508
 CYP;Cyprus;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2020;4.24756401565343
 BTN;Bhutan;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2020;4.2070680786556
@@ -1245,7 +1245,7 @@ SRB;Serbia;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2020;3.90695933
 FJI;Fiji;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2020;3.89422232370299
 HKG;Hong Kong SAR, China;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2018;3.88507395387147
 CHN;China;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2004;3.85837919915506
-GHA;Ghana;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2020;3.85408715995404
+GHA;Ghana;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2020;3.85408715995403
 IRN;Iran, Islamic Rep.;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2000;3.833628520825
 BFA;Burkina Faso;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2019;3.68692808492164
 OMN;Oman;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2020;3.65387565068908
@@ -1286,17 +1286,17 @@ TGO;Togo;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2019;2.6982304605
 ITA;Italy;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2020;2.6422280635021
 AUT;Austria;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2020;2.64123687247299
 ECU;Ecuador;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2020;2.63070490333297
-UGA;Uganda;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2020;2.62522211534129
+UGA;Uganda;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2020;2.62522129099338
 MDG;Madagascar;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2020;2.60878289706641
 NPL;Nepal;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2020;2.49662633697611
-CIV;Cote d'Ivoire;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2020;2.48812416722662
+CIV;Cote d'Ivoire;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2020;2.48812416722663
 BLZ;Belize;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2020;2.44395041330559
 CHE;Switzerland;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2020;2.41279560435243
 PAK;Pakistan;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2020;2.38972962157585
 HND;Honduras;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2020;2.31391004169079
 SVN;Slovenia;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2020;2.31291867601389
 CZE;Czechia;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2020;2.26926004813101
-PNG;Papua New Guinea;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2018;2.23665731230594
+PNG;Papua New Guinea;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2018;2.23665731230595
 STP;Sao Tome and Principe;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2012;2.22589829644833
 JOR;Jordan;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2020;2.21448860204979
 GRD;Grenada;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2020;2.20293094141666
@@ -1314,7 +1314,7 @@ ETH;Ethiopia;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2020;1.878311
 KAZ;Kazakhstan;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2020;1.85154348239447
 GTM;Guatemala;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2020;1.79582144705198
 MKD;North Macedonia;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2020;1.74404281808964
-USA;United States;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2020;1.73560036661657
+USA;United States;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2020;1.73249352137459
 NIC;Nicaragua;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2020;1.71385365034025
 BIH;Bosnia and Herzegovina;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2020;1.6759368894664
 VNM;Viet Nam;ST.INT.XPND.MP.ZS;Tourism expenditures (% of imports);2020;1.61596394473107

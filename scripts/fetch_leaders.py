@@ -50,8 +50,7 @@ def _seed():
     if not SEED_PATH.exists():
         print(f"❌ Falta {SEED_PATH}. Corre scripts/build_country_seed.py")
         sys.exit(1)
-    return pd.read_csv(SEED_PATH)
-
+    return pd.read_csv(SEED_PATH,sep=";", dtype=str)
 def _sparql(q):
     for i in range(3):
         try:

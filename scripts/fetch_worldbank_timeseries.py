@@ -28,7 +28,7 @@ def load_seed() -> pd.DataFrame:
     if not SEED_PATH.exists():
         print(f"❌ Falta {SEED_PATH}. Faz antes: python scripts/build_country_seed.py")
         sys.exit(1)
-    df = pd.read_csv(SEED_PATH)
+    df = pd.read_csv(SEED_PATH, sep=";", dtype=str)
     if "iso3" not in df.columns:
         print("❌ countries_seed.csv sem coluna iso3.")
         sys.exit(2)

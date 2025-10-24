@@ -101,7 +101,7 @@ def wd_label(qid: str, lang="pt") -> Optional[str]:
 # ───────── seed helpers ─────────
 def ensure_seed() -> pd.DataFrame:
     if SEED_PATH.exists():
-        return pd.read_csv(SEED_PATH)
+        return pd.read_csv(SEED_PATH,sep=";", dtype=str)
     # criar seed com pycountry (sem Babel para não exigir deps)
     try:
         import pycountry
@@ -217,7 +217,13 @@ def main() -> None:
     written = 0
 
     with OUT_PATH.open("a", newline="", encoding="utf-8") as f:
-        w = csv.DictWriter(f, fieldnames=FIELDS)
+        w = csv.DictWriter(
+            f,
+            fieldnames=FIELDS,
+            delimiter=";",           # <<— separador
+            lineterminator="\n",     # opcional, linhas limpas
+            quoting=csv.QUOTE_MINIMAL
+        )
         if header: w.writeheader()
 
         for _, r in seed.iterrows():

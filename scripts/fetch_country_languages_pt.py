@@ -53,7 +53,7 @@ def _languages_used(qid: str, lang_pref="pt,en"):
     return _sparql(q)["results"]["bindings"]
 
 def main(only_iso3: list[str] | None = None):
-    df = pd.read_csv(SEED, dtype=str)
+    df = pd.read_csv(SEED,sep=";", dtype=str)
     iso_list = (only_iso3 or df["iso3"].dropna().unique().tolist())
 
     out1_rows, out2_rows = [], []

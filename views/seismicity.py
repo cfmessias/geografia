@@ -182,10 +182,10 @@ def render_seismicity_tab(lat, lon, start, end, key_prefix: str | None = None, *
     st.subheader(tr("seismicity.eventos_tabela"))
     show_cols = ["time_utc", "mag", "depth_km", "distance_km", "place", "latitude", "longitude", "id"]
     st.dataframe(df[show_cols], use_container_width=True, hide_index=True)
-    st.download_button(
-        tr("seismicity.download_csv_sismos"),
-        data=df[show_cols].to_csv(index=False),
-        file_name="sismos_usgs.csv",
-        mime="text/csv",
-        key="dl_csv_quakes",
-    )
+    # st.download_button(
+    #     tr("seismicity.download_csv_sismos"),
+    #     data=df[show_cols].to_csv(index=False),
+    #     file_name="sismos_usgs.csv",
+    #     mime="text/csv",
+    #     key="dl_csv_quakes",
+    # )

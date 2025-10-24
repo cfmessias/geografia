@@ -28,16 +28,16 @@ TMP_DIR      = PROJECT_ROOT / "data" / "tmp_cities"
 # Config
 # ──────────────────────────────────────────────────────────────────────────────
 TOP_N = 20                        # nº final de cidades por país
-RAW_LIMIT = 4000                  # nº bruto por país (para queries sem ORDER BY)
 REFRESH_ALL: bool = False         # True: recria ficheiro de saída do zero
 REFRESH_ISO3: set[str] = set()    # ex.: {"PRT","ESP"} para reprocessar só estes
 SKIP_DONE: bool = False           # False para garantir execução de todos os países
 
-# Ritmo / tolerância
-TIMEOUT = 90
-BASE_PAUSE = 0.35
-COOLDOWN_EVERY = 20
-COOLDOWN_SECS  = 8
+TIMEOUT = 120
+RAW_LIMIT = 2000                  # ↓ de 4000
+BASE_PAUSE = 0.5                  # ↑ de 0.35
+COOLDOWN_EVERY = 15               # ↓ de 20 (pausas mais frequentes)
+COOLDOWN_SECS  = 10               # ↑ de 8
+STABLE_MIN_POP = 5000             # antes era None → filtra micro-povoados
 
 # Comportamento de queries
 PREFER_ORDERED = False            # evita queries agregadas pesadas por defeito
@@ -45,7 +45,7 @@ STABLE_MIN_POP: Optional[int] = None  # ex.: 1000 para filtrar micro-povoados
 
 # HTTP
 WDQS = "https://query.wikidata.org/sparql"
-UA   = "GeografiaApp/1.0 (+coloca-o-teu-email-ou-site; contacto WDQS)"  # ← TROCAR POR CONTACTO REAL
+UA = "GeografiaApp/1.0 (cfmessias@gmail.com)" # ← TROCAR POR CONTACTO REAL
 WD_API = "https://www.wikidata.org/w/api.php"
 
 # Cabeçalho do CSV final
@@ -58,7 +58,7 @@ def load_seed() -> pd.DataFrame:
     if not SEED_PATH.exists():
         print(f"❌ Falta {SEED_PATH}.", file=sys.stderr)
         sys.exit(1)
-    df = pd.read_csv(SEED_PATH)
+    df = pd.read_csv(SEED_PATH,sep=";", dtype=str)
     for c in ("name_pt","name_en"):
         if c not in df.columns:
             df[c] = ""
@@ -541,9 +541,12 @@ def process_iso3(iso3: str, country_name: str, writer: csv.writer) -> bool:
 
         # 1) Casos específicos primeiro
         if iso3 == "CHN":
-            js = sparql_post(q_chn_user(limit=200, min_pop=1000000))
+            js = sparql_post(q_chn_user(limit=200, min_pop=1_000_000))
         elif iso3 == "FRA":
-            js = sparql_post(q_fra_wide(limit=200, min_pop=50000))
+            js = sparql_post(q_fra_wide(limit=200, min_pop=50_000))
+        elif iso3 in {"IDN", "IND", "USA", "BRA", "MEX", "RUS"}:
+            # ↓ Países "pesados": resposta mais pequena de propósito
+            js = sparql_post(q_block_stable(iso3, limit=2000, min_pop=10_000))
 
         # 2) Restante mundo → “como estava”: BRUTA sem ORDER BY
         if not js or not js.get("results", {}).get("bindings"):
@@ -561,6 +564,7 @@ def process_iso3(iso3: str, country_name: str, writer: csv.writer) -> bool:
     except Exception as e:
         print(f"  … erro inesperado a consultar WDQS: {e}", file=sys.stderr)
         raw = []
+
 
     # 2) Guardar RAW em tmp SEMPRE (mesmo vazio)
     tmp_path = (TMP_DIR / f"{iso3}.csv").resolve()

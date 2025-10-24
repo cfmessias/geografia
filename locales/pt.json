@@ -524,6 +524,7 @@
     "tipo_desconhecido": "Sem tipo",
     "download_csv": "💾 Descarregar CSV",
     "sem_dados": "— sem dados —",
+	"origens_pais": "Origens do país",
     "col": {
       "conflito": "Conflito",
       "tipo": "Tipo",
@@ -537,10 +538,26 @@
       "e_monarquia": "É monarquia?",
       "monarca": "Monarca",
       "titulo": "Título",
-      "casa": "Dinastia/Casa"
+      "casa": "Dinastia/Casa",
+	  "reinantes": "Só reinantes",
+      "todos_titulos": "Todos os títulos nobiliárquicos",
+      "top_dinastias": "Top-10 dinastias por anos no trono",
+      "timeline_titulo": "Linha do tempo das formas de governo",
+      "monarquia_legenda": "Monarquia",
+      "nao_monarquia_legenda": "Não-monarquia",
+      "a_mostrar": "a mostrar"
     }
   },
-
+  "colonizacao": {
+    "title": "Colonização",
+    "left": "Como colonizador (colónias administradas)",
+    "right": "Como colonizado (potências coloniais)",
+    "colony": "Colónia",
+    "colonizer": "Colonizador",
+    "no_records": "— sem registos —",
+    "select_country": "Selecione um país para ver o histórico de colonização.",
+    "summary": "ISO3: {iso3} • Como colonizador: {n_col} registos • Como colonizado: {n_dep} registos"
+  },
 
   "tourism": {
     "arrivals": "Chegadas (turistas internacionais)",

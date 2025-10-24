@@ -49,7 +49,7 @@ def _read_seed() -> pd.DataFrame:
     """Lê arquivo seed com lista de países."""
     for p in SEED_CANDIDATES:
         if p.exists():
-            df = pd.read_csv(p, dtype=str)
+            df = pd.read_csv(p, dtype=str, sep=";")
             cols = {c.lower(): c for c in df.columns}
             if "iso3" in cols:
                 return df.rename(columns={cols["iso3"]: "iso3"})

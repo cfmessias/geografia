@@ -38,23 +38,22 @@ def _slugify(s: str) -> str:
     s = re.sub(r"_+", "_", s).strip("_")
     return s or "pais"
 
-def _read_csv_safe(path: Path, expected_cols: Optional[Iterable[str]] = None) -> pd.DataFrame:
-    """Lê CSV; se não existir, devolve DF vazio (com colunas esperadas). Tenta separador padrão e ';'."""
+def _read_csv_safe(path, expected_cols=None):
     if not path.exists():
         return pd.DataFrame(columns=list(expected_cols) if expected_cols else None)
     try:
-        df = pd.read_csv(path)
+        df = pd.read_csv(path, sep=";", dtype=str)  # tenta primeiro ';'
     except Exception:
-        try:
-            df = pd.read_csv(path, sep=";")
-        except Exception:
-            return pd.DataFrame(columns=list(expected_cols) if expected_cols else None)
+        df = pd.read_csv(path, dtype=str)          # fallback para default (vírgula)
+    # (opcional) se ficou 1 coluna, reler com o outro separador:
+    if df.shape[1] == 1:
+        df = pd.read_csv(path, dtype=str)
     if expected_cols:
         for c in expected_cols:
             if c not in df.columns:
                 df[c] = pd.NA
-        df = df[list(expected_cols)]
     return df
+
 
 # ---- Profiles (master) ------------------------------------------------------
 def have_master_profiles() -> bool:

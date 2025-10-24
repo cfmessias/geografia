@@ -98,19 +98,33 @@ def render_migration_global():
 def render_demografia_tab():
     """
     Página 'Demografia' com submenu:
-      - Continentes (usa a tua visão global antiga)
-      - Comparar países (placeholder)
-      - Fluxos migratórios globais (se houver CSV DESA)
+      - Continentes
+      - Comparar países
+      - Fluxos migratórios globais
     """
     _ensure_lang_state()
-    st.title(tr("demografia.title") if "demografia.title" in tr.__code__.co_consts else "📊 Demografia")
+
+    # título (usa i18n; fallback simples)
+    try:
+        title = tr("demografia.title")
+    except Exception:
+        title = "📊 Demografia"
+    st.title(title)
+
+    # tabs (usa chaves do JSON; sem hacks ao __code__)
+    try:
+        label_cont = tr("subnav.continentes")
+        label_comp = tr("subnav.comparar_paises")
+        label_flux = tr("subnav.fluxos_migratorios")
+    except Exception:
+        label_cont, label_comp, label_flux = "Continentes", "Comparar países", "Fluxos migratórios"
 
     mode = subnav(
         "demografia",
         [
-            ("glob",    tr("subnav.continentes") if "subnav.continentes" in tr.__code__.co_consts else "Continentes"),
-            ("compare", tr("subnav.comparar_paises") if "subnav.comparar_paises" in tr.__code__.co_consts else "Comparar países"),
-            ("fluxos",  tr("subnav.fluxos_migratorios") if "subnav.fluxos_migratorios" in tr.__code__.co_consts else "Fluxos migratórios"),
+            ("glob",    label_cont),
+            ("compare", label_comp),
+            ("fluxos",  label_flux),
         ],
         default="glob",
     )
@@ -123,19 +137,10 @@ def render_demografia_tab():
         else:
             st.warning("Não encontrei 'demografia_global.render_indicadores_tab()'.")
 
-    def _render_compare_inner():
-        render_demografia_compare()
-
-    def _render_fluxos_inner():
-        render_migration_global()
-
     if mode == "glob":
-        (_FRAG(_render_global_inner) if _FRAG else _render_global_inner)()
+        _render_global_inner()
     elif mode == "compare":
-        (_FRAG(_render_compare_inner) if _FRAG else _render_compare_inner)()
+        st.info("🧪 Em breve: comparação entre países.")
     elif mode == "fluxos":
-        (_FRAG(_render_fluxos_inner) if _FRAG else _render_fluxos_inner)()
-    else:
-        st.error("Modo desconhecido.")
-
-__all__ = ["render_demografia_tab"]
+        # coloca aqui o renderer dos fluxos se existir
+        st.info("🌍 Em breve: fluxos migratórios globais.")

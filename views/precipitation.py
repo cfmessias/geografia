@@ -135,10 +135,10 @@ def render_precipitation_tab(
 
         buf = io.StringIO()
         grid[cols_out].to_csv(buf, index=False)
-        st.download_button(
-            tr("precipitation.download_csv"),
-            data=buf.getvalue(),
-            file_name="tendencias_mensais_precip.csv",
-            mime="text/csv",
-            key="dl_csv_precip"
-        )
+        # st.download_button(
+        #     tr("precipitation.download_csv"),
+        #     data=buf.getvalue(),
+        #     file_name="tendencias_mensais_precip.csv",
+        #     mime="text/csv",
+        #     key="dl_csv_precip"
+        # )

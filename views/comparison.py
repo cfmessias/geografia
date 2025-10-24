@@ -194,10 +194,10 @@ def render_comparison_tab(dfm: pd.DataFrame):
         key="cmp_table_centered"
     )
 
-    st.download_button(
-        tr("comparison.download_csv_comparacao"),
-        data=comp_table.to_csv(index=False),
-        file_name=f"comparacao_{year_a}_vs_{year_b}.csv",
-        mime="text/csv",
-        key="dl_csv_cmp"
-    )
+    # st.download_button(
+    #     tr("comparison.download_csv_comparacao"),
+    #     data=comp_table.to_csv(index=False),
+    #     file_name=f"comparacao_{year_a}_vs_{year_b}.csv",
+    #     mime="text/csv",
+    #     key="dl_csv_cmp"
+    # )

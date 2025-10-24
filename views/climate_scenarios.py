@@ -166,10 +166,10 @@ def render_climate_tab():
     # — Download do CSV (ensemble mean/min/max) —
     buf = io.StringIO()
     stat.to_csv(buf, index=False)
-    st.download_button(
-        tr("climate_scenarios.download_csv_ensemble_mean_min_max_por_cenario_ano"),
-        data=buf.getvalue(),
-        file_name="cmip6_global_ensemble_anom.csv",
-        mime="text/csv",
-        key="dl_cmip6_global_ensemble",
-    )
+    # st.download_button(
+    #     tr("climate_scenarios.download_csv_ensemble_mean_min_max_por_cenario_ano"),
+    #     data=buf.getvalue(),
+    #     file_name="cmip6_global_ensemble_anom.csv",
+    #     mime="text/csv",
+    #     key="dl_cmip6_global_ensemble",
+    # )

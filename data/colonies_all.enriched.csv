@@ -1,0 +1,1117 @@
+iso3_colonizer;colony_iso3;colony_qid;start_year;end_year;source;colony_label_pt;colony_label_en
+AFG;IND;Q668;;1739;B;Índia;India
+AGO;AGO;Q916;;;A;Angola;Angola
+ALB;ALB;Q222;;;A;Albânia;Albania
+AND;AND;Q228;;;B;Andorra;Andorra
+AND;CHE;Q39;0800;0843;A;Suíça;Switzerland
+AND;AUT;Q40;0800;0843;A;Áustria;Austria
+ARG;ARG;Q414;;;B;Argentina;Argentina
+ARG;URY;Q77;;;B;Uruguai;Uruguay
+ARM;CHN;Q148;1929;1991;A;China;People's Republic of China
+ARM;RUS;Q159;;1991;A;Rússia;Russia
+ARM;BLR;Q184;;1991;A;Bielorrússia;Belarus
+ARM;EST;Q191;;1991;B;Estónia;Estonia
+ARM;LVA;Q211;;1991;B;Letónia;Latvia
+ARM;UKR;Q212;;1991;A;Ucrânia;Ukraine
+ARM;MDA;Q217;;1991;A;Moldávia;Moldova
+ARM;ROU;Q218;1922;1991;A;Roménia;Romania
+ARM;AZE;Q227;;1991;A;Azerbaijão;Azerbaijan
+ARM;GEO;Q230;;1991;A;Geórgia;Georgia
+ARM;KAZ;Q232;;1991;A;Cazaquistão;Kazakhstan
+ARM;UZB;Q265;;1991;A;Uzbequistão;Uzbekistan
+ARM;POL;Q36;;1991;A;Polónia;Poland
+ARM;LTU;Q37;;1991;A;Lituânia;Lithuania
+ARM;ARM;Q399;;1991;A;Arménia;Armenia
+ARM;TUR;Q43;;;B;Turquia;Turkey
+ARM;KGZ;Q813;;1991;A;Quirguistão;Kyrgyzstan
+ARM;;Q863;;1991;A;Tajiquistão;Tajikistan
+ARM;TKM;Q874;;1991;A;Turquemenistão;Turkmenistan
+ARM;;Q907112;1940;1991;A;Transnístria;Transnistria
+AUS;AUS;Q408;;;B;Austrália;Australia
+AUS;PNG;Q691;;;B;Papua-Nova Guiné;Papua New Guinea
+AUT;ROU;Q218;;;A;Roménia;Romania
+AUT;HRV;Q224;;;A;Croácia;Croatia
+AUT;BEL;Q31;;;B;Bélgica;Belgium
+AUT;POL;Q36;;;B;Polónia;Poland
+AUT;ITA;Q38;;;A;Itália;Italy
+AUT;AUT;Q40;;;A;Áustria;Austria
+AZE;CHN;Q148;1929;1991;A;China;People's Republic of China
+AZE;RUS;Q159;;1991;A;Rússia;Russia
+AZE;BLR;Q184;;1991;A;Bielorrússia;Belarus
+AZE;EST;Q191;;1991;B;Estónia;Estonia
+AZE;LVA;Q211;;1991;B;Letónia;Latvia
+AZE;UKR;Q212;;1991;A;Ucrânia;Ukraine
+AZE;MDA;Q217;;1991;A;Moldávia;Moldova
+AZE;ROU;Q218;1922;1991;A;Roménia;Romania
+AZE;AZE;Q227;;1991;A;Azerbaijão;Azerbaijan
+AZE;GEO;Q230;;1991;A;Geórgia;Georgia
+AZE;KAZ;Q232;;1991;A;Cazaquistão;Kazakhstan
+AZE;UZB;Q265;;1991;A;Uzbequistão;Uzbekistan
+AZE;POL;Q36;;1991;A;Polónia;Poland
+AZE;LTU;Q37;;1991;A;Lituânia;Lithuania
+AZE;ARM;Q399;;1991;A;Arménia;Armenia
+AZE;KGZ;Q813;;1991;A;Quirguistão;Kyrgyzstan
+AZE;;Q863;;1991;A;Tajiquistão;Tajikistan
+AZE;TKM;Q874;;1991;A;Turquemenistão;Turkmenistan
+AZE;;Q907112;1940;1991;A;Transnístria;Transnistria
+BEL;MAR;Q1028;1928;1956;B;Marrocos;Morocco
+BEL;FRA;Q142;;;B;França;France
+BEL;BEL;Q31;;;A;Bélgica;Belgium
+BEN;BEN;Q962;;;A;Benim;Benin
+BFA;BFA;Q965;;;B;Burquina Fasso;Burkina Faso
+BGD;IND;Q668;;1739;B;Índia;India
+BGR;RUS;Q159;;;A;Rússia;Russia
+BGR;BLR;Q184;;;A;Bielorrússia;Belarus
+BGR;EST;Q191;;;A;Estónia;Estonia
+BGR;LVA;Q211;;;A;Letónia;Latvia
+BGR;UKR;Q212;;;A;Ucrânia;Ukraine
+BGR;MDA;Q217;;;A;Moldávia;Moldova
+BGR;ROU;Q218;;;A;Roménia;Romania
+BGR;BGR;Q219;;;A;Bulgária;Bulgaria
+BGR;HUN;Q28;;;A;Hungria;Hungary
+BGR;POL;Q36;;;A;Polónia;Poland
+BIH;;Q1246;;;A;Kosovo;Kosovo
+BIH;SVN;Q215;;;A;Eslovénia;Slovenia
+BIH;MKD;Q221;;;A;Macedónia do Norte;North Macedonia
+BIH;HRV;Q224;;;A;Croácia;Croatia
+BIH;BIH;Q225;;;A;Bósnia e Herzegovina;Bosnia and Herzegovina
+BIH;MNE;Q236;;;A;Montenegro;Montenegro
+BIH;SRB;Q403;;1992;B;Sérvia;Serbia
+BLR;CHN;Q148;1929;1991;A;China;People's Republic of China
+BLR;RUS;Q159;;1991;A;Rússia;Russia
+BLR;BLR;Q184;;1991;A;Bielorrússia;Belarus
+BLR;EST;Q191;;1991;B;Estónia;Estonia
+BLR;LVA;Q211;;1991;B;Letónia;Latvia
+BLR;UKR;Q212;;1991;A;Ucrânia;Ukraine
+BLR;MDA;Q217;;1991;A;Moldávia;Moldova
+BLR;ROU;Q218;;1991;A;Roménia;Romania
+BLR;BGR;Q219;;;A;Bulgária;Bulgaria
+BLR;AZE;Q227;;1991;A;Azerbaijão;Azerbaijan
+BLR;GEO;Q230;;1991;A;Geórgia;Georgia
+BLR;KAZ;Q232;;1991;A;Cazaquistão;Kazakhstan
+BLR;UZB;Q265;;1991;A;Uzbequistão;Uzbekistan
+BLR;HUN;Q28;;;A;Hungria;Hungary
+BLR;POL;Q36;;1991;A;Polónia;Poland
+BLR;LTU;Q37;;1991;A;Lituânia;Lithuania
+BLR;ARM;Q399;;1991;A;Arménia;Armenia
+BLR;KGZ;Q813;;1991;A;Quirguistão;Kyrgyzstan
+BLR;;Q863;;1991;A;Tajiquistão;Tajikistan
+BLR;TKM;Q874;;1991;A;Turquemenistão;Turkmenistan
+BLR;;Q907112;1940;1991;A;Transnístria;Transnistria
+BRA;BRA;Q155;;;A;Brasil;Brazil
+BRA;PRT;Q45;1815;1822;A;Portugal;Portugal
+BRA;URY;Q77;;;B;Uruguai;Uruguay
+CHL;CHL;Q298;;;A;Chile;Chile
+CHN;CHN;Q148;;;A;China;People's Republic of China
+CHN;RUS;Q159;;;A;Rússia;Russia
+CHN;PRK;Q423;;;A;Coreia do Norte;North Korea
+CHN;MNG;Q711;;;A;Mongólia;Mongolia
+CHN;TWN;Q865;;;A;Taiwan;Taiwan
+CHN;KOR;Q884;;;A;Coreia do Sul;South Korea
+CIV;GIN;Q1006;;;A;Guiné;Guinea
+CIV;CIV;Q1008;;;A;Costa do Marfim;Ivory Coast
+CIV;SLE;Q1044;;;A;Serra Leoa;Sierra Leone
+CIV;MLI;Q912;;;A;Mali;Mali
+COD;;Q974;;;A;República Democrática do Congo;Democratic Republic of the Congo
+COL;COL;Q739;;;A;Colômbia;Colombia
+COL;PAN;Q804;;;B;Panamá;Panama
+COM;COM;Q970;;;B;Comores;Comoros
+CPV;CPV;Q1011;;;A;Cabo Verde;Cape Verde
+CYP;CYP;Q229;;;A;Chipre;Cyprus
+CZE;CZE;Q213;;;A;Chéquia;Czech Republic
+CZE;SVK;Q214;;;A;Eslováquia;Slovakia
+DEU;;Q1206012;1871;1918;B;Reich Alemão;German Reich
+DEU;DEU;Q183;;;A;Alemanha;Germany
+DEU;BEL;Q31;;;B;Bélgica;Belgium
+DEU;LUX;Q32;;;B;Luxemburgo;Luxembourg
+DEU;SWE;Q34;;;A;Suécia;Sweden
+DEU;LIE;Q347;;;B;Liechtenstein;Liechtenstein
+DEU;POL;Q36;;;A;Polónia;Poland
+DEU;AUT;Q40;;;A;Áustria;Austria
+DNK;DNK;Q35;;;A;Dinamarca;Denmark
+ECU;VEN;Q717;;;B;Venezuela;Venezuela
+ECU;ECU;Q736;;;A;Equador;Ecuador
+EGY;;Q124943;;;B;Reino do Egito;Kingdom of Egypt
+EGY;;Q127861;;;B;Quedivato do Egito;Khedivate of Egypt
+EGY;;Q370173;;;B;Sultanato do Egipto;Sultanate of Egypt
+ESP;MRT;Q1025;;;B;Mauritânia;Mauritania
+ESP;MAR;Q1028;;1956;B;Marrocos;Morocco
+ESP;;Q131839713;;;B;Kingdom of Patones;Kingdom of Patones
+ESP;ESP;Q29;;;B;Espanha;Spain
+ESP;CHL;Q298;;;A;Chile;Chile
+ESP;BEL;Q31;;;A;Bélgica;Belgium
+ESP;NLD;Q55;;;A;Países Baixos;Netherlands
+ESP;PHL;Q928;;;A;Filipinas;Philippines
+ESP;GNQ;Q983;;;B;Guiné Equatorial;Equatorial Guinea
+EST;CHN;Q148;1929;1991;A;China;People's Republic of China
+EST;RUS;Q159;;1991;A;Rússia;Russia
+EST;BLR;Q184;;1991;A;Bielorrússia;Belarus
+EST;EST;Q191;;1991;B;Estónia;Estonia
+EST;LVA;Q211;;1991;B;Letónia;Latvia
+EST;UKR;Q212;;1991;A;Ucrânia;Ukraine
+EST;MDA;Q217;;1991;A;Moldávia;Moldova
+EST;ROU;Q218;;1991;A;Roménia;Romania
+EST;BGR;Q219;;;A;Bulgária;Bulgaria
+EST;AZE;Q227;;1991;A;Azerbaijão;Azerbaijan
+EST;GEO;Q230;;1991;A;Geórgia;Georgia
+EST;KAZ;Q232;;1991;A;Cazaquistão;Kazakhstan
+EST;UZB;Q265;;1991;A;Uzbequistão;Uzbekistan
+EST;HUN;Q28;;;A;Hungria;Hungary
+EST;POL;Q36;;1991;A;Polónia;Poland
+EST;LTU;Q37;;1991;A;Lituânia;Lithuania
+EST;ARM;Q399;;1991;A;Arménia;Armenia
+EST;KGZ;Q813;;1991;A;Quirguistão;Kyrgyzstan
+EST;;Q863;;1991;A;Tajiquistão;Tajikistan
+EST;TKM;Q874;;1991;A;Turquemenistão;Turkmenistan
+EST;;Q907112;1940;1991;A;Transnístria;Transnistria
+ETH;ETH;Q115;;;A;Etiópia;Ethiopia
+ETH;ERI;Q986;;;A;Eritreia;Eritrea
+FIN;RUS;Q159;;;A;Rússia;Russia
+FJI;FJI;Q712;;;B;Fiji;Fiji
+FRA;GIN;Q1006;;;B;Guiné;Guinea
+FRA;CIV;Q1008;;;B;Costa do Marfim;Ivory Coast
+FRA;MDG;Q1019;;;B;Madagáscar;Madagascar
+FRA;MRT;Q1025;;;B;Mauritânia;Mauritania
+FRA;MAR;Q1028;;1956;B;Marrocos;Morocco
+FRA;NER;Q1032;;;B;Níger;Niger
+FRA;NGA;Q1033;;;B;Nigéria;Nigeria
+FRA;SEN;Q1041;;;B;Senegal;Senegal
+FRA;FRA;Q142;;;A;França;France
+FRA;MCO;Q235;;;B;Mónaco;Monaco
+FRA;ITA;Q38;;;A;Itália;Italy
+FRA;VUT;Q686;;;B;Vanuatu;Vanuatu
+FRA;;Q71084;;;B;Primeiro Império Francês;First French Empire
+FRA;MLI;Q912;;;B;Mali;Mali
+FRA;BEN;Q962;;;B;Benim;Benin
+FRA;BFA;Q965;;;B;Burquina Fasso;Burkina Faso
+FRO;FRO;Q4628;;;A;Ilhas Feroe;Faroe Islands
+GBR;MAR;Q1028;1923;1956;B;Marrocos;Morocco
+GBR;GHA;Q117;;;B;Gana;Ghana
+GBR;GBR;Q145;;;A;Reino Unido;United Kingdom
+GBR;CAN;Q16;;;B;Canadá;Canada
+GBR;USA;Q30;;;B;Estados Unidos;United States
+GBR;VUT;Q686;;;B;Vanuatu;Vanuatu
+GBR;GUY;Q734;;;B;Guiana;Guyana
+GBR;ISR;Q801;;;A;Israel;Israel
+GBR;JOR;Q810;;;A;Jordânia;Jordan
+GBR;LBN;Q822;;;A;Líbano;Lebanon
+GBR;MDV;Q826;;;B;Maldivas;Maldives
+GBR;MYS;Q833;;;B;Malásia;Malaysia
+GBR;SYR;Q858;;;A;Síria;Syria
+GBR;ARE;Q878;;;B;Emirados Árabes Unidos;United Arab Emirates
+GEO;CHN;Q148;1929;1991;A;China;People's Republic of China
+GEO;RUS;Q159;;1991;A;Rússia;Russia
+GEO;BLR;Q184;;1991;A;Bielorrússia;Belarus
+GEO;EST;Q191;;1991;B;Estónia;Estonia
+GEO;LVA;Q211;;1991;B;Letónia;Latvia
+GEO;UKR;Q212;;1991;A;Ucrânia;Ukraine
+GEO;MDA;Q217;;1991;A;Moldávia;Moldova
+GEO;ROU;Q218;1922;1991;A;Roménia;Romania
+GEO;AZE;Q227;;1991;A;Azerbaijão;Azerbaijan
+GEO;GEO;Q230;;1991;A;Geórgia;Georgia
+GEO;KAZ;Q232;;1991;A;Cazaquistão;Kazakhstan
+GEO;UZB;Q265;;1991;A;Uzbequistão;Uzbekistan
+GEO;POL;Q36;;1991;A;Polónia;Poland
+GEO;LTU;Q37;;1991;A;Lituânia;Lithuania
+GEO;ARM;Q399;;1991;A;Arménia;Armenia
+GEO;KGZ;Q813;;1991;A;Quirguistão;Kyrgyzstan
+GEO;;Q863;;1991;A;Tajiquistão;Tajikistan
+GEO;TKM;Q874;;1991;A;Turquemenistão;Turkmenistan
+GEO;;Q907112;1940;1991;A;Transnístria;Transnistria
+GIN;GIN;Q1006;;;A;Guiné;Guinea
+GIN;CIV;Q1008;;;A;Costa do Marfim;Ivory Coast
+GIN;SLE;Q1044;;;A;Serra Leoa;Sierra Leone
+GIN;MLI;Q912;;;A;Mali;Mali
+GMB;GMB;Q1005;;;B;Gâmbia;The Gambia
+GRC;GRC;Q41;;;A;Grécia;Greece
+GRL;GRL;Q223;;;B;Gronelândia;Greenland
+GUY;VEN;Q717;;;A;Venezuela;Venezuela
+GUY;GUY;Q734;;;A;Guiana;Guyana
+HRV;;Q1246;;;A;Kosovo;Kosovo
+HRV;SVN;Q215;;;A;Eslovénia;Slovenia
+HRV;MKD;Q221;;;A;Macedónia do Norte;North Macedonia
+HRV;HRV;Q224;;;A;Croácia;Croatia
+HRV;BIH;Q225;;;A;Bósnia e Herzegovina;Bosnia and Herzegovina
+HRV;MNE;Q236;;;A;Montenegro;Montenegro
+HRV;ITA;Q38;;;A;Itália;Italy
+HRV;SRB;Q403;;1992;B;Sérvia;Serbia
+HUN;RUS;Q159;;;A;Rússia;Russia
+HUN;BLR;Q184;;;A;Bielorrússia;Belarus
+HUN;EST;Q191;;;A;Estónia;Estonia
+HUN;LVA;Q211;;;A;Letónia;Latvia
+HUN;UKR;Q212;;;A;Ucrânia;Ukraine
+HUN;MDA;Q217;;;A;Moldávia;Moldova
+HUN;ROU;Q218;;;A;Roménia;Romania
+HUN;BGR;Q219;;;A;Bulgária;Bulgaria
+HUN;HUN;Q28;;;A;Hungria;Hungary
+HUN;POL;Q36;;;A;Polónia;Poland
+IDN;IDN;Q252;;;A;Indonésia;Indonesia
+IDN;TLS;Q574;;;B;Timor-Leste;Timor-Leste
+IND;IND;Q668;;1741;B;Índia;India
+IRN;ARM;Q399;;;A;Arménia;Armenia
+IRN;IRN;Q794;;;A;Irão;Iran
+IRQ;IRQ;Q796;;;A;Iraque;Iraq
+IRQ;KWT;Q817;;;B;Kuwait;Kuwait
+ITA;MAR;Q1028;1928;1956;B;Marrocos;Morocco
+ITA;;Q153136;;;B;Monarquia de Habsburgo;Habsburg monarchy
+ITA;ITA;Q38;;;A;Itália;Italy
+JPN;RUS;Q159;;1949;A;Rússia;Russia
+JPN;JPN;Q17;;;A;Japão;Japan
+JPN;PRK;Q423;1910;1945;B;Coreia do Norte;North Korea
+JPN;PLW;Q695;;;A;Palau;Palau
+JPN;FSM;Q702;;;A;Micronésia;Federated States of Micronesia
+JPN;MHL;Q709;;;A;Ilhas Marshall;Marshall Islands
+JPN;TWN;Q865;;;B;Taiwan;Taiwan
+JPN;KOR;Q884;1910;1945;B;Coreia do Sul;South Korea
+KAZ;CHN;Q148;1929;1991;A;China;People's Republic of China
+KAZ;RUS;Q159;;1991;A;Rússia;Russia
+KAZ;BLR;Q184;;1991;A;Bielorrússia;Belarus
+KAZ;EST;Q191;;1991;B;Estónia;Estonia
+KAZ;LVA;Q211;;1991;B;Letónia;Latvia
+KAZ;UKR;Q212;;1991;A;Ucrânia;Ukraine
+KAZ;MDA;Q217;;1991;A;Moldávia;Moldova
+KAZ;ROU;Q218;1922;1991;A;Roménia;Romania
+KAZ;AZE;Q227;;1991;A;Azerbaijão;Azerbaijan
+KAZ;GEO;Q230;;1991;A;Geórgia;Georgia
+KAZ;KAZ;Q232;;1991;A;Cazaquistão;Kazakhstan
+KAZ;UZB;Q265;;1991;A;Uzbequistão;Uzbekistan
+KAZ;POL;Q36;;1991;A;Polónia;Poland
+KAZ;LTU;Q37;;1991;A;Lituânia;Lithuania
+KAZ;ARM;Q399;;1991;A;Arménia;Armenia
+KAZ;KGZ;Q813;;1991;A;Quirguistão;Kyrgyzstan
+KAZ;;Q863;;1991;A;Tajiquistão;Tajikistan
+KAZ;TKM;Q874;;1991;A;Turquemenistão;Turkmenistan
+KAZ;;Q907112;1940;1991;A;Transnístria;Transnistria
+KGZ;CHN;Q148;1929;1991;A;China;People's Republic of China
+KGZ;RUS;Q159;;1991;A;Rússia;Russia
+KGZ;BLR;Q184;;1991;A;Bielorrússia;Belarus
+KGZ;EST;Q191;;1991;B;Estónia;Estonia
+KGZ;LVA;Q211;;1991;B;Letónia;Latvia
+KGZ;UKR;Q212;;1991;A;Ucrânia;Ukraine
+KGZ;MDA;Q217;;1991;A;Moldávia;Moldova
+KGZ;ROU;Q218;1922;1991;A;Roménia;Romania
+KGZ;AZE;Q227;;1991;A;Azerbaijão;Azerbaijan
+KGZ;GEO;Q230;;1991;A;Geórgia;Georgia
+KGZ;KAZ;Q232;;1991;A;Cazaquistão;Kazakhstan
+KGZ;UZB;Q265;;1991;A;Uzbequistão;Uzbekistan
+KGZ;POL;Q36;;1991;A;Polónia;Poland
+KGZ;LTU;Q37;;1991;A;Lituânia;Lithuania
+KGZ;ARM;Q399;;1991;A;Arménia;Armenia
+KGZ;KGZ;Q813;;1991;A;Quirguistão;Kyrgyzstan
+KGZ;;Q863;;1991;A;Tajiquistão;Tajikistan
+KGZ;TKM;Q874;;1991;A;Turquemenistão;Turkmenistan
+KGZ;;Q907112;1940;1991;A;Transnístria;Transnistria
+KHM;KHM;Q424;;;A;Camboja;Cambodia
+KOR;CHN;Q148;;;A;China;People's Republic of China
+KOR;RUS;Q159;;;A;Rússia;Russia
+KOR;PRK;Q423;;1897;B;Coreia do Norte;North Korea
+KOR;KOR;Q884;;1897;B;Coreia do Sul;South Korea
+KWT;KWT;Q817;;;A;Kuwait;Kuwait
+LTU;CHN;Q148;1929;1991;A;China;People's Republic of China
+LTU;RUS;Q159;;1991;A;Rússia;Russia
+LTU;BLR;Q184;;1991;A;Bielorrússia;Belarus
+LTU;EST;Q191;;1991;B;Estónia;Estonia
+LTU;LVA;Q211;;1991;B;Letónia;Latvia
+LTU;UKR;Q212;;1991;A;Ucrânia;Ukraine
+LTU;MDA;Q217;;1991;A;Moldávia;Moldova
+LTU;ROU;Q218;1922;1991;A;Roménia;Romania
+LTU;AZE;Q227;;1991;A;Azerbaijão;Azerbaijan
+LTU;GEO;Q230;;1991;A;Geórgia;Georgia
+LTU;KAZ;Q232;;1991;A;Cazaquistão;Kazakhstan
+LTU;UZB;Q265;;1991;A;Uzbequistão;Uzbekistan
+LTU;POL;Q36;;1991;A;Polónia;Poland
+LTU;LTU;Q37;;1991;A;Lituânia;Lithuania
+LTU;ARM;Q399;;1991;A;Arménia;Armenia
+LTU;KGZ;Q813;;1991;A;Quirguistão;Kyrgyzstan
+LTU;;Q863;;1991;A;Tajiquistão;Tajikistan
+LTU;TKM;Q874;;1991;A;Turquemenistão;Turkmenistan
+LTU;;Q907112;1940;1991;A;Transnístria;Transnistria
+LVA;CHN;Q148;1929;1991;A;China;People's Republic of China
+LVA;RUS;Q159;;1991;A;Rússia;Russia
+LVA;BLR;Q184;;1991;A;Bielorrússia;Belarus
+LVA;EST;Q191;;1991;B;Estónia;Estonia
+LVA;LVA;Q211;;1991;B;Letónia;Latvia
+LVA;UKR;Q212;;1991;A;Ucrânia;Ukraine
+LVA;MDA;Q217;;1991;A;Moldávia;Moldova
+LVA;ROU;Q218;;1991;A;Roménia;Romania
+LVA;BGR;Q219;;;A;Bulgária;Bulgaria
+LVA;AZE;Q227;;1991;A;Azerbaijão;Azerbaijan
+LVA;GEO;Q230;;1991;A;Geórgia;Georgia
+LVA;KAZ;Q232;;1991;A;Cazaquistão;Kazakhstan
+LVA;UZB;Q265;;1991;A;Uzbequistão;Uzbekistan
+LVA;HUN;Q28;;;A;Hungria;Hungary
+LVA;POL;Q36;;1991;A;Polónia;Poland
+LVA;LTU;Q37;;1991;A;Lituânia;Lithuania
+LVA;ARM;Q399;;1991;A;Arménia;Armenia
+LVA;KGZ;Q813;;1991;A;Quirguistão;Kyrgyzstan
+LVA;;Q863;;1991;A;Tajiquistão;Tajikistan
+LVA;TKM;Q874;;1991;A;Turquemenistão;Turkmenistan
+LVA;;Q907112;1940;1991;A;Transnístria;Transnistria
+MAR;MAR;Q1028;;1956;B;Marrocos;Morocco
+MAR;;Q160307;;;B;Califado Fatímida;Fatimid Caliphate
+MDA;CHN;Q148;1929;1991;A;China;People's Republic of China
+MDA;RUS;Q159;;1991;A;Rússia;Russia
+MDA;BLR;Q184;;1991;A;Bielorrússia;Belarus
+MDA;EST;Q191;;1991;B;Estónia;Estonia
+MDA;LVA;Q211;;1991;B;Letónia;Latvia
+MDA;UKR;Q212;;1991;A;Ucrânia;Ukraine
+MDA;MDA;Q217;;1991;A;Moldávia;Moldova
+MDA;ROU;Q218;;1991;A;Roménia;Romania
+MDA;BGR;Q219;;;A;Bulgária;Bulgaria
+MDA;AZE;Q227;;1991;A;Azerbaijão;Azerbaijan
+MDA;GEO;Q230;;1991;A;Geórgia;Georgia
+MDA;KAZ;Q232;;1991;A;Cazaquistão;Kazakhstan
+MDA;UZB;Q265;;1991;A;Uzbequistão;Uzbekistan
+MDA;HUN;Q28;;;A;Hungria;Hungary
+MDA;POL;Q36;;1991;A;Polónia;Poland
+MDA;LTU;Q37;;1991;A;Lituânia;Lithuania
+MDA;ARM;Q399;;1991;A;Arménia;Armenia
+MDA;KGZ;Q813;;1991;A;Quirguistão;Kyrgyzstan
+MDA;;Q863;;1991;A;Tajiquistão;Tajikistan
+MDA;TKM;Q874;;1991;A;Turquemenistão;Turkmenistan
+MDA;;Q907112;1940;1991;A;Transnístria;Transnistria
+MDV;MDV;Q826;;;B;Maldivas;Maldives
+MKD;;Q1246;;;A;Kosovo;Kosovo
+MKD;SVN;Q215;;;A;Eslovénia;Slovenia
+MKD;MKD;Q221;;;A;Macedónia do Norte;North Macedonia
+MKD;HRV;Q224;;;A;Croácia;Croatia
+MKD;BIH;Q225;;;A;Bósnia e Herzegovina;Bosnia and Herzegovina
+MKD;MNE;Q236;;;A;Montenegro;Montenegro
+MKD;SRB;Q403;;1992;B;Sérvia;Serbia
+MLI;GIN;Q1006;;;A;Guiné;Guinea
+MLI;CIV;Q1008;;;A;Costa do Marfim;Ivory Coast
+MLI;SLE;Q1044;;;A;Serra Leoa;Sierra Leone
+MLI;MLI;Q912;;;A;Mali;Mali
+MNE;;Q1246;;;A;Kosovo;Kosovo
+MNE;SVN;Q215;;;A;Eslovénia;Slovenia
+MNE;MKD;Q221;;;A;Macedónia do Norte;North Macedonia
+MNE;HRV;Q224;;;A;Croácia;Croatia
+MNE;BIH;Q225;;;A;Bósnia e Herzegovina;Bosnia and Herzegovina
+MNE;MNE;Q236;;2006;B;Montenegro;Montenegro
+MNE;SRB;Q403;;2006;B;Sérvia;Serbia
+MNG;CHN;Q148;;;A;China;People's Republic of China
+MNG;MNG;Q711;;;A;Mongólia;Mongolia
+MNG;TWN;Q865;;;A;Taiwan;Taiwan
+MOZ;MOZ;Q1029;;;A;Moçambique;Mozambique
+MOZ;ZWE;Q954;;;A;Zimbábue;Zimbabwe
+MWI;MWI;Q1020;;;B;Malawi;Malawi
+MYS;SGP;Q334;;;B;Singapura;Singapore
+NGA;NGA;Q1033;;;B;Nigéria;Nigeria
+NIC;NIC;Q811;;;A;Nicarágua;Nicaragua
+NLD;ABW;Q21203;;;B;Aruba;Aruba
+NLD;IDN;Q252;1800;1949;B;Indonésia;Indonesia
+NLD;SXM;Q26273;;;B;São Martinho;Sint Maarten
+NLD;SUR;Q730;;;B;Suriname;Suriname
+NOR;GRL;Q223;;;B;Gronelândia;Greenland
+NZL;NZL;Q664;;;B;Nova Zelândia;New Zealand
+OMN;OMN;Q842;;;B;Omã;Oman
+PAK;IND;Q668;;1739;B;Índia;India
+PAK;PAK;Q843;;;B;Paquistão;Pakistan
+PHL;PHL;Q928;;;A;Filipinas;Philippines
+PNG;PNG;Q691;;;B;Papua-Nova Guiné;Papua New Guinea
+POL;RUS;Q159;;;A;Rússia;Russia
+POL;BLR;Q184;;1939;A;Bielorrússia;Belarus
+POL;EST;Q191;;;A;Estónia;Estonia
+POL;LVA;Q211;;;A;Letónia;Latvia
+POL;UKR;Q212;;;A;Ucrânia;Ukraine
+POL;MDA;Q217;;;A;Moldávia;Moldova
+POL;ROU;Q218;;;A;Roménia;Romania
+POL;BGR;Q219;;;A;Bulgária;Bulgaria
+POL;HUN;Q28;;;A;Hungria;Hungary
+POL;BEL;Q31;;;B;Bélgica;Belgium
+POL;POL;Q36;;1939;A;Polónia;Poland
+POL;LTU;Q37;;;A;Lituânia;Lithuania
+PRK;CHN;Q148;;;A;China;People's Republic of China
+PRK;RUS;Q159;;;A;Rússia;Russia
+PRK;PRK;Q423;;1897;B;Coreia do Norte;North Korea
+PRK;KOR;Q884;;1897;B;Coreia do Sul;South Korea
+PRT;GNB;Q1007;1879;1974;A;Guiné-Bissau;Guinea-Bissau
+PRT;CPV;Q1011;1462;1975;A;Cabo Verde;Cape Verde
+PRT;MAR;Q1028;1928;1956;B;Marrocos;Morocco
+PRT;MOZ;Q1029;1501;1975;A;Moçambique;Mozambique
+PRT;STP;Q1039;1470;1975;A;São Tomé e Príncipe;São Tomé and Príncipe
+PRT;CHN;Q148;1557;1910;A;China;People's Republic of China
+PRT;BRA;Q155;;1815;A;Brasil;Brazil
+PRT;PRT;Q45;;1910;A;Portugal;Portugal
+PRT;TLS;Q574;1533;2002;A;Timor-Leste;Timor-Leste
+PRT;IND;Q668;1505;1961;A;Índia;India
+PRT;URY;Q77;1808;1822;B;Uruguai;Uruguay
+PRT;AGO;Q916;1575;1975;A;Angola;Angola
+PSE;;Q219060;;;B;Estado da Palestina;State of Palestine
+PSE;ISR;Q801;;;B;Israel;Israel
+ROU;RUS;Q159;;;A;Rússia;Russia
+ROU;BLR;Q184;;;A;Bielorrússia;Belarus
+ROU;EST;Q191;;;A;Estónia;Estonia
+ROU;LVA;Q211;;;A;Letónia;Latvia
+ROU;UKR;Q212;;;A;Ucrânia;Ukraine
+ROU;MDA;Q217;;;A;Moldávia;Moldova
+ROU;ROU;Q218;;;A;Roménia;Romania
+ROU;BGR;Q219;;;A;Bulgária;Bulgaria
+ROU;HUN;Q28;;;A;Hungria;Hungary
+ROU;POL;Q36;;;A;Polónia;Poland
+RUS;CHN;Q148;;1991;A;China;People's Republic of China
+RUS;RUS;Q159;;1991;A;Rússia;Russia
+RUS;BLR;Q184;;1991;A;Bielorrússia;Belarus
+RUS;EST;Q191;;1991;B;Estónia;Estonia
+RUS;LVA;Q211;;1991;B;Letónia;Latvia
+RUS;UKR;Q212;;1991;A;Ucrânia;Ukraine
+RUS;MDA;Q217;;1991;A;Moldávia;Moldova
+RUS;ROU;Q218;;1991;A;Roménia;Romania
+RUS;BGR;Q219;;;A;Bulgária;Bulgaria
+RUS;AZE;Q227;;1991;A;Azerbaijão;Azerbaijan
+RUS;GEO;Q230;;1991;A;Geórgia;Georgia
+RUS;KAZ;Q232;;1991;A;Cazaquistão;Kazakhstan
+RUS;UZB;Q265;;1991;A;Uzbequistão;Uzbekistan
+RUS;HUN;Q28;;;A;Hungria;Hungary
+RUS;POL;Q36;;1991;A;Polónia;Poland
+RUS;LTU;Q37;;1991;A;Lituânia;Lithuania
+RUS;ARM;Q399;;1991;A;Arménia;Armenia
+RUS;PRK;Q423;;;A;Coreia do Norte;North Korea
+RUS;KGZ;Q813;;1991;A;Quirguistão;Kyrgyzstan
+RUS;;Q863;;1991;A;Tajiquistão;Tajikistan
+RUS;TKM;Q874;;1991;A;Turquemenistão;Turkmenistan
+RUS;KOR;Q884;;;A;Coreia do Sul;South Korea
+RUS;;Q907112;1940;1991;A;Transnístria;Transnistria
+SEN;SEN;Q1041;;;A;Senegal;Senegal
+SLE;GIN;Q1006;;;A;Guiné;Guinea
+SLE;CIV;Q1008;;;A;Costa do Marfim;Ivory Coast
+SLE;SLE;Q1044;;;A;Serra Leoa;Sierra Leone
+SLE;MLI;Q912;;;A;Mali;Mali
+SRB;;Q1246;;;A;Kosovo;Kosovo
+SRB;SVN;Q215;;;A;Eslovénia;Slovenia
+SRB;MKD;Q221;;;A;Macedónia do Norte;North Macedonia
+SRB;HRV;Q224;;;A;Croácia;Croatia
+SRB;BIH;Q225;;;A;Bósnia e Herzegovina;Bosnia and Herzegovina
+SRB;MNE;Q236;;2006;B;Montenegro;Montenegro
+SRB;SRB;Q403;;2006;B;Sérvia;Serbia
+STP;STP;Q1039;;;A;São Tomé e Príncipe;São Tomé and Príncipe
+SVK;CZE;Q213;;;A;Chéquia;Czech Republic
+SVK;SVK;Q214;;;A;Eslováquia;Slovakia
+SVN;;Q1246;;;A;Kosovo;Kosovo
+SVN;SVN;Q215;;;A;Eslovénia;Slovenia
+SVN;MKD;Q221;;;A;Macedónia do Norte;North Macedonia
+SVN;HRV;Q224;;;A;Croácia;Croatia
+SVN;BIH;Q225;;;A;Bósnia e Herzegovina;Bosnia and Herzegovina
+SVN;MNE;Q236;;;A;Montenegro;Montenegro
+SVN;SRB;Q403;;1992;B;Sérvia;Serbia
+SWE;MAR;Q1028;1928;1956;B;Marrocos;Morocco
+SWE;DEU;Q183;;;A;Alemanha;Germany
+SWE;SWE;Q34;;;A;Suécia;Sweden
+SYC;SYC;Q1042;;;A;Seychelles;Seychelles
+SYR;SYR;Q858;;;B;Síria;Syria
+THA;THA;Q869;;;B;Tailândia;Thailand
+TJK;CHN;Q148;1929;1991;A;China;People's Republic of China
+TJK;RUS;Q159;;1991;A;Rússia;Russia
+TJK;BLR;Q184;;1991;A;Bielorrússia;Belarus
+TJK;EST;Q191;;1991;B;Estónia;Estonia
+TJK;LVA;Q211;;1991;B;Letónia;Latvia
+TJK;UKR;Q212;;1991;A;Ucrânia;Ukraine
+TJK;MDA;Q217;;1991;A;Moldávia;Moldova
+TJK;ROU;Q218;1922;1991;A;Roménia;Romania
+TJK;AZE;Q227;;1991;A;Azerbaijão;Azerbaijan
+TJK;GEO;Q230;;1991;A;Geórgia;Georgia
+TJK;KAZ;Q232;;1991;A;Cazaquistão;Kazakhstan
+TJK;UZB;Q265;;1991;A;Uzbequistão;Uzbekistan
+TJK;POL;Q36;;1991;A;Polónia;Poland
+TJK;LTU;Q37;;1991;A;Lituânia;Lithuania
+TJK;ARM;Q399;;1991;A;Arménia;Armenia
+TJK;KGZ;Q813;;1991;A;Quirguistão;Kyrgyzstan
+TJK;;Q863;;1991;A;Tajiquistão;Tajikistan
+TJK;TKM;Q874;;1991;A;Turquemenistão;Turkmenistan
+TJK;;Q907112;1940;1991;A;Transnístria;Transnistria
+TKM;CHN;Q148;1929;1991;A;China;People's Republic of China
+TKM;RUS;Q159;;1991;A;Rússia;Russia
+TKM;BLR;Q184;;1991;A;Bielorrússia;Belarus
+TKM;EST;Q191;;1991;B;Estónia;Estonia
+TKM;LVA;Q211;;1991;B;Letónia;Latvia
+TKM;UKR;Q212;;1991;A;Ucrânia;Ukraine
+TKM;MDA;Q217;;1991;A;Moldávia;Moldova
+TKM;ROU;Q218;1922;1991;A;Roménia;Romania
+TKM;AZE;Q227;;1991;A;Azerbaijão;Azerbaijan
+TKM;GEO;Q230;;1991;A;Geórgia;Georgia
+TKM;KAZ;Q232;;1991;A;Cazaquistão;Kazakhstan
+TKM;UZB;Q265;;1991;A;Uzbequistão;Uzbekistan
+TKM;POL;Q36;;1991;A;Polónia;Poland
+TKM;LTU;Q37;;1991;A;Lituânia;Lithuania
+TKM;ARM;Q399;;1991;A;Arménia;Armenia
+TKM;KGZ;Q813;;1991;A;Quirguistão;Kyrgyzstan
+TKM;;Q863;;1991;A;Tajiquistão;Tajikistan
+TKM;TKM;Q874;;1991;A;Turquemenistão;Turkmenistan
+TKM;;Q907112;1940;1991;A;Transnístria;Transnistria
+TLS;TLS;Q574;;;A;Timor-Leste;Timor-Leste
+TUR;;Q127861;;;B;Quedivato do Egito;Khedivate of Egypt
+TUR;;Q153136;;;B;Monarquia de Habsburgo;Habsburg monarchy
+TUR;GRC;Q41;;;A;Grécia;Greece
+TUR;TUR;Q43;;1923;B;Turquia;Turkey
+TWN;CHN;Q148;;;A;China;People's Republic of China
+TWN;;Q319881;;;B;República de Formosa;Republic of Formosa
+TWN;MNG;Q711;;;A;Mongólia;Mongolia
+TWN;TWN;Q865;;;A;Taiwan;Taiwan
+UKR;CHN;Q148;1929;1991;A;China;People's Republic of China
+UKR;RUS;Q159;;1991;A;Rússia;Russia
+UKR;BLR;Q184;;1991;A;Bielorrússia;Belarus
+UKR;EST;Q191;;1991;B;Estónia;Estonia
+UKR;LVA;Q211;;1991;B;Letónia;Latvia
+UKR;UKR;Q212;;1991;A;Ucrânia;Ukraine
+UKR;MDA;Q217;;1991;A;Moldávia;Moldova
+UKR;ROU;Q218;;1991;A;Roménia;Romania
+UKR;BGR;Q219;;;A;Bulgária;Bulgaria
+UKR;AZE;Q227;;1991;A;Azerbaijão;Azerbaijan
+UKR;GEO;Q230;;1991;A;Geórgia;Georgia
+UKR;KAZ;Q232;;1991;A;Cazaquistão;Kazakhstan
+UKR;UZB;Q265;;1991;A;Uzbequistão;Uzbekistan
+UKR;HUN;Q28;;;A;Hungria;Hungary
+UKR;POL;Q36;;1991;A;Polónia;Poland
+UKR;LTU;Q37;;1991;A;Lituânia;Lithuania
+UKR;ARM;Q399;;1991;A;Arménia;Armenia
+UKR;KGZ;Q813;;1991;A;Quirguistão;Kyrgyzstan
+UKR;;Q863;;1991;A;Tajiquistão;Tajikistan
+UKR;TKM;Q874;;1991;A;Turquemenistão;Turkmenistan
+UKR;;Q907112;1940;1991;A;Transnístria;Transnistria
+URY;ARG;Q414;;;B;Argentina;Argentina
+URY;URY;Q77;;;B;Uruguai;Uruguay
+USA;MAR;Q1028;1945;1956;B;Marrocos;Morocco
+USA;USA;Q30;;;A;Estados Unidos;United States
+UZB;CHN;Q148;1929;1991;A;China;People's Republic of China
+UZB;RUS;Q159;;1991;A;Rússia;Russia
+UZB;BLR;Q184;;1991;A;Bielorrússia;Belarus
+UZB;EST;Q191;;1991;B;Estónia;Estonia
+UZB;LVA;Q211;;1991;B;Letónia;Latvia
+UZB;UKR;Q212;;1991;A;Ucrânia;Ukraine
+UZB;MDA;Q217;;1991;A;Moldávia;Moldova
+UZB;ROU;Q218;1922;1991;A;Roménia;Romania
+UZB;AZE;Q227;;1991;A;Azerbaijão;Azerbaijan
+UZB;GEO;Q230;;1991;A;Geórgia;Georgia
+UZB;KAZ;Q232;;1991;A;Cazaquistão;Kazakhstan
+UZB;UZB;Q265;;1991;A;Uzbequistão;Uzbekistan
+UZB;POL;Q36;;1991;A;Polónia;Poland
+UZB;LTU;Q37;;1991;A;Lituânia;Lithuania
+UZB;ARM;Q399;;1991;A;Arménia;Armenia
+UZB;KGZ;Q813;;1991;A;Quirguistão;Kyrgyzstan
+UZB;;Q863;;1991;A;Tajiquistão;Tajikistan
+UZB;TKM;Q874;;1991;A;Turquemenistão;Turkmenistan
+UZB;;Q907112;1940;1991;A;Transnístria;Transnistria
+VAT;VAT;Q237;;;B;Vaticano;Vatican City
+VEN;VEN;Q717;;;A;Venezuela;Venezuela
+VEN;GUY;Q734;;;A;Guiana;Guyana
+VEN;ECU;Q736;;;B;Equador;Ecuador
+VNM;CHN;Q148;;;A;China;People's Republic of China
+VNM;LAO;Q819;;;A;Laos;Laos
+VNM;VNM;Q881;;;A;Vietname;Vietnam
+VUT;VUT;Q686;;;B;Vanuatu;Vanuatu
+YEM;YEM;Q805;;;A;Iémen;Yemen
+ZAF;ZAF;Q258;;;A;África do Sul;South Africa
+ZWE;MOZ;Q1029;;;A;Moçambique;Mozambique
+ZWE;ZWE;Q954;;;A;Zimbábue;Zimbabwe
+AGO;AGO;Q916;;;A;Angola;Angola
+ALB;ALB;Q222;;;A;Albânia;Albania
+ARG;ARG;Q414;;;B;Argentina;Argentina
+ARG;URY;Q77;;;B;Uruguai;Uruguay
+ARM;CHN;Q148;1929;1991;A;China;People's Republic of China
+ARM;RUS;Q159;;1991;A;Rússia;Russia
+ARM;BLR;Q184;;1991;A;Bielorrússia;Belarus
+ARM;EST;Q191;;1991;B;Estónia;Estonia
+ARM;LVA;Q211;;1991;B;Letónia;Latvia
+ARM;UKR;Q212;;1991;A;Ucrânia;Ukraine
+ARM;MDA;Q217;;1991;A;Moldávia;Moldova
+ARM;ROU;Q218;1922;1991;A;Roménia;Romania
+ARM;AZE;Q227;;1991;A;Azerbaijão;Azerbaijan
+ARM;GEO;Q230;;1991;A;Geórgia;Georgia
+ARM;KAZ;Q232;;1991;A;Cazaquistão;Kazakhstan
+ARM;UZB;Q265;;1991;A;Uzbequistão;Uzbekistan
+ARM;FIN;Q33;1917;1917;A;Finlândia;Finland
+ARM;POL;Q36;;1991;A;Polónia;Poland
+ARM;LTU;Q37;;1991;A;Lituânia;Lithuania
+ARM;ARM;Q399;;1991;A;Arménia;Armenia
+ARM;TUR;Q43;;;B;Turquia;Turkey
+ARM;KGZ;Q813;;1991;A;Quirguistão;Kyrgyzstan
+ARM;;Q863;;1991;A;Tajiquistão;Tajikistan
+ARM;TKM;Q874;;1991;A;Turquemenistão;Turkmenistan
+ARM;;Q907112;1940;1991;A;Transnístria;Transnistria
+AUS;GBR;Q145;;;A;Reino Unido;United Kingdom
+AUS;CAN;Q16;;;B;Canadá;Canada
+AUS;USA;Q30;;;B;Estados Unidos;United States
+AUS;AUS;Q408;;;B;Austrália;Australia
+AUS;PNG;Q691;;;B;Papua-Nova Guiné;Papua New Guinea
+AUS;GUY;Q734;;;B;Guiana;Guyana
+AUS;ISR;Q801;;;A;Israel;Israel
+AUS;JOR;Q810;;;A;Jordânia;Jordan
+AUS;LBN;Q822;;;A;Líbano;Lebanon
+AUS;MDV;Q826;;;B;Maldivas;Maldives
+AUS;SYR;Q858;;;A;Síria;Syria
+AUT;ROU;Q218;;;A;Roménia;Romania
+AUT;HRV;Q224;;;A;Croácia;Croatia
+AUT;ITA;Q38;;;A;Itália;Italy
+AUT;AUT;Q40;;;A;Áustria;Austria
+AZE;CHN;Q148;1929;1991;A;China;People's Republic of China
+AZE;RUS;Q159;;1991;A;Rússia;Russia
+AZE;BLR;Q184;;1991;A;Bielorrússia;Belarus
+AZE;EST;Q191;;1991;B;Estónia;Estonia
+AZE;LVA;Q211;;1991;B;Letónia;Latvia
+AZE;UKR;Q212;;1991;A;Ucrânia;Ukraine
+AZE;MDA;Q217;;1991;A;Moldávia;Moldova
+AZE;ROU;Q218;1922;1991;A;Roménia;Romania
+AZE;AZE;Q227;;1991;A;Azerbaijão;Azerbaijan
+AZE;GEO;Q230;;1991;A;Geórgia;Georgia
+AZE;KAZ;Q232;;1991;A;Cazaquistão;Kazakhstan
+AZE;UZB;Q265;;1991;A;Uzbequistão;Uzbekistan
+AZE;FIN;Q33;1917;1917;A;Finlândia;Finland
+AZE;POL;Q36;;1991;A;Polónia;Poland
+AZE;LTU;Q37;;1991;A;Lituânia;Lithuania
+AZE;ARM;Q399;;1991;A;Arménia;Armenia
+AZE;KGZ;Q813;;1991;A;Quirguistão;Kyrgyzstan
+AZE;;Q863;;1991;A;Tajiquistão;Tajikistan
+AZE;TKM;Q874;;1991;A;Turquemenistão;Turkmenistan
+AZE;;Q907112;1940;1991;A;Transnístria;Transnistria
+BEL;MAR;Q1028;1928;1956;B;Marrocos;Morocco
+BEL;FRA;Q142;;;B;França;France
+BEL;BEL;Q31;;;A;Bélgica;Belgium
+BEN;GIN;Q1006;;;A;Guiné;Guinea
+BEN;CIV;Q1008;;;A;Costa do Marfim;Ivory Coast
+BEN;SLE;Q1044;;;A;Serra Leoa;Sierra Leone
+BEN;MLI;Q912;;;A;Mali;Mali
+BFA;GIN;Q1006;;;A;Guiné;Guinea
+BFA;CIV;Q1008;;;A;Costa do Marfim;Ivory Coast
+BFA;SLE;Q1044;;;A;Serra Leoa;Sierra Leone
+BFA;MLI;Q912;;;A;Mali;Mali
+BFA;BFA;Q965;;;B;Burquina Fasso;Burkina Faso
+BGR;BGR;Q219;;;A;Bulgária;Bulgaria
+BIH;BIH;Q225;;;A;Bósnia e Herzegovina;Bosnia and Herzegovina
+BLR;CHN;Q148;1929;1991;A;China;People's Republic of China
+BLR;RUS;Q159;;1991;A;Rússia;Russia
+BLR;BLR;Q184;;1991;A;Bielorrússia;Belarus
+BLR;EST;Q191;;1991;B;Estónia;Estonia
+BLR;LVA;Q211;;1991;B;Letónia;Latvia
+BLR;UKR;Q212;;1991;A;Ucrânia;Ukraine
+BLR;MDA;Q217;;1991;A;Moldávia;Moldova
+BLR;ROU;Q218;1922;1991;A;Roménia;Romania
+BLR;AZE;Q227;;1991;A;Azerbaijão;Azerbaijan
+BLR;GEO;Q230;;1991;A;Geórgia;Georgia
+BLR;KAZ;Q232;;1991;A;Cazaquistão;Kazakhstan
+BLR;UZB;Q265;;1991;A;Uzbequistão;Uzbekistan
+BLR;FIN;Q33;1917;1917;A;Finlândia;Finland
+BLR;POL;Q36;;1991;A;Polónia;Poland
+BLR;LTU;Q37;;1991;A;Lituânia;Lithuania
+BLR;ARM;Q399;;1991;A;Arménia;Armenia
+BLR;KGZ;Q813;;1991;A;Quirguistão;Kyrgyzstan
+BLR;;Q863;;1991;A;Tajiquistão;Tajikistan
+BLR;TKM;Q874;;1991;A;Turquemenistão;Turkmenistan
+BLR;;Q907112;1940;1991;A;Transnístria;Transnistria
+BRA;BRA;Q155;;;A;Brasil;Brazil
+BRA;PRT;Q45;1815;1822;A;Portugal;Portugal
+BRA;URY;Q77;;;B;Uruguai;Uruguay
+CHL;CHL;Q298;;;A;Chile;Chile
+CHN;CHN;Q148;;;A;China;People's Republic of China
+CHN;;Q319881;;;B;República de Formosa;Republic of Formosa
+CHN;MNG;Q711;;;A;Mongólia;Mongolia
+CHN;TWN;Q865;;;A;Taiwan;Taiwan
+CIV;GIN;Q1006;;;A;Guiné;Guinea
+CIV;CIV;Q1008;;;A;Costa do Marfim;Ivory Coast
+CIV;SLE;Q1044;;;A;Serra Leoa;Sierra Leone
+CIV;MLI;Q912;;;A;Mali;Mali
+COL;COL;Q739;;;A;Colômbia;Colombia
+COL;PAN;Q804;;;B;Panamá;Panama
+COM;COM;Q970;;;B;Comores;Comoros
+CPV;GNB;Q1007;1879;1974;A;Guiné-Bissau;Guinea-Bissau
+CPV;CPV;Q1011;;1975;A;Cabo Verde;Cape Verde
+CPV;MOZ;Q1029;1501;1975;A;Moçambique;Mozambique
+CPV;STP;Q1039;1470;1975;A;São Tomé e Príncipe;São Tomé and Príncipe
+CPV;BRA;Q155;;1815;A;Brasil;Brazil
+CPV;TLS;Q574;1533;2002;A;Timor-Leste;Timor-Leste
+CPV;URY;Q77;1808;1822;B;Uruguai;Uruguay
+CPV;AGO;Q916;1575;1975;A;Angola;Angola
+CYP;CYP;Q229;;;A;Chipre;Cyprus
+CZE;CZE;Q213;;;A;Chéquia;Czech Republic
+CZE;SVK;Q214;;;A;Eslováquia;Slovakia
+DEU;;Q1206012;1871;1918;B;Reich Alemão;German Reich
+DEU;DEU;Q183;;;A;Alemanha;Germany
+DEU;LUX;Q32;;;B;Luxemburgo;Luxembourg
+DEU;LIE;Q347;;;B;Liechtenstein;Liechtenstein
+DEU;POL;Q36;;;A;Polónia;Poland
+DEU;AUT;Q40;;;A;Áustria;Austria
+DNK;DNK;Q35;;;A;Dinamarca;Denmark
+ECU;VEN;Q717;;;B;Venezuela;Venezuela
+ECU;ECU;Q736;;;A;Equador;Ecuador
+EGY;;Q124943;;;B;Reino do Egito;Kingdom of Egypt
+EGY;;Q127861;;;B;Quedivato do Egito;Khedivate of Egypt
+EGY;;Q370173;;;B;Sultanato do Egipto;Sultanate of Egypt
+EGY;ISR;Q801;;;A;Israel;Israel
+ESP;MRT;Q1025;;;B;Mauritânia;Mauritania
+ESP;MAR;Q1028;;1956;B;Marrocos;Morocco
+ESP;;Q131839713;;;B;Kingdom of Patones;Kingdom of Patones
+ESP;ESP;Q29;;;B;Espanha;Spain
+ESP;CHL;Q298;;;A;Chile;Chile
+ESP;BEL;Q31;;;A;Bélgica;Belgium
+ESP;NLD;Q55;;;A;Países Baixos;Netherlands
+ESP;PHL;Q928;;;A;Filipinas;Philippines
+ESP;GNQ;Q983;;;B;Guiné Equatorial;Equatorial Guinea
+EST;CHN;Q148;1929;1991;A;China;People's Republic of China
+EST;RUS;Q159;;1991;A;Rússia;Russia
+EST;BLR;Q184;;1991;A;Bielorrússia;Belarus
+EST;EST;Q191;;1991;B;Estónia;Estonia
+EST;LVA;Q211;;1991;B;Letónia;Latvia
+EST;UKR;Q212;;1991;A;Ucrânia;Ukraine
+EST;MDA;Q217;;1991;A;Moldávia;Moldova
+EST;ROU;Q218;1922;1991;A;Roménia;Romania
+EST;AZE;Q227;;1991;A;Azerbaijão;Azerbaijan
+EST;GEO;Q230;;1991;A;Geórgia;Georgia
+EST;KAZ;Q232;;1991;A;Cazaquistão;Kazakhstan
+EST;UZB;Q265;;1991;A;Uzbequistão;Uzbekistan
+EST;FIN;Q33;1917;1917;A;Finlândia;Finland
+EST;POL;Q36;;1991;A;Polónia;Poland
+EST;LTU;Q37;;1991;A;Lituânia;Lithuania
+EST;ARM;Q399;;1991;A;Arménia;Armenia
+EST;KGZ;Q813;;1991;A;Quirguistão;Kyrgyzstan
+EST;;Q863;;1991;A;Tajiquistão;Tajikistan
+EST;TKM;Q874;;1991;A;Turquemenistão;Turkmenistan
+EST;;Q907112;1940;1991;A;Transnístria;Transnistria
+ETH;ETH;Q115;;;A;Etiópia;Ethiopia
+ETH;ERI;Q986;;;A;Eritreia;Eritrea
+FIN;RUS;Q159;;;A;Rússia;Russia
+FJI;FJI;Q712;;;B;Fiji;Fiji
+FRA;GIN;Q1006;;;B;Guiné;Guinea
+FRA;CIV;Q1008;;;B;Costa do Marfim;Ivory Coast
+FRA;MDG;Q1019;;;B;Madagáscar;Madagascar
+FRA;MRT;Q1025;;;B;Mauritânia;Mauritania
+FRA;MAR;Q1028;;1956;B;Marrocos;Morocco
+FRA;NER;Q1032;;;B;Níger;Niger
+FRA;NGA;Q1033;;;B;Nigéria;Nigeria
+FRA;SEN;Q1041;;;B;Senegal;Senegal
+FRA;FRA;Q142;;;A;França;France
+FRA;MCO;Q235;;;B;Mónaco;Monaco
+FRA;ITA;Q38;;;A;Itália;Italy
+FRA;VUT;Q686;;;B;Vanuatu;Vanuatu
+FRA;;Q71084;;;B;Primeiro Império Francês;First French Empire
+FRA;MLI;Q912;;;B;Mali;Mali
+FRA;BEN;Q962;;;B;Benim;Benin
+FRA;BFA;Q965;;;B;Burquina Fasso;Burkina Faso
+FRO;FRO;Q4628;;;A;Ilhas Feroe;Faroe Islands
+GBR;MAR;Q1028;1923;1956;B;Marrocos;Morocco
+GBR;GHA;Q117;;;B;Gana;Ghana
+GBR;GBR;Q145;;;A;Reino Unido;United Kingdom
+GBR;CAN;Q16;;;B;Canadá;Canada
+GBR;USA;Q30;;;B;Estados Unidos;United States
+GBR;VUT;Q686;;;B;Vanuatu;Vanuatu
+GBR;GUY;Q734;;;B;Guiana;Guyana
+GBR;ISR;Q801;;;A;Israel;Israel
+GBR;JOR;Q810;;;A;Jordânia;Jordan
+GBR;LBN;Q822;;;A;Líbano;Lebanon
+GBR;MDV;Q826;;;B;Maldivas;Maldives
+GBR;MYS;Q833;;;B;Malásia;Malaysia
+GBR;SYR;Q858;;;A;Síria;Syria
+GBR;ARE;Q878;;;B;Emirados Árabes Unidos;United Arab Emirates
+GIN;GIN;Q1006;;;A;Guiné;Guinea
+GIN;CIV;Q1008;;;A;Costa do Marfim;Ivory Coast
+GIN;SLE;Q1044;;;A;Serra Leoa;Sierra Leone
+GIN;MLI;Q912;;;A;Mali;Mali
+GMB;GMB;Q1005;;;B;Gâmbia;The Gambia
+GRC;GRC;Q41;;;A;Grécia;Greece
+GRL;GRL;Q223;;;B;Gronelândia;Greenland
+GUY;VEN;Q717;;;A;Venezuela;Venezuela
+GUY;GUY;Q734;;;A;Guiana;Guyana
+HRV;;Q1246;;;A;Kosovo;Kosovo
+HRV;SVN;Q215;;;A;Eslovénia;Slovenia
+HRV;MKD;Q221;;;A;Macedónia do Norte;North Macedonia
+HRV;HRV;Q224;;;A;Croácia;Croatia
+HRV;BIH;Q225;;;A;Bósnia e Herzegovina;Bosnia and Herzegovina
+HRV;MNE;Q236;;;A;Montenegro;Montenegro
+HRV;ITA;Q38;;;A;Itália;Italy
+HRV;SRB;Q403;;1992;B;Sérvia;Serbia
+HUN;HUN;Q28;;;A;Hungria;Hungary
+IDN;IDN;Q252;;;A;Indonésia;Indonesia
+IDN;TLS;Q574;;;B;Timor-Leste;Timor-Leste
+IND;IND;Q668;;1947;B;Índia;India
+IRL;GBR;Q145;;;A;Reino Unido;United Kingdom
+IRL;CAN;Q16;;;B;Canadá;Canada
+IRL;USA;Q30;;;B;Estados Unidos;United States
+IRL;GUY;Q734;;;B;Guiana;Guyana
+IRL;ISR;Q801;;;A;Israel;Israel
+IRL;JOR;Q810;;;A;Jordânia;Jordan
+IRL;LBN;Q822;;;A;Líbano;Lebanon
+IRL;MDV;Q826;;;B;Maldivas;Maldives
+IRL;SYR;Q858;;;A;Síria;Syria
+IRN;IRN;Q794;;;A;Irão;Iran
+IRQ;IRQ;Q796;;;A;Iraque;Iraq
+IRQ;KWT;Q817;;;B;Kuwait;Kuwait
+ISR;ISR;Q801;;;A;Israel;Israel
+ITA;MAR;Q1028;1928;1956;B;Marrocos;Morocco
+ITA;;Q153136;;;B;Monarquia de Habsburgo;Habsburg monarchy
+ITA;VAT;Q237;;;B;Vaticano;Vatican City
+ITA;ITA;Q38;;;A;Itália;Italy
+JOR;ISR;Q801;;;A;Israel;Israel
+JPN;RUS;Q159;;1949;A;Rússia;Russia
+JPN;JPN;Q17;;;A;Japão;Japan
+JPN;PRK;Q423;1910;1945;B;Coreia do Norte;North Korea
+JPN;PLW;Q695;;;A;Palau;Palau
+JPN;FSM;Q702;;;A;Micronésia;Federated States of Micronesia
+JPN;MHL;Q709;;;A;Ilhas Marshall;Marshall Islands
+JPN;TWN;Q865;;;B;Taiwan;Taiwan
+JPN;KOR;Q884;1910;1945;B;Coreia do Sul;South Korea
+KAZ;CHN;Q148;1929;1991;A;China;People's Republic of China
+KAZ;RUS;Q159;;1991;A;Rússia;Russia
+KAZ;BLR;Q184;;1991;A;Bielorrússia;Belarus
+KAZ;EST;Q191;;1991;B;Estónia;Estonia
+KAZ;LVA;Q211;;1991;B;Letónia;Latvia
+KAZ;UKR;Q212;;1991;A;Ucrânia;Ukraine
+KAZ;MDA;Q217;;1991;A;Moldávia;Moldova
+KAZ;ROU;Q218;1922;1991;A;Roménia;Romania
+KAZ;AZE;Q227;;1991;A;Azerbaijão;Azerbaijan
+KAZ;GEO;Q230;;1991;A;Geórgia;Georgia
+KAZ;KAZ;Q232;;1991;A;Cazaquistão;Kazakhstan
+KAZ;UZB;Q265;;1991;A;Uzbequistão;Uzbekistan
+KAZ;FIN;Q33;1917;1917;A;Finlândia;Finland
+KAZ;POL;Q36;;1991;A;Polónia;Poland
+KAZ;LTU;Q37;;1991;A;Lituânia;Lithuania
+KAZ;ARM;Q399;;1991;A;Arménia;Armenia
+KAZ;KGZ;Q813;;1991;A;Quirguistão;Kyrgyzstan
+KAZ;;Q863;;1991;A;Tajiquistão;Tajikistan
+KAZ;TKM;Q874;;1991;A;Turquemenistão;Turkmenistan
+KAZ;;Q907112;1940;1991;A;Transnístria;Transnistria
+KGZ;CHN;Q148;1929;1991;A;China;People's Republic of China
+KGZ;RUS;Q159;;1991;A;Rússia;Russia
+KGZ;BLR;Q184;;1991;A;Bielorrússia;Belarus
+KGZ;EST;Q191;;1991;B;Estónia;Estonia
+KGZ;LVA;Q211;;1991;B;Letónia;Latvia
+KGZ;UKR;Q212;;1991;A;Ucrânia;Ukraine
+KGZ;MDA;Q217;;1991;A;Moldávia;Moldova
+KGZ;ROU;Q218;1922;1991;A;Roménia;Romania
+KGZ;AZE;Q227;;1991;A;Azerbaijão;Azerbaijan
+KGZ;GEO;Q230;;1991;A;Geórgia;Georgia
+KGZ;KAZ;Q232;;1991;A;Cazaquistão;Kazakhstan
+KGZ;UZB;Q265;;1991;A;Uzbequistão;Uzbekistan
+KGZ;FIN;Q33;1917;1917;A;Finlândia;Finland
+KGZ;POL;Q36;;1991;A;Polónia;Poland
+KGZ;LTU;Q37;;1991;A;Lituânia;Lithuania
+KGZ;ARM;Q399;;1991;A;Arménia;Armenia
+KGZ;KGZ;Q813;;1991;A;Quirguistão;Kyrgyzstan
+KGZ;;Q863;;1991;A;Tajiquistão;Tajikistan
+KGZ;TKM;Q874;;1991;A;Turquemenistão;Turkmenistan
+KGZ;;Q907112;1940;1991;A;Transnístria;Transnistria
+KHM;KHM;Q424;;;A;Camboja;Cambodia
+KOR;PRK;Q423;;1897;B;Coreia do Norte;North Korea
+KOR;KOR;Q884;;1897;B;Coreia do Sul;South Korea
+KWT;KWT;Q817;;;A;Kuwait;Kuwait
+LTU;CHN;Q148;1929;1991;A;China;People's Republic of China
+LTU;RUS;Q159;;1991;A;Rússia;Russia
+LTU;BLR;Q184;;1991;A;Bielorrússia;Belarus
+LTU;EST;Q191;;1991;B;Estónia;Estonia
+LTU;LVA;Q211;;1991;B;Letónia;Latvia
+LTU;UKR;Q212;;1991;A;Ucrânia;Ukraine
+LTU;MDA;Q217;;1991;A;Moldávia;Moldova
+LTU;ROU;Q218;1922;1991;A;Roménia;Romania
+LTU;AZE;Q227;;1991;A;Azerbaijão;Azerbaijan
+LTU;GEO;Q230;;1991;A;Geórgia;Georgia
+LTU;KAZ;Q232;;1991;A;Cazaquistão;Kazakhstan
+LTU;UZB;Q265;;1991;A;Uzbequistão;Uzbekistan
+LTU;FIN;Q33;1917;1917;A;Finlândia;Finland
+LTU;POL;Q36;;1991;A;Polónia;Poland
+LTU;LTU;Q37;;1991;A;Lituânia;Lithuania
+LTU;ARM;Q399;;1991;A;Arménia;Armenia
+LTU;KGZ;Q813;;1991;A;Quirguistão;Kyrgyzstan
+LTU;;Q863;;1991;A;Tajiquistão;Tajikistan
+LTU;TKM;Q874;;1991;A;Turquemenistão;Turkmenistan
+LTU;;Q907112;1940;1991;A;Transnístria;Transnistria
+LVA;EST;Q191;;;B;Estónia;Estonia
+LVA;LVA;Q211;;;B;Letónia;Latvia
+MAR;MAR;Q1028;;1956;B;Marrocos;Morocco
+MAR;;Q160307;;;B;Califado Fatímida;Fatimid Caliphate
+MDA;CHN;Q148;1929;1991;A;China;People's Republic of China
+MDA;RUS;Q159;;1991;A;Rússia;Russia
+MDA;BLR;Q184;;1991;A;Bielorrússia;Belarus
+MDA;EST;Q191;;1991;B;Estónia;Estonia
+MDA;LVA;Q211;;1991;B;Letónia;Latvia
+MDA;UKR;Q212;;1991;A;Ucrânia;Ukraine
+MDA;MDA;Q217;;1991;A;Moldávia;Moldova
+MDA;ROU;Q218;1922;1991;A;Roménia;Romania
+MDA;AZE;Q227;;1991;A;Azerbaijão;Azerbaijan
+MDA;GEO;Q230;;1991;A;Geórgia;Georgia
+MDA;KAZ;Q232;;1991;A;Cazaquistão;Kazakhstan
+MDA;UZB;Q265;;1991;A;Uzbequistão;Uzbekistan
+MDA;FIN;Q33;1917;1917;A;Finlândia;Finland
+MDA;POL;Q36;;1991;A;Polónia;Poland
+MDA;LTU;Q37;;1991;A;Lituânia;Lithuania
+MDA;ARM;Q399;;1991;A;Arménia;Armenia
+MDA;KGZ;Q813;;1991;A;Quirguistão;Kyrgyzstan
+MDA;;Q863;;1991;A;Tajiquistão;Tajikistan
+MDA;TKM;Q874;;1991;A;Turquemenistão;Turkmenistan
+MDA;;Q907112;1940;1991;A;Transnístria;Transnistria
+MDV;MDV;Q826;;;B;Maldivas;Maldives
+MKD;;Q1246;;;A;Kosovo;Kosovo
+MKD;SVN;Q215;;;A;Eslovénia;Slovenia
+MKD;MKD;Q221;;;A;Macedónia do Norte;North Macedonia
+MKD;HRV;Q224;;;A;Croácia;Croatia
+MKD;BIH;Q225;;;A;Bósnia e Herzegovina;Bosnia and Herzegovina
+MKD;MNE;Q236;;;A;Montenegro;Montenegro
+MKD;SRB;Q403;;1992;B;Sérvia;Serbia
+MLI;GIN;Q1006;;;A;Guiné;Guinea
+MLI;CIV;Q1008;;;A;Costa do Marfim;Ivory Coast
+MLI;SLE;Q1044;;;A;Serra Leoa;Sierra Leone
+MLI;MLI;Q912;;;A;Mali;Mali
+MNE;MNE;Q236;;2006;B;Montenegro;Montenegro
+MNE;SRB;Q403;;2006;B;Sérvia;Serbia
+MOZ;MOZ;Q1029;;;A;Moçambique;Mozambique
+MOZ;ZWE;Q954;;;A;Zimbábue;Zimbabwe
+MRT;GIN;Q1006;;;A;Guiné;Guinea
+MRT;CIV;Q1008;;;A;Costa do Marfim;Ivory Coast
+MRT;SLE;Q1044;;;A;Serra Leoa;Sierra Leone
+MRT;MLI;Q912;;;A;Mali;Mali
+MWI;MWI;Q1020;;;B;Malawi;Malawi
+MYS;SGP;Q334;;;B;Singapura;Singapore
+NER;GIN;Q1006;;;A;Guiné;Guinea
+NER;CIV;Q1008;;;A;Costa do Marfim;Ivory Coast
+NER;SLE;Q1044;;;A;Serra Leoa;Sierra Leone
+NER;MLI;Q912;;;A;Mali;Mali
+NGA;NGA;Q1033;;;B;Nigéria;Nigeria
+NIC;NIC;Q811;;;A;Nicarágua;Nicaragua
+NLD;MAR;Q1028;1929;1956;B;Marrocos;Morocco
+NOR;GRL;Q223;;;B;Gronelândia;Greenland
+NZL;NZL;Q664;;;B;Nova Zelândia;New Zealand
+OMN;OMN;Q842;;;B;Omã;Oman
+PAK;IND;Q668;;1947;B;Índia;India
+PAK;PAK;Q843;;;B;Paquistão;Pakistan
+PHL;PHL;Q928;;;A;Filipinas;Philippines
+PNG;PNG;Q691;;;B;Papua-Nova Guiné;Papua New Guinea
+POL;BLR;Q184;;1939;A;Bielorrússia;Belarus
+POL;UKR;Q212;;;A;Ucrânia;Ukraine
+POL;POL;Q36;;1939;A;Polónia;Poland
+POL;LTU;Q37;;;A;Lituânia;Lithuania
+PRK;PRK;Q423;;1897;B;Coreia do Norte;North Korea
+PRK;KOR;Q884;;1897;B;Coreia do Sul;South Korea
+PRT;GNB;Q1007;1879;1974;A;Guiné-Bissau;Guinea-Bissau
+PRT;CPV;Q1011;1462;1975;A;Cabo Verde;Cape Verde
+PRT;MAR;Q1028;1928;1956;B;Marrocos;Morocco
+PRT;MOZ;Q1029;1501;1975;A;Moçambique;Mozambique
+PRT;STP;Q1039;1470;1975;A;São Tomé e Príncipe;São Tomé and Príncipe
+PRT;CHN;Q148;1557;1910;A;China;People's Republic of China
+PRT;BRA;Q155;;1815;A;Brasil;Brazil
+PRT;PRT;Q45;;1910;A;Portugal;Portugal
+PRT;TLS;Q574;1533;2002;A;Timor-Leste;Timor-Leste
+PRT;IND;Q668;1505;1961;A;Índia;India
+PRT;URY;Q77;1808;1822;B;Uruguai;Uruguay
+PRT;AGO;Q916;1575;1975;A;Angola;Angola
+ROU;ROU;Q218;;;A;Roménia;Romania
+RUS;CHN;Q148;1929;1991;A;China;People's Republic of China
+RUS;RUS;Q159;;1991;A;Rússia;Russia
+RUS;BLR;Q184;;1991;A;Bielorrússia;Belarus
+RUS;EST;Q191;;1991;B;Estónia;Estonia
+RUS;LVA;Q211;;1991;B;Letónia;Latvia
+RUS;UKR;Q212;;1991;A;Ucrânia;Ukraine
+RUS;MDA;Q217;;1991;A;Moldávia;Moldova
+RUS;ROU;Q218;1922;1991;A;Roménia;Romania
+RUS;AZE;Q227;;1991;A;Azerbaijão;Azerbaijan
+RUS;GEO;Q230;;1991;A;Geórgia;Georgia
+RUS;KAZ;Q232;;1991;A;Cazaquistão;Kazakhstan
+RUS;UZB;Q265;;1991;A;Uzbequistão;Uzbekistan
+RUS;FIN;Q33;1917;1917;A;Finlândia;Finland
+RUS;POL;Q36;;1991;A;Polónia;Poland
+RUS;LTU;Q37;;1991;A;Lituânia;Lithuania
+RUS;ARM;Q399;;1991;A;Arménia;Armenia
+RUS;KGZ;Q813;;1991;A;Quirguistão;Kyrgyzstan
+RUS;;Q863;;1991;A;Tajiquistão;Tajikistan
+RUS;TKM;Q874;;1991;A;Turquemenistão;Turkmenistan
+RUS;;Q907112;1940;1991;A;Transnístria;Transnistria
+SEN;GIN;Q1006;;;A;Guiné;Guinea
+SEN;CIV;Q1008;;;A;Costa do Marfim;Ivory Coast
+SEN;SEN;Q1041;;;A;Senegal;Senegal
+SEN;SLE;Q1044;;;A;Serra Leoa;Sierra Leone
+SEN;MLI;Q912;;;A;Mali;Mali
+SRB;MNE;Q236;;2006;B;Montenegro;Montenegro
+SRB;SRB;Q403;;2006;B;Sérvia;Serbia
+STP;STP;Q1039;;;A;São Tomé e Príncipe;São Tomé and Príncipe
+SVK;CZE;Q213;;;A;Chéquia;Czech Republic
+SVK;SVK;Q214;;;A;Eslováquia;Slovakia
+SVN;;Q1246;;;A;Kosovo;Kosovo
+SVN;SVN;Q215;;;A;Eslovénia;Slovenia
+SVN;MKD;Q221;;;A;Macedónia do Norte;North Macedonia
+SVN;HRV;Q224;;;A;Croácia;Croatia
+SVN;BIH;Q225;;;A;Bósnia e Herzegovina;Bosnia and Herzegovina
+SVN;MNE;Q236;;;A;Montenegro;Montenegro
+SVN;SRB;Q403;;1992;B;Sérvia;Serbia
+SWE;MAR;Q1028;1928;1956;B;Marrocos;Morocco
+SYC;SYC;Q1042;;;A;Seychelles;Seychelles
+SYR;SYR;Q858;;;B;Síria;Syria
+THA;KHM;Q424;;;A;Camboja;Cambodia
+TKM;CHN;Q148;1929;1991;A;China;People's Republic of China
+TKM;RUS;Q159;;1991;A;Rússia;Russia
+TKM;BLR;Q184;;1991;A;Bielorrússia;Belarus
+TKM;EST;Q191;;1991;B;Estónia;Estonia
+TKM;LVA;Q211;;1991;B;Letónia;Latvia
+TKM;UKR;Q212;;1991;A;Ucrânia;Ukraine
+TKM;MDA;Q217;;1991;A;Moldávia;Moldova
+TKM;ROU;Q218;1922;1991;A;Roménia;Romania
+TKM;AZE;Q227;;1991;A;Azerbaijão;Azerbaijan
+TKM;GEO;Q230;;1991;A;Geórgia;Georgia
+TKM;KAZ;Q232;;1991;A;Cazaquistão;Kazakhstan
+TKM;UZB;Q265;;1991;A;Uzbequistão;Uzbekistan
+TKM;FIN;Q33;1917;1917;A;Finlândia;Finland
+TKM;POL;Q36;;1991;A;Polónia;Poland
+TKM;LTU;Q37;;1991;A;Lituânia;Lithuania
+TKM;ARM;Q399;;1991;A;Arménia;Armenia
+TKM;KGZ;Q813;;1991;A;Quirguistão;Kyrgyzstan
+TKM;;Q863;;1991;A;Tajiquistão;Tajikistan
+TKM;TKM;Q874;;1991;A;Turquemenistão;Turkmenistan
+TKM;;Q907112;1940;1991;A;Transnístria;Transnistria
+TLS;TLS;Q574;;;A;Timor-Leste;Timor-Leste
+TUR;LBY;Q1016;0395;;A;Líbia;Libya
+TUR;;Q127861;;;B;Quedivato do Egito;Khedivate of Egypt
+TUR;;Q153136;;;B;Monarquia de Habsburgo;Habsburg monarchy
+TUR;GRC;Q41;;;A;Grécia;Greece
+TUR;TUR;Q43;;1923;B;Turquia;Turkey
+TWN;CHN;Q148;;;A;China;People's Republic of China
+TWN;;Q319881;;;B;República de Formosa;Republic of Formosa
+TWN;MNG;Q711;;;A;Mongólia;Mongolia
+TWN;TWN;Q865;;;A;Taiwan;Taiwan
+UKR;CHN;Q148;1929;1991;A;China;People's Republic of China
+UKR;RUS;Q159;;1991;A;Rússia;Russia
+UKR;BLR;Q184;;1991;A;Bielorrússia;Belarus
+UKR;EST;Q191;;1991;B;Estónia;Estonia
+UKR;LVA;Q211;;1991;B;Letónia;Latvia
+UKR;UKR;Q212;;1991;A;Ucrânia;Ukraine
+UKR;MDA;Q217;;1991;A;Moldávia;Moldova
+UKR;ROU;Q218;1922;1991;A;Roménia;Romania
+UKR;AZE;Q227;;1991;A;Azerbaijão;Azerbaijan
+UKR;GEO;Q230;;1991;A;Geórgia;Georgia
+UKR;KAZ;Q232;;1991;A;Cazaquistão;Kazakhstan
+UKR;UZB;Q265;;1991;A;Uzbequistão;Uzbekistan
+UKR;FIN;Q33;1917;1917;A;Finlândia;Finland
+UKR;POL;Q36;;1991;A;Polónia;Poland
+UKR;LTU;Q37;;1991;A;Lituânia;Lithuania
+UKR;ARM;Q399;;1991;A;Arménia;Armenia
+UKR;;Q581325;;;B;Romênia Maior;Greater Romania
+UKR;KGZ;Q813;;1991;A;Quirguistão;Kyrgyzstan
+UKR;;Q863;;1991;A;Tajiquistão;Tajikistan
+UKR;TKM;Q874;;1991;A;Turquemenistão;Turkmenistan
+UKR;;Q907112;1940;1991;A;Transnístria;Transnistria
+URY;URY;Q77;;;B;Uruguai;Uruguay
+USA;MAR;Q1028;1945;1956;B;Marrocos;Morocco
+USA;USA;Q30;;;A;Estados Unidos;United States
+UZB;CHN;Q148;1929;1991;A;China;People's Republic of China
+UZB;RUS;Q159;;1991;A;Rússia;Russia
+UZB;BLR;Q184;;1991;A;Bielorrússia;Belarus
+UZB;EST;Q191;;1991;B;Estónia;Estonia
+UZB;LVA;Q211;;1991;B;Letónia;Latvia
+UZB;UKR;Q212;;1991;A;Ucrânia;Ukraine
+UZB;MDA;Q217;;1991;A;Moldávia;Moldova
+UZB;ROU;Q218;1922;1991;A;Roménia;Romania
+UZB;AZE;Q227;;1991;A;Azerbaijão;Azerbaijan
+UZB;GEO;Q230;;1991;A;Geórgia;Georgia
+UZB;KAZ;Q232;;1991;A;Cazaquistão;Kazakhstan
+UZB;UZB;Q265;;1991;A;Uzbequistão;Uzbekistan
+UZB;FIN;Q33;1917;1917;A;Finlândia;Finland
+UZB;POL;Q36;;1991;A;Polónia;Poland
+UZB;LTU;Q37;;1991;A;Lituânia;Lithuania
+UZB;ARM;Q399;;1991;A;Arménia;Armenia
+UZB;KGZ;Q813;;1991;A;Quirguistão;Kyrgyzstan
+UZB;;Q863;;1991;A;Tajiquistão;Tajikistan
+UZB;TKM;Q874;;1991;A;Turquemenistão;Turkmenistan
+UZB;;Q907112;1940;1991;A;Transnístria;Transnistria
+VAT;VAT;Q237;;;B;Vaticano;Vatican City
+VEN;VEN;Q717;;;A;Venezuela;Venezuela
+VEN;GUY;Q734;;;A;Guiana;Guyana
+VEN;ECU;Q736;;;B;Equador;Ecuador
+VNM;CHN;Q148;;1054;A;China;People's Republic of China
+VNM;LAO;Q819;;;A;Laos;Laos
+VNM;VNM;Q881;;1054;A;Vietname;Vietnam
+VUT;VUT;Q686;;;B;Vanuatu;Vanuatu
+YEM;YEM;Q805;;;A;Iémen;Yemen
+ZAF;ZAF;Q258;;;A;África do Sul;South Africa
