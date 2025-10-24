@@ -358,8 +358,9 @@ def render_forecast_tab():
 
             prefix_intervalo = tr("forecast.intervalo")
             wide.columns = [
-                (f"{prefix_intervalo}_{c[1]}".replace(" ", "_") if c[0].startswith("intervalo_")
-                 else f"{c[0]}_{c[1]}".replace(" ", "_"))
+                (f"{prefix_intervalo}_{c[0].split('intervalo_', 1)[1]}".replace(" ", "_")
+                if str(c[0]).startswith("intervalo_")
+                else f"{c[0]}_{c[1]}".replace(" ", "_"))
                 for c in wide.columns
             ]
             wide = wide.reset_index()
