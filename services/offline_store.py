@@ -70,39 +70,70 @@ def load_profiles_master() -> pd.DataFrame:
 
 def list_available_countries() -> pd.DataFrame:
     """
-    Lista países a partir do profiles agregado; se não existir, cai para a seed.
+    Lista países com nomes PT/EN a partir do profiles (se existir) e da seed.
+    Saída inclui: name (dependente de lang), name_pt, name_en, iso3, qid (se houver).
     """
-    if have_master_profiles():
-        df = load_profiles_master()
-        if df.empty:
-            return pd.DataFrame(columns=["name","iso3","qid"])
-        out = pd.DataFrame({
-            "name": df.get("name", pd.Series(dtype=str)),
-            "iso3": df.get("iso3", pd.Series(dtype=str)).astype(str).str.upper(),
-            "qid":  df.get("qid",  pd.Series(dtype=str)),
-        })
-        return (
-            out.dropna(subset=["name"])
-               .drop_duplicates(subset=["iso3"])
-               .sort_values("name")
-               .reset_index(drop=True)
-        )
 
-    # fallback: seed
-    seed = _read_csv_safe(countries_seed_path)
+    # 1) carregar seed com os nomes PT/EN
+    seed = _read_csv_safe(countries_seed_path, expected_cols=["iso2","iso3","name_en","name_pt","slug"])
+    seed = seed.copy()
     if seed.empty:
-        return pd.DataFrame(columns=["name","iso3","qid"])
-    out = pd.DataFrame({
-        "name": seed.get("name_pt", seed.get("name_en", pd.Series(dtype=str))),
-        "iso3": seed.get("iso3", pd.Series(dtype=str)).astype(str).str.upper(),
-        "qid":  pd.Series([], dtype=str),  # desconhecido aqui
-    })
-    return (
-        out.dropna(subset=["name"])
-           .drop_duplicates(subset=["iso3"])
-           .sort_values("name")
-           .reset_index(drop=True)
+        # fallback mínimo
+        return pd.DataFrame(columns=["name","name_pt","name_en","iso3","qid"])
+
+    seed["iso3"] = seed["iso3"].astype(str).str.upper().str.strip()
+    seed["name_pt"] = seed["name_pt"].astype(str).str.strip()
+    seed["name_en"] = seed["name_en"].astype(str).str.strip()
+
+    # 2) base: perfis (se existirem), senão usar seed
+    if have_master_profiles():
+        prof = load_profiles_master()
+        if prof.empty:
+            base = seed[["iso3","name_pt","name_en"]].dropna(subset=["iso3"])
+            base["qid"] = pd.NA
+        else:
+            prof = prof.copy()
+            prof["iso3"] = prof.get("iso3", pd.Series(dtype=str)).astype(str).str.upper().str.strip()
+            # manter uma linha por iso3
+            base = (
+                prof[["iso3", "qid"]].drop_duplicates(subset=["iso3"], keep="first")
+                if "qid" in prof.columns else prof[["iso3"]].drop_duplicates(subset=["iso3"], keep="first")
+            )
+            # merge com seed para trazer name_pt/name_en
+            base = base.merge(
+                seed[["iso3","name_pt","name_en"]],
+                on="iso3",
+                how="left",
+            )
+            # se o profiles tiver colunas de nome, preferi-las (opcional)
+            if "name_pt" in prof.columns:
+                base["name_pt"] = base["name_pt"].fillna(prof["name_pt"])
+            if "name_en" in prof.columns:
+                base["name_en"] = base["name_en"].fillna(prof["name_en"])
+    else:
+        base = seed[["iso3","name_pt","name_en"]].dropna(subset=["iso3"])
+        base["qid"] = pd.NA
+
+    # 3) escolher 'name' conforme idioma atual (mantém retro-compat com chamadas antigas)
+    lang = str(st.session_state.get("lang", "pt")).lower()
+    if lang == "pt":
+        base["name"] = base["name_pt"].where(base["name_pt"].notna() & (base["name_pt"] != ""), base["name_en"])
+    else:
+        base["name"] = base["name_en"].where(base["name_en"].notna() & (base["name_en"] != ""), base["name_pt"])
+
+    # 4) limpezas finais
+    out = (
+        base.dropna(subset=["iso3"])
+            .drop_duplicates(subset=["iso3"], keep="first")
+            .sort_values("name", kind="stable")
+            .reset_index(drop=True)
     )
+
+    # ordem de colunas amigável (inclui 'name' para retro-compat)
+    cols = ["name","name_pt","name_en","iso3"]
+    if "qid" in out.columns: cols.append("qid")
+    return out[[c for c in cols if c in out.columns]]
+
 # --- retro-compat ---
 def list_countries() -> pd.DataFrame:
     """Alias compatível: devolve o mesmo que list_available_countries()."""

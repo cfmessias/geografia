@@ -525,6 +525,9 @@
     "download_csv": "💾 Descarregar CSV",
     "sem_dados": "— sem dados —",
 	"origens_pais": "Origens do país",
+	"conflitos": "Conflitos",
+	"participantes": "Participantes",
+	"personagens": "Personagens",
     "col": {
       "conflito": "Conflito",
       "tipo": "Tipo",

@@ -5,7 +5,7 @@ import re
 import pandas as pd
 import streamlit as st
 from urllib.parse import quote_plus
-
+from services.i18n import t as tr   
 
 F_ENRICHED = Path("data/conflicts_all_enriched.csv")
 
@@ -76,7 +76,7 @@ def render_wars_battles_expander(iso3: str, *, default_open: bool = False, max_r
 
     required = {"entity_type","Iso3Start","conflict_qid"}
     if not required.issubset(df.columns):
-        with st.expander("Guerras e Batalhas", expanded=default_open):
+        with st.expander(tr("history.guerras_e_batalhas"), expanded=default_open):
             st.info("Estrutura do CSV não tem as colunas esperadas (entity_type, Iso3Start, conflict_qid).")
         return
 
@@ -86,7 +86,7 @@ def render_wars_battles_expander(iso3: str, *, default_open: bool = False, max_r
         (df["Iso3Start"].str.upper() == iso3u)
     ].copy()
 
-    with st.expander("Guerras e Batalhas", expanded=default_open):
+    with st.expander(tr("history.guerras_e_batalhas"), expanded=default_open):
         if df_countries_self.empty:
             st.info(f"Sem registos de conflitos para {iso3u}.")
             return
@@ -188,9 +188,9 @@ def render_wars_battles_expander(iso3: str, *, default_open: bool = False, max_r
         conflitos_dist_roles = df_roles["conflict_qid"].nunique()
 
         # --- TABS ---
-        tabs = ["Conflitos do país", "Participantes"]
+        tabs = [tr("history.conflitos"), tr("history.participantes")]
         if has_is_human:
-            tabs.append("Personagens")
+            tabs.append(tr("history.personagens"))
         tab_objs = st.tabs(tabs)
         tab_conf = tab_objs[0]
         tab_part = tab_objs[1]
@@ -316,13 +316,13 @@ def render_wars_battles_expander(iso3: str, *, default_open: bool = False, max_r
                     lambda q: f"https://www.wikidata.org/wiki/Special:GoToLinkedPage/enwiki/{q}" if q else ""
                 )
 
-                # (opcional) fallbacks de pesquisa para quando não houver sitelink
-                uh["wikipedia_pt_search"] = uh.get("personagem", "").apply(
-                    lambda t: f"https://pt.wikipedia.org/w/index.php?search={quote_plus(str(t))}" if t else ""
-                )
-                uh["wikipedia_en_search"] = uh.get("personagem", "").apply(
-                    lambda t: f"https://en.wikipedia.org/w/index.php?search={quote_plus(str(t))}" if t else ""
-                )
+                # # (opcional) fallbacks de pesquisa para quando não houver sitelink
+                # uh["wikipedia_pt_search"] = uh.get("personagem", "").apply(
+                #     lambda t: f"https://pt.wikipedia.org/w/index.php?search={quote_plus(str(t))}" if t else ""
+                # )
+                # uh["wikipedia_en_search"] = uh.get("personagem", "").apply(
+                #     lambda t: f"https://en.wikipedia.org/w/index.php?search={quote_plus(str(t))}" if t else ""
+                # )
             else:
                 uh["wikidata"] = ""
                 uh["wikipedia_pt"] = ""
@@ -331,7 +331,7 @@ def render_wars_battles_expander(iso3: str, *, default_open: bool = False, max_r
             # Seleção de colunas conforme ISO3
             if iso3u == "PRT":
                 # Portugal: WD + PT + fallback de pesquisa em PT
-                uh_display = uh[["conflito","personagem","início","fim","entity_qid","wikidata","wikipedia_pt","wikipedia_pt_search"]]
+                uh_display = uh[["conflito","personagem","início","fim","entity_qid","wikidata","wikipedia_pt"]]
                 uh_columns = {
                     "conflito":              st.column_config.TextColumn("conflito", width="large"),
                     "personagem":            st.column_config.TextColumn("personagem", width="large"),
@@ -340,18 +340,18 @@ def render_wars_battles_expander(iso3: str, *, default_open: bool = False, max_r
                     "entity_qid":            st.column_config.TextColumn("QID", width="small"),
                     "wikidata":              st.column_config.LinkColumn("Wikidata", display_text="🔗 WD"),
                     "wikipedia_pt":          st.column_config.LinkColumn("Wikipédia (PT)", display_text="🔗 PT"),
-                    "wikipedia_pt_search":   st.column_config.LinkColumn("Wikipédia (PT) 🔎", display_text="🔎 procurar"),
+                    #"wikipedia_pt_search":   st.column_config.LinkColumn("Wikipédia (PT) 🔎", display_text="🔎 procurar"),
                 }
             else:
                 # Outros países: EN + fallback de pesquisa em EN
-                uh_display = uh[["conflito","personagem","início","fim","wikipedia_en","wikipedia_en_search"]]
+                uh_display = uh[["conflito","personagem","início","fim","wikipedia_en"]]
                 uh_columns = {
                     "conflito":              st.column_config.TextColumn("conflito", width="large"),
                     "personagem":            st.column_config.TextColumn("personagem", width="large"),
                     "início":                st.column_config.TextColumn("início", width="small"),
                     "fim":                   st.column_config.TextColumn("fim", width="small"),
                     "wikipedia_en":          st.column_config.LinkColumn("Wikipedia (EN)", display_text="🔗 EN"),
-                    "wikipedia_en_search":   st.column_config.LinkColumn("Wikipedia (EN) 🔎", display_text="🔎 procurar"),
+                    #"wikipedia_en_search":   st.column_config.LinkColumn("Wikipedia (EN) 🔎", display_text="🔎 procurar"),
                 }
 
             st.session_state.setdefault("_dummy", None)  # evita lint

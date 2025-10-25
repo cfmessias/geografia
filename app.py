@@ -4,7 +4,7 @@ from __future__ import annotations
 import streamlit as st
 from services.i18n_boot import render_lang_select
 from services.i18n import t
-from services.i18n import t as tr
+
 from services.i18n import t as tr   # <-- se estás a usar tr("..."); caso contrário, podes omitir
 from utils.timing import timed, show_perf_panel
 # importar a inicialização do idioma (compat com nomes antigos)
