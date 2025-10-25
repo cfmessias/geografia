@@ -7,13 +7,13 @@
 "online_backfill_iso3_mwapi.py",
 
 #depois
-fetch_state_forms_by_class.py
-build_lineage_level2_from_seed.py
-build_conflict_types.py
-make_conflict_types_2col.py
-fetch_conflicts_from_types.py
-build_conflict_catalog.py
-fetch_conflict_roles_from_catalog.py
-flag_humans_by_qid.py
-append_conflicts.py
-enrich_conflicts_with_dates_and_iso.py
+		"fetch_state_forms_by_class.py",
+		"build_lineage_level2_from_seed.py",
+		"build_conflict_types.py",
+		"make_conflict_types_2col.py",
+		"fetch_conflicts_from_types.py",
+		"build_conflict_catalog.py",
+		"fetch_conflict_roles_from_catalog.py",
+		"flag_humans_by_qid.py",
+		"append_conflicts.py",
+		"enrich_conflicts_with_dates_and_iso.py",

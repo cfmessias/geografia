@@ -567,7 +567,9 @@
     "historia": "History",
     "continentes": "Continents",
     "comparar_paises": "Compare countries",
-    "fluxos_migratorios": "Migration flows"
+    "fluxos_migratorios": "Migration flows",
+	"economia": "Economy",
+	"demografia": "Population"
 
   }
 }

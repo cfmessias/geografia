@@ -16,34 +16,38 @@ from views.render_monarchy_expander import render_monarchy_expander
 from views.origins import render_origins_expander
 from views.colonizacao import render_colonization_expander
 from views.render_wars_battles_expander import render_wars_battles_expander
+from views.economics import render_wdi_panel
+from views.demography import render_demography_expander
+
 # -------------------------- Helpers --------------------------
 
 def _paises_submenu() -> str:
-    """Submenu de Países (aparece imediatamente ao render). Retorna a key da aba."""
-    # etiquetas a partir do i18n
+    """Submenu de Países. Retorna a key da aba selecionada."""
     try:
         label_ov    = tr("subnav.visao_global")
         label_demog = tr("subnav.demografia_pais")
         label_hist  = tr("subnav.historia")
+        label_econ  = tr("subnav.economia")
     except Exception:
         # fallback simples caso tr() não esteja disponível
-        label_ov, label_demog, label_hist = "Visão global", "Demografia", "História"
+        label_ov, label_demog, label_hist, label_econ = (
+            "Visão global", "Demografia", "História", "Economia"
+        )
 
     tabs = [
         ("ov",    label_ov),
         ("demog", label_demog),
         ("hist",  label_hist),
+        ("econ",  label_econ),   # novo, fica à direita
     ]
 
     keys   = [k for k, _ in tabs]
-    labels = {k: v for k, v in tabs}
+    labels = dict(tabs)
 
-    # valor atual (persistido) ou default
     cur = st.session_state.get("paises_mode", "ov")
     if cur not in keys:
         cur = "ov"
 
-    # selector horizontal
     mode = st.radio(
         label="",
         options=keys,
@@ -51,8 +55,6 @@ def _paises_submenu() -> str:
         format_func=lambda k: labels[k],
         horizontal=True,
     )
-
-    # persistir e devolver
     st.session_state["paises_mode"] = mode
     return mode
 
@@ -483,29 +485,17 @@ def _mini_line(df: pd.DataFrame, ycol: str, ytitle: str):
 
 # -------------------------- UI principal --------------------------
 
-# --- NOVO: mini-view para a demografia por país -----------------------------
-def render_country_demography(iso3: str) -> None:
-    """Mostra os 3 mini-gráficos demográficos para o país."""
-    from services.offline_store import wb_series_for_country
-    wb = wb_series_for_country(iso3)
-    if wb.empty:
-        st.caption(tr("labels.sem_s_ries_do_world_bank"))
-        return
+# --- Mini-view "economia (os 4 do Economics)" para o país ---------------------
+# from views.economics import get_wdi_selection, fetch_wdi_dataset, render_wdi_charts_2x2
 
-    wb = wb.copy()
-    wb["year"] = pd.to_numeric(wb["year"], errors="coerce")
-
-    c1, c2 = st.columns(2)
-    with c1:
-        st.markdown(tr("labels.popula_o_total"))
-        _mini_line(wb, "pop_total", tr("paises.pessoas"))
-    with c2:
-        st.markdown(tr("labels.densidade_hab_km"))
-        _mini_line(wb, "pop_density", tr("crescimento_populacional.habitantes_por_km2"))
-
-    st.markdown(tr("labels.popula_o_urbana"))
-    _mini_line(wb, "urban_pct", "%")
-
+# def render_country_demography(iso3: str) -> None:
+#     # mostra EXACTAMENTE os 4 escolhidos na página Economics (com fallback)
+#     codes, (year_min, year_max) = get_wdi_selection()
+#     df, labels_map = fetch_wdi_dataset(iso3, codes, year_min, year_max)
+#     if df.empty:
+#         st.caption(tr("labels.sem_s_ries_do_world_bank")); return
+#     st.markdown(tr("labels.indicadores_economicos") if "tr" in globals() else "Economic indicators")
+#     render_wdi_charts_2x2(df, codes, labels_map)
 
 # --- SUBSTITUI a tua função por esta ----------------------------------------
 def render_paises_tab():
@@ -1057,7 +1047,10 @@ def render_paises_tab():
 
     # ---------- Demografia ----------
     elif mode == "demog":
-        render_country_demography(iso3)
+        #render_country_demography(iso3)
+        # supondo que tens iso3 e country_name definidos e uma função tr disponível:
+        render_demography_expander(iso3=iso3, country_name=country_name, tr=tr)
+
         render_migration_section(iso3)
         render_country_migration_tables(iso3, year=2024, top=20)
     
@@ -1111,6 +1104,9 @@ def render_paises_tab():
                                 column_config=_colcfg_leadership())
             else:
                 st.caption(tr("paises.label"))
-
         
         render_wars_battles_expander(iso3, default_open=False)
+
+    elif mode == "econ":
+        # assume que já tens `iso3` e `country_name` definidos na página Países
+        render_wdi_panel(iso3=iso3, country_name=country_name)
