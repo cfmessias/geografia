@@ -98,7 +98,7 @@ def _css_mobile() -> None:
 # ── HEADER ───────────────────────────────────────────────────────────────────
 #st.title(tr("labels.geografia_e_metereologia_mundiais"))
 st.markdown(tr("labels.text"))
-#st.markdown(tr("labels.explore_dados_demogr_ficos_e_informa_es_sobre_pa_ses"))
+#st.markdown(tr("labels.explore_dados_demogr_ficos_e_informa_es_sobre_paises"))
 
 # Toggle para forçar mobile (também vale ?mobile=1 na URL)
 left, _, _ = st.columns([2, 3, 7])
@@ -141,7 +141,7 @@ if not mobile:
     _css_desktop_tabs()
 
     tab_paises, tab_ind, tab_meteo = st.tabs([
-        tr("app.tabs.pa_ses"), tr("app.tabs.demografia"), tr("app.tabs.meteorologia")
+        tr("app.tabs.paises"), tr("app.tabs.demografia"), tr("app.tabs.meteorologia")
     ])
 
     with tab_paises:

@@ -16,6 +16,7 @@ alt.themes.register(
         "config": {
             "background": "#0e1117",
             "view": {"fill": "#0e1117"},
+            "padding": {"top": 28, "right": 10, "bottom": 8, "left": 10},  # + espaço p/ título
             "axis": {
                 "domainColor": "#ffffff",
                 "gridColor": "#3a3a3a",
@@ -23,20 +24,21 @@ alt.themes.register(
                 "titleColor": "#ffffff",
             },
             "legend": {"labelColor": "#ffffff", "titleColor": "#ffffff"},
-            "title": {"color": "#ffffff"},
+            "title": {"color": "#ffffff", "fontSize": 16, "anchor": "start"},
         }
     },
 )
 alt.themes.enable("streamlit_dark")
 
+
+
 # ----------------------------- Helpers -----------------------------
 def _t(tr, key: str, default: str) -> str:
-    """Tiny translator helper (falls back to default if tr is missing or key absent)."""
     try:
         if callable(tr):
-            val = tr(key)
-            if isinstance(val, str) and val and not val.startswith("["):
-                return val
+            v = tr(key)
+            if isinstance(v, str) and v and not v.startswith("["):
+                return v
     except Exception:
         pass
     return default
@@ -63,9 +65,25 @@ def _wdi_fetch_indicator(iso3: str, indicator: str, date_range: str, label: str)
     return pd.DataFrame(rows)
 
 def _is_percent_or_rate(code: str, label: str) -> bool:
-    return any(code.endswith(s) for s in (".ZG", ".ZS")) or "%" in label
+    return any(code.endswith(s) for s in (".ZG", ".ZS")) or "%" in (label or "")
 
-def _chart_one(sub: pd.DataFrame, code: str, label: str) -> alt.Chart:
+def _is_percent(code: str, label: str) -> bool:
+    """
+    Heurística para formatar eixo/tooltip com casas decimais quando é percentagem/variação.
+    Muitos indicadores WDI percentuais terminam em .ZG (growth), .ZS (% of something),
+    .ZP/.ZE; além disso, o label costuma conter '%'.
+    """
+    try:
+        code = (code or "").upper()
+        label_lc = (label or "").lower()
+    except Exception:
+        return False
+
+    suffix_flags = code.endswith((".ZG", ".ZS", ".ZP", ".ZE"))
+    label_flags = ("%" in label) or ("percent" in label_lc) or ("growth" in label_lc)
+    return suffix_flags or label_flags
+
+def _chart_one(sub: pd.DataFrame, code: str, label: str, year_label: str, unit_hint: str | None) -> alt.Chart:
     data = sub.dropna(subset=["value"]).copy()
     if data.empty:
         empty = pd.DataFrame({"msg": ["No data for selected years"]})
@@ -73,21 +91,31 @@ def _chart_one(sub: pd.DataFrame, code: str, label: str) -> alt.Chart:
             alt.Chart(empty, height=260)
             .mark_text(align="center", baseline="middle")
             .encode(text="msg:N")
-            .properties(title=label, width="container")
+            .properties(title=alt.TitleParams(text=label, anchor="start", offset=6), width="container")
             .configure_axis(grid=False, domain=False, labels=False, ticks=False)
         )
-    y_fmt = ",.1f" if _is_percent_or_rate(code, label) else ",.0f"
-    tipfmt = ",.2f"
+
+    is_pct = _is_percent_or_rate(code, label)
+    y_fmt  = ",.1f" if is_pct else ",.0f"   # eixo: 1 casa em %
+    tipfmt = ",.2f" if is_pct else ",.2f"   # tooltip: 2 casas
+
+    # acrescentar unidade ao título do tooltip
+    tip_title = f"{label} ({unit_hint})" if unit_hint and unit_hint != "%" else label
+
     return (
         alt.Chart(data, height=260)
         .mark_line(point=True)
         .encode(
-            x=alt.X("year:Q", title="Year", axis=alt.Axis(format="d")),
+            x=alt.X("year:Q", title=year_label, axis=alt.Axis(format="d")),
             y=alt.Y("value:Q", title=label, scale=alt.Scale(zero=False), axis=alt.Axis(format=y_fmt)),
-            tooltip=[alt.Tooltip("year:Q", format="d"), alt.Tooltip("value:Q", format=tipfmt)],
+            tooltip=[
+                alt.Tooltip("year:Q", title=year_label, format="d"),
+                alt.Tooltip("value:Q", title=tip_title, format=tipfmt),
+            ],
         )
-        .properties(title=label, width="container")
+        .properties(title=alt.TitleParams(text=label, anchor="start", offset=6), width="container")
     )
+
 
 def _human(x):
     if pd.isna(x):
@@ -195,34 +223,52 @@ def render_demography_expander(
                 delta=f"{_t(tr, 'demography.year', 'Year')} {last_year}",
             )
 
-        # Charts 2×2
+        # 3) Time series — 2x2
         st.subheader(_t(tr, "demography.time_series", "Time series"))
+
+        year_label = _t(tr, "demography.year", "Year")
+        codes_4 = list(CAT.keys())[:4]
+
         grid = [st.columns(2), st.columns(2)]
-        for i, code in enumerate(codes[:4]):
+        for i, code in enumerate(codes_4):
             r, c = divmod(i, 2)
             with grid[r][c]:
                 sub = df[df["code"] == code]
-                st.altair_chart(_chart_one(sub, code, CAT[code]["label"]), use_container_width=True)
+                st.altair_chart(
+                    _chart_one(
+                        sub,
+                        code,
+                        CAT[code]["label"],
+                        year_label,
+                        CAT[code].get("unit_hint"),
+                    ),
+                    use_container_width=True,
+                )
 
         # Table
         st.subheader(_t(tr, "demography.data_table", "Data table"))
-        wide = df.pivot_table(index="year", columns="label", values="value", aggfunc="last").sort_index()
+
+        labels_order = [CAT[c]["label"] for c in codes_4]
+        df4 = df[df["code"].isin(codes_4)].copy()
+        wide = (
+            df4.pivot_table(index="year", columns="label", values="value", aggfunc="last")
+            .sort_index()
+        )
+        wide = wide.reindex(columns=labels_order)
+
         disp = wide.copy()
-
         def _fmt(col, v):
-            if pd.isna(v):
-                return "–"
+            if pd.isna(v): return "–"
             return (f"{float(v):,.2f}" if "%" in col else f"{float(v):,.0f}").replace(",", " ")
-
         for col in disp.columns:
             disp[col] = disp[col].apply(lambda x, c=col: _fmt(c, x))
-        # ano como string (sem separador de milhares)
-        disp.index = disp.index.map(lambda y: str(int(y)))
 
+        disp.index = disp.index.map(lambda y: str(int(y)))
         st.dataframe(
-            disp.reset_index().rename(columns={"index": _t(tr, "demography.year", "year")}),
+            disp.reset_index().rename(columns={"index": year_label}),
             use_container_width=True,
             height=min(520, 50 + 28 * min(len(disp), 14)),
         )
+
 
         st.caption("Source: World Bank — World Development Indicators (WDI). API: https://api.worldbank.org/")

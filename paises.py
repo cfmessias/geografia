@@ -6,7 +6,7 @@ import streamlit as st
 import pandas as pd
 import altair as alt
 import plotly.express as px
-import plotly.graph_objects as go
+#import plotly.graph_objects as go
 from services.i18n import t as tr          # i18n
 from services.i18n_boot import _ensure_lang_state
 from utils.subnav import subnav
@@ -16,8 +16,8 @@ from views.render_monarchy_expander import render_monarchy_expander
 from views.origins import render_origins_expander
 from views.colonizacao import render_colonization_expander
 from views.render_wars_battles_expander import render_wars_battles_expander
-from views.economics import render_wdi_panel
-from views.demography import render_demography_expander
+from views.economia import render_wdi_panel
+from views.demografia_paises import render_demography_expander
 
 # -------------------------- Helpers --------------------------
 
@@ -169,7 +169,7 @@ def _country_selector(countries_df: pd.DataFrame) -> tuple[str | None, str | Non
 
         with col_sel:
             chosen_label_ui = st.selectbox(
-                tr("labels.pa_s"),
+                tr("labels.pais"),
                 options=options_ui,
                 index=idx,
                 key="paises_country_select",   # nunca escrever este key manualmente
@@ -388,7 +388,7 @@ def render_migration_section(iso3: str) -> None:
         )
 
         if io_df.empty:
-            st.caption(tr("labels.sem_dados_un_desa_para_este_pa_s_no_csv_name_n_o_h_linhas_para_iso3_iso3u",
+            st.caption(tr("labels.sem_dados_un_desa_para_este_pais_no_csv_name_n_o_h_linhas_para_iso3_iso3u",
                           csv_name=csv_name, iso3u=iso3u))
             return
 
@@ -522,14 +522,14 @@ def render_paises_tab():
 
     country_name, iso3 = _country_selector(countries)
     if not country_name or not iso3:
-        st.info(tr("labels.escolhe_um_pa_s_e_clica_abrir"))
+        st.info(tr("labels.escolhe_um_pais_e_clica_abrir"))
         return
 
     prof = _profile_by_iso3(iso3) if iso3 else None
 
     if not iso3:
     # Mostra só a instrução; o submenu já está no topo
-        st.info(tr("labels.escolhe_um_pa_s_e_clica_abrir"))
+        st.info(tr("labels.escolhe_um_pais_e_clica_abrir"))
         return
 
     # ── Cabeçalho com informação essencial (uma coluna) ──────────────────────

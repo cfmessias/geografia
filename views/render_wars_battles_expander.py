@@ -6,6 +6,114 @@ import pandas as pd
 import streamlit as st
 from urllib.parse import quote_plus
 from services.i18n import t as tr   
+# --- ADICIONA perto do topo do ficheiro (imports) ---
+import unicodedata
+
+def _inject_search_css_scoped(scope: str = "searchbar"):
+    st.markdown(f"""
+    <style>
+      div[data-{scope}] .stButton > button {{
+        font-size: 0.95rem;
+        padding: 0.40rem 0.9rem;
+        white-space: nowrap;  /* impede quebra nos botões */
+      }}
+      div[data-{scope}] div[data-testid="stTextInput"] input {{
+        height: 2.4rem;
+      }}
+    </style>
+    """, unsafe_allow_html=True)
+
+def _tr(tr, key: str, default: str) -> str:
+    try:
+        s = str(tr(key)).strip()
+        # fallback se o teu tr devolver "[chave]" quando não encontra
+        if s.startswith("[") and s.endswith("]"):
+            return default
+        return s
+    except Exception:
+        return default
+
+def search_bar(*, key: str, tr):
+    """
+    Barra de pesquisa com botões lado a lado, usando:
+      - label:   controls.search
+      - botão1:  controls.search
+      - botão2:  controls.reset
+    """
+    _inject_search_css_scoped(scope="searchbar")
+
+    btn_search = _tr(tr, "controls.search", "Pesquisar")
+    btn_reset  = _tr(tr, "controls.reset",  "Repor")
+    placeholder = _tr(tr, "controls.search", "Pesquisar")  # mostra só no placeholder
+
+    # wrapper para aplicar CSS apenas aqui
+    st.markdown('<div data-searchbar="1">', unsafe_allow_html=True)
+    with st.form(key=f"{key}_form", border=False):
+        # espaço suficiente para não quebrar
+        c1, c2, c3 = st.columns([7, 1.4, 1.4])
+        with c1:
+            q = st.text_input(
+                value=st.session_state.get(key, ""),
+                label="",                      # sem label acima
+                key=key,
+                placeholder=placeholder,       # texto bilingue no placeholder
+                label_visibility="collapsed"   # esconde o label
+            )
+        with c2:
+            do_search = st.form_submit_button(f"🔎 {btn_search}")
+        with c3:
+            do_reset = st.form_submit_button(f"🧹 {btn_reset}")
+
+        if do_reset:
+            st.session_state[key] = ""
+            q = ""
+            try:
+                st.rerun()
+            except Exception:
+                st.experimental_rerun()
+    st.markdown('</div>', unsafe_allow_html=True)
+
+    return st.session_state.get(key, q or "")
+
+
+
+def search_box(label: str, key: str) -> str:
+    c1, c2 = st.columns([1, 0.5])
+    with c1:
+        q = st.text_input(label, key=key)
+    with c2:
+        if st.button("🧹 Limpar", key=f"{key}_clear", help="Limpar pesquisa"):
+            st.session_state[key] = ""
+            try:
+                st.rerun()           # Streamlit ≥1.29
+            except Exception:
+                st.experimental_rerun()
+    return st.session_state.get(key, "")
+
+def _norm_text(s: str) -> str:
+    s = str(s or "")
+    s = unicodedata.normalize("NFKD", s)
+    s = s.encode("ascii", "ignore").decode("ascii")
+    return s.casefold().strip()
+
+def _filter_search(df: pd.DataFrame, query: str, cols: list[str]) -> pd.DataFrame:
+    """Filtra df por 'query' (AND de tokens), pesquisando nas colunas 'cols'."""
+    q = _norm_text(query)
+    if not q:
+        return df
+    tokens = [t for t in q.split() if t]
+    if not tokens:
+        return df
+    haystack = (
+        df[cols]
+        .astype(str)
+        .agg(" ".join, axis=1)
+        .map(_norm_text)
+    )
+    mask = pd.Series(True, index=df.index)
+    for t in tokens:
+        mask &= haystack.str.contains(t, na=False)
+    return df[mask]
 
 F_ENRICHED = Path("data/conflicts_all_enriched.csv")
 
@@ -272,95 +380,124 @@ def render_wars_battles_expander(iso3: str, *, default_open: bool = False, max_r
                 "wikipedia_en":  st.column_config.LinkColumn("Wikipedia (EN)", display_text="🔗 EN"),
             }
 
+        
+        # --- TAB 1: Conflitos do país ---
         with tab_conf:
+            # Barra de pesquisa bilingue (usa controls.search / controls.reset)
+            q_conf = search_bar(key=f"q_conf_{iso3u}", tr=tr)
+
+            # Colunas onde pesquisar (apenas as que existirem)
+            conf_search_cols = [c for c in ["conflito","início","fim","militar","conflict_qid"] if c in tc_display.columns]
+
+            # Aplicar filtro
+            tc_filtered = _filter_search(tc_display, q_conf, conf_search_cols)
+
+            # Tabela
             st.dataframe(
-                tc_display,
+                tc_filtered,
                 use_container_width=True,
                 hide_index=True,
                 column_config=column_config,
             )
-            st.caption(f"{tc_display.shape[0]} conflito(s) listados para {iso3u}.")
-                
+
+            # Caption
+            st.caption(f"{tc_filtered.shape[0]} de {tc_display.shape[0]} conflito(s) listados para {iso3u}.")
+
+        # --- TAB 2: Participantes ---
+        
         with tab_part:
+            # dataframe base (sem a coluna técnica)
+            part_df = unified_nonhum.drop(columns=["entity_type"], errors="ignore").copy()
+
+            # seleção de colunas existentes
+            desired_cols = [c for c in ["conflito","participante","entity_qid","ISO3","início","fim"] if c in part_df.columns]
+            part_df = part_df[desired_cols]
+
+            # barra de pesquisa bilingue (usa controls.search / controls.reset)
+            q_part = search_bar(key=f"q_part_{iso3u}", tr=tr)
+
+            # colunas onde pesquisar
+            part_search_cols = [c for c in ["conflito","participante","entity_qid","ISO3","início","fim"] if c in part_df.columns]
+            part_filtered = _filter_search(part_df, q_part, part_search_cols)
+
+            # configuração de colunas (dict)
+            part_columns = {
+                k: st.column_config.TextColumn(
+                    "QID" if k == "entity_qid" else k,
+                    width=("large" if k in {"conflito","participante"} else "small")
+                )
+                for k in part_df.columns
+            }
+
             st.dataframe(
-                unified_nonhum.drop(columns=["entity_type"], errors="ignore"),
+                part_filtered,
                 use_container_width=True,
                 hide_index=True,
-                column_config={
-                    "conflito":     st.column_config.TextColumn("conflito", width="large"),
-                    "participante": st.column_config.TextColumn("participante", width="large"),
-                    "entity_qid":   st.column_config.TextColumn("entity_qid", width="small"),
-                    "ISO3":         st.column_config.TextColumn("ISO3", width="small"),
-                    "início":       st.column_config.TextColumn("início", width="small"),
-                    "fim":          st.column_config.TextColumn("fim", width="small"),
-                },
+                column_config=part_columns,
             )
-            st.caption(f"Conflitos militares apenas · conflitos distintos: {conflitos_dist_roles}")
+
+            st.caption(f"{tr('Conflitos militares apenas')} · {tr('Mostrados')} {part_filtered.shape[0]} {tr('registos')}.")
+
 
         if has_is_human and tab_chars is not None:
             # --- Links para a tab Personagens ---
-            uh = unified_hum.copy()  # garante que não perdemos 'entity_qid'
-            if not uh.empty and "entity_qid" in uh.columns:
+            uh = unified_hum.copy()
 
-                uh = unified_hum.copy()  # mantém entity_qid e personagem
-
-                # links via QID (funcionam quando existe sitelink no Wikidata)
-                # links consistentes com os dos conflitos (via Wikidata → GoToLinkedPage)
-                uh["wikidata"] = uh.get("entity_qid", "").apply(
-                    lambda q: f"https://www.wikidata.org/wiki/{q}" if q else ""
-                )
-                uh["wikipedia_pt"] = uh.get("entity_qid", "").apply(
-                    lambda q: f"https://www.wikidata.org/wiki/Special:GoToLinkedPage/ptwiki/{q}" if q else ""
-                )
-                uh["wikipedia_en"] = uh.get("entity_qid", "").apply(
-                    lambda q: f"https://www.wikidata.org/wiki/Special:GoToLinkedPage/enwiki/{q}" if q else ""
-                )
-
-                # # (opcional) fallbacks de pesquisa para quando não houver sitelink
-                # uh["wikipedia_pt_search"] = uh.get("personagem", "").apply(
-                #     lambda t: f"https://pt.wikipedia.org/w/index.php?search={quote_plus(str(t))}" if t else ""
-                # )
-                # uh["wikipedia_en_search"] = uh.get("personagem", "").apply(
-                #     lambda t: f"https://en.wikipedia.org/w/index.php?search={quote_plus(str(t))}" if t else ""
-                # )
+            if "entity_qid" in uh.columns:
+                uh["wikidata"]      = uh.get("entity_qid", "").apply(lambda q: f"https://www.wikidata.org/wiki/{q}" if q else "")
+                uh["wikipedia_pt"]  = uh.get("entity_qid", "").apply(lambda q: f"https://www.wikidata.org/wiki/Special:GoToLinkedPage/ptwiki/{q}" if q else "")
+                uh["wikipedia_en"]  = uh.get("entity_qid", "").apply(lambda q: f"https://www.wikidata.org/wiki/Special:GoToLinkedPage/enwiki/{q}" if q else "")
             else:
-                uh["wikidata"] = ""
-                uh["wikipedia_pt"] = ""
-                uh["wikipedia_en"] = ""
+                uh["wikidata"] = uh["wikipedia_pt"] = uh["wikipedia_en"] = ""
 
-            # Seleção de colunas conforme ISO3
+            # Seleção de colunas conforme ISO3 (sem KeyError se faltar alguma)
             if iso3u == "PRT":
-                # Portugal: WD + PT + fallback de pesquisa em PT
-                uh_display = uh[["conflito","personagem","início","fim","entity_qid","wikidata","wikipedia_pt"]]
+                desired_cols = ["conflito","personagem","início","fim","entity_qid","wikidata","wikipedia_pt"]
+            else:
+                desired_cols = ["conflito","personagem","início","fim","wikipedia_en"]
+            desired_cols = [c for c in desired_cols if c in uh.columns]
+            uh_display = uh[desired_cols]
+
+            # Config das colunas
+            if iso3u == "PRT":
                 uh_columns = {
-                    "conflito":              st.column_config.TextColumn("conflito", width="large"),
-                    "personagem":            st.column_config.TextColumn("personagem", width="large"),
-                    "início":                st.column_config.TextColumn("início", width="small"),
-                    "fim":                   st.column_config.TextColumn("fim", width="small"),
-                    "entity_qid":            st.column_config.TextColumn("QID", width="small"),
-                    "wikidata":              st.column_config.LinkColumn("Wikidata", display_text="🔗 WD"),
-                    "wikipedia_pt":          st.column_config.LinkColumn("Wikipédia (PT)", display_text="🔗 PT"),
-                    #"wikipedia_pt_search":   st.column_config.LinkColumn("Wikipédia (PT) 🔎", display_text="🔎 procurar"),
+                    "conflito":    st.column_config.TextColumn("conflito", width="large"),
+                    "personagem":  st.column_config.TextColumn("personagem", width="large"),
+                    "início":      st.column_config.TextColumn("início", width="small"),
+                    "fim":         st.column_config.TextColumn("fim", width="small"),
+                    "entity_qid":  st.column_config.TextColumn("QID", width="small"),
+                    "wikidata":    st.column_config.LinkColumn("Wikidata", display_text="🔗 WD"),
+                    "wikipedia_pt":st.column_config.LinkColumn("Wikipédia (PT)", display_text="🔗 PT"),
                 }
             else:
-                # Outros países: EN + fallback de pesquisa em EN
-                uh_display = uh[["conflito","personagem","início","fim","wikipedia_en"]]
                 uh_columns = {
-                    "conflito":              st.column_config.TextColumn("conflito", width="large"),
-                    "personagem":            st.column_config.TextColumn("personagem", width="large"),
-                    "início":                st.column_config.TextColumn("início", width="small"),
-                    "fim":                   st.column_config.TextColumn("fim", width="small"),
-                    "wikipedia_en":          st.column_config.LinkColumn("Wikipedia (EN)", display_text="🔗 EN"),
-                    #"wikipedia_en_search":   st.column_config.LinkColumn("Wikipedia (EN) 🔎", display_text="🔎 procurar"),
+                    "conflito":    st.column_config.TextColumn("conflito", width="large"),
+                    "personagem":  st.column_config.TextColumn("personagem", width="large"),
+                    "início":      st.column_config.TextColumn("início", width="small"),
+                    "fim":         st.column_config.TextColumn("fim", width="small"),
+                    "wikipedia_en":st.column_config.LinkColumn("Wikipedia (EN)", display_text="🔗 EN"),
                 }
 
-            st.session_state.setdefault("_dummy", None)  # evita lint
             with tab_chars:
-                st.dataframe(
-                uh_display,
-                use_container_width=True,
-                hide_index=True,
-                column_config=uh_columns,
-            )
-            st.caption(f"{uh_display.shape[0]} personagem(ns) humana(s)")
+                q_chars = search_bar(key=f"q_chars_{iso3u}", tr=tr)
+
+                if q_chars and q_chars.strip():
+                    working = uh_display.copy()
+
+                    if "conflito" in working.columns and "conflito" in uh.columns:
+                        base = uh["conflito"].astype(str).where(uh["conflito"].astype(str).str.strip() != "", pd.NA)
+                        if "conflict_qid" in uh.columns:
+                            filled = base.groupby(uh["conflict_qid"]).transform(lambda s: s.ffill().bfill())
+                        else:
+                            filled = base.ffill().bfill()
+                        working.loc[:, "conflito"] = filled.reindex(working.index).fillna(working["conflito"])
+
+                    char_search_cols = [c for c in ["conflito","personagem","início","fim","entity_qid"] if c in working.columns]
+                    uh_filtered = _filter_search(working, q_chars, char_search_cols)
+
+                    st.dataframe(uh_filtered, use_container_width=True, hide_index=True, column_config=uh_columns)
+                    st.caption(f"{uh_filtered.shape[0]} de {uh_display.shape[0]} personagem(ns) humana(s)")
+                else:
+                    st.dataframe(uh_display, use_container_width=True, hide_index=True, column_config=uh_columns)
+                    st.caption(f"{uh_display.shape[0]} personagem(ns) humana(s)")
 

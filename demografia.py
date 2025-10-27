@@ -4,9 +4,32 @@ from __future__ import annotations
 
 from pathlib import Path
 from typing import Optional, Callable
-
+from demografia_global import render_compare_tab
 import pandas as pd
 import streamlit as st
+
+# --- utilitário com cache para carregar o demografia_mundial.csv ---
+@st.cache_data(ttl=24*3600, show_spinner=False)
+def load_world_demography() -> pd.DataFrame:
+    """
+    Carrega o CSV demografia_mundial.csv (UN) mantendo tudo como string.
+    O render_compare_tab já faz a conversão numérica coluna-a-coluna.
+    Procura em paths comuns.
+    """
+    candidates = [
+        "data/demografia_mundial.csv",
+        "datasets/demografia_mundial.csv",
+        "demografia_mundial.csv",
+    ]
+    for path in candidates:
+        try:
+            # CSV vem com separador ';' e números estilo EU ('.' milhar, ',' decimal)
+            # Mantemos como string; dentro do render fazemos to_numeric com errors='coerce'.
+            df = pd.read_csv(path, sep=";", engine="python", dtype=str)
+            return df
+        except FileNotFoundError:
+            continue
+    return pd.DataFrame()  # se não encontrar, devolve DF vazio
 
 # i18n
 try:
@@ -57,9 +80,6 @@ def _load_un_desa_long() -> Optional[pd.DataFrame]:
                 pass
     return None
 
-
-def render_demografia_compare():
-    st.info(tr("labels.label_val", label="ℹ️", val="Em construção…"))
 
 
 def render_migration_global():
@@ -115,16 +135,16 @@ def render_demografia_tab():
     try:
         label_cont = tr("subnav.continentes")
         label_comp = tr("subnav.comparar_paises")
-        label_flux = tr("subnav.fluxos_migratorios")
+        #label_flux = tr("subnav.fluxos_migratorios")
     except Exception:
-        label_cont, label_comp, label_flux = "Continentes", "Comparar países", "Fluxos migratórios"
-
+        #label_cont, label_comp, label_flux = "Continentes", "Comparar países", "Fluxos migratórios"
+        label_cont, label_comp, label_flux = "Continentes", "Comparar países"
     mode = subnav(
         "demografia",
         [
             ("glob",    label_cont),
             ("compare", label_comp),
-            ("fluxos",  label_flux),
+            #("fluxos",  label_flux),
         ],
         default="glob",
     )
@@ -140,7 +160,11 @@ def render_demografia_tab():
     if mode == "glob":
         _render_global_inner()
     elif mode == "compare":
-        st.info("🧪 Em breve: comparação entre países.")
-    elif mode == "fluxos":
-        # coloca aqui o renderer dos fluxos se existir
-        st.info("🌍 Em breve: fluxos migratórios globais.")
+        df_world = load_world_demography()
+        if df_world.empty:
+            st.warning("Não encontrei o ficheiro demografia_mundial.csv nas pastas padrão.")
+        else:
+            render_compare_tab(df_world)
+    # elif mode == "fluxos":
+    #     # coloca aqui o renderer dos fluxos se existir
+    #     st.info("🌍 Em breve: fluxos migratórios globais.")
