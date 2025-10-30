@@ -660,7 +660,46 @@
     "sources": {
       "caption": "**Fontes**: fronteiras (Wikidata P47); fusos (IANA tzdb, fetch_timezones.py → data/timezones.csv); costa/mares (fetch_coastlines.py → data/coastlines.csv); portos/rotas (fetch_ports_and_routes.py → data/ports_and_routes.csv); clima Köppen (Open-Meteo, 1991–2020, capital); biomas (heurístico por Köppen)."
     }
+  },
+  
+  "economics": {
+    "header": "💶 Economia",
+    "source_caption": "Fonte: Banco Mundial — World Development Indicators (WDI). API: https://api.worldbank.org/",
+    "reset_button": "Repor seleção e cache",
+    "reset_help": "Limpa a seleção e os pedidos em cache deste painel",
+    "years_label": "Anos",
+    "preset_label": "Pré-definição",
+    "indicators_label": "Indicadores",
+    "overview_title": "Visão geral",
+    "no_data": "Sem dados disponíveis.",
+    "timeseries_title": "Séries temporais",
+    "table_title": "Tabela de dados",
+    "table_year": "Ano",
+    "table_no_data": "Sem dados para os anos selecionados",
+    "metrics": {
+      "gdp": "PIB (US$, corrente)",
+      "gdp_const": "PIB (US$, constantes de 2015)",
+      "gdp_growth": "Crescimento do PIB (anual, %)",
+      "gdp_pc": "PIB per capita (US$, corrente)",
+      "gdp_pc_growth": "Crescimento do PIB per capita (anual, %)",
+      "poverty_215": "Proporção de pobreza a $2,15/dia (PPP 2017, % da população)",
+      "poverty_365": "Proporção de pobreza a $3,65/dia (PPP 2017, % da população)",
+      "poverty_685": "Proporção de pobreza a $6,85/dia (PPP 2017, % da população)",
+      "gini": "Índice de Gini",
+	  "year": "Ano"
+    },
+    "presets": {
+      "core4": "Núcleo (4)",
+      "growth_income": "Crescimento e Rendimento",
+      "poverty_inequality": "Pobreza e Desigualdade"
+    },
+    "chart_tooltip": {
+      "year": "Ano",
+      "value": "Valor"
+    }
   }
+
+
 }
 
 

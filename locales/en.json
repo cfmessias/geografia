@@ -640,8 +640,47 @@
     "sources": {
       "caption": "**Sources**: borders (Wikidata P47); time zones (IANA tzdb, fetch_timezones.py → data/timezones.csv); coast/seas (fetch_coastlines.py → data/coastlines.csv); ports/routes (fetch_ports_and_routes.py → data/ports_and_routes.csv); Köppen climate (Open-Meteo, 1991–2020, capital); biomes (Köppen-based heuristic)."
     }
+  },
+  
+  "economics": {
+    "header": "💶 Economics",
+    "source_caption": "Source: World Bank — World Development Indicators (WDI). API: https://api.worldbank.org/",
+    "reset_button": "Reset selection & cache",
+    "reset_help": "Clears selection and cached requests for this panel",
+    "years_label": "Years",
+    "preset_label": "Preset",
+    "indicators_label": "Indicators",
+    "overview_title": "Overview",
+    "no_data": "No data returned.",
+    "timeseries_title": "Time series",
+    "table_title": "Data table",
+    "table_year": "Year",
+    "table_no_data": "No data for selected years",
+    "metrics": {
+      "gdp": "GDP (current US$)",
+      "gdp_const": "GDP (constant 2015 US$)",
+      "gdp_growth": "GDP growth (annual %)",
+      "gdp_pc": "GDP per capita (current US$)",
+      "gdp_pc_growth": "GDP per capita growth (annual %)",
+      "poverty_215": "Poverty headcount ratio at $2.15/day (2017 PPP) (% of population)",
+      "poverty_365": "Poverty headcount ratio at $3.65/day (2017 PPP) (% of population)",
+      "poverty_685": "Poverty headcount ratio at $6.85/day (2017 PPP) (% of population)",
+      "gini": "Gini index",
+	  "year": "Year"
+    },
+    "presets": {
+      "core4": "Core (4)",
+      "growth_income": "Growth & Income",
+      "poverty_inequality": "Poverty & Inequality"
+    },
+    "chart_tooltip": {
+      "year": "Year",
+      "value": "Value"
+    }
   }
 }
+
+
 
 
 

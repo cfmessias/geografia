@@ -19,6 +19,7 @@ from views.render_wars_battles_expander import render_wars_battles_expander
 from views.economia import render_wdi_panel
 from views.demografia_paises import render_demography_expander
 from views.paises_geografia import render_geography_panel
+from services.countries_names import country_display_name
 # -------------------------- Helpers --------------------------
 
 def _paises_submenu() -> str:
@@ -87,14 +88,6 @@ def _colcfg_unesco():
         "lon":    st.column_config.NumberColumn(tr("cols.lon"), format="%.4f"),
     }
 
-def _colcfg_medals():
-    return {
-        "Ano":    st.column_config.TextColumn(tr("cols.year")),
-        "Ouro":   st.column_config.NumberColumn(tr("cols.gold"), format="%d"),
-        "Prata":  st.column_config.NumberColumn(tr("cols.silver"), format="%d"),
-        "Bronze": st.column_config.NumberColumn(tr("cols.bronze"), format="%d"),
-        "Total":  st.column_config.NumberColumn(tr("cols.total"), format="%d"),
-    }
 
 def _fmt_int(x) -> str:
     try:
@@ -467,28 +460,6 @@ def _profile_by_iso3(iso3: str) -> dict:
     return {"iso3": iso3, "name": iso3}
 
 
-def _mini_line(df: pd.DataFrame, ycol: str, ytitle: str):
-    if df.empty or ycol not in df.columns or df[ycol].notna().sum() == 0:
-        st.caption(tr("labels.sem_dados_de_ytitle_lower", ytitle=ytitle))
-        return
-    d = df.dropna(subset=["year", ycol]).copy()
-    d["year"] = pd.to_numeric(d["year"], errors="coerce")
-
-    chart = (
-        alt.Chart(d)
-        .mark_line()
-        .encode(
-            x=alt.X("year:Q", axis=alt.Axis(format="d", title=None)),
-            y=alt.Y(f"{ycol}:Q", title=ytitle),
-            tooltip=[
-                alt.Tooltip("year:Q", title=tr("climate_indicators.ano"), format="d"),
-                alt.Tooltip(f"{ycol}:Q", title=ytitle)
-            ],
-        )
-        .properties(height=170)
-    )
-    st.altair_chart(chart, use_container_width=True)
-
 
 # -------------------------- UI principal --------------------------
 
@@ -512,7 +483,6 @@ def render_paises_tab():
 
     from services.offline_store import (
         list_available_countries,
-        wb_series_for_country,   # usado dentro da demografia
         cities_for_iso3,
         unesco_for_iso3,
         leaders_for_iso3,
@@ -540,7 +510,10 @@ def render_paises_tab():
         return
 
     # ── Cabeçalho com informação essencial (uma coluna) ──────────────────────
-    st.subheader(prof.get("name") or country_name)
+    #st.subheader(prof.get("name") or country_name)
+    
+    display_name = country_display_name(iso3, country_name)
+    st.subheader(display_name)
 
     if mode == "ov":
         # ---------- CARTÃO / FACTOS EM DUAS COLUNAS ----------

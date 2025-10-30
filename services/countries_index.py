@@ -4,6 +4,7 @@ import pandas as pd
 from .data_paths import countries_seed_path, countries_profiles_path
 from .io_csv import read_csv_safe
 
+
 def have_master_profiles() -> bool:
     return countries_profiles_path.exists()
 

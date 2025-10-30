@@ -12,14 +12,6 @@ from services import geo_store as store
 from services.i18n import t as tr
 
 from services.i18n_boot import _ensure_lang_state
-# p = Path("services/i18n/geo.en.json")  # ajusta o caminho
-# s = p.read_text(encoding="utf-8")
-# try:
-#     json.loads(s)
-# except json.JSONDecodeError as e:
-#     i = e.pos
-#     print("Erro em pos:", i, "linha:", e.lineno, "col:", e.colno)
-#     print(repr(s[max(0,i-40):i+40]))
 
 
 # ───────────────────────── helpers UI ─────────────────────────
