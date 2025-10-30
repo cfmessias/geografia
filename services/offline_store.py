@@ -12,9 +12,23 @@ import  unicodedata, requests
 from bs4 import BeautifulSoup
 from collections import namedtuple
 import streamlit as st
+# … topo do ficheiro mantém-se …
+
+# >>> acrescentar perto dos outros imports internos
+from .geo_store import (
+    load_borders, borders_for_iso3,
+    load_geografia_paises, geografia_for_iso3,
+    load_koppen, koppen_for_iso3,
+    load_biomes, biomes_for_iso3,
+    load_timezones_new, timezones_for_iso3, load_timezones,
+    load_coastlines, coastlines_for_iso3,
+    load_ports_and_routes, ports_and_routes_for_iso3,
+)
+
 # ---- Paths base -------------------------------------------------------------
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR     = PROJECT_ROOT / "data"
+STORE: dict[str, pd.DataFrame] = {}
 
 # ficheiros agregados canónicos
 countries_seed_path      = DATA_DIR / "countries_seed.csv"
@@ -32,27 +46,57 @@ tourism_purpose_eu_path  = DATA_DIR / "tourism_purpose_eu.csv"
 migration_inout_path     = DATA_DIR / "migration_inout.csv"
 
 
-# ---- Utils -----------------------------------------------------------------
-def _slugify(s: str) -> str:
-    s = re.sub(r"[^\w\-]+", "_", s, flags=re.U)
-    s = re.sub(r"_+", "_", s).strip("_")
-    return s or "pais"
 
+# ---- Utils -----------------------------------------------------------------
+
+# Mantém exatamente o mesmo nome/assinatura
 def _read_csv_safe(path, expected_cols=None):
-    if not path.exists():
-        return pd.DataFrame(columns=list(expected_cols) if expected_cols else None)
+    """
+    Lê CSV de forma resiliente:
+    - tenta primeiro com sep=";" (padrão no teu projeto)
+    - faz fallbacks para vírgula e 'sniff' automático se necessário
+    - garante colunas esperadas e ordem estável
+    """
+    from pathlib import Path
+    p = Path(path) if not hasattr(path, "exists") else path
+
+    # 1) Ficheiro não existe → devolve DF vazio com colunas esperadas (ou sem colunas)
+    if not p.exists():
+        return pd.DataFrame(columns=list(expected_cols) if expected_cols else [])
+
+    # 2) Tentativas de leitura (com fallback)
+    df = None
     try:
-        df = pd.read_csv(path, sep=";", dtype=str)  # tenta primeiro ';'
+        df = pd.read_csv(p, sep=";", dtype=str, encoding="utf-8", keep_default_na=False)
     except Exception:
-        df = pd.read_csv(path, dtype=str)          # fallback para default (vírgula)
-    # (opcional) se ficou 1 coluna, reler com o outro separador:
-    if df.shape[1] == 1:
-        df = pd.read_csv(path, dtype=str)
+        pass
+
+    # se ficou 1 coluna (sinal clássico de separador errado) ou falhou:
+    if df is None or df.shape[1] == 1:
+        try:
+            df = pd.read_csv(p, sep=",", dtype=str, encoding="utf-8", keep_default_na=False)
+        except Exception:
+            df = None
+
+    # último recurso: sniff automático (engine=python)
+    if df is None or df.shape[1] == 1:
+        try:
+            df = pd.read_csv(p, sep=None, engine="python", dtype=str, encoding="utf-8", keep_default_na=False)
+        except Exception:
+            # impossível ler → devolve vazio com colunas esperadas
+            return pd.DataFrame(columns=list(expected_cols) if expected_cols else [])
+
+    # 3) Garante colunas esperadas (e ordem)
     if expected_cols:
         for c in expected_cols:
             if c not in df.columns:
-                df[c] = pd.NA
+                df[c] = ""
+        # reordenar: esperadas primeiro, extras (se existirem) no fim
+        extras = [c for c in df.columns if c not in expected_cols]
+        df = df[[*expected_cols, *extras]]
+
     return df
+
 
 
 # ---- Profiles (master) ------------------------------------------------------
@@ -285,34 +329,6 @@ _NOC_TO_ISO3_FIX = {
     "MAR":"MAR","TUN":"TUN","TUR":"TUR","SUD":"SDN",
 }
 
-def _pick_col(df: pd.DataFrame, options: list[str]) -> str | None:
-    for opt in options:
-        if opt in df.columns:
-            return opt
-        for col in df.columns:
-            if re.sub(r"\W+","", col.lower()) == re.sub(r"\W+","", opt.lower()):
-                return col
-    return None
-
-def _ensure_iso3_for_olympics(df: pd.DataFrame) -> pd.DataFrame:
-    # já tem iso3?
-    for c in ("iso3","ISO3","Iso3"):
-        if c in df.columns:
-            df = df.rename(columns={c:"iso3"})
-            df["iso3"] = df["iso3"].astype(str).str.upper().str.strip()
-            return df
-    # tenta NOC/COI
-    noc_col = _pick_col(df, ["NOC","COI","noc","código COI","codigo COI"])
-    if noc_col:
-        df["iso3"] = (
-            df[noc_col].astype(str).str.upper().str.strip()
-              .map(lambda x: _NOC_TO_ISO3_FIX.get(x, x))
-        )
-        return df
-    # sem iso3 e sem NOC: deixa em branco (linhas serão filtradas)
-    df["iso3"] = None
-    return df
-
 
 def _read_csv_safe_any(path: Path) -> pd.DataFrame:
     """Lê CSVs 'problemáticos' (Excel, UTF-16, BOM, ;/,/tab) devolvendo DF ou vazio."""
@@ -330,9 +346,9 @@ def _read_csv_safe_any(path: Path) -> pd.DataFrame:
         encs.extend(["utf-16", "utf-16le", "utf-16be"])
     encs.extend(["utf-8-sig", "utf-8", "cp1252", "latin1"])
 
-    seps = [",", ";", "\t"]
+    seps = [ ";", ",","\t"]
 
-    import io
+    
     for enc in encs:
         for sep in seps:
             try:
@@ -686,6 +702,23 @@ def tourism_purpose_for_iso3(iso3: str) -> pd.DataFrame:
     sub = df[df["geo"] == iso2].copy()
     return sub[["purpose","destination","year","trips","unit"]].sort_values(["year","purpose"])
 
+# ====== GEOGRAFIA (fronteiras, fusos, resumo) =================================
+
+def _to_number(s: str | None) -> float | None:
+    if s is None or str(s).strip() == "":
+        return None
+    txt = str(s)
+    # apanha "1 234,5", "1,234.5", "1234", etc.
+    # remove não-dígitos exceto ponto/vírgula e sinal
+    # depois normaliza vírgulas para ponto
+    num = re.sub(r"[^0-9,.\-]+", "", txt)
+    if num.count(",") == 1 and num.count(".") == 0:
+        num = num.replace(",", ".")
+    try:
+        return float(num)
+    except Exception:
+        return None
+
 
 try:
     migration_inout_path
@@ -756,9 +789,7 @@ def load_migration_inout(path: str | Path | None = None) -> pd.DataFrame:
               .reset_index(drop=True))
 
 
-from pathlib import Path
-import pandas as pd
-import unicodedata, re
+
 
 DATA_DIR = Path(__file__).resolve().parents[1] / "data"
 
@@ -860,8 +891,6 @@ def migration_inout_for_iso3(iso3: str) -> pd.DataFrame:
     subm.insert(0, "iso3", iso)
     return subm.reset_index(drop=True)
 
-# services/offline_store.py
-# services/offline_store.py  (secção de migração)
 
 
 MIG_TS_CSV          = DATA_DIR / "migration_timeseries.csv"
@@ -979,8 +1008,7 @@ try:
     load_migration_inout_for_iso3  # type: ignore[name-defined]
 except NameError:
     # Fallback wrapper using the full loader if specific one isn't present
-    import pandas as pd
-    import streamlit as st
+    
     @st.cache_data(show_spinner=False)
     def load_migration_inout_for_iso3(iso3: str) -> pd.DataFrame:
         df = load_migration_inout() if 'load_migration_inout' in globals() else pd.DataFrame(columns=['iso3','year','immigrants','emigrants'])
@@ -1021,5 +1049,15 @@ except NameError:
         # World Bank
         "load_worldbank_timeseries","wb_series_for_country",
         # Misc profiles/countries (if present)
-        "list_available_countries","load_profiles_master"
+        "list_available_countries","load_profiles_master",
+        # Geografia 
+        "load_borders","borders_for_iso3",        
+        "load_geografia_paises","geografia_for_iso3",
+        "load_koppen","koppen_for_iso3",
+        "load_biomes","biomes_for_iso3",
+        # Timezones / Coastlines / Ports & Routes
+        "load_timezones_new","timezones_for_iso3","load_timezones",
+        "load_coastlines","coastlines_for_iso3",
+        "load_ports_and_routes","ports_and_routes_for_iso3",
+
     ]

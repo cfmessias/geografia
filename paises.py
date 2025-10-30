@@ -18,7 +18,7 @@ from views.colonizacao import render_colonization_expander
 from views.render_wars_battles_expander import render_wars_battles_expander
 from views.economia import render_wdi_panel
 from views.demografia_paises import render_demography_expander
-
+from views.paises_geografia import render_geography_panel
 # -------------------------- Helpers --------------------------
 
 def _paises_submenu() -> str:
@@ -28,22 +28,22 @@ def _paises_submenu() -> str:
         label_demog = tr("subnav.demografia_pais")
         label_hist  = tr("subnav.historia")
         label_econ  = tr("subnav.economia")
+        label_geo   = tr("subnav.geografia")  # ← NOVO (se não existir na i18n, cai no fallback)
     except Exception:
-        # fallback simples caso tr() não esteja disponível
-        label_ov, label_demog, label_hist, label_econ = (
-            "Visão global", "Demografia", "História", "Economia"
+        label_ov, label_demog, label_hist, label_econ, label_geo = (
+            "Visão global", "Demografia", "História", "Economia", "Geografia"
         )
 
     tabs = [
         ("ov",    label_ov),
         ("demog", label_demog),
         ("hist",  label_hist),
-        ("econ",  label_econ),   # novo, fica à direita
+        ("geo",   label_geo),   # ← NOVO
+        ("econ",  label_econ),
     ]
 
     keys   = [k for k, _ in tabs]
     labels = dict(tabs)
-
     cur = st.session_state.get("paises_mode", "ov")
     if cur not in keys:
         cur = "ov"
@@ -57,6 +57,7 @@ def _paises_submenu() -> str:
     )
     st.session_state["paises_mode"] = mode
     return mode
+
 
 
 def _colcfg_leadership():
@@ -159,20 +160,27 @@ def _country_selector(countries_df: pd.DataFrame) -> tuple[str | None, str | Non
         labels = opts["label"].tolist()
         options_ui = [placeholder_label] + labels
 
-        # índice calculado apenas a partir de paises_iso3 (fonte de verdade)
-        cur_iso = st.session_state.get("paises_iso3")
-        cur_lbl = label_by_iso.get(cur_iso) if cur_iso else None
-        if cur_lbl and cur_lbl in options_ui:
-            idx = options_ui.index(cur_lbl)
+        # CORREÇÃO: usar o valor ATUAL do selectbox se existir, senão usar paises_iso3
+        current_select_value = st.session_state.get("paises_country_select")
+        
+        if current_select_value and current_select_value in options_ui:
+            # Respeita a seleção atual do selectbox
+            idx = options_ui.index(current_select_value)
         else:
-            idx = 0  # placeholder
+            # Usa paises_iso3 como fallback
+            cur_iso = st.session_state.get("paises_iso3")
+            cur_lbl = label_by_iso.get(cur_iso) if cur_iso else None
+            if cur_lbl and cur_lbl in options_ui:
+                idx = options_ui.index(cur_lbl)
+            else:
+                idx = 0  # placeholder
 
         with col_sel:
             chosen_label_ui = st.selectbox(
                 tr("labels.pais"),
                 options=options_ui,
                 index=idx,
-                key="paises_country_select",   # nunca escrever este key manualmente
+                key="paises_country_select",
                 label_visibility="collapsed",
             )
 
@@ -203,7 +211,6 @@ def _country_selector(countries_df: pd.DataFrame) -> tuple[str | None, str | Non
         return chosen_label, iso_by_label.get(chosen_label)
 
     return None, None
-
 
 # -------------------------- Secções --------------------------
 
@@ -1110,3 +1117,6 @@ def render_paises_tab():
     elif mode == "econ":
         # assume que já tens `iso3` e `country_name` definidos na página Países
         render_wdi_panel(iso3=iso3, country_name=country_name)
+
+    elif mode == "geo":
+        render_geography_panel(iso3=iso3, country_name=country_name)

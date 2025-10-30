@@ -1,0 +1,7 @@
+# koppen debug log
+[api] ok keys=['latitude', 'longitude', 'generationtime_ms', 'utc_offset_seconds', 'timezone', 'timezone_abbreviation', 'elevation'] monthly_keys=[] lat=40.416944444 lon=-3.703333333
+[skip api] ESP Espanha monthly=None
+[api] ok keys=['latitude', 'longitude', 'generationtime_ms', 'utc_offset_seconds', 'timezone', 'timezone_abbreviation', 'elevation'] monthly_keys=[] lat=38.708042 lon=-9.139016
+[skip api] PRT Portugal monthly=None
+[api] ok keys=['latitude', 'longitude', 'generationtime_ms', 'utc_offset_seconds', 'timezone', 'timezone_abbreviation', 'elevation'] monthly_keys=[] lat=38.895 lon=-77.036666666
+[skip api] USA Estados Unidos monthly=None

@@ -1,0 +1,246 @@
+country_iso2;country_iso3;country_qid;country_pt;country_en;coast_km;has_coast;adjacent_seas_pt;adjacent_seas_en
+GA;GAB;Q1000;Gabão;Gabon;;Sim;Oceano Atlântico;Atlantic Ocean
+GM;GMB;Q1005;Gâmbia;The Gambia;;Sim;Oceano Atlântico;Atlantic Ocean
+GN;GIN;Q1006;Guiné;Guinea;;Sim;Oceano Atlântico;Atlantic Ocean
+GW;GNB;Q1007;Guiné-Bissau;Guinea-Bissau;;Sim;Oceano Atlântico;Atlantic Ocean
+CI;CIV;Q1008;Costa do Marfim;Ivory Coast;;Sim;Oceano Atlântico;Atlantic Ocean
+CM;CMR;Q1009;Camarões;Cameroon;;Sim;Oceano Atlântico, Golfo da Guiné;Atlantic Ocean, Gulf of Guinea
+CV;CPV;Q1011;Cabo Verde;Cape Verde;;Sim;Oceano Atlântico;Atlantic Ocean
+LS;LSO;Q1013;Lesoto;Lesotho;;Não;;
+LR;LBR;Q1014;Libéria;Liberia;;Sim;Oceano Atlântico;Atlantic Ocean
+LY;LBY;Q1016;Líbia;Libya;;Sim;Mar Mediterrâneo;Mediterranean Sea
+MG;MDG;Q1019;Madagáscar;Madagascar;;Não;;
+MW;MWI;Q1020;Malawi;Malawi;;Não;;
+MR;MRT;Q1025;Mauritânia;Mauritania;;Sim;Oceano Atlântico;Atlantic Ocean
+MU;MUS;Q1027;Maurícia;Mauritius;;Sim;Oceano Índico;Indian Ocean
+MA;MAR;Q1028;Marrocos;Morocco;;Sim;Oceano Atlântico, Mar Mediterrâneo;Atlantic Ocean, Mediterranean Sea
+MZ;MOZ;Q1029;Moçambique;Mozambique;;Não;;
+NAN;NAM;Q1030;Namíbia;Namibia;;Sim;Oceano Atlântico;Atlantic Ocean
+NE;NER;Q1032;Níger;Niger;;Não;;
+NG;NGA;Q1033;Nigéria;Nigeria;;Sim;Oceano Atlântico;Atlantic Ocean
+UG;UGA;Q1036;Uganda;Uganda;;Não;;
+RW;RWA;Q1037;Ruanda;Rwanda;;Não;;
+ST;STP;Q1039;São Tomé e Príncipe;São Tomé and Príncipe;;Sim;Oceano Atlântico;Atlantic Ocean
+SN;SEN;Q1041;Senegal;Senegal;;Sim;Oceano Atlântico;Atlantic Ocean
+SC;SYC;Q1042;Seychelles;Seychelles;;Não;;
+SL;SLE;Q1044;Serra Leoa;Sierra Leone;;Sim;Oceano Atlântico;Atlantic Ocean
+SO;SOM;Q1045;Somália;Somalia;;Não;;
+SD;SDN;Q1049;Sudão;Sudan;;Não;;
+SZ;SWZ;Q1050;Essuatíni;Eswatini;;Não;;
+KE;KEN;Q114;Quénia;Kenya;;Não;;
+ET;ETH;Q115;Etiópia;Ethiopia;;Não;;
+GH;GHA;Q117;Gana;Ghana;;Sim;Oceano Atlântico;Atlantic Ocean
+VI;VIR;Q11703;Ilhas Virgens Americanas;United States Virgin Islands;;Sim;Mar das Caraíbas;Caribbean Sea
+PR;PRI;Q1183;Porto Rico;Puerto Rico;;Sim;Oceano Atlântico, Mar das Caraíbas;Atlantic Ocean, Caribbean Sea
+TF;ATF;Q129003;Terras Austrais e Antárticas Francesas;French Southern and Antarctic Lands;;Não;;
+HM;HMD;Q131198;Ilha Heard e Ilhas McDonald;Heard Island and McDonald Islands;;Sim;Oceano Índico;Indian Ocean
+MS;MSR;Q13353;Monserrate;Montserrat;;Não;;
+GI;GIB;Q1410;Gibraltar;Gibraltar;;Sim;Mar Mediterrâneo, Baía de Gibraltar, Mar de Alborão;Mediterranean Sea, Bay of Gibraltar, Alboran Sea
+FR;FRA;Q142;França;France;;Sim;Oceano Atlântico, Mar do Norte, Mar Mediterrâneo, Canal da Mancha;Atlantic Ocean, North Sea, Mediterranean Sea, English Channel
+GB;GBR;Q145;Reino Unido;United Kingdom;;Não;;
+CN;CHN;Q148;China;People's Republic of China;;Não;;
+BR;BRA;Q155;Brasil;Brazil;;Sim;Oceano Atlântico;Atlantic Ocean
+RU;RUS;Q159;Rússia;Russia;;Sim;Oceano Pacífico, Mar Negro, Mar Báltico, Oceano Ártico, Mar Cáspio, Mar de Laptev, Mar do Japão, Mar de Kara, Mar de Azov, Mar de Okhotsk, Mar Branco, Mar de Bering, Mar de Barents, Mar de Chukchi, Mar Siberiano Oriental, Mar de Pechora;Pacific Ocean, Black Sea, Baltic Sea, Arctic Ocean, Caspian Sea, Laptev Sea, Sea of Japan, Kara Sea, Sea of Azov, Sea of Okhotsk, White Sea, Bering Sea, Barents Sea, Chukchi Sea, East Siberian Sea, Pechora Sea, Shantar Sea, Queen Victoria Sea
+CA;CAN;Q16;Canadá;Canada;;Sim;Oceano Atlântico, Oceano Pacífico, Oceano Ártico, Baía de Hudson;Atlantic Ocean, Pacific Ocean, Arctic Ocean, Hudson Bay
+GU;GUM;Q16635;Guam;Guam;;Sim;Oceano Pacífico;Pacific Ocean
+AS;ASM;Q16641;Samoa Americana;American Samoa;;Sim;Oceano Pacífico;Pacific Ocean
+MP;MNP;Q16644;Marianas Setentrionais;Northern Mariana Islands;;Sim;Oceano Pacífico;Pacific Ocean
+UM;UMI;Q16645;Ilhas Menores Distantes dos Estados Unidos;United States Minor Outlying Islands;;Sim;Oceano Pacífico, Mar das Caraíbas;Pacific Ocean, Caribbean Sea
+JP;JPN;Q17;Japão;Japan;;Sim;Oceano Pacífico, Mar do Japão, Mar de Okhotsk, Mar da China Oriental, Mar das Filipinas;Pacific Ocean, Sea of Japan, Sea of Okhotsk, East China Sea, Philippine Sea
+GP;GLP;Q17012;Guadalupe;Guadeloupe;;Não;;
+SH;SHN;Q170164;Helena de Constantinopla;Helena Augusta;;Não;;
+MQ;MTQ;Q17054;Martinica;Martinique;;Não;;
+YT;MYT;Q17063;Mayotte;Mayotte;;Sim;Oceano Índico;Indian Ocean
+RE;REU;Q17070;Reunião;Réunion;;Sim;Oceano Índico;Indian Ocean
+TC;TCA;Q18221;Ilhas Turcas e Caicos;Turks and Caicos Islands;;Não;;
+DE;DEU;Q183;Alemanha;Germany;;Sim;Mar Báltico, Mar do Norte;Baltic Sea, North Sea
+BY;BLR;Q184;Bielorrússia;Belarus;;Não;;
+IS;ISL;Q189;Islândia;Iceland;;Não;;
+EE;EST;Q191;Estónia;Estonia;;Sim;Mar Báltico;Baltic Sea
+NO;NOR;Q20;Noruega;Norway;;Sim;Oceano Atlântico, Mar do Norte, Mar de Barents, Mar da Noruega;Atlantic Ocean, North Sea, Barents Sea, Norwegian Sea
+LV;LVA;Q211;Letónia;Latvia;;Sim;Mar Báltico;Baltic Sea
+UA;UKR;Q212;Ucrânia;Ukraine;;Não;;
+AW;ABW;Q21203;Aruba;Aruba;;Não;;
+CZ;CZE;Q213;Chéquia;Czech Republic;;Não;;
+SK;SVK;Q214;Eslováquia;Slovakia;;Não;;
+SI;SVN;Q215;Eslovénia;Slovenia;;Sim;Mar Mediterrâneo, Mar Adriático;Mediterranean Sea, Adriatic Sea
+MD;MDA;Q217;Moldávia;Moldova;;Não;;
+RO;ROU;Q218;Roménia;Romania;;Não;;
+BG;BGR;Q219;Bulgária;Bulgaria;;Sim;Mar Negro;Black Sea
+MK;MKD;Q221;Macedónia do Norte;North Macedonia;;Não;;
+AL;ALB;Q222;Albânia;Albania;;Sim;Mar Mediterrâneo, Mar Adriático, Mar Jônico;Mediterranean Sea, Adriatic Sea, Ionian Sea
+GL;GRL;Q223;Gronelândia;Greenland;;Não;;
+HR;HRV;Q224;Croácia;Croatia;;Sim;Mar Adriático;Adriatic Sea
+BA;BIH;Q225;Bósnia e Herzegovina;Bosnia and Herzegovina;;Sim;Mar Mediterrâneo, Mar Adriático;Mediterranean Sea, Adriatic Sea
+AZ;AZE;Q227;Azerbaijão;Azerbaijan;;Não;;
+AD;AND;Q228;Andorra;Andorra;;Não;;
+CY;CYP;Q229;Chipre;Cyprus;;Sim;Mar Mediterrâneo;Mediterranean Sea
+GE;GEO;Q230;Geórgia;Georgia;;Não;;
+KZ;KAZ;Q232;Cazaquistão;Kazakhstan;;Não;;
+MT;MLT;Q233;Malta;Malta;;Sim;Mar Mediterrâneo;Mediterranean Sea
+BV;BVT;Q23408;Ilha Bouvet;Bouvet Island;;Sim;Oceano Atlântico;Atlantic Ocean
+MC;MCO;Q235;Mónaco;Monaco;;Sim;Mar Mediterrâneo, Mar Lígure;Mediterranean Sea, Ligurian Sea
+ME;MNE;Q236;Montenegro;Montenegro;;Sim;Mar Mediterrâneo, Mar Adriático;Mediterranean Sea, Adriatic Sea
+BM;BMU;Q23635;Bermudas;Bermuda;;Não;;
+VA;VAT;Q237;Vaticano;Vatican City;;Não;;
+SM;SMR;Q238;San Marino;San Marino;;Não;;
+CU;CUB;Q241;Cuba;Cuba;;Sim;Mar das Caraíbas, Golfo do México;Caribbean Sea, Gulf of Mexico
+BZ;BLZ;Q242;Belize;Belize;;Não;;
+BB;BRB;Q244;Barbados;Barbados;;Sim;Oceano Atlântico Norte;North Atlantic Ocean
+ID;IDN;Q252;Indonésia;Indonesia;;Sim;Oceano Pacífico, Oceano Índico, Mar de Celebes, Mar da China Meridional, Mar de Arafura;Pacific Ocean, Indian Ocean, Celebes Sea, South China Sea, Arafura Sea
+AI;AIA;Q25228;Anguila;Anguilla;;Não;;
+GG;GGY;Q25230;Guernsey;Guernsey;;Sim;Canal da Mancha;English Channel
+CW;CUW;Q25279;Curaçau;Curaçao;;Não;;
+VG;VGB;Q25305;Ilhas Virgens Britânicas;British Virgin Islands;;Não;;
+ZA;ZAF;Q258;África do Sul;South Africa;;Sim;Oceano Índico, Oceano Atlântico Sul;Indian Ocean, South Atlantic Ocean
+DZ;DZA;Q262;Argélia;Algeria;;Sim;Mar Mediterrâneo;Mediterranean Sea
+SX;SXM;Q26273;São Martinho;Sint Maarten;;Não;;
+SX;SXM;Q26273;São Martinho;Sint Maarten;;Não;;
+UZ;UZB;Q265;Uzbequistão;Uzbekistan;;Não;;
+CK;COK;Q26988;Ilhas Cook;Cook Islands;;Não;;
+IE;IRL;Q27;República da Irlanda;Ireland;;Não;;
+BQ;BES;Q27561;Países Baixos Caribenhos;Caribbean Netherlands;;Não;;
+HU;HUN;Q28;Hungria;Hungary;;Não;;
+ES;ESP;Q29;Espanha;Spain;;Sim;Oceano Atlântico, Mar Mediterrâneo, Mar de Alborão, Mar Cantábrico;Atlantic Ocean, Mediterranean Sea, Alboran Sea, Cantabrian Sea
+CL;CHL;Q298;Chile;Chile;;Sim;Oceano Pacífico;Pacific Ocean
+US;USA;Q30;Estados Unidos;United States;;Sim;Oceano Atlântico, Oceano Pacífico, Oceano Ártico;Atlantic Ocean, Pacific Ocean, Arctic Ocean
+PF;PYF;Q30971;Polinésia Francesa;French Polynesia;;Não;;
+BE;BEL;Q31;Bélgica;Belgium;;Sim;Mar do Norte;North Sea
+NF;NFK;Q31057;Ilha Norfolk;Norfolk Island;;Sim;Oceano Pacífico;Pacific Ocean
+CX;CXR;Q31063;Ilha Christmas;Christmas Island;;Sim;Oceano Índico;Indian Ocean
+LU;LUX;Q32;Luxemburgo;Luxembourg;;Não;;
+FI;FIN;Q33;Finlândia;Finland;;Sim;Mar Báltico;Baltic Sea
+SG;SGP;Q334;Singapura;Singapore;;Não;;
+NC;NCL;Q33788;Nova Caledónia;New Caledonia;;Sim;Oceano Pacífico Sul;South Pacific Ocean
+SE;SWE;Q34;Suécia;Sweden;;Sim;Mar Báltico, Kattegat;Baltic Sea, Kattegat
+NU;NIU;Q34020;Niue;Niue;;Não;;
+PM;SPM;Q34617;Saint-Pierre e Miquelon;Saint Pierre and Miquelon;;Sim;Oceano Atlântico;Atlantic Ocean
+LI;LIE;Q347;Liechtenstein;Liechtenstein;;Não;;
+DK;DNK;Q35;Dinamarca;Denmark;;Sim;Mar Báltico, Mar do Norte;Baltic Sea, North Sea
+GS;SGS;Q35086;Ilhas Geórgia do Sul e Sandwich do Sul;South Georgia and the South Sandwich Islands;;Não;;
+WF;WLF;Q35555;Wallis e Futuna;Wallis and Futuna;;Não;;
+PN;PCN;Q35672;Ilhas Pitcairn;Pitcairn Islands;;Não;;
+PL;POL;Q36;Polónia;Poland;;Sim;Mar Báltico;Baltic Sea
+CC;CCK;Q36004;Ilhas Cocos;Cocos (Keeling) Islands;;Não;;
+TK;TKL;Q36823;Tokelau;Tokelau;;Não;;
+LT;LTU;Q37;Lituânia;Lithuania;;Sim;Mar Báltico;Baltic Sea
+GF;GUF;Q3769;Guiana Francesa;French Guiana;;Sim;Oceano Atlântico;Atlantic Ocean
+IT;ITA;Q38;Itália;Italy;;Sim;Mar Mediterrâneo, Mar Adriático, Mar Jônico, Mar Tirreno, Mar Lígure;Mediterranean Sea, Adriatic Sea, Ionian Sea, Tyrrhenian Sea, Ligurian Sea
+CH;CHE;Q39;Suíça;Switzerland;;Não;;
+BH;BHR;Q398;Bahrein;Bahrain;;Não;;
+AM;ARM;Q399;Arménia;Armenia;;Não;;
+AT;AUT;Q40;Áustria;Austria;;Não;;
+RS;SRB;Q403;Sérvia;Serbia;;Não;;
+AU;AUS;Q408;Austrália;Australia;;Sim;Oceano Índico, Mar da Tasmânia, Mar de Coral, Mar de Arafura, Mar de Timor, Grande Baía Australiana, Oceano Pacífico Sul;Indian Ocean, Tasman Sea, Coral Sea, Arafura Sea, Timor Sea, Great Australian Bight, South Pacific Ocean
+GR;GRC;Q41;Grécia;Greece;;Sim;Mar Mediterrâneo;Mediterranean Sea
+AR;ARG;Q414;Argentina;Argentina;;Não;;
+PE;PER;Q419;Peru;Peru;;Não;;
+KP;PRK;Q423;Coreia do Norte;North Korea;;Sim;Mar do Japão, Mar Amarelo;Sea of Japan, Yellow Sea
+KH;KHM;Q424;Camboja;Cambodia;;Não;;
+TR;TUR;Q43;Turquia;Turkey;;Sim;Mar Negro, Mar Mediterrâneo, Mar Egeu, Mar Levantino;Black Sea, Mediterranean Sea, Aegean Sea, Levantine Sea
+IO;IOT;Q43448;Território Britânico do Oceano Índico;British Indian Ocean Territory;;Não;;
+BL;BLM;Q43982;São Bartolomeu;Bartholomew the Apostle;;Não;;
+PT;PRT;Q45;Portugal;Portugal;;Sim;Oceano Atlântico;Atlantic Ocean
+FO;FRO;Q4628;Ilhas Feroe;Faroe Islands;;Sim;Mar da Noruega;Norwegian Sea
+AQ;ATA;Q51;Antártida;Antarctica;;Não;;
+NL;NLD;Q55;Países Baixos;Netherlands;;Sim;Mar das Caraíbas, Mar do Norte, Mar Frísio;Caribbean Sea, North Sea, Wadden Sea
+AX;ALA;Q5689;Åland;Åland;;Sim;Mar de Åland, Mar do Arquipélago;Sea of Åland, Archipelago Sea
+TL;TLS;Q574;Timor-Leste;Timor-Leste;;Não;;
+PS;PSE;Q575187;Territórios ocupados por Israel;Israeli-occupied territories;;Não;;
+KY;CYM;Q5785;Ilhas Cayman;Cayman Islands;;Não;;
+EH;ESH;Q6250;Sara Ocidental;Western Sahara;;Sim;Oceano Atlântico;Atlantic Ocean
+TD;TCD;Q657;Chade;Chad;;Não;;
+NZ;NZL;Q664;Nova Zelândia;New Zealand;;Não;;
+IN;IND;Q668;Índia;India;;Sim;Oceano Índico, Golfo de Bengala, Mar Arábico;Indian Ocean, Bay of Bengal, Arabian Sea
+TV;TUV;Q672;Tuvalu;Tuvalu;;Não;;
+TO;TON;Q678;Tonga;Tonga;;Não;;
+WS;WSM;Q683;Samoa;Samoa;;Não;;
+SB;SLB;Q685;Ilhas Salomão;Solomon Islands;;Não;;
+VU;VUT;Q686;Vanuatu;Vanuatu;;Não;;
+PG;PNG;Q691;Papua-Nova Guiné;Papua New Guinea;;Não;;
+PW;PLW;Q695;Palau;Palau;;Sim;Oceano Pacífico;Pacific Ocean
+NR;NRU;Q697;Nauru;Nauru;;Não;;
+FM;FSM;Q702;Micronésia;Federated States of Micronesia;;Sim;Oceano Pacífico;Pacific Ocean
+MH;MHL;Q709;Ilhas Marshall;Marshall Islands;;Sim;Oceano Pacífico;Pacific Ocean
+KI;KIR;Q710;Kiribati;Kiribati;;Não;;
+MN;MNG;Q711;Mongólia;Mongolia;;Não;;
+FJ;FJI;Q712;Fiji;Fiji;;Não;;
+VE;VEN;Q717;Venezuela;Venezuela;;Sim;Oceano Atlântico;Atlantic Ocean
+SR;SUR;Q730;Suriname;Suriname;;Não;;
+PY;PRY;Q733;Paraguai;Paraguay;;Não;;
+GY;GUY;Q734;Guiana;Guyana;;Não;;
+EC;ECU;Q736;Equador;Ecuador;;Não;;
+CO;COL;Q739;Colômbia;Colombia;;Não;;
+BO;BOL;Q750;Bolívia;Bolivia;;Não;;
+TT;TTO;Q754;Trindade e Tobago;Trinidad and Tobago;;Não;;
+TJ;TJK;Q755194;Tadjiquistão nos Jogos Olímpicos;Tajikistan at the Olympics;;Não;;
+VC;VCT;Q757;São Vicente e Granadinas;Saint Vincent and the Grenadines;;Não;;
+LC;LCA;Q760;Santa Lúcia;Saint Lucia;;Não;;
+KN;KNA;Q763;São Cristóvão e Neves;Saint Kitts and Nevis;;Não;;
+JM;JAM;Q766;Jamaica;Jamaica;;Sim;Mar das Caraíbas;Caribbean Sea
+GD;GRD;Q769;Granada;Grenada;;Sim;Mar das Caraíbas;Caribbean Sea
+UY;URY;Q77;Uruguai;Uruguay;;Sim;Oceano Atlântico;Atlantic Ocean
+GT;GTM;Q774;Guatemala;Guatemala;;Sim;Oceano Pacífico, Mar das Caraíbas, Golfo de Honduras;Pacific Ocean, Caribbean Sea, Gulf of Honduras
+BS;BHS;Q778;Bahamas;The Bahamas;;Não;;
+AG;ATG;Q781;Antígua e Barbuda;Antigua and Barbuda;;Não;;
+HN;HND;Q783;Honduras;Honduras;;Não;;
+DM;DMA;Q784;Dominica;Dominica;;Não;;
+JE;JEY;Q785;Jersey;Jersey;;Sim;Canal da Mancha;English Channel
+DO;DOM;Q786;República Dominicana;Dominican Republic;;Não;;
+EG;EGY;Q79;Egito;Egypt;;Sim;Mar Mediterrâneo, Mar Vermelho;Mediterranean Sea, Red Sea
+HT;HTI;Q790;Haiti;Haiti;;Não;;
+SV;SLV;Q792;El Salvador;El Salvador;;Não;;
+IR;IRN;Q794;Irão;Iran;;Sim;Mar Cáspio, Golfo Pérsico, Golfo de Omã;Caspian Sea, Persian Gulf, Gulf of Oman
+IQ;IRQ;Q796;Iraque;Iraq;;Não;;
+CR;CRI;Q800;Costa Rica;Costa Rica;;Sim;Oceano Pacífico, Mar das Caraíbas;Pacific Ocean, Caribbean Sea
+IL;ISR;Q801;Israel;Israel;;Sim;Mar Mediterrâneo, Golfo de Acaba, Mar Levantino;Mediterranean Sea, Gulf of Aqaba, Levantine Sea
+PA;PAN;Q804;Panamá;Panama;;Não;;
+YE;YEM;Q805;Iémen;Yemen;;Sim;Mar Vermelho, Mar Arábico;Red Sea, Arabian Sea
+JO;JOR;Q810;Jordânia;Jordan;;Não;;
+NI;NIC;Q811;Nicarágua;Nicaragua;;Não;;
+KG;KGZ;Q813;Quirguistão;Kyrgyzstan;;Não;;
+KW;KWT;Q817;Kuwait;Kuwait;;Não;;
+LA;LAO;Q819;Laos;Laos;;Não;;
+LB;LBN;Q822;Líbano;Lebanon;;Sim;Mar Mediterrâneo;Mediterranean Sea
+MV;MDV;Q826;Maldivas;Maldives;;Não;;
+MY;MYS;Q833;Malásia;Malaysia;;Sim;Mar de Celebes, Mar da China Meridional, Mar de Sulu, Baía do Brunei;Celebes Sea, South China Sea, Sulu Sea, Brunei Bay
+NP;NPL;Q837;Nepal;Nepal;;Não;;
+OM;OMN;Q842;Omã;Oman;;Não;;
+SJ;SJM;Q842829;Svalbard e Jan Mayen;Svalbard and Jan Mayen;;Não;;
+PK;PAK;Q843;Paquistão;Pakistan;;Não;;
+QA;QAT;Q846;Catar;Qatar;;Não;;
+SA;SAU;Q851;Arábia Saudita;Saudi Arabia;;Sim;Mar Vermelho, Golfo Pérsico, Golfo de Acaba;Red Sea, Persian Gulf, Gulf of Aqaba
+LK;LKA;Q854;Sri Lanka;Sri Lanka;;Sim;Oceano Índico;Indian Ocean
+SY;SYR;Q858;Síria;Syria;;Sim;Mar Mediterrâneo;Mediterranean Sea
+TW;TWN;Q865;Taiwan;Taiwan;;Sim;Oceano Pacífico, Mar da China Meridional, Mar da China Oriental, Mar das Filipinas;Pacific Ocean, South China Sea, East China Sea, Philippine Sea
+TH;THA;Q869;Tailândia;Thailand;;Não;;
+TM;TKM;Q874;Turquemenistão;Turkmenistan;;Não;;
+AE;ARE;Q878;Emirados Árabes Unidos;United Arab Emirates;;Sim;Golfo Pérsico, Golfo de Omã;Persian Gulf, Gulf of Oman
+VN;VNM;Q881;Vietname;Vietnam;;Não;;
+KR;KOR;Q884;Coreia do Sul;South Korea;;Sim;Mar do Japão, Mar Amarelo, Mar da China Oriental;Sea of Japan, Yellow Sea, East China Sea, Namhae
+AF;AFG;Q889;Afeganistão;Afghanistan;;Não;;
+BD;BGD;Q902;Bangladesh;Bangladesh;;Sim;Golfo de Bengala;Bay of Bengal
+ML;MLI;Q912;Mali;Mali;;Não;;
+AO;AGO;Q916;Angola;Angola;;Sim;Oceano Atlântico;Atlantic Ocean
+BT;BTN;Q917;Butão;Bhutan;;Não;;
+BN;BRN;Q921;Brunei;Brunei;;Não;;
+TZ;TZA;Q924;Tanzânia;Tanzania;;Não;;
+PH;PHL;Q928;Filipinas;Philippines;;Sim;Mar de Celebes, Mar das Filipinas, Mar das Filipinas Ocidentais;Celebes Sea, Philippine Sea, West Philippine Sea
+CF;CAF;Q929;República Centro-Africana;Central African Republic;;Não;;
+TG;TGO;Q945;Togo;Togo;;Sim;Oceano Atlântico;Atlantic Ocean
+TN;TUN;Q948;Tunísia;Tunisia;;Sim;Mar Mediterrâneo;Mediterranean Sea
+ZM;ZMB;Q953;Zâmbia;Zambia;;Não;;
+ZW;ZWE;Q954;Zimbábue;Zimbabwe;;Não;;
+SS;SSD;Q958;Sudão do Sul;South Sudan;;Não;;
+MX;MEX;Q96;México;Mexico;;Sim;Oceano Atlântico, Oceano Pacífico;Atlantic Ocean, Pacific Ocean
+BJ;BEN;Q962;Benim;Benin;;Sim;Oceano Atlântico;Atlantic Ocean
+BW;BWA;Q963;Botsuana;Botswana;;Não;;
+FK;FLK;Q9648;Ilhas Malvinas;Falkland Islands;;Sim;Oceano Atlântico;Atlantic Ocean
+BF;BFA;Q965;Burquina Fasso;Burkina Faso;;Não;;
+BI;BDI;Q967;Burundi;Burundi;;Não;;
+IM;IMN;Q9676;Ilha de Man;Isle of Man;;Não;;
+KM;COM;Q970;Comores;Comoros;;Não;;
+CG;COG;Q971;República do Congo;Republic of the Congo;;Sim;Oceano Atlântico;Atlantic Ocean
+DJ;DJI;Q977;Djibouti;Djibouti;;Não;;
+GQ;GNQ;Q983;Guiné Equatorial;Equatorial Guinea;;Sim;Oceano Atlântico;Atlantic Ocean
+ER;ERI;Q986;Eritreia;Eritrea;;Não;;

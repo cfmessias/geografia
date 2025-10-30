@@ -20,6 +20,7 @@ FILES = [
     ##DATA / "colonization.csv",
     DATA / "colonies_all.csv",
     #DATA / "conflict_catalog.csv",
+    #DATA / "timezones.csv",
 ]
 
 API_URL = "https://www.wikidata.org/w/api.php"

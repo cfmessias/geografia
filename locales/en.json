@@ -579,7 +579,70 @@
     "comparar_paises": "Compare countries",
     "fluxos_migratorios": "Migration flows",
 	"economia": "Economy",
-	"demografia": "Population"
-
+	"demografia": "Population",
+	"geografia": "Geography"
+  },
+  
+  
+  "geo": {
+    "header": "🗺️ Geography",
+    "metrics": {
+      "borders": "Land borders",
+      "timezones": "Time zones (standard UTC)",
+      "seasons": "Seasons (est.)",
+      "koppen": "Climate (Köppen)"
+    },
+    "sections": {
+      "borders": {
+        "title": "🌐 Borders",
+        "empty": "No border data (or the country has no land borders).",
+        "table": {
+          "iso3": "Neighbour ISO-3",
+          "name": "Neighbour name",
+          "km": "Border length (km)"
+        }
+      },
+      "timezones": {
+        "title": "🕰️ Time zones (UTC)",
+        "empty": "No time-zone data."
+      },
+      "coast": {
+        "title": "🌊 Coastline",
+        "empty": "No coastline data. Run scripts/fetch_coastlines.py to generate data/coastlines.csv.",
+        "has_coast": "Has coastline?",
+        "coast_len": "Coastline length:",
+        "seas": {
+          "caption": "Adjacent seas",
+          "none": "No adjacent seas mapped."
+        }
+      },
+      "ports": {
+        "title": "⚓ Ports & Sea routes",
+        "empty": "No port/route data. Run scripts/fetch_ports_and_routes.py to generate data/ports_and_routes.csv.",
+        "caption_main": "Main ports",
+        "caption_waters": "Water passages (straits/canals) on the border"
+      },
+      "climate": {
+        "title": "🌤️ Climate",
+        "empty": "No Köppen class computed. Run scripts/fetch_koppen_by_country.py to generate data/koppen.csv.",
+        "label": "Class (Köppen–Geiger):",
+        "capital_coords": "Capital: lat {lat}, lon {lon}"
+      },
+      "biomes": {
+        "title": "🌱 Vegetation / Biomes",
+        "empty": "No biome data. Run scripts/fetch_biomes_by_country.py to generate data/biomes.csv (heuristic) or integrate WWF Ecoregions for more detail.",
+        "table": {
+          "biome": "Biome",
+          "area_pct": "Area (%)"
+        }
+      }
+    },
+    "sources": {
+      "caption": "**Sources**: borders (Wikidata P47); time zones (IANA tzdb, fetch_timezones.py → data/timezones.csv); coast/seas (fetch_coastlines.py → data/coastlines.csv); ports/routes (fetch_ports_and_routes.py → data/ports_and_routes.csv); Köppen climate (Open-Meteo, 1991–2020, capital); biomes (Köppen-based heuristic)."
+    }
   }
 }
+
+
+
+

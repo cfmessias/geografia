@@ -1,0 +1,250 @@
+iso3;qid;country_pt;country_en;iso2;timezones;tz_with_offsets_now;utc_offsets_now;tz_count
+ABW;Q21203;Aruba;Aruba;AW;America/Puerto_Rico;America/Puerto_Rico=UTC-04:00;UTC-04:00;1
+AFG;Q889;Afeganistão;Afghanistan;AF;Asia/Kabul;Asia/Kabul=UTC+04:30;UTC+04:30;1
+AGO;Q916;Angola;Angola;AO;Africa/Lagos;Africa/Lagos=UTC+01:00;UTC+01:00;1
+AIA;Q25228;Anguila;Anguilla;AI;America/Puerto_Rico;America/Puerto_Rico=UTC-04:00;UTC-04:00;1
+ALA;Q5689;Åland;Åland;AX;Europe/Helsinki;Europe/Helsinki=UTC+02:00;UTC+02:00;1
+ALB;Q222;Albânia;Albania;AL;Europe/Tirane;Europe/Tirane=UTC+01:00;UTC+01:00;1
+AND;Q228;Andorra;Andorra;AD;Europe/Andorra;Europe/Andorra=UTC+01:00;UTC+01:00;1
+ARE;Q878;Emirados Árabes Unidos;United Arab Emirates;AE;Asia/Dubai;Asia/Dubai=UTC+04:00;UTC+04:00;1
+ARG;Q414;Argentina;Argentina;AR;America/Argentina/Buenos_Aires, America/Argentina/Catamarca, America/Argentina/Cordoba, America/Argentina/Jujuy, America/Argentina/La_Rioja, America/Argentina/Mendoza, America/Argentina/Rio_Gallegos, America/Argentina/Salta, America/Argentina/San_Juan, America/Argentina/San_Luis, America/Argentina/Tucuman, America/Argentina/Ushuaia;America/Argentina/Buenos_Aires=UTC-03:00, America/Argentina/Catamarca=UTC-03:00, America/Argentina/Cordoba=UTC-03:00, America/Argentina/Jujuy=UTC-03:00, America/Argentina/La_Rioja=UTC-03:00, America/Argentina/Mendoza=UTC-03:00, America/Argentina/Rio_Gallegos=UTC-03:00, America/Argentina/Salta=UTC-03:00, America/Argentina/San_Juan=UTC-03:00, America/Argentina/San_Luis=UTC-03:00, America/Argentina/Tucuman=UTC-03:00, America/Argentina/Ushuaia=UTC-03:00;UTC-03:00;12
+ARM;Q399;Arménia;Armenia;AM;Asia/Yerevan;Asia/Yerevan=UTC+04:00;UTC+04:00;1
+ASM;Q16641;Samoa Americana;American Samoa;AS;Pacific/Pago_Pago;Pacific/Pago_Pago=UTC-11:00;UTC-11:00;1
+ATA;Q21590062;Zona do Tratado sobre a Antártida;Antarctic Treaty area;AQ;Antarctica/Casey, Antarctica/Davis, Antarctica/Mawson, Antarctica/Palmer, Antarctica/Rothera, Antarctica/Troll, Antarctica/Vostok, Asia/Riyadh, Asia/Singapore, Pacific/Auckland, Pacific/Port_Moresby;Antarctica/Casey=UTC+08:00, Antarctica/Davis=UTC+07:00, Antarctica/Mawson=UTC+05:00, Antarctica/Palmer=UTC-03:00, Antarctica/Rothera=UTC-03:00, Antarctica/Troll=UTC+00:00, Antarctica/Vostok=UTC+05:00, Asia/Riyadh=UTC+03:00, Asia/Singapore=UTC+08:00, Pacific/Auckland=UTC+13:00, Pacific/Port_Moresby=UTC+10:00;UTC+08:00, UTC+07:00, UTC+05:00, UTC-03:00, UTC+00:00, UTC+03:00, UTC+13:00, UTC+10:00;11
+ATF;Q129003;Terras Austrais e Antárticas Francesas;French Southern and Antarctic Lands;TF;Asia/Dubai, Indian/Maldives;Asia/Dubai=UTC+04:00, Indian/Maldives=UTC+05:00;UTC+04:00, UTC+05:00;2
+ATG;Q781;Antígua e Barbuda;Antigua and Barbuda;AG;America/Puerto_Rico;America/Puerto_Rico=UTC-04:00;UTC-04:00;1
+AUS;Q408;Austrália;Australia;AU;Antarctica/Macquarie, Asia/Tokyo, Australia/Adelaide, Australia/Brisbane, Australia/Broken_Hill, Australia/Darwin, Australia/Eucla, Australia/Hobart, Australia/Lindeman, Australia/Lord_Howe, Australia/Melbourne, Australia/Perth, Australia/Sydney;Antarctica/Macquarie=UTC+11:00, Asia/Tokyo=UTC+09:00, Australia/Adelaide=UTC+10:30, Australia/Brisbane=UTC+10:00, Australia/Broken_Hill=UTC+10:30, Australia/Darwin=UTC+09:30, Australia/Eucla=UTC+08:45, Australia/Hobart=UTC+11:00, Australia/Lindeman=UTC+10:00, Australia/Lord_Howe=UTC+11:00, Australia/Melbourne=UTC+11:00, Australia/Perth=UTC+08:00, Australia/Sydney=UTC+11:00;UTC+11:00, UTC+09:00, UTC+10:30, UTC+10:00, UTC+09:30, UTC+08:45, UTC+08:00;13
+AUT;Q40;Áustria;Austria;AT;Europe/Vienna;Europe/Vienna=UTC+01:00;UTC+01:00;1
+AZE;Q227;Azerbaijão;Azerbaijan;AZ;Asia/Baku;Asia/Baku=UTC+04:00;UTC+04:00;1
+BDI;Q967;Burundi;Burundi;BI;Africa/Maputo;Africa/Maputo=UTC+02:00;UTC+02:00;1
+BEL;Q31;Bélgica;Belgium;BE;Europe/Brussels;Europe/Brussels=UTC+01:00;UTC+01:00;1
+BEN;Q962;Benim;Benin;BJ;Africa/Lagos;Africa/Lagos=UTC+01:00;UTC+01:00;1
+BES;Q27561;Países Baixos Caribenhos;Caribbean Netherlands;BQ;America/Puerto_Rico;America/Puerto_Rico=UTC-04:00;UTC-04:00;1
+BFA;Q965;Burquina Fasso;Burkina Faso;BF;Africa/Abidjan;Africa/Abidjan=UTC+00:00;UTC+00:00;1
+BGD;Q902;Bangladesh;Bangladesh;BD;Asia/Dhaka;Asia/Dhaka=UTC+06:00;UTC+06:00;1
+BGR;Q219;Bulgária;Bulgaria;BG;Europe/Sofia;Europe/Sofia=UTC+02:00;UTC+02:00;1
+BHR;Q398;Bahrein;Bahrain;BH;Asia/Qatar;Asia/Qatar=UTC+03:00;UTC+03:00;1
+BHS;Q778;Bahamas;The Bahamas;BS;America/Toronto;America/Toronto=UTC-04:00;UTC-04:00;1
+BIH;Q225;Bósnia e Herzegovina;Bosnia and Herzegovina;BA;Europe/Belgrade;Europe/Belgrade=UTC+01:00;UTC+01:00;1
+BLM;Q25362;São Bartolomeu;Saint Barthélemy;BL;America/Puerto_Rico;America/Puerto_Rico=UTC-04:00;UTC-04:00;1
+BLR;Q184;Bielorrússia;Belarus;BY;Europe/Minsk;Europe/Minsk=UTC+03:00;UTC+03:00;1
+BLZ;Q242;Belize;Belize;BZ;America/Belize;America/Belize=UTC-06:00;UTC-06:00;1
+BMU;Q23635;Bermudas;Bermuda;BM;Atlantic/Bermuda;Atlantic/Bermuda=UTC-03:00;UTC-03:00;1
+BOL;Q750;Bolívia;Bolivia;BO;America/La_Paz;America/La_Paz=UTC-04:00;UTC-04:00;1
+BRA;Q155;Brasil;Brazil;BR;America/Araguaina, America/Bahia, America/Belem, America/Boa_Vista, America/Campo_Grande, America/Cuiaba, America/Eirunepe, America/Fortaleza, America/Maceio, America/Manaus, America/Noronha, America/Porto_Velho, America/Recife, America/Rio_Branco, America/Santarem, America/Sao_Paulo;America/Araguaina=UTC-03:00, America/Bahia=UTC-03:00, America/Belem=UTC-03:00, America/Boa_Vista=UTC-04:00, America/Campo_Grande=UTC-04:00, America/Cuiaba=UTC-04:00, America/Eirunepe=UTC-05:00, America/Fortaleza=UTC-03:00, America/Maceio=UTC-03:00, America/Manaus=UTC-04:00, America/Noronha=UTC-02:00, America/Porto_Velho=UTC-04:00, America/Recife=UTC-03:00, America/Rio_Branco=UTC-05:00, America/Santarem=UTC-03:00, America/Sao_Paulo=UTC-03:00;UTC-03:00, UTC-04:00, UTC-05:00, UTC-02:00;16
+BRB;Q244;Barbados;Barbados;BB;America/Barbados;America/Barbados=UTC-04:00;UTC-04:00;1
+BRN;Q921;Brunei;Brunei;BN;Asia/Kuching;Asia/Kuching=UTC+08:00;UTC+08:00;1
+BTN;Q917;Butão;Bhutan;BT;Asia/Thimphu;Asia/Thimphu=UTC+06:00;UTC+06:00;1
+BVT;Q23408;Ilha Bouvet;Bouvet Island;BV;;;;0
+BWA;Q963;Botsuana;Botswana;BW;Africa/Maputo;Africa/Maputo=UTC+02:00;UTC+02:00;1
+CAF;Q929;República Centro-Africana;Central African Republic;CF;Africa/Lagos;Africa/Lagos=UTC+01:00;UTC+01:00;1
+CAN;Q16;Canadá;Canada;CA;America/Cambridge_Bay, America/Dawson, America/Dawson_Creek, America/Edmonton, America/Fort_Nelson, America/Glace_Bay, America/Goose_Bay, America/Halifax, America/Inuvik, America/Iqaluit, America/Moncton, America/Panama, America/Phoenix, America/Puerto_Rico, America/Rankin_Inlet, America/Regina, America/Resolute, America/St_Johns, America/Swift_Current, America/Toronto, America/Vancouver, America/Whitehorse, America/Winnipeg;America/Cambridge_Bay=UTC-06:00, America/Dawson=UTC-07:00, America/Dawson_Creek=UTC-07:00, America/Edmonton=UTC-06:00, America/Fort_Nelson=UTC-07:00, America/Glace_Bay=UTC-03:00, America/Goose_Bay=UTC-03:00, America/Halifax=UTC-03:00, America/Inuvik=UTC-06:00, America/Iqaluit=UTC-04:00, America/Moncton=UTC-03:00, America/Panama=UTC-05:00, America/Phoenix=UTC-07:00, America/Puerto_Rico=UTC-04:00, America/Rankin_Inlet=UTC-05:00, America/Regina=UTC-06:00, America/Resolute=UTC-05:00, America/St_Johns=UTC-02:30, America/Swift_Current=UTC-06:00, America/Toronto=UTC-04:00, America/Vancouver=UTC-07:00, America/Whitehorse=UTC-07:00, America/Winnipeg=UTC-05:00;UTC-06:00, UTC-07:00, UTC-03:00, UTC-04:00, UTC-05:00, UTC-02:30;23
+CCK;Q36004;Ilhas Cocos;Cocos (Keeling) Islands;CC;Asia/Yangon;Asia/Yangon=UTC+06:30;UTC+06:30;1
+CHE;Q39;Suíça;Switzerland;CH;Europe/Zurich;Europe/Zurich=UTC+01:00;UTC+01:00;1
+CHL;Q298;Chile;Chile;CL;America/Coyhaique, America/Punta_Arenas, America/Santiago, Pacific/Easter;America/Coyhaique=, America/Punta_Arenas=UTC-03:00, America/Santiago=UTC-03:00, Pacific/Easter=UTC-05:00;UTC-03:00, UTC-05:00;4
+CHN;Q148;China;People's Republic of China;CN;Asia/Shanghai, Asia/Urumqi;Asia/Shanghai=UTC+08:00, Asia/Urumqi=UTC+06:00;UTC+08:00, UTC+06:00;2
+CIV;Q1008;Costa do Marfim;Ivory Coast;CI;Africa/Abidjan;Africa/Abidjan=UTC+00:00;UTC+00:00;1
+CMR;Q1009;Camarões;Cameroon;CM;Africa/Lagos;Africa/Lagos=UTC+01:00;UTC+01:00;1
+COD;Q974;República Democrática do Congo;Democratic Republic of the Congo;CD;Africa/Lagos, Africa/Maputo;Africa/Lagos=UTC+01:00, Africa/Maputo=UTC+02:00;UTC+01:00, UTC+02:00;2
+COG;Q971;República do Congo;Republic of the Congo;CG;Africa/Lagos;Africa/Lagos=UTC+01:00;UTC+01:00;1
+COK;Q26988;Ilhas Cook;Cook Islands;CK;Pacific/Rarotonga;Pacific/Rarotonga=UTC-10:00;UTC-10:00;1
+COL;Q739;Colômbia;Colombia;CO;America/Bogota;America/Bogota=UTC-05:00;UTC-05:00;1
+COM;Q970;Comores;Comoros;KM;Africa/Nairobi;Africa/Nairobi=UTC+03:00;UTC+03:00;1
+CPV;Q1011;Cabo Verde;Cape Verde;CV;Atlantic/Cape_Verde;Atlantic/Cape_Verde=UTC-01:00;UTC-01:00;1
+CRI;Q800;Costa Rica;Costa Rica;CR;America/Costa_Rica;America/Costa_Rica=UTC-06:00;UTC-06:00;1
+CUB;Q241;Cuba;Cuba;CU;America/Havana;America/Havana=UTC-04:00;UTC-04:00;1
+CUW;Q25279;Curaçau;Curaçao;CW;America/Puerto_Rico;America/Puerto_Rico=UTC-04:00;UTC-04:00;1
+CXR;Q31063;Ilha Christmas;Christmas Island;CX;Asia/Bangkok;Asia/Bangkok=UTC+07:00;UTC+07:00;1
+CYM;Q5785;Ilhas Cayman;Cayman Islands;KY;America/Panama;America/Panama=UTC-05:00;UTC-05:00;1
+CYP;Q229;Chipre;Cyprus;CY;Asia/Famagusta, Asia/Nicosia;Asia/Famagusta=UTC+02:00, Asia/Nicosia=UTC+02:00;UTC+02:00;2
+CZE;Q213;Chéquia;Czech Republic;CZ;Europe/Prague;Europe/Prague=UTC+01:00;UTC+01:00;1
+DEU;Q183;Alemanha;Germany;DE;Europe/Berlin, Europe/Zurich;Europe/Berlin=UTC+01:00, Europe/Zurich=UTC+01:00;UTC+01:00;2
+DJI;Q977;Djibouti;Djibouti;DJ;Africa/Nairobi;Africa/Nairobi=UTC+03:00;UTC+03:00;1
+DMA;Q784;Dominica;Dominica;DM;America/Puerto_Rico;America/Puerto_Rico=UTC-04:00;UTC-04:00;1
+DNK;Q35;Dinamarca;Denmark;DK;Europe/Berlin;Europe/Berlin=UTC+01:00;UTC+01:00;1
+DOM;Q786;República Dominicana;Dominican Republic;DO;America/Santo_Domingo;America/Santo_Domingo=UTC-04:00;UTC-04:00;1
+DZA;Q262;Argélia;Algeria;DZ;Africa/Algiers;Africa/Algiers=UTC+01:00;UTC+01:00;1
+ECU;Q736;Equador;Ecuador;EC;America/Guayaquil, Pacific/Galapagos;America/Guayaquil=UTC-05:00, Pacific/Galapagos=UTC-06:00;UTC-05:00, UTC-06:00;2
+EGY;Q79;Egito;Egypt;EG;Africa/Cairo;Africa/Cairo=UTC+03:00;UTC+03:00;1
+ERI;Q986;Eritreia;Eritrea;ER;Africa/Nairobi;Africa/Nairobi=UTC+03:00;UTC+03:00;1
+ESH;Q6250;Sara Ocidental;Western Sahara;EH;Africa/El_Aaiun;Africa/El_Aaiun=UTC+01:00;UTC+01:00;1
+ESP;Q29;Espanha;Spain;ES;Africa/Ceuta, Atlantic/Canary, Europe/Madrid;Africa/Ceuta=UTC+01:00, Atlantic/Canary=UTC+00:00, Europe/Madrid=UTC+01:00;UTC+01:00, UTC+00:00;3
+EST;Q191;Estónia;Estonia;EE;Europe/Tallinn;Europe/Tallinn=UTC+02:00;UTC+02:00;1
+ETH;Q115;Etiópia;Ethiopia;ET;Africa/Nairobi;Africa/Nairobi=UTC+03:00;UTC+03:00;1
+FIN;Q33;Finlândia;Finland;FI;Europe/Helsinki;Europe/Helsinki=UTC+02:00;UTC+02:00;1
+FJI;Q712;Fiji;Fiji;FJ;Pacific/Fiji;Pacific/Fiji=UTC+12:00;UTC+12:00;1
+FLK;Q9648;Ilhas Malvinas;Falkland Islands;FK;Atlantic/Stanley;Atlantic/Stanley=UTC-03:00;UTC-03:00;1
+FRA;Q142;França;France;FR;Europe/Paris;Europe/Paris=UTC+01:00;UTC+01:00;1
+FRO;Q4628;Ilhas Feroe;Faroe Islands;FO;Atlantic/Faroe;Atlantic/Faroe=UTC+00:00;UTC+00:00;1
+FSM;Q702;Micronésia;Federated States of Micronesia;FM;Pacific/Guadalcanal, Pacific/Kosrae, Pacific/Port_Moresby;Pacific/Guadalcanal=UTC+11:00, Pacific/Kosrae=UTC+11:00, Pacific/Port_Moresby=UTC+10:00;UTC+11:00, UTC+10:00;3
+GAB;Q1000;Gabão;Gabon;GA;Africa/Lagos;Africa/Lagos=UTC+01:00;UTC+01:00;1
+GBR;Q145;Reino Unido;United Kingdom;GB;Europe/London;Europe/London=UTC+00:00;UTC+00:00;1
+GEO;Q230;Geórgia;Georgia;GE;Asia/Tbilisi;Asia/Tbilisi=UTC+04:00;UTC+04:00;1
+GGY;Q25230;Guernsey;Guernsey;GG;Europe/London;Europe/London=UTC+00:00;UTC+00:00;1
+GHA;Q117;Gana;Ghana;GH;Africa/Abidjan;Africa/Abidjan=UTC+00:00;UTC+00:00;1
+GIB;Q1410;Gibraltar;Gibraltar;GI;Europe/Gibraltar;Europe/Gibraltar=UTC+01:00;UTC+01:00;1
+GIN;Q1006;Guiné;Guinea;GN;Africa/Abidjan;Africa/Abidjan=UTC+00:00;UTC+00:00;1
+GLP;Q17012;Guadalupe;Guadeloupe;GP;America/Puerto_Rico;America/Puerto_Rico=UTC-04:00;UTC-04:00;1
+GMB;Q1005;Gâmbia;The Gambia;GM;Africa/Abidjan;Africa/Abidjan=UTC+00:00;UTC+00:00;1
+GNB;Q1007;Guiné-Bissau;Guinea-Bissau;GW;Africa/Bissau;Africa/Bissau=UTC+00:00;UTC+00:00;1
+GNQ;Q983;Guiné Equatorial;Equatorial Guinea;GQ;Africa/Lagos;Africa/Lagos=UTC+01:00;UTC+01:00;1
+GRC;Q41;Grécia;Greece;GR;Europe/Athens;Europe/Athens=UTC+02:00;UTC+02:00;1
+GRD;Q769;Granada;Grenada;GD;America/Puerto_Rico;America/Puerto_Rico=UTC-04:00;UTC-04:00;1
+GRL;Q223;Gronelândia;Greenland;GL;America/Danmarkshavn, America/Nuuk, America/Scoresbysund, America/Thule;America/Danmarkshavn=UTC+00:00, America/Nuuk=UTC-02:00, America/Scoresbysund=UTC-02:00, America/Thule=UTC-03:00;UTC+00:00, UTC-02:00, UTC-03:00;4
+GTM;Q774;Guatemala;Guatemala;GT;America/Guatemala;America/Guatemala=UTC-06:00;UTC-06:00;1
+GUF;Q3769;Guiana Francesa;French Guiana;GF;America/Cayenne;America/Cayenne=UTC-03:00;UTC-03:00;1
+GUM;Q16635;Guam;Guam;GU;Pacific/Guam;Pacific/Guam=UTC+10:00;UTC+10:00;1
+GUY;Q734;Guiana;Guyana;GY;America/Guyana;America/Guyana=UTC-04:00;UTC-04:00;1
+HKG;Q8646;Hong Kong;Hong Kong;HK;Asia/Hong_Kong;Asia/Hong_Kong=UTC+08:00;UTC+08:00;1
+HMD;Q131198;Ilha Heard e Ilhas McDonald;Heard Island and McDonald Islands;HM;;;;0
+HND;Q783;Honduras;Honduras;HN;America/Tegucigalpa;America/Tegucigalpa=UTC-06:00;UTC-06:00;1
+HRV;Q224;Croácia;Croatia;HR;Europe/Belgrade;Europe/Belgrade=UTC+01:00;UTC+01:00;1
+HTI;Q790;Haiti;Haiti;HT;America/Port-au-Prince;America/Port-au-Prince=UTC-04:00;UTC-04:00;1
+HUN;Q28;Hungria;Hungary;HU;Europe/Budapest;Europe/Budapest=UTC+01:00;UTC+01:00;1
+IDN;Q252;Indonésia;Indonesia;ID;Asia/Jakarta, Asia/Jayapura, Asia/Makassar, Asia/Pontianak;Asia/Jakarta=UTC+07:00, Asia/Jayapura=UTC+09:00, Asia/Makassar=UTC+08:00, Asia/Pontianak=UTC+07:00;UTC+07:00, UTC+09:00, UTC+08:00;4
+IMN;Q9676;Ilha de Man;Isle of Man;IM;Europe/London;Europe/London=UTC+00:00;UTC+00:00;1
+IND;Q668;Índia;India;IN;Asia/Kolkata;Asia/Kolkata=UTC+05:30;UTC+05:30;1
+IOT;Q43448;Território Britânico do Oceano Índico;British Indian Ocean Territory;IO;Indian/Chagos;Indian/Chagos=UTC+06:00;UTC+06:00;1
+IRL;Q27;República da Irlanda;Ireland;IE;Europe/Dublin;Europe/Dublin=UTC+00:00;UTC+00:00;1
+IRN;Q794;Irão;Iran;IR;Asia/Tehran;Asia/Tehran=UTC+03:30;UTC+03:30;1
+IRQ;Q796;Iraque;Iraq;IQ;Asia/Baghdad;Asia/Baghdad=UTC+03:00;UTC+03:00;1
+ISL;Q189;Islândia;Iceland;IS;Africa/Abidjan;Africa/Abidjan=UTC+00:00;UTC+00:00;1
+ISR;Q801;Israel;Israel;IL;Asia/Jerusalem;Asia/Jerusalem=UTC+02:00;UTC+02:00;1
+ITA;Q38;Itália;Italy;IT;Europe/Rome;Europe/Rome=UTC+01:00;UTC+01:00;1
+JAM;Q766;Jamaica;Jamaica;JM;America/Jamaica;America/Jamaica=UTC-05:00;UTC-05:00;1
+JEY;Q785;Jersey;Jersey;JE;Europe/London;Europe/London=UTC+00:00;UTC+00:00;1
+JOR;Q810;Jordânia;Jordan;JO;Asia/Amman;Asia/Amman=UTC+03:00;UTC+03:00;1
+JPN;Q17;Japão;Japan;JP;Asia/Tokyo;Asia/Tokyo=UTC+09:00;UTC+09:00;1
+KAZ;Q232;Cazaquistão;Kazakhstan;KZ;Asia/Almaty, Asia/Aqtau, Asia/Aqtobe, Asia/Atyrau, Asia/Oral, Asia/Qostanay, Asia/Qyzylorda;Asia/Almaty=UTC+05:00, Asia/Aqtau=UTC+05:00, Asia/Aqtobe=UTC+05:00, Asia/Atyrau=UTC+05:00, Asia/Oral=UTC+05:00, Asia/Qostanay=UTC+05:00, Asia/Qyzylorda=UTC+05:00;UTC+05:00;7
+KEN;Q114;Quénia;Kenya;KE;Africa/Nairobi;Africa/Nairobi=UTC+03:00;UTC+03:00;1
+KGZ;Q813;Quirguistão;Kyrgyzstan;KG;Asia/Bishkek;Asia/Bishkek=UTC+06:00;UTC+06:00;1
+KHM;Q424;Camboja;Cambodia;KH;Asia/Bangkok;Asia/Bangkok=UTC+07:00;UTC+07:00;1
+KIR;Q710;Kiribati;Kiribati;KI;Pacific/Kanton, Pacific/Kiritimati, Pacific/Tarawa;Pacific/Kanton=UTC+13:00, Pacific/Kiritimati=UTC+14:00, Pacific/Tarawa=UTC+12:00;UTC+13:00, UTC+14:00, UTC+12:00;3
+KNA;Q763;São Cristóvão e Neves;Saint Kitts and Nevis;KN;America/Puerto_Rico;America/Puerto_Rico=UTC-04:00;UTC-04:00;1
+KOR;Q884;Coreia do Sul;South Korea;KR;Asia/Seoul;Asia/Seoul=UTC+09:00;UTC+09:00;1
+KWT;Q817;Kuwait;Kuwait;KW;Asia/Riyadh;Asia/Riyadh=UTC+03:00;UTC+03:00;1
+LAO;Q819;Laos;Laos;LA;Asia/Bangkok;Asia/Bangkok=UTC+07:00;UTC+07:00;1
+LBN;Q822;Líbano;Lebanon;LB;Asia/Beirut;Asia/Beirut=UTC+02:00;UTC+02:00;1
+LBR;Q1014;Libéria;Liberia;LR;Africa/Monrovia;Africa/Monrovia=UTC+00:00;UTC+00:00;1
+LBY;Q1016;Líbia;Libya;LY;Africa/Tripoli;Africa/Tripoli=UTC+02:00;UTC+02:00;1
+LCA;Q760;Santa Lúcia;Saint Lucia;LC;America/Puerto_Rico;America/Puerto_Rico=UTC-04:00;UTC-04:00;1
+LIE;Q347;Liechtenstein;Liechtenstein;LI;Europe/Zurich;Europe/Zurich=UTC+01:00;UTC+01:00;1
+LKA;Q854;Sri Lanka;Sri Lanka;LK;Asia/Colombo;Asia/Colombo=UTC+05:30;UTC+05:30;1
+LSO;Q1013;Lesoto;Lesotho;LS;Africa/Johannesburg;Africa/Johannesburg=UTC+02:00;UTC+02:00;1
+LTU;Q37;Lituânia;Lithuania;LT;Europe/Vilnius;Europe/Vilnius=UTC+02:00;UTC+02:00;1
+LUX;Q32;Luxemburgo;Luxembourg;LU;Europe/Brussels;Europe/Brussels=UTC+01:00;UTC+01:00;1
+LVA;Q211;Letónia;Latvia;LV;Europe/Riga;Europe/Riga=UTC+02:00;UTC+02:00;1
+MAC;Q14773;Macau;Macau;MO;Asia/Macau;Asia/Macau=UTC+08:00;UTC+08:00;1
+MAF;Q126125;São Martinho;Saint-Martin;MF;America/Puerto_Rico;America/Puerto_Rico=UTC-04:00;UTC-04:00;1
+MAR;Q1028;Marrocos;Morocco;MA;Africa/Casablanca;Africa/Casablanca=UTC+01:00;UTC+01:00;1
+MCO;Q235;Mónaco;Monaco;MC;Europe/Paris;Europe/Paris=UTC+01:00;UTC+01:00;1
+MDA;Q217;Moldávia;Moldova;MD;Europe/Chisinau;Europe/Chisinau=UTC+02:00;UTC+02:00;1
+MDG;Q1019;Madagáscar;Madagascar;MG;Africa/Nairobi;Africa/Nairobi=UTC+03:00;UTC+03:00;1
+MDV;Q826;Maldivas;Maldives;MV;Indian/Maldives;Indian/Maldives=UTC+05:00;UTC+05:00;1
+MEX;Q96;México;Mexico;MX;America/Bahia_Banderas, America/Cancun, America/Chihuahua, America/Ciudad_Juarez, America/Hermosillo, America/Matamoros, America/Mazatlan, America/Merida, America/Mexico_City, America/Monterrey, America/Ojinaga, America/Tijuana;America/Bahia_Banderas=UTC-06:00, America/Cancun=UTC-05:00, America/Chihuahua=UTC-06:00, America/Ciudad_Juarez=UTC-06:00, America/Hermosillo=UTC-07:00, America/Matamoros=UTC-05:00, America/Mazatlan=UTC-07:00, America/Merida=UTC-06:00, America/Mexico_City=UTC-06:00, America/Monterrey=UTC-06:00, America/Ojinaga=UTC-05:00, America/Tijuana=UTC-07:00;UTC-06:00, UTC-05:00, UTC-07:00;12
+MHL;Q709;Ilhas Marshall;Marshall Islands;MH;Pacific/Kwajalein, Pacific/Tarawa;Pacific/Kwajalein=UTC+12:00, Pacific/Tarawa=UTC+12:00;UTC+12:00;2
+MKD;Q221;Macedónia do Norte;North Macedonia;MK;Europe/Belgrade;Europe/Belgrade=UTC+01:00;UTC+01:00;1
+MLI;Q912;Mali;Mali;ML;Africa/Abidjan;Africa/Abidjan=UTC+00:00;UTC+00:00;1
+MLT;Q233;Malta;Malta;MT;Europe/Malta;Europe/Malta=UTC+01:00;UTC+01:00;1
+MMR;Q836;Myanmar;Myanmar;MM;Asia/Yangon;Asia/Yangon=UTC+06:30;UTC+06:30;1
+MNE;Q236;Montenegro;Montenegro;ME;Europe/Belgrade;Europe/Belgrade=UTC+01:00;UTC+01:00;1
+MNG;Q711;Mongólia;Mongolia;MN;Asia/Hovd, Asia/Ulaanbaatar;Asia/Hovd=UTC+07:00, Asia/Ulaanbaatar=UTC+08:00;UTC+07:00, UTC+08:00;2
+MNP;Q16644;Marianas Setentrionais;Northern Mariana Islands;MP;Pacific/Guam;Pacific/Guam=UTC+10:00;UTC+10:00;1
+MOZ;Q1029;Moçambique;Mozambique;MZ;Africa/Maputo;Africa/Maputo=UTC+02:00;UTC+02:00;1
+MRT;Q1025;Mauritânia;Mauritania;MR;Africa/Abidjan;Africa/Abidjan=UTC+00:00;UTC+00:00;1
+MSR;Q13353;Monserrate;Montserrat;MS;America/Puerto_Rico;America/Puerto_Rico=UTC-04:00;UTC-04:00;1
+MTQ;Q17054;Martinica;Martinique;MQ;America/Martinique;America/Martinique=UTC-04:00;UTC-04:00;1
+MUS;Q1027;Maurícia;Mauritius;MU;Indian/Mauritius;Indian/Mauritius=UTC+04:00;UTC+04:00;1
+MWI;Q1020;Malawi;Malawi;MW;Africa/Maputo;Africa/Maputo=UTC+02:00;UTC+02:00;1
+MYS;Q833;Malásia;Malaysia;MY;Asia/Kuching, Asia/Singapore;Asia/Kuching=UTC+08:00, Asia/Singapore=UTC+08:00;UTC+08:00;2
+MYT;Q17063;Mayotte;Mayotte;YT;Africa/Nairobi;Africa/Nairobi=UTC+03:00;UTC+03:00;1
+NAM;Q1030;Namíbia;Namibia;NA;Africa/Windhoek;Africa/Windhoek=UTC+02:00;UTC+02:00;1
+NCL;Q33788;Nova Caledónia;New Caledonia;NC;Pacific/Noumea;Pacific/Noumea=UTC+11:00;UTC+11:00;1
+NER;Q1032;Níger;Niger;NE;Africa/Lagos;Africa/Lagos=UTC+01:00;UTC+01:00;1
+NFK;Q31057;Ilha Norfolk;Norfolk Island;NF;Pacific/Norfolk;Pacific/Norfolk=UTC+12:00;UTC+12:00;1
+NGA;Q1033;Nigéria;Nigeria;NG;Africa/Lagos;Africa/Lagos=UTC+01:00;UTC+01:00;1
+NIC;Q811;Nicarágua;Nicaragua;NI;America/Managua;America/Managua=UTC-06:00;UTC-06:00;1
+NIU;Q34020;Niue;Niue;NU;Pacific/Niue;Pacific/Niue=UTC-11:00;UTC-11:00;1
+NLD;Q29999;Reino dos Países Baixos;Kingdom of the Netherlands;NL;Europe/Brussels;Europe/Brussels=UTC+01:00;UTC+01:00;1
+NOR;Q20;Noruega;Norway;NO;Europe/Berlin;Europe/Berlin=UTC+01:00;UTC+01:00;1
+NPL;Q837;Nepal;Nepal;NP;Asia/Kathmandu;Asia/Kathmandu=UTC+05:45;UTC+05:45;1
+NRU;Q697;Nauru;Nauru;NR;Pacific/Nauru;Pacific/Nauru=UTC+12:00;UTC+12:00;1
+NZL;Q664;Nova Zelândia;New Zealand;NZ;Pacific/Auckland, Pacific/Chatham;Pacific/Auckland=UTC+13:00, Pacific/Chatham=UTC+13:45;UTC+13:00, UTC+13:45;2
+OMN;Q842;Omã;Oman;OM;Asia/Dubai;Asia/Dubai=UTC+04:00;UTC+04:00;1
+PAK;Q843;Paquistão;Pakistan;PK;Asia/Karachi;Asia/Karachi=UTC+05:00;UTC+05:00;1
+PAN;Q804;Panamá;Panama;PA;America/Panama;America/Panama=UTC-05:00;UTC-05:00;1
+PCN;Q35672;Ilhas Pitcairn;Pitcairn Islands;PN;Pacific/Pitcairn;Pacific/Pitcairn=UTC-08:00;UTC-08:00;1
+PER;Q419;Peru;Peru;PE;America/Lima;America/Lima=UTC-05:00;UTC-05:00;1
+PHL;Q928;Filipinas;Philippines;PH;Asia/Manila;Asia/Manila=UTC+08:00;UTC+08:00;1
+PLW;Q695;Palau;Palau;PW;Pacific/Palau;Pacific/Palau=UTC+09:00;UTC+09:00;1
+PNG;Q691;Papua-Nova Guiné;Papua New Guinea;PG;Pacific/Bougainville, Pacific/Port_Moresby;Pacific/Bougainville=UTC+11:00, Pacific/Port_Moresby=UTC+10:00;UTC+11:00, UTC+10:00;2
+POL;Q36;Polónia;Poland;PL;Europe/Warsaw;Europe/Warsaw=UTC+01:00;UTC+01:00;1
+PRI;Q1183;Porto Rico;Puerto Rico;PR;America/Puerto_Rico;America/Puerto_Rico=UTC-04:00;UTC-04:00;1
+PRK;Q423;Coreia do Norte;North Korea;KP;Asia/Pyongyang;Asia/Pyongyang=UTC+09:00;UTC+09:00;1
+PRT;Q45;Portugal;Portugal;PT;Atlantic/Azores, Atlantic/Madeira, Europe/Lisbon;Atlantic/Azores=UTC-01:00, Atlantic/Madeira=UTC+00:00, Europe/Lisbon=UTC+00:00;UTC-01:00, UTC+00:00;3
+PRY;Q733;Paraguai;Paraguay;PY;America/Asuncion;America/Asuncion=UTC-03:00;UTC-03:00;1
+PSE;Q407199;Territórios palestinianos;Occupied Palestinian territories;;;;;0
+PYF;Q30971;Polinésia Francesa;French Polynesia;PF;Pacific/Gambier, Pacific/Marquesas, Pacific/Tahiti;Pacific/Gambier=UTC-09:00, Pacific/Marquesas=UTC-09:30, Pacific/Tahiti=UTC-10:00;UTC-09:00, UTC-09:30, UTC-10:00;3
+QAT;Q846;Catar;Qatar;QA;Asia/Qatar;Asia/Qatar=UTC+03:00;UTC+03:00;1
+REU;Q17070;Reunião;Réunion;RE;Asia/Dubai;Asia/Dubai=UTC+04:00;UTC+04:00;1
+ROU;Q218;Roménia;Romania;RO;Europe/Bucharest;Europe/Bucharest=UTC+02:00;UTC+02:00;1
+RUS;Q159;Rússia;Russia;RU;Asia/Anadyr, Asia/Barnaul, Asia/Chita, Asia/Irkutsk, Asia/Kamchatka, Asia/Khandyga, Asia/Krasnoyarsk, Asia/Magadan, Asia/Novokuznetsk, Asia/Novosibirsk, Asia/Omsk, Asia/Sakhalin, Asia/Srednekolymsk, Asia/Tomsk, Asia/Ust-Nera, Asia/Vladivostok, Asia/Yakutsk, Asia/Yekaterinburg, Europe/Astrakhan, Europe/Kaliningrad, Europe/Kirov, Europe/Moscow, Europe/Samara, Europe/Saratov, Europe/Simferopol, Europe/Ulyanovsk, Europe/Volgograd;Asia/Anadyr=UTC+12:00, Asia/Barnaul=UTC+07:00, Asia/Chita=UTC+09:00, Asia/Irkutsk=UTC+08:00, Asia/Kamchatka=UTC+12:00, Asia/Khandyga=UTC+09:00, Asia/Krasnoyarsk=UTC+07:00, Asia/Magadan=UTC+11:00, Asia/Novokuznetsk=UTC+07:00, Asia/Novosibirsk=UTC+07:00, Asia/Omsk=UTC+06:00, Asia/Sakhalin=UTC+11:00, Asia/Srednekolymsk=UTC+11:00, Asia/Tomsk=UTC+07:00, Asia/Ust-Nera=UTC+10:00, Asia/Vladivostok=UTC+10:00, Asia/Yakutsk=UTC+09:00, Asia/Yekaterinburg=UTC+05:00, Europe/Astrakhan=UTC+04:00, Europe/Kaliningrad=UTC+02:00, Europe/Kirov=UTC+03:00, Europe/Moscow=UTC+03:00, Europe/Samara=UTC+04:00, Europe/Saratov=UTC+04:00, Europe/Simferopol=UTC+03:00, Europe/Ulyanovsk=UTC+04:00, Europe/Volgograd=UTC+03:00;UTC+12:00, UTC+07:00, UTC+09:00, UTC+08:00, UTC+11:00, UTC+06:00, UTC+10:00, UTC+05:00, UTC+04:00, UTC+02:00, UTC+03:00;27
+RWA;Q1037;Ruanda;Rwanda;RW;Africa/Maputo;Africa/Maputo=UTC+02:00;UTC+02:00;1
+SAU;Q851;Arábia Saudita;Saudi Arabia;SA;Asia/Riyadh;Asia/Riyadh=UTC+03:00;UTC+03:00;1
+SDN;Q1049;Sudão;Sudan;SD;Africa/Khartoum;Africa/Khartoum=UTC+02:00;UTC+02:00;1
+SEN;Q1041;Senegal;Senegal;SN;Africa/Abidjan;Africa/Abidjan=UTC+00:00;UTC+00:00;1
+SGP;Q334;Singapura;Singapore;SG;Asia/Singapore;Asia/Singapore=UTC+08:00;UTC+08:00;1
+SGS;Q35086;Ilhas Geórgia do Sul e Sandwich do Sul;South Georgia and the South Sandwich Islands;GS;Atlantic/South_Georgia;Atlantic/South_Georgia=UTC-02:00;UTC-02:00;1
+SHN;Q192184;Santa Helena, Ascensão e Tristão da Cunha;Saint Helena, Ascension and Tristan da Cunha;SH;Africa/Abidjan;Africa/Abidjan=UTC+00:00;UTC+00:00;1
+SJM;Q842829;Svalbard e Jan Mayen;Svalbard and Jan Mayen;SJ;Europe/Berlin;Europe/Berlin=UTC+01:00;UTC+01:00;1
+SLB;Q685;Ilhas Salomão;Solomon Islands;SB;Pacific/Guadalcanal;Pacific/Guadalcanal=UTC+11:00;UTC+11:00;1
+SLE;Q1044;Serra Leoa;Sierra Leone;SL;Africa/Abidjan;Africa/Abidjan=UTC+00:00;UTC+00:00;1
+SLV;Q792;El Salvador;El Salvador;SV;America/El_Salvador;America/El_Salvador=UTC-06:00;UTC-06:00;1
+SMR;Q238;San Marino;San Marino;SM;Europe/Rome;Europe/Rome=UTC+01:00;UTC+01:00;1
+SOM;Q1045;Somália;Somalia;SO;Africa/Nairobi;Africa/Nairobi=UTC+03:00;UTC+03:00;1
+SPM;Q34617;Saint-Pierre e Miquelon;Saint Pierre and Miquelon;PM;America/Miquelon;America/Miquelon=UTC-02:00;UTC-02:00;1
+SRB;Q403;Sérvia;Serbia;RS;Europe/Belgrade;Europe/Belgrade=UTC+01:00;UTC+01:00;1
+SSD;Q958;Sudão do Sul;South Sudan;SS;Africa/Juba;Africa/Juba=UTC+02:00;UTC+02:00;1
+STP;Q1039;São Tomé e Príncipe;São Tomé and Príncipe;ST;Africa/Sao_Tome;Africa/Sao_Tome=UTC+00:00;UTC+00:00;1
+SUR;Q730;Suriname;Suriname;SR;America/Paramaribo;America/Paramaribo=UTC-03:00;UTC-03:00;1
+SVK;Q214;Eslováquia;Slovakia;SK;Europe/Prague;Europe/Prague=UTC+01:00;UTC+01:00;1
+SVN;Q215;Eslovénia;Slovenia;SI;Europe/Belgrade;Europe/Belgrade=UTC+01:00;UTC+01:00;1
+SWE;Q34;Suécia;Sweden;SE;Europe/Berlin;Europe/Berlin=UTC+01:00;UTC+01:00;1
+SWZ;Q1050;Essuatíni;Eswatini;SZ;Africa/Johannesburg;Africa/Johannesburg=UTC+02:00;UTC+02:00;1
+SXM;Q26273;São Martinho;Sint Maarten;SX;America/Puerto_Rico;America/Puerto_Rico=UTC-04:00;UTC-04:00;1
+SYC;Q1042;Seychelles;Seychelles;SC;Asia/Dubai;Asia/Dubai=UTC+04:00;UTC+04:00;1
+SYR;Q858;Síria;Syria;SY;Asia/Damascus;Asia/Damascus=UTC+03:00;UTC+03:00;1
+TCA;Q18221;Ilhas Turcas e Caicos;Turks and Caicos Islands;TC;America/Grand_Turk;America/Grand_Turk=UTC-04:00;UTC-04:00;1
+TCD;Q657;Chade;Chad;TD;Africa/Ndjamena;Africa/Ndjamena=UTC+01:00;UTC+01:00;1
+TGO;Q945;Togo;Togo;TG;Africa/Abidjan;Africa/Abidjan=UTC+00:00;UTC+00:00;1
+THA;Q869;Tailândia;Thailand;TH;Asia/Bangkok;Asia/Bangkok=UTC+07:00;UTC+07:00;1
+TJK;Q863;Tajiquistão;Tajikistan;TJ;Asia/Dushanbe;Asia/Dushanbe=UTC+05:00;UTC+05:00;1
+TKL;Q36823;Tokelau;Tokelau;TK;Pacific/Fakaofo;Pacific/Fakaofo=UTC+13:00;UTC+13:00;1
+TKM;Q874;Turquemenistão;Turkmenistan;TM;Asia/Ashgabat;Asia/Ashgabat=UTC+05:00;UTC+05:00;1
+TLS;Q574;Timor-Leste;Timor-Leste;TL;Asia/Dili;Asia/Dili=UTC+09:00;UTC+09:00;1
+TON;Q678;Tonga;Tonga;TO;Pacific/Tongatapu;Pacific/Tongatapu=UTC+13:00;UTC+13:00;1
+TTO;Q754;Trindade e Tobago;Trinidad and Tobago;TT;America/Puerto_Rico;America/Puerto_Rico=UTC-04:00;UTC-04:00;1
+TUN;Q948;Tunísia;Tunisia;TN;Africa/Tunis;Africa/Tunis=UTC+01:00;UTC+01:00;1
+TUR;Q43;Turquia;Turkey;TR;Europe/Istanbul;Europe/Istanbul=UTC+03:00;UTC+03:00;1
+TUV;Q672;Tuvalu;Tuvalu;TV;Pacific/Tarawa;Pacific/Tarawa=UTC+12:00;UTC+12:00;1
+TWN;Q865;Taiwan;Taiwan;TW;Asia/Taipei;Asia/Taipei=UTC+08:00;UTC+08:00;1
+TZA;Q924;Tanzânia;Tanzania;TZ;Africa/Nairobi;Africa/Nairobi=UTC+03:00;UTC+03:00;1
+UGA;Q1036;Uganda;Uganda;UG;Africa/Nairobi;Africa/Nairobi=UTC+03:00;UTC+03:00;1
+UKR;Q212;Ucrânia;Ukraine;UA;Europe/Kyiv, Europe/Simferopol;Europe/Kyiv=UTC+02:00, Europe/Simferopol=UTC+03:00;UTC+02:00, UTC+03:00;2
+UMI;Q16645;Ilhas Menores Distantes dos Estados Unidos;United States Minor Outlying Islands;UM;Pacific/Pago_Pago, Pacific/Tarawa;Pacific/Pago_Pago=UTC-11:00, Pacific/Tarawa=UTC+12:00;UTC-11:00, UTC+12:00;2
+URY;Q77;Uruguai;Uruguay;UY;America/Montevideo;America/Montevideo=UTC-03:00;UTC-03:00;1
+USA;Q30;Estados Unidos;United States;US;America/Adak, America/Anchorage, America/Boise, America/Chicago, America/Denver, America/Detroit, America/Indiana/Indianapolis, America/Indiana/Knox, America/Indiana/Marengo, America/Indiana/Petersburg, America/Indiana/Tell_City, America/Indiana/Vevay, America/Indiana/Vincennes, America/Indiana/Winamac, America/Juneau, America/Kentucky/Louisville, America/Kentucky/Monticello, America/Los_Angeles, America/Menominee, America/Metlakatla, America/New_York, America/Nome, America/North_Dakota/Beulah, America/North_Dakota/Center, America/North_Dakota/New_Salem, America/Phoenix, America/Sitka, America/Yakutat, Pacific/Honolulu;America/Adak=UTC-09:00, America/Anchorage=UTC-08:00, America/Boise=UTC-06:00, America/Chicago=UTC-05:00, America/Denver=UTC-06:00, America/Detroit=UTC-04:00, America/Indiana/Indianapolis=UTC-04:00, America/Indiana/Knox=UTC-05:00, America/Indiana/Marengo=UTC-04:00, America/Indiana/Petersburg=UTC-04:00, America/Indiana/Tell_City=UTC-05:00, America/Indiana/Vevay=UTC-04:00, America/Indiana/Vincennes=UTC-04:00, America/Indiana/Winamac=UTC-04:00, America/Juneau=UTC-08:00, America/Kentucky/Louisville=UTC-04:00, America/Kentucky/Monticello=UTC-04:00, America/Los_Angeles=UTC-07:00, America/Menominee=UTC-05:00, America/Metlakatla=UTC-08:00, America/New_York=UTC-04:00, America/Nome=UTC-08:00, America/North_Dakota/Beulah=UTC-05:00, America/North_Dakota/Center=UTC-05:00, America/North_Dakota/New_Salem=UTC-05:00, America/Phoenix=UTC-07:00, America/Sitka=UTC-08:00, America/Yakutat=UTC-08:00, Pacific/Honolulu=UTC-10:00;UTC-09:00, UTC-08:00, UTC-06:00, UTC-05:00, UTC-04:00, UTC-07:00, UTC-10:00;29
+UZB;Q265;Uzbequistão;Uzbekistan;UZ;Asia/Samarkand, Asia/Tashkent;Asia/Samarkand=UTC+05:00, Asia/Tashkent=UTC+05:00;UTC+05:00;2
+VAT;Q237;Vaticano;Vatican City;VA;Europe/Rome;Europe/Rome=UTC+01:00;UTC+01:00;1
+VCT;Q757;São Vicente e Granadinas;Saint Vincent and the Grenadines;VC;America/Puerto_Rico;America/Puerto_Rico=UTC-04:00;UTC-04:00;1
+VEN;Q717;Venezuela;Venezuela;VE;America/Caracas;America/Caracas=UTC-04:00;UTC-04:00;1
+VGB;Q25305;Ilhas Virgens Britânicas;British Virgin Islands;VG;America/Puerto_Rico;America/Puerto_Rico=UTC-04:00;UTC-04:00;1
+VIR;Q11703;Ilhas Virgens Americanas;United States Virgin Islands;VI;America/Puerto_Rico;America/Puerto_Rico=UTC-04:00;UTC-04:00;1
+VNM;Q881;Vietname;Vietnam;VN;Asia/Bangkok, Asia/Ho_Chi_Minh;Asia/Bangkok=UTC+07:00, Asia/Ho_Chi_Minh=UTC+07:00;UTC+07:00;2
+VUT;Q686;Vanuatu;Vanuatu;VU;Pacific/Efate;Pacific/Efate=UTC+11:00;UTC+11:00;1
+WLF;Q35555;Wallis e Futuna;Wallis and Futuna;WF;Pacific/Tarawa;Pacific/Tarawa=UTC+12:00;UTC+12:00;1
+WSM;Q683;Samoa;Samoa;WS;Pacific/Apia;Pacific/Apia=UTC+13:00;UTC+13:00;1
+YEM;Q805;Iémen;Yemen;YE;Asia/Riyadh;Asia/Riyadh=UTC+03:00;UTC+03:00;1
+ZAF;Q258;África do Sul;South Africa;ZA;Africa/Johannesburg;Africa/Johannesburg=UTC+02:00;UTC+02:00;1
+ZMB;Q953;Zâmbia;Zambia;ZM;Africa/Maputo;Africa/Maputo=UTC+02:00;UTC+02:00;1
+ZWE;Q954;Zimbábue;Zimbabwe;ZW;Africa/Maputo;Africa/Maputo=UTC+02:00;UTC+02:00;1

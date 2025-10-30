@@ -598,8 +598,72 @@
     "comparar_paises": "Comparar países",
     "fluxos_migratorios": "Fluxos migratórios",
 	"economia": "Economia",
-	"demografia": "População"
+	"demografia": "População",
+	"geografia": "Geografia"
 
-  }   
+  },
   
+  
+  "geo": {
+    "header": "🗺️ Geografia",
+    "metrics": {
+      "borders": "Fronteiras terrestres",
+      "timezones": "Fusos horários (UTC padrão)",
+      "seasons": "Estações do ano (estim.)",
+      "koppen": "Clima (Köppen)"
+    },
+    "sections": {
+      "borders": {
+        "title": "🌐 Fronteiras",
+        "empty": "Sem dados de fronteiras (ou país sem fronteiras terrestres).",
+        "table": {
+          "iso3": "ISO-3 do vizinho",
+          "name": "Nome do vizinho",
+          "km": "Comprimento da fronteira (km)"
+        }
+      },
+      "timezones": {
+        "title": "🕰️ Fusos horários (UTC)",
+        "empty": "Sem dados de fusos."
+      },
+      "coast": {
+        "title": "🌊 Litoral",
+        "empty": "Sem dados de costa. Corre scripts/fetch_coastlines.py para gerar data/coastlines.csv.",
+        "has_coast": "Tem costa?",
+        "coast_len": "Comprimento da costa:",
+        "seas": {
+          "caption": "Mares adjacentes",
+          "none": "Sem mares adjacentes mapeados."
+        }
+      },
+      "ports": {
+        "title": "⚓ Portos & Rotas marítimas",
+        "empty": "Sem dados de portos/rotas. Corre scripts/fetch_ports_and_routes.py para gerar data/ports_and_routes.csv.",
+        "caption_main": "Portos principais",
+        "caption_waters": "Rotas/Passagens de água (estreitos/canais) na fronteira"
+      },
+      "climate": {
+        "title": "🌤️ Clima",
+        "empty": "Sem classe Köppen calculada. Corre scripts/fetch_koppen_by_country.py para gerar data/koppen.csv.",
+        "label": "Classe (Köppen–Geiger):",
+        "capital_coords": "Capital: lat {lat}, lon {lon}"
+      },
+      "biomes": {
+        "title": "🌱 Vegetação / Biomas",
+        "empty": "Sem dados de biomas. Corre scripts/fetch_biomes_by_country.py para gerar data/biomes.csv (heurístico) ou integra WWF Ecoregions para maior detalhe.",
+        "table": {
+          "biome": "Bioma",
+          "area_pct": "Área (%)"
+        }
+      }
+    },
+    "sources": {
+      "caption": "**Fontes**: fronteiras (Wikidata P47); fusos (IANA tzdb, fetch_timezones.py → data/timezones.csv); costa/mares (fetch_coastlines.py → data/coastlines.csv); portos/rotas (fetch_ports_and_routes.py → data/ports_and_routes.csv); clima Köppen (Open-Meteo, 1991–2020, capital); biomas (heurístico por Köppen)."
+    }
+  }
 }
+
+
+ 
+  
+
