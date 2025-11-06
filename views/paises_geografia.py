@@ -195,6 +195,22 @@ def render_geography_panel(iso3: str, country_name: str) -> None:
         else:
             st.caption(tr("geo.sections.coast.seas.none"))
 
+        # --- Rios principais ------------------------------------------------------
+    st.markdown(f"### {tr('geo.sections.rivers.title')}")
+    df_riv = store.rivers_for_iso3(iso3, top_n=12, min_km=50.0)
+    if df_riv.empty:
+        st.info(tr("geo.sections.rivers.empty"))
+    else:
+        view = df_riv.rename(columns={
+            "river_name":  tr("geo.sections.rivers.table.river"),
+            "length_km":   tr("geo.sections.rivers.table.length_km"),
+            "source_label":tr("geo.sections.rivers.table.source"),
+            "mouth_label": tr("geo.sections.rivers.table.mouth"),
+            "basin_label": tr("geo.sections.rivers.table.basin"),
+        })
+        st.dataframe(view, use_container_width=True, hide_index=True)
+        st.caption(tr("geo.sections.rivers.note"))
+
     # --- Portos & Rotas (estreitos/canais) -----------------------------------
     st.markdown(f"### {tr('geo.sections.ports.title')}")
     if df_ports.empty:
@@ -251,6 +267,51 @@ def render_geography_panel(iso3: str, country_name: str) -> None:
     # --- Nota de fontes -------------------------------------------------------
     st.caption(tr("geo.sources.caption"))
 
+    # --- LAGOS ---
+    st.markdown(f"### {tr('geo.sections.lakes.title')}")
+    df_lk = store.lakes_for_iso3(iso3, min_area_km2=10.0, top_n=15)
+    if df_lk.empty:
+        st.info(tr("geo.sections.lakes.empty"))
+    else:
+        view = df_lk.rename(columns={
+            "lake_label":   tr("geo.sections.lakes.table.lake"),
+            "type_label":   tr("geo.sections.lakes.table.type"),
+            "area_km2":     tr("geo.sections.lakes.table.area_km2"),
+            "elevation_m":  tr("geo.sections.lakes.table.elevation_m"),
+            "inflow_label": tr("geo.sections.lakes.table.inflow"),
+            "outflow_label":tr("geo.sections.lakes.table.outflow"),
+        })
+        cols = [c for c in [tr("geo.sections.lakes.table.lake"),
+                            tr("geo.sections.lakes.table.type"),
+                            tr("geo.sections.lakes.table.area_km2"),
+                            tr("geo.sections.lakes.table.elevation_m"),
+                            tr("geo.sections.lakes.table.inflow"),
+                            tr("geo.sections.lakes.table.outflow")] if c in view.columns]
+        st.dataframe(view[cols], use_container_width=True, hide_index=True)
+        st.caption(tr("geo.sections.lakes.note"))
+
+    # --- RELEVOS / PLANALTOS ---
+    st.markdown(f"### {tr('geo.sections.reliefs.title')}")
+    # UI
+    KIND_QIDS_RELEVANTES = ["Q54050", "Q8502", "Q12280", "Q46831"]  # colina, montanha, planalto, cordilheira
+    df_rl = store.reliefs_for_iso3(iso3, kinds=KIND_QIDS_RELEVANTES, top_n=30)
+
+    #df_rl = store.reliefs_for_iso3(iso3, kinds=["Q54050","Q46831"], top_n=30)  # plateaus + mountain ranges
+    if df_rl.empty:
+        st.info(tr("geo.sections.reliefs.empty"))
+    else:
+        view = df_rl.rename(columns={
+            "feature_label": tr("geo.sections.reliefs.table.feature"),
+            "kind_label":    tr("geo.sections.reliefs.table.kind"),
+            "elevation_m":   tr("geo.sections.reliefs.table.elevation_m"),
+            "area_km2":      tr("geo.sections.reliefs.table.area_km2"),
+        })
+        cols = [tr("geo.sections.reliefs.table.feature"),
+                tr("geo.sections.reliefs.table.kind"),
+                tr("geo.sections.reliefs.table.elevation_m"),
+                tr("geo.sections.reliefs.table.area_km2")]
+        cols = [c for c in cols if c in view.columns]
+        st.dataframe(view[cols], use_container_width=True, hide_index=True)
 
 # Conveniência: correr como script para teste rápido
 if __name__ == "__main__":

@@ -293,8 +293,8 @@
     "un_desa_cabe_alhos_inesperados_no_csv_name_faltam_missing_lidos_list_map_repr_df_columns": "— UN DESA: cabeçalhos inesperados no {csv_name} — faltam: {missing} — lidos: {list(map(repr, df.columns))}",
     "un_desa_dataset_vazio_n_o_encontrado_csv_name": "— UN DESA: dataset vazio/não encontrado ({csv_name}) —",
     "ver_amostra_das_coords_brutas": "ver amostra das coords brutas",
-	  "nenhumpais_corresponde_ao_filtro": "Nenhum país corresponde ao filtro.",
-    "escolhe_um_pais_e_clica_abrir": "Escolhe um país e clica **🔎 Abrir**.",
+	"nenhumpais_corresponde_ao_filtro": "Nenhum país corresponde ao filtro.",
+    "escolhe_um_pais_e_clica_abrir": "Selecione um país da lista acima.",
     "sem_paises_disponiveis": "Sem países disponíveis. Gera primeiro os CSVs agregados (profiles, etc.).",
     "sem_cidades_gera_csv": "Sem cidades. Corre `scripts/fetch_cities.py`.",
     "sem_cidades_validas": "Sem cidades válidas após limpeza.",
@@ -655,6 +655,41 @@
           "biome": "Bioma",
           "area_pct": "Área (%)"
         }
+      },
+	 "lakes": {
+        "title": "🏞️ Lagos & reservatórios",
+        "empty": "Sem dados de lagos/reservatórios. Corre `scripts/fetch_lakes_by_country.py` para gerar `data/lakes.csv`.",
+        "table": {
+          "lake": "Lago / Reservatório",
+          "type": "Tipo",
+          "area_km2": "Área (km²)",
+          "elevation_m": "Altitude (m)",
+          "inflow": "Afluente",
+          "outflow": "Efluente"
+        },
+        "note": "**Fontes**: Wikidata (área/altitude, afluentes/efluentes)."
+      },
+      "reliefs": {
+        "title": "🏜️ Relevos & planaltos",
+        "empty": "Sem dados de relevos. Corre `scripts/fetch_reliefs_by_country.py` para gerar `data/reliefs.csv`.",
+        "table": {
+          "feature": "Elemento",
+          "kind": "Tipo",
+          "elevation_m": "Altitude (m)",
+          "area_km2": "Área (km²)"
+        }
+      },
+      "rivers": {
+        "title": "🏞️ Rios principais",
+        "empty": "Sem dados de rios para este país. Gera `data/rivers.csv` e, opcionalmente, `data/rivers_enriched.csv`.",
+        "table": {
+          "river": "Rio",
+          "length_km": "Extensão (km)",
+          "source": "Nascente",
+          "mouth": "Foz",
+          "basin": "Bacia / País"
+        },
+        "note": "**Fontes**: Natural Earth (10m rivers) — `fetch_rivers_by_country.py`; Wikidata — `enrich_rivers_wikidata*.py`."
       }
     },
     "sources": {
@@ -688,10 +723,24 @@
       "gini": "Índice de Gini",
 	  "year": "Ano"
     },
+	"ind": {
+      "agri_vab": "Primário (Agri, % PIB)",
+      "ind_vab": "Secundário (Indústria, % PIB)",
+      "srv_vab": "Terciário (Serviços, % PIB)",
+      "agri_emp": "Agricultura (% emprego)",
+      "ind_emp": "Indústria (% emprego)",
+      "srv_emp": "Serviços (% emprego)"
+    },
+	"charts": {
+	  "sectors_latest_title": "Estrutura setorial — ano mais recente",
+	  "sectors_ts_title": "Evolução setorial ao longo do tempo (%)"
+	},
     "presets": {
       "core4": "Núcleo (4)",
       "growth_income": "Crescimento e Rendimento",
-      "poverty_inequality": "Pobreza e Desigualdade"
+      "poverty_inequality": "Pobreza e Desigualdade",
+	  "sectors_vab": "Setores — VAB (% do PIB)",
+      "sectors_emp": "Setores — Emprego (%)"
     },
     "chart_tooltip": {
       "year": "Ano",

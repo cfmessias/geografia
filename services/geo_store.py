@@ -72,7 +72,81 @@ BIOMES_CSV           = DATA_DIR / "biomes.csv"          # opcional
 COASTLINES_CSV       = DATA_DIR / "coastlines.csv"      # opcional
 PORTS_ROUTES_CSV     = DATA_DIR / "ports_and_routes.csv"# opcional
 COUNTRIES_PROFILES   = DATA_DIR / "countries_profiles.csv"
+# ── Rivers (Natural Earth + enriquecimento Wikidata) ────────────────────────────
+RIVERS_ENR_CSV = DATA_DIR / "rivers_enriched.csv"
+RIVERS_BASE_CSV = DATA_DIR / "rivers.csv"
 
+# ── Rivers (Natural Earth + enriquecimento Wikidata) ────────────────────────────
+@lru_cache(maxsize=1)
+def load_rivers(path_enriched: str | None = None, path_base: str | None = None) -> pd.DataFrame:
+    """
+    Lê data/rivers_enriched.csv (se existir) ou, em fallback, data/rivers.csv.
+    Normaliza colunas e calcula 'length_best_km' com prioridade a length_wd.
+    """
+    p_enr  = Path(path_enriched) if path_enriched else RIVERS_ENR_CSV
+    p_base = Path(path_base)     if path_base     else RIVERS_BASE_CSV
+
+    # CSVs deste projeto usam ';'
+    expected_base = ["iso3","river_name","length_km","scalerank","featurecla","source"]
+    expected_enr  = expected_base + ["source_label","source_qid","mouth_label","mouth_qid","basin_label","basin_qid","length_wd"]
+
+    if p_enr.exists():
+        df = _read_csv_safe(p_enr, expected_cols=expected_enr)
+    else:
+        df = _read_csv_safe(p_base, expected_cols=expected_base)
+        # preencher colunas enriquecidas vazias para compatibilidade
+        for c in ["source_label","source_qid","mouth_label","mouth_qid","basin_label","basin_qid","length_wd"]:
+            if c not in df.columns:
+                df[c] = pd.NA
+
+    if df.empty:
+        return df
+
+    # Normalizações
+    for c in ("iso3","river_name","featurecla","source","source_label","mouth_label","basin_label"):
+        if c in df.columns:
+            df[c] = df[c].astype(str).str.strip()
+    df["iso3"] = df["iso3"].astype(str).str.upper()
+
+    # Comprimento “best”: WD se houver, senão length_km
+    def _to_num(x):
+        try:
+            return float(str(x).replace(",", "."))
+        except Exception:
+            return float("nan")
+
+    wd = df.get("length_wd")
+    km = df.get("length_km")
+    wd_num = wd.map(_to_num) if wd is not None else pd.Series([float("nan")]*len(df))
+    km_num = km.map(_to_num) if km is not None else pd.Series([float("nan")]*len(df))
+    df["length_best_km"] = wd_num.fillna(km_num)
+
+    return df
+
+
+def rivers_for_iso3(iso3: str, top_n: int = 12, min_km: float = 50.0) -> pd.DataFrame:
+    """
+    Top N rios por ISO3, ordenados por comprimento desc., filtrando < min_km.
+    Devolve colunas prontas para UI.
+    """
+    iso3u = (iso3 or "").upper().strip()
+    df = load_rivers()
+    if df.empty:
+        return pd.DataFrame(columns=["river_name","length_km","source_label","mouth_label","basin_label","scalerank","featurecla"])
+
+    sub = df[df["iso3"] == iso3u].copy()
+    if sub.empty:
+        return pd.DataFrame(columns=["river_name","length_km","source_label","mouth_label","basin_label","scalerank","featurecla"])
+
+    sub = sub[sub["length_best_km"].fillna(-1) >= float(min_km)]
+    sub = sub.sort_values(["length_best_km","scalerank"], ascending=[False, True]).head(int(top_n)).copy()
+    sub["length_km"] = sub["length_best_km"].round(0).astype("Int64")
+
+    keep = ["river_name","length_km","source_label","mouth_label","basin_label","scalerank","featurecla"]
+    for c in keep:
+        if c not in sub.columns:
+            sub[c] = pd.NA
+    return sub[keep]
 # ---------------------------------------------------------------------
 # Borders
 # ---------------------------------------------------------------------
@@ -367,6 +441,63 @@ def ports_and_routes_for_iso3(iso3: str) -> pd.DataFrame:
 
 def ports_routes_for_iso3(iso3: str) -> pd.DataFrame:
     return ports_and_routes_for_iso3(iso3)
+
+_lakes_cache   : pd.DataFrame | None = None
+_reliefs_cache : pd.DataFrame | None = None
+
+def _read_semicolon(path: Path) -> pd.DataFrame:
+    if not path.exists(): return pd.DataFrame()
+    return pd.read_csv(path, sep=";", dtype=str, keep_default_na=False, encoding="utf-8")
+
+def load_lakes_all() -> pd.DataFrame:
+    global _lakes_cache
+    if _lakes_cache is None:
+        _lakes_cache = _read_semicolon(DATA_DIR / "lakes.csv")
+        if not _lakes_cache.empty:
+            _lakes_cache["iso3"] = _lakes_cache["iso3"].str.upper().str.strip()
+    return _lakes_cache.copy() if _lakes_cache is not None else pd.DataFrame()
+
+def lakes_for_iso3(iso3: str, *, min_area_km2: float = 0.0, top_n: int | None = 20) -> pd.DataFrame:
+    df = load_lakes_all()
+    if df.empty: return df
+    iso = str(iso3).upper()
+    if "area_km2" in df.columns:
+        df["__area"] = pd.to_numeric(df["area_km2"], errors="coerce")
+    else:
+        df["__area"] = None
+    out = df[df["iso3"] == iso]
+    if min_area_km2 > 0:
+        out = out[out["__area"].fillna(0) >= float(min_area_km2)]
+    out = out.sort_values(["__area","lake_label"], ascending=[False, True]).drop(columns="__area")
+    return out.head(top_n) if top_n else out
+
+def load_reliefs_all() -> pd.DataFrame:
+    global _reliefs_cache
+    if _reliefs_cache is None:
+        _reliefs_cache = _read_semicolon(DATA_DIR / "reliefs.csv")
+        if not _reliefs_cache.empty:
+            _reliefs_cache["iso3"] = _reliefs_cache["iso3"].str.upper().str.strip()
+    print (_reliefs_cache)
+    return _reliefs_cache.copy() if _reliefs_cache is not None else pd.DataFrame()
+
+def reliefs_for_iso3(iso3: str, *, kinds: list[str] | None = None, top_n: int | None = 30) -> pd.DataFrame:
+    df = load_reliefs_all()
+    if df.empty:
+        return df
+
+    iso = str(iso3).upper().strip()
+    out = df[df.get("iso3", "").str.upper().str.strip() == iso].copy()
+
+    if kinds and "kind_qid" in out.columns:
+        kset = set(kinds)
+        out = out[out["kind_qid"].isin(kset)]
+
+    if "elevation_m" in out.columns:
+        out["__elev"] = pd.to_numeric(out["elevation_m"], errors="coerce")
+        out = out.sort_values(["__elev", "feature_label"], ascending=[False, True]).drop(columns="__elev", errors="ignore")
+
+    return out.head(top_n) if top_n else out
+
 
 # Export explícito (opcional)
 __all__ = [

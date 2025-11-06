@@ -272,7 +272,7 @@
     "un_desa_dataset_vazio_n_o_encontrado_csv_name": "— UN DESA: empty/not found dataset ({csv_name}) —",
     "ver_amostra_das_coords_brutas": "see sample of raw coords",
 	  "nenhum_pais_corresponde_ao_filtro": "No country matches the filter.",
-    "escolhe_um_pais_e_clica_abrir": "Choose a country and click **🔎 Open**.",
+    "escolhe_um_pais_e_clica_abrir": "Pick a country from the list above.",
     "sem_paises_disponiveis": "No countries available. First generate the aggregated CSVs (profiles, etc.).",
     "sem_cidades_gera_csv": "No cities. Run `scripts/fetch_cities.py`.",
     "sem_cidades_validas": "No valid cities after cleaning.",
@@ -602,6 +602,41 @@
           "km": "Border length (km)"
         }
       },
+	  "rivers": {
+        "title": "🏞️ Major rivers",
+        "empty": "No river data for this country. Generate `data/rivers.csv` and, optionally, `data/rivers_enriched.csv`.",
+        "table": {
+          "river": "River",
+          "length_km": "Length (km)",
+          "source": "Source",
+          "mouth": "Mouth",
+          "basin": "Basin / Country"
+        },
+        "note": "**Sources**: Natural Earth (10m rivers) — `fetch_rivers_by_country.py`; Wikidata — `enrich_rivers_wikidata*.py`."
+      },
+	  "lakes": {
+        "title": "🏞️ Lakes & reservoirs",
+        "empty": "No lake/reservoir data for this country. Run `scripts/fetch_lakes_by_country.py` to create `data/lakes.csv`.",
+        "table": {
+          "lake": "Lake / Reservoir",
+          "type": "Type",
+          "area_km2": "Area (km²)",
+          "elevation_m": "Elevation (m)",
+          "inflow": "Inflow",
+          "outflow": "Outflow"
+        },
+        "note": "**Sources**: Wikidata (area/elevation, inflow/outflow)."
+      },
+      "reliefs": {
+        "title": "🏜️ Reliefs & plateaus",
+        "empty": "No relief data. Run `scripts/fetch_reliefs_by_country.py` to create `data/reliefs.csv`.",
+        "table": {
+          "feature": "Feature",
+          "kind": "Kind",
+          "elevation_m": "Elevation (m)",
+          "area_km2": "Area (km²)"
+        }
+      },
       "timezones": {
         "title": "🕰️ Time zones (UTC)",
         "empty": "No time-zone data."
@@ -668,10 +703,25 @@
       "gini": "Gini index",
 	  "year": "Year"
     },
+	"ind": {
+      "agri_vab": "Primary (Agriculture, % of GDP)",
+      "ind_vab": "Secondary (Industry, % of GDP)",
+      "srv_vab": "Tertiary (Services, % of GDP)",
+      "agri_emp": "Agriculture (% of employment)",
+      "ind_emp": "Industry (% of employment)",
+      "srv_emp": "Services (% of employment)"
+    },
+	"charts": {
+	  "sectors_latest_title": "Sectoral structure — latest year",
+	  "sectors_ts_title": "Sectoral evolution over time (%)"
+	},
+
     "presets": {
       "core4": "Core (4)",
       "growth_income": "Growth & Income",
-      "poverty_inequality": "Poverty & Inequality"
+      "poverty_inequality": "Poverty & Inequality",
+	  "sectors_vab": "Sectors — value added (% of GDP)",
+      "sectors_emp": "Sectors — employment share (%)"
     },
     "chart_tooltip": {
       "year": "Year",

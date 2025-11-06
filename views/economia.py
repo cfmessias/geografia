@@ -140,6 +140,217 @@ def render_wdi_charts_2x2(df: pd.DataFrame, codes: list[str], labels_map: dict[s
         with grid[r][c]:
             st.altair_chart(_chart_one(df, code, label), use_container_width=True)
 
+# --- views/economia.py (add) -----------------------------------------------
+import pandas as pd
+import altair as alt
+from pathlib import Path
+from services.i18n import t as tr
+
+SECTORS_VAB = ["NV.AGR.TOTL.ZS", "NV.IND.TOTL.ZS", "NV.SRV.TOTL.ZS"]
+SECTORS_EMP = ["SL.AGR.EMPL.ZS", "SL.IND.EMPL.ZS", "SL.SRV.EMPL.ZS"]
+
+# Mapas de rótulos (i18n)
+def _sector_label_map():
+    return {
+        "NV.AGR.TOTL.ZS": tr("economics.ind.agri_vab"),
+        "NV.IND.TOTL.ZS": tr("economics.ind.ind_vab"),
+        "NV.SRV.TOTL.ZS": tr("economics.ind.srv_vab"),
+        "SL.AGR.EMPL.ZS": tr("economics.ind.agri_emp"),
+        "SL.IND.EMPL.ZS": tr("economics.ind.ind_emp"),
+        "SL.SRV.EMPL.ZS": tr("economics.ind.srv_emp"),
+    }
+
+def _try_read_sectors_csv() -> pd.DataFrame:
+    """Lê data/wdi_sectors_wide.csv (se existir; sep=';')."""
+    p = Path(__file__).resolve().parents[1] / "data" / "wdi_sectors_wide.csv"
+    if p.exists():
+        try:
+            df = pd.read_csv(p, sep=";", dtype=str, encoding="utf-8", keep_default_na=False)
+            # normalizar tipos
+            for c in df.columns:
+                if c not in {"iso3", "year"}:
+                    df[c] = pd.to_numeric(df[c], errors="coerce")
+            df["year"] = pd.to_numeric(df["year"], errors="coerce").astype("Int64")
+            df["iso3"] = df["iso3"].astype(str).str.upper()
+            return df
+        except Exception:
+            pass
+    return pd.DataFrame()
+
+def _fetch_sector_series_online(iso3: str, codes: list[str]) -> pd.DataFrame:
+    """Vai buscar séries ao WDI usando a tua função já existente _wdi_fetch_indicator."""
+    # NOTA: assumimos que _wdi_fetch_indicator(iso3, code, "1990:2024") existe no ficheiro
+    frames = []
+    for code in codes:
+        df = _wdi_fetch_indicator(iso3, code, "1990:2024")
+        if not df.empty:
+            frames.append(df[["iso3","year","value"]].assign(code=code))
+    if not frames:
+        return pd.DataFrame(columns=["iso3","year","code","value"])
+    return pd.concat(frames, ignore_index=True)
+
+def _load_sectors_for_iso3(iso3: str) -> dict:
+    """
+    Devolve:
+      - 'vab_long' (year, code, value) e 'vab_wide' (year, agr/ind/srv) para VAB
+      - 'emp_long' e 'emp_wide' para Emprego
+    Usando CSV local se existir; fallback online só para o país.
+    """
+    iso3u = (iso3 or "").upper().strip()
+    csv_wide = _try_read_sectors_csv()
+
+    out = {"vab_long": pd.DataFrame(), "vab_wide": pd.DataFrame(),
+           "emp_long": pd.DataFrame(), "emp_wide": pd.DataFrame()}
+
+    def _from_wide(csv: pd.DataFrame, cols: list[str]) -> tuple[pd.DataFrame, pd.DataFrame]:
+        if csv.empty:
+            return pd.DataFrame(), pd.DataFrame()
+        need = ["iso3","year"] + cols
+        if not set(need).issubset(csv.columns):
+            return pd.DataFrame(), pd.DataFrame()
+        sub = csv.loc[csv["iso3"] == iso3u, need].copy()
+        if sub.empty:
+            return pd.DataFrame(), pd.DataFrame()
+        long = sub.melt(id_vars=["iso3","year"], value_vars=cols, var_name="var", value_name="value")
+        # mapear var → code "sintético" (mantemos nomes simples)
+        long = long.rename(columns={"var":"code"})
+        return long.dropna(subset=["year"]), sub
+
+    # 1) tentar CSV local
+    vab_long, vab_wide = _from_wide(csv_wide, ["agr_vab","ind_vab","srv_vab"])
+    emp_long, emp_wide = _from_wide(csv_wide, ["agr_emp","ind_emp","srv_emp"])
+
+    # 2) se faltar, buscar online só para o país
+    if vab_long.empty:
+        on = _fetch_sector_series_online(iso3u, SECTORS_VAB)
+        if not on.empty:
+            lbl = _sector_label_map()
+            on["label"] = on["code"].map(lbl)
+            vab_long = on.copy()
+            vab_wide = (on.pivot_table(index=["iso3","year"], columns="code", values="value", aggfunc="last")
+                          .reset_index()
+                          .rename(columns={
+                              "NV.AGR.TOTL.ZS":"agr_vab",
+                              "NV.IND.TOTL.ZS":"ind_vab",
+                              "NV.SRV.TOTL.ZS":"srv_vab"}))
+
+    if emp_long.empty:
+        on = _fetch_sector_series_online(iso3u, SECTORS_EMP)
+        if not on.empty:
+            lbl = _sector_label_map()
+            on["label"] = on["code"].map(lbl)
+            emp_long = on.copy()
+            emp_wide = (on.pivot_table(index=["iso3","year"], columns="code", values="value", aggfunc="last")
+                          .reset_index()
+                          .rename(columns={
+                              "SL.AGR.EMPL.ZS":"agr_emp",
+                              "SL.IND.EMPL.ZS":"ind_emp",
+                              "SL.SRV.EMPL.ZS":"srv_emp"}))
+
+    # normalizar tipos
+    for w in (vab_wide, emp_wide):
+        if not w.empty:
+            w["year"] = pd.to_numeric(w["year"], errors="coerce").astype("Int64")
+            for c in w.columns:
+                if c not in {"iso3","year"}:
+                    w[c] = pd.to_numeric(w[c], errors="coerce")
+
+    return {"vab_long": vab_long, "vab_wide": vab_wide, "emp_long": emp_long, "emp_wide": emp_wide}
+
+def _latest_complete_row(wide: pd.DataFrame, cols: list[str]) -> pd.Series | None:
+    if wide.empty: 
+        return None
+    g = wide.dropna(subset=cols, how="any").sort_values("year")
+    if g.empty:
+        return None
+    return g.iloc[-1]
+
+def _donut_fig(labels: list[str], values: list[float], title: str):
+    # usar plotly para donut (fica mais legível)
+    import plotly.express as px
+    df = pd.DataFrame({"label": labels, "value": values})
+    fig = px.pie(df, names="label", values="value", hole=0.55)
+    fig.update_traces(textinfo="percent", hovertemplate="%{label}: %{value:.2f}%<extra></extra>")
+    fig.update_layout(showlegend=True, legend=dict(orientation="h", y=-0.12), margin=dict(l=10,r=10,t=30,b=10), height=320, title=title)
+    return fig
+
+def render_sectors_panel(iso3: str):
+    data = _load_sectors_for_iso3(iso3)
+    lbl = _sector_label_map()
+
+    # ——— VAB (último ano completo) ———
+    vab_last = _latest_complete_row(data["vab_wide"], ["agr_vab","ind_vab","srv_vab"])
+    emp_last = _latest_complete_row(data["emp_wide"], ["agr_emp","ind_emp","srv_emp"])
+
+    st.markdown(f"### {tr('economics.charts.sectors_latest_title')}")
+    c1, c2 = st.columns(2, gap="large")
+
+    if vab_last is not None:
+        y = int(vab_last["year"])
+        vals = [float(vab_last["agr_vab"]), float(vab_last["ind_vab"]), float(vab_last["srv_vab"])]
+        with c1:
+            st.caption(tr("economics.presets.sectors_vab") + f" — {y}")
+            st.metric(lbl["NV.AGR.TOTL.ZS"], f"{vals[0]:.1f}%")
+            st.metric(lbl["NV.IND.TOTL.ZS"], f"{vals[1]:.1f}%")
+            st.metric(lbl["NV.SRV.TOTL.ZS"], f"{vals[2]:.1f}%")
+            st.plotly_chart(_donut_fig([lbl["NV.AGR.TOTL.ZS"], lbl["NV.IND.TOTL.ZS"], lbl["NV.SRV.TOTL.ZS"]], vals, ""), use_container_width=True, config={"displayModeBar": False})
+
+    if emp_last is not None:
+        y = int(emp_last["year"])
+        vals = [float(emp_last["agr_emp"]), float(emp_last["ind_emp"]), float(emp_last["srv_emp"])]
+        with c2:
+            st.caption(tr("economics.presets.sectors_emp") + f" — {y}")
+            st.metric(lbl["SL.AGR.EMPL.ZS"], f"{vals[0]:.1f}%")
+            st.metric(lbl["SL.IND.EMPL.ZS"], f"{vals[1]:.1f}%")
+            st.metric(lbl["SL.SRV.EMPL.ZS"], f"{vals[2]:.1f}%")
+            st.plotly_chart(_donut_fig([lbl["SL.AGR.EMPL.ZS"], lbl["SL.IND.EMPL.ZS"], lbl["SL.SRV.EMPL.ZS"]], vals, ""), use_container_width=True, config={"displayModeBar": False})
+
+    # ——— Série temporal empilhada (toggle VAB/Emprego) ———
+    view = st.radio(
+        tr("economics.charts.sectors_ts_title"),
+        (tr("economics.presets.sectors_vab"), tr("economics.presets.sectors_emp")),
+        horizontal=True, key=f"sectors_ts_view_{iso3}"
+    )
+
+    if view == tr("economics.presets.sectors_vab") and not data["vab_wide"].empty:
+        w = data["vab_wide"].sort_values("year").tail(30).copy()
+        long = (w.melt(id_vars=["year"], value_vars=["agr_vab","ind_vab","srv_vab"], var_name="code", value_name="value")
+                  .assign(code=lambda d: d["code"].map({
+                      "agr_vab": lbl["NV.AGR.TOTL.ZS"],
+                      "ind_vab": lbl["NV.IND.TOTL.ZS"],
+                      "srv_vab": lbl["NV.SRV.TOTL.ZS"],
+                  })))
+    elif view == tr("economics.presets.sectors_emp") and not data["emp_wide"].empty:
+        w = data["emp_wide"].sort_values("year").tail(30).copy()
+        long = (w.melt(id_vars=["year"], value_vars=["agr_emp","ind_emp","srv_emp"], var_name="code", value_name="value")
+                  .assign(code=lambda d: d["code"].map({
+                      "agr_emp": lbl["SL.AGR.EMPL.ZS"],
+                      "ind_emp": lbl["SL.IND.EMPL.ZS"],
+                      "srv_emp": lbl["SL.SRV.EMPL.ZS"],
+                  })))
+    else:
+        long = pd.DataFrame()
+
+    if not long.empty:
+        ch = (
+            alt.Chart(long)
+            .mark_area(opacity=0.85)
+            .encode(
+                x=alt.X("year:Q", axis=alt.Axis(format="d", title=tr("economics.metrics.year"))),
+                y=alt.Y("value:Q", stack="normalize", axis=alt.Axis(format=".0%"), title=None),
+                color=alt.Color("code:N", title="", legend=alt.Legend(orient="bottom")),
+                tooltip=[
+                    alt.Tooltip("code:N", title=tr("paises.indicador")),
+                    alt.Tooltip("year:Q", title=tr("economics.metrics.year"), format="d"),
+                    alt.Tooltip("value:Q", title=tr("paises.valor"), format=".2f")
+                ],
+            )
+            .properties(height=300, width="container")
+        )
+        st.altair_chart(ch, use_container_width=True)
+    else:
+        st.caption(tr("labels.sem_s_rie_temporal_para_os_indicadores_selecionados"))
+
 
 # ==========================================================
 # Catálogos traduzidos
@@ -148,6 +359,7 @@ def render_wdi_charts_2x2(df: pd.DataFrame, codes: list[str], labels_map: dict[s
 def _catalog_i18n() -> dict[str, dict[str, str]]:
     """Mapeia indicadores para labels traduzidos."""
     return {
+        # --- Core existentes ---
         "NY.GDP.MKTP.CD":    {"short": tr("economics.metrics.gdp"),          "label": tr("economics.metrics.gdp")},
         "NY.GDP.MKTP.KD":    {"short": tr("economics.metrics.gdp_const"),     "label": tr("economics.metrics.gdp_const")},
         "NY.GDP.MKTP.KD.ZG": {"short": tr("economics.metrics.gdp_growth"),    "label": tr("economics.metrics.gdp_growth")},
@@ -157,7 +369,18 @@ def _catalog_i18n() -> dict[str, dict[str, str]]:
         "SI.POV.LMIC":       {"short": tr("economics.metrics.poverty_365"),   "label": tr("economics.metrics.poverty_365")},
         "SI.POV.UMIC":       {"short": tr("economics.metrics.poverty_685"),   "label": tr("economics.metrics.poverty_685")},
         "SI.POV.GINI":       {"short": tr("economics.metrics.gini"),          "label": tr("economics.metrics.gini")},
+
+        # --- Novos: Setores (VAB % PIB) ---
+        "NV.AGR.TOTL.ZS":    {"short": tr("economics.ind.agri_vab"),          "label": tr("economics.ind.agri_vab")},
+        "NV.IND.TOTL.ZS":    {"short": tr("economics.ind.ind_vab"),           "label": tr("economics.ind.ind_vab")},
+        "NV.SRV.TOTL.ZS":    {"short": tr("economics.ind.srv_vab"),           "label": tr("economics.ind.srv_vab")},
+
+        # --- Novos: Setores (Emprego % total) ---
+        "SL.AGR.EMPL.ZS":    {"short": tr("economics.ind.agri_emp"),          "label": tr("economics.ind.agri_emp")},
+        "SL.IND.EMPL.ZS":    {"short": tr("economics.ind.ind_emp"),           "label": tr("economics.ind.ind_emp")},
+        "SL.SRV.EMPL.ZS":    {"short": tr("economics.ind.srv_emp"),           "label": tr("economics.ind.srv_emp")},
     }
+
 
 
 def _presets_i18n() -> dict[str, list[str]]:
@@ -166,7 +389,12 @@ def _presets_i18n() -> dict[str, list[str]]:
         tr("economics.presets.core4"):              ["NY.GDP.MKTP.KD.ZG","NY.GDP.MKTP.CD","SI.POV.DDAY","NY.GDP.PCAP.CD"],
         tr("economics.presets.growth_income"):      ["NY.GDP.MKTP.KD.ZG","NY.GDP.MKTP.CD","NY.GDP.PCAP.CD","NY.GDP.PCAP.KD.ZG"],
         tr("economics.presets.poverty_inequality"): ["SI.POV.DDAY","SI.POV.LMIC","SI.POV.UMIC","SI.POV.GINI"],
+
+        # --- Novos presets setoriais ---
+        tr("economics.presets.sectors_vab"):        ["NV.AGR.TOTL.ZS","NV.IND.TOTL.ZS","NV.SRV.TOTL.ZS"],
+        tr("economics.presets.sectors_emp"):        ["SL.AGR.EMPL.ZS","SL.IND.EMPL.ZS","SL.SRV.EMPL.ZS"],
     }
+
 
 
 
@@ -255,3 +483,4 @@ def render_wdi_panel(iso3: str, country_name: str | None = None) -> None:
     st.subheader(tr("economics.table_title"))
     st.dataframe(out, use_container_width=True)
     
+    render_sectors_panel(iso3)

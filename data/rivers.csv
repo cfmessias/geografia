@@ -1,0 +1,1113 @@
+iso3;river_name;length_km;scalerank;featurecla;source
+GAB;Aïna;207;7;River;NaturalEarth_10m_rivers
+GAB;Benito;62;7;River;NaturalEarth_10m_rivers
+GAB;Ivindo;228;7;River;NaturalEarth_10m_rivers
+GAB;Ngounie;360;8;River;NaturalEarth_10m_rivers
+GAB;Ogooué;896;8;Lake Centerline;NaturalEarth_10m_rivers
+GMB;Gambia;289;7;River;NaturalEarth_10m_rivers
+GIN;Bafing;307;4;River;NaturalEarth_10m_rivers
+GIN;Gambia;181;7;River;NaturalEarth_10m_rivers
+GIN;Geba;244;7;River;NaturalEarth_10m_rivers
+GIN;Niger;544;3;River;NaturalEarth_10m_rivers
+GIN;Saint Paul;174;8;River;NaturalEarth_10m_rivers
+GNB;Geba;223;7;River;NaturalEarth_10m_rivers
+CIV;Bandama;467;7;Lake Centerline;NaturalEarth_10m_rivers
+CIV;Bandama Blanc;446;7;River;NaturalEarth_10m_rivers
+CIV;Baoulé;131;7;River;NaturalEarth_10m_rivers
+CIV;Black Volta;100;5;River;NaturalEarth_10m_rivers
+CIV;Komoé;997;7;River;NaturalEarth_10m_rivers
+CIV;Sassandra;714;6;Lake Centerline;NaturalEarth_10m_rivers
+CMR;Aïna;63;7;River;NaturalEarth_10m_rivers
+CMR;Benue;336;4;River;NaturalEarth_10m_rivers
+CMR;Chari;189;6;River;NaturalEarth_10m_rivers
+CMR;Dja;670;8;River;NaturalEarth_10m_rivers
+CMR;Kadeï;517;6;River;NaturalEarth_10m_rivers
+CMR;Logone;305;7;River;NaturalEarth_10m_rivers
+CMR;Lom;396;6;River;NaturalEarth_10m_rivers
+CMR;Mbam;457;7;River;NaturalEarth_10m_rivers
+CMR;Sanaga;463;6;River;NaturalEarth_10m_rivers
+CMR;Vina;225;7;River;NaturalEarth_10m_rivers
+LSO;Orange;312;6;River;NaturalEarth_10m_rivers
+LBR;Saint Paul;259;8;River;NaturalEarth_10m_rivers
+MDG;Betsiboka;502;7;River;NaturalEarth_10m_rivers
+MDG;Mananantanana;248;6;River;NaturalEarth_10m_rivers
+MDG;Mangoky;287;6;River;NaturalEarth_10m_rivers
+MDG;Mania;315;7;River;NaturalEarth_10m_rivers
+MDG;Onilahy;357;8;River;NaturalEarth_10m_rivers
+MDG;Tsiribihina;137;7;River;NaturalEarth_10m_rivers
+MWI;Shire;394;3;Lake Centerline;NaturalEarth_10m_rivers
+MRT;Senegal;369;4;River;NaturalEarth_10m_rivers
+MAR;Sebou;389;8;River;NaturalEarth_10m_rivers
+MOZ;Limpopo;483;6;River;NaturalEarth_10m_rivers
+MOZ;Lúrio;549;7;River;NaturalEarth_10m_rivers
+MOZ;Maputo;98;8;River;NaturalEarth_10m_rivers
+MOZ;Mazowe;112;7;River;NaturalEarth_10m_rivers
+MOZ;Ruvuma;141;6;River;NaturalEarth_10m_rivers
+MOZ;Save;318;7;River;NaturalEarth_10m_rivers
+MOZ;Shire;73;3;River;NaturalEarth_10m_rivers
+MOZ;Zambezi;878;3;Lake Centerline;NaturalEarth_10m_rivers
+NAM;Auob;504;8;River;NaturalEarth_10m_rivers
+NAM;Cuando;245;7;River;NaturalEarth_10m_rivers
+NAM;Cunene;122;7;River;NaturalEarth_10m_rivers
+NAM;Okavango;221;6;River;NaturalEarth_10m_rivers
+NAM;Orange;351;4;River;NaturalEarth_10m_rivers
+NAM;Zambezi;73;3;River;NaturalEarth_10m_rivers
+NER;Niger;458;3;River;NaturalEarth_10m_rivers
+NER;Yobe;164;8;Lake Centerline;NaturalEarth_10m_rivers
+NGA;Benue;748;4;River;NaturalEarth_10m_rivers
+NGA;Bunga;429;8;River;NaturalEarth_10m_rivers
+NGA;Gongola;569;8;River;NaturalEarth_10m_rivers
+NGA;Kaduna;234;7;River;NaturalEarth_10m_rivers
+NGA;Mariga;175;7;River;NaturalEarth_10m_rivers
+NGA;Niger;1553;3;River;NaturalEarth_10m_rivers
+NGA;Sokoto;597;7;River;NaturalEarth_10m_rivers
+NGA;Yobe;285;8;Lake Centerline;NaturalEarth_10m_rivers
+UGA;Kagera;53;1;River;NaturalEarth_10m_rivers
+UGA;Semliki;188;6;Lake Centerline;NaturalEarth_10m_rivers
+UGA;White Nile;909;1;Lake Centerline;NaturalEarth_10m_rivers
+RWA;Kagera;188;1;River;NaturalEarth_10m_rivers
+SEN;Gambia;418;7;River;NaturalEarth_10m_rivers
+SEN;Senegal;357;4;River;NaturalEarth_10m_rivers
+SOM;Jubba;772;6;River;NaturalEarth_10m_rivers
+SOM;Shebelle;722;7;River;NaturalEarth_10m_rivers
+SOM;nan;251;8;Lake Centerline;NaturalEarth_10m_rivers
+SDN;Atbarah;480;6;Lake Centerline;NaturalEarth_10m_rivers
+SDN;Blue Nile;749;3;Lake Centerline;NaturalEarth_10m_rivers
+SDN;Nile;1578;1;River;NaturalEarth_10m_rivers
+SDN;Tekezé;115;6;River;NaturalEarth_10m_rivers
+SDN;White Nile;486;1;River;NaturalEarth_10m_rivers
+KEN;Tana;774;7;Lake Centerline;NaturalEarth_10m_rivers
+KEN;nan;407;7;River;NaturalEarth_10m_rivers
+ETH;Akobo;235;7;River;NaturalEarth_10m_rivers
+ETH;Awash;861;8;Lake Centerline;NaturalEarth_10m_rivers
+ETH;Blue Nile;994;3;River;NaturalEarth_10m_rivers
+ETH;Genale;595;6;River;NaturalEarth_10m_rivers
+ETH;Lesser Abay;60;3;Lake Centerline;NaturalEarth_10m_rivers
+ETH;Omo;920;6;River;NaturalEarth_10m_rivers
+ETH;Shebelle;996;7;River;NaturalEarth_10m_rivers
+ETH;Tekezé;516;6;River;NaturalEarth_10m_rivers
+GHA;Black Volta;321;5;Lake Centerline;NaturalEarth_10m_rivers
+GHA;Oti;477;8;Lake Centerline;NaturalEarth_10m_rivers
+GHA;Volta;471;5;Lake Centerline;NaturalEarth_10m_rivers
+GHA;White Volta;511;6;Lake Centerline;NaturalEarth_10m_rivers
+FRA;Ariège;114;6;River;NaturalEarth_10m_rivers
+FRA;Dordogne;375;8;River;NaturalEarth_10m_rivers
+FRA;Doubs;368;8;River;NaturalEarth_10m_rivers
+FRA;Garonne;380;6;River;NaturalEarth_10m_rivers
+FRA;Loire;826;5;River;NaturalEarth_10m_rivers
+FRA;Meuse;365;8;River;NaturalEarth_10m_rivers
+FRA;Moselle;258;7;River;NaturalEarth_10m_rivers
+FRA;Rhine;168;4;River;NaturalEarth_10m_rivers
+FRA;Rhône;479;6;River;NaturalEarth_10m_rivers
+FRA;Sane;130;8;River;NaturalEarth_10m_rivers
+FRA;Scheldt;81;8;River;NaturalEarth_10m_rivers
+FRA;Seine;640;4;River;NaturalEarth_10m_rivers
+FRA;Yonne;218;8;River;NaturalEarth_10m_rivers
+GBR;Severn;218;8;River;NaturalEarth_10m_rivers
+GBR;Thames;275;6;River;NaturalEarth_10m_rivers
+GBR;Trent;194;8;River;NaturalEarth_10m_rivers
+CHN;Aksu;139;8;River;NaturalEarth_10m_rivers
+CHN;Amur;676;3;River;NaturalEarth_10m_rivers
+CHN;Argun;501;3;River;NaturalEarth_10m_rivers
+CHN;Bei;383;7;River;NaturalEarth_10m_rivers
+CHN;Black;411;8;River;NaturalEarth_10m_rivers
+CHN;Brahmaputra;247;2;River;NaturalEarth_10m_rivers
+CHN;Buh He;228;7;River;NaturalEarth_10m_rivers
+CHN;Chaor;347;8;River;NaturalEarth_10m_rivers
+CHN;Chumar;428;8;Lake Centerline;NaturalEarth_10m_rivers
+CHN;Dadu;886;6;River;NaturalEarth_10m_rivers
+CHN;Dali;208;8;River;NaturalEarth_10m_rivers
+CHN;Daling;366;8;River;NaturalEarth_10m_rivers
+CHN;Dam;290;8;River;NaturalEarth_10m_rivers
+CHN;Derung-Nmai;122;4;River;NaturalEarth_10m_rivers
+CHN;Dong;423;7;River;NaturalEarth_10m_rivers
+CHN;Duliu;246;8;River;NaturalEarth_10m_rivers
+CHN;Erdao;171;8;River;NaturalEarth_10m_rivers
+CHN;Fuchun;297;7;Lake Centerline;NaturalEarth_10m_rivers
+CHN;Gan;770;6;Lake Centerline;NaturalEarth_10m_rivers
+CHN;Ghaghara;75;7;River;NaturalEarth_10m_rivers
+CHN;Gongnaisi He;298;7;River;NaturalEarth_10m_rivers
+CHN;Hai;98;7;River;NaturalEarth_10m_rivers
+CHN;Han;1283;6;Lake Centerline;NaturalEarth_10m_rivers
+CHN;Hongshui;524;4;River;NaturalEarth_10m_rivers
+CHN;Huai;377;7;River;NaturalEarth_10m_rivers
+CHN;Huang;61;3;Lake Centerline;NaturalEarth_10m_rivers
+CHN;Hudi;535;7;Lake Centerline;NaturalEarth_10m_rivers
+CHN;Ili;131;7;River;NaturalEarth_10m_rivers
+CHN;Irtysh;517;2;River;NaturalEarth_10m_rivers
+CHN;Jialing;873;7;River;NaturalEarth_10m_rivers
+CHN;Jing;342;8;River;NaturalEarth_10m_rivers
+CHN;Jinsha;1876;1;River;NaturalEarth_10m_rivers
+CHN;Konqi He;321;6;River;NaturalEarth_10m_rivers
+CHN;Liao;499;6;River;NaturalEarth_10m_rivers
+CHN;Liu;111;8;River;NaturalEarth_10m_rivers
+CHN;Luan;576;8;River;NaturalEarth_10m_rivers
+CHN;Manas;63;7;River;NaturalEarth_10m_rivers
+CHN;Maquan;625;2;River;NaturalEarth_10m_rivers
+CHN;Mekong;1632;2;River;NaturalEarth_10m_rivers
+CHN;Min;525;6;River;NaturalEarth_10m_rivers
+CHN;Nanpan;877;4;River;NaturalEarth_10m_rivers
+CHN;Nanweng;155;8;River;NaturalEarth_10m_rivers
+CHN;Nen;642;8;River;NaturalEarth_10m_rivers
+CHN;Ou;217;8;River;NaturalEarth_10m_rivers
+CHN;Qianjiang;108;4;River;NaturalEarth_10m_rivers
+CHN;Qin He;307;8;River;NaturalEarth_10m_rivers
+CHN;Red;572;6;River;NaturalEarth_10m_rivers
+CHN;Rong;216;8;River;NaturalEarth_10m_rivers
+CHN;Salween;1696;4;River;NaturalEarth_10m_rivers
+CHN;Sanggan;296;7;River;NaturalEarth_10m_rivers
+CHN;Sapt;324;7;River;NaturalEarth_10m_rivers
+CHN;Sengge Zangbo;308;3;River;NaturalEarth_10m_rivers
+CHN;Shandian;219;8;River;NaturalEarth_10m_rivers
+CHN;Songacha;89;7;River;NaturalEarth_10m_rivers
+CHN;Songhua;1752;6;Lake Centerline;NaturalEarth_10m_rivers
+CHN;Sutlej;338;6;Lake Centerline;NaturalEarth_10m_rivers
+CHN;Taoer;508;8;Lake Centerline;NaturalEarth_10m_rivers
+CHN;Tarim;798;6;River;NaturalEarth_10m_rivers
+CHN;Tongtian;883;1;River;NaturalEarth_10m_rivers
+CHN;Toxkan He;309;8;River;NaturalEarth_10m_rivers
+CHN;Tuotuo He;225;1;River;NaturalEarth_10m_rivers
+CHN;Ussuri;360;7;River;NaturalEarth_10m_rivers
+CHN;Wei;693;8;River;NaturalEarth_10m_rivers
+CHN;Wu;918;7;River;NaturalEarth_10m_rivers
+CHN;Wuding;157;8;River;NaturalEarth_10m_rivers
+CHN;Wujia;691;7;Lake Centerline;NaturalEarth_10m_rivers
+CHN;Xar Moron;344;6;River;NaturalEarth_10m_rivers
+CHN;Xi;464;4;River;NaturalEarth_10m_rivers
+CHN;Xiang;806;7;River;NaturalEarth_10m_rivers
+CHN;Xiliao;271;6;River;NaturalEarth_10m_rivers
+CHN;Xunjiang;159;4;River;NaturalEarth_10m_rivers
+CHN;Yalong;1496;7;River;NaturalEarth_10m_rivers
+CHN;Yalu;506;8;Lake Centerline;NaturalEarth_10m_rivers
+CHN;Yangtze;2434;1;River;NaturalEarth_10m_rivers
+CHN;Yarkand;1047;6;River;NaturalEarth_10m_rivers
+CHN;Yarlung;726;2;River;NaturalEarth_10m_rivers
+CHN;Yellow;4838;3;River;NaturalEarth_10m_rivers
+CHN;Yong;132;7;River;NaturalEarth_10m_rivers
+CHN;Yongding;234;7;River;NaturalEarth_10m_rivers
+CHN;You;436;7;River;NaturalEarth_10m_rivers
+CHN;Yu;227;7;River;NaturalEarth_10m_rivers
+CHN;Yuan;1086;6;Lake Centerline;NaturalEarth_10m_rivers
+CHN;Yurungkax He;433;8;River;NaturalEarth_10m_rivers
+CHN;Za;383;2;River;NaturalEarth_10m_rivers
+CHN;Zayü;152;8;River;NaturalEarth_10m_rivers
+CHN;Za’gya;300;8;River;NaturalEarth_10m_rivers
+CHN;Zhang;367;8;River;NaturalEarth_10m_rivers
+CHN;Zuo;211;8;River;NaturalEarth_10m_rivers
+CHN;nan;825;7;River;NaturalEarth_10m_rivers
+BRA;Amapari;499;7;River;NaturalEarth_10m_rivers
+BRA;Amazon;2464;1;Lake Centerline;NaturalEarth_10m_rivers
+BRA;Araguaia;1949;4;River;NaturalEarth_10m_rivers
+BRA;Branco;1172;6;River;NaturalEarth_10m_rivers
+BRA;Contas;444;8;River;NaturalEarth_10m_rivers
+BRA;Corumbá;429;8;Lake Centerline;NaturalEarth_10m_rivers
+BRA;Culuene;586;5;River;NaturalEarth_10m_rivers
+BRA;Doce;680;7;River;NaturalEarth_10m_rivers
+BRA;Grande;1123;5;Lake Centerline;NaturalEarth_10m_rivers
+BRA;Guaporé;629;3;River;NaturalEarth_10m_rivers
+BRA;Gurupí;638;7;River;NaturalEarth_10m_rivers
+BRA;Ibicuí;333;8;River;NaturalEarth_10m_rivers
+BRA;Indaiá;284;4;River;NaturalEarth_10m_rivers
+BRA;Iriri;1066;7;River;NaturalEarth_10m_rivers
+BRA;Itiquira;327;8;River;NaturalEarth_10m_rivers
+BRA;Ituxi;506;8;River;NaturalEarth_10m_rivers
+BRA;Ivinhema;431;8;River;NaturalEarth_10m_rivers
+BRA;Jamanxim;1323;7;River;NaturalEarth_10m_rivers
+BRA;Japurá;653;5;River;NaturalEarth_10m_rivers
+BRA;Jari;701;7;River;NaturalEarth_10m_rivers
+BRA;Javary;124;8;River;NaturalEarth_10m_rivers
+BRA;Javaés;477;4;River;NaturalEarth_10m_rivers
+BRA;Jequitinhonha;786;6;River;NaturalEarth_10m_rivers
+BRA;Jiparaná;814;8;River;NaturalEarth_10m_rivers
+BRA;Jurua;1592;7;River;NaturalEarth_10m_rivers
+BRA;Juruena;474;5;River;NaturalEarth_10m_rivers
+BRA;Madeira;1284;3;River;NaturalEarth_10m_rivers
+BRA;Maicuru;510;8;River;NaturalEarth_10m_rivers
+BRA;Mearim;603;8;Lake Centerline;NaturalEarth_10m_rivers
+BRA;Negro;1187;3;River;NaturalEarth_10m_rivers
+BRA;Nhamundá;474;8;River;NaturalEarth_10m_rivers
+BRA;Paraiba;744;6;River;NaturalEarth_10m_rivers
+BRA;Paranapanema;681;7;Lake Centerline;NaturalEarth_10m_rivers
+BRA;Paranaíba;655;4;Lake Centerline;NaturalEarth_10m_rivers
+BRA;Paraná;870;4;Lake Centerline;NaturalEarth_10m_rivers
+BRA;Paraná River;1038;2;River;NaturalEarth_10m_rivers
+BRA;Parnaíba;1299;7;River;NaturalEarth_10m_rivers
+BRA;Piauí;515;8;River;NaturalEarth_10m_rivers
+BRA;Purus;2137;6;River;NaturalEarth_10m_rivers
+BRA;Putumayo;281;7;River;NaturalEarth_10m_rivers
+BRA;Ribeira;314;8;River;NaturalEarth_10m_rivers
+BRA;São Francisco;2233;4;Lake Centerline;NaturalEarth_10m_rivers
+BRA;Tapajós;1359;5;River;NaturalEarth_10m_rivers
+BRA;Tietê;828;8;Lake Centerline;NaturalEarth_10m_rivers
+BRA;Tocantins;2177;4;River;NaturalEarth_10m_rivers
+BRA;Trombetas;692;7;Lake Centerline;NaturalEarth_10m_rivers
+BRA;Una;213;8;River;NaturalEarth_10m_rivers
+BRA;Uruguay;781;6;River;NaturalEarth_10m_rivers
+BRA;Velhas;522;7;River;NaturalEarth_10m_rivers
+BRA;Verde;320;8;River;NaturalEarth_10m_rivers
+BRA;Xingu;1618;5;River;NaturalEarth_10m_rivers
+BRA;nan;536;8;River;NaturalEarth_10m_rivers
+RUS;Adycha;825;8;River;NaturalEarth_10m_rivers
+RUS;Alazeya;860;8;River;NaturalEarth_10m_rivers
+RUS;Aldan;2351;4;River;NaturalEarth_10m_rivers
+RUS;Amgun;657;8;River;NaturalEarth_10m_rivers
+RUS;Amur;2168;3;Lake Centerline;NaturalEarth_10m_rivers
+RUS;Anabar;313;7;River;NaturalEarth_10m_rivers
+RUS;Anadyr;1031;6;River;NaturalEarth_10m_rivers
+RUS;Angara;2144;2;Lake Centerline;NaturalEarth_10m_rivers
+RUS;Argun;549;3;River;NaturalEarth_10m_rivers
+RUS;Bikin;452;8;River;NaturalEarth_10m_rivers
+RUS;Biya;370;6;Lake Centerline;NaturalEarth_10m_rivers
+RUS;Bolshoy Anyuy;802;8;River;NaturalEarth_10m_rivers
+RUS;Bolshoy Yenisei;502;8;River;NaturalEarth_10m_rivers
+RUS;Bol’shaya Kuonamka;568;7;River;NaturalEarth_10m_rivers
+RUS;Bykovskaya Protoka;94;1;River;NaturalEarth_10m_rivers
+RUS;Chulym;1560;7;River;NaturalEarth_10m_rivers
+RUS;Chulyshman;229;6;River;NaturalEarth_10m_rivers
+RUS;Chuna;1252;8;River;NaturalEarth_10m_rivers
+RUS;Chusovaya;545;8;Lake Centerline;NaturalEarth_10m_rivers
+RUS;Daugava;252;5;River;NaturalEarth_10m_rivers
+RUS;Desna;290;7;River;NaturalEarth_10m_rivers
+RUS;Dnieper;355;4;River;NaturalEarth_10m_rivers
+RUS;Don;1633;6;Lake Centerline;NaturalEarth_10m_rivers
+RUS;Donets;301;7;River;NaturalEarth_10m_rivers
+RUS;Dulgalakh;377;8;River;NaturalEarth_10m_rivers
+RUS;Indigirka;1962;5;River;NaturalEarth_10m_rivers
+RUS;Ingoda;566;7;River;NaturalEarth_10m_rivers
+RUS;Irtysh;1855;2;River;NaturalEarth_10m_rivers
+RUS;Ishim;384;7;River;NaturalEarth_10m_rivers
+RUS;Kama;1687;6;Lake Centerline;NaturalEarth_10m_rivers
+RUS;Kamchatka;604;6;River;NaturalEarth_10m_rivers
+RUS;Katun;624;7;River;NaturalEarth_10m_rivers
+RUS;Kem;387;6;River;NaturalEarth_10m_rivers
+RUS;Khatanga;169;6;River;NaturalEarth_10m_rivers
+RUS;Kheta;971;6;River;NaturalEarth_10m_rivers
+RUS;Khopyor;712;7;River;NaturalEarth_10m_rivers
+RUS;Kolyma;2590;4;River;NaturalEarth_10m_rivers
+RUS;Kondoma;300;8;River;NaturalEarth_10m_rivers
+RUS;Kotuy;1540;7;River;NaturalEarth_10m_rivers
+RUS;Kuban;685;7;River;NaturalEarth_10m_rivers
+RUS;Kukhtuy;385;8;River;NaturalEarth_10m_rivers
+RUS;Kureyka;300;8;River;NaturalEarth_10m_rivers
+RUS;Lena;4360;1;River;NaturalEarth_10m_rivers
+RUS;Little Yenisei;322;4;River;NaturalEarth_10m_rivers
+RUS;Lutto;219;7;River;NaturalEarth_10m_rivers
+RUS;Luza;460;8;River;NaturalEarth_10m_rivers
+RUS;Malaya Ob';397;7;River;NaturalEarth_10m_rivers
+RUS;Mana;486;8;River;NaturalEarth_10m_rivers
+RUS;Maya;997;8;River;NaturalEarth_10m_rivers
+RUS;Mezen;832;7;River;NaturalEarth_10m_rivers
+RUS;Moma;494;8;River;NaturalEarth_10m_rivers
+RUS;Nadym;439;7;River;NaturalEarth_10m_rivers
+RUS;Narva;139;7;Lake Centerline;NaturalEarth_10m_rivers
+RUS;Neva;106;5;Lake Centerline;NaturalEarth_10m_rivers
+RUS;Nizhnyaya Taymyra;250;7;Lake Centerline;NaturalEarth_10m_rivers
+RUS;Nizhnyaya Tunguska;3069;5;River;NaturalEarth_10m_rivers
+RUS;Northern Dvina;736;4;River;NaturalEarth_10m_rivers
+RUS;Ob;3753;2;River;NaturalEarth_10m_rivers
+RUS;Oka;2136;7;Lake Centerline;NaturalEarth_10m_rivers
+RUS;Olenekskaya Protoka;301;1;River;NaturalEarth_10m_rivers
+RUS;Olenyok;2640;6;River;NaturalEarth_10m_rivers
+RUS;Oloy;613;8;River;NaturalEarth_10m_rivers
+RUS;Olyokma;1286;7;River;NaturalEarth_10m_rivers
+RUS;Omolon;1066;7;River;NaturalEarth_10m_rivers
+RUS;Onega;246;7;River;NaturalEarth_10m_rivers
+RUS;Onon;444;8;River;NaturalEarth_10m_rivers
+RUS;Palyavaam;555;8;River;NaturalEarth_10m_rivers
+RUS;Pechora;1774;4;River;NaturalEarth_10m_rivers
+RUS;Podkamennaya Tunguska;1799;7;River;NaturalEarth_10m_rivers
+RUS;Popigay;640;8;River;NaturalEarth_10m_rivers
+RUS;Poronay;212;8;River;NaturalEarth_10m_rivers
+RUS;Pur;730;7;River;NaturalEarth_10m_rivers
+RUS;Pyasina;792;7;River;NaturalEarth_10m_rivers
+RUS;Sartang;786;7;River;NaturalEarth_10m_rivers
+RUS;Selenga;387;2;River;NaturalEarth_10m_rivers
+RUS;Severnaya Sosva;722;8;River;NaturalEarth_10m_rivers
+RUS;Shilka;495;7;River;NaturalEarth_10m_rivers
+RUS;Suda;369;7;Lake Centerline;NaturalEarth_10m_rivers
+RUS;Sukhona;613;4;Lake Centerline;NaturalEarth_10m_rivers
+RUS;Sura;599;8;River;NaturalEarth_10m_rivers
+RUS;Svir;539;5;Lake Centerline;NaturalEarth_10m_rivers
+RUS;Taimura;629;8;River;NaturalEarth_10m_rivers
+RUS;Taz;1260;6;River;NaturalEarth_10m_rivers
+RUS;Tobol;676;5;River;NaturalEarth_10m_rivers
+RUS;Tom;849;6;River;NaturalEarth_10m_rivers
+RUS;Trofimovskaya Protoka;121;5;River;NaturalEarth_10m_rivers
+RUS;Tuloma;83;7;River;NaturalEarth_10m_rivers
+RUS;Tumatskaya Protoka;117;5;River;NaturalEarth_10m_rivers
+RUS;Tumnin;362;8;River;NaturalEarth_10m_rivers
+RUS;Tyung;1046;8;River;NaturalEarth_10m_rivers
+RUS;Uda;384;8;River;NaturalEarth_10m_rivers
+RUS;Udzha;431;8;River;NaturalEarth_10m_rivers
+RUS;Ural;988;4;Lake Centerline;NaturalEarth_10m_rivers
+RUS;Ussuri;455;7;River;NaturalEarth_10m_rivers
+RUS;Vakh;748;8;River;NaturalEarth_10m_rivers
+RUS;Velikaya;329;7;River;NaturalEarth_10m_rivers
+RUS;Verkhniy Yenisey;280;4;Lake Centerline;NaturalEarth_10m_rivers
+RUS;Verkhnyaya Taymyra;529;7;River;NaturalEarth_10m_rivers
+RUS;Vilyuy;2691;6;Lake Centerline;NaturalEarth_10m_rivers
+RUS;Vishera;386;8;River;NaturalEarth_10m_rivers
+RUS;Vitim;1784;7;River;NaturalEarth_10m_rivers
+RUS;Volga;3565;3;Lake Centerline;NaturalEarth_10m_rivers
+RUS;Volga–Don Canal;106;6;River;NaturalEarth_10m_rivers
+RUS;Vuoksa;235;6;Lake Centerline;NaturalEarth_10m_rivers
+RUS;Vychegda;945;5;River;NaturalEarth_10m_rivers
+RUS;Yana;677;7;River;NaturalEarth_10m_rivers
+RUS;Yenisey;3077;4;River;NaturalEarth_10m_rivers
+RUS;Zeya;1109;7;Lake Centerline;NaturalEarth_10m_rivers
+RUS;nan;1955;7;River;NaturalEarth_10m_rivers
+CAN;Albany;1130;6;River;NaturalEarth_10m_rivers
+CAN;Alsek;329;6;River;NaturalEarth_10m_rivers
+CAN;Anderson;769;8;Lake Centerline;NaturalEarth_10m_rivers
+CAN;Arctic Red;454;7;River;NaturalEarth_10m_rivers
+CAN;Arnaud;254;8;River;NaturalEarth_10m_rivers
+CAN;Assiniboine;686;8;River;NaturalEarth_10m_rivers
+CAN;Athabasca;1541;5;Lake Centerline;NaturalEarth_10m_rivers
+CAN;Babine;90;8;River;NaturalEarth_10m_rivers
+CAN;Back;1159;6;Lake Centerline;NaturalEarth_10m_rivers
+CAN;Beaver;584;6;River;NaturalEarth_10m_rivers
+CAN;Bell;473;7;Lake Centerline;NaturalEarth_10m_rivers
+CAN;Burnside;303;8;River;NaturalEarth_10m_rivers
+CAN;Caniapiscau;574;7;Lake Centerline;NaturalEarth_10m_rivers
+CAN;Churchill;2013;6;River;NaturalEarth_10m_rivers
+CAN;Columbia;660;3;Lake Centerline;NaturalEarth_10m_rivers
+CAN;Coppermine;686;6;Lake Centerline;NaturalEarth_10m_rivers
+CAN;Cree;226;8;River;NaturalEarth_10m_rivers
+CAN;Donjek;223;7;River;NaturalEarth_10m_rivers
+CAN;Eastmain;605;7;River;NaturalEarth_10m_rivers
+CAN;Ekwan;508;8;River;NaturalEarth_10m_rivers
+CAN;English;629;8;Lake Centerline;NaturalEarth_10m_rivers
+CAN;Exploits;117;8;River;NaturalEarth_10m_rivers
+CAN;Finlay;304;6;River;NaturalEarth_10m_rivers
+CAN;Flathead;52;8;River;NaturalEarth_10m_rivers
+CAN;Fraser;1289;5;River;NaturalEarth_10m_rivers
+CAN;French;97;8;River;NaturalEarth_10m_rivers
+CAN;Gatineau;160;8;River;NaturalEarth_10m_rivers
+CAN;George;443;7;River;NaturalEarth_10m_rivers
+CAN;Gods;308;8;River;NaturalEarth_10m_rivers
+CAN;Grand;200;8;River;NaturalEarth_10m_rivers
+CAN;Great Bear;173;6;River;NaturalEarth_10m_rivers
+CAN;Great Whale;342;7;River;NaturalEarth_10m_rivers
+CAN;Groundhog;146;7;River;NaturalEarth_10m_rivers
+CAN;Hayes;93;8;River;NaturalEarth_10m_rivers
+CAN;Ivanhoe;148;7;River;NaturalEarth_10m_rivers
+CAN;Kazan;175;8;Lake Centerline;NaturalEarth_10m_rivers
+CAN;La Grande;792;4;Lake Centerline;NaturalEarth_10m_rivers
+CAN;Liard;1191;6;River;NaturalEarth_10m_rivers
+CAN;Mackenzie;2038;2;Lake Centerline;NaturalEarth_10m_rivers
+CAN;Manicouagan;460;7;Lake Centerline;NaturalEarth_10m_rivers
+CAN;Mattagami;159;7;River;NaturalEarth_10m_rivers
+CAN;Mlzes;421;7;River;NaturalEarth_10m_rivers
+CAN;Moose;61;7;River;NaturalEarth_10m_rivers
+CAN;Natashquan;325;7;River;NaturalEarth_10m_rivers
+CAN;Nechako;266;7;River;NaturalEarth_10m_rivers
+CAN;Nelson;787;4;Lake Centerline;NaturalEarth_10m_rivers
+CAN;Nipigon;58;7;River;NaturalEarth_10m_rivers
+CAN;North Saskatchewan;1380;4;River;NaturalEarth_10m_rivers
+CAN;Nottaway;215;7;Lake Centerline;NaturalEarth_10m_rivers
+CAN;Ottawa;544;6;Lake Centerline;NaturalEarth_10m_rivers
+CAN;Peace;1665;2;Lake Centerline;NaturalEarth_10m_rivers
+CAN;Pelly;517;8;River;NaturalEarth_10m_rivers
+CAN;Peribonka;515;7;Lake Centerline;NaturalEarth_10m_rivers
+CAN;Porcupine;661;6;River;NaturalEarth_10m_rivers
+CAN;R. des Outaouais;411;6;Lake Centerline;NaturalEarth_10m_rivers
+CAN;Rainy;409;6;Lake Centerline;NaturalEarth_10m_rivers
+CAN;Red of the South;550;6;Lake Centerline;NaturalEarth_10m_rivers
+CAN;Richelieu;124;8;River;NaturalEarth_10m_rivers
+CAN;Rupert;541;6;Lake Centerline;NaturalEarth_10m_rivers
+CAN;Saguenay;399;8;Lake Centerline;NaturalEarth_10m_rivers
+CAN;Saint John;423;6;River;NaturalEarth_10m_rivers
+CAN;Saskatchewan;750;4;Lake Centerline;NaturalEarth_10m_rivers
+CAN;Severn;952;7;River;NaturalEarth_10m_rivers
+CAN;Skeena;553;6;River;NaturalEarth_10m_rivers
+CAN;Slave;433;2;River;NaturalEarth_10m_rivers
+CAN;South Saskatchewan;1538;6;Lake Centerline;NaturalEarth_10m_rivers
+CAN;St. Lawrence;126;2;River;NaturalEarth_10m_rivers
+CAN;St. Mary's;83;8;River;NaturalEarth_10m_rivers
+CAN;St.-Maurice;330;8;River;NaturalEarth_10m_rivers
+CAN;Stewart;756;7;River;NaturalEarth_10m_rivers
+CAN;Stikine;594;5;River;NaturalEarth_10m_rivers
+CAN;Teslin;297;3;Lake Centerline;NaturalEarth_10m_rivers
+CAN;Thelon;1196;5;Lake Centerline;NaturalEarth_10m_rivers
+CAN;Thlewiaza;718;8;Lake Centerline;NaturalEarth_10m_rivers
+CAN;Thompson;247;8;River;NaturalEarth_10m_rivers
+CAN;White;123;7;River;NaturalEarth_10m_rivers
+CAN;Winisk;375;7;River;NaturalEarth_10m_rivers
+CAN;Winnipeg;398;6;Lake Centerline;NaturalEarth_10m_rivers
+CAN;Yukon;682;3;River;NaturalEarth_10m_rivers
+CAN;nan;3615;5;Lake Centerline;NaturalEarth_10m_rivers
+JPN;Ishikari;211;6;River;NaturalEarth_10m_rivers
+JPN;Mogami;199;8;River;NaturalEarth_10m_rivers
+JPN;Tone;300;8;River;NaturalEarth_10m_rivers
+DEU;Danube;552;2;River;NaturalEarth_10m_rivers
+DEU;Elbe;628;5;River;NaturalEarth_10m_rivers
+DEU;Ems;279;8;River;NaturalEarth_10m_rivers
+DEU;Inn;199;8;River;NaturalEarth_10m_rivers
+DEU;Main;466;8;River;NaturalEarth_10m_rivers
+DEU;Moselle;206;7;River;NaturalEarth_10m_rivers
+DEU;Oder;129;4;River;NaturalEarth_10m_rivers
+DEU;Rhine;596;4;Lake Centerline;NaturalEarth_10m_rivers
+DEU;Weser;610;7;River;NaturalEarth_10m_rivers
+BLR;Daugava;341;5;River;NaturalEarth_10m_rivers
+BLR;Dnieper;529;4;River;NaturalEarth_10m_rivers
+BLR;Mukhavets;147;8;River;NaturalEarth_10m_rivers
+BLR;Neris;211;7;River;NaturalEarth_10m_rivers
+BLR;Prypiat;419;7;River;NaturalEarth_10m_rivers
+ISL;Drau;123;6;River;NaturalEarth_10m_rivers
+ISL;Þjórsá;92;8;River;NaturalEarth_10m_rivers
+EST;Narva;76;7;Lake Centerline;NaturalEarth_10m_rivers
+NOR;Glomma;286;6;River;NaturalEarth_10m_rivers
+NOR;Klarälven;125;8;Lake Centerline;NaturalEarth_10m_rivers
+NOR;Paatsjoki;101;8;River;NaturalEarth_10m_rivers
+NOR;Vorma;194;6;Lake Centerline;NaturalEarth_10m_rivers
+LVA;Daugava;357;5;River;NaturalEarth_10m_rivers
+UKR;Chilia branch;86;2;River;NaturalEarth_10m_rivers
+UKR;Desna;422;7;River;NaturalEarth_10m_rivers
+UKR;Dnieper;939;4;Lake Centerline;NaturalEarth_10m_rivers
+UKR;Dniester;772;6;Lake Centerline;NaturalEarth_10m_rivers
+UKR;Donets;579;7;River;NaturalEarth_10m_rivers
+UKR;Prut;211;7;River;NaturalEarth_10m_rivers
+UKR;Prypiat;69;7;Lake Centerline;NaturalEarth_10m_rivers
+UKR;Southern Bug;680;8;Lake Centerline;NaturalEarth_10m_rivers
+UKR;Tisza;193;6;River;NaturalEarth_10m_rivers
+UKR;Western Bug;171;8;River;NaturalEarth_10m_rivers
+CZE;Elbe;320;5;River;NaturalEarth_10m_rivers
+CZE;Morava;218;8;River;NaturalEarth_10m_rivers
+CZE;Oder;77;4;River;NaturalEarth_10m_rivers
+SVK;Danube;145;2;River;NaturalEarth_10m_rivers
+SVN;Drava;122;7;River;NaturalEarth_10m_rivers
+MDA;Dniester;420;6;River;NaturalEarth_10m_rivers
+MDA;Prut;79;7;River;NaturalEarth_10m_rivers
+ROU;Borcea branch;102;2;River;NaturalEarth_10m_rivers
+ROU;Danube;727;2;River;NaturalEarth_10m_rivers
+ROU;Mureș;514;8;River;NaturalEarth_10m_rivers
+ROU;Olt;522;8;River;NaturalEarth_10m_rivers
+ROU;Prut;356;7;River;NaturalEarth_10m_rivers
+ROU;Sfântu Gheorghe branch;96;2;River;NaturalEarth_10m_rivers
+ROU;Sulina branch;69;2;River;NaturalEarth_10m_rivers
+ROU;Tisza;84;6;River;NaturalEarth_10m_rivers
+ROU;nan;88;7;River;NaturalEarth_10m_rivers
+BGR;Danube;85;2;River;NaturalEarth_10m_rivers
+BGR;Maritsa;263;7;River;NaturalEarth_10m_rivers
+HRV;Danube;71;2;River;NaturalEarth_10m_rivers
+HRV;Drava;53;7;River;NaturalEarth_10m_rivers
+HRV;Mur;170;6;River;NaturalEarth_10m_rivers
+HRV;Sava;335;7;River;NaturalEarth_10m_rivers
+BIH;Drina;251;8;River;NaturalEarth_10m_rivers
+BIH;Sava;93;7;River;NaturalEarth_10m_rivers
+AZE;Aras;305;8;River;NaturalEarth_10m_rivers
+AZE;Kura;601;8;River;NaturalEarth_10m_rivers
+GEO;Kura;299;8;River;NaturalEarth_10m_rivers
+KAZ;Ili;715;7;Lake Centerline;NaturalEarth_10m_rivers
+KAZ;Irtysh;1597;2;Lake Centerline;NaturalEarth_10m_rivers
+KAZ;Ishim;1304;7;River;NaturalEarth_10m_rivers
+KAZ;Syr Dar;1363;5;Lake Centerline;NaturalEarth_10m_rivers
+KAZ;Tobol;467;5;River;NaturalEarth_10m_rivers
+KAZ;Ural;783;4;River;NaturalEarth_10m_rivers
+MNE;Drina;100;8;River;NaturalEarth_10m_rivers
+IDN;Asahan;111;8;River;NaturalEarth_10m_rivers
+IDN;Baliem;399;7;River;NaturalEarth_10m_rivers
+IDN;Barito;765;6;River;NaturalEarth_10m_rivers
+IDN;Batang Indragiri;376;6;River;NaturalEarth_10m_rivers
+IDN;Digul;542;6;River;NaturalEarth_10m_rivers
+IDN;Fly;86;7;River;NaturalEarth_10m_rivers
+IDN;Kapuas;717;6;River;NaturalEarth_10m_rivers
+IDN;Kayan;442;6;River;NaturalEarth_10m_rivers
+IDN;Mahakam;675;7;River;NaturalEarth_10m_rivers
+IDN;Mamberamo;303;6;River;NaturalEarth_10m_rivers
+IDN;Taritatu;233;6;River;NaturalEarth_10m_rivers
+ZAF;Auob;161;8;River;NaturalEarth_10m_rivers
+ZAF;Caledon;357;7;River;NaturalEarth_10m_rivers
+ZAF;Gamka;170;7;River;NaturalEarth_10m_rivers
+ZAF;Gourits;155;7;River;NaturalEarth_10m_rivers
+ZAF;Great Kei;304;8;River;NaturalEarth_10m_rivers
+ZAF;Limpopo;98;6;River;NaturalEarth_10m_rivers
+ZAF;Maputo;85;8;River;NaturalEarth_10m_rivers
+ZAF;Molopo;416;8;River;NaturalEarth_10m_rivers
+ZAF;Olifants;239;8;River;NaturalEarth_10m_rivers
+ZAF;Orange;1279;4;Lake Centerline;NaturalEarth_10m_rivers
+ZAF;Pongola;184;8;Lake Centerline;NaturalEarth_10m_rivers
+ZAF;Tugela;349;7;River;NaturalEarth_10m_rivers
+ZAF;Vaal;1076;4;Lake Centerline;NaturalEarth_10m_rivers
+UZB;Amu Darya;854;5;River;NaturalEarth_10m_rivers
+UZB;Naryn;140;5;River;NaturalEarth_10m_rivers
+UZB;Syr Dar;143;5;River;NaturalEarth_10m_rivers
+UZB;Zeravshan;431;8;River;NaturalEarth_10m_rivers
+IRL;Shannon;206;8;Lake Centerline;NaturalEarth_10m_rivers
+HUN;Danube;286;2;River;NaturalEarth_10m_rivers
+HUN;Mur;102;6;River;NaturalEarth_10m_rivers
+HUN;Ráckeve-Soroksár Danube;54;6;River;NaturalEarth_10m_rivers
+HUN;Sió;119;7;River;NaturalEarth_10m_rivers
+HUN;Tisza;461;6;River;NaturalEarth_10m_rivers
+ESP;Douro;462;6;River;NaturalEarth_10m_rivers
+ESP;Ebro;665;5;River;NaturalEarth_10m_rivers
+ESP;Esla;199;8;River;NaturalEarth_10m_rivers
+ESP;Guadalquivir;455;8;River;NaturalEarth_10m_rivers
+ESP;Guadiana;436;7;Lake Centerline;NaturalEarth_10m_rivers
+ESP;Tagus;579;5;Lake Centerline;NaturalEarth_10m_rivers
+ESP;Záncara;142;7;River;NaturalEarth_10m_rivers
+CHL;Bío Bío;374;5;River;NaturalEarth_10m_rivers
+CHL;Copiapó;286;8;River;NaturalEarth_10m_rivers
+USA;Alabama;879;6;Lake Centerline;NaturalEarth_10m_rivers
+USA;Allegheny;448;3;River;NaturalEarth_10m_rivers
+USA;Alsek;71;6;River;NaturalEarth_10m_rivers
+USA;Altamaha;123;7;River;NaturalEarth_10m_rivers
+USA;Arkansas;1910;4;River;NaturalEarth_10m_rivers
+USA;Bayou Lafourche;155;8;River;NaturalEarth_10m_rivers
+USA;Bear;493;8;Lake Centerline;NaturalEarth_10m_rivers
+USA;Bighorn;291;8;River;NaturalEarth_10m_rivers
+USA;Black;332;8;River;NaturalEarth_10m_rivers
+USA;Brazos;1030;6;River;NaturalEarth_10m_rivers
+USA;Broad;225;8;River;NaturalEarth_10m_rivers
+USA;Canadian;1186;8;Lake Centerline;NaturalEarth_10m_rivers
+USA;Cape Fear;221;7;River;NaturalEarth_10m_rivers
+USA;Cedar;377;8;River;NaturalEarth_10m_rivers
+USA;Chattahoochee;760;6;Lake Centerline;NaturalEarth_10m_rivers
+USA;Chattooga;58;6;River;NaturalEarth_10m_rivers
+USA;Cheyenne;553;8;Lake Centerline;NaturalEarth_10m_rivers
+USA;Clark Fork;517;7;River;NaturalEarth_10m_rivers
+USA;Colorado;1928;5;Lake Centerline;NaturalEarth_10m_rivers
+USA;Columbia;1123;3;Lake Centerline;NaturalEarth_10m_rivers
+USA;Colville;908;7;River;NaturalEarth_10m_rivers
+USA;Congaree;121;8;Lake Centerline;NaturalEarth_10m_rivers
+USA;Connecticut;544;7;River;NaturalEarth_10m_rivers
+USA;Cooper;71;8;Lake Centerline;NaturalEarth_10m_rivers
+USA;Copper;405;6;River;NaturalEarth_10m_rivers
+USA;Cowpasture;425;8;River;NaturalEarth_10m_rivers
+USA;Cumberland;855;8;Lake Centerline;NaturalEarth_10m_rivers
+USA;Delaware;437;8;River;NaturalEarth_10m_rivers
+USA;Des Moines;606;8;River;NaturalEarth_10m_rivers
+USA;Double Mountain Fork Brazos;132;6;River;NaturalEarth_10m_rivers
+USA;Eel;231;7;River;NaturalEarth_10m_rivers
+USA;Feather;277;8;Lake Centerline;NaturalEarth_10m_rivers
+USA;Flathead;294;8;Lake Centerline;NaturalEarth_10m_rivers
+USA;Fox;66;8;River;NaturalEarth_10m_rivers
+USA;Gila;848;6;River;NaturalEarth_10m_rivers
+USA;Grand;287;8;River;NaturalEarth_10m_rivers
+USA;Grande;1458;4;Lake Centerline;NaturalEarth_10m_rivers
+USA;Green;868;7;Lake Centerline;NaturalEarth_10m_rivers
+USA;Haw;126;7;River;NaturalEarth_10m_rivers
+USA;Holston;326;5;River;NaturalEarth_10m_rivers
+USA;Hudson;394;6;River;NaturalEarth_10m_rivers
+USA;Humboldt;521;8;Lake Centerline;NaturalEarth_10m_rivers
+USA;Iliamna Lake Outlet;91;8;River;NaturalEarth_10m_rivers
+USA;Illinois;514;8;River;NaturalEarth_10m_rivers
+USA;James;753;8;River;NaturalEarth_10m_rivers
+USA;John Day;340;8;River;NaturalEarth_10m_rivers
+USA;Kanawha;137;8;River;NaturalEarth_10m_rivers
+USA;Kankakee;182;8;River;NaturalEarth_10m_rivers
+USA;Kansas;216;8;River;NaturalEarth_10m_rivers
+USA;Kaskaskia;384;8;River;NaturalEarth_10m_rivers
+USA;Kentucky;364;8;River;NaturalEarth_10m_rivers
+USA;Klamath;375;5;Lake Centerline;NaturalEarth_10m_rivers
+USA;Kobuk;686;8;River;NaturalEarth_10m_rivers
+USA;Koyukuk;1194;6;River;NaturalEarth_10m_rivers
+USA;Kuskokwim;927;6;River;NaturalEarth_10m_rivers
+USA;Madison;290;1;Lake Centerline;NaturalEarth_10m_rivers
+USA;Marais des Cygnes;227;8;River;NaturalEarth_10m_rivers
+USA;Merrimack;250;8;River;NaturalEarth_10m_rivers
+USA;Minnesota;384;7;River;NaturalEarth_10m_rivers
+USA;Mississippi;3416;1;Lake Centerline;NaturalEarth_10m_rivers
+USA;Missouri;3298;1;Lake Centerline;NaturalEarth_10m_rivers
+USA;Mohawk;197;8;River;NaturalEarth_10m_rivers
+USA;Monongahela;303;8;River;NaturalEarth_10m_rivers
+USA;Muskingum;154;8;River;NaturalEarth_10m_rivers
+USA;Namekagon;116;8;River;NaturalEarth_10m_rivers
+USA;New;354;8;River;NaturalEarth_10m_rivers
+USA;North Fork Kuskokwim River;376;6;River;NaturalEarth_10m_rivers
+USA;North Platte;904;7;Lake Centerline;NaturalEarth_10m_rivers
+USA;Oconee;292;7;River;NaturalEarth_10m_rivers
+USA;Ohio;1547;3;River;NaturalEarth_10m_rivers
+USA;Osage;366;8;River;NaturalEarth_10m_rivers
+USA;Pearl;524;7;River;NaturalEarth_10m_rivers
+USA;Pecos;1060;7;Lake Centerline;NaturalEarth_10m_rivers
+USA;Pee Dee;433;6;River;NaturalEarth_10m_rivers
+USA;Pend Oreille;154;6;River;NaturalEarth_10m_rivers
+USA;Pit;313;6;Lake Centerline;NaturalEarth_10m_rivers
+USA;Platte;463;7;River;NaturalEarth_10m_rivers
+USA;Porcupine;442;6;River;NaturalEarth_10m_rivers
+USA;Potomac;417;6;River;NaturalEarth_10m_rivers
+USA;Prairie Dog Town Fork Red;186;7;River;NaturalEarth_10m_rivers
+USA;Red of the South;1734;7;River;NaturalEarth_10m_rivers
+USA;Republican;392;8;River;NaturalEarth_10m_rivers
+USA;Roanoke;489;7;Lake Centerline;NaturalEarth_10m_rivers
+USA;Rogue;322;7;River;NaturalEarth_10m_rivers
+USA;S. Fork Republican;190;8;River;NaturalEarth_10m_rivers
+USA;Sabine;540;8;Lake Centerline;NaturalEarth_10m_rivers
+USA;Sacramento;516;5;Lake Centerline;NaturalEarth_10m_rivers
+USA;Saint John;206;6;River;NaturalEarth_10m_rivers
+USA;Salmon;600;8;River;NaturalEarth_10m_rivers
+USA;San Joaquin;405;6;Lake Centerline;NaturalEarth_10m_rivers
+USA;San Juan;486;8;Lake Centerline;NaturalEarth_10m_rivers
+USA;Santee;89;0;Lake Centerline;NaturalEarth_10m_rivers
+USA;Savannah;340;6;Lake Centerline;NaturalEarth_10m_rivers
+USA;Scioto;310;8;River;NaturalEarth_10m_rivers
+USA;Snake;1517;4;Lake Centerline;NaturalEarth_10m_rivers
+USA;South Platte;730;8;River;NaturalEarth_10m_rivers
+USA;Sprague;104;5;River;NaturalEarth_10m_rivers
+USA;St. Clair;67;3;River;NaturalEarth_10m_rivers
+USA;St. Croix;306;8;River;NaturalEarth_10m_rivers
+USA;St. Johns;408;8;Lake Centerline;NaturalEarth_10m_rivers
+USA;Stanislaus;218;7;River;NaturalEarth_10m_rivers
+USA;Susitna;494;6;River;NaturalEarth_10m_rivers
+USA;Susquehanna;676;7;River;NaturalEarth_10m_rivers
+USA;Suwannee;342;8;River;NaturalEarth_10m_rivers
+USA;Tanana;1027;6;River;NaturalEarth_10m_rivers
+USA;Tennessee;925;5;Lake Centerline;NaturalEarth_10m_rivers
+USA;Tombigbee;588;8;River;NaturalEarth_10m_rivers
+USA;Trinity;135;6;River;NaturalEarth_10m_rivers
+USA;Tugaloo;62;6;Lake Centerline;NaturalEarth_10m_rivers
+USA;Tuscarawas;153;8;River;NaturalEarth_10m_rivers
+USA;W. Branch Susquehanna;300;8;River;NaturalEarth_10m_rivers
+USA;Wabash;720;6;River;NaturalEarth_10m_rivers
+USA;White;720;8;River;NaturalEarth_10m_rivers
+USA;Willamette;379;6;River;NaturalEarth_10m_rivers
+USA;Wind;309;8;Lake Centerline;NaturalEarth_10m_rivers
+USA;Winnipeg;50;6;Lake Centerline;NaturalEarth_10m_rivers
+USA;Wisconsin;583;7;Lake Centerline;NaturalEarth_10m_rivers
+USA;Yadkin;119;6;River;NaturalEarth_10m_rivers
+USA;Yellowstone;1031;7;Lake Centerline;NaturalEarth_10m_rivers
+USA;Yukon;2846;3;River;NaturalEarth_10m_rivers
+USA;nan;161;7;River;NaturalEarth_10m_rivers
+BEL;Meuse;160;8;River;NaturalEarth_10m_rivers
+BEL;Scheldt;150;8;River;NaturalEarth_10m_rivers
+FIN;Kemijoki;449;6;Lake Centerline;NaturalEarth_10m_rivers
+FIN;Kokemäenjoki;88;6;River;NaturalEarth_10m_rivers
+FIN;Luirojoki;132;8;River;NaturalEarth_10m_rivers
+FIN;Lutto;62;7;River;NaturalEarth_10m_rivers
+FIN;Muonio;191;8;River;NaturalEarth_10m_rivers
+FIN;Oulujoki;117;8;River;NaturalEarth_10m_rivers
+SWE;Dalälven;507;6;River;NaturalEarth_10m_rivers
+SWE;Göta älv;72;6;River;NaturalEarth_10m_rivers
+SWE;Klarälven;360;8;Lake Centerline;NaturalEarth_10m_rivers
+SWE;Lule lv;66;7;River;NaturalEarth_10m_rivers
+SWE;Motala ström;108;8;Lake Centerline;NaturalEarth_10m_rivers
+SWE;Muonio;134;8;River;NaturalEarth_10m_rivers
+SWE;Skellefte;429;7;River;NaturalEarth_10m_rivers
+SWE;Stora Lule lv;323;7;Lake Centerline;NaturalEarth_10m_rivers
+SWE;Tornelven;341;7;River;NaturalEarth_10m_rivers
+SWE;Ångerman;378;7;Lake Centerline;NaturalEarth_10m_rivers
+POL;Oder;548;4;River;NaturalEarth_10m_rivers
+POL;Vistula;966;5;Lake Centerline;NaturalEarth_10m_rivers
+POL;Warta;696;8;River;NaturalEarth_10m_rivers
+POL;Western Bug;433;8;River;NaturalEarth_10m_rivers
+LTU;Neman;198;7;River;NaturalEarth_10m_rivers
+LTU;Neris;208;7;River;NaturalEarth_10m_rivers
+ITA;Adige;387;8;River;NaturalEarth_10m_rivers
+ITA;Mincio;60;7;River;NaturalEarth_10m_rivers
+ITA;Po;592;6;River;NaturalEarth_10m_rivers
+ITA;Tiber;328;7;River;NaturalEarth_10m_rivers
+ITA;Ticino;135;8;Lake Centerline;NaturalEarth_10m_rivers
+CHE;Inn;80;8;River;NaturalEarth_10m_rivers
+CHE;Rhine;231;4;Lake Centerline;NaturalEarth_10m_rivers
+CHE;Rhône;246;6;Lake Centerline;NaturalEarth_10m_rivers
+CHE;Ticino;100;8;Lake Centerline;NaturalEarth_10m_rivers
+ARM;Aras;104;8;River;NaturalEarth_10m_rivers
+AUT;Danube;317;2;River;NaturalEarth_10m_rivers
+AUT;Drava;239;7;River;NaturalEarth_10m_rivers
+AUT;Inn;181;8;River;NaturalEarth_10m_rivers
+AUT;Mur;289;6;River;NaturalEarth_10m_rivers
+SRB;Danube;397;2;River;NaturalEarth_10m_rivers
+SRB;Great Morava;357;7;River;NaturalEarth_10m_rivers
+SRB;Sava;197;7;River;NaturalEarth_10m_rivers
+SRB;Tisza;143;6;River;NaturalEarth_10m_rivers
+AUS;Barwon;452;3;River;NaturalEarth_10m_rivers
+AUS;Blackwood;316;6;River (Intermittent);NaturalEarth_10m_rivers
+AUS;Burdekin;697;5;Lake Centerline;NaturalEarth_10m_rivers
+AUS;Burnett;370;8;River;NaturalEarth_10m_rivers
+AUS;Daly;269;6;River;NaturalEarth_10m_rivers
+AUS;Darling;1037;3;River;NaturalEarth_10m_rivers
+AUS;Derwent;122;5;River;NaturalEarth_10m_rivers
+AUS;Fitzroy;764;5;River (Intermittent);NaturalEarth_10m_rivers
+AUS;Katherine;290;6;River (Intermittent);NaturalEarth_10m_rivers
+AUS;Lachlan;857;4;River;NaturalEarth_10m_rivers
+AUS;Macintyre;187;5;River;NaturalEarth_10m_rivers
+AUS;Mackenzie;507;5;River;NaturalEarth_10m_rivers
+AUS;Macquarie;684;4;River;NaturalEarth_10m_rivers
+AUS;Mitchell;505;5;River (Intermittent);NaturalEarth_10m_rivers
+AUS;Murray;1513;3;Lake Centerline;NaturalEarth_10m_rivers
+AUS;Ord;492;6;Lake Centerline;NaturalEarth_10m_rivers
+AUS;Roper;387;6;River (Intermittent);NaturalEarth_10m_rivers
+AUS;Swan;286;5;River;NaturalEarth_10m_rivers
+AUS;Victoria;547;6;River (Intermittent);NaturalEarth_10m_rivers
+AUS;Weir;208;3;River;NaturalEarth_10m_rivers
+GRC;Haliacmon;272;8;River;NaturalEarth_10m_rivers
+GRC;Maritsa;145;7;River;NaturalEarth_10m_rivers
+ARG;Bermejo;1027;8;River;NaturalEarth_10m_rivers
+ARG;Chico River;584;8;River;NaturalEarth_10m_rivers
+ARG;Chubut;743;6;River;NaturalEarth_10m_rivers
+ARG;Chubut River;165;8;River;NaturalEarth_10m_rivers
+ARG;Colorado;1137;5;River;NaturalEarth_10m_rivers
+ARG;Desaguadero;964;6;River;NaturalEarth_10m_rivers
+ARG;Deseado;509;7;River;NaturalEarth_10m_rivers
+ARG;Dulce;743;8;River;NaturalEarth_10m_rivers
+ARG;Limay;395;8;Lake Centerline;NaturalEarth_10m_rivers
+ARG;Mendoza;170;6;River;NaturalEarth_10m_rivers
+ARG;Negro;610;4;River;NaturalEarth_10m_rivers
+ARG;Neuquén;514;4;River;NaturalEarth_10m_rivers
+ARG;Paraná;153;4;River;NaturalEarth_10m_rivers
+ARG;Paraná River;1537;2;River;NaturalEarth_10m_rivers
+ARG;Pilcomayo River;639;6;River;NaturalEarth_10m_rivers
+ARG;Salado;1427;6;River;NaturalEarth_10m_rivers
+ARG;Salado River;558;7;River;NaturalEarth_10m_rivers
+ARG;San Juan;314;6;River;NaturalEarth_10m_rivers
+ARG;Santa Cruz;256;5;River;NaturalEarth_10m_rivers
+ARG;Uruguay;862;6;River;NaturalEarth_10m_rivers
+PER;Amazon;544;1;River;NaturalEarth_10m_rivers
+PER;Huallaga;961;7;River;NaturalEarth_10m_rivers
+PER;Javary;611;8;River;NaturalEarth_10m_rivers
+PER;Jurua;113;7;River;NaturalEarth_10m_rivers
+PER;Madre de Dios;549;6;River;NaturalEarth_10m_rivers
+PER;Marañón;1481;5;River;NaturalEarth_10m_rivers
+PER;Napo;557;7;River;NaturalEarth_10m_rivers
+PER;Ocoña;246;8;River;NaturalEarth_10m_rivers
+PER;Pisco;155;8;River;NaturalEarth_10m_rivers
+PER;Purus;320;6;River;NaturalEarth_10m_rivers
+PER;Putumayo;631;7;River;NaturalEarth_10m_rivers
+PER;Santa;303;8;River;NaturalEarth_10m_rivers
+PER;Tambo;247;8;River;NaturalEarth_10m_rivers
+PER;Tumbes;116;7;River;NaturalEarth_10m_rivers
+PER;Ucayali;2279;1;River;NaturalEarth_10m_rivers
+PRK;Yalu;102;8;Lake Centerline;NaturalEarth_10m_rivers
+KHM;Kong;143;7;River;NaturalEarth_10m_rivers
+KHM;Mekong;616;2;River;NaturalEarth_10m_rivers
+KHM;Sreng;195;7;River;NaturalEarth_10m_rivers
+KHM;Srepok;226;7;River;NaturalEarth_10m_rivers
+TUR;Aras;175;8;River;NaturalEarth_10m_rivers
+TUR;Büyük Menderes;406;8;River;NaturalEarth_10m_rivers
+TUR;Euphrates;889;3;Lake Centerline;NaturalEarth_10m_rivers
+TUR;Kura;148;8;River;NaturalEarth_10m_rivers
+TUR;Kızılırmak;926;7;River;NaturalEarth_10m_rivers
+TUR;Sakarya;203;8;River;NaturalEarth_10m_rivers
+TUR;Tigris;397;4;River;NaturalEarth_10m_rivers
+PRT;Douro;269;6;River;NaturalEarth_10m_rivers
+PRT;Guadiana;228;7;River;NaturalEarth_10m_rivers
+PRT;Tagus;182;5;River;NaturalEarth_10m_rivers
+NLD;IJssel;106;4;River;NaturalEarth_10m_rivers
+NLD;Lek;104;4;River;NaturalEarth_10m_rivers
+NLD;Meuse;255;8;River;NaturalEarth_10m_rivers
+NLD;Nederrijn;62;4;River;NaturalEarth_10m_rivers
+NLD;Rhine;98;4;River;NaturalEarth_10m_rivers
+NLD;Waal;57;4;River;NaturalEarth_10m_rivers
+TCD;Aoukalé;327;8;River;NaturalEarth_10m_rivers
+TCD;Bahr Aouk;222;8;River;NaturalEarth_10m_rivers
+TCD;Chari;740;6;River;NaturalEarth_10m_rivers
+TCD;Logone;385;7;River;NaturalEarth_10m_rivers
+TCD;Ouham;200;6;River;NaturalEarth_10m_rivers
+TCD;Yobe;60;8;Lake Centerline;NaturalEarth_10m_rivers
+NZL;Buller;142;6;River;NaturalEarth_10m_rivers
+NZL;Clutha / Mata-Au;243;6;River;NaturalEarth_10m_rivers
+NZL;Manawatu;188;6;River;NaturalEarth_10m_rivers
+NZL;Mataura;204;6;River;NaturalEarth_10m_rivers
+NZL;Mohaka;115;6;River;NaturalEarth_10m_rivers
+NZL;Rangitīkei;237;6;River;NaturalEarth_10m_rivers
+NZL;Taieri;274;6;River;NaturalEarth_10m_rivers
+NZL;Waiau Toa / Clarence;223;6;River;NaturalEarth_10m_rivers
+NZL;Waikato;344;6;Lake Centerline;NaturalEarth_10m_rivers
+NZL;Waimakariri;150;6;River;NaturalEarth_10m_rivers
+NZL;Wairau;196;6;River;NaturalEarth_10m_rivers
+NZL;Whanganui;244;6;River;NaturalEarth_10m_rivers
+NZL;Ōreti;209;6;River;NaturalEarth_10m_rivers
+IND;Banas;433;8;River;NaturalEarth_10m_rivers
+IND;Beas;378;8;Lake Centerline;NaturalEarth_10m_rivers
+IND;Bhima;742;7;River;NaturalEarth_10m_rivers
+IND;Brahmani;423;7;River;NaturalEarth_10m_rivers
+IND;Brahmaputra;919;2;River;NaturalEarth_10m_rivers
+IND;Chambal;880;7;Lake Centerline;NaturalEarth_10m_rivers
+IND;Chenab;444;6;River;NaturalEarth_10m_rivers
+IND;Ganges;2722;3;River;NaturalEarth_10m_rivers
+IND;Ghaghara;608;7;River;NaturalEarth_10m_rivers
+IND;Godavari;1429;5;River;NaturalEarth_10m_rivers
+IND;Indus;462;3;River;NaturalEarth_10m_rivers
+IND;Jhelum;231;7;Lake Centerline;NaturalEarth_10m_rivers
+IND;Kaveri;788;7;Lake Centerline;NaturalEarth_10m_rivers
+IND;Kollidam;118;8;River;NaturalEarth_10m_rivers
+IND;Krishna;1185;6;Lake Centerline;NaturalEarth_10m_rivers
+IND;Luhit;227;8;River;NaturalEarth_10m_rivers
+IND;Mahanadi;783;6;River;NaturalEarth_10m_rivers
+IND;Mahi;455;7;River;NaturalEarth_10m_rivers
+IND;Mahäna Nadï;79;6;Lake Centerline;NaturalEarth_10m_rivers
+IND;Manas;121;7;River;NaturalEarth_10m_rivers
+IND;Narmada;1085;6;River;NaturalEarth_10m_rivers
+IND;Palar;318;8;River;NaturalEarth_10m_rivers
+IND;Penner;549;7;River;NaturalEarth_10m_rivers
+IND;Sankh;199;7;River;NaturalEarth_10m_rivers
+IND;Sapt;275;7;River;NaturalEarth_10m_rivers
+IND;Sutlej;555;6;Lake Centerline;NaturalEarth_10m_rivers
+IND;Tapti;606;7;River;NaturalEarth_10m_rivers
+IND;Teesta;227;7;River;NaturalEarth_10m_rivers
+IND;Tel;235;8;River;NaturalEarth_10m_rivers
+IND;Tungabhadra;602;8;Lake Centerline;NaturalEarth_10m_rivers
+IND;Wainganga;684;8;River;NaturalEarth_10m_rivers
+IND;Yamuna;1325;6;River;NaturalEarth_10m_rivers
+PNG;Fly;499;7;River;NaturalEarth_10m_rivers
+PNG;Purari;436;6;River;NaturalEarth_10m_rivers
+PNG;Sepik;879;7;River;NaturalEarth_10m_rivers
+PNG;nan;80;8;River;NaturalEarth_10m_rivers
+MNG;Ider;394;2;River;NaturalEarth_10m_rivers
+MNG;Onon;382;8;River;NaturalEarth_10m_rivers
+MNG;Orkhon;736;8;River;NaturalEarth_10m_rivers
+MNG;Selenga;464;2;River;NaturalEarth_10m_rivers
+MNG;Shishged;257;4;Lake Centerline;NaturalEarth_10m_rivers
+VEN;Apure;582;7;River;NaturalEarth_10m_rivers
+VEN;Caroní;808;7;Lake Centerline;NaturalEarth_10m_rivers
+VEN;Casiquiare canal;316;8;River;NaturalEarth_10m_rivers
+VEN;Cuyuni;377;7;River;NaturalEarth_10m_rivers
+VEN;Guárico;384;8;Lake Centerline;NaturalEarth_10m_rivers
+VEN;Meta;148;6;River;NaturalEarth_10m_rivers
+VEN;Orinoco;1774;3;River;NaturalEarth_10m_rivers
+VEN;Ventuari;412;8;River;NaturalEarth_10m_rivers
+SUR;Courantyne;79;7;River;NaturalEarth_10m_rivers
+SUR;Kabalebo;176;7;River;NaturalEarth_10m_rivers
+SUR;Litani;227;7;River;NaturalEarth_10m_rivers
+SUR;Maroni;245;7;River;NaturalEarth_10m_rivers
+SUR;Suriname;139;7;River;NaturalEarth_10m_rivers
+PRY;Paraná;665;4;Lake Centerline;NaturalEarth_10m_rivers
+PRY;Paraná River;825;2;River;NaturalEarth_10m_rivers
+PRY;Pilcomayo River;100;6;River;NaturalEarth_10m_rivers
+GUY;Courantyne;553;7;River;NaturalEarth_10m_rivers
+GUY;Cuyuni;260;7;River;NaturalEarth_10m_rivers
+GUY;Essequibo;792;7;River;NaturalEarth_10m_rivers
+ECU;Mira;144;8;River;NaturalEarth_10m_rivers
+ECU;Napo;396;7;River;NaturalEarth_10m_rivers
+ECU;Putumayo;112;7;River;NaturalEarth_10m_rivers
+ECU;Tumbes;172;7;River;NaturalEarth_10m_rivers
+COL;Atrato;491;7;River;NaturalEarth_10m_rivers
+COL;Japurá;1079;5;River;NaturalEarth_10m_rivers
+COL;Magdalena;1452;4;River;NaturalEarth_10m_rivers
+COL;Meta;759;6;River;NaturalEarth_10m_rivers
+COL;Mira;87;8;River;NaturalEarth_10m_rivers
+COL;Negro;1733;3;River;NaturalEarth_10m_rivers
+COL;Orinoco;302;3;River;NaturalEarth_10m_rivers
+COL;Putumayo;583;7;River;NaturalEarth_10m_rivers
+BOL;Beni;931;7;River;NaturalEarth_10m_rivers
+BOL;Grande;994;3;River;NaturalEarth_10m_rivers
+BOL;Guaporé;638;3;River;NaturalEarth_10m_rivers
+BOL;Madeira;99;3;River;NaturalEarth_10m_rivers
+BOL;Madre de Dios;578;6;River;NaturalEarth_10m_rivers
+BOL;Mamoré;620;3;River;NaturalEarth_10m_rivers
+BOL;Pilcomayo River;682;6;River;NaturalEarth_10m_rivers
+BOL;Yapacaní;288;8;River;NaturalEarth_10m_rivers
+BOL;nan;618;7;Lake Centerline;NaturalEarth_10m_rivers
+TJK;Pamir;100;5;River;NaturalEarth_10m_rivers
+TJK;Panj;536;5;River;NaturalEarth_10m_rivers
+TJK;Syr Dar;110;5;Lake Centerline;NaturalEarth_10m_rivers
+TJK;Zeravshan;271;8;River;NaturalEarth_10m_rivers
+URY;Negro;568;7;Lake Centerline;NaturalEarth_10m_rivers
+URY;nan;169;8;River;NaturalEarth_10m_rivers
+GTM;Chixoy;328;5;River;NaturalEarth_10m_rivers
+GTM;Cuilco;85;7;River;NaturalEarth_10m_rivers
+GTM;Motagua;375;8;River;NaturalEarth_10m_rivers
+HND;Coco;391;6;River;NaturalEarth_10m_rivers
+HND;Ula;275;7;River;NaturalEarth_10m_rivers
+DOM;Yaque del Norte;177;8;River;NaturalEarth_10m_rivers
+EGY;Damietta Branch;229;1;River;NaturalEarth_10m_rivers
+EGY;Ismailiya Canal;118;6;River;NaturalEarth_10m_rivers
+EGY;Nile;1279;1;River;NaturalEarth_10m_rivers
+EGY;Rosetta Branch;241;1;River;NaturalEarth_10m_rivers
+EGY;Suez Canal;163;6;Lake Centerline;NaturalEarth_10m_rivers
+EGY;nan;100;7;River;NaturalEarth_10m_rivers
+SLV;Lempa;265;7;Lake Centerline;NaturalEarth_10m_rivers
+IRN;Aras;84;8;River;NaturalEarth_10m_rivers
+IRN;Atrek;375;7;River;NaturalEarth_10m_rivers
+IRN;Hari;233;8;River;NaturalEarth_10m_rivers
+IRN;Helmand;53;6;River;NaturalEarth_10m_rivers
+IRN;Karkheh;806;8;River;NaturalEarth_10m_rivers
+IRN;Talkheh;241;8;River;NaturalEarth_10m_rivers
+IRQ;Atshan;56;7;River;NaturalEarth_10m_rivers
+IRQ;Euphrates;1070;3;River;NaturalEarth_10m_rivers
+IRQ;Hindiyah Channel;89;7;River;NaturalEarth_10m_rivers
+IRQ;Karkheh;58;8;River;NaturalEarth_10m_rivers
+IRQ;Shatt al Hillah;232;7;River;NaturalEarth_10m_rivers
+IRQ;Shatt al-Arab;163;3;River;NaturalEarth_10m_rivers
+IRQ;Shatt al-Hayy;223;4;River;NaturalEarth_10m_rivers
+IRQ;Tigris;1197;4;River;NaturalEarth_10m_rivers
+CRI;Chirripó Duchi;88;8;River;NaturalEarth_10m_rivers
+CRI;San Juan;61;5;River;NaturalEarth_10m_rivers
+ISR;Jordan;145;6;Lake Centerline;NaturalEarth_10m_rivers
+PAN;Panama Canal;60;6;Lake Centerline;NaturalEarth_10m_rivers
+PAN;Santa Maria;79;8;River;NaturalEarth_10m_rivers
+NIC;Coco;257;6;River;NaturalEarth_10m_rivers
+NIC;Grande de Matagalpa;403;7;River;NaturalEarth_10m_rivers
+NIC;Río Mico;173;8;River;NaturalEarth_10m_rivers
+NIC;San Juan;294;5;Lake Centerline;NaturalEarth_10m_rivers
+KGZ;Naryn;615;5;Lake Centerline;NaturalEarth_10m_rivers
+KGZ;Toxkan He;112;8;River;NaturalEarth_10m_rivers
+LAO;Cả;69;8;River;NaturalEarth_10m_rivers
+LAO;Kong;306;7;River;NaturalEarth_10m_rivers
+LAO;Mekong;1206;2;River;NaturalEarth_10m_rivers
+LAO;Nam Ou;413;7;River;NaturalEarth_10m_rivers
+LAO;Ngun;340;8;Lake Centerline;NaturalEarth_10m_rivers
+MYS;Bajang;386;7;River;NaturalEarth_10m_rivers
+MYS;Igan;102;7;River;NaturalEarth_10m_rivers
+MYS;Pahang;336;7;River;NaturalEarth_10m_rivers
+MYS;nan;322;8;River;NaturalEarth_10m_rivers
+NPL;Ghaghara;429;7;River;NaturalEarth_10m_rivers
+NPL;Sapt;184;7;River;NaturalEarth_10m_rivers
+PAK;Chenab;603;6;River;NaturalEarth_10m_rivers
+PAK;Indus;2404;3;River;NaturalEarth_10m_rivers
+PAK;Jhelum;529;7;Lake Centerline;NaturalEarth_10m_rivers
+PAK;Sutlej;489;6;River;NaturalEarth_10m_rivers
+LKA;Mahaweli;243;8;Lake Centerline;NaturalEarth_10m_rivers
+SYR;Euphrates;563;3;Lake Centerline;NaturalEarth_10m_rivers
+THA;Chao Phraya;614;7;River;NaturalEarth_10m_rivers
+THA;Chi;660;8;River;NaturalEarth_10m_rivers
+THA;Mae Klong;448;7;Lake Centerline;NaturalEarth_10m_rivers
+THA;Mekong;524;2;River;NaturalEarth_10m_rivers
+THA;Mun;573;8;River;NaturalEarth_10m_rivers
+THA;Ping;652;7;Lake Centerline;NaturalEarth_10m_rivers
+THA;Yom;673;7;Lake Centerline;NaturalEarth_10m_rivers
+THA;nan;89;8;River;NaturalEarth_10m_rivers
+TKM;Amu Darya;702;5;River;NaturalEarth_10m_rivers
+TKM;Atrek;158;7;River;NaturalEarth_10m_rivers
+TKM;Hari;233;8;River;NaturalEarth_10m_rivers
+VNM;Black;533;8;River;NaturalEarth_10m_rivers
+VNM;Cả;287;8;River;NaturalEarth_10m_rivers
+VNM;Krong;221;7;River;NaturalEarth_10m_rivers
+VNM;Mekong;290;2;River;NaturalEarth_10m_rivers
+VNM;Red;524;6;River;NaturalEarth_10m_rivers
+VNM;Zuo;98;8;River;NaturalEarth_10m_rivers
+VNM;nan;70;5;River;NaturalEarth_10m_rivers
+KOR;Han;56;7;River;NaturalEarth_10m_rivers
+KOR;Nakdong;411;8;River;NaturalEarth_10m_rivers
+KOR;Namhan;301;7;River;NaturalEarth_10m_rivers
+AFG;Amu Darya;96;5;River;NaturalEarth_10m_rivers
+AFG;Hari;544;8;River;NaturalEarth_10m_rivers
+AFG;Helmand;947;6;River;NaturalEarth_10m_rivers
+AFG;Panj;290;5;River;NaturalEarth_10m_rivers
+BGD;Brahmaputra;470;2;River;NaturalEarth_10m_rivers
+BGD;Ganges;1082;3;River;NaturalEarth_10m_rivers
+BGD;Teesta;139;7;River;NaturalEarth_10m_rivers
+BGD;nan;71;7;River;NaturalEarth_10m_rivers
+MLI;Bafing;351;4;River;NaturalEarth_10m_rivers
+MLI;Bakoy;110;8;River;NaturalEarth_10m_rivers
+MLI;Bani;409;7;River;NaturalEarth_10m_rivers
+MLI;Baoulé;1080;7;River;NaturalEarth_10m_rivers
+MLI;Niger;2054;3;River;NaturalEarth_10m_rivers
+MLI;Senegal;209;4;River;NaturalEarth_10m_rivers
+AGO;Cuando;776;7;River;NaturalEarth_10m_rivers
+AGO;Cuanza;986;7;River;NaturalEarth_10m_rivers
+AGO;Cunene;721;7;River;NaturalEarth_10m_rivers
+AGO;Inkisi;185;8;River;NaturalEarth_10m_rivers
+AGO;Kasai;545;3;River;NaturalEarth_10m_rivers
+AGO;Kwango;852;6;River;NaturalEarth_10m_rivers
+AGO;Kwilu;449;8;River;NaturalEarth_10m_rivers
+AGO;Lucala;401;8;River;NaturalEarth_10m_rivers
+AGO;Lungwebungu;451;8;River;NaturalEarth_10m_rivers
+AGO;Okavango;909;6;River;NaturalEarth_10m_rivers
+AGO;Zambezi;311;3;River;NaturalEarth_10m_rivers
+BTN;Manas;112;7;River;NaturalEarth_10m_rivers
+TZA;Great Ruaha;671;8;River;NaturalEarth_10m_rivers
+TZA;Kagera;204;1;River;NaturalEarth_10m_rivers
+TZA;Lukuga;55;8;Lake Centerline;NaturalEarth_10m_rivers
+TZA;Luwegu;235;7;River;NaturalEarth_10m_rivers
+TZA;Malagarasi;316;8;River;NaturalEarth_10m_rivers
+TZA;Pangani;353;7;Lake Centerline;NaturalEarth_10m_rivers
+TZA;Rufiji;377;7;River;NaturalEarth_10m_rivers
+TZA;Ruvuma;671;6;River;NaturalEarth_10m_rivers
+TZA;Ruzizi;129;7;Lake Centerline;NaturalEarth_10m_rivers
+TZA;Shama;214;8;River;NaturalEarth_10m_rivers
+TZA;Ugalla;279;8;River;NaturalEarth_10m_rivers
+PHL;Cagayan;359;8;River;NaturalEarth_10m_rivers
+CAF;Chari;209;6;River;NaturalEarth_10m_rivers
+CAF;Chinko;447;8;River;NaturalEarth_10m_rivers
+CAF;Kadeï;269;6;River;NaturalEarth_10m_rivers
+CAF;Kotto;812;7;River;NaturalEarth_10m_rivers
+CAF;Koukourou;187;6;River;NaturalEarth_10m_rivers
+CAF;Lobaye;490;8;River;NaturalEarth_10m_rivers
+CAF;Mbomou;550;7;River;NaturalEarth_10m_rivers
+CAF;Ouham;623;6;River;NaturalEarth_10m_rivers
+CAF;Uele;404;3;River;NaturalEarth_10m_rivers
+TGO;Oti;162;8;River;NaturalEarth_10m_rivers
+ZMB;Chambeshi;574;8;River;NaturalEarth_10m_rivers
+ZMB;Kabompo;532;7;River;NaturalEarth_10m_rivers
+ZMB;Kafue;1227;6;River;NaturalEarth_10m_rivers
+ZMB;Luangwa;889;8;River;NaturalEarth_10m_rivers
+ZMB;Luapula;143;8;River;NaturalEarth_10m_rivers
+ZMB;Lungwebungu;177;8;River;NaturalEarth_10m_rivers
+ZMB;Luvua;64;8;Lake Centerline;NaturalEarth_10m_rivers
+ZMB;Zambezi;1355;3;Lake Centerline;NaturalEarth_10m_rivers
+ZMB;nan;64;8;River;NaturalEarth_10m_rivers
+ZWE;Limpopo;137;6;River;NaturalEarth_10m_rivers
+ZWE;Mazowe;248;7;River;NaturalEarth_10m_rivers
+ZWE;Save;413;7;River;NaturalEarth_10m_rivers
+ZWE;Zambezi;130;3;River;NaturalEarth_10m_rivers
+MEX;Atengo;286;8;River;NaturalEarth_10m_rivers
+MEX;Balsas;997;7;River;NaturalEarth_10m_rivers
+MEX;Bavispe;165;8;River;NaturalEarth_10m_rivers
+MEX;Chixoy;65;5;River;NaturalEarth_10m_rivers
+MEX;Coatzacoalcos;174;8;Lake Centerline;NaturalEarth_10m_rivers
+MEX;Colorado;147;5;River;NaturalEarth_10m_rivers
+MEX;Conchos;620;7;Lake Centerline;NaturalEarth_10m_rivers
+MEX;Cuilco;51;7;River;NaturalEarth_10m_rivers
+MEX;Fuerte;273;8;Lake Centerline;NaturalEarth_10m_rivers
+MEX;Grande;986;4;Lake Centerline;NaturalEarth_10m_rivers
+MEX;Grande de Santiago;463;6;Lake Centerline;NaturalEarth_10m_rivers
+MEX;Grijalva;494;7;Lake Centerline;NaturalEarth_10m_rivers
+MEX;Lerma;526;8;Lake Centerline;NaturalEarth_10m_rivers
+MEX;Moctezuma River;428;8;River;NaturalEarth_10m_rivers
+MEX;Papaloapan;174;7;River;NaturalEarth_10m_rivers
+MEX;Pánuco;151;6;River;NaturalEarth_10m_rivers
+MEX;San Juan;284;8;Lake Centerline;NaturalEarth_10m_rivers
+MEX;San Miguel;118;8;River;NaturalEarth_10m_rivers
+MEX;San Pedro;433;8;River;NaturalEarth_10m_rivers
+MEX;Urique;205;8;River;NaturalEarth_10m_rivers
+MEX;Usumacinta;547;5;River;NaturalEarth_10m_rivers
+MEX;Verde;433;6;River;NaturalEarth_10m_rivers
+MEX;Yaqui;589;8;Lake Centerline;NaturalEarth_10m_rivers
+BEN;Niger;113;3;River;NaturalEarth_10m_rivers
+BEN;Oti;177;8;River;NaturalEarth_10m_rivers
+BEN;Ouémé;559;7;Lake Centerline;NaturalEarth_10m_rivers
+BWA;Cuando;103;7;River;NaturalEarth_10m_rivers
+BWA;Limpopo;351;6;River;NaturalEarth_10m_rivers
+BWA;Marico;132;7;River;NaturalEarth_10m_rivers
+BWA;Molopo;462;8;River;NaturalEarth_10m_rivers
+BWA;Okavango;804;6;River;NaturalEarth_10m_rivers
+BFA;Black Volta;891;5;River;NaturalEarth_10m_rivers
+BFA;Komoé;97;7;River;NaturalEarth_10m_rivers
+BFA;Oti;153;8;River;NaturalEarth_10m_rivers
+BFA;White Volta;545;6;River;NaturalEarth_10m_rivers
+BDI;Kagera;208;1;River;NaturalEarth_10m_rivers
+BDI;Ruzizi;138;7;Lake Centerline;NaturalEarth_10m_rivers
+COG;Alima;405;8;River;NaturalEarth_10m_rivers
+COG;Congo;704;2;River;NaturalEarth_10m_rivers
+COG;Dja;128;8;River;NaturalEarth_10m_rivers
+COG;Kouilou-Niari;634;8;River;NaturalEarth_10m_rivers
+COG;Ogooué;109;8;River;NaturalEarth_10m_rivers
+COG;Sangha;506;6;River;NaturalEarth_10m_rivers
+COG;Ubangi;541;3;River;NaturalEarth_10m_rivers
+GNQ;Benito;239;7;River;NaturalEarth_10m_rivers
+ERI;Tekezé;90;6;River;NaturalEarth_10m_rivers
+COD;Aruwimi;434;7;River;NaturalEarth_10m_rivers
+COD;Congo;1574;2;River;NaturalEarth_10m_rivers
+COD;Ebola;205;8;River;NaturalEarth_10m_rivers
+COD;Fimi;140;8;River;NaturalEarth_10m_rivers
+COD;Inkisi;171;8;River;NaturalEarth_10m_rivers
+COD;Ituri;522;7;River;NaturalEarth_10m_rivers
+COD;Kasai;1031;3;River;NaturalEarth_10m_rivers
+COD;Kibali;323;3;River;NaturalEarth_10m_rivers
+COD;Kwango;428;6;River;NaturalEarth_10m_rivers
+COD;Kwilu;696;8;River;NaturalEarth_10m_rivers
+COD;Lokoro;480;8;Lake Centerline;NaturalEarth_10m_rivers
+COD;Lomami;1651;7;River;NaturalEarth_10m_rivers
+COD;Lua Tributary;303;8;River;NaturalEarth_10m_rivers
+COD;Lualaba;1639;2;River;NaturalEarth_10m_rivers
+COD;Luapula;454;8;River;NaturalEarth_10m_rivers
+COD;Lufira;573;8;Lake Centerline;NaturalEarth_10m_rivers
+COD;Lukeni;829;8;River;NaturalEarth_10m_rivers
+COD;Lukuga;367;8;Lake Centerline;NaturalEarth_10m_rivers
+COD;Luvua;413;8;Lake Centerline;NaturalEarth_10m_rivers
+COD;Mbomou;247;7;River;NaturalEarth_10m_rivers
+COD;Mongala;273;8;River;NaturalEarth_10m_rivers
+COD;Ruzizi;138;7;Lake Centerline;NaturalEarth_10m_rivers
+COD;Sankuru;1238;8;River;NaturalEarth_10m_rivers
+COD;Semliki;402;6;Lake Centerline;NaturalEarth_10m_rivers
+COD;Tshuapa;1075;6;River;NaturalEarth_10m_rivers
+COD;Uele;1069;3;River;NaturalEarth_10m_rivers
+MMR;Chindwin;1106;7;River;NaturalEarth_10m_rivers
+MMR;Derung-Nmai;355;4;River;NaturalEarth_10m_rivers
+MMR;Irrawaddy;2470;1;River;NaturalEarth_10m_rivers
+MMR;Mekong;239;2;River;NaturalEarth_10m_rivers
+MMR;Mytinge;443;8;River;NaturalEarth_10m_rivers
+MMR;Salween;1216;4;River;NaturalEarth_10m_rivers
+MMR;Sittong;433;7;River;NaturalEarth_10m_rivers

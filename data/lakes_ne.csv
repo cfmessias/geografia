@@ -1,0 +1,1427 @@
+iso3;lake_name;area_km2;lat;lon;scalerank;featurecla;source
+AFG;Amu Dária;;40.156505587945496;62.78015846005301;5;River;NaturalEarth_10m_rivers_lake_centerlines
+AFG;Hari;;35.28945471470566;62.60267778532738;8;River;NaturalEarth_10m_rivers_lake_centerlines
+AFG;Helmand;;32.12733159479387;64.85381666030874;6;River;NaturalEarth_10m_rivers_lake_centerlines
+AFG;Pamir;;37.32884408354517;73.09494614976572;5;River;NaturalEarth_10m_rivers_lake_centerlines
+AFG;Panj;;37.52663501871302;70.50391614704928;5;River;NaturalEarth_10m_rivers_lake_centerlines
+AGO;Cassai;;-6.1295236382370515;20.366465231485208;3;River;NaturalEarth_10m_rivers_lake_centerlines
+AGO;Congo;;-1.0208138144089505;18.17520320818544;2;River;NaturalEarth_10m_rivers_lake_centerlines
+AGO;Cuando;;-15.766751937659272;21.46390074528984;7;River;NaturalEarth_10m_rivers_lake_centerlines
+AGO;Cuango;;-7.373136588795622;17.47130873821474;6;River;NaturalEarth_10m_rivers_lake_centerlines
+AGO;Cuanza;;-10.724346642482885;16.137888889060342;7;River;NaturalEarth_10m_rivers_lake_centerlines
+AGO;Cubango;;-16.000611361562957;18.022030322476645;6;River;NaturalEarth_10m_rivers_lake_centerlines
+AGO;Cuito;;-15.582469980253054;19.200609668568426;9;River;NaturalEarth_10m_rivers_lake_centerlines
+AGO;Cunene;;-17.19714807890615;14.633034116550322;7;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+AGO;Cuílo;;-6.712076706441085;18.97093379041501;8;River;NaturalEarth_10m_rivers_lake_centerlines
+AGO;Inkisi;;-5.941305064900079;15.205954999059768;8;River;NaturalEarth_10m_rivers_lake_centerlines
+AGO;Lucala;;-8.907805514867405;15.419632104445217;8;River;NaturalEarth_10m_rivers_lake_centerlines
+AGO;Lungué-Bungo;;-13.052660032741926;20.939764668292487;8;River;NaturalEarth_10m_rivers_lake_centerlines
+AGO;Zambeze;;-15.730759026851834;27.74869558669833;3;River;NaturalEarth_10m_rivers_lake_centerlines
+ALB;Bojana;;41.97410172255585;19.402453000990295;9;River;NaturalEarth_10m_rivers_lake_centerlines
+ALB;Drin;;41.88804259224195;20.1231997270931;9;River;NaturalEarth_10m_rivers_lake_centerlines
+ARG;Bermejo;;-24.515391836822225;-61.78304186304708;8;River;NaturalEarth_10m_rivers_lake_centerlines
+ARG;Carcarañá;;-32.81563767522929;-61.76625130978212;9;River;NaturalEarth_10m_rivers_lake_centerlines
+ARG;Chico;;-48.84075836791225;-70.35514492864719;9;River;NaturalEarth_10m_rivers_lake_centerlines
+ARG;Chubut;;-43.386542711702134;-68.35830420896568;6;River;NaturalEarth_10m_rivers_lake_centerlines
+ARG;Colorado;;-37.984327520656315;-66.90348186190175;5;River;NaturalEarth_10m_rivers_lake_centerlines
+ARG;Desaguadero;;-35.9848136909424;-66.51460437018117;6;River;NaturalEarth_10m_rivers_lake_centerlines
+ARG;Deseado;;-46.94652777924419;-68.67695925101293;7;River;NaturalEarth_10m_rivers_lake_centerlines
+ARG;Dulce;;-28.205187491231285;-64.08638866591392;8;River;NaturalEarth_10m_rivers_lake_centerlines
+ARG;Gallegos;;-51.81965868280175;-70.99211605463677;9;River;NaturalEarth_10m_rivers_lake_centerlines
+ARG;Limay;;-39.47722972409427;-69.02242549802084;8;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+ARG;Mendoza;;-31.93192623195962;-69.71288094869296;6;River;NaturalEarth_10m_rivers_lake_centerlines
+ARG;Negro;;-39.76232970273731;-65.3020602607322;4;River;NaturalEarth_10m_rivers_lake_centerlines
+ARG;Neuquén;;-37.941048626250726;-69.62887175879348;4;River;NaturalEarth_10m_rivers_lake_centerlines
+ARG;Paraná;;-24.65805406924312;-54.51321404837449;4;River;NaturalEarth_10m_rivers_lake_centerlines
+ARG;Pilcomayo;;-22.14140954476505;-62.3857019352311;6;River;NaturalEarth_10m_rivers_lake_centerlines
+ARG;Salado;;-35.25570424166057;-59.51488434965414;7;River;NaturalEarth_10m_rivers_lake_centerlines
+ARG;San Juan;;-31.776261087508963;-68.40413630488685;6;River;NaturalEarth_10m_rivers_lake_centerlines
+ARG;Santa Cruz;;-50.1829112719537;-70.46420589883816;5;River;NaturalEarth_10m_rivers_lake_centerlines
+ARG;Tercero;;-32.30399665398474;-63.653641437103595;9;River;NaturalEarth_10m_rivers_lake_centerlines
+ARG;Uruguai;;-28.60226182576512;-54.52646892757439;6;River;NaturalEarth_10m_rivers_lake_centerlines
+ARM;Arax;;39.61449046761013;45.67436064657601;8;River;NaturalEarth_10m_rivers_lake_centerlines
+AUS;Barwon;;-29.23312519176145;148.9238987926305;3;River;NaturalEarth_10m_rivers_lake_centerlines
+AUS;Blackwood;;-33.615888769457435;116.80470645395447;6;River (Intermittent);NaturalEarth_10m_rivers_lake_centerlines
+AUS;Burdekin;;-20.61317428223079;147.04386671624604;5;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+AUS;Burnett;;-24.825357251180407;152.36404487102482;8;River;NaturalEarth_10m_rivers_lake_centerlines
+AUS;Daly;;-13.945527188444348;131.03209279487464;6;River;NaturalEarth_10m_rivers_lake_centerlines
+AUS;Darling;;-31.532059836470378;144.1490281716229;3;River;NaturalEarth_10m_rivers_lake_centerlines
+AUS;Derwent;;-42.52582302478867;146.6973691987294;5;River;NaturalEarth_10m_rivers_lake_centerlines
+AUS;Fitzroy;;-18.00417383936279;125.51817221009594;6;River (Intermittent);NaturalEarth_10m_rivers_lake_centerlines
+AUS;Katherine;;-14.096461217348793;132.6178193207947;6;River (Intermittent);NaturalEarth_10m_rivers_lake_centerlines
+AUS;Lachlan;;-33.783686529850335;146.42668915649114;4;River;NaturalEarth_10m_rivers_lake_centerlines
+AUS;Macintyre;;-29.296139157135723;150.98047413917462;5;River;NaturalEarth_10m_rivers_lake_centerlines
+AUS;Mackenzie;;-23.79929636551177;148.9356615303182;5;River;NaturalEarth_10m_rivers_lake_centerlines
+AUS;Macquarie;;-31.991334361314763;148.3951089015734;4;River;NaturalEarth_10m_rivers_lake_centerlines
+AUS;Murray;;-36.040271934943085;146.7106806049171;4;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+AUS;None;;-16.484457070032374;144.07384814041683;5;River (Intermittent);NaturalEarth_10m_rivers_lake_centerlines
+AUS;Ord;;-16.45121813533313;128.73009693261923;6;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+AUS;Roper;;-14.770128498688122;133.53450042498778;6;River (Intermittent);NaturalEarth_10m_rivers_lake_centerlines
+AUS;Swan;;-31.981099090303832;116.71697553910946;5;River;NaturalEarth_10m_rivers_lake_centerlines
+AUS;Tamar;;-41.25016433417584;146.95874504279732;5;River;NaturalEarth_10m_rivers_lake_centerlines
+AUS;Victoria;;-16.482702251935212;130.9721365271424;6;River (Intermittent);NaturalEarth_10m_rivers_lake_centerlines
+AUS;Weir;;-28.854957592452557;151.21831353181622;3;River;NaturalEarth_10m_rivers_lake_centerlines
+AUT;Danúbio;;48.44200985035113;12.669786905080507;2;River;NaturalEarth_10m_rivers_lake_centerlines
+AUT;Drava;;46.595541537979564;14.588984585728197;7;River;NaturalEarth_10m_rivers_lake_centerlines
+AUT;Inn;;47.55152878817642;11.648701614056034;8;River;NaturalEarth_10m_rivers_lake_centerlines
+AUT;Morava;;49.213284314643346;17.11662763951768;8;River;NaturalEarth_10m_rivers_lake_centerlines
+AUT;Mur;;46.56414978736015;16.190908826940948;6;River;NaturalEarth_10m_rivers_lake_centerlines
+AUT;Reno;;47.63110001112141;9.235863232785148;4;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+AZE;Arax;;39.61449046761013;45.67436064657601;8;River;NaturalEarth_10m_rivers_lake_centerlines
+AZE;Kura;;40.895873594760126;45.66132897865789;8;River;NaturalEarth_10m_rivers_lake_centerlines
+BDI;Kagera;;-2.0276322741041857;30.678564049109095;1;River;NaturalEarth_10m_rivers_lake_centerlines
+BDI;Ruzizi;;-4.392478749136154;29.377247688155936;7;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+BEL;Escalda;;50.70908669578718;3.6752425565598372;8;River;NaturalEarth_10m_rivers_lake_centerlines
+BEL;Mosa;;50.12848226599765;5.39401446126368;8;River;NaturalEarth_10m_rivers_lake_centerlines
+BEN;Níger;;11.936020717309985;-0.843297936737357;3;River;NaturalEarth_10m_rivers_lake_centerlines
+BEN;Oti;;10.408816651102448;0.8399011224913744;8;River;NaturalEarth_10m_rivers_lake_centerlines
+BEN;Ouémé;;6.417994768140302;2.5480247889239136;7;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+BFA;Komoé;;8.180472632407493;-4.0877415448230465;7;River;NaturalEarth_10m_rivers_lake_centerlines
+BFA;Oti;;10.408816651102448;0.8399011224913744;8;River;NaturalEarth_10m_rivers_lake_centerlines
+BFA;Volta Branco;;11.467886511517868;-1.1324310844810617;6;River;NaturalEarth_10m_rivers_lake_centerlines
+BFA;Volta Negro;;10.752776031766674;-3.106400010875752;5;River;NaturalEarth_10m_rivers_lake_centerlines
+BGD;Balak;;24.73897289404868;92.43994437015601;9;River;NaturalEarth_10m_rivers_lake_centerlines
+BGD;Bramaputra;;25.90485181092806;91.87130842438644;2;River;NaturalEarth_10m_rivers_lake_centerlines
+BGD;Ganges;;25.240705872444916;85.25818163867677;3;River;NaturalEarth_10m_rivers_lake_centerlines
+BGD;None;;22.453674514053866;92.06099737659498;9;River;NaturalEarth_10m_rivers_lake_centerlines
+BGD;Tista;;26.54244858226171;88.89430263403766;7;River;NaturalEarth_10m_rivers_lake_centerlines
+BGR;Danúbio;;45.169057580217235;22.533098991191267;2;River;NaturalEarth_10m_rivers_lake_centerlines
+BGR;Maritsa;;41.76706844355747;25.554940974531767;7;River;NaturalEarth_10m_rivers_lake_centerlines
+BGR;Struma;;41.738801788356014;23.18568303115163;9;River;NaturalEarth_10m_rivers_lake_centerlines
+BIH;Drina;;43.79490825022587;19.231427663516854;8;River;NaturalEarth_10m_rivers_lake_centerlines
+BIH;Sava;;45.19748348941773;17.923245633270188;7;River;NaturalEarth_10m_rivers_lake_centerlines
+BLR;Bug Ocidental;;51.62008582347169;23.181604995151933;8;River;NaturalEarth_10m_rivers_lake_centerlines
+BLR;Dniepre;;51.95063030988256;31.62447816019225;4;River;NaturalEarth_10m_rivers_lake_centerlines
+BLR;Duína Ocidental;;55.94927255371611;28.635921233657253;5;River;NaturalEarth_10m_rivers_lake_centerlines
+BLR;Mukhavyets;;51.935538216874185;24.106651421989817;8;River;NaturalEarth_10m_rivers_lake_centerlines
+BLR;Neris;;54.744441491825235;25.822849226709714;7;River;NaturalEarth_10m_rivers_lake_centerlines
+BLR;None;;56.69163838066107;30.887554394146058;9;River;NaturalEarth_10m_rivers_lake_centerlines
+BLR;Pripiat;;51.9411196460992;28.219076756924814;7;River;NaturalEarth_10m_rivers_lake_centerlines
+BOL;Beni;;-13.9434343606078;-67.07385472288796;7;River;NaturalEarth_10m_rivers_lake_centerlines
+BOL;Bermejo;;-24.515391836822225;-61.78304186304708;8;River;NaturalEarth_10m_rivers_lake_centerlines
+BOL;Grande;;-17.85198145264794;-64.07317895252773;3;River;NaturalEarth_10m_rivers_lake_centerlines
+BOL;Guaporé;;-13.557547660229378;-61.74697184332095;7;River;NaturalEarth_10m_rivers_lake_centerlines
+BOL;Madeira;;-6.91589572302861;-62.30620003142857;3;River;NaturalEarth_10m_rivers_lake_centerlines
+BOL;Madre de Deus;;-11.793643970325677;-68.73581394000125;6;River;NaturalEarth_10m_rivers_lake_centerlines
+BOL;Mamoré;;-13.797341956158977;-65.07140380443536;3;River;NaturalEarth_10m_rivers_lake_centerlines
+BOL;None;;-17.548559746488696;-57.81147432778967;8;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+BOL;Paraná;;-24.456404667226696;-58.14491521445756;2;River;NaturalEarth_10m_rivers_lake_centerlines
+BOL;Pilcomayo;;-22.14140954476505;-62.3857019352311;6;River;NaturalEarth_10m_rivers_lake_centerlines
+BOL;San Martín;;-13.905299349225984;-62.90688366128501;9;River;NaturalEarth_10m_rivers_lake_centerlines
+BOL;San Miguel;;-15.26606594584822;-63.234314981293835;9;River;NaturalEarth_10m_rivers_lake_centerlines
+BOL;Yapacani;;-16.78977459126753;-64.54542599006948;8;River;NaturalEarth_10m_rivers_lake_centerlines
+BRA;Amapari;;1.2488974493616984;-51.33465829331802;7;River;NaturalEarth_10m_rivers_lake_centerlines
+BRA;Amazonas;;-2.241803124749434;-54.2537752000524;1;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+BRA;Araguaia;;-11.362202935146165;-50.46818319057522;4;River;NaturalEarth_10m_rivers_lake_centerlines
+BRA;Aripuanã;;-7.4010949205062815;-60.611443598082005;9;River;NaturalEarth_10m_rivers_lake_centerlines
+BRA;Bois;;-18.464335305499322;-50.054484817367026;9;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+BRA;Branco;;2.1419538686553485;-61.89434092036083;6;River;NaturalEarth_10m_rivers_lake_centerlines
+BRA;Coari;;-5.046753102436049;-64.3749675569874;9;River;NaturalEarth_10m_rivers_lake_centerlines
+BRA;Contas;;-13.957459398338647;-40.55155292344287;8;River;NaturalEarth_10m_rivers_lake_centerlines
+BRA;Corumbá;;-18.213568635547187;-48.78835984432815;8;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+BRA;Culuene;;-13.354920463405195;-53.447895394065526;5;River;NaturalEarth_10m_rivers_lake_centerlines
+BRA;Doce;;-19.74071963826515;-41.99708511159989;7;River;NaturalEarth_10m_rivers_lake_centerlines
+BRA;Grande;;-20.472133870583257;-47.508904789233036;5;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+BRA;Guaporé;;-13.557547660229378;-61.74697184332095;7;River;NaturalEarth_10m_rivers_lake_centerlines
+BRA;Gurupi;;-3.1334642282344265;-46.77571240143929;7;River;NaturalEarth_10m_rivers_lake_centerlines
+BRA;Ibicuí;;-29.571466132012763;-55.35587047398049;8;River;NaturalEarth_10m_rivers_lake_centerlines
+BRA;Indaiá;;-19.862574761888805;-45.66703778514322;4;River;NaturalEarth_10m_rivers_lake_centerlines
+BRA;Iriri;;-6.797369579780878;-53.81360999799943;7;River;NaturalEarth_10m_rivers_lake_centerlines
+BRA;Itiquira;;-16.687023238218874;-55.182463676488936;8;River;NaturalEarth_10m_rivers_lake_centerlines
+BRA;Ituxi;;-8.718565092822358;-66.08204371382;8;River;NaturalEarth_10m_rivers_lake_centerlines
+BRA;Ivaí;;-24.010888675311687;-52.04661725247084;9;River;NaturalEarth_10m_rivers_lake_centerlines
+BRA;Ivinhema;;-22.040074645398473;-54.24983315527117;8;River;NaturalEarth_10m_rivers_lake_centerlines
+BRA;Içá;;-1.566534030710978;-72.61254605724528;7;River;NaturalEarth_10m_rivers_lake_centerlines
+BRA;Jamanxim;;-11.119103360126903;-56.041680555125446;7;River;NaturalEarth_10m_rivers_lake_centerlines
+BRA;Japurá;;-1.9243405839070524;-66.90162438423806;5;River;NaturalEarth_10m_rivers_lake_centerlines
+BRA;Jari;;0.596602246221071;-53.36307084105793;7;River;NaturalEarth_10m_rivers_lake_centerlines
+BRA;Javari;;-5.1013344829098655;-72.04699463744026;8;River;NaturalEarth_10m_rivers_lake_centerlines
+BRA;Javaés;;-11.347625457503787;-50.04293678311018;4;River;NaturalEarth_10m_rivers_lake_centerlines
+BRA;Jequitinhonha;;-16.74374137953085;-41.69428088816743;6;River;NaturalEarth_10m_rivers_lake_centerlines
+BRA;Ji-Paraná;;-10.309022106347308;-61.70009334174348;8;River;NaturalEarth_10m_rivers_lake_centerlines
+BRA;Juruena;;-12.721447612559277;-58.882871101061205;5;River;NaturalEarth_10m_rivers_lake_centerlines
+BRA;Juruá;;-6.425341967170673;-69.57983447766313;7;River;NaturalEarth_10m_rivers_lake_centerlines
+BRA;Jutaí;;-4.266605964079676;-68.0702001182942;9;River;NaturalEarth_10m_rivers_lake_centerlines
+BRA;Madeira;;-6.91589572302861;-62.30620003142857;3;River;NaturalEarth_10m_rivers_lake_centerlines
+BRA;Maicuru;;-0.3287752657603552;-54.643990539086644;8;River;NaturalEarth_10m_rivers_lake_centerlines
+BRA;Mearim;;-3.819605725050372;-44.662767636413406;8;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+BRA;Miranda;;-20.476562061337127;-56.459316391828985;9;River;NaturalEarth_10m_rivers_lake_centerlines
+BRA;Negro;;-32.60210513109827;-56.20369882482754;7;River;NaturalEarth_10m_rivers_lake_centerlines
+BRA;Nhamundá;;-1.9409618706958462;-59.23663543683009;8;River;NaturalEarth_10m_rivers_lake_centerlines
+BRA;None;;-33.20994215679181;-53.855501792570784;8;River;NaturalEarth_10m_rivers_lake_centerlines
+BRA;Paranapanema;;-23.04993680525719;-49.976076197803806;7;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+BRA;Paranaíba;;-18.4883778408028;-48.991043171147076;4;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+BRA;Paraná;;-22.573722847251865;-52.8371241265635;4;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+BRA;Paraíba;;-22.449694545894143;-43.961103012592915;6;River;NaturalEarth_10m_rivers_lake_centerlines
+BRA;Pardo;;-21.179760342748654;-47.49807683390087;9;River;NaturalEarth_10m_rivers_lake_centerlines
+BRA;Parnaíba;;-6.418127451556151;-43.91366978871595;7;River;NaturalEarth_10m_rivers_lake_centerlines
+BRA;Piauí;;-8.01087041031557;-42.60432345199467;8;River;NaturalEarth_10m_rivers_lake_centerlines
+BRA;Purus;;-7.444816049700561;-66.32027837645633;6;River;NaturalEarth_10m_rivers_lake_centerlines
+BRA;Ribeira;;-24.66971735867085;-48.611297693983346;8;River;NaturalEarth_10m_rivers_lake_centerlines
+BRA;Rio das Mortes;;-13.425647015883449;-51.454334371786395;9;River;NaturalEarth_10m_rivers_lake_centerlines
+BRA;São Francisco;;-12.102674796202903;-42.830350774196255;4;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+BRA;São Manuel;;-12.542881576167758;-57.894034227324624;9;River;NaturalEarth_10m_rivers_lake_centerlines
+BRA;Tapajós;;-6.491577501240721;-57.306167184722824;5;River;NaturalEarth_10m_rivers_lake_centerlines
+BRA;Taquari;;-18.371955165823767;-55.44133644710361;9;River;NaturalEarth_10m_rivers_lake_centerlines
+BRA;Tietê;;-21.42898472371305;-49.799598661296955;8;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+BRA;Tocantins;;-10.460069801855164;-48.31962573907876;6;River;NaturalEarth_10m_rivers_lake_centerlines
+BRA;Trombetas;;-1.5343497474502086;-56.198242863277905;7;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+BRA;Uaupés;;0.6918082252641025;-69.4221389635988;9;River;NaturalEarth_10m_rivers_lake_centerlines
+BRA;Una;;-8.304177033349452;-35.93551312443002;8;River;NaturalEarth_10m_rivers_lake_centerlines
+BRA;Unini;;-1.7067992868190893;-63.167431268275045;9;River;NaturalEarth_10m_rivers_lake_centerlines
+BRA;Uruguai;;-28.60226182576512;-54.52646892757439;6;River;NaturalEarth_10m_rivers_lake_centerlines
+BRA;Velhas;;-18.649546324634652;-44.227765841379956;7;River;NaturalEarth_10m_rivers_lake_centerlines
+BRA;Verde;;-20.182090426263617;-52.968150458831786;9;River;NaturalEarth_10m_rivers_lake_centerlines
+BRA;Xingu;;-6.507705339475046;-52.46958816556879;5;River;NaturalEarth_10m_rivers_lake_centerlines
+BRN;Baram;;3.625227331417506;114.67042769077318;9;River;NaturalEarth_10m_rivers_lake_centerlines
+BTN;Manas;;27.17957486523379;91.31690484797545;7;River;NaturalEarth_10m_rivers_lake_centerlines
+BWA;Cuando;;-15.766751937659272;21.46390074528984;7;River;NaturalEarth_10m_rivers_lake_centerlines
+BWA;Cubango;;-19.597419694303053;23.245559847505422;6;River;NaturalEarth_10m_rivers_lake_centerlines
+BWA;Limpopo;;-23.193699542329636;30.535969846621576;6;River;NaturalEarth_10m_rivers_lake_centerlines
+BWA;Marico;;-24.36445832759101;26.67050992797176;7;River;NaturalEarth_10m_rivers_lake_centerlines
+BWA;Molopo;;-26.452440919930552;22.406606793693527;8;River;NaturalEarth_10m_rivers_lake_centerlines
+BWA;None;;-20.309891980489365;23.048996909842103;9;River;NaturalEarth_10m_rivers_lake_centerlines
+BWA;Notwane;;-24.308302712679254;26.311072344262072;9;River;NaturalEarth_10m_rivers_lake_centerlines
+BWA;Zambeze;;-15.730759026851834;27.74869558669833;3;River;NaturalEarth_10m_rivers_lake_centerlines
+CAF;Aoukalé;;10.370096427567658;21.729971427795046;8;River;NaturalEarth_10m_rivers_lake_centerlines
+CAF;Bahr Aouk;;9.104871712663991;19.87588883350079;8;River;NaturalEarth_10m_rivers_lake_centerlines
+CAF;Chari;;8.1204809547195;19.306638267138304;6;River;NaturalEarth_10m_rivers_lake_centerlines
+CAF;Chinko;;6.28511925228891;24.284617495139447;8;River;NaturalEarth_10m_rivers_lake_centerlines
+CAF;Kadéï;;3.803415300609818;15.310265080561187;6;River;NaturalEarth_10m_rivers_lake_centerlines
+CAF;Kotto;;6.631992410704767;22.526372701454896;7;River;NaturalEarth_10m_rivers_lake_centerlines
+CAF;Koukourou;;7.205590816576371;20.28603049133037;6;River;NaturalEarth_10m_rivers_lake_centerlines
+CAF;Lobaye;;4.57786196995233;17.050748917835115;8;River;NaturalEarth_10m_rivers_lake_centerlines
+CAF;Lom;;5.692628296415968;13.97253662424657;6;River;NaturalEarth_10m_rivers_lake_centerlines
+CAF;Mbomou;;4.954782772245741;24.782657087549126;7;River;NaturalEarth_10m_rivers_lake_centerlines
+CAF;Ouham;;7.2321298414982875;17.288246309127047;6;River;NaturalEarth_10m_rivers_lake_centerlines
+CAF;Ubangui;;1.6100120251499257;18.111798272846517;3;River;NaturalEarth_10m_rivers_lake_centerlines
+CAF;Uele;;4.031603974068163;23.413331990951026;3;River;NaturalEarth_10m_rivers_lake_centerlines
+CAN;Albany;;51.5048442931594;-86.69983265297456;6;River;NaturalEarth_10m_rivers_lake_centerlines
+CAN;Anderson;;66.93595646838533;-124.57654799372995;8;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+CAN;Arctic Red;;65.99705782543967;-132.13889995805508;7;River;NaturalEarth_10m_rivers_lake_centerlines
+CAN;Arnaud;;59.70111446164247;-72.31913481332806;8;River;NaturalEarth_10m_rivers_lake_centerlines
+CAN;Assiniboine;;50.50796717083936;-100.35248357792952;8;River;NaturalEarth_10m_rivers_lake_centerlines
+CAN;Athabasca;;58.66668587000328;-111.1191755560397;5;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+CAN;Babine;;55.593798547899596;-127.10791890845496;8;River;NaturalEarth_10m_rivers_lake_centerlines
+CAN;Back;;65.79193688975045;-100.86265967658905;6;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+CAN;Beaver;;54.478805612242724;-109.88602587695452;6;River;NaturalEarth_10m_rivers_lake_centerlines
+CAN;Bell;;48.59787207797011;-76.38286506306054;7;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+CAN;Burnside;;66.4525684923705;-109.70193960148956;8;River;NaturalEarth_10m_rivers_lake_centerlines
+CAN;Caniapiscau;;55.08458383547846;-69.47146889757369;7;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+CAN;Churchill;;56.43397627963255;-100.8725965699279;7;River;NaturalEarth_10m_rivers_lake_centerlines
+CAN;Columbia;;50.13830879242609;-117.99675260381426;3;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+CAN;Connecticut;;43.380463951642;-72.18686272898691;7;River;NaturalEarth_10m_rivers_lake_centerlines
+CAN;Coppermine;;65.22283087413805;-113.17033874968938;6;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+CAN;Cree;;58.40094567627667;-105.79182450270343;8;River;NaturalEarth_10m_rivers_lake_centerlines
+CAN;Donjek;;62.104457108910836;-139.59547740477842;7;River;NaturalEarth_10m_rivers_lake_centerlines
+CAN;Eastmain;;52.18071859401369;-75.30384409498276;7;River;NaturalEarth_10m_rivers_lake_centerlines
+CAN;Ekwan;;53.404583048789625;-84.8564337883591;8;River;NaturalEarth_10m_rivers_lake_centerlines
+CAN;English;;50.273697201655985;-93.04375411535976;8;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+CAN;Exploits;;48.90444926143642;-55.98067074772272;8;River;NaturalEarth_10m_rivers_lake_centerlines
+CAN;Finlay;;57.260003912311845;-126.06805844450113;6;River;NaturalEarth_10m_rivers_lake_centerlines
+CAN;Flathead;;48.250344606417414;-114.32851629337397;8;River;NaturalEarth_10m_rivers_lake_centerlines
+CAN;Fraser;;56.6769155268528;-63.13681376860864;8;River;NaturalEarth_10m_rivers_lake_centerlines
+CAN;French;;46.066592919267485;-80.51503360058197;8;River;NaturalEarth_10m_rivers_lake_centerlines
+CAN;Gatineau;;46.07539002685514;-75.92448003050747;8;River;NaturalEarth_10m_rivers_lake_centerlines
+CAN;George;;56.786012888229465;-65.21935017928072;7;River;NaturalEarth_10m_rivers_lake_centerlines
+CAN;Gods;;55.52969401701554;-92.87603088982324;8;River;NaturalEarth_10m_rivers_lake_centerlines
+CAN;Grand;;43.342071790007076;-80.19291694227205;8;River;NaturalEarth_10m_rivers_lake_centerlines
+CAN;Grande rivière de la Baleine;;55.087633531385634;-75.77498868556738;7;River;NaturalEarth_10m_rivers_lake_centerlines
+CAN;Groundhog;;49.153221959019206;-82.0766715306139;7;River;NaturalEarth_10m_rivers_lake_centerlines
+CAN;Harricana;;49.29241089957399;-78.34911041165003;9;River;NaturalEarth_10m_rivers_lake_centerlines
+CAN;Hayes;;56.673391431987845;-92.6747653806128;8;River;NaturalEarth_10m_rivers_lake_centerlines
+CAN;Ivanhoe;;48.235721803269485;-82.56204767777463;7;River;NaturalEarth_10m_rivers_lake_centerlines
+CAN;Kaban;;62.32502470633798;-101.16812189432773;8;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+CAN;Kazan;;61.69777999366465;-101.45493732921707;8;River;NaturalEarth_10m_rivers_lake_centerlines
+CAN;Keele;;64.01032916442314;-127.22787078470199;9;River;NaturalEarth_10m_rivers_lake_centerlines
+CAN;Koksoak;;57.72590456131733;-69.42201765255506;7;River;NaturalEarth_10m_rivers_lake_centerlines
+CAN;La Grande;;53.648682290011855;-75.12822736601423;4;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+CAN;Liard;;60.328875824738184;-125.86922778562007;6;River;NaturalEarth_10m_rivers_lake_centerlines
+CAN;Mackenzie;;61.19480585338688;-115.69280030407069;2;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+CAN;Manicouagan;;50.883953799834195;-68.85708345062403;7;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+CAN;Mattagami;;50.24745024224209;-81.91889633011135;7;River;NaturalEarth_10m_rivers_lake_centerlines
+CAN;Miramichi;;46.66422645814222;-66.33203930352872;9;River;NaturalEarth_10m_rivers_lake_centerlines
+CAN;Missinaibi;;49.819526855776246;-82.85806825051424;9;River;NaturalEarth_10m_rivers_lake_centerlines
+CAN;Mlzes;;57.17258627710176;-71.78674328906166;7;River;NaturalEarth_10m_rivers_lake_centerlines
+CAN;Moose;;50.867155708604855;-81.23586608108826;7;River;NaturalEarth_10m_rivers_lake_centerlines
+CAN;Nahanni do Sul;;61.90634343224268;-126.51658520720652;9;River;NaturalEarth_10m_rivers_lake_centerlines
+CAN;Natashquan;;51.51670797875312;-62.06599412582849;7;River;NaturalEarth_10m_rivers_lake_centerlines
+CAN;Nechako;;53.94398657149033;-123.95068835882046;7;River;NaturalEarth_10m_rivers_lake_centerlines
+CAN;Nelson;;55.270715917261775;-96.84674512432498;4;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+CAN;Niágara;;43.19109784414499;-79.05475953987549;3;River;NaturalEarth_10m_rivers_lake_centerlines
+CAN;None;;55.53977823685042;-107.97457220498107;8;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+CAN;North Saskatchewan;;53.10458290638623;-111.46039546419347;4;River;NaturalEarth_10m_rivers_lake_centerlines
+CAN;Nottaway;;50.378161682161675;-77.84998254333273;7;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+CAN;Ottawa;;47.18712491700418;-79.42180619447187;6;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+CAN;Peace;;56.27912147185492;-123.20186427780332;2;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+CAN;Pelly;;62.40381232188112;-134.01790368160903;8;River;NaturalEarth_10m_rivers_lake_centerlines
+CAN;Pend Oreille;;48.54080297414062;-117.1817945999341;6;River;NaturalEarth_10m_rivers_lake_centerlines
+CAN;Porcupine;;67.00598584818704;-140.67447066241468;6;River;NaturalEarth_10m_rivers_lake_centerlines
+CAN;Péribonka;;49.819543409591766;-71.47667013337991;7;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+CAN;Rainy;;48.73726187120702;-92.47665707357372;6;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+CAN;Richelieu;;45.562298097657866;-73.21618958751337;8;River;NaturalEarth_10m_rivers_lake_centerlines
+CAN;Rio Alsek;;60.12488855634533;-137.7906934589063;6;River;NaturalEarth_10m_rivers_lake_centerlines
+CAN;Rio Otava;;47.58178803892429;-77.47292707477366;6;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+CAN;Rupert;;51.37747546992519;-75.7642295989097;6;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+CAN;Saguenay;;48.60775969907975;-72.06175192234518;8;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+CAN;Saint John;;46.50960235637636;-68.04847075121998;6;River;NaturalEarth_10m_rivers_lake_centerlines
+CAN;Saint Marys;;45.24249126332157;-62.29106173181091;8;River;NaturalEarth_10m_rivers_lake_centerlines
+CAN;Saint-Maurice;;47.44139236783452;-73.15011164411473;8;River;NaturalEarth_10m_rivers_lake_centerlines
+CAN;Saskatchewan;;53.379104881326114;-99.98357972941014;4;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+CAN;Severn;;54.15834392950377;-91.08569951580736;7;River;NaturalEarth_10m_rivers_lake_centerlines
+CAN;Skeena;;55.6272002693242;-128.11377288697093;6;River;NaturalEarth_10m_rivers_lake_centerlines
+CAN;Slave;;60.35280996214127;-112.44331681043529;2;River;NaturalEarth_10m_rivers_lake_centerlines
+CAN;South Saskatchewan;;50.84166510669547;-107.19573532414107;6;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+CAN;Stewart;;63.66017050769672;-135.27889858319767;7;River;NaturalEarth_10m_rivers_lake_centerlines
+CAN;Stikine;;57.644668335942846;-129.94831591166377;5;River;NaturalEarth_10m_rivers_lake_centerlines
+CAN;São Lourenço;;44.81705103205226;-75.27784192035159;2;River;NaturalEarth_10m_rivers_lake_centerlines
+CAN;Teslin;;60.065336252921;-132.63112528232986;3;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+CAN;Thelon;;64.40483565671576;-98.13092820404006;5;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+CAN;Thlewiaza;;60.25394290790031;-99.36269654602688;8;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+CAN;Thompson;;50.66378078996807;-120.65718388290946;8;River;NaturalEarth_10m_rivers_lake_centerlines
+CAN;Vermelho do Sul;;51.961736250771246;-97.17892450415893;6;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+CAN;White;;63.07024661141782;-140.06284249710063;7;River;NaturalEarth_10m_rivers_lake_centerlines
+CAN;Winisk;;54.33898592641013;-86.74475799981073;7;River;NaturalEarth_10m_rivers_lake_centerlines
+CAN;Winnipeg;;49.81024829428303;-95.18686290530297;6;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+CAN;Yukon;;64.0576003605964;-150.58827547762405;3;River;NaturalEarth_10m_rivers_lake_centerlines
+CHE;Doubs;;47.16363528354608;6.248208320747058;8;River;NaturalEarth_10m_rivers_lake_centerlines
+CHE;Inn;;47.55152878817642;11.648701614056034;8;River;NaturalEarth_10m_rivers_lake_centerlines
+CHE;Reno;;47.63110001112141;9.235863232785148;4;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+CHE;Ródano;;46.39318932508069;6.470148228696948;6;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+CHE;Ticino;;45.95913995711312;8.665369135088586;8;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+CHL;Biobío;;-37.75651590536614;-72.04076463251045;5;River;NaturalEarth_10m_rivers_lake_centerlines
+CHL;Copiapó;;-27.597864432541723;-70.01380123162396;8;River;NaturalEarth_10m_rivers_lake_centerlines
+CHL;Gallegos;;-51.81965868280175;-70.99211605463677;9;River;NaturalEarth_10m_rivers_lake_centerlines
+CHL;None;;-48.26088767289029;-73.13943360929895;9;River;NaturalEarth_10m_rivers_lake_centerlines
+CHL;Rio Rapel;;-32.84375236182524;-70.79149981102401;9;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Aksu;;40.812685281828;80.4370514325285;8;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Amarelo;;36.752376212015726;104.81821268966345;3;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Amur;;49.732437918005225;134.32813164138483;3;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Argun;;49.382104272311125;119.97068066639908;3;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Bei;;24.4470560231149;113.19235780124119;7;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Bogcang;;31.803852321909037;86.39037498164703;9;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Bramaputra;;29.12866798722035;95.03700351104936;2;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Bug;;37.46353665530487;99.04817302458311;7;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Chaor;;47.85716661014192;122.66136088114482;8;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Dadu;;30.788618897732213;101.99417861341446;6;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Dali;;37.82198003223524;108.93735890825147;8;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Daling;;41.3517582296699;120.5006856351985;8;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Dam;;33.31012380512762;93.37155620969712;8;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Dan;;32.84569162717237;111.44847740176586;9;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Dong;;23.796336579789255;114.80549801416085;7;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Duliu;;25.822353695897743;108.49747798190043;8;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Erdao;;42.5947131839766;127.88288937830963;8;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Fen;;37.05218386210816;111.78611448907807;9;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Fuchun;;29.609376130947037;118.95391395561921;7;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Gagara;;27.997121161205055;82.04558086578143;7;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Gan;;29.501293319753454;116.09854844995864;6;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Hai;;39.09866185964027;117.33360845865913;7;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Han;;32.641472655950054;111.23603611352696;6;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Herlen;;47.85278401494307;112.28256423787353;9;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Hongshui;;24.12384679612287;108.09840666236218;4;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Huai;;32.3944249797462;115.09190651329655;7;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Huan;;36.29922063570155;107.57937415343653;9;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Huang;;34.93537603652398;97.46952533102146;3;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Hudi;;33.078053199792514;118.64743914058694;7;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Ili;;44.368150367795074;77.81746160931463;7;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Indo;;30.84106349269755;72.0536703095188;3;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Irtich;;47.48746760972792;87.88311925710633;2;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Jialing;;31.756575275215162;106.15018434290818;7;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Jing;;35.11700709665956;107.78980258949464;8;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Jinsha;;27.861475185005222;100.85888839851792;1;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Jiulong;;25.010318793213713;117.37012398607864;9;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Konqi;;40.924339419126866;87.82788296314928;6;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Künes;;43.459772715245926;83.37899949666206;7;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Liao;;41.98745878819558;123.0676580582524;6;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Liu;;24.13230151492296;109.60226754072715;8;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Lohit;;27.989878072608487;96.43926503370263;8;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Luan;;40.70817973925492;117.90003746811419;8;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Manas;;27.17957486523379;91.31690484797545;7;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Maquan;;29.530746070415052;84.92806894794316;2;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Mei;;26.332750923171076;115.74328052350143;9;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Mekong;;24.08792075651873;99.94548947597876;2;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Min;;26.839800849571432;118.04327705866993;7;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Muling;;45.177825688772856;131.464243381857;9;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;N'Mai;;26.96702461830555;98.14782851064913;4;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Nanpan;;24.73742908863277;104.42316368073571;4;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Nanweng;;51.218949655438244;125.39066806027382;8;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Nemor;;48.41394188259026;126.27248543764263;9;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Nen;;49.03124511483233;124.84865621048051;8;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;None;;47.618087328864505;88.80556236574618;9;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Ou;;28.17252558331253;119.6994602654129;8;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Qarqan;;37.36714843996804;86.74529392864241;9;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Qin;;35.59370624236453;112.63634922661312;8;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Quan;;33.594377276987316;113.96077280654696;9;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Qumar;;35.22595965922439;92.18079912154066;8;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Rong;;24.88261206967439;109.31011885806885;8;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Salween;;31.29471581310798;94.00981398142912;4;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Sanggan;;40.269553374423;115.58418073589849;7;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Sapt;;27.24364606865916;86.9350465190435;7;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Shandia;;42.05429878521823;116.16406284304782;8;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Shiquan;;32.150128717583335;80.89236976217546;3;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Songacha;;45.28951201452139;133.12244054329338;7;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Songhua;;43.640669139319776;126.8236978068176;8;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Sutlej;;31.248404880931638;77.4624864142918;6;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Sông Đà;;22.39754966542358;102.86279937048462;8;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Tao’er;;45.71754042331881;123.93500462945077;8;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Tarim;;41.1167274495301;84.39435100020727;6;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Tongtian;;33.63683056090622;95.9997563899515;1;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Toxkan;;40.96360114107613;77.87406477354055;8;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Tumen;;42.46319285103466;129.59746653511243;9;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Tuo;;30.806571142155192;104.26424649600416;9;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Tuotuo;;34.229380047249904;91.91002477056425;1;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Ussuri;;47.03081086409012;134.1924267838523;7;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Vermelho;;22.796386153765788;103.42003171876856;6;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Wei;;34.56222624176576;107.16196353829704;8;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Wu;;27.69395670909904;107.04340957747011;7;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Wuding;;37.49919376159665;110.27647966975697;8;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Wujia;;40.87178950732482;108.79288389991446;7;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Xar Moron;;43.200889168671885;118.74638303149584;6;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Xi-;;23.01935284757496;112.62252940399968;4;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Xiang;;27.094808928190737;112.2742131440999;7;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Xiliao;;43.603531352678246;122.20608845715373;6;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Xun;;23.47169652304457;110.65676309163963;4;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Yalong;;30.50637724998456;100.16137670021028;7;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Yalu;;40.55784860078876;125.12676015447822;8;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Yangtzé;;30.629986651389363;116.24515420754335;1;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Yarkant;;38.13608965097353;77.70928533070449;6;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Yarlung;;29.26918015120616;91.01825066045987;2;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Yi;;35.29055503342848;118.7451906630326;9;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Ying;;32.81835569448722;116.02737540817122;9;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Yong;;22.81757461659666;108.52202781155333;7;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Yongding;;39.72361155324978;116.24013933625591;7;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;You;;23.73748628445094;106.74906842057369;7;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Yu;;22.94989305844604;109.55574994371861;7;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Yuan;;28.96460453332928;112.56100631192338;6;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Yurungkash;;36.44242710418691;80.33730865223374;8;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Za;;32.71762901132133;95.59557215451362;2;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Zayü;;28.91567715915644;97.30814762453556;8;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Za’gya;;32.306800568864425;90.1830948546688;8;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Zeya;;52.869925183197324;128.60750804305934;7;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Zhang;;36.47261800343929;114.1971860141598;8;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Zi;;32.655475733499486;96.42501856849337;9;River;NaturalEarth_10m_rivers_lake_centerlines
+CHN;Zuo;;22.571201139968178;107.02900956519959;8;River;NaturalEarth_10m_rivers_lake_centerlines
+CIV;Bagoé;;10.868664196848874;-6.427985902143016;9;River;NaturalEarth_10m_rivers_lake_centerlines
+CIV;Bandama;;7.355403263614742;-5.561062314655092;7;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+CIV;Bandama Blanc;;9.042472526785296;-5.537646593976764;7;River;NaturalEarth_10m_rivers_lake_centerlines
+CIV;Baoulé;;11.29258947424992;-7.380953915083793;7;River;NaturalEarth_10m_rivers_lake_centerlines
+CIV;Komoé;;8.180472632407493;-4.0877415448230465;7;River;NaturalEarth_10m_rivers_lake_centerlines
+CIV;Sassandra;;6.646176967916319;-7.018595229427796;6;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+CIV;Volta Negro;;10.752776031766674;-3.106400010875752;5;River;NaturalEarth_10m_rivers_lake_centerlines
+CMR;Aïna;;1.9247753275357184;13.03598279982739;7;River;NaturalEarth_10m_rivers_lake_centerlines
+CMR;Benue;;8.911195944136288;13.29426310022006;4;River;NaturalEarth_10m_rivers_lake_centerlines
+CMR;Chari;;11.00096507066564;16.176784321907526;6;River;NaturalEarth_10m_rivers_lake_centerlines
+CMR;Dja;;2.6860037791561338;13.930551188670444;8;River;NaturalEarth_10m_rivers_lake_centerlines
+CMR;Kadéï;;3.803415300609818;15.310265080561187;6;River;NaturalEarth_10m_rivers_lake_centerlines
+CMR;Logone;;9.778273904944987;15.687440005662506;7;River;NaturalEarth_10m_rivers_lake_centerlines
+CMR;Lom;;5.692628296415968;13.97253662424657;6;River;NaturalEarth_10m_rivers_lake_centerlines
+CMR;Mbam;;5.728190908615035;11.511529846793533;7;River;NaturalEarth_10m_rivers_lake_centerlines
+CMR;None;;6.357710480002358;12.919620080569382;9;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+CMR;Sanagá;;4.364194271330225;11.4330459387258;6;River;NaturalEarth_10m_rivers_lake_centerlines
+CMR;Sangha;;0.24619076073630491;16.855067029217203;6;River;NaturalEarth_10m_rivers_lake_centerlines
+CMR;Vina;;7.628214443624274;14.503756386626339;7;River;NaturalEarth_10m_rivers_lake_centerlines
+COD;Aruwimi;;1.5657056857849356;25.188485952623516;7;River;NaturalEarth_10m_rivers_lake_centerlines
+COD;Busira;;-0.18494862921014693;19.85398876549481;6;River;NaturalEarth_10m_rivers_lake_centerlines
+COD;Cassai;;-6.1295236382370515;20.366465231485208;3;River;NaturalEarth_10m_rivers_lake_centerlines
+COD;Chinko;;6.28511925228891;24.284617495139447;8;River;NaturalEarth_10m_rivers_lake_centerlines
+COD;Congo;;-7.138976546492156;26.89681988300092;2;River;NaturalEarth_10m_rivers_lake_centerlines
+COD;Cuango;;-7.373136588795622;17.47130873821474;6;River;NaturalEarth_10m_rivers_lake_centerlines
+COD;Cuílo;;-6.712076706441085;18.97093379041501;8;River;NaturalEarth_10m_rivers_lake_centerlines
+COD;Ebola;;3.5391092563301507;21.79846309762186;8;River;NaturalEarth_10m_rivers_lake_centerlines
+COD;Fimi;;-2.8497924666755208;17.55694773192103;8;River;NaturalEarth_10m_rivers_lake_centerlines
+COD;Inkisi;;-5.941305064900079;15.205954999059768;8;River;NaturalEarth_10m_rivers_lake_centerlines
+COD;Ituri;;1.3513508632052809;28.65148332791008;7;River;NaturalEarth_10m_rivers_lake_centerlines
+COD;Kibali;;3.1282005261836803;29.641671988399924;3;River;NaturalEarth_10m_rivers_lake_centerlines
+COD;Lobaye;;4.57786196995233;17.050748917835115;8;River;NaturalEarth_10m_rivers_lake_centerlines
+COD;Lokoro;;-2.1721798445307736;18.290904272820935;8;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+COD;Lomami;;-3.9601855673149196;24.96715982778169;7;River;NaturalEarth_10m_rivers_lake_centerlines
+COD;Lua;;3.532113147286543;19.24952691110623;8;River;NaturalEarth_10m_rivers_lake_centerlines
+COD;Lualaba;;-10.036795649322697;25.773387575991187;2;River;NaturalEarth_10m_rivers_lake_centerlines
+COD;Luapula;;-11.298471186387193;28.855046289400615;8;River;NaturalEarth_10m_rivers_lake_centerlines
+COD;Lufira;;-10.860287261651827;27.106747715536713;8;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+COD;Lukenie;;-3.386131383033555;21.054338799489223;8;River;NaturalEarth_10m_rivers_lake_centerlines
+COD;Lukuga;;-5.599639706949967;29.526754170549367;8;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+COD;Luvua;;-8.933646268198379;28.73732433615417;8;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+COD;Mbomou;;4.954782772245741;24.782657087549126;7;River;NaturalEarth_10m_rivers_lake_centerlines
+COD;Mongala;;2.541411457391811;20.470635465302415;8;River;NaturalEarth_10m_rivers_lake_centerlines
+COD;Ruki;;-0.05112611850549058;18.57120061684135;6;River;NaturalEarth_10m_rivers_lake_centerlines
+COD;Ruzizi;;-4.392478749136154;29.377247688155936;7;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+COD;Sankuru;;-6.138425330536316;23.246054396936913;8;River;NaturalEarth_10m_rivers_lake_centerlines
+COD;Semliki;;1.1192459869155125;30.537336036420733;6;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+COD;Tshuapa;;-1.2237775941408684;22.889045835184188;6;River;NaturalEarth_10m_rivers_lake_centerlines
+COD;Uele;;4.031603974068163;23.413331990951026;3;River;NaturalEarth_10m_rivers_lake_centerlines
+COG;Alima;;-1.5318225117439785;15.379447434585293;8;River;NaturalEarth_10m_rivers_lake_centerlines
+COG;Aïna;;1.9247753275357184;13.03598279982739;7;River;NaturalEarth_10m_rivers_lake_centerlines
+COG;Congo;;-1.0208138144089505;18.17520320818544;2;River;NaturalEarth_10m_rivers_lake_centerlines
+COG;Dja;;2.6860037791561338;13.930551188670444;8;River;NaturalEarth_10m_rivers_lake_centerlines
+COG;Kadéï;;3.803415300609818;15.310265080561187;6;River;NaturalEarth_10m_rivers_lake_centerlines
+COG;Kouilou;;-3.8584108066739486;12.21691187983095;8;River;NaturalEarth_10m_rivers_lake_centerlines
+COG;Ngunié;;-1.6662835729426975;11.124174330681939;8;River;NaturalEarth_10m_rivers_lake_centerlines
+COG;Niari;;-3.923956980031402;13.708930772539293;8;River;NaturalEarth_10m_rivers_lake_centerlines
+COG;Ogooué;;-0.958065029784578;11.736953539252433;8;River;NaturalEarth_10m_rivers_lake_centerlines
+COG;Sangha;;0.24619076073630491;16.855067029217203;6;River;NaturalEarth_10m_rivers_lake_centerlines
+COG;Ubangui;;1.6100120251499257;18.111798272846517;3;River;NaturalEarth_10m_rivers_lake_centerlines
+COL;Ajajú;;0.35961081656789035;-71.71028414264488;9;River;NaturalEarth_10m_rivers_lake_centerlines
+COL;Amazonas;;-3.1253105356748976;-63.345838442968834;1;River;NaturalEarth_10m_rivers_lake_centerlines
+COL;Atrato;;6.717409539410667;-76.85740837669911;7;River;NaturalEarth_10m_rivers_lake_centerlines
+COL;Cauca;;5.9680601229380255;-75.68114429698599;9;River;NaturalEarth_10m_rivers_lake_centerlines
+COL;Içá;;-1.566534030710978;-72.61254605724528;7;River;NaturalEarth_10m_rivers_lake_centerlines
+COL;Japurá;;-0.35212449073240965;-73.1305958006227;5;River;NaturalEarth_10m_rivers_lake_centerlines
+COL;Magdalena;;6.388019664786607;-74.71319115435708;4;River;NaturalEarth_10m_rivers_lake_centerlines
+COL;Meta;;5.1466649268968245;-70.97463598317175;6;River;NaturalEarth_10m_rivers_lake_centerlines
+COL;Mira;;1.0367619476768999;-78.45368896346763;8;River;NaturalEarth_10m_rivers_lake_centerlines
+COL;Negro;;3.283463236115497;-71.04728370359848;7;River;NaturalEarth_10m_rivers_lake_centerlines
+COL;None;;8.896378363525475;-72.7015159214569;9;River;NaturalEarth_10m_rivers_lake_centerlines
+COL;Orinoco;;6.139263641944194;-65.03075513133739;3;River;NaturalEarth_10m_rivers_lake_centerlines
+COL;Uaupés;;0.6918082252641025;-69.4221389635988;9;River;NaturalEarth_10m_rivers_lake_centerlines
+CRI;Rio Chirripó del Atlántico;;9.845016142495101;-83.35986627622843;8;River;NaturalEarth_10m_rivers_lake_centerlines
+CRI;San Juan;;11.079246581736829;-84.43965907217446;5;River;NaturalEarth_10m_rivers_lake_centerlines
+CZE;Elba;;51.66350893615199;12.998173175135182;5;River;NaturalEarth_10m_rivers_lake_centerlines
+CZE;Moldava;;49.365320961045924;14.256433142096828;9;River;NaturalEarth_10m_rivers_lake_centerlines
+CZE;Morava;;49.213284314643346;17.11662763951768;8;River;NaturalEarth_10m_rivers_lake_centerlines
+CZE;Oder;;51.52422518750993;16.23054540751329;4;River;NaturalEarth_10m_rivers_lake_centerlines
+DEU;Danúbio;;48.44200985035113;12.669786905080507;2;River;NaturalEarth_10m_rivers_lake_centerlines
+DEU;Elba;;51.66350893615199;12.998173175135182;5;River;NaturalEarth_10m_rivers_lake_centerlines
+DEU;Ems;;52.34443716097532;7.71448368293193;8;River;NaturalEarth_10m_rivers_lake_centerlines
+DEU;Inn;;47.55152878817642;11.648701614056034;8;River;NaturalEarth_10m_rivers_lake_centerlines
+DEU;Meno;;49.95036600444717;10.00263294880094;8;River;NaturalEarth_10m_rivers_lake_centerlines
+DEU;Mosela;;49.265647666280024;6.609919713184228;7;River;NaturalEarth_10m_rivers_lake_centerlines
+DEU;Oder;;51.52422518750993;16.23054540751329;4;River;NaturalEarth_10m_rivers_lake_centerlines
+DEU;Reno;;47.63110001112141;9.235863232785148;4;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+DEU;Varta;;51.962387250565904;17.56340758211914;8;River;NaturalEarth_10m_rivers_lake_centerlines
+DEU;Weser;;51.78497715431555;9.594724162183597;7;River;NaturalEarth_10m_rivers_lake_centerlines
+DOM;Yaque del Norte;;19.549332146502152;-71.07648846889413;8;River;NaturalEarth_10m_rivers_lake_centerlines
+ECU;Içá;;-1.566534030710978;-72.61254605724528;7;River;NaturalEarth_10m_rivers_lake_centerlines
+ECU;Mira;;1.0367619476768999;-78.45368896346763;8;River;NaturalEarth_10m_rivers_lake_centerlines
+ECU;Napo;;-1.6792951118314308;-75.13268699580003;7;River;NaturalEarth_10m_rivers_lake_centerlines
+ECU;Santiago;;-2.783042095672886;-77.17240570342203;9;River;NaturalEarth_10m_rivers_lake_centerlines
+ECU;Tumbes;;-4.438813128909434;-80.16164074889166;7;River;NaturalEarth_10m_rivers_lake_centerlines
+EGY;Braço Damietta;;30.885527760994908;31.377272584512678;1;River;NaturalEarth_10m_rivers_lake_centerlines
+EGY;Canal de Ismaília;;30.439282768589145;31.721971530047508;6;River;NaturalEarth_10m_rivers_lake_centerlines
+EGY;Canal de Roseta;;30.74821279094645;30.779654800325556;1;River;NaturalEarth_10m_rivers_lake_centerlines
+EGY;Canal de Suez;;30.29648852961561;32.45642458362995;6;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+EGY;Nilo;;21.917247622860422;31.979785676922127;1;River;NaturalEarth_10m_rivers_lake_centerlines
+EGY;None;;31.048106884447115;30.385071792051697;7;River;NaturalEarth_10m_rivers_lake_centerlines
+ERI;Tekezé;;14.270871031133538;36.80556998821373;6;River;NaturalEarth_10m_rivers_lake_centerlines
+ESP;Douro;;41.456900588583636;-5.227845698557505;6;River;NaturalEarth_10m_rivers_lake_centerlines
+ESP;Ebro;;41.990338058451584;-1.5272571734938274;5;River;NaturalEarth_10m_rivers_lake_centerlines
+ESP;Esla;;42.2135406819599;-5.5475984171729165;8;River;NaturalEarth_10m_rivers_lake_centerlines
+ESP;Garona;;43.81572875813768;0.6299376473318453;6;River;NaturalEarth_10m_rivers_lake_centerlines
+ESP;Guadalquivir;;37.796883179755895;-4.595996895869162;8;River;NaturalEarth_10m_rivers_lake_centerlines
+ESP;Guadiana;;39.30201844952694;-4.99524757101349;7;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+ESP;Minho;;42.73221122230818;-7.7065944423442705;9;River;NaturalEarth_10m_rivers_lake_centerlines
+ESP;Segre;;42.004814792999596;1.1381583594766065;9;River;NaturalEarth_10m_rivers_lake_centerlines
+ESP;Tejo;;40.017959497913445;-4.8714561727324766;5;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+ESP;Zncara;;39.570127754096895;-2.6874149607483138;7;River;NaturalEarth_10m_rivers_lake_centerlines
+EST;Narva;;58.55877751786638;27.714982930825727;7;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+ETH;Akobo;;7.067440946810402;34.43925043164736;7;River;NaturalEarth_10m_rivers_lake_centerlines
+ETH;Awash;;9.706683119759841;40.14032194789847;8;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+ETH;Ganale Dorya;;5.503230344296582;40.362374803542686;6;River;NaturalEarth_10m_rivers_lake_centerlines
+ETH;Juba;;2.1698826133455906;42.445544673977;6;River;NaturalEarth_10m_rivers_lake_centerlines
+ETH;Lesser Abay;;11.830679444127263;37.29066170169564;3;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+ETH;Nilo Azul;;11.449614747364278;37.07016682512656;3;River;NaturalEarth_10m_rivers_lake_centerlines
+ETH;None;;1.644930222587694;40.532509694880474;8;River;NaturalEarth_10m_rivers_lake_centerlines
+ETH;Omo;;6.639858821326506;36.692019198440164;6;River;NaturalEarth_10m_rivers_lake_centerlines
+ETH;Shebelle;;6.827624524261597;41.932307846669126;7;River;NaturalEarth_10m_rivers_lake_centerlines
+ETH;Tekezé;;12.886590345651546;38.548420536272644;8;River;NaturalEarth_10m_rivers_lake_centerlines
+FIN;Jänisjoki;;62.28472509617285;30.716481249379505;9;River;NaturalEarth_10m_rivers_lake_centerlines
+FIN;Kemijoki;;66.6313872696857;27.45033057859238;6;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+FIN;Kokemäenjoki;;61.32831005788488;22.16144996828636;6;River;NaturalEarth_10m_rivers_lake_centerlines
+FIN;Lotta;;68.56216586688065;29.03458850619914;7;River;NaturalEarth_10m_rivers_lake_centerlines
+FIN;Luiro;;67.55310247742933;27.47492479320653;8;River;NaturalEarth_10m_rivers_lake_centerlines
+FIN;Muonio;;68.1620323676699;22.71479470683262;8;River;NaturalEarth_10m_rivers_lake_centerlines
+FIN;Oulu;;64.80083375083197;26.125309298710235;8;River;NaturalEarth_10m_rivers_lake_centerlines
+FIN;Paatsjoki;;69.23519908234583;29.377556567888288;8;River;NaturalEarth_10m_rivers_lake_centerlines
+FIN;Tornelven;;67.0860891901654;22.888730817906833;7;River;NaturalEarth_10m_rivers_lake_centerlines
+FIN;Vuoksi;;60.90874205699081;29.27436288969922;6;River;NaturalEarth_10m_rivers_lake_centerlines
+FRA;Ariège;;43.04633429854426;1.6125118673910674;6;River;NaturalEarth_10m_rivers_lake_centerlines
+FRA;Dordogne;;45.024267450221195;1.2179507077009342;8;River;NaturalEarth_10m_rivers_lake_centerlines
+FRA;Doubs;;47.16363528354608;6.248208320747058;8;River;NaturalEarth_10m_rivers_lake_centerlines
+FRA;Durance;;44.147552694588214;5.842292064558576;9;River;NaturalEarth_10m_rivers_lake_centerlines
+FRA;Escalda;;50.70908669578718;3.6752425565598372;8;River;NaturalEarth_10m_rivers_lake_centerlines
+FRA;Garona;;43.81572875813768;0.6299376473318453;6;River;NaturalEarth_10m_rivers_lake_centerlines
+FRA;Litani;;2.8986164971718296;-54.31140548764583;7;River;NaturalEarth_10m_rivers_lake_centerlines
+FRA;Loire;;46.89239981840331;2.027498096453796;5;River;NaturalEarth_10m_rivers_lake_centerlines
+FRA;Marne;;48.76110073114308;3.9778194928830586;9;River;NaturalEarth_10m_rivers_lake_centerlines
+FRA;Maroni;;4.4907025306119115;-54.344899462697555;7;River;NaturalEarth_10m_rivers_lake_centerlines
+FRA;Mosa;;50.12848226599765;5.39401446126368;8;River;NaturalEarth_10m_rivers_lake_centerlines
+FRA;Mosela;;49.265647666280024;6.609919713184228;7;River;NaturalEarth_10m_rivers_lake_centerlines
+FRA;Reno;;47.99300306264035;7.984524170986235;4;River;NaturalEarth_10m_rivers_lake_centerlines
+FRA;Ródano;;45.33940321886769;5.680704791879799;6;River;NaturalEarth_10m_rivers_lake_centerlines
+FRA;Segre;;42.004814792999596;1.1381583594766065;9;River;NaturalEarth_10m_rivers_lake_centerlines
+FRA;Sena;;46.3186085482118;4.860108064080917;8;River;NaturalEarth_10m_rivers_lake_centerlines
+FRA;Tarn;;44.05333892231614;2.362718536796904;9;River;NaturalEarth_10m_rivers_lake_centerlines
+FRA;Vienne;;46.28882099744515;0.8968982299991068;9;River;NaturalEarth_10m_rivers_lake_centerlines
+FRA;Yonne;;47.73455085859097;3.510060337207602;8;River;NaturalEarth_10m_rivers_lake_centerlines
+GAB;Aïna;;1.9247753275357184;13.03598279982739;7;River;NaturalEarth_10m_rivers_lake_centerlines
+GAB;Benito;;1.6256369800688382;10.760002089052662;7;River;NaturalEarth_10m_rivers_lake_centerlines
+GAB;Ivindo;;0.511056372341832;12.722201424757362;7;River;NaturalEarth_10m_rivers_lake_centerlines
+GAB;Ngunié;;-1.6662835729426975;11.124174330681939;8;River;NaturalEarth_10m_rivers_lake_centerlines
+GAB;Ogooué;;-0.8025762274404709;10.005834533381458;8;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+GBR;Canal Caledoniano;;56.87519819886647;-5.0458302589633925;8;River;NaturalEarth_10m_rivers_lake_centerlines
+GBR;Ness;;57.26519990807726;-4.504850917643241;8;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+GBR;Oich;;56.9662904350525;-4.900704248082139;8;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+GBR;Severn;;52.42420958177267;-2.7435429062333205;8;River;NaturalEarth_10m_rivers_lake_centerlines
+GBR;Trent;;53.039016140595415;-1.3247766953647535;8;River;NaturalEarth_10m_rivers_lake_centerlines
+GBR;Tâmisa;;51.57086831579132;-0.8844868794109843;6;River;NaturalEarth_10m_rivers_lake_centerlines
+GEO;Kura;;40.895873594760126;45.66132897865789;8;River;NaturalEarth_10m_rivers_lake_centerlines
+GHA;Oti;;8.198137764254422;0.14192775334990174;8;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+GHA;Volta;;7.582743159255085;-0.1466637224238459;5;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+GHA;Volta Branco;;8.882882389622234;-1.0890851695672068;6;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+GHA;Volta Negro;;8.697226802690691;-1.3585296681317882;5;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+GIN;Bafing;;12.09274529058364;-10.901101611326546;4;River;NaturalEarth_10m_rivers_lake_centerlines
+GIN;Geba;;11.869389635249934;-13.821607271487009;7;River;NaturalEarth_10m_rivers_lake_centerlines
+GIN;Gâmbia;;12.918991241613423;-13.313321011714674;7;River;NaturalEarth_10m_rivers_lake_centerlines
+GIN;Níger;;11.936020717309985;-0.843297936737357;3;River;NaturalEarth_10m_rivers_lake_centerlines
+GIN;Rokel;;9.013323404181627;-11.898819817932846;9;River;NaturalEarth_10m_rivers_lake_centerlines
+GIN;Saint Paul;;7.516820948021129;-9.69376795921439;8;River;NaturalEarth_10m_rivers_lake_centerlines
+GMB;Gâmbia;;12.918991241613423;-13.313321011714674;7;River;NaturalEarth_10m_rivers_lake_centerlines
+GNB;Geba;;11.869389635249934;-13.821607271487009;7;River;NaturalEarth_10m_rivers_lake_centerlines
+GNQ;Benito;;1.6256369800688382;10.760002089052662;7;River;NaturalEarth_10m_rivers_lake_centerlines
+GRC;Haliácmon;;40.31315158560988;21.70838471360711;8;River;NaturalEarth_10m_rivers_lake_centerlines
+GRC;Maritsa;;41.76706844355747;25.554940974531767;7;River;NaturalEarth_10m_rivers_lake_centerlines
+GRC;Struma;;41.738801788356014;23.18568303115163;9;River;NaturalEarth_10m_rivers_lake_centerlines
+GTM;Chixoy;;15.663763246300945;-90.72163878099128;5;River;NaturalEarth_10m_rivers_lake_centerlines
+GTM;Cuilco;;15.433431888187961;-91.92752847934406;7;River;NaturalEarth_10m_rivers_lake_centerlines
+GTM;Lempa;;13.94518811210623;-88.92908041934425;7;River;NaturalEarth_10m_rivers_lake_centerlines
+GTM;Motagua;;15.179624161779016;-89.55811915660671;8;River;NaturalEarth_10m_rivers_lake_centerlines
+GTM;Usumacinta;;17.59894013216764;-91.59356974294408;5;River;NaturalEarth_10m_rivers_lake_centerlines
+GUY;Corentyne;;2.927501678210786;-57.201407075166486;7;River;NaturalEarth_10m_rivers_lake_centerlines
+GUY;Cuyuni;;6.970593000719172;-60.71747057110096;7;River;NaturalEarth_10m_rivers_lake_centerlines
+GUY;Essequibo;;3.756896167323068;-58.50483137684561;7;River;NaturalEarth_10m_rivers_lake_centerlines
+GUY;Kabalebo;;4.09509554540048;-57.44171806805148;7;River;NaturalEarth_10m_rivers_lake_centerlines
+HND;Coco;;14.336396642241535;-84.97868578889894;6;River;NaturalEarth_10m_rivers_lake_centerlines
+HND;Lempa;;13.94518811210623;-88.92908041934425;7;River;NaturalEarth_10m_rivers_lake_centerlines
+HND;Motagua;;15.179624161779016;-89.55811915660671;8;River;NaturalEarth_10m_rivers_lake_centerlines
+HND;Ūla;;15.094433868857767;-87.97642782800992;7;River;NaturalEarth_10m_rivers_lake_centerlines
+HRV;Canal Danúbio – Tisa – Danúbio;;46.00865584127775;18.901121836638854;6;River;NaturalEarth_10m_rivers_lake_centerlines
+HRV;Danúbio;;45.169057580217235;22.533098991191267;2;River;NaturalEarth_10m_rivers_lake_centerlines
+HRV;Drava;;46.595541537979564;14.588984585728197;7;River;NaturalEarth_10m_rivers_lake_centerlines
+HRV;Mur;;46.56414978736015;16.190908826940948;6;River;NaturalEarth_10m_rivers_lake_centerlines
+HRV;Sava;;45.19748348941773;17.923245633270188;7;River;NaturalEarth_10m_rivers_lake_centerlines
+HUN;Canal Danúbio – Tisa – Danúbio;;46.00865584127775;18.901121836638854;6;River;NaturalEarth_10m_rivers_lake_centerlines
+HUN;Danúbio;;45.169057580217235;22.533098991191267;2;River;NaturalEarth_10m_rivers_lake_centerlines
+HUN;Mur;;46.56414978736015;16.190908826940948;6;River;NaturalEarth_10m_rivers_lake_centerlines
+HUN;Mureș;;46.30919471306928;23.075881317906337;8;River;NaturalEarth_10m_rivers_lake_centerlines
+HUN;Sió;;46.636250444378135;18.519208071386757;7;River;NaturalEarth_10m_rivers_lake_centerlines
+HUN;Soroksári-Duna;;47.24824036807747;19.010749861472576;6;River;NaturalEarth_10m_rivers_lake_centerlines
+HUN;Tisza;;47.7340526210101;22.07264183022462;6;River;NaturalEarth_10m_rivers_lake_centerlines
+IDN;Asahan;;2.69993569913981;99.53911962420212;8;River;NaturalEarth_10m_rivers_lake_centerlines
+IDN;Baliem;;-4.733374209799406;138.92347240183767;7;River;NaturalEarth_10m_rivers_lake_centerlines
+IDN;Barito;;-1.1212254922667642;114.63761231233195;6;River;NaturalEarth_10m_rivers_lake_centerlines
+IDN;Digul;;-6.354438930843574;140.12450169503506;6;River;NaturalEarth_10m_rivers_lake_centerlines
+IDN;Fly;;-6.905088249555801;141.38741022727152;7;River;NaturalEarth_10m_rivers_lake_centerlines
+IDN;Indragiri;;-0.5112569070162954;101.94758173377562;6;River;NaturalEarth_10m_rivers_lake_centerlines
+IDN;Kapuas;;0.27076056124048464;111.3183979215262;6;River;NaturalEarth_10m_rivers_lake_centerlines
+IDN;Kayan;;2.358300547185502;116.15975010076532;6;River;NaturalEarth_10m_rivers_lake_centerlines
+IDN;Mahakam;;0.19611047228236383;115.68690592725619;7;River;NaturalEarth_10m_rivers_lake_centerlines
+IDN;Mamberamo;;-2.3838023730165436;138.17034650937757;6;River;NaturalEarth_10m_rivers_lake_centerlines
+IDN;Masi;;-3.118445773607882;103.69641247705913;9;River;NaturalEarth_10m_rivers_lake_centerlines
+IDN;Pembuang;;-2.226105653048204;112.17554937706748;9;River;NaturalEarth_10m_rivers_lake_centerlines
+IDN;Sepik;;-4.251938510486062;142.5041100928923;7;River;NaturalEarth_10m_rivers_lake_centerlines
+IDN;Taritatu;;-3.4660932512757388;139.45812488133498;6;River;NaturalEarth_10m_rivers_lake_centerlines
+IND;Balak;;24.73897289404868;92.43994437015601;9;River;NaturalEarth_10m_rivers_lake_centerlines
+IND;Banas;;25.63147144238027;75.24329225659237;8;River;NaturalEarth_10m_rivers_lake_centerlines
+IND;Betwa;;24.856561648664133;78.60631701153243;9;River;NaturalEarth_10m_rivers_lake_centerlines
+IND;Beás;;31.945665623427143;76.07232473144201;8;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+IND;Bhima;;17.717649222055588;75.5616491522149;7;River;NaturalEarth_10m_rivers_lake_centerlines
+IND;Brahmani;;21.19080819754587;85.54355263959222;7;River;NaturalEarth_10m_rivers_lake_centerlines
+IND;Bramaputra;;29.12866798722035;95.03700351104936;2;River;NaturalEarth_10m_rivers_lake_centerlines
+IND;Chambal;;24.544327146225864;75.50724551041597;7;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+IND;Chenab;;31.832370763324832;73.79322536616579;6;River;NaturalEarth_10m_rivers_lake_centerlines
+IND;Gagara;;27.997121161205055;82.04558086578143;7;River;NaturalEarth_10m_rivers_lake_centerlines
+IND;Gandak;;27.471554445409975;84.14000771557258;9;River;NaturalEarth_10m_rivers_lake_centerlines
+IND;Ganges;;25.240705872444916;85.25818163867677;3;River;NaturalEarth_10m_rivers_lake_centerlines
+IND;Godavari;;18.60820861769688;78.46329988430264;5;River;NaturalEarth_10m_rivers_lake_centerlines
+IND;Indo;;30.84106349269755;72.0536703095188;3;River;NaturalEarth_10m_rivers_lake_centerlines
+IND;Indravati;;19.16067833533388;81.44491092073221;9;River;NaturalEarth_10m_rivers_lake_centerlines
+IND;Jhelum;;33.69137549681118;74.01148137493031;7;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+IND;Kaladan;;22.217956348624448;93.02404540014862;9;River;NaturalEarth_10m_rivers_lake_centerlines
+IND;Kaveri;;12.124328927356226;77.27577792588376;7;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+IND;Kolidam;;11.009473887991723;79.21253563738655;8;River;NaturalEarth_10m_rivers_lake_centerlines
+IND;Krishna;;16.358220718805253;79.18600408246871;6;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+IND;Lohit;;27.989878072608487;96.43926503370263;8;River;NaturalEarth_10m_rivers_lake_centerlines
+IND;Mahi;;23.193316015312103;74.05782098945878;7;River;NaturalEarth_10m_rivers_lake_centerlines
+IND;Mahäna Nadï;;21.669660046843823;83.59730413318132;6;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+IND;Manas;;27.17957486523379;91.31690484797545;7;River;NaturalEarth_10m_rivers_lake_centerlines
+IND;Narmada;;22.542975021723993;77.52768421089075;6;River;NaturalEarth_10m_rivers_lake_centerlines
+IND;None;;12.276755334557995;78.62293286384417;9;River;NaturalEarth_10m_rivers_lake_centerlines
+IND;Palar;;12.872784837151993;78.9884758989515;8;River;NaturalEarth_10m_rivers_lake_centerlines
+IND;Parbati;;24.366440097813634;76.87316643187724;9;River;NaturalEarth_10m_rivers_lake_centerlines
+IND;Pennar;;14.494124054092982;78.29911595628975;7;River;NaturalEarth_10m_rivers_lake_centerlines
+IND;Ravi;;31.543487555787163;74.25373547028059;9;River;NaturalEarth_10m_rivers_lake_centerlines
+IND;Sankh;;22.77479658514683;84.30465115086966;7;River;NaturalEarth_10m_rivers_lake_centerlines
+IND;Sapt;;27.24364606865916;86.9350465190435;7;River;NaturalEarth_10m_rivers_lake_centerlines
+IND;Son;;24.269477559373854;82.60094823308721;9;River;NaturalEarth_10m_rivers_lake_centerlines
+IND;Sutlej;;31.248404880931638;77.4624864142918;6;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+IND;Tapi;;21.403956075658936;75.40808634868334;7;River;NaturalEarth_10m_rivers_lake_centerlines
+IND;Tel;;20.18807347784877;83.0676009805292;8;River;NaturalEarth_10m_rivers_lake_centerlines
+IND;Tista;;26.54244858226171;88.89430263403766;7;River;NaturalEarth_10m_rivers_lake_centerlines
+IND;Tungabhadra;;14.611223728958315;75.9022777086801;8;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+IND;Wainganga;;20.926009648150938;79.85505669764687;8;River;NaturalEarth_10m_rivers_lake_centerlines
+IND;Yamuna;;27.539316675385503;78.74502187713449;6;River;NaturalEarth_10m_rivers_lake_centerlines
+IRL;Shannon;;53.24768310245992;-8.179001539970963;8;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+IRN;Arax;;39.61449046761013;45.67436064657601;8;River;NaturalEarth_10m_rivers_lake_centerlines
+IRN;Atrek;;37.60903701313964;56.356582930907074;7;River;NaturalEarth_10m_rivers_lake_centerlines
+IRN;Chatt al-Arab;;30.459469946317018;48.0178644682176;3;River;NaturalEarth_10m_rivers_lake_centerlines
+IRN;Hari;;35.28945471470566;62.60267778532738;8;River;NaturalEarth_10m_rivers_lake_centerlines
+IRN;Helmand;;32.12733159479387;64.85381666030874;6;River;NaturalEarth_10m_rivers_lake_centerlines
+IRN;Karkheh;;33.012258964795414;47.85462517464109;8;River;NaturalEarth_10m_rivers_lake_centerlines
+IRN;Qizil Üzan;;36.62964200401941;48.004402762609544;9;River;NaturalEarth_10m_rivers_lake_centerlines
+IRN;Sefīd-Rūd;;37.16082848536474;49.742250885199105;9;River;NaturalEarth_10m_rivers_lake_centerlines
+IRN;Talkeh;;38.0193129575299;46.77420773201526;8;River;NaturalEarth_10m_rivers_lake_centerlines
+IRQ;Atshan;;31.360851869788725;45.013445497122866;7;River;NaturalEarth_10m_rivers_lake_centerlines
+IRQ;Canal Gharraf;;31.7354162656255;46.11287055245958;4;River;NaturalEarth_10m_rivers_lake_centerlines
+IRQ;Canal Hindiyah;;31.941723547072154;44.52718930161921;7;River;NaturalEarth_10m_rivers_lake_centerlines
+IRQ;Chatt al-Arab;;30.459469946317018;48.0178644682176;3;River;NaturalEarth_10m_rivers_lake_centerlines
+IRQ;Eufrates;;32.77226743545202;43.96388816575337;3;River;NaturalEarth_10m_rivers_lake_centerlines
+IRQ;Karkheh;;33.012258964795414;47.85462517464109;8;River;NaturalEarth_10m_rivers_lake_centerlines
+IRQ;None;;30.61381999208521;47.68661854494206;8;River;NaturalEarth_10m_rivers_lake_centerlines
+IRQ;Shatt al-Hilla;;32.062278175009894;44.8293801516399;7;River;NaturalEarth_10m_rivers_lake_centerlines
+IRQ;Tigre;;33.97240975209513;44.65791265031571;4;River;NaturalEarth_10m_rivers_lake_centerlines
+ISL;Drava;;64.52470768897739;-18.835817372060852;6;River;NaturalEarth_10m_rivers_lake_centerlines
+ISL;Þjórsá;;64.03922376245319;-20.128169728024417;8;River;NaturalEarth_10m_rivers_lake_centerlines
+ISR;Jordão;;31.901982998916136;35.50839216891207;6;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+ITA;Dora Baltea;;45.632579876736045;7.54411270360303;9;River;NaturalEarth_10m_rivers_lake_centerlines
+ITA;Drava;;46.595541537979564;14.588984585728197;7;River;NaturalEarth_10m_rivers_lake_centerlines
+ITA;Mincio;;45.22471339699563;10.766673855602388;7;River;NaturalEarth_10m_rivers_lake_centerlines
+ITA;Ofanto;;41.075837057846364;15.677533653547092;9;River;NaturalEarth_10m_rivers_lake_centerlines
+ITA;Pó;;45.02137015499961;9.732578245233002;6;River;NaturalEarth_10m_rivers_lake_centerlines
+ITA;Tibre;;42.67865717661518;12.36939286952318;7;River;NaturalEarth_10m_rivers_lake_centerlines
+ITA;Ticino;;45.95913995711312;8.665369135088586;8;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+ITA;Ádige;;45.85686114882103;11.202929890570955;8;River;NaturalEarth_10m_rivers_lake_centerlines
+JOR;Jordão;;31.901982998916136;35.50839216891207;6;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+JPN;Ishikari;;43.57899367380372;142.1465703015218;6;River;NaturalEarth_10m_rivers_lake_centerlines
+JPN;Mogami;;38.41163920344485;140.14501107211856;8;River;NaturalEarth_10m_rivers_lake_centerlines
+JPN;Tone;;36.163258782416904;139.73393814817788;8;River;NaturalEarth_10m_rivers_lake_centerlines
+KAB;Sir Dária;;43.77570441024262;66.01521301415556;5;River;NaturalEarth_10m_rivers_lake_centerlines
+KAZ;Ili;;43.84973292208161;77.65393355954356;7;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+KAZ;Irtich;;48.73517485156858;83.78674452259003;2;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+KAZ;Ishim;;51.60292029313296;68.66915661824427;7;River;NaturalEarth_10m_rivers_lake_centerlines
+KAZ;Sir Dária;;41.5677111203163;67.99629567467501;5;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+KAZ;Tobol;;54.789336412672206;64.64863835697864;5;River;NaturalEarth_10m_rivers_lake_centerlines
+KAZ;Ural;;50.99725943025885;54.683872898063704;4;River;NaturalEarth_10m_rivers_lake_centerlines
+KEN;None;;1.644930222587694;40.532509694880474;8;River;NaturalEarth_10m_rivers_lake_centerlines
+KEN;Tana;;-0.839145608385145;37.5333441164764;7;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+KGZ;Naryn;;41.77582988051166;72.96014855951752;5;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+KGZ;Toxkan;;40.96360114107613;77.87406477354055;8;River;NaturalEarth_10m_rivers_lake_centerlines
+KHM;Kong;;14.980439808575658;106.66941421867166;7;River;NaturalEarth_10m_rivers_lake_centerlines
+KHM;Krong;;12.577879495193814;107.85184575109226;7;River;NaturalEarth_10m_rivers_lake_centerlines
+KHM;Lago Tonle;;12.795890092053792;104.15951111904553;9;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+KHM;Mekong;;14.485274610839495;104.8302614617144;2;River;NaturalEarth_10m_rivers_lake_centerlines
+KHM;None;;13.60492433378849;103.13669113740485;9;River;NaturalEarth_10m_rivers_lake_centerlines
+KHM;Sreng;;13.822918431328091;103.66454583754155;7;River;NaturalEarth_10m_rivers_lake_centerlines
+KHM;Srepok;;13.460512093406571;106.71836979707018;7;River;NaturalEarth_10m_rivers_lake_centerlines
+KOR;Han;;37.55209792992646;126.97343326897038;7;River;NaturalEarth_10m_rivers_lake_centerlines
+KOR;Nakdong;;36.07689492884417;128.60693399021974;8;River;NaturalEarth_10m_rivers_lake_centerlines
+KOR;Namhan;;37.24088095656714;128.11442802117097;7;River;NaturalEarth_10m_rivers_lake_centerlines
+KOS;Morava;;43.452983752660884;21.53874929179754;7;River;NaturalEarth_10m_rivers_lake_centerlines
+LAO;Cả;;19.20619801696744;104.77470227807562;8;River;NaturalEarth_10m_rivers_lake_centerlines
+LAO;Kong;;14.980439808575658;106.66941421867166;7;River;NaturalEarth_10m_rivers_lake_centerlines
+LAO;Mekong;;24.08792075651873;99.94548947597876;2;River;NaturalEarth_10m_rivers_lake_centerlines
+LAO;Ngun;;18.620291029932776;102.68311956197732;8;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+LAO;Ou;;21.33128624385015;102.31467724750206;7;River;NaturalEarth_10m_rivers_lake_centerlines
+LBN;Jordão;;32.602374224097524;35.589110678086236;6;River;NaturalEarth_10m_rivers_lake_centerlines
+LBR;Cess;;6.368402313579335;-8.752458068990164;9;River;NaturalEarth_10m_rivers_lake_centerlines
+LBR;Saint Paul;;7.516820948021129;-9.69376795921439;8;River;NaturalEarth_10m_rivers_lake_centerlines
+LKA;Mahaweli;;7.639116349387909;80.93524003607709;8;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+LKA;None;;7.203764260536067;81.46739860735364;9;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+LSO;Caledon;;-29.670057244950453;27.103878057431945;7;River;NaturalEarth_10m_rivers_lake_centerlines
+LSO;Orange;;-30.050501390715834;26.734526693768192;6;River;NaturalEarth_10m_rivers_lake_centerlines
+LTU;Neman;;55.08866481768366;22.54593085285401;7;River;NaturalEarth_10m_rivers_lake_centerlines
+LTU;Neris;;54.744441491825235;25.822849226709714;7;River;NaturalEarth_10m_rivers_lake_centerlines
+LUX;Mosela;;49.265647666280024;6.609919713184228;7;River;NaturalEarth_10m_rivers_lake_centerlines
+LVA;Duína Ocidental;;55.94927255371611;28.635921233657253;5;River;NaturalEarth_10m_rivers_lake_centerlines
+MAR;Cebu;;34.099552744909616;-5.392521264771171;8;River;NaturalEarth_10m_rivers_lake_centerlines
+MAR;Morbeia;;32.68106107235022;-6.84852580156553;9;River;NaturalEarth_10m_rivers_lake_centerlines
+MAR;Moulouya;;33.666992905441084;-3.7583155494217295;9;River;NaturalEarth_10m_rivers_lake_centerlines
+MAR;Suz;;30.434449256957265;-9.084386269431496;9;River;NaturalEarth_10m_rivers_lake_centerlines
+MDA;Dniestre;;48.263762569124935;26.978679482636238;6;River;NaturalEarth_10m_rivers_lake_centerlines
+MDA;Prut;;47.52157181727024;26.905843285992233;7;River;NaturalEarth_10m_rivers_lake_centerlines
+MDG;Betsiboka;;-17.67106384964845;46.96636308871848;7;River;NaturalEarth_10m_rivers_lake_centerlines
+MDG;Mananantanana;;-21.54947851677912;46.487630253525786;6;River;NaturalEarth_10m_rivers_lake_centerlines
+MDG;Mangoky;;-21.679579465869587;44.52797918869821;6;River;NaturalEarth_10m_rivers_lake_centerlines
+MDG;Mania;;-20.150433946317676;46.55354986271605;7;River;NaturalEarth_10m_rivers_lake_centerlines
+MDG;Maningory;;-17.497596303649487;48.51913416049418;9;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+MDG;Onilahy;;-23.215706427304703;45.09132839475794;8;River;NaturalEarth_10m_rivers_lake_centerlines
+MDG;Tsiribihina;;-19.71812168124786;44.93490978165637;7;River;NaturalEarth_10m_rivers_lake_centerlines
+MEX;Atengo;;22.00281185842969;-103.53695768917775;8;River;NaturalEarth_10m_rivers_lake_centerlines
+MEX;Balsas;;16.63041257246064;-97.0180109969653;8;River;NaturalEarth_10m_rivers_lake_centerlines
+MEX;Bavispe;;30.270274453039928;-108.8520498536968;8;River;NaturalEarth_10m_rivers_lake_centerlines
+MEX;Chixoy;;15.663763246300945;-90.72163878099128;5;River;NaturalEarth_10m_rivers_lake_centerlines
+MEX;Coatzacoalcos;;18.044785872464246;-94.44360247466074;8;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+MEX;Colorado;;36.59828997870588;-111.45120042109195;5;River;NaturalEarth_10m_rivers_lake_centerlines
+MEX;Conchos;;27.536691007293783;-105.52769762068401;7;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+MEX;Cuilco;;15.433431888187961;-91.92752847934406;7;River;NaturalEarth_10m_rivers_lake_centerlines
+MEX;Fuerte;;26.61807038212439;-108.53444020831921;8;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+MEX;Grande;;29.389215359136937;-102.06197255865706;4;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+MEX;Grande de Santiago;;20.90561585906607;-103.69587915339248;6;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+MEX;Grijalva;;16.35721885028751;-92.74458242077613;7;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+MEX;Lerma;;20.063094313299555;-100.49244253556515;8;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+MEX;Moctezuma;;20.923901279957818;-99.08016156491371;8;River;NaturalEarth_10m_rivers_lake_centerlines
+MEX;Papaloapan;;18.326452034063944;-95.94023657958542;7;River;NaturalEarth_10m_rivers_lake_centerlines
+MEX;Pecos;;32.6616299126725;-103.59457430000928;7;River;NaturalEarth_10m_rivers_lake_centerlines
+MEX;Purificación;;24.104723383488956;-99.39734319124089;9;River;NaturalEarth_10m_rivers_lake_centerlines
+MEX;Pánuco;;22.09007457447025;-98.17568001807341;6;River;NaturalEarth_10m_rivers_lake_centerlines
+MEX;Rio Batepito;;31.209053054702697;-109.25632743281399;9;River;NaturalEarth_10m_rivers_lake_centerlines
+MEX;San Juan;;26.16822856593886;-98.96676728830427;8;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+MEX;San Miguel;;26.726795100350348;-107.38846097967316;8;River;NaturalEarth_10m_rivers_lake_centerlines
+MEX;San Pedro;;22.95263823790888;-104.77254817805368;8;River;NaturalEarth_10m_rivers_lake_centerlines
+MEX;Soto la Marina;;23.99391553329794;-98.72253239542492;9;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+MEX;Urique;;27.253438008164263;-107.48248291740857;8;River;NaturalEarth_10m_rivers_lake_centerlines
+MEX;Usumacinta;;17.59894013216764;-91.59356974294408;5;River;NaturalEarth_10m_rivers_lake_centerlines
+MEX;Verde;;26.29914263618036;-106.5526578863385;8;River;NaturalEarth_10m_rivers_lake_centerlines
+MEX;Yaqui;;28.870930369677453;-109.63195457106177;8;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+MKD;Drin;;41.88804259224195;20.1231997270931;9;River;NaturalEarth_10m_rivers_lake_centerlines
+MLI;Bafing;;12.09274529058364;-10.901101611326546;4;River;NaturalEarth_10m_rivers_lake_centerlines
+MLI;Bagoé;;10.868664196848874;-6.427985902143016;9;River;NaturalEarth_10m_rivers_lake_centerlines
+MLI;Bakoy;;13.663959131936238;-10.375037650100165;8;River;NaturalEarth_10m_rivers_lake_centerlines
+MLI;Bani;;13.485338920816401;-5.183719466878254;7;River;NaturalEarth_10m_rivers_lake_centerlines
+MLI;Baoulé;;13.64617826560349;-8.879594323726437;8;River;NaturalEarth_10m_rivers_lake_centerlines
+MLI;Komoé;;8.180472632407493;-4.0877415448230465;7;River;NaturalEarth_10m_rivers_lake_centerlines
+MLI;Níger;;11.936020717309985;-0.843297936737357;3;River;NaturalEarth_10m_rivers_lake_centerlines
+MLI;Senegal;;15.662394669201205;-13.668177535844459;4;River;NaturalEarth_10m_rivers_lake_centerlines
+MMR;Chindwin;;24.550651516328983;95.34992197797033;7;River;NaturalEarth_10m_rivers_lake_centerlines
+MMR;Irauádi;;21.252618917106616;95.83069819062749;4;River;NaturalEarth_10m_rivers_lake_centerlines
+MMR;Kaladan;;22.217956348624448;93.02404540014862;9;River;NaturalEarth_10m_rivers_lake_centerlines
+MMR;Mekong;;24.08792075651873;99.94548947597876;2;River;NaturalEarth_10m_rivers_lake_centerlines
+MMR;Myitnge;;22.460270189855414;97.10869458302703;8;River;NaturalEarth_10m_rivers_lake_centerlines
+MMR;Mytitha;;22.51493288546116;94.06282350457452;9;River;NaturalEarth_10m_rivers_lake_centerlines
+MMR;N'Mai;;26.96702461830555;98.14782851064913;4;River;NaturalEarth_10m_rivers_lake_centerlines
+MMR;Ping;;17.654350940072344;99.10689829418934;7;River;NaturalEarth_10m_rivers_lake_centerlines
+MMR;Salween;;25.638650236474852;98.45749891021046;4;River;NaturalEarth_10m_rivers_lake_centerlines
+MMR;Sittong;;18.950267528908906;96.46851569884008;7;River;NaturalEarth_10m_rivers_lake_centerlines
+MNE;Bojana;;41.97410172255585;19.402453000990295;9;River;NaturalEarth_10m_rivers_lake_centerlines
+MNE;Drina;;43.79490825022587;19.231427663516854;8;River;NaturalEarth_10m_rivers_lake_centerlines
+MNG;Herlen;;47.85278401494307;112.28256423787353;9;River;NaturalEarth_10m_rivers_lake_centerlines
+MNG;Ider;;48.65456473249458;98.79981922777621;2;River;NaturalEarth_10m_rivers_lake_centerlines
+MNG;Onon;;49.86200544756803;112.81606063047236;8;River;NaturalEarth_10m_rivers_lake_centerlines
+MNG;Orkhon;;48.42977948977737;103.77246858682831;8;River;NaturalEarth_10m_rivers_lake_centerlines
+MNG;Selenga;;50.40446286945682;104.92212838209862;2;River;NaturalEarth_10m_rivers_lake_centerlines
+MNG;Shishhid Gol;;51.38094195479129;99.36888466384896;4;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+MOZ;Chire;;-16.126695003274147;35.10320790474196;3;River;NaturalEarth_10m_rivers_lake_centerlines
+MOZ;Licungo;;-16.559742936320276;37.06315803888803;9;River;NaturalEarth_10m_rivers_lake_centerlines
+MOZ;Ligonha;;-15.783786464961413;38.458826406314515;9;River;NaturalEarth_10m_rivers_lake_centerlines
+MOZ;Limpopo;;-23.193699542329636;30.535969846621576;6;River;NaturalEarth_10m_rivers_lake_centerlines
+MOZ;Lúrio;;-14.207197702486907;38.2598537880932;7;River;NaturalEarth_10m_rivers_lake_centerlines
+MOZ;Maputo;;-26.84150859497681;32.41129627242499;8;River;NaturalEarth_10m_rivers_lake_centerlines
+MOZ;Mazowe;;-16.96185517677708;32.42474912912565;7;River;NaturalEarth_10m_rivers_lake_centerlines
+MOZ;Púnguè;;-18.905328254819082;33.940182848516116;9;River;NaturalEarth_10m_rivers_lake_centerlines
+MOZ;Rovuma;;-11.280818437181463;37.39293200637149;6;River;NaturalEarth_10m_rivers_lake_centerlines
+MOZ;Save;;-20.49979534420002;32.82790476242821;7;River;NaturalEarth_10m_rivers_lake_centerlines
+MOZ;Zambeze;;-16.453751839758358;29.625267856702386;3;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+MRT;Senegal;;15.662394669201205;-13.668177535844459;4;River;NaturalEarth_10m_rivers_lake_centerlines
+MWI;Chire;;-14.633758671649698;35.24933242201671;3;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+MYS;Bajang;;2.22761016913441;112.51045118597395;7;River;NaturalEarth_10m_rivers_lake_centerlines
+MYS;Baram;;3.625227331417506;114.67042769077318;9;River;NaturalEarth_10m_rivers_lake_centerlines
+MYS;Igan;;2.5837524357965567;111.80995396793722;7;River;NaturalEarth_10m_rivers_lake_centerlines
+MYS;None;;4.961496505920223;101.12833064718939;8;River;NaturalEarth_10m_rivers_lake_centerlines
+MYS;Pão;;3.7980408425813783;102.64125498808758;7;River;NaturalEarth_10m_rivers_lake_centerlines
+NAM;Auob;;-24.875197814608466;18.819549883650804;8;River;NaturalEarth_10m_rivers_lake_centerlines
+NAM;Cuando;;-15.766751937659272;21.46390074528984;7;River;NaturalEarth_10m_rivers_lake_centerlines
+NAM;Cubango;;-19.597419694303053;23.245559847505422;6;River;NaturalEarth_10m_rivers_lake_centerlines
+NAM;Cuito;;-15.582469980253054;19.200609668568426;9;River;NaturalEarth_10m_rivers_lake_centerlines
+NAM;Cunene;;-16.10547826651152;14.389466561879598;7;River;NaturalEarth_10m_rivers_lake_centerlines
+NAM;Orange;;-28.781705550389812;20.03055182037818;4;River;NaturalEarth_10m_rivers_lake_centerlines
+NAM;Zambeze;;-15.730759026851834;27.74869558669833;3;River;NaturalEarth_10m_rivers_lake_centerlines
+NER;Iobe;;13.442204198477615;13.81483027688937;8;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+NER;Níger;;11.936020717309985;-0.843297936737357;3;River;NaturalEarth_10m_rivers_lake_centerlines
+NGA;Benue;;8.911195944136288;13.29426310022006;4;River;NaturalEarth_10m_rivers_lake_centerlines
+NGA;Bunga;;11.348293221726067;9.83399176108565;8;River;NaturalEarth_10m_rivers_lake_centerlines
+NGA;Chari;;11.00096507066564;16.176784321907526;6;River;NaturalEarth_10m_rivers_lake_centerlines
+NGA;Gongola;;10.351748725604352;10.87063593187663;8;River;NaturalEarth_10m_rivers_lake_centerlines
+NGA;Hadejia;;12.086654353300725;9.141228901355559;9;River;NaturalEarth_10m_rivers_lake_centerlines
+NGA;Iobe;;13.442204198477615;13.81483027688937;8;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+NGA;Kaduna;;9.628611766660134;5.925704308966412;7;River;NaturalEarth_10m_rivers_lake_centerlines
+NGA;Mariga;;11.00495316084362;6.457252261091329;7;River;NaturalEarth_10m_rivers_lake_centerlines
+NGA;Níger;;11.936020717309985;-0.843297936737357;3;River;NaturalEarth_10m_rivers_lake_centerlines
+NGA;Ogum;;7.685490809173619;3.563631577551304;9;River;NaturalEarth_10m_rivers_lake_centerlines
+NGA;Sokoto;;12.41586827446578;5.332618915957183;7;River;NaturalEarth_10m_rivers_lake_centerlines
+NIC;Coco;;14.336396642241535;-84.97868578889894;6;River;NaturalEarth_10m_rivers_lake_centerlines
+NIC;Grande de Matagalpa;;12.915887296621062;-84.7234673052271;7;River;NaturalEarth_10m_rivers_lake_centerlines
+NIC;Mico;;12.122625909510054;-84.44498933295183;8;River;NaturalEarth_10m_rivers_lake_centerlines
+NIC;San Juan;;11.564476608565515;-85.34233912062199;5;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+NLD;Issel;;52.2519140346975;6.085720708219061;4;River;NaturalEarth_10m_rivers_lake_centerlines
+NLD;Lek;;51.9400885439258;4.715506839793861;4;River;NaturalEarth_10m_rivers_lake_centerlines
+NLD;Mosa;;50.12848226599765;5.39401446126368;8;River;NaturalEarth_10m_rivers_lake_centerlines
+NLD;Reno;;50.751555593933105;7.114147341557329;4;River;NaturalEarth_10m_rivers_lake_centerlines
+NLD;Reno Baixo;;51.96064741617755;5.695661516401392;4;River;NaturalEarth_10m_rivers_lake_centerlines
+NLD;Waal;;51.78138049159965;4.526651545445159;4;River;NaturalEarth_10m_rivers_lake_centerlines
+NOR;Dalälven;;61.00937769945318;14.464543882839497;6;River;NaturalEarth_10m_rivers_lake_centerlines
+NOR;Glomma;;61.66212321481833;11.182266531296081;6;River;NaturalEarth_10m_rivers_lake_centerlines
+NOR;Indalsälven;;63.159320303964414;14.734860910699425;9;River;NaturalEarth_10m_rivers_lake_centerlines
+NOR;Klarälven;;58.979095036801866;12.975797797297092;8;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+NOR;Paatsjoki;;69.23519908234583;29.377556567888288;8;River;NaturalEarth_10m_rivers_lake_centerlines
+NOR;Vorma;;60.77885596131544;10.841410127662899;9;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+NPL;Gagara;;27.997121161205055;82.04558086578143;7;River;NaturalEarth_10m_rivers_lake_centerlines
+NPL;Gandak;;27.471554445409975;84.14000771557258;9;River;NaturalEarth_10m_rivers_lake_centerlines
+NPL;Sapt;;27.24364606865916;86.9350465190435;7;River;NaturalEarth_10m_rivers_lake_centerlines
+NZL;Ahuriri;;-44.39434242112981;169.80020813656603;10;River;NaturalEarth_10m_rivers_lake_centerlines
+NZL;Aparima;;-45.97745900110081;168.0655807281822;9;River;NaturalEarth_10m_rivers_lake_centerlines
+NZL;Awatere;;-41.87378282771163;173.6621756727257;9;River;NaturalEarth_10m_rivers_lake_centerlines
+NZL;Braço direito do Motueka;;-41.67059191935856;172.9984397361;10;River;NaturalEarth_10m_rivers_lake_centerlines
+NZL;Braço esquerdo do Motueka;;-41.61509858954894;172.98241402982777;10;River;NaturalEarth_10m_rivers_lake_centerlines
+NZL;Buller;;-41.78153972672801;172.19445374971545;6;River;NaturalEarth_10m_rivers_lake_centerlines
+NZL;Clarence;;-42.22807334969258;173.30955798756816;6;River;NaturalEarth_10m_rivers_lake_centerlines
+NZL;Clutha;;-45.507840730379556;169.4242048326215;6;River;NaturalEarth_10m_rivers_lake_centerlines
+NZL;Grey;;-42.37674751749828;171.6810328913936;9;River;NaturalEarth_10m_rivers_lake_centerlines
+NZL;Hurunui;;-42.80794780791683;172.5892183301068;9;River;NaturalEarth_10m_rivers_lake_centerlines
+NZL;Hutt;;-41.12810359170636;175.0439175583478;10;River;NaturalEarth_10m_rivers_lake_centerlines
+NZL;Hāwea;;-44.65487095544994;169.23423833368471;6;River;NaturalEarth_10m_rivers_lake_centerlines
+NZL;Inangahua;;-42.1023765283335;171.92050853416424;10;River;NaturalEarth_10m_rivers_lake_centerlines
+NZL;Karamea;;-41.279084724218855;172.36027059551844;10;River;NaturalEarth_10m_rivers_lake_centerlines
+NZL;Kawarau;;-45.02801939306103;168.99467617450338;6;River;NaturalEarth_10m_rivers_lake_centerlines
+NZL;Manawatu;;-40.32323735216438;175.81055983589204;6;River;NaturalEarth_10m_rivers_lake_centerlines
+NZL;Manganui;;-35.96787105085105;174.10332666047984;10;River;NaturalEarth_10m_rivers_lake_centerlines
+NZL;Mataura;;-45.90401467894129;168.7812514565179;6;River;NaturalEarth_10m_rivers_lake_centerlines
+NZL;Moawhango;;-39.47214903346596;175.8528910648134;10;River;NaturalEarth_10m_rivers_lake_centerlines
+NZL;Mohaka;;-39.0953493704865;176.75839285265752;6;River;NaturalEarth_10m_rivers_lake_centerlines
+NZL;Mokau;;-38.55266193339207;175.01862081270383;9;River;NaturalEarth_10m_rivers_lake_centerlines
+NZL;Motueka;;-41.334898747190685;172.87454618854508;9;River;NaturalEarth_10m_rivers_lake_centerlines
+NZL;Ngaruroro;;-39.46251152547458;176.47835342623506;9;River;NaturalEarth_10m_rivers_lake_centerlines
+NZL;Ongarue;;-38.67083835319549;175.36761259509404;10;River;NaturalEarth_10m_rivers_lake_centerlines
+NZL;Orari;;-43.99300099014629;171.179604449473;10;River;NaturalEarth_10m_rivers_lake_centerlines
+NZL;Patea;;-39.47854860292675;174.4179768660401;9;River;NaturalEarth_10m_rivers_lake_centerlines
+NZL;Piako;;-37.526235985485094;175.54312293524168;10;River;NaturalEarth_10m_rivers_lake_centerlines
+NZL;Pomahaka;;-45.87110983866571;169.25575973272308;10;River;NaturalEarth_10m_rivers_lake_centerlines
+NZL;Pukaki;;-44.24448711981064;170.18837206021837;10;River;NaturalEarth_10m_rivers_lake_centerlines
+NZL;Rakaia;;-43.49697580679148;171.59342375937462;9;River;NaturalEarth_10m_rivers_lake_centerlines
+NZL;Rangitaiki;;-38.47719722170643;176.62124740375583;9;River;NaturalEarth_10m_rivers_lake_centerlines
+NZL;Rangitata;;-43.837170436414986;171.19691314795534;9;River;NaturalEarth_10m_rivers_lake_centerlines
+NZL;Rangitikei;;-39.742622273326816;175.7715613986323;6;River;NaturalEarth_10m_rivers_lake_centerlines
+NZL;Ruakituri;;-38.7057122047765;177.3448991234713;10;River;NaturalEarth_10m_rivers_lake_centerlines
+NZL;Taieri;;-45.545839781946036;170.10084961775607;6;River;NaturalEarth_10m_rivers_lake_centerlines
+NZL;Tekapo;;-44.19173492952062;170.36323889601167;10;River;NaturalEarth_10m_rivers_lake_centerlines
+NZL;Tongariro;;-39.05134867610915;175.82088171658427;6;River;NaturalEarth_10m_rivers_lake_centerlines
+NZL;Tukituki;;-39.86762383600048;176.6040108252365;9;River;NaturalEarth_10m_rivers_lake_centerlines
+NZL;Turakina;;-39.832760348237244;175.41446408374378;9;River;NaturalEarth_10m_rivers_lake_centerlines
+NZL;Tūtaekurī;;-39.45464542918084;176.62158204196098;10;River;NaturalEarth_10m_rivers_lake_centerlines
+NZL;Waiau;;-45.51352383928831;167.62620863168544;9;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+NZL;Waihou;;-37.693097040411295;175.76443320894143;9;River;NaturalEarth_10m_rivers_lake_centerlines
+NZL;Waikato;;-38.828109032038114;175.9280628111596;6;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+NZL;Waimakariri;;-43.24763001206584;172.05423753469182;6;River;NaturalEarth_10m_rivers_lake_centerlines
+NZL;Wairau;;-41.68273944718145;173.35352989913136;6;River;NaturalEarth_10m_rivers_lake_centerlines
+NZL;Wairoa;;-35.746500716919584;174.09029922354938;9;River;NaturalEarth_10m_rivers_lake_centerlines
+NZL;Waitaki;;-44.79272182016685;170.65423437060448;9;River;NaturalEarth_10m_rivers_lake_centerlines
+NZL;Waitoa;;-37.68173849960177;175.6652678932472;10;River;NaturalEarth_10m_rivers_lake_centerlines
+NZL;Whakatane;;-38.29527627188115;176.98615188058022;10;River;NaturalEarth_10m_rivers_lake_centerlines
+NZL;Whangaehu;;-39.65781938525359;175.43556836391963;9;River;NaturalEarth_10m_rivers_lake_centerlines
+NZL;Whanganui;;-39.32492165633305;175.14030657857808;6;River;NaturalEarth_10m_rivers_lake_centerlines
+NZL;Ōhau;;-44.28867188405518;170.0684244590817;10;River;NaturalEarth_10m_rivers_lake_centerlines
+NZL;Ōreti;;-45.8252889371635;168.27432112049192;6;River;NaturalEarth_10m_rivers_lake_centerlines
+PAK;Chenab;;31.832370763324832;73.79322536616579;6;River;NaturalEarth_10m_rivers_lake_centerlines
+PAK;Indo;;30.84106349269755;72.0536703095188;3;River;NaturalEarth_10m_rivers_lake_centerlines
+PAK;Jhelum;;33.69137549681118;74.01148137493031;7;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+PAK;Ravi;;31.543487555787163;74.25373547028059;9;River;NaturalEarth_10m_rivers_lake_centerlines
+PAK;Sutlej;;30.810976223599194;76.00584746233235;6;River;NaturalEarth_10m_rivers_lake_centerlines
+PAN;Canal do Panamá;;9.164549308576534;-79.8225508870871;6;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+PAN;Santa María;;8.189518322961598;-80.83544094008248;8;River;NaturalEarth_10m_rivers_lake_centerlines
+PER;Amazonas;;-3.1253105356748976;-63.345838442968834;1;River;NaturalEarth_10m_rivers_lake_centerlines
+PER;Huallaga;;-7.601476669078503;-76.1913786744415;7;River;NaturalEarth_10m_rivers_lake_centerlines
+PER;Içá;;-1.566534030710978;-72.61254605724528;7;River;NaturalEarth_10m_rivers_lake_centerlines
+PER;Javari;;-5.1013344829098655;-72.04699463744026;8;River;NaturalEarth_10m_rivers_lake_centerlines
+PER;Juruá;;-6.425341967170673;-69.57983447766313;7;River;NaturalEarth_10m_rivers_lake_centerlines
+PER;Madre de Deus;;-11.793643970325677;-68.73581394000125;6;River;NaturalEarth_10m_rivers_lake_centerlines
+PER;Marañón;;-6.000671786152601;-76.84555569915884;5;River;NaturalEarth_10m_rivers_lake_centerlines
+PER;Napo;;-1.6792951118314308;-75.13268699580003;7;River;NaturalEarth_10m_rivers_lake_centerlines
+PER;None;;-17.38054893123199;-68.22403930284645;7;River;NaturalEarth_10m_rivers_lake_centerlines
+PER;Ocoña;;-15.531975327371951;-73.2515001746237;8;River;NaturalEarth_10m_rivers_lake_centerlines
+PER;Pisco;;-13.465073285826078;-75.63103427006466;8;River;NaturalEarth_10m_rivers_lake_centerlines
+PER;Purus;;-7.444816049700561;-66.32027837645633;6;River;NaturalEarth_10m_rivers_lake_centerlines
+PER;Santa;;-9.19107128904408;-77.86492122793773;8;River;NaturalEarth_10m_rivers_lake_centerlines
+PER;Santiago;;-2.783042095672886;-77.17240570342203;9;River;NaturalEarth_10m_rivers_lake_centerlines
+PER;Tambo;;-16.652973371386633;-71.01863860441007;8;River;NaturalEarth_10m_rivers_lake_centerlines
+PER;Tumbes;;-4.438813128909434;-80.16164074889166;7;River;NaturalEarth_10m_rivers_lake_centerlines
+PER;Ucayali;;-9.527044780056366;-73.9163615688927;1;River;NaturalEarth_10m_rivers_lake_centerlines
+PHL;Cagayan;;17.157297856858143;121.71133082272381;8;River;NaturalEarth_10m_rivers_lake_centerlines
+PHL;None;;7.559964731281444;124.91346950487873;9;River;NaturalEarth_10m_rivers_lake_centerlines
+PNG;Fly;;-6.905088249555801;141.38741022727152;7;River;NaturalEarth_10m_rivers_lake_centerlines
+PNG;None;;-7.388732867051398;141.47892503579922;8;River;NaturalEarth_10m_rivers_lake_centerlines
+PNG;Purari;;-6.853059140555279;144.5828091515254;6;River;NaturalEarth_10m_rivers_lake_centerlines
+PNG;Ramu;;-5.276554591765978;145.15239001780392;9;River;NaturalEarth_10m_rivers_lake_centerlines
+PNG;Sepik;;-4.251938510486062;142.5041100928923;7;River;NaturalEarth_10m_rivers_lake_centerlines
+POL;Bug Ocidental;;51.62008582347169;23.181604995151933;8;River;NaturalEarth_10m_rivers_lake_centerlines
+POL;Morava;;49.213284314643346;17.11662763951768;8;River;NaturalEarth_10m_rivers_lake_centerlines
+POL;Mukhavyets;;51.935538216874185;24.106651421989817;8;River;NaturalEarth_10m_rivers_lake_centerlines
+POL;Oder;;51.52422518750993;16.23054540751329;4;River;NaturalEarth_10m_rivers_lake_centerlines
+POL;Varta;;51.962387250565904;17.56340758211914;8;River;NaturalEarth_10m_rivers_lake_centerlines
+POL;Vístula;;49.933815615894034;18.873294741268857;5;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+PRK;Tumen;;42.46319285103466;129.59746653511243;9;River;NaturalEarth_10m_rivers_lake_centerlines
+PRK;Yalu;;40.55784860078876;125.12676015447822;8;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+PRT;Douro;;41.456900588583636;-5.227845698557505;6;River;NaturalEarth_10m_rivers_lake_centerlines
+PRT;Guadiana;;38.701956643087115;-5.915453463910437;7;River;NaturalEarth_10m_rivers_lake_centerlines
+PRT;Tejo;;40.127927422735304;-4.088794492395193;5;River;NaturalEarth_10m_rivers_lake_centerlines
+PRY;Jejuí;;-24.171454304946867;-56.038780613192;9;River;NaturalEarth_10m_rivers_lake_centerlines
+PRY;None;;-25.377519468073825;-54.7956773674975;8;River;NaturalEarth_10m_rivers_lake_centerlines
+PRY;Paraná;;-22.573722847251865;-52.8371241265635;4;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+PRY;Pilcomayo;;-22.14140954476505;-62.3857019352311;6;River;NaturalEarth_10m_rivers_lake_centerlines
+PRY;Verde;;-22.98184015648661;-59.701954546268055;9;River;NaturalEarth_10m_rivers_lake_centerlines
+PSX;Jordão;;31.901982998916136;35.50839216891207;6;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+ROU;Borcea;;44.39281512473081;27.722978296349755;2;River;NaturalEarth_10m_rivers_lake_centerlines
+ROU;Braço Sfântu Gheorghe;;45.0377239620465;29.24848797722243;2;River;NaturalEarth_10m_rivers_lake_centerlines
+ROU;Braço Sulina;;45.174556951404014;29.284531201540112;2;River;NaturalEarth_10m_rivers_lake_centerlines
+ROU;Braço de Chilia;;45.330643419904625;29.154577302364828;2;River;NaturalEarth_10m_rivers_lake_centerlines
+ROU;Danúbio;;45.169057580217235;22.533098991191267;2;River;NaturalEarth_10m_rivers_lake_centerlines
+ROU;Ialomița;;44.76070916169431;26.480636184647736;9;River;NaturalEarth_10m_rivers_lake_centerlines
+ROU;Mureș;;46.30919471306928;23.075881317906337;8;River;NaturalEarth_10m_rivers_lake_centerlines
+ROU;None;;45.01345061760337;28.081664702222902;7;River;NaturalEarth_10m_rivers_lake_centerlines
+ROU;Olt;;45.415144624098474;24.935331341843337;8;River;NaturalEarth_10m_rivers_lake_centerlines
+ROU;Prut;;47.52157181727024;26.905843285992233;7;River;NaturalEarth_10m_rivers_lake_centerlines
+ROU;Tisza;;47.7340526210101;22.07264183022462;6;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Adycha;;66.64494125340774;136.92206460876235;8;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Alazeya;;69.09634740938685;153.18556252633454;8;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Aldan;;60.273945843774406;130.41769525769703;4;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Amgun;;51.93541698311912;136.28058168529884;8;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Amur;;50.515018022002096;137.73420410826088;3;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Anabar;;71.64779228253262;113.71655907487549;7;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Anadyr;;65.46864641860235;170.97567779937316;6;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Angara;;54.2545904974892;103.68207627652619;6;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Argun;;49.382104272311125;119.97068066639908;3;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Belaya;;54.38941679884793;55.908855749028305;9;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Bikin;;46.707372018579164;135.90569673089325;8;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Biya;;51.6279441101724;87.63494513017233;6;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Bykovskaya Protoka;;72.48363941388293;127.07279660198282;1;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Bytantay;;67.6428796917345;131.25636692859226;9;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Canal Mar Branco–Báltico;;64.20778896306467;34.47839689676442;10;Canal;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Canal Olenëkskay;;72.58241478426768;124.72532634862793;1;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Canal Volga-Don;;48.55201235925361;44.18708236280602;6;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Canal de Moscou;;56.26253909133915;37.46341903059067;9;Canal;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Cheksna;;59.64717449587836;37.86892122571725;9;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Chulym;;56.468857068796204;88.85091607759207;7;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Chulyshman;;50.815590715083076;88.61438839002989;6;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Chuna;;56.035710776415975;97.93602040788898;8;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Chusovaya;;58.18164808237987;56.728506677830644;8;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Desna;;52.20171028661791;32.842378533995;7;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Dniepre;;51.95063030988256;31.62447816019225;4;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Don;;48.522918817871265;43.27630066447672;6;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Donets;;49.0725095794023;38.3140496775562;7;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Dulgalakh;;66.31672493163084;131.72597704163775;8;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Duína Ocidental;;55.94927255371611;28.635921233657253;5;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Duína do Norte;;62.8132987741487;43.478796860061266;4;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Grande Anyuy;;67.13698936104934;164.36753332543523;8;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Grande Ienissei;;52.30111801817302;96.24662469249976;8;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Grande Kuonamka;;69.7680837113952;110.20218064437155;7;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Grande Yugan;;59.74201160823785;74.04137826588749;9;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Ienissei;;64.47604814021413;88.05956461820902;4;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Ienissei Superior;;54.7535933288173;91.49668467249523;4;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Indigirka;;67.17763584261095;145.02960894012816;5;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Ingoda;;51.27770330126964;113.00248934376658;7;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Irtich;;51.18069642824187;79.11375510629843;2;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Ishim;;55.52379207817229;69.34904375965152;7;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Jänisjoki;;61.275470041582075;31.05735744154974;9;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Kama;;57.04578045029077;53.839089031833566;6;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Kamtchatka;;55.55089109352047;159.7987496086058;6;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Katun;;50.9123289000131;85.96479201752436;7;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Kem;;64.61698790954962;32.78241601317796;6;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Khatanga;;72.39433030666456;103.571814251273;6;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Kheta;;70.81310095186888;96.65348322036817;6;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Khoper;;51.370914588455086;42.7982878675298;7;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Kola;;67.76957784430405;33.00423684757883;9;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Kolyma;;65.01194705963437;152.73012670119334;4;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Kondoma;;53.00740202315177;87.46382483903203;8;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Kotui;;69.04833960738091;101.28464592485507;7;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Kuban;;44.82934613896489;40.278826546639856;7;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Kukhtuy;;60.63016764967608;143.08960286514386;8;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Kureyka;;67.1061596974331;89.4413733783988;8;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Kyzyl-Khem;;51.385984689540194;96.88553518193739;4;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Lena;;61.58804308369662;118.61786011914808;1;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Lotta;;68.56216586688065;29.03458850619914;7;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Luza;;60.406834491220806;48.30049814213956;8;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Malaya Ob';;64.6168230742862;65.1752000991451;7;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Mana;;55.72757370539715;95.13437370125482;8;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Markha;;65.02862714882828;115.401312901239;9;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Maya;;58.82052863874877;136.37667752538292;8;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Mezen;;64.46752418792663;47.889824609091036;7;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Moma;;65.7970499256947;145.47819200401278;8;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Moscou;;55.64839816472185;36.799242450187826;9;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Msta;;58.395349318840985;31.36839590390658;9;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Nadym;;64.82327207118445;72.87928124074627;7;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Narva;;58.55877751786638;27.714982930825727;7;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Neman;;55.08866481768366;22.54593085285401;7;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Neva;;60.050899679303676;31.254153206859254;5;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+RUS;None;;63.90046452998491;65.21324472865724;8;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Ob;;58.18351911316326;79.30848310647269;4;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Oca;;55.56391727434154;102.10665870280043;8;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Oka;;54.70125162917333;39.48049241256522;7;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Olenyok;;69.09017654570533;115.90405026748454;6;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Oloy;;65.72324655910606;162.498813316549;8;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Olyokma;;56.80021614402374;120.62687301332893;7;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Omolon;;65.46564396795287;159.42046234134662;7;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Onega;;63.30974940922767;39.08588607050563;7;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Onon;;49.86200544756803;112.81606063047236;8;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Ozhogina;;66.591924468314;148.38933573258402;9;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Paatsjoki;;69.23519908234583;29.377556567888288;8;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Palyavaam;;68.55775394691182;173.93788211711552;8;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Pechora;;65.1141761701015;55.33493750987716;4;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Penzhina;;63.50271105940444;166.4516201481958;9;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Pequeno Ienissei;;51.57911380575371;95.162994274977;4;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Pinega;;63.56904039418623;44.96891868950116;9;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Popigai;;72.08367925748314;109.99403845038096;8;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Poronay;;49.94945320253608;142.9787069763935;8;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Pur;;65.02594550326151;76.71066248018872;7;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Pyasina;;72.11248877914181;89.57908886742769;7;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Rio Kovzha;;60.73830575789425;36.89390829499159;12;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Sartang;;66.87335988882772;133.4096291934945;7;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Seim;;51.46562861745233;34.98403376733518;9;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Selemdzha;;52.66619754301624;131.73507356714396;9;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Selenga;;50.40446286945682;104.92212838209862;2;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Selennyakh;;68.26534674770168;140.8365212611156;9;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Severnaya Sos’va;;63.0823043797431;62.45457107831312;8;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Shilka;;52.71978479601906;118.74242612540777;7;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Shishhid Gol;;51.15017225800008;98.96094856003249;4;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Suda;;58.809336758773085;38.044213092070024;7;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Sukhona;;59.662769517065776;39.421194755674705;4;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Sura;;54.29052373193375;46.05305867730467;8;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Svir;;61.127733085467625;34.22666306347029;5;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Taimir;;62.85357411867081;100.88053003474934;8;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Taimir Inferior;;74.70928420312784;100.35425288347945;7;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Taimir Superior;;73.64129120314107;96.11052769647213;7;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Taz;;65.04247102524833;82.42645625091085;6;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Tchara;;58.59348415828235;119.00028351684533;9;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Tobol;;54.789336412672206;64.64863835697864;5;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Tom;;54.837714901632864;86.84659762648407;6;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Trofimovskaya Protoka;;72.91556659759141;127.20894788996885;5;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Tsna;;53.46149821850097;41.76332350501782;9;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Tuloma;;68.76876056531201;32.39179979573423;7;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Tumatskaya Protoka;;72.80107876144965;126.45836796946355;5;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Tumen;;42.46319285103466;129.59746653511243;9;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Tumnin;;50.22742200794331;139.80469942682873;8;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Tunguska Inferior;;62.818034139141695;101.85344827974859;5;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Tunguska Pedregoso;;59.03531828471449;103.77656944163428;7;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Tura;;58.072828388886975;63.03942454977983;9;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Tvertsa;;57.02290453203035;34.88160802488311;9;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Tyung;;65.73906713692227;118.62754400417859;8;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Uchur;;57.266852393091895;132.39774669043427;9;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Uda;;54.2491032410461;132.84268369642675;8;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Udzha;;71.24983893711115;116.36073866302578;8;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Unzha;;57.54430024691835;43.430437753379955;9;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Ural;;51.924942577405;58.76368488332797;4;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Usa;;66.72945164690931;61.514886393139925;9;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Ussuri;;44.51076118180501;133.8152170470134;7;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Vakh;;61.22330086017768;80.95347733729325;8;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Vasyugan;;58.680698920066774;77.96553429687503;9;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Velikaya;;56.94977645682806;28.772428075344582;7;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Vilyuy;;63.13799464650526;111.09290814040374;6;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Vishera;;60.659240188172134;57.84388100433602;8;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Vitim;;55.751325739219375;114.35308873209208;7;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Volga;;54.87678901971255;45.06511331768819;3;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Volkhov;;59.304178427109164;31.924306811175864;9;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Voronya;;68.46582793787134;35.32572180113576;9;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Vuoksi;;60.59493073522135;30.555851063994925;6;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Vyatka;;55.720343159101674;51.450260953980205;9;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Vychegda;;61.89029257696724;51.54245258193946;5;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Vym;;63.36550092831659;51.23090529987391;9;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Yana;;70.5339629356847;135.39778114328945;7;River;NaturalEarth_10m_rivers_lake_centerlines
+RUS;Zeya;;54.40121133833475;128.14570915928763;7;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+RWA;Kagera;;-2.0276322741041857;30.678564049109095;1;River;NaturalEarth_10m_rivers_lake_centerlines
+RWA;Ruzizi;;-2.890009493916889;29.071814633691638;7;River;NaturalEarth_10m_rivers_lake_centerlines
+SDN;Atbara;;14.778050322166605;35.90973701667295;6;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+SDN;Nilo;;21.917247622860422;31.979785676922127;1;River;NaturalEarth_10m_rivers_lake_centerlines
+SDN;Nilo Azul;;11.516061684072625;34.53791898933987;3;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+SDN;Nilo Branco;;12.18384659324735;32.34992440077154;1;River;NaturalEarth_10m_rivers_lake_centerlines
+SDN;Tekezé;;14.270871031133538;36.80556998821373;6;River;NaturalEarth_10m_rivers_lake_centerlines
+SDS;Akobo;;7.067440946810402;34.43925043164736;7;River;NaturalEarth_10m_rivers_lake_centerlines
+SDS;Bahr el Zeraf;;8.641205571451438;30.775134808323802;6;River;NaturalEarth_10m_rivers_lake_centerlines
+SDS;Kangen;;5.777122627591218;33.9343899135454;9;River;NaturalEarth_10m_rivers_lake_centerlines
+SDS;Nilo Branco;;3.0761642770999367;31.586001581448794;1;River;NaturalEarth_10m_rivers_lake_centerlines
+SDS;Pibor;;7.262207100390624;33.028274363591876;9;River;NaturalEarth_10m_rivers_lake_centerlines
+SDS;Sobat;;8.797689819722455;32.56008314390216;7;River;NaturalEarth_10m_rivers_lake_centerlines
+SEN;Gâmbia;;12.918991241613423;-13.313321011714674;7;River;NaturalEarth_10m_rivers_lake_centerlines
+SEN;Senegal;;15.662394669201205;-13.668177535844459;4;River;NaturalEarth_10m_rivers_lake_centerlines
+SLE;Rokel;;9.013323404181627;-11.898819817932846;9;River;NaturalEarth_10m_rivers_lake_centerlines
+SLV;Lempa;;14.009573958581463;-88.98667412743329;7;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+SOM;Juba;;2.1698826133455906;42.445544673977;6;River;NaturalEarth_10m_rivers_lake_centerlines
+SOM;None;;0.04123021588603171;42.43406110544684;8;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+SOM;Shebelle;;6.827624524261597;41.932307846669126;7;River;NaturalEarth_10m_rivers_lake_centerlines
+SRB;Canal Danúbio – Tisa – Danúbio;;46.00865584127775;18.901121836638854;6;River;NaturalEarth_10m_rivers_lake_centerlines
+SRB;Danúbio;;45.169057580217235;22.533098991191267;2;River;NaturalEarth_10m_rivers_lake_centerlines
+SRB;Drina;;43.79490825022587;19.231427663516854;8;River;NaturalEarth_10m_rivers_lake_centerlines
+SRB;Morava;;43.452983752660884;21.53874929179754;7;River;NaturalEarth_10m_rivers_lake_centerlines
+SRB;Mur;;46.56414978736015;16.190908826940948;6;River;NaturalEarth_10m_rivers_lake_centerlines
+SRB;Sava;;45.19748348941773;17.923245633270188;7;River;NaturalEarth_10m_rivers_lake_centerlines
+SRB;Tisza;;45.712805206938654;20.146133794261104;6;River;NaturalEarth_10m_rivers_lake_centerlines
+SUR;Corentyne;;2.927501678210786;-57.201407075166486;7;River;NaturalEarth_10m_rivers_lake_centerlines
+SUR;Kabalebo;;4.09509554540048;-57.44171806805148;7;River;NaturalEarth_10m_rivers_lake_centerlines
+SUR;Litani;;2.8986164971718296;-54.31140548764583;7;River;NaturalEarth_10m_rivers_lake_centerlines
+SUR;Maroni;;4.4907025306119115;-54.344899462697555;7;River;NaturalEarth_10m_rivers_lake_centerlines
+SUR;Suriname;;5.412379703627355;-55.05053189743444;7;River;NaturalEarth_10m_rivers_lake_centerlines
+SVK;Danúbio;;45.169057580217235;22.533098991191267;2;River;NaturalEarth_10m_rivers_lake_centerlines
+SVK;Morava;;49.213284314643346;17.11662763951768;8;River;NaturalEarth_10m_rivers_lake_centerlines
+SVN;Drava;;46.595541537979564;14.588984585728197;7;River;NaturalEarth_10m_rivers_lake_centerlines
+SVN;Mur;;46.56414978736015;16.190908826940948;6;River;NaturalEarth_10m_rivers_lake_centerlines
+SVN;Sava;;45.19748348941773;17.923245633270188;7;River;NaturalEarth_10m_rivers_lake_centerlines
+SWE;Dalälven;;61.00937769945318;14.464543882839497;6;River;NaturalEarth_10m_rivers_lake_centerlines
+SWE;Göta älv;;58.06743195824846;12.09218222167894;6;River;NaturalEarth_10m_rivers_lake_centerlines
+SWE;Indalsälven;;63.216879555234605;14.234384354082417;9;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+SWE;Kalixälven;;67.81339480072499;19.509030571840917;9;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+SWE;Klarälven;;58.979095036801866;12.975797797297092;8;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+SWE;Lule;;65.90018437031404;21.376756071487886;7;River;NaturalEarth_10m_rivers_lake_centerlines
+SWE;Motala ström;;58.52945323600618;15.541660757557755;8;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+SWE;Muonio;;68.1620323676699;22.71479470683262;8;River;NaturalEarth_10m_rivers_lake_centerlines
+SWE;Skellefte älv;;65.63893636304466;18.503666943757352;7;River;NaturalEarth_10m_rivers_lake_centerlines
+SWE;Stora Lule;;66.68658550883904;20.044147081017158;7;River;NaturalEarth_10m_rivers_lake_centerlines
+SWE;Stora Lulevatten;;67.39015567031046;18.60478021254693;7;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+SWE;Tornelven;;67.0860891901654;22.888730817906833;7;River;NaturalEarth_10m_rivers_lake_centerlines
+SWE;Ångermanälven;;64.78742017305753;16.074685306204135;7;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+SYR;Eufrates;;36.03619678306685;38.236107615594655;3;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+SYR;Tigre;;37.88276426291139;40.83497913318601;4;River;NaturalEarth_10m_rivers_lake_centerlines
+TCD;Aoukalé;;10.370096427567658;21.729971427795046;8;River;NaturalEarth_10m_rivers_lake_centerlines
+TCD;Bahr Aouk;;9.104871712663991;19.87588883350079;8;River;NaturalEarth_10m_rivers_lake_centerlines
+TCD;Chari;;11.00096507066564;16.176784321907526;6;River;NaturalEarth_10m_rivers_lake_centerlines
+TCD;Iobe;;13.442204198477615;13.81483027688937;8;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+TCD;Logone;;9.778273904944987;15.687440005662506;7;River;NaturalEarth_10m_rivers_lake_centerlines
+TCD;Ouham;;7.2321298414982875;17.288246309127047;6;River;NaturalEarth_10m_rivers_lake_centerlines
+TGO;Oti;;10.408816651102448;0.8399011224913744;8;River;NaturalEarth_10m_rivers_lake_centerlines
+THA;Chao Phraya;;14.500463544246818;100.2674343995979;7;River;NaturalEarth_10m_rivers_lake_centerlines
+THA;Chi;;15.940839388134611;103.07121723589512;8;River;NaturalEarth_10m_rivers_lake_centerlines
+THA;Mae Klong;;14.7301221939672;99.0669642849108;7;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+THA;Mekong;;24.08792075651873;99.94548947597876;2;River;NaturalEarth_10m_rivers_lake_centerlines
+THA;Mun;;15.190687907721584;103.56429571665888;8;River;NaturalEarth_10m_rivers_lake_centerlines
+THA;None;;13.60492433378849;103.13669113740485;9;River;NaturalEarth_10m_rivers_lake_centerlines
+THA;Ping;;17.304395093140403;98.9175833369558;7;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+THA;Salween;;18.874278159633665;97.83677229249801;4;River;NaturalEarth_10m_rivers_lake_centerlines
+THA;Yom;;17.923322684202297;100.52133854639592;7;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+TJK;Amu Dária;;40.156505587945496;62.78015846005301;5;River;NaturalEarth_10m_rivers_lake_centerlines
+TJK;Naryn;;41.35372199959391;74.32123442830482;5;River;NaturalEarth_10m_rivers_lake_centerlines
+TJK;Pamir;;37.32884408354517;73.09494614976572;5;River;NaturalEarth_10m_rivers_lake_centerlines
+TJK;Panj;;37.52663501871302;70.50391614704928;5;River;NaturalEarth_10m_rivers_lake_centerlines
+TJK;Sir Dária;;41.5677111203163;67.99629567467501;5;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+TJK;Zeravshan;;39.69502451505884;66.79948125857959;8;River;NaturalEarth_10m_rivers_lake_centerlines
+TKM;Amu Dária;;40.156505587945496;62.78015846005301;5;River;NaturalEarth_10m_rivers_lake_centerlines
+TKM;Atrek;;37.60903701313964;56.356582930907074;7;River;NaturalEarth_10m_rivers_lake_centerlines
+TKM;Hari;;35.28945471470566;62.60267778532738;8;River;NaturalEarth_10m_rivers_lake_centerlines
+TKM;Zeravshan;;39.69502451505884;66.79948125857959;8;River;NaturalEarth_10m_rivers_lake_centerlines
+TUR;Arax;;39.61449046761013;45.67436064657601;8;River;NaturalEarth_10m_rivers_lake_centerlines
+TUR;Büyük Menderes;;37.96010572529816;28.75768717079797;8;River;NaturalEarth_10m_rivers_lake_centerlines
+TUR;Ceyhan;;37.55915348936543;36.39007501501304;9;River;NaturalEarth_10m_rivers_lake_centerlines
+TUR;Eufrates;;38.15286919890879;38.71262462981426;3;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+TUR;Kelkit;;40.443646103588044;37.821115176098765;9;River;NaturalEarth_10m_rivers_lake_centerlines
+TUR;Kura;;40.895873594760126;45.66132897865789;8;River;NaturalEarth_10m_rivers_lake_centerlines
+TUR;Kızılırmak;;40.00585042358352;34.98476276196436;7;River;NaturalEarth_10m_rivers_lake_centerlines
+TUR;Maritsa;;41.76706844355747;25.554940974531767;7;River;NaturalEarth_10m_rivers_lake_centerlines
+TUR;Murat;;38.776224514290945;39.35538558024885;9;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+TUR;Sakarya;;40.57622070655146;30.128563797831777;8;River;NaturalEarth_10m_rivers_lake_centerlines
+TUR;Simav;;39.58433483374245;28.376605395458956;9;River;NaturalEarth_10m_rivers_lake_centerlines
+TUR;Tigre;;37.88276426291139;40.83497913318601;4;River;NaturalEarth_10m_rivers_lake_centerlines
+TZA;Gombe;;-4.990328302932723;31.06207224390613;9;River;NaturalEarth_10m_rivers_lake_centerlines
+TZA;Grande Ruaha;;-7.90823296388236;35.5968243255484;8;River;NaturalEarth_10m_rivers_lake_centerlines
+TZA;Igombe;;-4.634258603928903;32.357449154727064;9;River;NaturalEarth_10m_rivers_lake_centerlines
+TZA;Kagera;;-2.0276322741041857;30.678564049109095;1;River;NaturalEarth_10m_rivers_lake_centerlines
+TZA;Lukuga;;-5.599639706949967;29.526754170549367;8;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+TZA;Luwegu;;-9.66748600088848;36.54217100249349;7;River;NaturalEarth_10m_rivers_lake_centerlines
+TZA;Malagarasi;;-4.371148089468691;30.70645138065098;8;River;NaturalEarth_10m_rivers_lake_centerlines
+TZA;Pangani;;-3.6834760086468132;37.404708719904896;7;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+TZA;Rovuma;;-11.280818437181463;37.39293200637149;6;River;NaturalEarth_10m_rivers_lake_centerlines
+TZA;Rufiji;;-8.144138341875696;38.16985071002005;7;River;NaturalEarth_10m_rivers_lake_centerlines
+TZA;Rungwa;;-7.133465551620387;32.62319717092186;9;River;NaturalEarth_10m_rivers_lake_centerlines
+TZA;Ruzizi;;-4.392478749136154;29.377247688155936;7;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+TZA;Shama;;-6.452161255349319;33.192864203706755;8;River;NaturalEarth_10m_rivers_lake_centerlines
+TZA;Ugalla;;-5.694295655872484;31.492040714838286;8;River;NaturalEarth_10m_rivers_lake_centerlines
+TZA;Wami;;-6.254962041378905;37.13460577832619;9;River;NaturalEarth_10m_rivers_lake_centerlines
+UGA;Kagera;;-2.0276322741041857;30.678564049109095;1;River;NaturalEarth_10m_rivers_lake_centerlines
+UGA;Nilo Branco;;0.06395796727021875;32.664619296524904;1;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+UGA;Semliki;;1.1192459869155125;30.537336036420733;6;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+UKR;Braço de Chilia;;45.330643419904625;29.154577302364828;2;River;NaturalEarth_10m_rivers_lake_centerlines
+UKR;Bug Meridional;;49.427927072095606;27.58854286378281;8;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+UKR;Bug Ocidental;;51.62008582347169;23.181604995151933;8;River;NaturalEarth_10m_rivers_lake_centerlines
+UKR;Danúbio;;45.169057580217235;22.533098991191267;2;River;NaturalEarth_10m_rivers_lake_centerlines
+UKR;Desna;;52.20171028661791;32.842378533995;7;River;NaturalEarth_10m_rivers_lake_centerlines
+UKR;Dniepre;;48.657943995896545;33.299276479904854;4;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+UKR;Dniestre;;46.21429118217485;30.355870027598282;6;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+UKR;Donets;;49.0725095794023;38.3140496775562;7;River;NaturalEarth_10m_rivers_lake_centerlines
+UKR;Mukhavyets;;51.935538216874185;24.106651421989817;8;River;NaturalEarth_10m_rivers_lake_centerlines
+UKR;Pripiat;;51.15772731715743;30.487208078761377;7;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+UKR;Prut;;47.52157181727024;26.905843285992233;7;River;NaturalEarth_10m_rivers_lake_centerlines
+UKR;Seim;;51.46562861745233;34.98403376733518;9;River;NaturalEarth_10m_rivers_lake_centerlines
+UKR;Tisza;;47.7340526210101;22.07264183022462;6;River;NaturalEarth_10m_rivers_lake_centerlines
+URY;Negro;;-32.694165042659066;-56.1008213648418;7;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+URY;None;;-33.20994215679181;-53.855501792570784;8;River;NaturalEarth_10m_rivers_lake_centerlines
+URY;Uruguai;;-28.60226182576512;-54.52646892757439;6;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Alabama;;33.199461880978596;-86.3769764122749;6;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+USA;Allegheny;;41.48559850965832;-79.16468450187192;3;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Altamaha;;31.745522671300158;-82.00625084202437;7;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Arkansas;;36.65787969488639;-97.72063047845717;4;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Bayou Lafourche;;29.64417953629627;-90.58969893253467;8;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Bear;;41.4825224245836;-112.22508259925026;8;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+USA;Bighorn;;45.18387889714412;-107.89162851885949;8;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Black;;36.60637158116249;-90.80403705612366;8;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Branco;;35.599662935391116;-92.22536748881167;8;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Brazos;;31.768384808565916;-97.65560443572579;6;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Braço sul do Kuskokwim;;62.47009184419704;-153.72461825428653;9;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Broad;;34.832849217036944;-81.61250766280708;8;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Canadian;;35.525834508883555;-102.62382894833675;8;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+USA;Cape Fear;;34.857947747975736;-78.60011122981554;7;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Cedar;;42.27053384751596;-91.99206503821574;8;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Chattahoochee;;32.42728831756405;-84.67654840427576;6;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+USA;Chattooga;;34.89132110742488;-83.22211154159636;6;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Cheyenne;;44.76293932211668;-100.97890830745965;8;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+USA;Clark Fork;;47.03458714033695;-114.22630843245139;7;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Colorado;;36.48701916332242;-112.66919533113624;5;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+USA;Columbia;;50.13830879242609;-117.99675260381426;3;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+USA;Colville;;69.24611674267328;-155.13859071236465;7;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Confluência norte do Kuskokwim;;63.734628959868395;-153.20420040901274;6;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Congaree;;33.47923940003066;-80.33723188383264;8;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+USA;Connecticut;;43.380463951642;-72.18686272898691;7;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Cooper;;33.29142919084378;-80.05408376096922;8;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+USA;Copper;;61.944627902259185;-144.68773714622338;6;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Cowpasture;;38.20068842038223;-79.53704510919599;8;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Cumberland;;36.868002389722506;-88.01854824564559;8;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+USA;Delaware;;41.30234143098677;-75.01404715385915;8;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Des Moines;;42.24760463597093;-93.78971503780785;8;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Double Mountain Fork Brazos;;33.19156694059019;-101.08002003117468;6;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Eel;;40.018064336320464;-123.56035875876957;7;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Feather;;39.590041616849774;-121.3834550674191;8;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+USA;Flathead;;47.903240972682305;-114.10414120452995;8;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+USA;Fox;;44.35339289261344;-88.21102016581423;8;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Gila;;33.02270254050018;-111.17788504846303;6;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Grand;;42.77755491676429;-85.08899092846814;8;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Grande;;29.389215359136937;-102.06197255865706;4;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+USA;Great Pee Dee;;34.85922642845103;-79.87761965989581;6;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Green;;41.11468673612479;-109.55370634127128;7;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+USA;Haw;;36.04504703345258;-79.46403566854124;7;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Holston;;36.476872840125935;-82.78767073863081;5;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Hudson;;42.833156757797006;-73.86483221852227;6;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Humboldt;;40.62764545606173;-118.2987984824714;8;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+USA;Illinois;;40.553199123781454;-89.58156431547107;8;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;James;;45.62486516996664;-98.42963475186521;8;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;John Day;;44.8424079358281;-119.80958583705682;8;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Kanawha;;38.43590594091258;-81.70737362178942;8;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Kankakee;;41.24963931319302;-86.95879116471;8;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Kansas;;39.09964674054938;-95.72130275018668;8;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Kaskaskia;;39.0301571247281;-89.08674317951137;8;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Kennebec;;44.85275131557779;-69.79816618388337;9;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Kentucky;;37.82996726466456;-84.19170610447081;8;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Klamath;;42.36762278886742;-121.87720817480316;5;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+USA;Kobuk;;66.97345276930884;-157.9103025923557;8;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Koyukuk;;66.11466038652085;-154.66935060518483;6;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Kuskokwim;;61.862810665999504;-158.1091624936256;6;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Kvichak;;59.24824669012545;-156.33807833609112;8;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Madison;;44.79928233761522;-111.21229772242398;1;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+USA;Marais des Cygnes;;38.45006620100505;-95.17456063034618;8;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Meade;;70.17746867310821;-157.32714464952178;9;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Merrimack;;43.282644639041074;-71.45080534209852;8;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Minnesota;;44.74467252400215;-94.92573694580734;7;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Mississípi;;47.438764215274254;-94.32896942363246;5;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+USA;Missouri;;46.33279996312653;-102.64250633402574;1;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+USA;Mohawk;;43.04039315046511;-74.70097476779085;8;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Monongahela;;39.54632942688145;-79.9731800194713;8;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Muskingum;;39.79716879276171;-81.80611368539375;8;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Namekagon;;46.05124230993853;-91.65016898454682;8;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;New;;37.18961636862697;-80.94024844765404;8;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;None;;39.52813618961372;-119.723427705961;9;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Oconee;;33.08532141596805;-83.0972104735275;7;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Ohio;;38.626090960730565;-84.52647696332927;3;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Osage;;38.21254344188287;-93.01723360986956;8;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Pearl;;31.67427403359233;-89.75072003313646;7;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Pecos;;32.31406536817674;-104.11343071662297;7;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+USA;Pend Oreille;;48.54080297414062;-117.1817945999341;6;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Pit;;40.76490587159767;-122.22856129376909;6;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+USA;Platte;;41.03837294616743;-98.00861358272907;7;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Platte Norte;;41.91981986447062;-104.85381263470346;7;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+USA;Platte Sul;;40.34874917610884;-103.46767249402363;8;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Porcupine;;67.00598584818704;-140.67447066241468;6;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Potomac;;39.096233046248756;-78.97291734397163;6;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Prairie Dog Town Fork Red;;34.859080292764375;-101.71319647845085;7;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Rainy;;48.794734127119135;-92.54503170089781;6;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Republican;;39.945741275739024;-98.68507992451032;8;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Rio Alsek;;60.12488855634533;-137.7906934589063;6;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Rio Batepito;;31.209053054702697;-109.25632743281399;9;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Roanoke;;36.723484682573975;-78.5706774824687;7;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+USA;Rogue;;42.64763354799043;-123.26489408747304;7;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Sabine;;31.599168487814186;-93.79153493620903;8;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+USA;Sacramento;;40.77749621330362;-122.38356791108858;5;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+USA;Sagavanirktok;;69.26682512732515;-148.7438549602254;9;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Saint John;;46.50960235637636;-68.04847075121998;6;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Saint Johns;;29.354343375790716;-81.62914014148245;8;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+USA;Salinas;;36.3833155575079;-121.31033421085105;9;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Salmon;;45.18045941803643;-115.07100362945293;8;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;San Joaquin;;37.027620244973;-119.64581193978049;6;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+USA;San Juan;;37.188488799514474;-110.76889610118857;8;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+USA;Santa Cruz;;45.74270983640779;-92.45027548563306;8;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Santee;;33.3653160215969;-79.78850905567626;0;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+USA;Savannah;;33.84994623858172;-82.39194141466535;6;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+USA;Scioto;;39.88451158986791;-83.18624472021091;8;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Snake;;42.972245284605776;-112.37196968330585;4;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+USA;South Fork Republican;;39.94458691480013;-101.61030862619764;8;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Sprague;;42.49929212610565;-121.44348050973888;5;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;St. Clair;;42.75978396077636;-82.49721435379618;3;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Stanislaus;;38.05155851328513;-120.4356756879626;7;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Stikine;;57.644668335942846;-129.94831591166377;5;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Susitna;;62.50527398261871;-148.95432079221206;6;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Susquehanna;;41.33801161728355;-76.12942629698924;7;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Suwannee;;30.27893476792983;-82.860153814188;8;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Tanana;;64.0603094094216;-146.27789934582964;6;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Tennessee;;35.756500507179396;-87.73448853179215;5;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+USA;Tombigbee;;32.818024926130924;-88.17289454953932;8;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Trinity;;40.8405677986964;-123.26620951985497;6;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Tugaloo;;34.48946373431467;-82.97981832934946;6;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+USA;Tuscarawas;;40.63219795302719;-81.5304244510047;8;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Vermelho do Sul;;48.16418230578278;-96.95843799219544;7;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Wabash;;39.740516505247;-86.77874993545139;6;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;West Branch Susquehanna;;41.1019015304478;-77.75533450218991;8;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Willamette;;44.526692876958926;-122.84762189380683;6;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Wind;;43.317265108255235;-108.16659129530976;8;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+USA;Winnipeg;;49.81024829428303;-95.18686290530297;6;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+USA;Wisconsin;;44.32177413469371;-89.90317755884519;7;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+USA;Yadkin;;36.1820653209659;-81.00837445138458;6;River;NaturalEarth_10m_rivers_lake_centerlines
+USA;Yellowstone;;44.44032308196952;-110.28492947713626;7;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+USA;Yukon;;64.0576003605964;-150.58827547762405;3;River;NaturalEarth_10m_rivers_lake_centerlines
+UZB;Amu Dária;;40.156505587945496;62.78015846005301;5;River;NaturalEarth_10m_rivers_lake_centerlines
+UZB;Naryn;;41.35372199959391;74.32123442830482;5;River;NaturalEarth_10m_rivers_lake_centerlines
+UZB;Sir Dária;;43.77570441024262;66.01521301415556;5;River;NaturalEarth_10m_rivers_lake_centerlines
+UZB;Zeravshan;;39.69502451505884;66.79948125857959;8;River;NaturalEarth_10m_rivers_lake_centerlines
+VEN;Apure;;7.719908058665311;-70.05700187138999;7;River;NaturalEarth_10m_rivers_lake_centerlines
+VEN;Canal do Cassiquiare;;2.4193047735462456;-66.38835416051164;8;River;NaturalEarth_10m_rivers_lake_centerlines
+VEN;Caroni;;7.2942012084006125;-62.874119045608964;7;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+VEN;Cojedes;;8.625602020932908;-67.93790021684393;9;River;NaturalEarth_10m_rivers_lake_centerlines
+VEN;Cuyuni;;6.970593000719172;-60.71747057110096;7;River;NaturalEarth_10m_rivers_lake_centerlines
+VEN;Guárico;;9.430214244377355;-67.21468242869304;8;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+VEN;Meta;;5.1466649268968245;-70.97463598317175;6;River;NaturalEarth_10m_rivers_lake_centerlines
+VEN;Negro;;0.19415122825919665;-65.39368068834779;3;River;NaturalEarth_10m_rivers_lake_centerlines
+VEN;None;;8.896378363525475;-72.7015159214569;9;River;NaturalEarth_10m_rivers_lake_centerlines
+VEN;Orinoco;;6.139263641944194;-65.03075513133739;3;River;NaturalEarth_10m_rivers_lake_centerlines
+VEN;Ventuari;;4.655555306383324;-65.9451766350282;8;River;NaturalEarth_10m_rivers_lake_centerlines
+VNM;Ba;;13.557914442067547;108.6877342813513;9;River;NaturalEarth_10m_rivers_lake_centerlines
+VNM;Cả;;19.20619801696744;104.77470227807562;8;River;NaturalEarth_10m_rivers_lake_centerlines
+VNM;Kong;;14.980439808575658;106.66941421867166;7;River;NaturalEarth_10m_rivers_lake_centerlines
+VNM;Krong;;12.577879495193814;107.85184575109226;7;River;NaturalEarth_10m_rivers_lake_centerlines
+VNM;Mekong;;14.485274610839495;104.8302614617144;2;River;NaturalEarth_10m_rivers_lake_centerlines
+VNM;None;;10.299751768204333;106.18528574164529;5;River;NaturalEarth_10m_rivers_lake_centerlines
+VNM;Sông Đà;;22.39754966542358;102.86279937048462;8;River;NaturalEarth_10m_rivers_lake_centerlines
+VNM;Vermelho;;22.796386153765788;103.42003171876856;6;River;NaturalEarth_10m_rivers_lake_centerlines
+VNM;Zuo;;22.571201139968178;107.02900956519959;8;River;NaturalEarth_10m_rivers_lake_centerlines
+ZAF;Auob;;-24.875197814608466;18.819549883650804;8;River;NaturalEarth_10m_rivers_lake_centerlines
+ZAF;Caledon;;-29.670057244950453;27.103878057431945;7;River;NaturalEarth_10m_rivers_lake_centerlines
+ZAF;Gamka;;-32.720542274661625;22.176726247661115;7;River;NaturalEarth_10m_rivers_lake_centerlines
+ZAF;Gamtoos;;-33.23096395077893;23.999714502106613;9;River;NaturalEarth_10m_rivers_lake_centerlines
+ZAF;Gourits;;-33.80393997017284;21.696332502446936;7;River;NaturalEarth_10m_rivers_lake_centerlines
+ZAF;Great Kei;;-32.259234210137315;27.41717524721122;8;River;NaturalEarth_10m_rivers_lake_centerlines
+ZAF;Limpopo;;-23.193699542329636;30.535969846621576;6;River;NaturalEarth_10m_rivers_lake_centerlines
+ZAF;Maputo;;-26.84150859497681;32.41129627242499;8;River;NaturalEarth_10m_rivers_lake_centerlines
+ZAF;Marico;;-24.36445832759101;26.67050992797176;7;River;NaturalEarth_10m_rivers_lake_centerlines
+ZAF;Mogalakwena;;-23.709723699612727;28.720919539405138;9;River;NaturalEarth_10m_rivers_lake_centerlines
+ZAF;Molopo;;-26.452440919930552;22.406606793693527;8;River;NaturalEarth_10m_rivers_lake_centerlines
+ZAF;Olifants;;-32.23153331709604;18.80134187827959;8;River;NaturalEarth_10m_rivers_lake_centerlines
+ZAF;Orange;;-30.411808479784955;25.38750010263863;6;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+ZAF;Pongola;;-27.3986201719746;31.976757030202297;8;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+ZAF;Tugela;;-28.808414351430613;30.360417293778;7;River;NaturalEarth_10m_rivers_lake_centerlines
+ZAF;Vaal;;-27.33979296210018;26.916700743506315;4;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+ZMB;Chambeshi;;-10.59804377582225;31.190404619784047;8;River;NaturalEarth_10m_rivers_lake_centerlines
+ZMB;Cuando;;-15.766751937659272;21.46390074528984;7;River;NaturalEarth_10m_rivers_lake_centerlines
+ZMB;Dongwe;;-14.242053375870354;24.799363099552;9;River;NaturalEarth_10m_rivers_lake_centerlines
+ZMB;Gwayi;;-18.253473867935238;26.9586363256782;9;River;NaturalEarth_10m_rivers_lake_centerlines
+ZMB;Kabompo;;-13.063293066539918;24.536142936084943;7;River;NaturalEarth_10m_rivers_lake_centerlines
+ZMB;Kafue;;-14.380003132894204;27.24768383134681;6;River;NaturalEarth_10m_rivers_lake_centerlines
+ZMB;Luangwa;;-12.75914614993825;31.76529142868563;8;River;NaturalEarth_10m_rivers_lake_centerlines
+ZMB;Luapula;;-11.298471186387193;28.855046289400615;8;River;NaturalEarth_10m_rivers_lake_centerlines
+ZMB;Lungué-Bungo;;-13.052660032741926;20.939764668292487;8;River;NaturalEarth_10m_rivers_lake_centerlines
+ZMB;Luvua;;-8.933646268198379;28.73732433615417;8;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+ZMB;None;;-11.660098080051172;29.79536722148491;8;River;NaturalEarth_10m_rivers_lake_centerlines
+ZMB;Zambeze;;-16.453751839758358;29.625267856702386;3;Lake Centerline;NaturalEarth_10m_rivers_lake_centerlines
+ZWE;Gwayi;;-18.253473867935238;26.9586363256782;9;River;NaturalEarth_10m_rivers_lake_centerlines
+ZWE;Limpopo;;-23.193699542329636;30.535969846621576;6;River;NaturalEarth_10m_rivers_lake_centerlines
+ZWE;Mazowe;;-16.96185517677708;32.42474912912565;7;River;NaturalEarth_10m_rivers_lake_centerlines
+ZWE;Save;;-20.49979534420002;32.82790476242821;7;River;NaturalEarth_10m_rivers_lake_centerlines
+ZWE;Shangani;;-18.91930250398062;28.461370082641547;9;River;NaturalEarth_10m_rivers_lake_centerlines
+ZWE;Umzingwani;;-21.14676082511993;29.352808390247027;9;River;NaturalEarth_10m_rivers_lake_centerlines
+ZWE;Zambeze;;-15.730759026851834;27.74869558669833;3;River;NaturalEarth_10m_rivers_lake_centerlines

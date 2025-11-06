@@ -1,0 +1,1113 @@
+iso3;river_name;length_km;source_label;source_qid;mouth_label;mouth_qid;basin_label;basin_qid;length_wd
+GAB;Aïna;207;;;;;;;
+GAB;Benito;62;;;;;;;
+GAB;Ivindo;228;;;;;;;
+GAB;Ngounie;360;;;;;;;
+GAB;Ogooué;896;;;;;;;
+GMB;Gambia;289;;;;;;;
+GIN;Bafing;307;;;;;;;
+GIN;Gambia;181;;;;;;;
+GIN;Geba;244;;;;;;;
+GIN;Niger;544;;;;;;;
+GIN;Saint Paul;174;;;;;;;
+GNB;Geba;223;;;;;;;
+CIV;Bandama;467;;;;;;;
+CIV;Bandama Blanc;446;;;;;;;
+CIV;Baoulé;131;;;;;;;
+CIV;Black Volta;100;;;Volta River;Q192415;;;1352
+CIV;Komoé;997;;;;;;;
+CIV;Sassandra;714;;;;;;;
+CMR;Aïna;63;;;;;;;
+CMR;Benue;336;;;;;;;
+CMR;Chari;189;;;;;;;
+CMR;Dja;670;;;;;;;
+CMR;Kadeï;517;;;Sangha;Q239883;;;552
+CMR;Logone;305;;;;;;;
+CMR;Lom;396;;;Danube;Q1653;;;92.5
+CMR;Mbam;457;;;;;;;
+CMR;Sanaga;463;;;Bight of Biafra;Q999031;;;918
+CMR;Vina;225;;;;;;;
+LSO;Orange;312;;;;;;;
+LBR;Saint Paul;259;;;;;;;
+MDG;Betsiboka;502;;;;;;;
+MDG;Mananantanana;248;;;;;;;
+MDG;Mangoky;287;;;;;;;
+MDG;Mania;315;;;;;;;
+MDG;Onilahy;357;;;;;;;
+MDG;Tsiribihina;137;;;;;;;
+MWI;Shire;394;;;;;;;
+MRT;Senegal;369;;;;;;;
+MAR;Sebou;389;;;;;;;
+MOZ;Limpopo;483;;;;;;;
+MOZ;Lúrio;549;;;;;;;
+MOZ;Maputo;98;;;;;;;
+MOZ;Mazowe;112;;;;;;;
+MOZ;Ruvuma;141;;;;;;;
+MOZ;Save;318;;;Garonne;Q5077;;;148.4
+MOZ;Shire;73;;;;;;;
+MOZ;Zambezi;878;;;;;;;
+NAM;Auob;504;;;;;;;
+NAM;Cuando;245;;;;;;;
+NAM;Cunene;122;;;;;;;
+NAM;Okavango;221;;;;;;;
+NAM;Orange;351;;;;;;;
+NAM;Zambezi;73;;;;;;;
+NER;Niger;458;;;;;;;
+NER;Yobe;164;;;;;;;
+NGA;Benue;748;;;;;;;
+NGA;Bunga;429;;;;;;;
+NGA;Gongola;569;;;;;;;
+NGA;Kaduna;234;;;;;;;
+NGA;Mariga;175;;;;;;;
+NGA;Niger;1553;;;;;;;
+NGA;Sokoto;597;;;;;;;
+NGA;Yobe;285;;;;;;;
+UGA;Kagera;53;;;;;;;
+UGA;Semliki;188;;;;;;;
+UGA;White Nile;909;;;Nile;Q3392;Burundi;Q967;2620
+RWA;Kagera;188;;;;;;;
+SEN;Gambia;418;;;;;;;
+SEN;Senegal;357;;;;;;;
+SOM;Jubba;772;;;;;;;
+SOM;Shebelle;722;;;;;;;
+SOM;nan;251;;;;;;;
+SDN;Atbarah;480;;;;;;;
+SDN;Blue Nile;749;;;;;;;
+SDN;Nile;1578;;;Mediterranean Sea;Q4918;Egypt;Q79;6650
+SDN;Tekezé;115;;;;;;;
+SDN;White Nile;486;;;Nile;Q3392;Burundi;Q967;2620
+KEN;Tana;774;;;;;;;
+KEN;nan;407;;;;;;;
+ETH;Akobo;235;;;;;;;
+ETH;Awash;861;;;;;;;
+ETH;Blue Nile;994;;;;;;;
+ETH;Genale;595;;;;;;;
+ETH;Lesser Abay;60;;;;;;;
+ETH;Omo;920;;;;;;;
+ETH;Shebelle;996;;;;;;;
+ETH;Tekezé;516;;;;;;;
+GHA;Black Volta;321;;;Volta River;Q192415;;;1352
+GHA;Oti;477;;;;;;;
+GHA;Volta;471;;;Daugava;Q8197;;;32
+GHA;White Volta;511;;;Lake Volta;Q201679;;;640
+FRA;Ariège;114;;;Garonne;Q5077;;;163.2
+FRA;Dordogne;375;;;Gironde estuary;Q213517;France;Q142;483
+FRA;Doubs;368;;;Saône;Q187834;;;453
+FRA;Garonne;380;;;Gironde estuary;Q213517;;;647
+FRA;Loire;826;;;Bay of Biscay;Q41573;France;Q142;1006
+FRA;Meuse;365;;;North Sea;Q1693;;;950
+FRA;Moselle;258;;;Rhine;Q584;France;Q142;544
+FRA;Rhine;168;;;;;;;
+FRA;Rhône;479;;;Mediterranean Sea;Q4918;Switzerland;Q39;812
+FRA;Sane;130;;;;;;;
+FRA;Scheldt;81;;;North Sea;Q1693;France;Q142;355
+FRA;Seine;640;;;English Channel;Q34640;France;Q142;776.67
+FRA;Yonne;218;;;Seine;Q1471;;;292.3
+GBR;Severn;218;;;;;;;
+GBR;Thames;275;;;;;;;
+GBR;Trent;194;;;;;;;
+CHN;Aksu;139;;;;;;;
+CHN;Amur;676;;;;;;;
+CHN;Argun;501;;;Sunzha;Q911339;;;148
+CHN;Bei;383;;;;;;;
+CHN;Black;411;;;;;;;
+CHN;Brahmaputra;247;;;;;;;
+CHN;Buh He;228;;;Qinghai Lake;Q201294;;;250
+CHN;Chaor;347;;;;;;;
+CHN;Chumar;428;;;;;;;
+CHN;Dadu;886;;;;;;;
+CHN;Dali;208;;;;;;;
+CHN;Daling;366;;;;;;;
+CHN;Dam;290;;;;;;;
+CHN;Derung-Nmai;122;;;;;;;
+CHN;Dong;423;;;;;;;
+CHN;Duliu;246;;;;;;;
+CHN;Erdao;171;;;;;;;
+CHN;Fuchun;297;;;;;;;
+CHN;Gan;770;;;;;;;
+CHN;Ghaghara;75;;;;;;;
+CHN;Gongnaisi He;298;;;;;;;
+CHN;Hai;98;;;;;;;
+CHN;Han;1283;;;;;;;
+CHN;Hongshui;524;;;;;;;
+CHN;Huai;377;;;;;;;
+CHN;Huang;61;;;;;;;
+CHN;Hudi;535;;;;;;;
+CHN;Ili;131;;;;;;;
+CHN;Irtysh;517;;;Ob;Q973;Russia;Q159;4248
+CHN;Jialing;873;;;;;;;
+CHN;Jing;342;;;;;;;
+CHN;Jinsha;1876;;;;;;;
+CHN;Konqi He;321;;;Tarim River;Q237901;;;550
+CHN;Liao;499;;;;;;;
+CHN;Liu;111;;;;;;;
+CHN;Luan;576;;;;;;;
+CHN;Manas;63;;;;;;;
+CHN;Maquan;625;;;;;;;
+CHN;Mekong;1632;;;;;;;
+CHN;Min;525;;;;;;;
+CHN;Nanpan;877;;;;;;;
+CHN;Nanweng;155;;;;;;;
+CHN;Nen;642;;;;;;;
+CHN;Ou;217;;;;;;;
+CHN;Qianjiang;108;;;;;;;
+CHN;Qin He;307;;;Yellow River;Q7355;;;485
+CHN;Red;572;;;;;;;
+CHN;Rong;216;;;;;;;
+CHN;Salween;1696;;;;;;;
+CHN;Sanggan;296;;;;;;;
+CHN;Sapt;324;;;;;;;
+CHN;Sengge Zangbo;308;;;Indus River;Q7348;;;
+CHN;Shandian;219;;;;;;;
+CHN;Songacha;89;;;;;;;
+CHN;Songhua;1752;;;;;;;
+CHN;Sutlej;338;;;Panjnad River;Q2049556;;;1500
+CHN;Taoer;508;;;;;;;
+CHN;Tarim;798;;;;;;;
+CHN;Tongtian;883;;;;;;;
+CHN;Toxkan He;309;;;Aksu River;Q421658;;;300
+CHN;Tuotuo He;225;;;;;;;
+CHN;Ussuri;360;;;Amur River;Q6862;Russia;Q159;897
+CHN;Wei;693;;;;;;;
+CHN;Wu;918;;;;;;;
+CHN;Wuding;157;;;;;;;
+CHN;Wujia;691;;;;;;;
+CHN;Xar Moron;344;;;;;;;
+CHN;Xi;464;;;;;;;
+CHN;Xiang;806;;;;;;;
+CHN;Xiliao;271;;;;;;;
+CHN;Xunjiang;159;;;Xi River;Q216941;;;199
+CHN;Yalong;1496;;;;;;;
+CHN;Yalu;506;;;;;;;
+CHN;Yangtze;2434;;;East China Sea;Q45341;People's Republic of China;Q148;6300
+CHN;Yarkand;1047;;;;;;;
+CHN;Yarlung;726;;;;;;;
+CHN;Yellow;4838;;;;;;;
+CHN;Yong;132;;;;;;;
+CHN;Yongding;234;;;;;;;
+CHN;You;436;;;;;;;
+CHN;Yu;227;;;;;;;
+CHN;Yuan;1086;;;;;;;
+CHN;Yurungkax He;433;;;Hotan River;Q625575;;;450
+CHN;Za;383;;;;;;;
+CHN;Zayü;152;;;;;;;
+CHN;Za’gya;300;;;;;;;
+CHN;Zhang;367;;;;;;;
+CHN;Zuo;211;;;;;;;
+CHN;nan;825;;;;;;;
+BRA;Amapari;499;;;;;;;
+BRA;Amazon;2464;;;Atlantic Ocean;Q97;Brazil;Q155;6400
+BRA;Araguaia;1949;;;;;;;
+BRA;Branco;1172;;;;;;;
+BRA;Contas;444;;;;;;;
+BRA;Corumbá;429;;;;;;;
+BRA;Culuene;586;;;;;;;
+BRA;Doce;680;;;;;;;
+BRA;Grande;1123;;;Tyrrhenian Sea;Q38882;;;35
+BRA;Guaporé;629;;;;;;;
+BRA;Gurupí;638;;;;;;;
+BRA;Ibicuí;333;;;;;;;
+BRA;Indaiá;284;;;;;;;
+BRA;Iriri;1066;;;;;;;
+BRA;Itiquira;327;;;;;;;
+BRA;Ituxi;506;;;;;;;
+BRA;Ivinhema;431;;;;;;;
+BRA;Jamanxim;1323;;;;;;;
+BRA;Japurá;653;;;;;;;
+BRA;Jari;701;;;;;;;
+BRA;Javary;124;;;;;;;
+BRA;Javaés;477;;;;;;;
+BRA;Jequitinhonha;786;;;;;;;
+BRA;Jiparaná;814;;;;;;;
+BRA;Jurua;1592;;;;;;;
+BRA;Juruena;474;;;;;;;
+BRA;Madeira;1284;;;;;;;
+BRA;Maicuru;510;;;;;;;
+BRA;Mearim;603;;;;;;;
+BRA;Negro;1187;;;;;;;
+BRA;Nhamundá;474;;;;;;;
+BRA;Paraiba;744;;;;;;;
+BRA;Paranapanema;681;;;;;;;
+BRA;Paranaíba;655;;;;;;;
+BRA;Paraná;870;;;;;;;
+BRA;Paraná River;1038;;;Río de la Plata;Q35827;Paraguay;Q733;4880
+BRA;Parnaíba;1299;;;;;;;
+BRA;Piauí;515;;;;;;;
+BRA;Purus;2137;;;;;;;
+BRA;Putumayo;281;;;;;;;
+BRA;Ribeira;314;;;;;;;
+BRA;São Francisco;2233;;;;;;;
+BRA;Tapajós;1359;;;;;;;
+BRA;Tietê;828;;;;;;;
+BRA;Tocantins;2177;;;;;;;
+BRA;Trombetas;692;;;;;;;
+BRA;Una;213;;;Sava;Q14383;;;207
+BRA;Uruguay;781;;;;;;;
+BRA;Velhas;522;;;;;;;
+BRA;Verde;320;;;Magra;Q692549;;;
+BRA;Xingu;1618;;;;;;;
+BRA;nan;536;;;;;;;
+RUS;Adycha;825;;;;;;;
+RUS;Alazeya;860;;;East Siberian Sea;Q163434;;;1590
+RUS;Aldan;2351;;;Lena River;Q46841;;;2273
+RUS;Amgun;657;;;;;;;
+RUS;Amur;2168;;;;;;;
+RUS;Anabar;313;;;Laptev Sea;Q7988;;;939
+RUS;Anadyr;1031;;;Bering Sea;Q44725;;;1150
+RUS;Angara;2144;;;Yenisey;Q78707;Russia;Q159;1779
+RUS;Argun;549;;;Sunzha;Q911339;;;148
+RUS;Bikin;452;;;;;;;
+RUS;Biya;370;;;;;;;
+RUS;Bolshoy Anyuy;802;;;Anyuy River;Q551561;;;654
+RUS;Bolshoy Yenisei;502;;;Yenisey;Q78707;;;605
+RUS;Bol’shaya Kuonamka;568;;;;;;;
+RUS;Bykovskaya Protoka;94;;;;;;;
+RUS;Chulym;1560;;;Ob;Q973;;;1799
+RUS;Chulyshman;229;;;Teletskoe;Q217109;;;241
+RUS;Chuna;1252;;;;;;;
+RUS;Chusovaya;545;;;Bolshoy Takoy;Q4092873;;;15
+RUS;Daugava;252;;;Gulf of Riga;Q174731;Estonia;Q191;1020
+RUS;Desna;290;;;Nayba;Q4312375;;;17
+RUS;Dnieper;355;;;Dnieper Estuary;Q2621029;Ukraine;Q212;2285
+RUS;Don;1633;;;;;;;
+RUS;Donets;301;;;Don;Q1229;Russia;Q159;1053
+RUS;Dulgalakh;377;;;;;;;
+RUS;Indigirka;1962;;;East Siberian Sea;Q163434;;;1726
+RUS;Ingoda;566;;;;;;;
+RUS;Irtysh;1855;;;Ob;Q973;Russia;Q159;4248
+RUS;Ishim;384;;;Irtysh;Q128102;;;2450
+RUS;Kama;1687;;;;;;;
+RUS;Kamchatka;604;;;Chyornaya;Q2386106;;;11
+RUS;Katun;624;;;Ob;Q973;Russia;Q159;688
+RUS;Kem;387;;;Chirko-Kem;Q2140165;;;18
+RUS;Khatanga;169;;;Khatanga Gulf;Q939905;;;227
+RUS;Kheta;971;;;Khatanga;Q82175;;;604
+RUS;Khopyor;712;;;Don;Q1229;;;979
+RUS;Kolyma;2590;;;East Siberian Sea;Q163434;;;2129
+RUS;Kondoma;300;;;Zhelvata;Q85857;;;27
+RUS;Kotuy;1540;;;Khatanga;Q82175;;;1409
+RUS;Kuban;685;;;Sea of Azov;Q35000;;;870
+RUS;Kukhtuy;385;;;Sea of Okhotsk;Q41602;;;384
+RUS;Kureyka;300;;;Yenisey;Q78707;;;888
+RUS;Lena;4360;;;;;;;
+RUS;Little Yenisei;322;;;;;;;
+RUS;Lutto;219;;;Upper Tuloma Reservoir;Q3511413;;;235
+RUS;Luza;460;;;Yug;Q845960;;;574
+RUS;Malaya Ob';397;;;;;;;
+RUS;Mana;486;;;;;;;
+RUS;Maya;997;;;;;;;
+RUS;Mezen;832;;;Mezen Bay;Q1415688;;;966
+RUS;Moma;494;;;;;;;
+RUS;Nadym;439;;;Kara Sea;Q33629;;;545
+RUS;Narva;139;;;Narva Bay;Q393854;Russia;Q159;74
+RUS;Neva;106;;;Centa;Q3664425;;;20
+RUS;Nizhnyaya Taymyra;250;;;;;;;
+RUS;Nizhnyaya Tunguska;3069;;;Tara;Q705896;;;55
+RUS;Northern Dvina;736;;;Dvina Bay;Q548240;;;744
+RUS;Ob;3753;;;Kara Sea;Q33629;;;3650
+RUS;Oka;2136;;;Berriz;Q747628;;;
+RUS;Olenekskaya Protoka;301;;;;;;;
+RUS;Olenyok;2640;;;Olenyok Gulf;Q2996832;;;2270
+RUS;Oloy;613;;;;;;;
+RUS;Olyokma;1286;;;Lena River;Q46841;;;1436
+RUS;Omolon;1066;;;Kolyma;Q78879;;;1114
+RUS;Onega;246;;;Onega Bay;Q908701;;;416
+RUS;Onon;444;;;;;;;
+RUS;Palyavaam;555;;;Chaun;Q2045664;;;416
+RUS;Pechora;1774;;;Pechora Sea;Q217501;Russia;Q159;1809
+RUS;Podkamennaya Tunguska;1799;;;Yenisey;Q78707;;;1865
+RUS;Popigay;640;;;;;;;
+RUS;Poronay;212;;;Gulf of Patience;Q367304;;;350
+RUS;Pur;730;;;Taz Estuary;Q155282;;;389
+RUS;Pyasina;792;;;Pyasino Gulf;Q2628190;;;818
+RUS;Sartang;786;;;;;;;
+RUS;Selenga;387;;;;;;;
+RUS;Severnaya Sosva;722;;;Ob;Q973;;;754
+RUS;Shilka;495;;;;;;;
+RUS;Suda;369;;;Lielā Jugla;Q5620656;Latvia;Q211;39.4
+RUS;Sukhona;613;;;Northern Dvina;Q8187;;;558
+RUS;Sura;599;;;;;;;
+RUS;Svir;539;;;Lake Ladoga;Q15288;;;224
+RUS;Taimura;629;;;;;;;
+RUS;Taz;1260;;;;;;;
+RUS;Tobol;676;;;Irtysh;Q128102;;;1591
+RUS;Tom;849;;;Ob;Q973;;;827
+RUS;Trofimovskaya Protoka;121;;;;;;;
+RUS;Tuloma;83;;;Kola Bay;Q161591;;;64
+RUS;Tumatskaya Protoka;117;;;;;;;
+RUS;Tumnin;362;;;Strait of Tartary;Q110802;;;364
+RUS;Tyung;1046;;;Vilyuy;Q26433;;;1092
+RUS;Uda;384;;;Yaya;Q1637644;;;
+RUS;Udzha;431;;;;;;;
+RUS;Ural;988;;;;;;;
+RUS;Ussuri;455;;;Amur River;Q6862;Russia;Q159;897
+RUS;Vakh;748;;;;;;;
+RUS;Velikaya;329;;;;;;;
+RUS;Verkhniy Yenisey;280;;;;;;;
+RUS;Verkhnyaya Taymyra;529;;;Taymyr;Q845868;;;567
+RUS;Vilyuy;2691;;;;;;;
+RUS;Vishera;386;;;Kama;Q79082;;;415
+RUS;Vitim;1784;;;Lena River;Q46841;;;1837
+RUS;Volga;3565;;;;;;;
+RUS;Volga–Don Canal;106;;;;;;;
+RUS;Vuoksa;235;;;Lake Ladoga;Q15288;;;143
+RUS;Vychegda;945;;;Northern Dvina;Q8187;;;1130
+RUS;Yana;677;;;;;;;
+RUS;Yenisey;3077;;;;;;;
+RUS;Zeya;1109;;;;;;;
+RUS;nan;1955;;;;;;;
+CAN;Albany;1130;;;;;;;
+CAN;Alsek;329;;;;;;;
+CAN;Anderson;769;;;;;;;
+CAN;Arctic Red;454;;;;;;;
+CAN;Arnaud;254;;;;;;;
+CAN;Assiniboine;686;;;;;;;
+CAN;Athabasca;1541;;;;;;;
+CAN;Babine;90;;;;;;;
+CAN;Back;1159;;;;;;;
+CAN;Beaver;584;;;;;;;
+CAN;Bell;473;;;;;;;
+CAN;Burnside;303;;;;;;;
+CAN;Caniapiscau;574;;;;;;;
+CAN;Churchill;2013;;;;;;;
+CAN;Columbia;660;;;;;;;
+CAN;Coppermine;686;;;;;;;
+CAN;Cree;226;;;;;;;
+CAN;Donjek;223;;;;;;;
+CAN;Eastmain;605;;;;;;;
+CAN;Ekwan;508;;;;;;;
+CAN;English;629;;;;;;;
+CAN;Exploits;117;;;;;;;
+CAN;Finlay;304;;;;;;;
+CAN;Flathead;52;;;;;;;
+CAN;Fraser;1289;;;;;;;
+CAN;French;97;;;;;;;
+CAN;Gatineau;160;;;;;;;
+CAN;George;443;;;;;;;
+CAN;Gods;308;;;;;;;
+CAN;Grand;200;;;;;;;
+CAN;Great Bear;173;;;;;;;
+CAN;Great Whale;342;;;;;;;
+CAN;Groundhog;146;;;;;;;
+CAN;Hayes;93;;;;;;;
+CAN;Ivanhoe;148;;;;;;;
+CAN;Kazan;175;;;;;;;
+CAN;La Grande;792;;;;;;;
+CAN;Liard;1191;;;;;;;
+CAN;Mackenzie;2038;;;;;;;
+CAN;Manicouagan;460;;;;;;;
+CAN;Mattagami;159;;;;;;;
+CAN;Mlzes;421;;;;;;;
+CAN;Moose;61;;;;;;;
+CAN;Natashquan;325;;;;;;;
+CAN;Nechako;266;;;;;;;
+CAN;Nelson;787;;;;;;;
+CAN;Nipigon;58;;;;;;;
+CAN;North Saskatchewan;1380;;;;;;;
+CAN;Nottaway;215;;;;;;;
+CAN;Ottawa;544;;;;;;;
+CAN;Peace;1665;;;;;;;
+CAN;Pelly;517;;;;;;;
+CAN;Peribonka;515;;;;;;;
+CAN;Porcupine;661;;;;;;;
+CAN;R. des Outaouais;411;;;;;;;
+CAN;Rainy;409;;;;;;;
+CAN;Red of the South;550;;;;;;;
+CAN;Richelieu;124;;;;;;;
+CAN;Rupert;541;;;;;;;
+CAN;Saguenay;399;;;;;;;
+CAN;Saint John;423;;;;;;;
+CAN;Saskatchewan;750;;;;;;;
+CAN;Severn;952;;;;;;;
+CAN;Skeena;553;;;;;;;
+CAN;Slave;433;;;;;;;
+CAN;South Saskatchewan;1538;;;;;;;
+CAN;St. Lawrence;126;;;;;;;
+CAN;St. Mary's;83;;;;;;;
+CAN;St.-Maurice;330;;;;;;;
+CAN;Stewart;756;;;;;;;
+CAN;Stikine;594;;;;;;;
+CAN;Teslin;297;;;;;;;
+CAN;Thelon;1196;;;;;;;
+CAN;Thlewiaza;718;;;;;;;
+CAN;Thompson;247;;;;;;;
+CAN;White;123;;;;;;;
+CAN;Winisk;375;;;;;;;
+CAN;Winnipeg;398;;;;;;;
+CAN;Yukon;682;;;;;;;
+CAN;nan;3615;;;;;;;
+JPN;Ishikari;211;;;;;;;
+JPN;Mogami;199;;;;;;;
+JPN;Tone;300;;;;;;;
+DEU;Danube;552;;;;;;;
+DEU;Elbe;628;;;;;;;
+DEU;Ems;279;;;;;;;
+DEU;Inn;199;;;Danube;Q1653;Germany;Q183;517
+DEU;Main;466;;;Rhine;Q584;Germany;Q183;524
+DEU;Moselle;206;;;Rhine;Q584;France;Q142;544
+DEU;Oder;129;;;Szczecin Lagoon;Q161385;Czech Republic;Q213;742
+DEU;Rhine;596;;;;;;;
+DEU;Weser;610;;;;;;;
+BLR;Daugava;341;;;Gulf of Riga;Q174731;Estonia;Q191;1020
+BLR;Dnieper;529;;;Dnieper Estuary;Q2621029;Ukraine;Q212;2285
+BLR;Mukhavets;147;;;;;;;
+BLR;Neris;211;;;Neman;Q5622;Latvia;Q211;510
+BLR;Prypiat;419;;;;;;;
+ISL;Drau;123;;;;;;;
+ISL;Þjórsá;92;;;Atlantic Ocean;Q97;Iceland;Q189;230
+EST;Narva;76;;;Narva Bay;Q393854;Russia;Q159;74
+NOR;Glomma;286;;;Skagerrak;Q1695;;;604
+NOR;Klarälven;125;;;Vänern;Q173596;;;460
+NOR;Paatsjoki;101;;;Bøkfjorden;Q2656917;;;142.8
+NOR;Vorma;194;;;;;;;
+LVA;Daugava;357;;;Gulf of Riga;Q174731;Estonia;Q191;1020
+UKR;Chilia branch;86;;;Black Sea;Q166;;;104
+UKR;Desna;422;;;Nayba;Q4312375;;;17
+UKR;Dnieper;939;;;Dnieper Estuary;Q2621029;Ukraine;Q212;2285
+UKR;Dniester;772;;;Dniester Lyman;Q1974485;Ukraine;Q212;1352
+UKR;Donets;579;;;Don;Q1229;Russia;Q159;1053
+UKR;Prut;211;;;Danube;Q1653;Ukraine;Q212;953
+UKR;Prypiat;69;;;;;;;
+UKR;Southern Bug;680;;;Black Sea;Q166;;;806
+UKR;Tisza;193;;;Danube;Q1653;;;966
+UKR;Western Bug;171;;;Narew;Q60055;Ukraine;Q212;772
+CZE;Elbe;320;;;;;;;
+CZE;Morava;218;;;Danube;Q1653;Austria;Q40;388
+CZE;Oder;77;;;Szczecin Lagoon;Q161385;Czech Republic;Q213;742
+SVK;Danube;145;;;;;;;
+SVN;Drava;122;;;;;;;
+MDA;Dniester;420;;;Dniester Lyman;Q1974485;Ukraine;Q212;1352
+MDA;Prut;79;;;Danube;Q1653;Ukraine;Q212;953
+ROU;Borcea branch;102;;;Danube;Q1653;;;99
+ROU;Danube;727;;;;;;;
+ROU;Mureș;514;;;;;;;
+ROU;Olt;522;;;;;;;
+ROU;Prut;356;;;Danube;Q1653;Ukraine;Q212;953
+ROU;Sfântu Gheorghe branch;96;;;Black Sea;Q166;;;112
+ROU;Sulina branch;69;;;Black Sea;Q166;;;84
+ROU;Tisza;84;;;Danube;Q1653;;;966
+ROU;nan;88;;;;;;;
+BGR;Danube;85;;;;;;;
+BGR;Maritsa;263;;;;;;;
+HRV;Danube;71;;;;;;;
+HRV;Drava;53;;;;;;;
+HRV;Mur;170;;;Drava;Q171009;Austria;Q40;434
+HRV;Sava;335;;;;;;;
+BIH;Drina;251;;;Sava;Q14383;;;346
+BIH;Sava;93;;;;;;;
+AZE;Aras;305;;;;;;;
+AZE;Kura;601;;;;;;;
+GEO;Kura;299;;;;;;;
+KAZ;Ili;715;;;;;;;
+KAZ;Irtysh;1597;;;Ob;Q973;Russia;Q159;4248
+KAZ;Ishim;1304;;;Irtysh;Q128102;;;2450
+KAZ;Syr Dar;1363;;;;;;;
+KAZ;Tobol;467;;;Irtysh;Q128102;;;1591
+KAZ;Ural;783;;;;;;;
+MNE;Drina;100;;;Sava;Q14383;;;346
+IDN;Asahan;111;;;;;;;
+IDN;Baliem;399;;;;;;;
+IDN;Barito;765;;;;;;;
+IDN;Batang Indragiri;376;;;;;;;
+IDN;Digul;542;;;;;;;
+IDN;Fly;86;;;;;;;
+IDN;Kapuas;717;;;;;;;
+IDN;Kayan;442;;;;;;;
+IDN;Mahakam;675;;;;;;;
+IDN;Mamberamo;303;;;;;;;
+IDN;Taritatu;233;;;;;;;320
+ZAF;Auob;161;;;;;;;
+ZAF;Caledon;357;;;;;;;
+ZAF;Gamka;170;;;;;;;
+ZAF;Gourits;155;;;;;;;
+ZAF;Great Kei;304;;;;;;;
+ZAF;Limpopo;98;;;;;;;
+ZAF;Maputo;85;;;;;;;
+ZAF;Molopo;416;;;;;;;
+ZAF;Olifants;239;;;;;;;
+ZAF;Orange;1279;;;;;;;
+ZAF;Pongola;184;;;;;;;
+ZAF;Tugela;349;;;;;;;
+ZAF;Vaal;1076;;;;;;;
+UZB;Amu Darya;854;;;South Aral Sea;Q276776;Turkmenistan;Q874;2620
+UZB;Naryn;140;;;;;;;
+UZB;Syr Dar;143;;;;;;;
+UZB;Zeravshan;431;;;Amu Darya;Q8493;;;877
+IRL;Shannon;206;;;;;;;
+HUN;Danube;286;;;;;;;
+HUN;Mur;102;;;Drava;Q171009;Austria;Q40;434
+HUN;Ráckeve-Soroksár Danube;54;;;Tass sluice;Q25453662;;;57.3
+HUN;Sió;119;;;;;;;
+HUN;Tisza;461;;;Danube;Q1653;;;966
+ESP;Douro;462;;;Atlantic Ocean;Q97;Spain;Q29;897
+ESP;Ebro;665;;;Mediterranean Sea;Q4918;Spain;Q29;910
+ESP;Esla;199;;;Douro;Q14299;;;285
+ESP;Guadalquivir;455;;;Gulf of Cádiz;Q117157;;;657
+ESP;Guadiana;436;;;Gulf of Cádiz;Q117157;Spain;Q29;778
+ESP;Tagus;579;;;;;;;
+ESP;Záncara;142;;;Cigüela;Q16692;;;168
+CHL;Bío Bío;374;;;;;;;
+CHL;Copiapó;286;;;;;;;
+USA;Alabama;879;;;;;;;
+USA;Allegheny;448;;;;;;;
+USA;Alsek;71;;;;;;;
+USA;Altamaha;123;;;;;;;
+USA;Arkansas;1910;;;;;;;
+USA;Bayou Lafourche;155;;;Gulf of Mexico;Q12630;;;117
+USA;Bear;493;;;;;;;
+USA;Bighorn;291;;;;;;;
+USA;Black;332;;;;;;;
+USA;Brazos;1030;;;;;;;
+USA;Broad;225;;;;;;;
+USA;Canadian;1186;;;;;;;
+USA;Cape Fear;221;;;;;;;
+USA;Cedar;377;;;;;;;
+USA;Chattahoochee;760;;;;;;;
+USA;Chattooga;58;;;;;;;
+USA;Cheyenne;553;;;;;;;
+USA;Clark Fork;517;;;;;;;
+USA;Colorado;1928;;;;;;;
+USA;Columbia;1123;;;;;;;
+USA;Colville;908;;;;;;;
+USA;Congaree;121;;;;;;;
+USA;Connecticut;544;;;;;;;
+USA;Cooper;71;;;;;;;
+USA;Copper;405;;;;;;;
+USA;Cowpasture;425;;;;;;;
+USA;Cumberland;855;;;;;;;
+USA;Delaware;437;;;;;;;
+USA;Des Moines;606;;;;;;;
+USA;Double Mountain Fork Brazos;132;;;;;;;
+USA;Eel;231;;;;;;;
+USA;Feather;277;;;;;;;
+USA;Flathead;294;;;;;;;
+USA;Fox;66;;;;;;;
+USA;Gila;848;;;;;;;
+USA;Grand;287;;;;;;;
+USA;Grande;1458;;;Tyrrhenian Sea;Q38882;;;35
+USA;Green;868;;;;;;;
+USA;Haw;126;;;;;;;
+USA;Holston;326;;;;;;;
+USA;Hudson;394;;;;;;;
+USA;Humboldt;521;;;;;;;
+USA;Iliamna Lake Outlet;91;;;;;;;
+USA;Illinois;514;;;;;;;
+USA;James;753;;;;;;;
+USA;John Day;340;;;;;;;
+USA;Kanawha;137;;;;;;;
+USA;Kankakee;182;;;;;;;
+USA;Kansas;216;;;;;;;
+USA;Kaskaskia;384;;;;;;;
+USA;Kentucky;364;;;;;;;
+USA;Klamath;375;;;;;;;
+USA;Kobuk;686;;;;;;;
+USA;Koyukuk;1194;;;;;;;
+USA;Kuskokwim;927;;;;;;;
+USA;Madison;290;;;;;;;
+USA;Marais des Cygnes;227;;;;;;;
+USA;Merrimack;250;;;;;;;
+USA;Minnesota;384;;;;;;;
+USA;Mississippi;3416;;;;;;;
+USA;Missouri;3298;;;;;;;
+USA;Mohawk;197;;;;;;;
+USA;Monongahela;303;;;;;;;
+USA;Muskingum;154;;;;;;;
+USA;Namekagon;116;;;;;;;
+USA;New;354;;;;;;;
+USA;North Fork Kuskokwim River;376;;;;;;;
+USA;North Platte;904;;;;;;;
+USA;Oconee;292;;;;;;;
+USA;Ohio;1547;;;;;;;
+USA;Osage;366;;;;;;;
+USA;Pearl;524;;;;;;;
+USA;Pecos;1060;;;;;;;
+USA;Pee Dee;433;;;;;;;
+USA;Pend Oreille;154;;;;;;;
+USA;Pit;313;;;Pasha;Q2087477;;;19
+USA;Platte;463;;;;;;;
+USA;Porcupine;442;;;;;;;
+USA;Potomac;417;;;;;;;
+USA;Prairie Dog Town Fork Red;186;;;;;;;
+USA;Red of the South;1734;;;;;;;
+USA;Republican;392;;;;;;;
+USA;Roanoke;489;;;;;;;
+USA;Rogue;322;;;;;;;
+USA;S. Fork Republican;190;;;;;;;
+USA;Sabine;540;;;;;;;
+USA;Sacramento;516;;;;;;;
+USA;Saint John;206;;;;;;;
+USA;Salmon;600;;;;;;;
+USA;San Joaquin;405;;;;;;;
+USA;San Juan;486;;;Oñati;Q496588;;;
+USA;Santee;89;;;;;;;
+USA;Savannah;340;;;;;;;
+USA;Scioto;310;;;;;;;
+USA;Snake;1517;;;;;;;
+USA;South Platte;730;;;;;;;
+USA;Sprague;104;;;;;;;
+USA;St. Clair;67;;;;;;;
+USA;St. Croix;306;;;;;;;
+USA;St. Johns;408;;;;;;;
+USA;Stanislaus;218;;;;;;;
+USA;Susitna;494;;;;;;;
+USA;Susquehanna;676;;;;;;;
+USA;Suwannee;342;;;;;;;
+USA;Tanana;1027;;;;;;;
+USA;Tennessee;925;;;;;;;
+USA;Tombigbee;588;;;;;;;
+USA;Trinity;135;;;;;;;
+USA;Tugaloo;62;;;;;;;
+USA;Tuscarawas;153;;;;;;;
+USA;W. Branch Susquehanna;300;;;;;;;
+USA;Wabash;720;;;;;;;
+USA;White;720;;;;;;;
+USA;Willamette;379;;;;;;;
+USA;Wind;309;;;;;;;
+USA;Winnipeg;50;;;;;;;
+USA;Wisconsin;583;;;;;;;
+USA;Yadkin;119;;;;;;;
+USA;Yellowstone;1031;;;;;;;
+USA;Yukon;2846;;;;;;;
+USA;nan;161;;;;;;;
+BEL;Meuse;160;;;North Sea;Q1693;;;950
+BEL;Scheldt;150;;;North Sea;Q1693;France;Q142;355
+FIN;Kemijoki;449;;;Bothnian Bay;Q13234218;;;550
+FIN;Kokemäenjoki;88;;;Bothnian Sea;Q1649939;;;121
+FIN;Luirojoki;132;;;;;;;
+FIN;Lutto;62;;;Upper Tuloma Reservoir;Q3511413;;;235
+FIN;Muonio;191;;;;;;;
+FIN;Oulujoki;117;;;Bothnian Bay;Q13234218;;;107
+SWE;Dalälven;507;;;Gävle Bay;Q10512461;;;220
+SWE;Göta älv;72;;;Kattegat;Q131716;;;95
+SWE;Klarälven;360;;;Vänern;Q173596;;;460
+SWE;Lule lv;66;;;;;;;
+SWE;Motala ström;108;;;Pampusfjärden;Q10615744;;;100
+SWE;Muonio;134;;;;;;;
+SWE;Skellefte;429;;;;;;;
+SWE;Stora Lule lv;323;;;;;;;
+SWE;Tornelven;341;;;;;;;
+SWE;Ångerman;378;;;;;;;
+POL;Oder;548;;;Szczecin Lagoon;Q161385;Czech Republic;Q213;742
+POL;Vistula;966;;;Gdańsk Bay;Q213367;Poland;Q36;1047
+POL;Warta;696;;;Oder;Q552;;;808
+POL;Western Bug;433;;;Narew;Q60055;Ukraine;Q212;772
+LTU;Neman;198;;;Baltic Sea;Q545;Latvia;Q211;937
+LTU;Neris;208;;;Neman;Q5622;Latvia;Q211;510
+ITA;Adige;387;;;Adriatic Sea;Q13924;Italy;Q38;410
+ITA;Mincio;60;;;Po;Q643;;;75
+ITA;Po;592;;;Adriatic Sea;Q13924;Switzerland;Q39;652
+ITA;Tiber;328;;;Tyrrhenian Sea;Q38882;Italy;Q38;405
+ITA;Ticino;135;;;Po;Q643;Switzerland;Q39;248
+CHE;Inn;80;;;Danube;Q1653;Germany;Q183;517
+CHE;Rhine;231;;;;;;;
+CHE;Rhône;246;;;Mediterranean Sea;Q4918;Switzerland;Q39;812
+CHE;Ticino;100;;;Po;Q643;Switzerland;Q39;248
+ARM;Aras;104;;;;;;;
+AUT;Danube;317;;;;;;;
+AUT;Drava;239;;;;;;;
+AUT;Inn;181;;;Danube;Q1653;Germany;Q183;517
+AUT;Mur;289;;;Drava;Q171009;Austria;Q40;434
+SRB;Danube;397;;;;;;;
+SRB;Great Morava;357;;;Danube;Q1653;;;185
+SRB;Sava;197;;;;;;;
+SRB;Tisza;143;;;Danube;Q1653;;;966
+AUS;Barwon;452;;;;;;;
+AUS;Blackwood;316;;;;;;;
+AUS;Burdekin;697;;;;;;;
+AUS;Burnett;370;;;;;;;
+AUS;Daly;269;;;;;;;
+AUS;Darling;1037;;;;;;;
+AUS;Derwent;122;;;;;;;
+AUS;Fitzroy;764;;;;;;;
+AUS;Katherine;290;;;;;;;
+AUS;Lachlan;857;;;;;;;
+AUS;Macintyre;187;;;;;;;
+AUS;Mackenzie;507;;;;;;;
+AUS;Macquarie;684;;;;;;;
+AUS;Mitchell;505;;;;;;;
+AUS;Murray;1513;;;;;;;
+AUS;Ord;492;;;;;;;
+AUS;Roper;387;;;;;;;
+AUS;Swan;286;;;;;;;
+AUS;Victoria;547;;;;;;;
+AUS;Weir;208;;;;;;;
+GRC;Haliacmon;272;;;Thermaic Gulf;Q913418;;;297
+GRC;Maritsa;145;;;;;;;
+ARG;Bermejo;1027;;;Paraná River;Q127892;;;1060
+ARG;Chico River;584;;;;;;;
+ARG;Chubut;743;;;;;;;
+ARG;Chubut River;165;;;Atlantic Ocean;Q97;;;810
+ARG;Colorado;1137;;;;;;;
+ARG;Desaguadero;964;;;;;;;
+ARG;Deseado;509;;;;;;;
+ARG;Dulce;743;;;;;;;
+ARG;Limay;395;;;;;;;
+ARG;Mendoza;170;;;;;;;
+ARG;Negro;610;;;;;;;
+ARG;Neuquén;514;;;;;;;
+ARG;Paraná;153;;;;;;;
+ARG;Paraná River;1537;;;Río de la Plata;Q35827;Paraguay;Q733;4880
+ARG;Pilcomayo River;639;;;Paraguay River;Q179396;Bolivia;Q750;1100
+ARG;Salado;1427;;;Henares river;Q16510;;;44
+ARG;Salado River;558;;;;;;;
+ARG;San Juan;314;;;Oñati;Q496588;;;
+ARG;Santa Cruz;256;;;;;;;
+ARG;Uruguay;862;;;;;;;
+PER;Amazon;544;;;Atlantic Ocean;Q97;Brazil;Q155;6400
+PER;Huallaga;961;;;;;;;
+PER;Javary;611;;;;;;;
+PER;Jurua;113;;;;;;;
+PER;Madre de Dios;549;;;;;;;
+PER;Marañón;1481;;;;;;;
+PER;Napo;557;;;;;;;
+PER;Ocoña;246;;;;;;;
+PER;Pisco;155;;;;;;;
+PER;Purus;320;;;;;;;
+PER;Putumayo;631;;;;;;;
+PER;Santa;303;;;;;;;
+PER;Tambo;247;;;;;;;
+PER;Tumbes;116;;;;;;;
+PER;Ucayali;2279;;;;;;;
+PRK;Yalu;102;;;;;;;
+KHM;Kong;143;;;;;;;
+KHM;Mekong;616;;;;;;;
+KHM;Sreng;195;;;;;;;
+KHM;Srepok;226;;;;;;;
+TUR;Aras;175;;;;;;;
+TUR;Büyük Menderes;406;;;;;;;
+TUR;Euphrates;889;;;Shatt al-Arab;Q166966;Iraq;Q796;2800
+TUR;Kura;148;;;;;;;
+TUR;Kızılırmak;926;;;;;;;
+TUR;Sakarya;203;;;;;;;
+TUR;Tigris;397;;;Shatt al-Arab;Q166966;Turkey;Q43;1850
+PRT;Douro;269;;;Atlantic Ocean;Q97;Spain;Q29;897
+PRT;Guadiana;228;;;Gulf of Cádiz;Q117157;Spain;Q29;778
+PRT;Tagus;182;;;;;;;
+NLD;IJssel;106;;;Ketelmeer;Q1739879;;;123
+NLD;Lek;104;;;Nieuwe Maas;Q1362309;;;62
+NLD;Meuse;255;;;North Sea;Q1693;;;950
+NLD;Nederrijn;62;;;Lek;Q1143852;;;50
+NLD;Rhine;98;;;;;;;
+NLD;Waal;57;;;Boven-Merwede;Q2577726;;;82
+TCD;Aoukalé;327;;;;;;;
+TCD;Bahr Aouk;222;;;;;;;
+TCD;Chari;740;;;;;;;
+TCD;Logone;385;;;;;;;
+TCD;Ouham;200;;;;;;;
+TCD;Yobe;60;;;;;;;
+NZL;Buller;142;;;;;;;
+NZL;Clutha / Mata-Au;243;;;;;;;
+NZL;Manawatu;188;;;;;;;
+NZL;Mataura;204;;;;;;;
+NZL;Mohaka;115;;;;;;;
+NZL;Rangitīkei;237;;;;;;;
+NZL;Taieri;274;;;;;;;
+NZL;Waiau Toa / Clarence;223;;;;;;;
+NZL;Waikato;344;;;;;;;
+NZL;Waimakariri;150;;;;;;;
+NZL;Wairau;196;;;;;;;
+NZL;Whanganui;244;;;;;;;
+NZL;Ōreti;209;;;;;;;
+IND;Banas;433;;;;;;;
+IND;Beas;378;;;;;;;
+IND;Bhima;742;;;;;;;
+IND;Brahmani;423;;;;;;;
+IND;Brahmaputra;919;;;;;;;
+IND;Chambal;880;;;;;;;
+IND;Chenab;444;;;;;;;
+IND;Ganges;2722;;;Bay of Bengal;Q38684;India;Q668;2525
+IND;Ghaghara;608;;;;;;;
+IND;Godavari;1429;;;;;;;
+IND;Indus;462;;;;;;;
+IND;Jhelum;231;;;;;;;
+IND;Kaveri;788;;;Bay of Bengal;Q38684;;;765
+IND;Kollidam;118;;;;;;;
+IND;Krishna;1185;;;;;;;
+IND;Luhit;227;;;;;;;
+IND;Mahanadi;783;;;Bay of Bengal;Q38684;;;860
+IND;Mahi;455;;;;;;;
+IND;Mahäna Nadï;79;;;;;;;
+IND;Manas;121;;;;;;;
+IND;Narmada;1085;;;Gulf of Khambhat;Q654010;;;1315
+IND;Palar;318;;;;;;;
+IND;Penner;549;;;;;;;
+IND;Sankh;199;;;;;;;
+IND;Sapt;275;;;;;;;
+IND;Sutlej;555;;;Panjnad River;Q2049556;;;1500
+IND;Tapti;606;;;;;;;
+IND;Teesta;227;;;;;;;
+IND;Tel;235;;;;;;;
+IND;Tungabhadra;602;;;;;;;
+IND;Wainganga;684;;;;;;;
+IND;Yamuna;1325;;;Ganges;Q5089;;;1376
+PNG;Fly;499;;;;;;;
+PNG;Purari;436;;;;;;;
+PNG;Sepik;879;;;Bismarck Sea;Q199436;;;1126
+PNG;nan;80;;;;;;;
+MNG;Ider;394;;;;;;;
+MNG;Onon;382;;;;;;;
+MNG;Orkhon;736;;;;;;;
+MNG;Selenga;464;;;;;;;
+MNG;Shishged;257;;;;;;;
+VEN;Apure;582;;;;;;;
+VEN;Caroní;808;;;;;;;
+VEN;Casiquiare canal;316;;;Rio Negro;Q118771;;;326
+VEN;Cuyuni;377;;;;;;;
+VEN;Guárico;384;;;;;;;
+VEN;Meta;148;;;;;;;
+VEN;Orinoco;1774;;;;;;;
+VEN;Ventuari;412;;;;;;;
+SUR;Courantyne;79;;;;;;;
+SUR;Kabalebo;176;;;;;;;
+SUR;Litani;227;;;Maroni;Q1369002;;;
+SUR;Maroni;245;;;Atlantic Ocean;Q97;;;611.7
+SUR;Suriname;139;;;;;;;
+PRY;Paraná;665;;;;;;;
+PRY;Paraná River;825;;;Río de la Plata;Q35827;Paraguay;Q733;4880
+PRY;Pilcomayo River;100;;;Paraguay River;Q179396;Bolivia;Q750;1100
+GUY;Courantyne;553;;;;;;;
+GUY;Cuyuni;260;;;;;;;
+GUY;Essequibo;792;;;;;;;
+ECU;Mira;144;;;;;;;
+ECU;Napo;396;;;;;;;
+ECU;Putumayo;112;;;;;;;
+ECU;Tumbes;172;;;;;;;
+COL;Atrato;491;;;;;;;
+COL;Japurá;1079;;;;;;;
+COL;Magdalena;1452;;;;;;;
+COL;Meta;759;;;;;;;
+COL;Mira;87;;;;;;;
+COL;Negro;1733;;;;;;;
+COL;Orinoco;302;;;;;;;
+COL;Putumayo;583;;;;;;;
+BOL;Beni;931;;;;;;;
+BOL;Grande;994;;;Tyrrhenian Sea;Q38882;;;35
+BOL;Guaporé;638;;;;;;;
+BOL;Madeira;99;;;;;;;
+BOL;Madre de Dios;578;;;;;;;
+BOL;Mamoré;620;;;;;;;
+BOL;Pilcomayo River;682;;;Paraguay River;Q179396;Bolivia;Q750;1100
+BOL;Yapacaní;288;;;;;;;
+BOL;nan;618;;;;;;;
+TJK;Pamir;100;;;;;;;
+TJK;Panj;536;;;;;;;
+TJK;Syr Dar;110;;;;;;;
+TJK;Zeravshan;271;;;Amu Darya;Q8493;;;877
+URY;Negro;568;;;;;;;
+URY;nan;169;;;;;;;
+GTM;Chixoy;328;;;;;;;
+GTM;Cuilco;85;;;;;;;
+GTM;Motagua;375;;;;;;;
+HND;Coco;391;;;;;;;
+HND;Ula;275;;;Gorkaya River;Q4146112;;;10
+DOM;Yaque del Norte;177;;;;;;;
+EGY;Damietta Branch;229;;;;;;;
+EGY;Ismailiya Canal;118;;;;;;;
+EGY;Nile;1279;;;Mediterranean Sea;Q4918;Egypt;Q79;6650
+EGY;Rosetta Branch;241;;;;;;;
+EGY;Suez Canal;163;;;;;;;
+EGY;nan;100;;;;;;;
+SLV;Lempa;265;;;;;;;
+IRN;Aras;84;;;;;;;
+IRN;Atrek;375;;;;;;;
+IRN;Hari;233;;;;;;;
+IRN;Helmand;53;;;;;;;
+IRN;Karkheh;806;;;;;;;
+IRN;Talkheh;241;;;;;;;
+IRQ;Atshan;56;;;;;;;
+IRQ;Euphrates;1070;;;Shatt al-Arab;Q166966;Iraq;Q796;2800
+IRQ;Hindiyah Channel;89;;;;;;;
+IRQ;Karkheh;58;;;;;;;
+IRQ;Shatt al Hillah;232;;;;;;;
+IRQ;Shatt al-Arab;163;;;Persian Gulf;Q34675;Kuwait;Q817;200
+IRQ;Shatt al-Hayy;223;;;;;;;
+IRQ;Tigris;1197;;;Shatt al-Arab;Q166966;Turkey;Q43;1850
+CRI;Chirripó Duchi;88;;;;;;;
+CRI;San Juan;61;;;Oñati;Q496588;;;
+ISR;Jordan;145;;;;;;;
+PAN;Panama Canal;60;;;;;;;
+PAN;Santa Maria;79;;;;;;;
+NIC;Coco;257;;;;;;;
+NIC;Grande de Matagalpa;403;;;;;;;
+NIC;Río Mico;173;;;;;;;
+NIC;San Juan;294;;;Oñati;Q496588;;;
+KGZ;Naryn;615;;;;;;;
+KGZ;Toxkan He;112;;;Aksu River;Q421658;;;300
+LAO;Cả;69;;;;;;;
+LAO;Kong;306;;;;;;;
+LAO;Mekong;1206;;;;;;;
+LAO;Nam Ou;413;;;Mekong River;Q41179;;;448
+LAO;Ngun;340;;;;;;;
+MYS;Bajang;386;;;;;;;
+MYS;Igan;102;;;;;;;
+MYS;Pahang;336;;;;;;;
+MYS;nan;322;;;;;;;
+NPL;Ghaghara;429;;;;;;;
+NPL;Sapt;184;;;;;;;
+PAK;Chenab;603;;;;;;;
+PAK;Indus;2404;;;;;;;
+PAK;Jhelum;529;;;;;;;
+PAK;Sutlej;489;;;Panjnad River;Q2049556;;;1500
+LKA;Mahaweli;243;;;;;;;
+SYR;Euphrates;563;;;Shatt al-Arab;Q166966;Iraq;Q796;2800
+THA;Chao Phraya;614;;;;;;;
+THA;Chi;660;;;;;;;
+THA;Mae Klong;448;;;Bay of Bangkok;Q1359524;;;140
+THA;Mekong;524;;;;;;;
+THA;Mun;573;;;;;;;
+THA;Ping;652;;;;;;;
+THA;Yom;673;;;;;;;
+THA;nan;89;;;;;;;
+TKM;Amu Darya;702;;;South Aral Sea;Q276776;Turkmenistan;Q874;2620
+TKM;Atrek;158;;;;;;;
+TKM;Hari;233;;;;;;;
+VNM;Black;533;;;;;;;
+VNM;Cả;287;;;;;;;
+VNM;Krong;221;;;;;;;
+VNM;Mekong;290;;;;;;;
+VNM;Red;524;;;;;;;
+VNM;Zuo;98;;;;;;;
+VNM;nan;70;;;;;;;
+KOR;Han;56;;;;;;;
+KOR;Nakdong;411;;;;;;;
+KOR;Namhan;301;;;;;;;
+AFG;Amu Darya;96;;;South Aral Sea;Q276776;Turkmenistan;Q874;2620
+AFG;Hari;544;;;;;;;
+AFG;Helmand;947;;;;;;;
+AFG;Panj;290;;;;;;;
+BGD;Brahmaputra;470;;;;;;;
+BGD;Ganges;1082;;;Bay of Bengal;Q38684;India;Q668;2525
+BGD;Teesta;139;;;;;;;
+BGD;nan;71;;;;;;;
+MLI;Bafing;351;;;;;;;
+MLI;Bakoy;110;;;;;;;
+MLI;Bani;409;;;;;;;
+MLI;Baoulé;1080;;;;;;;
+MLI;Niger;2054;;;;;;;
+MLI;Senegal;209;;;;;;;
+AGO;Cuando;776;;;;;;;
+AGO;Cuanza;986;;;;;;;
+AGO;Cunene;721;;;;;;;
+AGO;Inkisi;185;;;;;;;
+AGO;Kasai;545;;;;;;;
+AGO;Kwango;852;;;;;;;
+AGO;Kwilu;449;;;Congo;Q3503;;;284
+AGO;Lucala;401;;;;;;;
+AGO;Lungwebungu;451;;;;;;;
+AGO;Okavango;909;;;;;;;
+AGO;Zambezi;311;;;;;;;
+BTN;Manas;112;;;;;;;
+TZA;Great Ruaha;671;;;;;;;
+TZA;Kagera;204;;;;;;;
+TZA;Lukuga;55;;;;;;;
+TZA;Luwegu;235;;;;;;;
+TZA;Malagarasi;316;;;;;;;
+TZA;Pangani;353;;;;;;;
+TZA;Rufiji;377;;;;;;;
+TZA;Ruvuma;671;;;;;;;
+TZA;Ruzizi;129;;;;;;;
+TZA;Shama;214;;;;;;;
+TZA;Ugalla;279;;;;;;;
+PHL;Cagayan;359;;;;;;;
+CAF;Chari;209;;;;;;;
+CAF;Chinko;447;;;;;;;
+CAF;Kadeï;269;;;Sangha;Q239883;;;552
+CAF;Kotto;812;;;;;;;
+CAF;Koukourou;187;;;;;;;
+CAF;Lobaye;490;;;;;;;
+CAF;Mbomou;550;;;;;;;
+CAF;Ouham;623;;;;;;;
+CAF;Uele;404;;;Ubangi River;Q171649;;;1210
+TGO;Oti;162;;;;;;;
+ZMB;Chambeshi;574;;;;;;;
+ZMB;Kabompo;532;;;;;;;
+ZMB;Kafue;1227;;;;;;;
+ZMB;Luangwa;889;;;;;;;
+ZMB;Luapula;143;;;;;;;
+ZMB;Lungwebungu;177;;;;;;;
+ZMB;Luvua;64;;;;;;;
+ZMB;Zambezi;1355;;;;;;;
+ZMB;nan;64;;;;;;;
+ZWE;Limpopo;137;;;;;;;
+ZWE;Mazowe;248;;;;;;;
+ZWE;Save;413;;;Garonne;Q5077;;;148.4
+ZWE;Zambezi;130;;;;;;;
+MEX;Atengo;286;;;;;;;
+MEX;Balsas;997;;;;;;;
+MEX;Bavispe;165;;;;;;;
+MEX;Chixoy;65;;;;;;;
+MEX;Coatzacoalcos;174;;;;;;;
+MEX;Colorado;147;;;;;;;
+MEX;Conchos;620;;;;;;;
+MEX;Cuilco;51;;;;;;;
+MEX;Fuerte;273;;;;;;;
+MEX;Grande;986;;;Tyrrhenian Sea;Q38882;;;35
+MEX;Grande de Santiago;463;;;;;;;
+MEX;Grijalva;494;;;;;;;
+MEX;Lerma;526;;;;;;;
+MEX;Moctezuma River;428;;;;;;;
+MEX;Papaloapan;174;;;;;;;
+MEX;Pánuco;151;;;;;;;
+MEX;San Juan;284;;;Oñati;Q496588;;;
+MEX;San Miguel;118;;;;;;;
+MEX;San Pedro;433;;;;;;;
+MEX;Urique;205;;;;;;;
+MEX;Usumacinta;547;;;;;;;
+MEX;Verde;433;;;Magra;Q692549;;;
+MEX;Yaqui;589;;;;;;;
+BEN;Niger;113;;;;;;;
+BEN;Oti;177;;;;;;;
+BEN;Ouémé;559;;;;;;;
+BWA;Cuando;103;;;;;;;
+BWA;Limpopo;351;;;;;;;
+BWA;Marico;132;;;;;;;
+BWA;Molopo;462;;;;;;;
+BWA;Okavango;804;;;;;;;
+BFA;Black Volta;891;;;Volta River;Q192415;;;1352
+BFA;Komoé;97;;;;;;;
+BFA;Oti;153;;;;;;;
+BFA;White Volta;545;;;Lake Volta;Q201679;;;640
+BDI;Kagera;208;;;;;;;
+BDI;Ruzizi;138;;;;;;;
+COG;Alima;405;;;Congo;Q3503;;;500
+COG;Congo;704;;;;;;;
+COG;Dja;128;;;;;;;
+COG;Kouilou-Niari;634;;;;;;;
+COG;Ogooué;109;;;;;;;
+COG;Sangha;506;;;Congo;Q3503;;;785
+COG;Ubangi;541;;;;;;;
+GNQ;Benito;239;;;;;;;
+ERI;Tekezé;90;;;;;;;
+COD;Aruwimi;434;;;;;;;
+COD;Congo;1574;;;;;;;
+COD;Ebola;205;;;;;;;
+COD;Fimi;140;;;;;;;
+COD;Inkisi;171;;;;;;;
+COD;Ituri;522;;;;;;;
+COD;Kasai;1031;;;;;;;
+COD;Kibali;323;;;Uele;Q171436;;;
+COD;Kwango;428;;;;;;;
+COD;Kwilu;696;;;Congo;Q3503;;;284
+COD;Lokoro;480;;;;;;;
+COD;Lomami;1651;;;;;;;
+COD;Lua Tributary;303;;;;;;;
+COD;Lualaba;1639;;;;;;;
+COD;Luapula;454;;;;;;;
+COD;Lufira;573;;;;;;;
+COD;Lukeni;829;;;;;;;
+COD;Lukuga;367;;;;;;;
+COD;Luvua;413;;;;;;;
+COD;Mbomou;247;;;;;;;
+COD;Mongala;273;;;;;;;
+COD;Ruzizi;138;;;;;;;
+COD;Sankuru;1238;;;;;;;
+COD;Semliki;402;;;;;;;
+COD;Tshuapa;1075;;;;;;;
+COD;Uele;1069;;;Ubangi River;Q171649;;;1210
+MMR;Chindwin;1106;;;;;;;
+MMR;Derung-Nmai;355;;;;;;;
+MMR;Irrawaddy;2470;;;;;;;
+MMR;Mekong;239;;;;;;;
+MMR;Mytinge;443;;;;;;;
+MMR;Salween;1216;;;;;;;
+MMR;Sittong;433;;;;;;;
