@@ -1,0 +1,21 @@
+iso3,country,city_qid,admin_q,is_cap,pop,yr,lat,lon
+FRO,Ilhas Faroé,Q944273,http://www.wikidata.org/entity/Q3976031,0,20382,,62.0305,-6.88156
+FRO,Ilhas Faroé,Q10704,http://www.wikidata.org/entity/Q944273,1,14038,,62.00981,-6.77135
+FRO,Ilhas Faroé,Q1094328,http://www.wikidata.org/entity/Q977685,0,5257,,62.2239,-6.57861
+FRO,Ilhas Faroé,Q189361,http://www.wikidata.org/entity/Q1094328,0,4997,,62.223888888889,-6.5786111111111
+FRO,Ilhas Faroé,Q677723,http://www.wikidata.org/entity/Q944273,0,4367,,62.025555555556,-6.7588888888889
+FRO,Ilhas Faroé,Q969578,http://www.wikidata.org/entity/Q994274,0,4211,,62.1172,-6.7225
+FRO,Ilhas Faroé,Q647534,http://www.wikidata.org/entity/Q944273,0,2364,,61.996666666667,-6.7777777777778
+FRO,Ilhas Faroé,Q548193,http://www.wikidata.org/entity/Q994274,0,2156,,62.20747,-6.79367
+FRO,Ilhas Faroé,Q1079322,http://www.wikidata.org/entity/Q4016697,0,1962,,62.051111,-7.193889
+FRO,Ilhas Faroé,Q768990,http://www.wikidata.org/entity/Q994274,0,1811,,62.15,-6.9333333333333
+FRO,Ilhas Faroé,Q1094316,http://www.wikidata.org/entity/Q3978413,0,1711,,61.5558,-6.80333
+FRO,Ilhas Faroé,Q1004251,http://www.wikidata.org/entity/Q994274,0,1584,,62.2444,-6.81444
+FRO,Ilhas Faroé,Q731990,http://www.wikidata.org/entity/Q1004251,0,1561,,62.244444444444,-6.8144444444444
+FRO,Ilhas Faroé,Q754670,http://www.wikidata.org/entity/Q250131,0,1352,,61.473055555556,-6.8097222222222
+FRO,Ilhas Faroé,Q608352,http://www.wikidata.org/entity/Q945823,0,1245,,62.156388888889,-7.1663888888889
+FRO,Ilhas Faroé,Q6479325,http://www.wikidata.org/entity/Q994274,0,1226,,62.081,-6.717
+FRO,Ilhas Faroé,Q648131,http://www.wikidata.org/entity/Q4016697,0,1134,,62.1,-7.4
+FRO,Ilhas Faroé,Q855785,http://www.wikidata.org/entity/Q1079322,0,1130,,62.051111111111,-7.1938888888889
+FRO,Ilhas Faroé,Q906365,http://www.wikidata.org/entity/Q648131,0,1114,,62.070277777778,-7.3222222222222
+FRO,Ilhas Faroé,Q1031794,http://www.wikidata.org/entity/Q994274,0,1072,,62.18611145,-6.75555611

@@ -183,6 +183,8 @@ def run_aux_scripts() -> None:
         "fetch_biomes_by_country.py",
         "fetch_coastlines.py",
         "fetch_ports_and_routes.py",
+        "fetch_wdi_sectors.py",
+        "fetch_wdi_economics.py",
     ]
 
     to_run = [p for s in preferred_order if (p := (SCRIPTS_DIR / s)).exists()]

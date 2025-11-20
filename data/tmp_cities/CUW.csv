@@ -1,0 +1,7 @@
+iso3,country,city_qid,admin_q,is_cap,pop,yr,lat,lon
+CUW,Curaçao,Q132679,http://www.wikidata.org/entity/Q25279,1,150000.0,,12.108,-68.935
+CUW,Curaçao,Q255239,http://www.wikidata.org/entity/Q25279,0,2424.0,,12.283333333333,-69.066666666667
+CUW,Curaçao,Q110805546,http://www.wikidata.org/entity/Q132679,0,2760.0,,12.103745370553,-68.921111855007
+CUW,Curaçao,Q110805550,http://www.wikidata.org/entity/Q132679,0,3064.0,,12.096,-68.898194444444
+CUW,Curaçao,Q114098488,http://www.wikidata.org/entity/Q106613466,0,,,12.093055555556,-68.8175
+CUW,Curaçao,Q114102446,http://www.wikidata.org/entity/Q106613466,0,3958.0,,12.133333333333,-68.85

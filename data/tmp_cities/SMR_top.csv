@@ -1,0 +1,3 @@
+iso3,country,city_qid,admin_q,is_cap,pop,yr,lat,lon
+SMR,San Marino,Q1642645,http://www.wikidata.org/entity/Q185412,0,7000,,43.95,12.5
+SMR,San Marino,Q1848,http://www.wikidata.org/entity/Q238,1,4429,,43.932011111111,12.44845

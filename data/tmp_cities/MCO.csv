@@ -1,0 +1,7 @@
+iso3,country,city_qid,admin_q,is_cap,pop,yr,lat,lon
+MCO,Mônaco,Q235,,0,39150,,43.731111111111,7.42
+MCO,Mônaco,Q55095,http://www.wikidata.org/entity/Q3685392,0,3694,,43.734608,7.421552
+MCO,Mônaco,Q55108,http://www.wikidata.org/entity/Q3685392,0,3131,,43.736057,7.417822
+MCO,Mônaco,Q55115,http://www.wikidata.org/entity/Q3685392,0,975,,43.73097,7.424815
+MCO,Mônaco,Q55125,http://www.wikidata.org/entity/Q55088,0,3400,,43.74202,7.43213
+MCO,Mônaco,Q3685392,http://www.wikidata.org/entity/Q235,1,39050,,43.730555555556,7.4252777777778

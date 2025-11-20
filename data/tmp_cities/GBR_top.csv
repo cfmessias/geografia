@@ -1,0 +1,21 @@
+iso3,country,city_qid,admin_q,is_cap,pop,yr,lat,lon
+GBR,Reino Unido,Q84,http://www.wikidata.org/entity/Q23306,1,8908081,,51.507222222222,-0.1275
+GBR,Reino Unido,Q23306,http://www.wikidata.org/entity/Q23939248,0,8908081,,51.5,-0.083333333333333
+GBR,Reino Unido,Q2256,http://www.wikidata.org/entity/Q20986424,0,1137100,,52.48,-1.9025
+GBR,Reino Unido,Q4093,http://www.wikidata.org/entity/Q55934339,0,1088000,,55.861111111111,-4.25
+GBR,Reino Unido,Q23157,http://www.wikidata.org/entity/Q48026,0,975782,,51.3,-3.0
+GBR,Reino Unido,Q39121,http://www.wikidata.org/entity/Q774015,0,822483,,53.7975,-1.5436111111111
+GBR,Reino Unido,Q769573,http://www.wikidata.org/entity/Q26,0,794824,,54.597,-5.93
+GBR,Reino Unido,Q42448,http://www.wikidata.org/entity/Q62482000,0,577800,,53.380833333333,-1.4702777777778
+GBR,Reino Unido,Q23154,http://www.wikidata.org/entity/Q21693433,0,567111,,51.453611111111,-2.5975
+GBR,Reino Unido,Q18125,http://www.wikidata.org/entity/Q21525592,0,547627,,53.466666666667,-2.2333333333333
+GBR,Reino Unido,Q24826,http://www.wikidata.org/entity/Q21665571,0,513441,,53.407222222222,-2.9916666666667
+GBR,Reino Unido,Q23436,http://www.wikidata.org/entity/Q2379199,0,488050,,55.953333333333,-3.1891666666667
+GBR,Reino Unido,Q83065,http://www.wikidata.org/entity/Q21683242,0,464395,,52.636111111111,-1.1330555555556
+GBR,Reino Unido,Q10690,http://www.wikidata.org/entity/Q24342199,0,383536,,51.481666666667,-3.1791666666667
+GBR,Reino Unido,Q6225,http://www.wikidata.org/entity/Q20986417,0,366785,,52.416666666667,-1.5166666666667
+GBR,Reino Unido,Q10686,http://www.wikidata.org/entity/Q1140130,0,345006,,54.596666666667,-5.93
+GBR,Reino Unido,Q1425428,http://www.wikidata.org/entity/Q21012735,0,300196,,54.977777777778,-1.6133333333333
+GBR,Reino Unido,Q18655,http://www.wikidata.org/entity/Q1752424,0,294773,,53.408333333333,-2.1494444444444
+GBR,Reino Unido,Q22905,http://www.wikidata.org/entity/Q2834810,0,294400,,53.794,-1.751
+GBR,Reino Unido,Q188304,http://www.wikidata.org/entity/Q1280897,0,294000,,54.9,-1.3802777777778

@@ -77,6 +77,12 @@ def _pick_lang(pt_val: str | None, en_val: str | None, lang: str) -> str:
     return en or pt
 
 
+def _uniq_join(series: pd.Series) -> str:
+    """Concatena valores únicos preservando a ordem de aparição."""
+    vals = [str(v).strip() for v in series.dropna().astype(str) if str(v).strip()]
+    return ", ".join(dict.fromkeys(vals))
+
+
 # ─────────────────────── painel principal ───────────────────────
 
 def render_geography_panel(iso3: str, country_name: str) -> None:
@@ -94,7 +100,7 @@ def render_geography_panel(iso3: str, country_name: str) -> None:
     """
     iso3 = (iso3 or "").upper().strip()
     lang = st.session_state.get("lang", "pt")
-    _ensure_lang_state() 
+    _ensure_lang_state()
     # ===== Carregamento seguro =====
     df_borders = store.borders_for_iso3(iso3)            # DataFrame
     df_tz      = store.timezones_for_iso3(iso3)          # DataFrame ('tz_label')
@@ -195,7 +201,7 @@ def render_geography_panel(iso3: str, country_name: str) -> None:
         else:
             st.caption(tr("geo.sections.coast.seas.none"))
 
-        # --- Rios principais ------------------------------------------------------
+    # --- Rios principais ------------------------------------------------------
     st.markdown(f"### {tr('geo.sections.rivers.title')}")
     df_riv = store.rivers_for_iso3(iso3, top_n=12, min_km=50.0)
     if df_riv.empty:
@@ -267,12 +273,30 @@ def render_geography_panel(iso3: str, country_name: str) -> None:
     # --- Nota de fontes -------------------------------------------------------
     st.caption(tr("geo.sources.caption"))
 
-    # --- LAGOS ---
+    # --- LAGOS ---------------------------------------------------------------
     st.markdown(f"### {tr('geo.sections.lakes.title')}")
     df_lk = store.lakes_for_iso3(iso3, min_area_km2=10.0, top_n=15)
     if df_lk.empty:
         st.info(tr("geo.sections.lakes.empty"))
     else:
+        # ordenar para priorizar registos “melhores”
+        sort_cols = [c for c in ("area_km2", "elevation_m") if c in df_lk.columns]
+        if sort_cols:
+            df_lk = df_lk.sort_values(by=sort_cols, ascending=[False]*len(sort_cols))
+
+        # chave de agrupamento (QID, fallback label)
+        key = "lake_qid" if "lake_qid" in df_lk.columns else "lake_label"
+
+        # agregações: tipos concatenados; restantes colunas → primeiro valor
+        agg = {}
+        if "lake_label" in df_lk.columns:   agg["lake_label"]   = "first"
+        if "lake_qid"   in df_lk.columns:   agg["lake_qid"]     = "first"
+        if "type_label" in df_lk.columns:   agg["type_label"]   = _uniq_join
+        for c in ("area_km2", "elevation_m", "inflow_label", "outflow_label"):
+            if c in df_lk.columns: agg[c] = "first"
+
+        df_lk = df_lk.groupby(key, as_index=False).agg(agg).head(15)
+
         view = df_lk.rename(columns={
             "lake_label":   tr("geo.sections.lakes.table.lake"),
             "type_label":   tr("geo.sections.lakes.table.type"),
@@ -290,16 +314,32 @@ def render_geography_panel(iso3: str, country_name: str) -> None:
         st.dataframe(view[cols], use_container_width=True, hide_index=True)
         st.caption(tr("geo.sections.lakes.note"))
 
-    # --- RELEVOS / PLANALTOS ---
+    # --- RELEVOS / PLANALTOS -------------------------------------------------
     st.markdown(f"### {tr('geo.sections.reliefs.title')}")
-    # UI
     KIND_QIDS_RELEVANTES = ["Q54050", "Q8502", "Q12280", "Q46831"]  # colina, montanha, planalto, cordilheira
     df_rl = store.reliefs_for_iso3(iso3, kinds=KIND_QIDS_RELEVANTES, top_n=30)
 
-    #df_rl = store.reliefs_for_iso3(iso3, kinds=["Q54050","Q46831"], top_n=30)  # plateaus + mountain ranges
     if df_rl.empty:
         st.info(tr("geo.sections.reliefs.empty"))
     else:
+        # ordenar para priorizar registos com maior elevação/área
+        sort_cols = [c for c in ("elevation_m", "area_km2") if c in df_rl.columns]
+        if sort_cols:
+            df_rl = df_rl.sort_values(by=sort_cols, ascending=[False]*len(sort_cols))
+
+        # chave de agrupamento (QID, fallback label)
+        key = "feature_qid" if "feature_qid" in df_rl.columns else "feature_label"
+
+        # agregações: kinds concatenados; restantes colunas → primeiro valor
+        agg = {}
+        if "feature_label" in df_rl.columns: agg["feature_label"] = "first"
+        if "feature_qid"   in df_rl.columns: agg["feature_qid"]   = "first"
+        if "kind_label"    in df_rl.columns: agg["kind_label"]    = _uniq_join
+        for c in ("elevation_m", "area_km2"):
+            if c in df_rl.columns: agg[c] = "first"
+
+        df_rl = df_rl.groupby(key, as_index=False).agg(agg).head(30)
+
         view = df_rl.rename(columns={
             "feature_label": tr("geo.sections.reliefs.table.feature"),
             "kind_label":    tr("geo.sections.reliefs.table.kind"),

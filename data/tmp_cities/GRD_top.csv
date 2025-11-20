@@ -1,0 +1,9 @@
+iso3,country,city_qid,admin_q,is_cap,pop,yr,lat,lon
+GRD,Granada,Q41547,http://www.wikidata.org/entity/Q576651,1,33734,,12.0525,-61.753055555556
+GRD,Granada,Q375507,http://www.wikidata.org/entity/Q1476289,0,3378,,12.166388888889,-61.73
+GRD,Granada,Q3116519,http://www.wikidata.org/entity/Q977183,0,2476,,12.119166666667,-61.626388888889
+GRD,Granada,Q3556464,http://www.wikidata.org/entity/Q1476289,0,2400,,12.116666666667,-61.75
+GRD,Granada,Q12874663,http://www.wikidata.org/entity/Q1291077,0,2000,,12.19528,-61.70389
+GRD,Granada,Q1318103,http://www.wikidata.org/entity/Q1476309,0,1300,,12.218333333333,-61.639166666667
+GRD,Granada,Q3267362,http://www.wikidata.org/entity/Q3044818,0,1000,,12.482993,-61.45732
+GRD,Granada,Q1779106,http://www.wikidata.org/entity/Q977183,0,700,,12.166666666667,-61.616666666667

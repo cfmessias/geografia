@@ -1,0 +1,15 @@
+iso3,country,city_qid,admin_q,is_cap,pop,yr,lat,lon
+LIE,Liechtenstein,Q49657,http://www.wikidata.org/entity/Q347,0,5998,,47.166666666667,9.5166666666667
+LIE,Liechtenstein,Q1844,http://www.wikidata.org/entity/Q347,1,5668,,47.140555555556,9.5222222222222
+LIE,Liechtenstein,Q49654,http://www.wikidata.org/entity/Q347,0,5230,,47.1,9.5166666666667
+LIE,Liechtenstein,Q49663,http://www.wikidata.org/entity/Q347,0,4628,,47.066666666667,9.5
+LIE,Liechtenstein,Q4540,http://www.wikidata.org/entity/Q347,0,4459,,47.2,9.5166666666667
+LIE,Liechtenstein,Q49661,http://www.wikidata.org/entity/Q347,0,4404,,47.219722222222,9.5427777777778
+LIE,Liechtenstein,Q49651,http://www.wikidata.org/entity/Q347,0,2643,,47.116666666667,9.5333333333333
+LIE,Liechtenstein,Q49659,http://www.wikidata.org/entity/Q347,0,2295,,47.24502,9.53323
+LIE,Liechtenstein,Q816776,http://www.wikidata.org/entity/Q49662,0,1664,,47.211111111111,9.5075
+LIE,Liechtenstein,Q49662,http://www.wikidata.org/entity/Q347,0,1663,,47.21986,9.50995
+LIE,Liechtenstein,Q991615,http://www.wikidata.org/entity/Q4540,0,1357,,47.2,9.5472222222222
+LIE,Liechtenstein,Q49655,http://www.wikidata.org/entity/Q347,0,1091,,47.22833,9.53951
+LIE,Liechtenstein,Q49660,http://www.wikidata.org/entity/Q347,0,478,,47.183333333333,9.5333333333333
+LIE,Liechtenstein,Q593158,http://www.wikidata.org/entity/Q49651,0,50,,47.1125,9.575

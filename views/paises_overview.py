@@ -46,7 +46,7 @@ def _profile_by_iso3(iso3: str) -> dict:
 def render_overview_panel(iso3: str, country_name: str):
     from services.offline_store import (
         cities_for_iso3, unesco_for_iso3, load_olympics_summer_csv,
-        load_religion, load_flag_info, load_tourism_ts
+        load_religion, load_flag_info, load_tourism_ts,leaders_for_iso3
     )
 
     prof = _profile_by_iso3(iso3)
@@ -62,6 +62,74 @@ def render_overview_panel(iso3: str, country_name: str):
             if v is not None and str(v).strip():
                 return str(v).strip()
         return None
+    
+    # Líderes
+       
+    def _get_current_heads(prof: dict, iso3: str) -> tuple[str, str]:
+        """
+        Devolve (presidente, chefe_de_governo):
+        1) tenta primeiro usar os campos do countries_profiles.csv
+        2) se estiverem vazios, tenta leaders_current.csv via leaders_for_iso3()
+        """
+
+        pres = (prof.get("head_of_state") or "").strip()
+        pm   = (prof.get("head_of_government") or "").strip()
+
+        # Se já tivermos os dois a partir do profiles, não fazemos mais nada
+        if pres and pm:
+            return pres, pm
+
+        # Fallback: leaders_current.csv
+        try:
+            cur, _ = leaders_for_iso3(iso3)
+        except Exception:
+            return pres, pm
+
+        if cur is None or cur.empty:
+            return pres, pm
+
+        cur = cur.copy()
+        # normaliza role para lower case (mantendo '_' se existir)
+        cur["role_norm"] = cur["role"].astype(str).str.lower()
+
+        def _pick(role_patterns: str, include_party: bool = False) -> str:
+            """
+            Escolhe a pessoa mais recente cuja 'role_norm' corresponda à regex.
+            Se include_party=True, acrescenta o partido entre parêntesis (se existir).
+            """
+            m = cur[cur["role_norm"].str.contains(role_patterns, regex=True, na=False)]
+            if m.empty:
+                return ""
+            if "start" in m.columns:
+                m = m.sort_values("start")
+            row = m.iloc[-1]
+
+            person = str(row.get("person") or "").strip()
+            if not person:
+                return ""
+
+            if include_party:
+                party = str(row.get("party") or "").strip()
+                if party:
+                    return f"{person} ({party})"
+            return person
+
+        # Presidente: só o nome (sem partido)
+        if not pres:
+            pres = _pick(
+                r"head_of_state|head of state|president|chefe_de_estado|chefe de estado",
+                include_party=False,
+            )
+
+        # Chefe de governo: nome + partido, se existir
+        if not pm:
+            pm = _pick(
+                r"head_of_government|head of government|prime_minister|prime minister|chefe_de_governo|chefe de governo",
+                include_party=True,
+            )
+
+        return pres, pm
+
 
     # Moeda
     moeda_txt = _first(
@@ -76,8 +144,8 @@ def render_overview_panel(iso3: str, country_name: str):
         moeda_txt = " ".join([p for p in parts if p]).strip() or None
 
     inc  = prof.get("inception") or prof.get("independence") or prof.get("inception_year")
-    pres = prof.get("head_of_state") or ""
-    pm   = prof.get("head_of_government") or ""
+    pres, pm = _get_current_heads(prof, iso3)
+
 
     pop  = prof.get("population")
     area = prof.get("area_km2")
@@ -123,7 +191,7 @@ def render_overview_panel(iso3: str, country_name: str):
             st.info(tr("labels.sem_cidades_gera_csv"))
         else:
             c = cities.copy()
-            for k in ("city","admin","type","is_capital","population","year","lat","lon"):
+            for k in ("city", "admin", "type", "is_capital", "population", "year", "lat", "lon"):
                 if k not in c.columns:
                     c[k] = pd.NA
 
@@ -131,70 +199,99 @@ def render_overview_panel(iso3: str, country_name: str):
                 s = str(v).strip()
                 return None if s.lower() in {"", "none", "nan", "empty"} else s
 
-            c["city"]  = c["city"].apply(_clean_text)
+            c["city"] = c["city"].apply(_clean_text)
             c["admin"] = c["admin"].apply(_clean_text)
-            c["type"]  = c["type"].apply(_clean_text)
+            c["type"] = c["type"].apply(_clean_text)
             c = c[c["city"].notna()]
             if c.empty:
                 st.info(tr("labels.sem_cidades_validas"))
             else:
                 c["__year"] = pd.to_numeric(c["year"], errors="coerce")
-                c["__pop"]  = pd.to_numeric(c["population"], errors="coerce")
+                c["__pop"] = pd.to_numeric(c["population"], errors="coerce")
 
                 def _join_unique(series: pd.Series) -> str:
                     vals = [str(x) for x in series.dropna().astype(str) if x]
                     return ", ".join(sorted(set(vals))) if vals else ""
 
+                # Índice do registo com ano mais recente por cidade
                 idx_latest = (
                     c.sort_values(["city", "__year"], ascending=[True, True])
                     .groupby("city", observed=False)["__year"].idxmax()
-                    .dropna().astype(int)
+                    .dropna()
+                    .astype(int)
                 )
+                # Se não houver ano, usar o registo com maior população
                 if idx_latest.empty:
                     idx_latest = (
                         c.sort_values(["city", "__pop"], ascending=[True, True])
                         .groupby("city", observed=False)["__pop"].idxmax()
-                        .dropna().astype(int)
+                        .dropna()
+                        .astype(int)
                     )
+                # Último fallback: primeiro registo por cidade
                 if idx_latest.empty:
                     idx_latest = c.groupby("city", observed=False).head(1).index
 
-                latest = c.loc[idx_latest, ["city","is_capital","population","__year"]].rename(
-                    columns={"__year":"year"}
+                latest = c.loc[idx_latest, ["city", "is_capital", "population", "__year"]].rename(
+                    columns={"__year": "year"}
                 )
                 agg = (
                     c.groupby("city", as_index=False, observed=False)
                     .agg(admin=("admin", _join_unique), type=("type", _join_unique))
                 )
+
                 show = latest.merge(agg, on="city", how="left").rename(columns={
-                    "city": "Cidade", "admin": "Região (P131)", "type": "Tipo",
-                    "is_capital": "Capital?", "population": "População", "year": "Ano",
+                    "city": "Cidade",
+                    "admin": "Região (P131)",
+                    "type": "Tipo",
+                    "is_capital": "Capital?",
+                    "population": "População",
+                    "year": "Ano",
                 })
 
+                # Mapeia Capital? para Sim/Não, mas só para uso interno (ordenar)
                 if "Capital?" in show.columns:
-                    show["Capital?"] = show["Capital?"].map({1:"Sim",0:"Não",True:"Sim",False:"Não"}).fillna("")
+                    show["Capital?"] = show["Capital?"].map(
+                        {1: "Sim", 0: "Não", True: "Sim", False: "Não"}
+                    ).fillna("")
+
                 if "Ano" in show.columns:
-                    show["Ano"] = show["Ano"].apply(lambda x: "" if pd.isna(x) else str(int(x)))
+                    show["Ano"] = show["Ano"].apply(
+                        lambda x: "" if pd.isna(x) else str(int(x))
+                    )
                 if "População" in show.columns:
                     show["População"] = show["População"].apply(
                         lambda v: "" if pd.isna(v) else f"{int(v):,}".replace(",", " ")
                     )
 
+                # Usar a info de capital e população apenas para ordenar
                 show["_cap"] = show["Capital?"].eq("Sim") if "Capital?" in show.columns else False
                 show["_pop"] = (
-                    pd.to_numeric(show.get("População", 0).astype(str).str.replace(" ","").str.replace(",",""),
-                                  errors="coerce").fillna(0)
+                    pd.to_numeric(
+                        show.get("População", 0).astype(str)
+                        .str.replace(" ", "")
+                        .str.replace(",", ""),
+                        errors="coerce",
+                    ).fillna(0)
                 )
-                show = show.sort_values(["_cap","_pop","Cidade"], ascending=[False, False, True]) \
-                        .drop(columns=["_cap","_pop","Tipo"], errors="ignore")
-                cols = [c for c in ["Cidade","Capital?","Região (P131)","População","Ano"] if c in show.columns]
 
-                colL, colR = st.columns([0.62, 0.38], gap="large")
+                show = (
+                    show.sort_values(["_cap", "_pop", "Cidade"], ascending=[False, False, True])
+                    .drop(columns=["_cap", "_pop", "Tipo", "Capital?"], errors="ignore")
+                )
+
+                # Colunas visíveis — sem "Capital?"
+                cols = [c for c in ["Cidade",  "População", "Ano"] if c in show.columns]
+
+                colL, colR = st.columns([0.42, 0.58], gap="large")
                 with colL:
                     st.markdown(tr("labels.principais_cidades_munic_pios"))
-                    st.dataframe(show[cols] if cols else show,
-                                 use_container_width=True, hide_index=True,
-                                 column_config=_colcfg_cities())
+                    st.dataframe(
+                        show[cols] if cols else show,
+                        use_container_width=True,
+                        hide_index=True,
+                        column_config=_colcfg_cities(),
+                    )
                 with colR:
                     st.markdown(tr("labels.mapa"))
                     for k in ("lat", "lon"):
@@ -204,13 +301,15 @@ def render_overview_panel(iso3: str, country_name: str):
                     cc["lat"] = pd.to_numeric(cc["lat"], errors="coerce")
                     cc["lon"] = pd.to_numeric(cc["lon"], errors="coerce")
                     pts = (
-                        cc.dropna(subset=["lat","lon"])
-                        .loc[cc["lat"].between(-90, 90) & cc["lon"].between(-180, 180),
-                             ["city","lat","lon"]]
+                        cc.dropna(subset=["lat", "lon"])
+                        .loc[
+                            cc["lat"].between(-90, 90) & cc["lon"].between(-180, 180),
+                            ["city", "lat", "lon"],
+                        ]
                         .drop_duplicates(subset=["city"], keep="first")
                     )
                     if len(pts) > 0:
-                        st.map(pts[["lat","lon"]], use_container_width=True)
+                        st.map(pts[["lat", "lon"]], use_container_width=True)
 
     # UNESCO
     with st.expander(tr("labels.patrim_nio_mundial_unesco")):

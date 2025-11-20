@@ -33,7 +33,7 @@ REFRESH_ISO3: set[str] = set()    # ex.: {"PRT","ESP"} para reprocessar só este
 SKIP_DONE: bool = False           # False para garantir execução de todos os países
 
 TIMEOUT = 120
-RAW_LIMIT = 2000                  # ↓ de 4000
+RAW_LIMIT = 20000                  # ↓ de 4000
 BASE_PAUSE = 0.5                  # ↑ de 0.35
 COOLDOWN_EVERY = 15               # ↓ de 20 (pausas mais frequentes)
 COOLDOWN_SECS  = 10               # ↑ de 8
@@ -190,9 +190,9 @@ def wd_get_labels(qids: List[str], lang="pt", fallbacks=("pt-br","en")) -> Dict[
 # ──────────────────────────────────────────────────────────────────────────────
 def q_chn_user(limit: int = 200, min_pop: int = 1000000) -> str:
     """
-    China — exatamente a query fornecida pelo utilizador (funciona no WDQS dele):
+    China — query baseada na versão fornecida inicialmente:
     - Capital via P36 garantida.
-    - Cidades = P31/P279* Q515 com P17=Q148 e P1082 >= min_pop.
+    - Cidades = P31/P279* (Q515, Q1549591, Q1187811) com P17=Q148 e P1082 >= min_pop.
     - Sem ORDER BY. Devolve múltiplas linhas por cidade (uma por P1082).
     """
     return f"""
@@ -212,9 +212,10 @@ WHERE {{
     BIND(1 AS ?isCap)
   }}
   UNION
-  # Cidades com população >= min_pop
+  # Cidades / big cities / college towns com população >= min_pop
   {{
-    ?city wdt:P31/wdt:P279* wd:Q515 ;
+    VALUES ?cls {{ wd:Q515 wd:Q1549591 wd:Q1187811 }}  # <── AQUI
+    ?city wdt:P31/wdt:P279* ?cls ;
           wdt:P17 wd:Q148 ;
           wdt:P1082 ?pop .
     FILTER(?pop >= {min_pop})
@@ -241,9 +242,9 @@ LIMIT {limit}
 
 def q_fra_wide(limit: int = 300, min_pop: int = 50000) -> str:
     """
-    França — padrão “largo” alinhado com o da China:
+    França — padrão “largo”:
     - Capital via P36 garantida.
-    - Cidades = P31/P279* (Q515 ou Q484170) com P17=Q142 e P1082 >= min_pop.
+    - Cidades = P31/P279* (Q515, Q484170, Q1549591, Q1187811) com P17=Q142 e P1082 >= min_pop.
     - Sem ORDER BY. Devolve múltiplas linhas por cidade (uma por P1082).
     """
     return f"""
@@ -264,13 +265,17 @@ WHERE {{
     }}
   }}
   UNION
-  # B) Cidades/communes com população >= min_pop (com LIMIT local)
+  # B) Cidades/communes/big cities/college towns com população >= min_pop
   {{
     SELECT ?city (0 AS ?isCap) WHERE {{
       {{
         ?city wdt:P31/wdt:P279* wd:Q515
       }} UNION {{
         ?city wdt:P31/wdt:P279* wd:Q484170
+      }} UNION {{
+        ?city wdt:P31/wdt:P279* wd:Q1549591   # <── AQUI
+      }} UNION {{
+        ?city wdt:P31/wdt:P279* wd:Q1187811   # <── AQUI
       }}
       ?city wdt:P17 wd:Q142 ;
             wdt:P1082 ?popFilter .
@@ -302,69 +307,12 @@ WHERE {{
     OPTIONAL {{ ?popStmt pq:P585 ?date . BIND(YEAR(?date) AS ?yr) }}
   }}
 }}
-
-
-"""
-
-def q_block_ordered(iso3: str, limit: int = 4000, min_pop: int = 1000) -> str:
-    """
-    Variante agregada + ORDER BY (fallback; pode ser pesada).
-    """
-    return f"""
-PREFIX wd: <http://www.wikidata.org/entity/>
-PREFIX wdt: <http://www.wikidata.org/prop/direct/>
-PREFIX p: <http://www.wikidata.org/prop/>
-PREFIX ps: <http://www.wikidata.org/prop/statement/>
-PREFIX pq: <http://www.wikidata.org/prop/qualifier/>
-PREFIX psv: <http://www.wikidata.org/prop/statement/value/>
-PREFIX wikibase: <http://wikiba.se/ontology#>
-
-SELECT
-  ?city
-  (SAMPLE(?admin) AS ?admin)
-  (MAX(?pop)      AS ?pop)
-  (MAX(?yr)       AS ?yr)
-  (SAMPLE(?lat)   AS ?lat)
-  (SAMPLE(?lon)   AS ?lon)
-  (MAX(?isCap)    AS ?isCap)
-WHERE {{
-  ?country wdt:P298 "{iso3}" .
-  OPTIONAL {{ ?country wdt:P36 ?capital . }}
-
-  VALUES ?cls {{ wd:Q515 wd:Q15284 wd:Q486972 }}
-  ?city wdt:P31/wdt:P279* ?cls .
-
-  {{
-    ?city wdt:P17 ?country .
-  }} UNION {{
-    ?city (wdt:P131)+ ?admUnit .
-    ?admUnit wdt:P17 ?country .
-  }}
-
-  OPTIONAL {{ ?city wdt:P131 ?admin }}
-
-  ?city p:P1082 ?stpop .
-  ?stpop ps:P1082 ?pop .
-  OPTIONAL {{ ?stpop pq:P585 ?yr }}
-
-  OPTIONAL {{
-    ?city p:P625 ?st .
-    ?st psv:P625 ?coord .
-    ?coord wikibase:geoLatitude ?lat ;
-           wikibase:geoLongitude ?lon .
-  }}
-
-  BIND(IF(BOUND(?capital) && ?city = ?capital, 1, 0) AS ?isCap)
-  FILTER(?pop >= {min_pop})
-}}
-GROUP BY ?city
-ORDER BY DESC(?pop)
-LIMIT {limit}
 """
 
 def q_block_no_order(iso3: str, raw_limit: int) -> str:
     """
     Fallback "bruto" clássico (sem ORDER BY), amplo — usado para o resto dos países.
+    Inclui explicitamente Q1549591 e Q1187811.
     """
     return f"""
 PREFIX wd: <http://www.wikidata.org/entity/>
@@ -379,7 +327,7 @@ SELECT ?city ?admin ?pop ?yr ?isCap ?lat ?lon WHERE {{
   ?country wdt:P298 "{iso3}" .
   OPTIONAL {{ ?country wdt:P36 ?capital . }}
 
-  VALUES ?cls {{ wd:Q515 wd:Q15284 wd:Q486972 }}
+  VALUES ?cls {{ wd:Q515 wd:Q15284 wd:Q486972 wd:Q1549591 wd:Q1187811 }}  # <── AQUI
   ?city wdt:P31/wdt:P279* ?cls .
 
   {{
@@ -411,9 +359,10 @@ def q_block_stable(iso3: str, limit: int = RAW_LIMIT, min_pop: Optional[int] = S
     """
     Genérica e estável (sem recursões ilimitadas), SEM ORDER BY:
     - Garante capital (P36).
-    - Aceita Q515, subclasses (1–3) de municipality (Q15284) / commune (Q203934) e fallback Q486972.
+    - Aceita Q515, subclasses (1–3) de municipality (Q15284) / commune (Q203934),
+      Q486972 e ainda Q1549591 / Q1187811 (big city / college town).
     - País por P17 direto OU P131 (1–2 saltos) para o território ISO-3; suporta territórios com soberano.
-    - População: TODAS as P1082 (Python escolhe o máx. por QID no Top-20).
+    - População: TODAS as P1082 (Python escolhe o máx. por QID).
     """
     pop_filter = f"\n    FILTER(?pop >= {min_pop})" if isinstance(min_pop, int) else ""
     return f"""
@@ -456,6 +405,10 @@ WHERE {{
       UNION {{ ?inst2 wdt:P279/wdt:P279/wdt:P279 wd:Q203934 }}
     }} UNION {{
       ?city wdt:P31 wd:Q486972
+    }} UNION {{
+      ?city wdt:P31/wdt:P279* wd:Q1549591    # <── AQUI
+    }} UNION {{
+      ?city wdt:P31/wdt:P279* wd:Q1187811    # <── AQUI
     }}
 
     {{
@@ -490,6 +443,7 @@ WHERE {{
 LIMIT {limit}
 """
 
+
 # ──────────────────────────────────────────────────────────────────────────────
 # Parse bruto
 # ──────────────────────────────────────────────────────────────────────────────
@@ -503,31 +457,134 @@ def _parse_int_or_none(x: Optional[str]) -> Optional[int]:
     except Exception:
         return None
 
-def parse_rows(js: Optional[dict]) -> List[Tuple]:
-    """Tuplos: (city_qid, admin_q, is_cap, pop, yr, lat, lon)."""
-    out: List[Tuple] = []
-    if not js:
-        return out
-    for r in js.get("results", {}).get("bindings", []):
-        g = lambda k: r.get(k, {}).get("value")
-        city_qid = (g("city") or "").split("/")[-1]
-        if not city_qid:
+def parse_rows(js: dict):
+    """
+    Converte o JSON do WDQS numa lista de tuplos:
+        (city_qid, admin, isCap, pop, yr, lat, lon)
+
+    Regras:
+    - Para cada cidade (city_qid), escolhe SEMPRE o registo com o ano (yr)
+      mais recente disponível.
+    - Se houver empate no ano, usa a maior população.
+    - Se não existir ano em nenhum registo, escolhe o de maior população.
+    """
+    bindings = js.get("results", {}).get("bindings", [])
+    if not bindings:
+        return []
+
+    # Primeiro guardamos todas as linhas "planas"
+    rows = []
+    for b in bindings:
+        def _v(name, default=None):
+            return b.get(name, {}).get("value", default)
+
+        city_uri = _v("city")
+        if not city_uri:
             continue
-        admin_q  = (g("admin") or "").split("/")[-1] if g("admin") else ""
-        cap      = 1 if g("isCap") in ("1","true","True") else 0
 
-        pop = g("pop"); yr = g("yr"); lat = g("lat"); lon = g("lon")
+        city_qid = city_uri.rsplit("/", 1)[-1]
 
-        try: pop_v = int(float(pop)) if pop not in (None, "") else None
-        except: pop_v = None
-        yr_v  = _parse_int_or_none(yr)
-        try: lat_v = float(lat) if lat not in (None, "") else None
-        except: lat_v = None
-        try: lon_v = float(lon) if lon not in (None, "") else None
-        except: lon_v = None
+        admin = _v("admin", "")
 
-        out.append((city_qid, admin_q, cap, pop_v, yr_v, lat_v, lon_v))
-    return out
+        # isCap
+        is_cap_raw = _v("isCap", "0")
+        try:
+            is_cap = int(is_cap_raw)
+        except (TypeError, ValueError):
+            is_cap = 0
+
+        # população
+        pop_raw = _v("pop")
+        try:
+            pop = int(pop_raw) if pop_raw is not None else None
+        except (TypeError, ValueError):
+            pop = None
+
+        # ano
+        yr_raw = _v("yr")
+        try:
+            yr = int(yr_raw) if yr_raw is not None else None
+        except (TypeError, ValueError):
+            yr = None
+
+        # coordenadas
+        lat_raw = _v("lat")
+        lon_raw = _v("lon")
+        try:
+            lat = float(lat_raw) if lat_raw is not None else None
+        except (TypeError, ValueError):
+            lat = None
+        try:
+            lon = float(lon_raw) if lon_raw is not None else None
+        except (TypeError, ValueError):
+            lon = None
+
+        rows.append({
+            "city_qid": city_qid,
+            "admin": admin,
+            "isCap": is_cap,
+            "pop": pop,
+            "yr": yr,
+            "lat": lat,
+            "lon": lon,
+        })
+
+    # Agora agregamos por cidade, escolhendo o "melhor" registo
+    by_city = {}
+
+    for r in rows:
+        cid = r["city_qid"]
+        existing = by_city.get(cid)
+
+        if existing is None:
+            by_city[cid] = r
+            continue
+
+        new_yr = r.get("yr")
+        old_yr = existing.get("yr")
+        new_pop = r.get("pop")
+        old_pop = existing.get("pop")
+
+        # 1) Preferir registos com ano a registos sem ano
+        if old_yr is None and new_yr is not None:
+            by_city[cid] = r
+            continue
+        if old_yr is not None and new_yr is None:
+            continue  # mantém o antigo
+
+        # 2) Se ambos têm ano, escolher o mais recente
+        if old_yr is not None and new_yr is not None:
+            if new_yr > old_yr:
+                by_city[cid] = r
+                continue
+            elif new_yr < old_yr:
+                continue  # mantém o antigo
+            # se forem iguais, passa para 3)
+
+        # 3) Se nenhum tem ano ou o ano é igual, usar maior população
+        if old_pop is None and new_pop is not None:
+            by_city[cid] = r
+        elif old_pop is not None and new_pop is not None and new_pop > old_pop:
+            by_city[cid] = r
+        # caso contrário, mantém o existente
+
+    # Converter novamente para a forma esperada por process_iso3:
+    # (cq, aq, cap, pop, yr, lat, lon)
+    result = []
+    for cid, r in by_city.items():
+        result.append((
+            cid,
+            r.get("admin") or "",
+            r.get("isCap") or 0,
+            r.get("pop"),
+            r.get("yr"),
+            r.get("lat"),
+            r.get("lon"),
+        ))
+
+    return result
+
+
 
 # ──────────────────────────────────────────────────────────────────────────────
 # Pipeline por país: query -> tmp -> dedupe Top-N -> final (mantendo tmp)
@@ -545,25 +602,23 @@ def process_iso3(iso3: str, country_name: str, writer: csv.writer) -> bool:
         elif iso3 == "FRA":
             js = sparql_post(q_fra_wide(limit=200, min_pop=50_000))
         elif iso3 in {"IDN", "IND", "USA", "BRA", "MEX", "RUS"}:
-            # ↓ Países "pesados": resposta mais pequena de propósito
+            # Países pesados: resposta controlada
             js = sparql_post(q_block_stable(iso3, limit=2000, min_pop=10_000))
 
-        # 2) Restante mundo → “como estava”: BRUTA sem ORDER BY
+        # 2) Restante mundo → fallback “bruto”
         if not js or not js.get("results", {}).get("bindings"):
             js = sparql_post(q_block_no_order(iso3, raw_limit=RAW_LIMIT))
 
-        # 3) Fallbacks só se necessário
-        if (not js or not js.get("results", {}).get("bindings")) and PREFER_ORDERED:
-            print("  … no_order vazio; tentar ordered", file=sys.stderr)
-            js = sparql_post(q_block_ordered(iso3))
+        # 3) Último fallback → estável genérica
         if not js or not js.get("results", {}).get("bindings"):
-            print("  … ordered vazio; tentar stable genérica", file=sys.stderr)
+            print("  … no_order vazio; tentar stable genérica", file=sys.stderr)
             js = sparql_post(q_block_stable(iso3, limit=RAW_LIMIT, min_pop=STABLE_MIN_POP))
 
         raw = parse_rows(js) if js else []
     except Exception as e:
         print(f"  … erro inesperado a consultar WDQS: {e}", file=sys.stderr)
         raw = []
+
 
 
     # 2) Guardar RAW em tmp SEMPRE (mesmo vazio)

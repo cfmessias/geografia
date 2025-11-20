@@ -1,0 +1,5 @@
+iso3,country,city_qid,admin_q,is_cap,pop,yr,lat,lon
+ABW,Aruba,Q2472066,http://www.wikidata.org/entity/Q3558364,0,46005,,12.49138889,-69.96222222
+ABW,Aruba,Q131243,http://www.wikidata.org/entity/Q21203,1,35335,,12.518611111111,-70.035833333333
+ABW,Aruba,Q7683552,http://www.wikidata.org/entity/Q21203,0,21495,,12.54184,-70.021996
+ABW,Aruba,Q113456951,http://www.wikidata.org/entity/Q2656618,0,4819,,12.567305555556,-70.022388888889
