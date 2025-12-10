@@ -16,6 +16,14 @@ def _colcfg_leadership():
         "Causa do fim":  st.column_config.TextColumn(tr("cols.end_cause")),
     }
 
+def _colcfg_gastronomy():
+    return {
+        "Item":           st.column_config.TextColumn("Item"),
+        "World ranking":  st.column_config.NumberColumn("World ranking", format="%d"),
+        "Score":          st.column_config.NumberColumn("Score", format="%.2f"),
+        "Reviews":        st.column_config.NumberColumn("Reviews", format="%d"),
+        "Link":           st.column_config.TextColumn("Link"),
+    }
 def _colcfg_cities():
     return {
         "Cidade":         st.column_config.TextColumn(tr("cols.city")),
@@ -44,6 +52,11 @@ def _profile_by_iso3(iso3: str) -> dict:
     return {"iso3": iso3, "name": iso3}
 
 def render_overview_panel(iso3: str, country_name: str):
+    from services.offline_store import (
+        cities_for_iso3, unesco_for_iso3, load_olympics_summer_csv,
+        load_religion, load_flag_info, load_tourism_ts,leaders_for_iso3,gastronomy_for_iso3
+    )
+
     from services.offline_store import (
         cities_for_iso3, unesco_for_iso3, load_olympics_summer_csv,
         load_religion, load_flag_info, load_tourism_ts,leaders_for_iso3
@@ -437,6 +450,150 @@ def render_overview_panel(iso3: str, country_name: str):
                           year=int(pd.to_numeric(r.get('source_year', 2010), errors='coerce'))))
         else:
             st.caption(tr("labels.sem_dados_de_religi_o_em_data_religion_csv"))
+
+    # Gastronomia
+    with st.expander(tr("labels.gastronomia")):
+        try:
+            g = gastronomy_for_iso3(iso3)
+        except Exception:
+            g = pd.DataFrame()
+
+        if g.empty:
+            st.caption("No gastronomy data available for this country.")
+        else:
+            g = g.copy()
+
+            # --- 1) Lista de exclusões (podes ir afinando) ---
+            EXCLUDED_GASTRO_ITEMS = {
+                "beer",
+                "beers",
+                "biscuit",
+                "biscuits",
+                "cookie",
+                "cookies",
+                "bread",
+                "white bread",
+                "rice",
+                "water",
+                "tea",
+                "coffee",
+            }
+
+            g["item_norm"] = (
+                g["item"]
+                .astype(str)
+                .str.strip()
+                .str.lower()
+            )
+            g = g[~g["item_norm"].isin(EXCLUDED_GASTRO_ITEMS)]
+
+            if g.empty:
+                st.caption("Only very generic items (beer, biscuits, etc.) were found.")
+            else:
+                base_url = "https://www.tasteatlas.com"
+
+                def _mk_url(slug: str) -> str:
+                    s = str(slug or "").strip()
+                    if not s:
+                        return ""
+                    if s.startswith("http://") or s.startswith("https://"):
+                        return s
+                    if not s.startswith("/"):
+                        s = "/" + s
+                    return base_url + s
+
+                # ordenar por nome para ficar estável
+                g = g.sort_values("item")
+
+                for idx, row in g.iterrows():
+                    item_name = str(row.get("item") or "").strip()
+                    slug      = str(row.get("url_slug") or "").strip()
+                    url       = _mk_url(slug)
+
+                    # --- 2) Nome "mascarado" com o link TasteAtlas ---
+                    if url:
+                        st.markdown(f"**[{item_name}]({url})**")
+                    else:
+                        st.markdown(f"**{item_name}**")
+
+                    # --- 3) Única inputbox para receita em PT ---
+                    # key inclui iso3 e índice para não colidir entre países
+                    recipe_key = f"recipe_{iso3}_{idx}"
+
+                    st.text_area(
+                        "Recipe (pt-PT)",
+                        key=recipe_key,
+                        height=120,
+                        label_visibility="collapsed",
+                        placeholder="Escreve aqui a receita em português (ingredientes + modo de preparação)…",
+                    )
+
+                    st.markdown("---")
+    
+        try:
+            g = gastronomy_for_iso3(iso3)
+        except Exception:
+            g = pd.DataFrame()
+
+        if g.empty:
+            st.caption("No gastronomy data available for this country.")
+        else:
+            g = g.copy()
+            # garantir colunas esperadas
+            for col in ["item", "ranking", "score", "critics", "url_slug"]:
+                if col not in g.columns:
+                    g[col] = pd.NA
+
+            # construir URL completo para TasteAtlas
+            base_url = "https://www.tasteatlas.com"
+
+            def _mk_url(slug: str) -> str:
+                s = str(slug or "").strip()
+                if not s:
+                    return ""
+                if s.startswith("http://") or s.startswith("https://"):
+                    return s
+                if not s.startswith("/"):
+                    s = "/" + s
+                return base_url + s
+
+            g["url"] = g["url_slug"].apply(_mk_url)
+
+            # ordenar por ranking numérico (se existir) e limitar a 30 itens
+            g["ranking_num"] = pd.to_numeric(g["ranking"], errors="coerce")
+            g["score_num"]   = pd.to_numeric(g["score"], errors="coerce")
+            g["critics_num"] = pd.to_numeric(g["critics"], errors="coerce")
+
+            g = g.sort_values(
+                ["ranking_num", "score_num", "item"],
+                ascending=[True, False, True],
+                na_position="last",
+            ).head(300)
+
+            # preparar DataFrame para mostrar
+            show = pd.DataFrame({
+                "Item":          g["item"],
+                "World ranking": g["ranking_num"],
+                "Score":         g["score_num"],
+                "Reviews":       g["critics_num"],
+                "Link":          g["url"].apply(
+                    lambda u: f"[TasteAtlas]({u})" if u else ""
+                ),
+            })
+
+            # altura dinâmica semelhante ao UNESCO
+            ROW_H, HDR_H, MAX_H = 28, 38, 420
+            n = len(show)
+            height = min(MAX_H, HDR_H + ROW_H * max(n, 1))
+
+            st.data_editor(
+                show,
+                use_container_width=True,
+                hide_index=True,
+                disabled=True,
+                height=height,
+                column_config=_colcfg_gastronomy(),
+            )
 
     # Turismo (métricas + série)
     with st.expander(tr("labels.turismo")):

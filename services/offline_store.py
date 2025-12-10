@@ -46,6 +46,16 @@ tourism_purpose_eu_path  = DATA_DIR / "tourism_purpose_eu.csv"
 migration_inout_path     = DATA_DIR / "migration_inout.csv"
 
 
+def gastronomy_for_iso3(iso3: str) -> pd.DataFrame:
+    """
+    Devolve apenas as linhas de gastronomia para um dado iso3.
+    """
+    df = load_gastronomy()
+    if df.empty:
+        return df
+
+    code = str(iso3 or "").upper()
+    return df[df["iso3"] == code].copy()
 
 # ---- Utils -----------------------------------------------------------------
 
@@ -120,6 +130,17 @@ def list_available_countries() -> pd.DataFrame:
 
     # 1) carregar seed com os nomes PT/EN
     seed = _read_csv_safe(countries_seed_path, expected_cols=["iso2","iso3","name_en","name_pt","slug"])
+    # criar máscara para iso3 em maiúsculas
+    iso3_series = seed["iso3"].astype(str).str.upper()
+
+    # condição com OR (por exemplo COD ou COG, ajusta se quiseres outros)
+    mask = (iso3_series == "COD") | (iso3_series == "COG")
+
+    if mask.any():
+        # imprime só as linhas que cumprem a condição
+        print(seed[mask])
+    else:
+        print("Nenhum país com iso3 == COD (ou COG) encontrado.")
     seed = seed.copy()
     if seed.empty:
         # fallback mínimo
@@ -998,7 +1019,41 @@ def load_migration_inout_for_iso3(iso3: str) -> pd.DataFrame:
     df = df.dropna(subset=["year"]).sort_values("year").drop_duplicates(subset=["year"], keep="last")
     return df[cols_out].reset_index(drop=True)
 
+@lru_cache(maxsize=1)
+def load_gastronomy(path: str | None = None) -> pd.DataFrame:
+    """
+    Carrega data/gastronomia.csv, com itens de gastronomia por país (TasteAtlas).
 
+    Estrutura esperada:
+        iso3;country;item;url_slug;ranking;score;critics;source
+    """
+    p = Path(path) if path else DATA_DIR / "gastronomia.csv"
+
+    df = _read_csv_safe(
+        p,
+        expected_cols=[
+            "iso3",
+            "country",
+            "item",
+            "url_slug",
+            "ranking",
+            "score",
+            "critics",
+            "source",
+        ],
+    )
+
+    if df.empty:
+        STORE["gastronomy"] = df
+        return df
+
+    # normalizar iso3
+    df["iso3"] = df["iso3"].astype(str).str.upper()
+
+    # guardar no STORE para reuso noutros helpers
+    STORE["gastronomy"] = df
+
+    return df
 # -----------------------
 # Consolidation footer
 # -----------------------
@@ -1061,3 +1116,4 @@ except NameError:
         "load_ports_and_routes","ports_and_routes_for_iso3",
 
     ]
+

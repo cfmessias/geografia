@@ -173,7 +173,6 @@ Q736;Equador;Quito;Q2900;1809-08-10;255586;Daniel Noboa;Ecuatoriano Unido;169389
 Q739;Colômbia;Bogotá;Q2841;1810-01-01;1141748;Gustavo Petro;Alternative Democratic Pole;52321152;2023;CO;COL;Colômbia
 Q750;Bolívia;Sucre;Q2907;1825-01-01;1098581;Luis Alberto Arce Catacora;Movimento para o Socialismo;12244159;2023;BO;BOL;Bolívia
 Q754;Trindade e Tobago;Port of Spain;Q39178;1962-08-31;5128;Kamla Persad-Bissessar;United National Congress;1369125;2017;TT;TTO;Trinidad_e_Tobago
-Q755194;Tadjiquistão nos Jogos Olímpicos;;;;;;;;;TJ;TJK;Tadjiquistão
 Q757;São Vicente e Granadinas;Kingstown;Q41474;1979-00-00;389;Ralph Gonsalves;Unity Labour Party;100804;2023;VC;VCT;São_Vicente_e_Granadinas
 Q760;Santa Lúcia;Castries;Q41699;1979-02-22;617;Allen Chastanet;United Workers Party;167591;2023;LC;LCA;Santa_Lúcia
 Q763;São Cristóvão e Neves;Basseterre;Q41295;1967-02-27;269;Terrance Drew;Partido Trabalhista de São Cristóvão e Nevis;46922;2025;KN;KNA;São_Cristóvão_e_Névis
@@ -206,7 +205,6 @@ Q826;Maldivas;Malé;Q9347;1965-07-26;298;Mohamed Muizzu;Adhaalath Party;436330;2
 Q833;Malásia;Kuala Lumpur;Q1865;1963-09-16;330803;Anwar Ibrahim;People's Justice Party;32447385;2020;MY;MYS;Malásia
 Q837;Nepal;Catmandu;Q3037;1768-09-25;147181;Pushpa Kamal Dahal;Communist Party of Nepal (Fourth Convention);29164578;2021;NP;NPL;Nepal
 Q842;Omã;Mascate;Q3826;1970-07-23;309500;Haitham bin Tarik Al Said;;4829480;2018;OM;OMN;Omã
-Q842829;Svalbard e Jan Mayen;;;;61399;;;2905;2022;SJ;SJM;Svalbard_e_Jan_Mayen
 Q843;Paquistão;Islamabad;Q1362;1947-08-14;881913;Shehbaz Sharif;Liga Muçulmana do Paquistão-N;223773700;2021;PK;PAK;Paquistão
 Q846;Catar;Doha;Q3861;1870-00-00;11437;Mohammed bin Abdul Rahman Al Thani;político sem partido;2639211;2017;QA;QAT;Catar
 Q851;Arábia Saudita;Riade;Q3692;1727-00-00;2250000;Salman bin Abdalaziz Al Saud;;33000000;2018;SA;SAU;Arábia_Saudita
@@ -244,7 +242,5 @@ Q971;República do Congo;Brazavile;Q3844;1960-01-01;342000;Anatole Collinet Mako
 Q977;Djibouti;Djibouti;Q3604;1977-06-23;23200;Abdoulkader Kamil Mohamed;People's Rally for Progress;1152944;2023;DJ;DJI;Djibuti
 Q983;Guiné Equatorial;Malabo;Q3818;1968-10-12;28051;Manuel Osa Nsue Nsua;;1847549;2023;GQ;GNQ;Guiné_Equatorial
 Q986;Eritreia;Asmara;Q3642;1993-05-24;117600;Isaias Afewerki;Frente Popular pela Democracia e Justiça;3497000;2019;ER;ERI;Eritreia
-;Congo - Kinshasa;;;;;;;;;CD;COD;Congo_-_Kinshasa
-;Hong Kong, RAE da China;;;;;;;;;HK;HKG;Hong_Kong_RAE_da_China
-;Macau, RAE da China;;;;;;;;;MO;MAC;Macau_RAE_da_China
-;Mianmar (Birmânia);;;;;;;;;MM;MMR;Mianmar_Birmânia
+Q836;Mianmar (Birmânia);;;;;;;;;MM;MMR;Mianmar_Birmânia
+Q974;República Democrática do Congo;Quinxassa ;;;2345409;;;;;CD;COD;

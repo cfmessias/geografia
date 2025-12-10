@@ -1,0 +1,2279 @@
+iso3;country;item;url_slug;ranking;score;critics;source
+TON;Tonga;'Ota 'ika;ota-ika;;2;2;tasteatlas_html
+IND;Índia;Aamras;aamras;;3;3;tasteatlas_html
+IRN;Irão;Abgoosht;abgoosht;;2;2;tasteatlas_html
+COL;Colômbia;Aborrajados;aborrajado;;;;tasteatlas_html
+BRA;Brasil;Acarajé;acaraje;;;;tasteatlas_html
+JAM;Jamaica;Ackee and saltfish;ackee-and-saltfish;;3;3;tasteatlas_html
+PRT;Portugal;Açorda;acorda;;;;tasteatlas_html
+PRT;Portugal;Açorda de camarão;acorda-de-camarao;;1;1;tasteatlas_html
+PRT;Portugal;Açorda de marisco;acorda-de-marisco;;1;1;tasteatlas_html
+TUR;Turquia;Adana kebap;adana-kebab;;;;tasteatlas_html
+DNK;Dinamarca;Æbleflæsk;bleflsk;;1;1;tasteatlas_html
+DNK;Dinamarca;Æggekage;ggekage;1;10;10;tasteatlas_html
+NGA;Nigéria;Afang Soup;afang-soup;;1;1;tasteatlas_html
+NZL;Nova Zelândia;Afghan Biscuit;afghan-biscuit;;1;1;tasteatlas_html
+GBR;Reino Unido;Afternoon tea;afternoon-tea;3;19;19;tasteatlas_html
+SWE;Suécia;Äggakaka;aggakaka;;;;tasteatlas_html
+ITA;Itália;Agnolotti del plin;agnolotti-del-plin;;2;2;tasteatlas_html
+MEX;México;Aguachile;aguachile;1;5;5;tasteatlas_html
+GEO;Geórgia;Ajaruli khachapuri;adjarian-khachapuri;;;;tasteatlas_html
+PER;Peru;Aji de gallina;aji-de-gallina;;2;2;tasteatlas_html
+BOL;Bolívia;Ají de lengua;aji-de-lengua;;1;1;tasteatlas_html
+COL;Colômbia;Ajiaco;ajiaco;1;8;8;tasteatlas_html
+ESP;Espanha;Ajoaerriero;ajoarriero;;;;tasteatlas_html
+SRB;Sérvia;Ajvar;;;;;tasteatlas_html
+JPN;Japão;Akami nigiri sushi;akami-nigiri-sushi;;1;1;tasteatlas_html
+PRI;Porto Rico;Alcapurria;alcapurria;2;5;5;tasteatlas_html
+CAN;Canadá;Alcoholic Beverage;alcohol;;;;tasteatlas_html
+JPN;Japão;Alcoholic Beverage;alcohol;;;;tasteatlas_html
+ARG;Argentina;Alfajores;alfajores;;4;4;tasteatlas_html
+JPN;Japão;Alga;algae;;;;tasteatlas_html
+PRT;Portugal;Alheira;alheira;;;;tasteatlas_html
+PRT;Portugal;Alheira de Mirandela;alheira-de-mirandela;;1;1;tasteatlas_html
+MLT;Malta;Aljotta;aljotta;;;;tasteatlas_html
+COL;Colômbia;Almojábana;almojabana;;4;4;tasteatlas_html
+IND;Índia;Aloo paratha;aloo-paratha;;;;tasteatlas_html
+PRT;Portugal;Amêijoas à Bulhão Pato;ameijoas-a-bulhao-pato;;2;2;tasteatlas_html
+USA;Estados Unidos;American Babka;american-babka;;4;4;tasteatlas_html
+USA;Estados Unidos;American pancakes;american-pancakes;3;12;12;tasteatlas_html
+JPN;Japão;Anago nigiri sushi;anago-nigiri-sushi;;;;tasteatlas_html
+FRA;França;Andouillette;andouillette;;1;1;tasteatlas_html
+GBR;Reino Unido;Animal Fat;animal-fat;;;;tasteatlas_html
+ITA;Itália;Animal Fat;animal-fat;;;;tasteatlas_html
+KOR;Coreia do Sul;Anju;anju;;;;tasteatlas_html
+JPN;Japão;Ankimo;ankimo;1;6;6;tasteatlas_html
+PER;Peru;Anticuchos;anticucho;;;;tasteatlas_html
+PER;Peru;Anticuchos de corazon;anticucho-de-corazon;;4;4;tasteatlas_html
+GRC;Grécia;Antikristo;antikristo;1;6;6;tasteatlas_html
+GRC;Grécia;Antzougia;antzougia;;;;tasteatlas_html
+USA;Estados Unidos;Apizza;apizza;1;11;11;tasteatlas_html
+FRA;França;Appetizer;Appetizers;;;;tasteatlas_html
+GBR;Reino Unido;Appetizer;Appetizers;;;;tasteatlas_html
+IRL;República da Irlanda;Appetizer;Appetizers;;;;tasteatlas_html
+NZL;Nova Zelândia;Appetizer;Appetizers;;;;tasteatlas_html
+USA;Estados Unidos;Appetizer;Appetizers;;;;tasteatlas_html
+USA;Estados Unidos;Apple Crisp;apple-crisp;;1;1;tasteatlas_html
+USA;Estados Unidos;Apple Pie;apple-pie;;1;1;tasteatlas_html
+ARG;Argentina;Arabian Empanadas;arabian-empanadas;;1;1;tasteatlas_html
+COL;Colômbia;Arepa;arepa;3;5;5;tasteatlas_html
+VEN;Venezuela;Arepa;arepa;4;7;7;tasteatlas_html
+COL;Colômbia;Arepa de huevo;arepa-de-huevo;;1;1;tasteatlas_html
+COL;Colômbia;Arepa de queso;arepa-de-queso;;1;1;tasteatlas_html
+VEN;Venezuela;Arepa reina pepiada;arepa-reina-pepiada;;1;1;tasteatlas_html
+COL;Colômbia;Arepa Santandereana;arepa-santandereana;;3;3;tasteatlas_html
+ESP;Espanha;Arròs negre;arros-negre;;;;tasteatlas_html
+PRI;Porto Rico;Arroz con gandules;arroz-con-gandules;;1;1;tasteatlas_html
+ESP;Espanha;Arroz con leche;arroz-con-leche;;1;1;tasteatlas_html
+PER;Peru;Arroz con pato a la chiclayana;arroz-con-pato-a-la-chiclayana;;1;1;tasteatlas_html
+BOL;Bolívia;Arroz con queso;arroz-con-queso;;2;2;tasteatlas_html
+PRT;Portugal;Arroz de marisco;arroz-de-marisco;;;;tasteatlas_html
+PRT;Portugal;Arroz de pato;arroz-de-pato;;;;tasteatlas_html
+PRT;Portugal;Arroz de tamboril;arroz-de-tamboril;;;;tasteatlas_html
+PRI;Porto Rico;Arroz y habichuelas;arroz-y-habichuelas;;1;1;tasteatlas_html
+BRA;Brasil;Arrumadinho;arrumadinho;;;;tasteatlas_html
+IDN;Indonésia;Arsik;arsik;1;6;6;tasteatlas_html
+SWE;Suécia;Ärtsoppa;artsoppa;;2;2;tasteatlas_html
+ARG;Argentina;Asado;asado;1;12;12;tasteatlas_html
+VEN;Venezuela;Asado negro;asado-negro;;;;tasteatlas_html
+IRN;Irão;Ash reshteh;ash-reshteh;1;5;5;tasteatlas_html
+IRN;Irão;Ash-e jo;ash-e-jo;;;;tasteatlas_html
+IDN;Indonésia;Asinan;asinan;1;7;7;tasteatlas_html
+LVA;Letónia;Aukstā zupa;auksta-zupa;;3;3;tasteatlas_html
+IND;Índia;Avial;avial;;1;1;tasteatlas_html
+AUS;Austrália;Avocado Toast;avocado-toast;7;12;12;tasteatlas_html
+IDN;Indonésia;Ayam betutu;ayam-betutu;;;;tasteatlas_html
+FRA;França;Baba au rhum;baba-au-rhum;;;;tasteatlas_html
+LBN;Líbano;Baba ghanoush;baba-ghanoush;;1;1;tasteatlas_html
+SYR;Síria;Baba ghanoush;baba-ghanoush;;2;2;tasteatlas_html
+IDN;Indonésia;Babi panggang;babi-panggang;;4;4;tasteatlas_html
+PRT;Portugal;Bacalhau;bacalhau;;;;tasteatlas_html
+PRT;Portugal;Bacalhau à brás;bacalhau-a-bras;;;;tasteatlas_html
+PRT;Portugal;Bacalhau à lagareiro;bacalhau-a-lagareiro;;;;tasteatlas_html
+PRT;Portugal;Bacalhau com natas;bacalhau-com-natas;;;;tasteatlas_html
+ITA;Itália;Baccalà alla Vicentina;baccala-alla-vicentina;;1;1;tasteatlas_html
+ITA;Itália;Baccalà mantecato;baccala-mantecato;;1;1;tasteatlas_html
+IRL;República da Irlanda;Bacon and cabbage;bacon-and-cabbage;;2;2;tasteatlas_html
+USA;Estados Unidos;Bagel and Lox;bagel-and-lox;1;15;15;tasteatlas_html
+MAR;Marrocos;Baghrir;baghrir;;;;tasteatlas_html
+BHS;Bahamas;Bahamian Stew Fish;bahamian-stew-fish;;1;1;tasteatlas_html
+BRA;Brasil;Baião-de-dois;baiao-de-dois;1;5;5;tasteatlas_html
+BRB;Barbados;Bajan Macaroni Pie and Flying Fish;bajan-macaroni-pie-and-flying-fish;;1;1;tasteatlas_html
+SGP;Singapura;Bak kut teh;bak-kut-teh;4;6;6;tasteatlas_html
+TTO;Trindade e Tobago;Bake and Shark;bake-and-shark;1;7;7;tasteatlas_html
+CAN;Canadá;Baked Goods;baked-goods;;;;tasteatlas_html
+TUR;Turquia;Baklava;baklava;1;32;32;tasteatlas_html
+TUR;Turquia;Bal kaymak;bal-kaymak;1;12;12;tasteatlas_html
+ARE;Emirados Árabes Unidos;Balaleet;balaleet;;1;1;tasteatlas_html
+LTU;Lituânia;Balandėliai;balandeliai;;;;tasteatlas_html
+ABW;Aruba;Balchi di pisca;balchi-di-piska;;1;1;tasteatlas_html
+HND;Honduras;Baleada;baleada;;2;2;tasteatlas_html
+JAM;Jamaica;Bammy;bammy;;4;4;tasteatlas_html
+USA;Estados Unidos;Banana Pudding;banana-pudding;;;;tasteatlas_html
+KOR;Coreia do Sul;Banchan;banchan;;;;tasteatlas_html
+COL;Colômbia;Bandeja paisa;bandeja-paisa;;2;2;tasteatlas_html
+VNM;Vietname;Bánh chuối;banh-chuoi;;;;tasteatlas_html
+VNM;Vietname;Bánh mì;banh-mi;3;13;13;tasteatlas_html
+VNM;Vietname;Bánh xèo;banh-xeo;;;;tasteatlas_html
+BIH;Bósnia e Herzegovina;Banjalučki ćevapi;banjalucki-cevapi;2;4;4;tasteatlas_html
+GHA;Gana;Banku;banku;;;;tasteatlas_html
+UKR;Ucrânia;Banosh;banosh;;2;2;tasteatlas_html
+BGR;Bulgária;Banska kapama;banska-kapama;;;;tasteatlas_html
+AUS;Austrália;Barbecue Snags;barbecue-snags;;3;3;tasteatlas_html
+DEU;Alemanha;Barley;barley;;;;tasteatlas_html
+BRA;Brasil;Barreado;barreado;;;;tasteatlas_html
+IRN;Irão;Bastani sonnati;bastani-sonnati;;2;2;tasteatlas_html
+LBN;Líbano;Batata harra;batata-harra;;4;4;tasteatlas_html
+LKA;Sri Lanka;Bath kulu badhu;sri-lankan-rice-and-curry;;;;tasteatlas_html
+GBR;Reino Unido;Battenberg cake;battenberg-cake;;3;3;tasteatlas_html
+KAZ;Cazaquistão;Baursak;baursak;;;;tasteatlas_html
+DEU;Alemanha;Bayerischer Wurstsalat;bayerischer-wurstsalat;;;;tasteatlas_html
+CAN;Canadá;Beaver tails;beaver-tails;1;5;5;tasteatlas_html
+MLT;Malta;Bebbux;bebbux;;2;2;tasteatlas_html
+IDN;Indonésia;Bebek betutu;bebek-betutu;;;;tasteatlas_html
+IDN;Indonésia;Bebek goreng;bebek-goreng;4;6;6;tasteatlas_html
+IRL;República da Irlanda;Beef and Guinness pie;beef-and-guinness-pie;;1;1;tasteatlas_html
+IRL;República da Irlanda;Beef and Guinness stew;beef-and-guinness-stew;1;4;4;tasteatlas_html
+SGP;Singapura;Beef kway teow;beef-kway-teow;;4;4;tasteatlas_html
+RUS;Rússia;Beef Stroganoff;beef-stroganoff;1;19;19;tasteatlas_html
+AND;Andorra;Beer;beer;;;;tasteatlas_html
+ARG;Argentina;Beer;beer;;;;tasteatlas_html
+AUS;Austrália;Beer;beer;;;;tasteatlas_html
+BLR;Bielorrússia;Beer;beer;;;;tasteatlas_html
+BMU;Bermudas;Beer;beer;;;;tasteatlas_html
+BRA;Brasil;Beer;beer;;;;tasteatlas_html
+CAN;Canadá;Beer;beer;;;;tasteatlas_html
+CHL;Chile;Beer;beer;;;;tasteatlas_html
+CHN;China;Beer;beer;;;;tasteatlas_html
+COL;Colômbia;Beer;beer;;;;tasteatlas_html
+CPV;Cabo Verde;Beer;beer;;;;tasteatlas_html
+CRI;Costa Rica;Beer;beer;;;;tasteatlas_html
+DEU;Alemanha;Beer;beer;;;;tasteatlas_html
+DNK;Dinamarca;Beer;beer;;;;tasteatlas_html
+ESP;Espanha;Beer;beer;;;;tasteatlas_html
+EST;Estónia;Beer;beer;;;;tasteatlas_html
+FIN;Finlândia;Beer;beer;;;;tasteatlas_html
+FRA;França;Beer;beer;;;;tasteatlas_html
+GBR;Reino Unido;Beer;beer;;;;tasteatlas_html
+GEO;Geórgia;Beer;beer;;;;tasteatlas_html
+GRC;Grécia;Beer;beer;;;;tasteatlas_html
+IDN;Indonésia;Beer;beer;;;;tasteatlas_html
+IND;Índia;Beer;beer;;;;tasteatlas_html
+IRL;República da Irlanda;Beer;beer;;;;tasteatlas_html
+ISL;Islândia;Beer;beer;;;;tasteatlas_html
+ITA;Itália;Beer;beer;;;;tasteatlas_html
+JPN;Japão;Beer;beer;;;;tasteatlas_html
+KEN;Quénia;Beer;beer;;;;tasteatlas_html
+KOR;Coreia do Sul;Beer;beer;;;;tasteatlas_html
+MAF;São Martinho;Beer;beer;;;;tasteatlas_html
+MEX;México;Beer;beer;;;;tasteatlas_html
+MMR;Mianmar (Birmânia);Beer;beer;;;;tasteatlas_html
+NOR;Noruega;Beer;beer;;;;tasteatlas_html
+NZL;Nova Zelândia;Beer;beer;;;;tasteatlas_html
+PER;Peru;Beer;beer;;;;tasteatlas_html
+PNG;Papua-Nova Guiné;Beer;beer;;;;tasteatlas_html
+PRT;Portugal;Beer;beer;;;;tasteatlas_html
+ROU;Roménia;Beer;beer;;;;tasteatlas_html
+RUS;Rússia;Beer;beer;;;;tasteatlas_html
+SWE;Suécia;Beer;beer;;;;tasteatlas_html
+TWN;Taiwan;Beer;beer;;;;tasteatlas_html
+UKR;Ucrânia;Beer;beer;;;;tasteatlas_html
+URY;Uruguai;Beer;beer;;;;tasteatlas_html
+USA;Estados Unidos;Beer;beer;;;;tasteatlas_html
+VNM;Vietname;Beer;beer;;;;tasteatlas_html
+ZAF;África do Sul;Beer;beer;;;;tasteatlas_html
+BIH;Bósnia e Herzegovina;Begova čorba;begova-corba;;3;3;tasteatlas_html
+CHN;China;Beijing kao ya;peking-duck;;;;tasteatlas_html
+SRB;Sérvia;Belolučene paprike;belolucene-paprike;;;;tasteatlas_html
+JPN;Japão;Bento;bento;;;;tasteatlas_html
+NOR;Noruega;Bergensk fiskesuppe;bergensk-fiskesuppe;;2;2;tasteatlas_html
+BMU;Bermudas;Bermuda fish chowder;bermuda-fish-chowder;3;5;5;tasteatlas_html
+IRN;Irão;Beryani;beryani;;;;tasteatlas_html
+KAZ;Cazaquistão;Beshbarmak;beshbarmak;;;;tasteatlas_html
+IDN;Indonésia;Betutu;betutu;;;;tasteatlas_html
+CAN;Canadá;Beverage;beverages;;;;tasteatlas_html
+IND;Índia;Bhakri;bhakri;;2;2;tasteatlas_html
+BGD;Bangladesh;Bhorta;bhorta;;1;1;tasteatlas_html
+KOR;Coreia do Sul;Bibim guksu;bibim-guksu;1;9;9;tasteatlas_html
+KOR;Coreia do Sul;Bibimbap;bibimbap;;;;tasteatlas_html
+GRC;Grécia;Biftekia;biftekia;;;;tasteatlas_html
+MLT;Malta;Bigilla;bigilla;;;;tasteatlas_html
+ITA;Itália;Bigoli con l'anatra;bigoli-con-lanatra;;2;2;tasteatlas_html
+ZAF;África do Sul;Biltong;biltong;;3;3;tasteatlas_html
+KOR;Coreia do Sul;Bindaetteok;bindaetteok;;;;tasteatlas_html
+IND;Índia;Biryani;biryani;;;;tasteatlas_html
+ARG;Argentina;Biscuit;biscuits;;;;tasteatlas_html
+AUS;Austrália;Biscuit;biscuits;;;;tasteatlas_html
+BRA;Brasil;Biscuit;biscuits;;;;tasteatlas_html
+CAN;Canadá;Biscuit;biscuits;;;;tasteatlas_html
+ECU;Equador;Biscuit;biscuits;;;;tasteatlas_html
+ESP;Espanha;Biscuit;biscuits;;;;tasteatlas_html
+GBR;Reino Unido;Biscuit;biscuits;;;;tasteatlas_html
+ITA;Itália;Biscuit;biscuits;;;;tasteatlas_html
+JPN;Japão;Biscuit;biscuits;;;;tasteatlas_html
+PER;Peru;Biscuit;biscuits;;;;tasteatlas_html
+PRY;Paraguai;Biscuit;biscuits;;;;tasteatlas_html
+URY;Uruguai;Biscuit;biscuits;;;;tasteatlas_html
+USA;Estados Unidos;Biscuit;biscuits;;;;tasteatlas_html
+IND;Índia;Bisi bele bath;bisi-bele-bath;1;11;11;tasteatlas_html
+PRI;Porto Rico;Bistec encebollado;bistec-encebollado;;;;tasteatlas_html
+ITA;Itália;Bistecca alla Fiorentina;fiorentina;10;10;10;tasteatlas_html
+GBR;Reino Unido;Bitter;bitters;;;;tasteatlas_html
+TTO;Trindade e Tobago;Bitter;bitters;;;;tasteatlas_html
+GBR;Reino Unido;Black pudding;black-pudding;;3;3;tasteatlas_html
+FRA;França;Blanquette de veau;blanquette-de-veau;;1;1;tasteatlas_html
+RUS;Rússia;Blini;bliny;;3;3;tasteatlas_html
+DEU;Alemanha;Blutwurst;blutwurst;;;;tasteatlas_html
+BRA;Brasil;Bobó de camarão;bobo-de-camarao;;;;tasteatlas_html
+ZAF;África do Sul;Bobotie;bobotie;;4;4;tasteatlas_html
+ESP;Espanha;Bocadillo de calamares;bocadillo-de-calamares;2;9;9;tasteatlas_html
+ESP;Espanha;Bocadillos;bocadillos;2;9;9;tasteatlas_html
+DNK;Dinamarca;Bøfsandwich;bofsandwich;;1;1;tasteatlas_html
+CUB;Cuba;Boliche;boliche;;3;3;tasteatlas_html
+BRA;Brasil;Bolinhos de bacalhau;bolinhos-de-bacalhau;;;;tasteatlas_html
+PRT;Portugal;Bolinhos de bacalhau;bolinhos-de-bacalhau;;;;tasteatlas_html
+ITA;Itália;Bollito misto;bollito-misto;2;5;5;tasteatlas_html
+PRT;Portugal;Bolo do caco;bolo-do-caco;;;;tasteatlas_html
+SYR;Síria;Booza;booza;;;;tasteatlas_html
+ROU;Roménia;Borș;bors;;;;tasteatlas_html
+UKR;Ucrânia;Borsch;borscht;;3;3;tasteatlas_html
+BIH;Bósnia e Herzegovina;Bosanski lonac;bosanski-lonac;;3;3;tasteatlas_html
+KOR;Coreia do Sul;Bossam;bossam;;;;tasteatlas_html
+ESP;Espanha;Botifarra;botifarra;;1;1;tasteatlas_html
+FRA;França;Bouchée à la reine;bouchee-a-la-reine;;2;2;tasteatlas_html
+GRC;Grécia;Bougatsa;bougatsa;1;8;8;tasteatlas_html
+NCL;Nova Caledónia;Bougna;bougna;;1;1;tasteatlas_html
+FRA;França;Bouillabaisse;bouillabaisse;;;;tasteatlas_html
+GRC;Grécia;Bourdeto;bourdeto;;3;3;tasteatlas_html
+FRA;França;Bourride;bourride;;;;tasteatlas_html
+IRL;República da Irlanda;Boxty;boxty;;4;4;tasteatlas_html
+SGP;Singapura;Braised Duck Rice;braised-duck-rice;2;6;6;tasteatlas_html
+ITA;Itália;Brandacujùn;brandacujun;;;;tasteatlas_html
+ITA;Itália;Brasato al Barolo;brasato-al-barolo;;1;1;tasteatlas_html
+ROU;Roménia;Braşovence;brasovence;;;;tasteatlas_html
+DEU;Alemanha;Bratkartoffeln;bratkartoffeln;;;;tasteatlas_html
+DEU;Alemanha;Bratwurst;bratwurst;;;;tasteatlas_html
+CAN;Canadá;Bread;Breads;;;;tasteatlas_html
+USA;Estados Unidos;Bread Pudding;bread-pudding;2;11;11;tasteatlas_html
+GBR;Reino Unido;Breakfast Cereal;breakfast-cereals;;;;tasteatlas_html
+GRC;Grécia;Breakfast Cereal;breakfast-cereals;;;;tasteatlas_html
+USA;Estados Unidos;Breakfast Cereal;breakfast-cereals;;;;tasteatlas_html
+IRL;República da Irlanda;Breakfast roll;breakfast-roll;;3;3;tasteatlas_html
+TUN;Tunísia;Brik;brik;1;2;2;tasteatlas_html
+FRA;França;Brioche;brioche;;;;tasteatlas_html
+MAR;Marrocos;Briouat;briouat;;1;1;tasteatlas_html
+PRT;Portugal;Broa;broa;;;;tasteatlas_html
+JAM;Jamaica;Brown stew chicken;brown-stew-chicken;;1;1;tasteatlas_html
+JAM;Jamaica;Brown Stew Fish;brown-stew-fish;;1;1;tasteatlas_html
+IDN;Indonésia;Bubur ayam;bubur-ayam;1;11;11;tasteatlas_html
+AZE;Azerbaijão;Buglama;buglama;;1;1;tasteatlas_html
+KOR;Coreia do Sul;Bulgogi;bulgogi;2;5;5;tasteatlas_html
+ROU;Roménia;Bulz;bulz;;3;3;tasteatlas_html
+VNM;Vietname;Bún bò nam bộ;bun-bo-nam-bo;;;;tasteatlas_html
+VNM;Vietname;Bún chả;bun-cha;;1;1;tasteatlas_html
+ZAF;África do Sul;Bunny Chow;bunny-chow;;;;tasteatlas_html
+ESP;Espanha;Buñuelo;bunuelo;;;;tasteatlas_html
+ESP;Espanha;Buñuelos de bacalao;bunuelos-de-bacalao;;1;1;tasteatlas_html
+BIH;Bósnia e Herzegovina;Buredžici;buredzici;;;;tasteatlas_html
+BIH;Bósnia e Herzegovina;Burek;burek;3;5;5;tasteatlas_html
+SRB;Sérvia;Burek sa sirom;burek-sa-sirom-serbia;;2;2;tasteatlas_html
+USA;Estados Unidos;Burger;burger;18;8;8;tasteatlas_html
+JPN;Japão;Buri nigiri sushi;buri-nigiri-sushi;;2;2;tasteatlas_html
+PER;Peru;Butifarra;butifarra;2;7;7;tasteatlas_html
+AUS;Austrália;Butter;Butter;;;;tasteatlas_html
+BRA;Brasil;Butter;Butter;;;;tasteatlas_html
+CAN;Canadá;Butter;Butter;;;;tasteatlas_html
+CHL;Chile;Butter;Butter;;;;tasteatlas_html
+DEU;Alemanha;Butter;Butter;;;;tasteatlas_html
+DNK;Dinamarca;Butter;Butter;;;;tasteatlas_html
+ESP;Espanha;Butter;Butter;;;;tasteatlas_html
+FIN;Finlândia;Butter;Butter;;;;tasteatlas_html
+FRA;França;Butter;Butter;;;;tasteatlas_html
+GBR;Reino Unido;Butter;Butter;;;;tasteatlas_html
+IND;Índia;Butter;Butter;;;;tasteatlas_html
+IRL;República da Irlanda;Butter;Butter;;;;tasteatlas_html
+ISL;Islândia;Butter;Butter;;;;tasteatlas_html
+ITA;Itália;Butter;Butter;;;;tasteatlas_html
+JPN;Japão;Butter;Butter;;;;tasteatlas_html
+MEX;México;Butter;Butter;;;;tasteatlas_html
+NOR;Noruega;Butter;Butter;;;;tasteatlas_html
+NZL;Nova Zelândia;Butter;Butter;;;;tasteatlas_html
+PRT;Portugal;Butter;Butter;;;;tasteatlas_html
+TUR;Turquia;Butter;Butter;;;;tasteatlas_html
+USA;Estados Unidos;Butter;Butter;;;;tasteatlas_html
+VEN;Venezuela;Butter;Butter;;;;tasteatlas_html
+CAN;Canadá;Butter tarts;butter-tarts;;1;1;tasteatlas_html
+MNG;Mongólia;Buuz;buuz;;1;1;tasteatlas_html
+VNM;Vietname;Cá kho tộ;ca-kho-to;;;;tasteatlas_html
+PRT;Portugal;Cabidela;cabidela;;;;tasteatlas_html
+MEX;México;Cabrito;cabrito;;1;1;tasteatlas_html
+VEN;Venezuela;Cachapa;cachapa;1;10;10;tasteatlas_html
+ESP;Espanha;Cachopo;cachopo;;3;3;tasteatlas_html
+BRA;Brasil;Cachorro quente;cachorro-quente;;4;4;tasteatlas_html
+MEX;México;Caesar salad;caesar-salad;1;7;7;tasteatlas_html
+PRT;Portugal;Caldeirada;caldeirada;;;;tasteatlas_html
+CHL;Chile;Caldillo de congrio;caldillo-de-congrio;;2;2;tasteatlas_html
+ECU;Equador;Caldo de bolas;caldo-de-bolas;;;;tasteatlas_html
+MEX;México;Caldo de camarón;caldo-de-camaron;;1;1;tasteatlas_html
+PRT;Portugal;Caldo verde;caldo-verde;;;;tasteatlas_html
+COL;Colômbia;Calentado;calentado;;;;tasteatlas_html
+USA;Estados Unidos;California Sourdough Bread;california-sourdough-bread;;1;1;tasteatlas_html
+FRA;França;Canard à la presse;canard-a-la-presse;;2;2;tasteatlas_html
+ITA;Itália;Canederli;canederli;;;;tasteatlas_html
+VNM;Vietname;Canh chua;canh-chua;;1;1;tasteatlas_html
+VNM;Vietname;Canh chua cá;canh-chua-ca;;;;tasteatlas_html
+ESP;Espanha;Canned Food;canned-foods;;;;tasteatlas_html
+GBR;Reino Unido;Canola Oil;canola-oil;;;;tasteatlas_html
+IRL;República da Irlanda;Canola Oil;canola-oil;;;;tasteatlas_html
+IDN;Indonésia;Cap cai;cap-cai;;;;tasteatlas_html
+ITA;Itália;Caponata;caponata;;1;1;tasteatlas_html
+ITA;Itália;Cappon magro;cappon-magro;;;;tasteatlas_html
+ESP;Espanha;Caragols;caragols-spain;;;;tasteatlas_html
+ITA;Itália;Carne cruda all'Albese;carne-cruda-allalbese;;;;tasteatlas_html
+BRA;Brasil;Carne de sol;carne-de-sol;4;6;6;tasteatlas_html
+ITA;Itália;Carne salada;carne-salada;;;;tasteatlas_html
+ITA;Itália;Carpaccio;carpaccio;;1;1;tasteatlas_html
+VEN;Venezuela;Casabe;casabe;;1;1;tasteatlas_html
+CRI;Costa Rica;Casado;casados;1;10;10;tasteatlas_html
+BRA;Brasil;Casquinhas de siri;casquinhas-de-siri;;2;2;tasteatlas_html
+TWN;Taiwan;Cassava and Spareribs Soup;cassava-and-spareribs-soup;;;;tasteatlas_html
+PRT;Portugal;Cataplana;cataplana;;;;tasteatlas_html
+PER;Peru;Cau cau;cau-cau;1;12;12;tasteatlas_html
+PER;Peru;Causa rellena;causa-rellena;1;6;6;tasteatlas_html
+CAN;Canadá;Cedar-plank salmon;cedar-plank-salmon;1;5;5;tasteatlas_html
+MEX;México;Cemita;cemita;;4;4;tasteatlas_html
+LTU;Lituânia;Cepelinai;cepelinai;;3;3;tasteatlas_html
+BIH;Bósnia e Herzegovina;Ćevapi;cevapi;2;10;10;tasteatlas_html
+PER;Peru;Ceviche;ceviche;1;50;50;tasteatlas_html
+ECU;Equador;Ceviche de conchas negras ecuatoriano;ceviche-de-conchas-negras-ecuador;;;;tasteatlas_html
+PER;Peru;Ceviche de pulpo;ceviche-de-pulpo;;1;1;tasteatlas_html
+PER;Peru;Ceviche mixto;ceviche-mixto;;3;3;tasteatlas_html
+CRI;Costa Rica;Ceviche Tico;ceviche-tico;;1;1;tasteatlas_html
+VNM;Vietname;Chả cá Lã Vọng;cha-ca-la-vong;;;;tasteatlas_html
+VNM;Vietname;Chả giò;cha-gio;;;;tasteatlas_html
+CHL;Chile;Chacarero;chacarero;;3;3;tasteatlas_html
+URY;Uruguai;Chajá;chaja;;;;tasteatlas_html
+ZAF;África do Sul;Chakalaka;chakalaka;;4;4;tasteatlas_html
+GEO;Geórgia;Chakapuli;chakapuli;;1;1;tasteatlas_html
+DZA;Argélia;Chakhchoukha;chakhchoukha;;;;tasteatlas_html
+ISR;Israel;Challah;challah;;3;3;tasteatlas_html
+MEX;México;Chalupa;chalupa;1;5;5;tasteatlas_html
+COL;Colômbia;Changua;changua;;;;tasteatlas_html
+PAK;Paquistão;Chapli kabab;chapli-kabab;;2;2;tasteatlas_html
+SGP;Singapura;Char kway teow;char-kway-teow;3;12;12;tasteatlas_html
+CHL;Chile;Charquicán;charquican;;2;2;tasteatlas_html
+CHN;China;Chāshāo;char-siu;;;;tasteatlas_html
+CHN;China;Chāshāo bāo Cha siu bao;cha-siu-bao;2;10;10;tasteatlas_html
+NPL;Nepal;Chatamari;chatamari;;2;2;tasteatlas_html
+JPN;Japão;Chawanmushi;chawanmushi;;1;1;tasteatlas_html
+JPN;Japão;Chazuke;chazuke;;;;tasteatlas_html
+VNM;Vietname;Chè;che;;2;2;tasteatlas_html
+VNM;Vietname;Chè hạt sen;che-hat-sen;;;;tasteatlas_html
+ALB;Albânia;Cheese;Cheese;;;;tasteatlas_html
+ARG;Argentina;Cheese;Cheese;;;;tasteatlas_html
+AUS;Austrália;Cheese;Cheese;;;;tasteatlas_html
+BIH;Bósnia e Herzegovina;Cheese;Cheese;;;;tasteatlas_html
+BRA;Brasil;Cheese;Cheese;;;;tasteatlas_html
+CAN;Canadá;Cheese;Cheese;;;;tasteatlas_html
+CHL;Chile;Cheese;Cheese;;;;tasteatlas_html
+COL;Colômbia;Cheese;Cheese;;;;tasteatlas_html
+CYP;Chipre;Cheese;Cheese;;;;tasteatlas_html
+DEU;Alemanha;Cheese;Cheese;;;;tasteatlas_html
+DNK;Dinamarca;Cheese;Cheese;;;;tasteatlas_html
+ESP;Espanha;Cheese;Cheese;;;;tasteatlas_html
+EST;Estónia;Cheese;Cheese;;;;tasteatlas_html
+FIN;Finlândia;Cheese;Cheese;;;;tasteatlas_html
+FRA;França;Cheese;Cheese;;;;tasteatlas_html
+GBR;Reino Unido;Cheese;Cheese;;;;tasteatlas_html
+GRC;Grécia;Cheese;Cheese;;;;tasteatlas_html
+IND;Índia;Cheese;Cheese;;;;tasteatlas_html
+IRL;República da Irlanda;Cheese;Cheese;;;;tasteatlas_html
+ISL;Islândia;Cheese;Cheese;;;;tasteatlas_html
+ISR;Israel;Cheese;Cheese;;;;tasteatlas_html
+ITA;Itália;Cheese;Cheese;;;;tasteatlas_html
+JPN;Japão;Cheese;Cheese;;;;tasteatlas_html
+LTU;Lituânia;Cheese;Cheese;;;;tasteatlas_html
+LVA;Letónia;Cheese;Cheese;;;;tasteatlas_html
+MEX;México;Cheese;Cheese;;;;tasteatlas_html
+NIC;Nicarágua;Cheese;Cheese;;;;tasteatlas_html
+NOR;Noruega;Cheese;Cheese;;;;tasteatlas_html
+NZL;Nova Zelândia;Cheese;Cheese;;;;tasteatlas_html
+PER;Peru;Cheese;Cheese;;;;tasteatlas_html
+PRT;Portugal;Cheese;Cheese;;;;tasteatlas_html
+ROU;Roménia;Cheese;Cheese;;;;tasteatlas_html
+SWE;Suécia;Cheese;Cheese;;;;tasteatlas_html
+TUR;Turquia;Cheese;Cheese;;;;tasteatlas_html
+UKR;Ucrânia;Cheese;Cheese;;;;tasteatlas_html
+URY;Uruguai;Cheese;Cheese;;;;tasteatlas_html
+USA;Estados Unidos;Cheese;Cheese;;;;tasteatlas_html
+ZAF;África do Sul;Cheese;Cheese;;;;tasteatlas_html
+GBR;Reino Unido;Cheese and onion pie;cheese-and-onion-pie;;2;2;tasteatlas_html
+USA;Estados Unidos;Cheese Curd;cheese-curd;;;;tasteatlas_html
+JPN;Japão;Cheese Dish;cheese-dishes;;;;tasteatlas_html
+USA;Estados Unidos;Cheese Dish;cheese-dishes;;;;tasteatlas_html
+USA;Estados Unidos;Cheeseburger;cheeseburger;24;6;6;tasteatlas_html
+IRN;Irão;Chelo kabab;chelow-kebab;;1;1;tasteatlas_html
+SGP;Singapura;Cheng tng;cheng-tng;3;5;5;tasteatlas_html
+CHN;China;Cheung fun;cheung-fun;;1;1;tasteatlas_html
+MEX;México;Chicatanas;chicatanas;;3;3;tasteatlas_html
+AUS;Austrália;Chicken Parma;chicken-parmigiana;8;7;7;tasteatlas_html
+USA;Estados Unidos;Chicken Parmigiana;chicken-parmigiana;;;;tasteatlas_html
+BHS;Bahamas;Chicken Souse;chicken-souse;;3;3;tasteatlas_html
+MAR;Marrocos;Chicken Tajine;chicken-tajine;;4;4;tasteatlas_html
+GEO;Geórgia;Chikhirtma;chikhirtma;;;;tasteatlas_html
+KOR;Coreia do Sul;Chikin;chikin;;;;tasteatlas_html
+MEX;México;Chilaquiles;chilaquiles;1;6;6;tasteatlas_html
+MEX;México;Chile relleno;chile-relleno;;;;tasteatlas_html
+MEX;México;Chiles en nogada;chiles-en-nogada;2;9;9;tasteatlas_html
+MEX;México;Chilorio;chilorio;;1;1;tasteatlas_html
+ARG;Argentina;Chimichurri;chimichurri;3;5;5;tasteatlas_html
+DOM;República Dominicana;Chimichurri burger;chimichurri-burger;;1;1;tasteatlas_html
+MEX;México;Chinicuiles;chinicuiles;;3;3;tasteatlas_html
+PRY;Paraguai;Chipa;chipa;;3;3;tasteatlas_html
+PRY;Paraguai;Chipa guasu;chipa-guasu;;;;tasteatlas_html
+URY;Uruguai;Chivito;chivito;3;6;6;tasteatlas_html
+DOM;República Dominicana;Chivo guisado;chivo-guisado;;1;1;tasteatlas_html
+ABW;Aruba;Chocolate;Chocolate;;;;tasteatlas_html
+ARE;Emirados Árabes Unidos;Chocolate;Chocolate;;;;tasteatlas_html
+ARG;Argentina;Chocolate;Chocolate;;;;tasteatlas_html
+AUS;Austrália;Chocolate;Chocolate;;;;tasteatlas_html
+BGR;Bulgária;Chocolate;Chocolate;;;;tasteatlas_html
+BLR;Bielorrússia;Chocolate;Chocolate;;;;tasteatlas_html
+BRA;Brasil;Chocolate;Chocolate;;;;tasteatlas_html
+CAN;Canadá;Chocolate;Chocolate;;;;tasteatlas_html
+CHL;Chile;Chocolate;Chocolate;;;;tasteatlas_html
+CHN;China;Chocolate;Chocolate;;;;tasteatlas_html
+CIV;Costa do Marfim;Chocolate;Chocolate;;;;tasteatlas_html
+COL;Colômbia;Chocolate;Chocolate;;;;tasteatlas_html
+CRI;Costa Rica;Chocolate;Chocolate;;;;tasteatlas_html
+DEU;Alemanha;Chocolate;Chocolate;;;;tasteatlas_html
+DNK;Dinamarca;Chocolate;Chocolate;;;;tasteatlas_html
+DOM;República Dominicana;Chocolate;Chocolate;;;;tasteatlas_html
+ECU;Equador;Chocolate;Chocolate;;;;tasteatlas_html
+ESP;Espanha;Chocolate;Chocolate;;;;tasteatlas_html
+EST;Estónia;Chocolate;Chocolate;;;;tasteatlas_html
+FIN;Finlândia;Chocolate;Chocolate;;;;tasteatlas_html
+FRA;França;Chocolate;Chocolate;;;;tasteatlas_html
+GBR;Reino Unido;Chocolate;Chocolate;;;;tasteatlas_html
+GHA;Gana;Chocolate;Chocolate;;;;tasteatlas_html
+GRC;Grécia;Chocolate;Chocolate;;;;tasteatlas_html
+GRD;Granada;Chocolate;Chocolate;;;;tasteatlas_html
+GTM;Guatemala;Chocolate;Chocolate;;;;tasteatlas_html
+HND;Honduras;Chocolate;Chocolate;;;;tasteatlas_html
+IDN;Indonésia;Chocolate;Chocolate;;;;tasteatlas_html
+IND;Índia;Chocolate;Chocolate;;;;tasteatlas_html
+IRL;República da Irlanda;Chocolate;Chocolate;;;;tasteatlas_html
+ISL;Islândia;Chocolate;Chocolate;;;;tasteatlas_html
+ISR;Israel;Chocolate;Chocolate;;;;tasteatlas_html
+ITA;Itália;Chocolate;Chocolate;;;;tasteatlas_html
+JAM;Jamaica;Chocolate;Chocolate;;;;tasteatlas_html
+JPN;Japão;Chocolate;Chocolate;;;;tasteatlas_html
+KOR;Coreia do Sul;Chocolate;Chocolate;;;;tasteatlas_html
+LTU;Lituânia;Chocolate;Chocolate;;;;tasteatlas_html
+MDA;Moldávia;Chocolate;Chocolate;;;;tasteatlas_html
+MDG;Madagáscar;Chocolate;Chocolate;;;;tasteatlas_html
+MEX;México;Chocolate;Chocolate;;;;tasteatlas_html
+NIC;Nicarágua;Chocolate;Chocolate;;;;tasteatlas_html
+NOR;Noruega;Chocolate;Chocolate;;;;tasteatlas_html
+NZL;Nova Zelândia;Chocolate;Chocolate;;;;tasteatlas_html
+PER;Peru;Chocolate;Chocolate;;;;tasteatlas_html
+PRI;Porto Rico;Chocolate;Chocolate;;;;tasteatlas_html
+PRT;Portugal;Chocolate;Chocolate;;;;tasteatlas_html
+ROU;Roménia;Chocolate;Chocolate;;;;tasteatlas_html
+RUS;Rússia;Chocolate;Chocolate;;;;tasteatlas_html
+SGP;Singapura;Chocolate;Chocolate;;;;tasteatlas_html
+SLV;El Salvador;Chocolate;Chocolate;;;;tasteatlas_html
+SRB;Sérvia;Chocolate;Chocolate;;;;tasteatlas_html
+SWE;Suécia;Chocolate;Chocolate;;;;tasteatlas_html
+TTO;Trindade e Tobago;Chocolate;Chocolate;;;;tasteatlas_html
+TUR;Turquia;Chocolate;Chocolate;;;;tasteatlas_html
+TWN;Taiwan;Chocolate;Chocolate;;;;tasteatlas_html
+UGA;Uganda;Chocolate;Chocolate;;;;tasteatlas_html
+UKR;Ucrânia;Chocolate;Chocolate;;;;tasteatlas_html
+USA;Estados Unidos;Chocolate;Chocolate;;;;tasteatlas_html
+VCT;São Vicente e Granadinas;Chocolate;Chocolate;;;;tasteatlas_html
+VEN;Venezuela;Chocolate;Chocolate;;;;tasteatlas_html
+VNM;Vietname;Chocolate;Chocolate;;;;tasteatlas_html
+VUT;Vanuatu;Chocolate;Chocolate;;;;tasteatlas_html
+ZAF;África do Sul;Chocolate;Chocolate;;;;tasteatlas_html
+ARE;Emirados Árabes Unidos;Chocolate Confectionery;chocolate-confectioneries;;;;tasteatlas_html
+AUS;Austrália;Chocolate Confectionery;chocolate-confectioneries;;;;tasteatlas_html
+BGR;Bulgária;Chocolate Confectionery;chocolate-confectioneries;;;;tasteatlas_html
+BMU;Bermudas;Chocolate Confectionery;chocolate-confectioneries;;;;tasteatlas_html
+BRA;Brasil;Chocolate Confectionery;chocolate-confectioneries;;;;tasteatlas_html
+CAN;Canadá;Chocolate Confectionery;chocolate-confectioneries;;;;tasteatlas_html
+CHL;Chile;Chocolate Confectionery;chocolate-confectioneries;;;;tasteatlas_html
+CHN;China;Chocolate Confectionery;chocolate-confectioneries;;;;tasteatlas_html
+CIV;Costa do Marfim;Chocolate Confectionery;chocolate-confectioneries;;;;tasteatlas_html
+COL;Colômbia;Chocolate Confectionery;chocolate-confectioneries;;;;tasteatlas_html
+CYP;Chipre;Chocolate Confectionery;chocolate-confectioneries;;;;tasteatlas_html
+DEU;Alemanha;Chocolate Confectionery;chocolate-confectioneries;;;;tasteatlas_html
+DNK;Dinamarca;Chocolate Confectionery;chocolate-confectioneries;;;;tasteatlas_html
+DOM;República Dominicana;Chocolate Confectionery;chocolate-confectioneries;;;;tasteatlas_html
+ECU;Equador;Chocolate Confectionery;chocolate-confectioneries;;;;tasteatlas_html
+ESP;Espanha;Chocolate Confectionery;chocolate-confectioneries;;;;tasteatlas_html
+EST;Estónia;Chocolate Confectionery;chocolate-confectioneries;;;;tasteatlas_html
+FIN;Finlândia;Chocolate Confectionery;chocolate-confectioneries;;;;tasteatlas_html
+FRA;França;Chocolate Confectionery;chocolate-confectioneries;;;;tasteatlas_html
+GBR;Reino Unido;Chocolate Confectionery;chocolate-confectioneries;;;;tasteatlas_html
+GHA;Gana;Chocolate Confectionery;chocolate-confectioneries;;;;tasteatlas_html
+GRD;Granada;Chocolate Confectionery;chocolate-confectioneries;;;;tasteatlas_html
+IDN;Indonésia;Chocolate Confectionery;chocolate-confectioneries;;;;tasteatlas_html
+IND;Índia;Chocolate Confectionery;chocolate-confectioneries;;;;tasteatlas_html
+IRL;República da Irlanda;Chocolate Confectionery;chocolate-confectioneries;;;;tasteatlas_html
+ISL;Islândia;Chocolate Confectionery;chocolate-confectioneries;;;;tasteatlas_html
+ISR;Israel;Chocolate Confectionery;chocolate-confectioneries;;;;tasteatlas_html
+ITA;Itália;Chocolate Confectionery;chocolate-confectioneries;;;;tasteatlas_html
+JAM;Jamaica;Chocolate Confectionery;chocolate-confectioneries;;;;tasteatlas_html
+JPN;Japão;Chocolate Confectionery;chocolate-confectioneries;;;;tasteatlas_html
+LBN;Líbano;Chocolate Confectionery;chocolate-confectioneries;;;;tasteatlas_html
+LTU;Lituânia;Chocolate Confectionery;chocolate-confectioneries;;;;tasteatlas_html
+MDG;Madagáscar;Chocolate Confectionery;chocolate-confectioneries;;;;tasteatlas_html
+MEX;México;Chocolate Confectionery;chocolate-confectioneries;;;;tasteatlas_html
+NOR;Noruega;Chocolate Confectionery;chocolate-confectioneries;;;;tasteatlas_html
+NZL;Nova Zelândia;Chocolate Confectionery;chocolate-confectioneries;;;;tasteatlas_html
+PER;Peru;Chocolate Confectionery;chocolate-confectioneries;;;;tasteatlas_html
+PRT;Portugal;Chocolate Confectionery;chocolate-confectioneries;;;;tasteatlas_html
+ROU;Roménia;Chocolate Confectionery;chocolate-confectioneries;;;;tasteatlas_html
+SWE;Suécia;Chocolate Confectionery;chocolate-confectioneries;;;;tasteatlas_html
+TUR;Turquia;Chocolate Confectionery;chocolate-confectioneries;;;;tasteatlas_html
+TWN;Taiwan;Chocolate Confectionery;chocolate-confectioneries;;;;tasteatlas_html
+USA;Estados Unidos;Chocolate Confectionery;chocolate-confectioneries;;;;tasteatlas_html
+VEN;Venezuela;Chocolate Confectionery;chocolate-confectioneries;;;;tasteatlas_html
+VNM;Vietname;Chocolate Confectionery;chocolate-confectioneries;;;;tasteatlas_html
+ZAF;África do Sul;Chocolate Confectionery;chocolate-confectioneries;;;;tasteatlas_html
+BGR;Bulgária;Chomlek;chomlek;;2;2;tasteatlas_html
+DZA;Argélia;Chorba frik;chorba-frik;;;;tasteatlas_html
+ARG;Argentina;Choripán;choripan;;4;4;tasteatlas_html
+PER;Peru;Choritos a la chalaca;choritos-a-la-chalaca;;2;2;tasteatlas_html
+ESP;Espanha;Chorizo;chorizo;;;;tasteatlas_html
+CHL;Chile;Chorrillana;chorrillana;2;5;5;tasteatlas_html
+FRA;França;Choucroute garnie;choucroute-garnie;;;;tasteatlas_html
+FRA;França;Chouquette;chouquette;;;;tasteatlas_html
+GBR;Reino Unido;Christmas pudding;christmas-pudding;3;7;7;tasteatlas_html
+ECU;Equador;Chugchucaras;chugchucaras;1;7;7;tasteatlas_html
+CHN;China;Chun juan;spring-rolls;;3;3;tasteatlas_html
+VNM;Vietname;Chuối chiên;chuoi-chien;;;;tasteatlas_html
+IND;Índia;Churma;churma;1;7;7;tasteatlas_html
+BRA;Brasil;Churrasco;churrasco;1;17;17;tasteatlas_html
+CHL;Chile;Churrasco Italiano;churrasco-italiano;;;;tasteatlas_html
+CAN;Canadá;Cider;Ciders;;;;tasteatlas_html
+ESP;Espanha;Cider;Ciders;;;;tasteatlas_html
+FRA;França;Cider;Ciders;;;;tasteatlas_html
+GBR;Reino Unido;Cider;Ciders;;;;tasteatlas_html
+IRL;República da Irlanda;Cider;Ciders;;;;tasteatlas_html
+LBN;Líbano;Cider;Ciders;;;;tasteatlas_html
+NOR;Noruega;Cider;Ciders;;;;tasteatlas_html
+RUS;Rússia;Cider;Ciders;;;;tasteatlas_html
+SWE;Suécia;Cider;Ciders;;;;tasteatlas_html
+UKR;Ucrânia;Cider;Ciders;;;;tasteatlas_html
+USA;Estados Unidos;Cider;Ciders;;;;tasteatlas_html
+ROU;Roménia;Ciorbă;ciorba;1;7;7;tasteatlas_html
+ROU;Roménia;Ciorbă de fasole;ciorba-de-fasole;;;;tasteatlas_html
+ROU;Roménia;Ciorbă de Perişoare;ciorba-de-perisoare;;;;tasteatlas_html
+ROU;Roménia;Ciorbă de salată cu afumătură;ciorba-de-salata-cu-afumatura;;;;tasteatlas_html
+ROU;Roménia;Ciorba Radauteana;ciorba-radauteana;;;;tasteatlas_html
+CAN;Canadá;Cipaille;cipaille;1;10;10;tasteatlas_html
+FRA;França;Clafoutis;clafoutis;;;;tasteatlas_html
+ESP;Espanha;Cochinillo;cochinillo;;;;tasteatlas_html
+ESP;Espanha;Cocido;cocido;;3;3;tasteatlas_html
+ESP;Espanha;Cocido lebaniego;cocido-lebaniego;;4;4;tasteatlas_html
+ESP;Espanha;Cocido montañés;cocido-montanes;;2;2;tasteatlas_html
+JAM;Jamaica;Coco Bread;coco-bread;;3;3;tasteatlas_html
+MDG;Madagáscar;Cocoa Beans;cocoa-beans;;;;tasteatlas_html
+GBR;Reino Unido;Coconut Oil;coconut-oil;;;;tasteatlas_html
+GBR;Reino Unido;Cod fish and chips;cod-fish-and-chips;;;;tasteatlas_html
+BRA;Brasil;Coffee;Coffee;;;;tasteatlas_html
+CAN;Canadá;Coffee;Coffee;;;;tasteatlas_html
+CHN;China;Coffee;Coffee;;;;tasteatlas_html
+COL;Colômbia;Coffee;Coffee;;;;tasteatlas_html
+CRI;Costa Rica;Coffee;Coffee;;;;tasteatlas_html
+DEU;Alemanha;Coffee;Coffee;;;;tasteatlas_html
+ESP;Espanha;Coffee;Coffee;;;;tasteatlas_html
+ETH;Etiópia;Coffee;Coffee;;;;tasteatlas_html
+GBR;Reino Unido;Coffee;Coffee;;;;tasteatlas_html
+GTM;Guatemala;Coffee;Coffee;;;;tasteatlas_html
+HND;Honduras;Coffee;Coffee;;;;tasteatlas_html
+IDN;Indonésia;Coffee;Coffee;;;;tasteatlas_html
+IND;Índia;Coffee;Coffee;;;;tasteatlas_html
+ITA;Itália;Coffee;Coffee;;;;tasteatlas_html
+JAM;Jamaica;Coffee;Coffee;;;;tasteatlas_html
+KEN;Quénia;Coffee;Coffee;;;;tasteatlas_html
+PAN;Panamá;Coffee;Coffee;;;;tasteatlas_html
+PER;Peru;Coffee;Coffee;;;;tasteatlas_html
+PRT;Portugal;Coffee;Coffee;;;;tasteatlas_html
+RWA;Ruanda;Coffee;Coffee;;;;tasteatlas_html
+SAU;Arábia Saudita;Coffee;Coffee;;;;tasteatlas_html
+SLV;El Salvador;Coffee;Coffee;;;;tasteatlas_html
+USA;Estados Unidos;Coffee;Coffee;;;;tasteatlas_html
+YEM;Iémen;Coffee;Coffee;;;;tasteatlas_html
+BRA;Brasil;Coffee Beans;Coffee-Beans;;;;tasteatlas_html
+BRB;Barbados;Coffee Beans;Coffee-Beans;;;;tasteatlas_html
+CAN;Canadá;Coffee Beans;Coffee-Beans;;;;tasteatlas_html
+CHN;China;Coffee Beans;Coffee-Beans;;;;tasteatlas_html
+COL;Colômbia;Coffee Beans;Coffee-Beans;;;;tasteatlas_html
+CRI;Costa Rica;Coffee Beans;Coffee-Beans;;;;tasteatlas_html
+DEU;Alemanha;Coffee Beans;Coffee-Beans;;;;tasteatlas_html
+ESP;Espanha;Coffee Beans;Coffee-Beans;;;;tasteatlas_html
+ETH;Etiópia;Coffee Beans;Coffee-Beans;;;;tasteatlas_html
+FRA;França;Coffee Beans;Coffee-Beans;;;;tasteatlas_html
+GBR;Reino Unido;Coffee Beans;Coffee-Beans;;;;tasteatlas_html
+GTM;Guatemala;Coffee Beans;Coffee-Beans;;;;tasteatlas_html
+IDN;Indonésia;Coffee Beans;Coffee-Beans;;;;tasteatlas_html
+IND;Índia;Coffee Beans;Coffee-Beans;;;;tasteatlas_html
+IRL;República da Irlanda;Coffee Beans;Coffee-Beans;;;;tasteatlas_html
+ITA;Itália;Coffee Beans;Coffee-Beans;;;;tasteatlas_html
+JAM;Jamaica;Coffee Beans;Coffee-Beans;;;;tasteatlas_html
+JPN;Japão;Coffee Beans;Coffee-Beans;;;;tasteatlas_html
+KEN;Quénia;Coffee Beans;Coffee-Beans;;;;tasteatlas_html
+MEX;México;Coffee Beans;Coffee-Beans;;;;tasteatlas_html
+PAN;Panamá;Coffee Beans;Coffee-Beans;;;;tasteatlas_html
+PER;Peru;Coffee Beans;Coffee-Beans;;;;tasteatlas_html
+PRT;Portugal;Coffee Beans;Coffee-Beans;;;;tasteatlas_html
+RWA;Ruanda;Coffee Beans;Coffee-Beans;;;;tasteatlas_html
+SLV;El Salvador;Coffee Beans;Coffee-Beans;;;;tasteatlas_html
+TWN;Taiwan;Coffee Beans;Coffee-Beans;;;;tasteatlas_html
+USA;Estados Unidos;Coffee Beans;Coffee-Beans;;;;tasteatlas_html
+YEM;Iémen;Coffee Beans;Coffee-Beans;;;;tasteatlas_html
+USA;Estados Unidos;Coleslaw;coleslaw;;2;2;tasteatlas_html
+CHL;Chile;Completo;completo;1;5;5;tasteatlas_html
+BHS;Bahamas;Conch Ceviche;conch-ceviche;;1;1;tasteatlas_html
+BHS;Bahamas;Conch Fritters;conch-fritters;;3;3;tasteatlas_html
+BHS;Bahamas;Conch Salad;conch-salad;1;16;16;tasteatlas_html
+ECU;Equador;Conchitas asadas;conchitas-asadas;;;;tasteatlas_html
+AUS;Austrália;Condiment;Condiments;;;;tasteatlas_html
+CAN;Canadá;Condiment;Condiments;;;;tasteatlas_html
+CHN;China;Condiment;Condiments;;;;tasteatlas_html
+DEU;Alemanha;Condiment;Condiments;;;;tasteatlas_html
+ESP;Espanha;Condiment;Condiments;;;;tasteatlas_html
+EST;Estónia;Condiment;Condiments;;;;tasteatlas_html
+FRA;França;Condiment;Condiments;;;;tasteatlas_html
+GBR;Reino Unido;Condiment;Condiments;;;;tasteatlas_html
+GRC;Grécia;Condiment;Condiments;;;;tasteatlas_html
+IDN;Indonésia;Condiment;Condiments;;;;tasteatlas_html
+IND;Índia;Condiment;Condiments;;;;tasteatlas_html
+IRL;República da Irlanda;Condiment;Condiments;;;;tasteatlas_html
+ITA;Itália;Condiment;Condiments;;;;tasteatlas_html
+JPN;Japão;Condiment;Condiments;;;;tasteatlas_html
+KOR;Coreia do Sul;Condiment;Condiments;;;;tasteatlas_html
+MEX;México;Condiment;Condiments;;;;tasteatlas_html
+PER;Peru;Condiment;Condiments;;;;tasteatlas_html
+PRT;Portugal;Condiment;Condiments;;;;tasteatlas_html
+SAU;Arábia Saudita;Condiment;Condiments;;;;tasteatlas_html
+SWE;Suécia;Condiment;Condiments;;;;tasteatlas_html
+TWN;Taiwan;Condiment;Condiments;;;;tasteatlas_html
+USA;Estados Unidos;Condiment;Condiments;;;;tasteatlas_html
+ITA;Itália;Coniglio alla ligure;coniglio-alla-ligure;;1;1;tasteatlas_html
+AUS;Austrália;Continental Roll;continental-roll;1;17;17;tasteatlas_html
+BRB;Barbados;Coo-Coo and Flying Fish;coo-coo-and-flying-fish;;2;2;tasteatlas_html
+ARG;Argentina;Cooked Sausage;Sausages;;;;tasteatlas_html
+DEU;Alemanha;Cooked Sausage;Sausages;;;;tasteatlas_html
+ESP;Espanha;Cooked Sausage;Sausages;;;;tasteatlas_html
+FRA;França;Cooked Sausage;Sausages;;;;tasteatlas_html
+GBR;Reino Unido;Cooked Sausage;Sausages;;;;tasteatlas_html
+IRL;República da Irlanda;Cooked Sausage;Sausages;;;;tasteatlas_html
+ITA;Itália;Cooked Sausage;Sausages;;;;tasteatlas_html
+PRT;Portugal;Cooked Sausage;Sausages;;;;tasteatlas_html
+TUR;Turquia;Cooked Sausage;Sausages;;;;tasteatlas_html
+USA;Estados Unidos;Cooked Sausage;Sausages;;;;tasteatlas_html
+FRA;França;Coq au vin;coq-au-vin;;1;1;tasteatlas_html
+FRA;França;Coq au vin jaune;coq-au-vin-jaune;;;;tasteatlas_html
+USA;Estados Unidos;Cornbread;cornbread;;1;1;tasteatlas_html
+IRL;República da Irlanda;Corned beef boxty;corned-beef-boxty;1;7;7;tasteatlas_html
+USA;Estados Unidos;Corned Beef Sandwich;corned-beef-sandwich;6;2;2;tasteatlas_html
+GBR;Reino Unido;Coronation chicken;coronation-chicken;;2;2;tasteatlas_html
+PER;Peru;Corvina al horno;corvina-al-horno;;;;tasteatlas_html
+RUS;Rússia;Coulibiac;coulibiac;;2;2;tasteatlas_html
+DZA;Argélia;Couscous (dish);Moroccan-Couscous;;;;tasteatlas_html
+MAR;Marrocos;Couscous (dish);Moroccan-Couscous;;;;tasteatlas_html
+TUN;Tunísia;Couscous (dish);Moroccan-Couscous;;1;1;tasteatlas_html
+BRA;Brasil;Coxinha;coxinha;;;;tasteatlas_html
+PRT;Portugal;Cozido;cozido;;1;1;tasteatlas_html
+ROU;Roménia;Cozonac;cozonac;;3;3;tasteatlas_html
+SGP;Singapura;Crab bee hoon;crab-bee-hoon;1;29;29;tasteatlas_html
+USA;Estados Unidos;Crab Cake;crab-cake;;3;3;tasteatlas_html
+BHS;Bahamas;Crack Conch with Peas and Rice;crack-conch-with-peas-and-rice;;1;1;tasteatlas_html
+BHS;Bahamas;Cracked Conch;cracked-conch;;1;1;tasteatlas_html
+CAN;Canadá;Cracker;crackers;;;;tasteatlas_html
+FRA;França;Cream;Cream;;;;tasteatlas_html
+GBR;Reino Unido;Cream;Cream;;;;tasteatlas_html
+IRL;República da Irlanda;Cream;Cream;;;;tasteatlas_html
+USA;Estados Unidos;Cream;Cream;;;;tasteatlas_html
+DNK;Dinamarca;Cream Cheese;cream-cheese;;;;tasteatlas_html
+ESP;Espanha;Cream Cheese;cream-cheese;;;;tasteatlas_html
+FRA;França;Cream Cheese;cream-cheese;;;;tasteatlas_html
+GBR;Reino Unido;Cream Cheese;cream-cheese;;;;tasteatlas_html
+ITA;Itália;Cream Cheese;cream-cheese;;;;tasteatlas_html
+USA;Estados Unidos;Cream Cheese;cream-cheese;;;;tasteatlas_html
+USA;Estados Unidos;Cream Pie;cream-pie;;;;tasteatlas_html
+USA;Estados Unidos;Creamed Corn;creamed-corn;;3;3;tasteatlas_html
+ESP;Espanha;Crema Catalana;crema-catalana;;;;tasteatlas_html
+FRA;França;Crème brûlée;creme-brulee;;;;tasteatlas_html
+ESP;Espanha;Croquetas;croquetas;7;6;6;tasteatlas_html
+ESP;Espanha;Croquetas de bacalao;croquetas-de-bacalao;;1;1;tasteatlas_html
+ESP;Espanha;Croquetas de jamón;croquetas-de-jamon;2;5;5;tasteatlas_html
+ITA;Itália;Crostata;crostata;;;;tasteatlas_html
+ITA;Itália;Crostini;crostini;;1;1;tasteatlas_html
+ITA;Itália;Crostini Toscani;crostini-toscani;4;5;5;tasteatlas_html
+AUS;Austrália;Cruffin;cruffin;;3;3;tasteatlas_html
+GBR;Reino Unido;Crumble;crumble;;;;tasteatlas_html
+CUB;Cuba;Cucurucho;cucurucho;;2;2;tasteatlas_html
+GBR;Reino Unido;Cullen Skink;cullen-skink;;;;tasteatlas_html
+ITA;Itália;Culurgionis d’Ogliastra;culurgionis-dogliastra;1;9;9;tasteatlas_html
+CHL;Chile;Curanto;curanto;;;;tasteatlas_html
+TTO;Trindade e Tobago;Curried Crab and Dumplings;curried-crab-and-dumplings;;3;3;tasteatlas_html
+DEU;Alemanha;Currywurst;currywurst;;2;2;tasteatlas_html
+PER;Peru;Cuy al horno;cuy-al-horno;;2;2;tasteatlas_html
+PER;Peru;Cuy frito;cuy-frito;;3;3;tasteatlas_html
+GBR;Reino Unido;Dairy Beverage;dairy-beverage;;;;tasteatlas_html
+CAN;Canadá;Dairy Product;dairy-products;;;;tasteatlas_html
+DEU;Alemanha;Dairy Product;dairy-products;;;;tasteatlas_html
+ESP;Espanha;Dairy Product;dairy-products;;;;tasteatlas_html
+FRA;França;Dairy Product;dairy-products;;;;tasteatlas_html
+GBR;Reino Unido;Dairy Product;dairy-products;;;;tasteatlas_html
+GRC;Grécia;Dairy Product;dairy-products;;;;tasteatlas_html
+IRL;República da Irlanda;Dairy Product;dairy-products;;;;tasteatlas_html
+ITA;Itália;Dairy Product;dairy-products;;;;tasteatlas_html
+KOR;Coreia do Sul;Dairy Product;dairy-products;;;;tasteatlas_html
+TUR;Turquia;Dairy Product;dairy-products;;;;tasteatlas_html
+TWN;Taiwan;Dairy Product;dairy-products;;;;tasteatlas_html
+USA;Estados Unidos;Dairy Product;dairy-products;;;;tasteatlas_html
+SAU;Arábia Saudita;Dajaj mashwi;dajaj-mashwi;;;;tasteatlas_html
+KOR;Coreia do Sul;Dak Galbi;dak-galbi;;;;tasteatlas_html
+GRC;Grécia;Dakos;dakos;;;;tasteatlas_html
+NPL;Nepal;Dal bhat;dal-bhat;;2;2;tasteatlas_html
+IND;Índia;Dal makhani;dal-makhani;;4;4;tasteatlas_html
+CHN;China;Dàndànmiàn;dan-dan-noodles;;1;1;tasteatlas_html
+ARG;Argentina;Dessert;Desserts;;;;tasteatlas_html
+AUS;Austrália;Dessert;Desserts;;;;tasteatlas_html
+BRA;Brasil;Dessert;Desserts;;;;tasteatlas_html
+CAN;Canadá;Dessert;Desserts;;;;tasteatlas_html
+DEU;Alemanha;Dessert;Desserts;;;;tasteatlas_html
+ECU;Equador;Dessert;Desserts;;;;tasteatlas_html
+ESP;Espanha;Dessert;Desserts;;;;tasteatlas_html
+FRA;França;Dessert;Desserts;;;;tasteatlas_html
+GBR;Reino Unido;Dessert;Desserts;;;;tasteatlas_html
+GRC;Grécia;Dessert;Desserts;;;;tasteatlas_html
+ITA;Itália;Dessert;Desserts;;;;tasteatlas_html
+JPN;Japão;Dessert;Desserts;;;;tasteatlas_html
+PER;Peru;Dessert;Desserts;;;;tasteatlas_html
+PRY;Paraguai;Dessert;Desserts;;;;tasteatlas_html
+URY;Uruguai;Dessert;Desserts;;;;tasteatlas_html
+USA;Estados Unidos;Dessert;Desserts;;;;tasteatlas_html
+TTO;Trindade e Tobago;Dhalpuri roti;dhalpuri-roti;;1;1;tasteatlas_html
+NPL;Nepal;Dhindo;dhindo;;2;2;tasteatlas_html
+MUS;Maurícia;Dholl puri;dholl-puri;;3;3;tasteatlas_html
+TUR;Turquia;Dilber dudağı;dilber-dudagi;;;;tasteatlas_html
+AUS;Austrália;Dim sim;dim-sim;1;24;24;tasteatlas_html
+CHN;China;Dim sum;dim-sum;6;30;30;tasteatlas_html
+GBR;Reino Unido;Dip;dips;;;;tasteatlas_html
+USA;Estados Unidos;Dip;dips;;;;tasteatlas_html
+KOR;Coreia do Sul;Doenjang jjigae;doenjang-jjigae;;;;tasteatlas_html
+GMB;Gâmbia;Domoda;domoda;;1;1;tasteatlas_html
+JPN;Japão;Donburi;donburi;;;;tasteatlas_html
+TUR;Turquia;Döner kebab;doner-kebab;2;11;11;tasteatlas_html
+KOR;Coreia do Sul;Dongchimi;;;;;tasteatlas_html
+CHN;China;Dōngpō ròu;dongpo-rou;;;;tasteatlas_html
+IND;Índia;Dosa;dosa;1;60;60;tasteatlas_html
+TTO;Trindade e Tobago;Doubles;doubles;;2;2;tasteatlas_html
+AZE;Azerbaijão;Dovga;dovga;;1;1;tasteatlas_html
+BGR;Bulgária;Dragée;dragee;;;;tasteatlas_html
+BRA;Brasil;Dragée;dragee;;;;tasteatlas_html
+DEU;Alemanha;Dragée;dragee;;;;tasteatlas_html
+FRA;França;Dragée;dragee;;;;tasteatlas_html
+GBR;Reino Unido;Dragée;dragee;;;;tasteatlas_html
+IND;Índia;Dragée;dragee;;;;tasteatlas_html
+ITA;Itália;Dragée;dragee;;;;tasteatlas_html
+NOR;Noruega;Dragée;dragee;;;;tasteatlas_html
+TWN;Taiwan;Dragée;dragee;;;;tasteatlas_html
+USA;Estados Unidos;Dragée;dragee;;;;tasteatlas_html
+BLR;Bielorrússia;Draniki;draniki;;1;1;tasteatlas_html
+IRL;República da Irlanda;Dublin coddle;dublin-coddle;1;5;5;tasteatlas_html
+ATG;Antígua e Barbuda;Ducana;ducana;;3;3;tasteatlas_html
+SGP;Singapura;Duck rice;duck-rice;3;6;6;tasteatlas_html
+BHS;Bahamas;Duff;guava-duff;;1;1;tasteatlas_html
+PRY;Paraguai;Dulce de mamón;dulce-de-mamon;;1;1;tasteatlas_html
+ITA;Itália;Dumplings;Dumplings;;;;tasteatlas_html
+KOR;Coreia do Sul;Dwaeji gukbap;dwaeji-gukbap;;;;tasteatlas_html
+ARM;Arménia;Dzhash;dzhash;;1;1;tasteatlas_html
+JPN;Japão;Ebi nigiri sushi;ebi-nigiri-sushi;;;;tasteatlas_html
+USA;Estados Unidos;Eggs Benedict;eggs-benedict;;1;1;tasteatlas_html
+USA;Estados Unidos;Eggs Sardou;eggs-sardou;3;6;6;tasteatlas_html
+TUR;Turquia;Ekmek kadayıfı;ekmek-kadayifi;1;9;9;tasteatlas_html
+GEO;Geórgia;Elarji;elarji;;1;1;tasteatlas_html
+ARG;Argentina;Empanada Catamarqueña;empanada-catamarquena;1;5;5;tasteatlas_html
+CHL;Chile;Empanadas chilenas;empanadas-chilenas;;;;tasteatlas_html
+ECU;Equador;Encebollado;encebollado;;4;4;tasteatlas_html
+MEX;México;Enchiladas;enchiladas;1;24;24;tasteatlas_html
+MEX;México;Enchiladas mineras;enchiladas-mineras;1;7;7;tasteatlas_html
+MEX;México;Enchiladas Suizas;enchiladas-suizas;;2;2;tasteatlas_html
+GBR;Reino Unido;English breakfast;english-breakfast;1;28;28;tasteatlas_html
+MEX;México;Enmoladas;enmoladas;;2;2;tasteatlas_html
+FRA;França;Entrecôte;entrecote;;;;tasteatlas_html
+MEX;México;Escamoles;escamoles;;1;1;tasteatlas_html
+FRA;França;Escargot;escargot;;;;tasteatlas_html
+FRA;França;Escargots à la Bourguignonne;escargots-bourguignonne;;1;1;tasteatlas_html
+BRA;Brasil;Escondidinho;escondidinho;2;7;7;tasteatlas_html
+JAM;Jamaica;Escovitch Fish;escovitch-fish;;2;2;tasteatlas_html
+ESP;Espanha;Escudella barrejada;escudella-barrejada;;;;tasteatlas_html
+ESP;Espanha;Escudella i carn d'olla;escudella-i-carn-dolla;;;;tasteatlas_html
+PRT;Portugal;Espetada;espetada;;1;1;tasteatlas_html
+SAU;Arábia Saudita;Essential Oil;essential-oil;;;;tasteatlas_html
+GBR;Reino Unido;Eton mess;eton-mess;;;;tasteatlas_html
+ESP;Espanha;Fabada Asturiana;fabada;1;8;8;tasteatlas_html
+ARG;Argentina;Fainá;faina;;3;3;tasteatlas_html
+URY;Uruguai;Fainá;faina;;;;tasteatlas_html
+EGY;Egito;Falafel;falafel;;3;3;tasteatlas_html
+ISR;Israel;Falafel;falafel;4;5;5;tasteatlas_html
+ECU;Equador;Fanesca;fanesca;;1;1;tasteatlas_html
+ITA;Itália;Faraona al Barolo;faraona-al-barolo;;;;tasteatlas_html
+NOR;Noruega;Fårikål;farikal;;1;1;tasteatlas_html
+PRT;Portugal;Farinheira;farinheira;;;;tasteatlas_html
+BRA;Brasil;Farofa;farofa;;;;tasteatlas_html
+ROU;Roménia;Fasole batută;fasole-batuta;;;;tasteatlas_html
+GBR;Reino Unido;Fat rascal;fat-rascal;2;9;9;tasteatlas_html
+ETH;Etiópia;Fatira;fatira;;1;1;tasteatlas_html
+LBN;Líbano;Fatteh;fatteh;;;;tasteatlas_html
+LBN;Líbano;Fattoush;fattoush;;;;tasteatlas_html
+GRC;Grécia;Fava;fava;;;;tasteatlas_html
+ITA;Itália;Fave e cicoria;fave-e-cicoria;;;;tasteatlas_html
+ITA;Itália;Fegato alla Veneziana;fegato-alla-veneziana;;1;1;tasteatlas_html
+BRA;Brasil;Feijoada;feijoada;;1;1;tasteatlas_html
+PRT;Portugal;Feijoada à portuguesa;feijoada-a-portuguesa;;;;tasteatlas_html
+TWN;Taiwan;Fènglísū;fenglisu;2;6;6;tasteatlas_html
+ALB;Albânia;Fërgesë Tirane;fergese-tirane;;;;tasteatlas_html
+IRN;Irão;Fesenjān;fesenjan;;1;1;tasteatlas_html
+JAM;Jamaica;Festival;festival;;3;3;tasteatlas_html
+EGY;Egito;Feteer meshaltet;fetir-meshaltet;;3;3;tasteatlas_html
+ITA;Itália;Finanziera;finanziera;;1;1;tasteatlas_html
+ITA;Itália;Fiori di zucca ripieni;fiori-di-zucca-ripieni;;1;1;tasteatlas_html
+GBR;Reino Unido;Fish and chips;fish-and-chips;;;;tasteatlas_html
+SGP;Singapura;Fish Head Curry;fish-head-curry;1;17;17;tasteatlas_html
+SGP;Singapura;Fish soup bee hoon;fish-soup-bee-hoon;;;;tasteatlas_html
+JAM;Jamaica;Fish tea;fish-tea;;3;3;tasteatlas_html
+NOR;Noruega;Fiskesuppe;fiskesuppe;;2;2;tasteatlas_html
+ISL;Islândia;Fiskur og franskar;icelandic-fish-and-chips;1;12;12;tasteatlas_html
+ETH;Etiópia;Fit-fit;fit-fit;;1;1;tasteatlas_html
+TUR;Turquia;Fırın sütlaç;frn-sutlac;1;6;6;tasteatlas_html
+DEU;Alemanha;Flädlesuppe;fladlesuppe;;;;tasteatlas_html
+ARG;Argentina;Flan mixto;flan-mixto;;1;1;tasteatlas_html
+FRA;França;Fleischnacka;fleischnacka;;;;tasteatlas_html
+ALB;Albânia;Flija;flija;;2;2;tasteatlas_html
+BRB;Barbados;Flying Fish Cutters;flying-fish-cutters;1;7;7;tasteatlas_html
+ITA;Itália;Focaccia;focaccia;;1;1;tasteatlas_html
+ESP;Espanha;Foie a la plancha;foie-a-la-plancha;;;;tasteatlas_html
+FRA;França;Foie gras;foie-gras;;;;tasteatlas_html
+FRA;França;Foie gras poêlé;foie-gras-poele;;1;1;tasteatlas_html
+FRA;França;Fraisier;fraisier;;;;tasteatlas_html
+USA;Estados Unidos;French Dip Sandwich;french-dip-sandwich;1;25;25;tasteatlas_html
+GBR;Reino Unido;Fresh Meat;Fresh-meat;;;;tasteatlas_html
+USA;Estados Unidos;Fresh Meat;Fresh-meat;;;;tasteatlas_html
+TUN;Tunísia;Fricassee;fricassee;;1;1;tasteatlas_html
+USA;Estados Unidos;Fried Chicken;fried-chicken;;;;tasteatlas_html
+ECU;Equador;Fritada;fritada;;2;2;tasteatlas_html
+ITA;Itália;Fritto misto;fritto-misto;;1;1;tasteatlas_html
+ITA;Itália;Fruit;fruits;;;;tasteatlas_html
+JPN;Japão;Fruit;fruits;;;;tasteatlas_html
+PRT;Portugal;Fruit;fruits;;;;tasteatlas_html
+PLW;Palau;Fruit Bat Soup;fruit-bat-soup;;3;3;tasteatlas_html
+ARG;Argentina;Fruit Product;Fruit-products;;;;tasteatlas_html
+AUS;Austrália;Fruit Product;Fruit-products;;;;tasteatlas_html
+BRA;Brasil;Fruit Product;Fruit-products;;;;tasteatlas_html
+CAN;Canadá;Fruit Product;Fruit-products;;;;tasteatlas_html
+CHL;Chile;Fruit Product;Fruit-products;;;;tasteatlas_html
+COL;Colômbia;Fruit Product;Fruit-products;;;;tasteatlas_html
+DEU;Alemanha;Fruit Product;Fruit-products;;;;tasteatlas_html
+DZA;Argélia;Fruit Product;Fruit-products;;;;tasteatlas_html
+ESP;Espanha;Fruit Product;Fruit-products;;;;tasteatlas_html
+FRA;França;Fruit Product;Fruit-products;;;;tasteatlas_html
+GBR;Reino Unido;Fruit Product;Fruit-products;;;;tasteatlas_html
+GRC;Grécia;Fruit Product;Fruit-products;;;;tasteatlas_html
+IDN;Indonésia;Fruit Product;Fruit-products;;;;tasteatlas_html
+IND;Índia;Fruit Product;Fruit-products;;;;tasteatlas_html
+IRL;República da Irlanda;Fruit Product;Fruit-products;;;;tasteatlas_html
+IRN;Irão;Fruit Product;Fruit-products;;;;tasteatlas_html
+IRQ;Iraque;Fruit Product;Fruit-products;;;;tasteatlas_html
+ITA;Itália;Fruit Product;Fruit-products;;;;tasteatlas_html
+JOR;Jordânia;Fruit Product;Fruit-products;;;;tasteatlas_html
+JPN;Japão;Fruit Product;Fruit-products;;;;tasteatlas_html
+LBN;Líbano;Fruit Product;Fruit-products;;;;tasteatlas_html
+MAR;Marrocos;Fruit Product;Fruit-products;;;;tasteatlas_html
+MEX;México;Fruit Product;Fruit-products;;;;tasteatlas_html
+MLT;Malta;Fruit Product;Fruit-products;;;;tasteatlas_html
+NOR;Noruega;Fruit Product;Fruit-products;;;;tasteatlas_html
+NZL;Nova Zelândia;Fruit Product;Fruit-products;;;;tasteatlas_html
+PRT;Portugal;Fruit Product;Fruit-products;;;;tasteatlas_html
+SAU;Arábia Saudita;Fruit Product;Fruit-products;;;;tasteatlas_html
+SWE;Suécia;Fruit Product;Fruit-products;;;;tasteatlas_html
+TUN;Tunísia;Fruit Product;Fruit-products;;;;tasteatlas_html
+TWN;Taiwan;Fruit Product;Fruit-products;;;;tasteatlas_html
+URY;Uruguai;Fruit Product;Fruit-products;;;;tasteatlas_html
+USA;Estados Unidos;Fruit Product;Fruit-products;;;;tasteatlas_html
+CAN;Canadá;Fruit Wine;Fruit-wine;;;;tasteatlas_html
+BLZ;Belize;Fry Jack;fry-jack;1;7;7;tasteatlas_html
+CMR;Camarões;Fufu;fufu;;;;tasteatlas_html
+GHA;Gana;Fufu;fufu;;;;tasteatlas_html
+ARG;Argentina;Fugazza;fugazza;;4;4;tasteatlas_html
+ARG;Argentina;Fugazzeta;fugazzeta;;2;2;tasteatlas_html
+EGY;Egito;Ful medames;ful-medames;;2;2;tasteatlas_html
+ABW;Aruba;Funchi;funchi;;1;1;tasteatlas_html
+AGO;Angola;Funge;funje;;2;2;tasteatlas_html
+ATG;Antígua e Barbuda;Fungee and Pepperpot;fungee-and-pepperpot;;;;tasteatlas_html
+GBR;Reino Unido;Fungus;fungi;;;;tasteatlas_html
+DEU;Alemanha;Gaisburger Marsch;gaisburger-marsch;;;;tasteatlas_html
+IND;Índia;Gajar ka halwa;gajar-ka-halwa;;1;1;tasteatlas_html
+GRC;Grécia;Galaktoboureko;galaktoboureko;;;;tasteatlas_html
+CRI;Costa Rica;Gallo pinto;gallo-pinto;;1;1;tasteatlas_html
+IND;Índia;Galouti kebab;galouti-kebab;;1;1;tasteatlas_html
+ESP;Espanha;Gambas al ajillo;gambas-al-ajillo;;;;tasteatlas_html
+IRL;República da Irlanda;Garlic butter Dublin Bay prawns;garlic-butter-dublin-bay-prawns;;3;3;tasteatlas_html
+ARM;Arménia;Gata;gata;;1;1;tasteatlas_html
+ZAF;África do Sul;Gatsby;gatsby;;4;4;tasteatlas_html
+ESP;Espanha;Gazpacho;gazpacho;;;;tasteatlas_html
+ESP;Espanha;Gazta tarta;basque-cheesecake;;2;2;tasteatlas_html
+KOR;Coreia do Sul;Geotjeori;geotjeori;;;;tasteatlas_html
+IRN;Irão;Gheymeh nesar;gheymeh-nesar;1;5;5;tasteatlas_html
+IRN;Irão;Ghormeh sabzi;ghormeh-sabzi;;;;tasteatlas_html
+ITA;Itália;Gnocchi;gnocchi;;;;tasteatlas_html
+ITA;Itália;Gnocchi al Castelmagno;gnocchi-al-castelmagno;;2;2;tasteatlas_html
+ITA;Itália;Gnocchi di pane in brodo;gnocchi-di-pane-in-brodo;;;;tasteatlas_html
+VNM;Vietname;Gỏi đu đủ;som-tam;;2;2;tasteatlas_html
+VEN;Venezuela;Golfeados;golfeados;1;5;5;tasteatlas_html
+SRB;Sérvia;Gomboce;gomboce;1;8;8;tasteatlas_html
+CHN;China;Gong bao;kung-pao-chicken;;3;3;tasteatlas_html
+KOR;Coreia do Sul;Gopchang jeongol;gopchang-jeongol;;;;tasteatlas_html
+MEX;México;Gordita;gordita;;2;2;tasteatlas_html
+ITA;Itália;Goulash alla Goriziana;goulash-alla-goriziana;;;;tasteatlas_html
+FRA;França;Grand Marnier soufflé;grand-marnier-souffle;;;;tasteatlas_html
+SWE;Suécia;Gravlax;gravlax;;2;2;tasteatlas_html
+USA;Estados Unidos;Grinder;grinder;;;;tasteatlas_html
+HTI;Haiti;Griot;griot;;1;1;tasteatlas_html
+TWN;Taiwan;Gua bao;gua-bao;;;;tasteatlas_html
+ECU;Equador;Guatita;guatitas;;;;tasteatlas_html
+IDN;Indonésia;Gudeg;gudeg;2;9;9;tasteatlas_html
+KOR;Coreia do Sul;Gui;gui-korean-barbecue;;;;tasteatlas_html
+TUR;Turquia;Güllaç;gullac;;2;2;tasteatlas_html
+CHN;China;Gūlūròu;sweet-and-sour-pork;;;;tasteatlas_html
+USA;Estados Unidos;Gumbo;gumbo;;3;3;tasteatlas_html
+NPL;Nepal;Gundruk;gundruk;;1;1;tasteatlas_html
+CHN;China;Guotie;guotie;;2;2;tasteatlas_html
+RUS;Rússia;Guriev kasha;guriev-kasha;1;6;6;tasteatlas_html
+GRC;Grécia;Gyros;gyros;;4;4;tasteatlas_html
+GBR;Reino Unido;Haddock fish and chips;haddock-fish-and-chips;;;;tasteatlas_html
+GBR;Reino Unido;Haggis;haggis;;;;tasteatlas_html
+SGP;Singapura;Hainanese Chicken Rice;hainanese-chicken-rice;;2;2;tasteatlas_html
+ISL;Islândia;Hákarl;;;;;tasteatlas_html
+USA;Estados Unidos;Hamburger;hamburger;;2;2;tasteatlas_html
+JAM;Jamaica;Hard Dough Bread;hard-dough-bread;;1;1;tasteatlas_html
+OMN;Omã;Harees;harees;;2;2;tasteatlas_html
+MAR;Marrocos;Harira;harira;;;;tasteatlas_html
+ARM;Arménia;Harissa;harissa;;1;1;tasteatlas_html
+MAR;Marrocos;Harsha;harsha;;1;1;tasteatlas_html
+EGY;Egito;Hawawshi;hawawshi;;2;2;tasteatlas_html
+ECU;Equador;Helado de paila;helado-de-paila;;;;tasteatlas_html
+BGR;Bulgária;Herb/Spice;herbs-and-spices;;;;tasteatlas_html
+CHN;China;Herb/Spice;herbs-and-spices;;;;tasteatlas_html
+ESP;Espanha;Herb/Spice;herbs-and-spices;;;;tasteatlas_html
+GBR;Reino Unido;Herb/Spice;herbs-and-spices;;;;tasteatlas_html
+GRC;Grécia;Herb/Spice;herbs-and-spices;;;;tasteatlas_html
+IDN;Indonésia;Herb/Spice;herbs-and-spices;;;;tasteatlas_html
+ITA;Itália;Herb/Spice;herbs-and-spices;;;;tasteatlas_html
+JPN;Japão;Herb/Spice;herbs-and-spices;;;;tasteatlas_html
+KOR;Coreia do Sul;Herb/Spice;herbs-and-spices;;;;tasteatlas_html
+MEX;México;Herb/Spice;herbs-and-spices;;;;tasteatlas_html
+PAN;Panamá;Herb/Spice;herbs-and-spices;;;;tasteatlas_html
+TUR;Turquia;Herb/Spice;herbs-and-spices;;;;tasteatlas_html
+USA;Estados Unidos;Herb/Spice;herbs-and-spices;;;;tasteatlas_html
+FIN;Finlândia;Hernekeitto;hernekeitto;;3;3;tasteatlas_html
+MLT;Malta;Ħobż tal-Malti;obz-tal-malti;;;;tasteatlas_html
+PAN;Panamá;Hojaldres;hojaldres;;;;tasteatlas_html
+NZL;Nova Zelândia;Hokey Pokey Ice Cream;hokey-pokey-ice-cream;;3;3;tasteatlas_html
+SGP;Singapura;Hokkien mee;hokkien-mee;;;;tasteatlas_html
+CAN;Canadá;Honey;Honey;;;;tasteatlas_html
+CHL;Chile;Honey;Honey;;;;tasteatlas_html
+CYP;Chipre;Honey;Honey;;;;tasteatlas_html
+DEU;Alemanha;Honey;Honey;;;;tasteatlas_html
+ESP;Espanha;Honey;Honey;;;;tasteatlas_html
+FRA;França;Honey;Honey;;;;tasteatlas_html
+GBR;Reino Unido;Honey;Honey;;;;tasteatlas_html
+GRC;Grécia;Honey;Honey;;;;tasteatlas_html
+IRL;República da Irlanda;Honey;Honey;;;;tasteatlas_html
+MEX;México;Honey;Honey;;;;tasteatlas_html
+MLT;Malta;Honey;Honey;;;;tasteatlas_html
+NZL;Nova Zelândia;Honey;Honey;;;;tasteatlas_html
+SAU;Arábia Saudita;Honey;Honey;;;;tasteatlas_html
+TUR;Turquia;Honey;Honey;;;;tasteatlas_html
+USA;Estados Unidos;Honey;Honey;;;;tasteatlas_html
+CAN;Canadá;Honey dill;honey-dill;;2;2;tasteatlas_html
+CHN;China;Hóngshāoròu;hong-shao-rou;;;;tasteatlas_html
+GRC;Grécia;Horiatiki salata;greek-salad;;1;1;tasteatlas_html
+GBR;Reino Unido;Hot Chocolate;hot-chocolate;;;;tasteatlas_html
+CHN;China;Hot pot;hot-pot;;;;tasteatlas_html
+MEX;México;Huevos Motuleños;huevos-motulenos;1;6;6;tasteatlas_html
+ESP;Espanha;Huevos rotos;huevos-rotos;;;;tasteatlas_html
+CHN;China;Huíguōròu;twice-cooked-pork;;1;1;tasteatlas_html
+ECU;Equador;Humitas;humita;;;;tasteatlas_html
+ISR;Israel;Hummus;hummus;1;39;39;tasteatlas_html
+LBN;Líbano;Hummus;hummus;;3;3;tasteatlas_html
+TUR;Turquia;Hummus;hummus;;;;tasteatlas_html
+NOR;Noruega;Hvalbiff;hvalbiff;;;;tasteatlas_html
+IND;Índia;Hyderabadi biryani;hyderabadi-biryani;5;6;6;tasteatlas_html
+USA;Estados Unidos;Ice cream sandwich;ice-cream-sandwich;3;6;6;tasteatlas_html
+IND;Índia;Idli;idli;3;8;8;tasteatlas_html
+FJI;Fiji;Ika lolo;fish-lolo;;1;1;tasteatlas_html
+JPN;Japão;Ika nigiri sushi;ika-nigiri-sushi;;;;tasteatlas_html
+IDN;Indonésia;Ikan goreng;ikan-goreng;;;;tasteatlas_html
+JPN;Japão;Ikura Sushi;ikura-sushi;;;;tasteatlas_html
+GEO;Geórgia;Imeruli khachapuri;imeruli-khachapuri;;;;tasteatlas_html
+MLT;Malta;Imqaret;imqaret;;1;1;tasteatlas_html
+ETH;Etiópia;Injera fit-fit;injera-fit-fit;;2;2;tasteatlas_html
+SWE;Suécia;Inlagd Sill;inlagd-sill;;1;1;tasteatlas_html
+ITA;Itália;Insalata Russa;olivier-salad;;;;tasteatlas_html
+IRL;República da Irlanda;Irish brown bread;irish-brown-bread;;3;3;tasteatlas_html
+IRL;República da Irlanda;Irish seafood chowder;irish-seafood-chowder;;;;tasteatlas_html
+GBR;Reino Unido;Irish Stew;irish-stew;1;22;22;tasteatlas_html
+IRL;República da Irlanda;Irish stew;irish-stew;;2;2;tasteatlas_html
+TUR;Turquia;İskender kebap;iskender-kebap;;;;tasteatlas_html
+BHS;Bahamas;Island Banana Bread;island-banana-bread;;2;2;tasteatlas_html
+ISR;Israel;Israeli breakfast;israeli-breakfast;;2;2;tasteatlas_html
+SWE;Suécia;Isterband;isterbandkorv;;2;2;tasteatlas_html
+USA;Estados Unidos;Italian Sandwich;italian-sandwich;2;11;11;tasteatlas_html
+JPN;Japão;Iwashi nigiri sushi;iwashi-nigiri-sushi;;1;1;tasteatlas_html
+PER;Peru;Jalea;jalea;;2;2;tasteatlas_html
+JAM;Jamaica;Jamaican jerk;jamaican-jerk;4;5;5;tasteatlas_html
+JAM;Jamaica;Jamaican patty;jamaican-patty;1;5;5;tasteatlas_html
+JAM;Jamaica;Jamaican Roasted Breadfruit;jamaican-roasted-breadfruit;;4;4;tasteatlas_html
+JAM;Jamaica;Jamaican steamed fish;jamaican-steamed-fish;;2;2;tasteatlas_html
+JAM;Jamaica;Janga Soup;janga-soup;;2;2;tasteatlas_html
+ALB;Albânia;Jani me fasule;jani-me-fasule;;;;tasteatlas_html
+BIH;Bósnia e Herzegovina;Japrak;japrak;;2;2;tasteatlas_html
+IND;Índia;Jeera aloo;jeera-aloo;;;;tasteatlas_html
+GBR;Reino Unido;Jellied eels;jellied-eels;1;5;5;tasteatlas_html
+CHN;China;Jiaozi;jiaozi;1;15;15;tasteatlas_html
+NGA;Nigéria;Jollof rice;jollof-rice;;1;1;tasteatlas_html
+CHN;China;Juice;juice;;;;tasteatlas_html
+GBR;Reino Unido;Juice;juice;;;;tasteatlas_html
+JPN;Japão;Juice;juice;;;;tasteatlas_html
+ROU;Roménia;Jumări;jumari;1;9;9;tasteatlas_html
+LBN;Líbano;Ka'ak;kaak;;1;1;tasteatlas_html
+IRN;Irão;Kabab barg;kabab-barg;;3;3;tasteatlas_html
+IRN;Irão;Kabab koobideh;kabab-koobideh;;;;tasteatlas_html
+ARE;Emirados Árabes Unidos;Kabsa;kabsa;;1;1;tasteatlas_html
+SAU;Arábia Saudita;Kabsa;kabsa;1;4;4;tasteatlas_html
+IND;Índia;Kachori;kachori;;;;tasteatlas_html
+BIH;Bósnia e Herzegovina;Kadaif;kadaif;;1;1;tasteatlas_html
+IND;Índia;Kadhi;kadhi;;1;1;tasteatlas_html
+FIN;Finlândia;Kainuun rönttönen;kainuun-ronttonen;;;;tasteatlas_html
+JPN;Japão;Kaiseki;kaiseki;;;;tasteatlas_html
+GTM;Guatemala;Kak'ik;kakik;;2;2;tasteatlas_html
+JPN;Japão;Kakiage;kakiage;;1;1;tasteatlas_html
+FIN;Finlândia;Kalakukko;kalakukko;1;5;5;tasteatlas_html
+GRC;Grécia;Kalamarakia tiganita;kalamarakia;;2;2;tasteatlas_html
+DZA;Argélia;Kalb-el-louz;kalb-el-louz;;;;tasteatlas_html
+KOR;Coreia do Sul;Kalguksu;kalguksu;1;25;25;tasteatlas_html
+GRC;Grécia;Kalitsounia;kalitsounia;;;;tasteatlas_html
+EST;Estónia;Kama;kama;;2;2;tasteatlas_html
+SWE;Suécia;Kanelbulle;cinnamon-roll;;;;tasteatlas_html
+SRB;Sérvia;Karađorđeva šnicla;karadordeva-snicla;;4;4;tasteatlas_html
+LVA;Letónia;Karbonāde;karbonade;;;;tasteatlas_html
+SWE;Suécia;Kardemommeboller;kardemommeboller;;;;tasteatlas_html
+IDN;Indonésia;Karedok;karedok;;2;2;tasteatlas_html
+DEU;Alemanha;Kartoffelsalat;kartoffelsalat;;;;tasteatlas_html
+LVA;Letónia;Kartupeļu pankūkas;kartupelu-pankukas;;;;tasteatlas_html
+RUS;Rússia;Kasha;kasha;1;6;6;tasteatlas_html
+PAK;Paquistão;Kata-kat;kata-kat;;;;tasteatlas_html
+BGR;Bulgária;Katuk;katuk;;1;1;tasteatlas_html
+BGR;Bulgária;Kavarma;kavarma;;;;tasteatlas_html
+BGR;Bulgária;Kavarma po radomirski;kavarma-po-radomirski;;;;tasteatlas_html
+MLT;Malta;Kawlata;kawlata;;;;tasteatlas_html
+TUR;Turquia;Kaymaklı kayısı;kaymakl-kays;;;;tasteatlas_html
+TUR;Turquia;Kebab;kebab;1;8;8;tasteatlas_html
+BGR;Bulgária;Kebapche;kebapche;;2;2;tasteatlas_html
+EGY;Egito;Kebda Eskandarani;kebda-eskandarani;;3;3;tasteatlas_html
+IND;Índia;Keema;keema;;1;1;tasteatlas_html
+MAR;Marrocos;Kefta Tagine;kefta-tagine;;;;tasteatlas_html
+GUM;Guam;Kelaguen;kelaguen;;3;3;tasteatlas_html
+GUM;Guam;Kelaguen mannok;kelaguen-mannok;;3;3;tasteatlas_html
+GHA;Gana;Kelewele;kelewele;;1;1;tasteatlas_html
+LTU;Lituânia;Kepta duona;kepta-duona;;;;tasteatlas_html
+ABW;Aruba;Keshi yena;keshi-yena;;3;3;tasteatlas_html
+USA;Estados Unidos;Key Lime Pie;key-lime-pie;1;29;29;tasteatlas_html
+TWN;Taiwan;Kēzǎi jiān;oyster-omelette;;;;tasteatlas_html
+GEO;Geórgia;Khachapuri;khachapuri;;;;tasteatlas_html
+BLR;Bielorrússia;Khaladnik;khaladnik;;;;tasteatlas_html
+GEO;Geórgia;Kharcho;kharcho;2;5;5;tasteatlas_html
+GEO;Geórgia;Khashi;khash;;1;1;tasteatlas_html
+ARM;Arménia;Khashlama;khashlama;1;7;7;tasteatlas_html
+IND;Índia;Kheer;kheer;2;5;5;tasteatlas_html
+IND;Índia;Khichdi;khichdi;2;5;5;tasteatlas_html
+GEO;Geórgia;Khinkali;khinkali;;;;tasteatlas_html
+RUS;Rússia;Kholodets;kholodets;;1;1;tasteatlas_html
+ARM;Arménia;Khorovats;khorovats;;1;1;tasteatlas_html
+MMR;Mianmar (Birmânia);Khow suey;khow-suey;;3;3;tasteatlas_html
+LBN;Líbano;Kibbeh;kibbeh;;4;4;tasteatlas_html
+LTU;Lituânia;Kibinai;kibinai;;1;1;tasteatlas_html
+KOR;Coreia do Sul;Kimchi;;;;;tasteatlas_html
+LVA;Letónia;Ķiploku grauzdiņi;kiploku-grauzdini;;;;tasteatlas_html
+ETH;Etiópia;Kitcha fit-fit;kitcha-fit-fit;;1;1;tasteatlas_html
+ETH;Etiópia;Kitfo;kitfo;;1;1;tasteatlas_html
+NZL;Nova Zelândia;KiwiBurger;kiwiburger;1;5;5;tasteatlas_html
+ISL;Islândia;Kjötsúpa;kjotsupa;1;4;4;tasteatlas_html
+KOR;Coreia do Sul;Kkakdugi;;;;;tasteatlas_html
+KOR;Coreia do Sul;Kkori gomtang;kkori-gomtang;;;;tasteatlas_html
+SWE;Suécia;Kladdkaka;kladdkaka;;2;2;tasteatlas_html
+CYP;Chipre;Kleftiko;kleftiko;;;;tasteatlas_html
+GRC;Grécia;Kleftiko;kleftiko;;1;1;tasteatlas_html
+SWE;Suécia;Knäckebröd;knackebrod;;2;2;tasteatlas_html
+GBR;Reino Unido;Knickerbocker glory;knickerbocker-glory;2;5;5;tasteatlas_html
+USA;Estados Unidos;Knish;knish;1;5;5;tasteatlas_html
+ZAF;África do Sul;Koeksister;koeksister;;2;2;tasteatlas_html
+JPN;Japão;Kohada nigiri sushi;kohada-nigiri-sushi;;;;tasteatlas_html
+GRC;Grécia;Kohli bourbouristi;kohli-bourbouristi;;2;2;tasteatlas_html
+FJI;Fiji;Kokoda;kokoda;1;13;13;tasteatlas_html
+GRC;Grécia;Kokoras krasatos;kkoras-krastos;;2;2;tasteatlas_html
+GRC;Grécia;Kolokythoanthoi;kolokythoanthoi;;2;2;tasteatlas_html
+SRB;Sérvia;Komplet lepinja;komplet-lepinja;1;6;6;tasteatlas_html
+TWN;Taiwan;Kòng-ôan;kong-oan;;;;tasteatlas_html
+KOR;Coreia do Sul;Kongguksu;kongguksu;;4;4;tasteatlas_html
+DEU;Alemanha;Königsberger Klopse;konigsberger-klopse;;;;tasteatlas_html
+IDN;Indonésia;Konro;konro;2;9;9;tasteatlas_html
+GRC;Grécia;Kontosouvli;kontosouvli;;;;tasteatlas_html
+PAK;Paquistão;Korma;korma;;;;tasteatlas_html
+JPN;Japão;Korokke;korokke;;;;tasteatlas_html
+EGY;Egito;Koshari;kushari;1;6;6;tasteatlas_html
+UKR;Ucrânia;Kotleta po Kyivsky;chicken-kyiv;;;;tasteatlas_html
+SWE;Suécia;Köttbullar;kottbullar;2;10;10;tasteatlas_html
+LKA;Sri Lanka;Kottu;kottu;;2;2;tasteatlas_html
+DNK;Dinamarca;Kringle;kringle;;;;tasteatlas_html
+BGR;Bulgária;Kufte;kufteh;;;;tasteatlas_html
+IRN;Irão;Kufteh Tabrizi;kufteh-tabrizi;;1;1;tasteatlas_html
+SGP;Singapura;Kuih lapis;kuih-lapis;;4;4;tasteatlas_html
+IND;Índia;Kulfi falooda;kulfi-falooda;3;9;9;tasteatlas_html
+JPN;Japão;Kushiage;kushiage;;;;tasteatlas_html
+TUR;Turquia;Kuzu şiş;kuzu-sis;;;;tasteatlas_html
+ARM;Arménia;Kyalagyosh;kyalagyosh;;1;1;tasteatlas_html
+MMR;Mianmar (Birmânia);Kyay oh;kyay-oh;1;7;7;tasteatlas_html
+BGR;Bulgária;Kyopolou;;;;;tasteatlas_html
+DOM;República Dominicana;La bandera Dominicana;la-bandera-dominicana;;1;1;tasteatlas_html
+JOR;Jordânia;Labaneh;labneh;;;;tasteatlas_html
+LBN;Líbano;Labneh;labneh;1;5;5;tasteatlas_html
+KGZ;Quirguistão;Lagman;lagman;;1;1;tasteatlas_html
+UZB;Uzbequistão;Lagman;lagman;;;;tasteatlas_html
+SGP;Singapura;Laksa;laksa;;;;tasteatlas_html
+ARM;Arménia;Lamadjo;lahmacun;;;;tasteatlas_html
+AUS;Austrália;Lamington;lamington;6;5;5;tasteatlas_html
+NOR;Noruega;Lapskaus;lapskaus;;3;3;tasteatlas_html
+ARM;Arménia;Lavash;lavash;;;;tasteatlas_html
+IDN;Indonésia;Lawar;lawar;;;;tasteatlas_html
+DEU;Alemanha;Leberwurst;leberwurst;;;;tasteatlas_html
+PER;Peru;Leche de tigre;leche-de-tigre;;1;1;tasteatlas_html
+ESP;Espanha;Leche frita;leche-frita;;;;tasteatlas_html
+NOR;Noruega;Lefse;lefse;;2;2;tasteatlas_html
+HTI;Haiti;Legim;legim;;;;tasteatlas_html
+PRT;Portugal;Leite de creme;leite-de-creme;;;;tasteatlas_html
+USA;Estados Unidos;Lemon Ice Box Pie;lemon-ice-box-pie;;3;3;tasteatlas_html
+SRB;Sérvia;Lenja pita;lenja-pita;;;;tasteatlas_html
+SRB;Sérvia;Lepinja;lepinja;;;;tasteatlas_html
+SRB;Sérvia;Leskovačka mućkalica;leskovacka-muckalica;;;;tasteatlas_html
+AZE;Azerbaijão;Levengi;levengi;;;;tasteatlas_html
+ARG;Argentina;Liqueur;Liqueurs;;;;tasteatlas_html
+ATG;Antígua e Barbuda;Liqueur;Liqueurs;;;;tasteatlas_html
+AUS;Austrália;Liqueur;Liqueurs;;;;tasteatlas_html
+BRA;Brasil;Liqueur;Liqueurs;;;;tasteatlas_html
+CAN;Canadá;Liqueur;Liqueurs;;;;tasteatlas_html
+DEU;Alemanha;Liqueur;Liqueurs;;;;tasteatlas_html
+DJI;Djibouti;Liqueur;Liqueurs;;;;tasteatlas_html
+DNK;Dinamarca;Liqueur;Liqueurs;;;;tasteatlas_html
+ESP;Espanha;Liqueur;Liqueurs;;;;tasteatlas_html
+EST;Estónia;Liqueur;Liqueurs;;;;tasteatlas_html
+FIN;Finlândia;Liqueur;Liqueurs;;;;tasteatlas_html
+FJI;Fiji;Liqueur;Liqueurs;;;;tasteatlas_html
+FRA;França;Liqueur;Liqueurs;;;;tasteatlas_html
+GBR;Reino Unido;Liqueur;Liqueurs;;;;tasteatlas_html
+GRC;Grécia;Liqueur;Liqueurs;;;;tasteatlas_html
+IDN;Indonésia;Liqueur;Liqueurs;;;;tasteatlas_html
+IRL;República da Irlanda;Liqueur;Liqueurs;;;;tasteatlas_html
+ITA;Itália;Liqueur;Liqueurs;;;;tasteatlas_html
+JPN;Japão;Liqueur;Liqueurs;;;;tasteatlas_html
+LTU;Lituânia;Liqueur;Liqueurs;;;;tasteatlas_html
+MCO;Mónaco;Liqueur;Liqueurs;;;;tasteatlas_html
+MDA;Moldávia;Liqueur;Liqueurs;;;;tasteatlas_html
+MEX;México;Liqueur;Liqueurs;;;;tasteatlas_html
+NOR;Noruega;Liqueur;Liqueurs;;;;tasteatlas_html
+PAN;Panamá;Liqueur;Liqueurs;;;;tasteatlas_html
+PRI;Porto Rico;Liqueur;Liqueurs;;;;tasteatlas_html
+PRT;Portugal;Liqueur;Liqueurs;;;;tasteatlas_html
+ROU;Roménia;Liqueur;Liqueurs;;;;tasteatlas_html
+SGP;Singapura;Liqueur;Liqueurs;;;;tasteatlas_html
+TTO;Trindade e Tobago;Liqueur;Liqueurs;;;;tasteatlas_html
+TWN;Taiwan;Liqueur;Liqueurs;;;;tasteatlas_html
+UKR;Ucrânia;Liqueur;Liqueurs;;;;tasteatlas_html
+URY;Uruguai;Liqueur;Liqueurs;;;;tasteatlas_html
+USA;Estados Unidos;Liqueur;Liqueurs;;;;tasteatlas_html
+VNM;Vietname;Liqueur;Liqueurs;;;;tasteatlas_html
+ZAF;África do Sul;Liqueur;Liqueurs;;;;tasteatlas_html
+CHN;China;Lo mein;lo-mein;;;;tasteatlas_html
+GEO;Geórgia;Lobio;lobio;;;;tasteatlas_html
+ARG;Argentina;Locro;locro;;3;3;tasteatlas_html
+FIN;Finlândia;Lohikeitto;lohikeitto;;;;tasteatlas_html
+TUR;Turquia;Lokum;lokum;1;22;22;tasteatlas_html
+NZL;Nova Zelândia;Lolly Cake;lolly-cake;;1;1;tasteatlas_html
+FJI;Fiji;Lolo buns;lolo-buns;;1;1;tasteatlas_html
+PER;Peru;Lomo saltado;lomo-saltado;1;10;10;tasteatlas_html
+NOR;Noruega;Lørdagspizza;lrdagspizza;;2;2;tasteatlas_html
+GRC;Grécia;Loukoumades;lokma;2;11;11;tasteatlas_html
+FJI;Fiji;Lovo;lovo;;3;3;tasteatlas_html
+TWN;Taiwan;Lu rou fan;lu-rou-fan;;;;tasteatlas_html
+CHN;China;Luóbo gāo;turnip-cake;;;;tasteatlas_html
+ARE;Emirados Árabes Unidos;Luqaimat;lokma;;2;2;tasteatlas_html
+NOR;Noruega;Lutefisk;lutefisk;;3;3;tasteatlas_html
+AZE;Azerbaijão;Lyulya kebab;lyulya-kebab;;1;1;tasteatlas_html
+BGR;Bulgária;Lyutenitsa;;;;;tasteatlas_html
+LBN;Líbano;Ma'amoul;maamoul;;2;2;tasteatlas_html
+USA;Estados Unidos;Macaroni Salad;macaroni-salad;5;6;6;tasteatlas_html
+MEX;México;Machaca;machaca;1;5;5;tasteatlas_html
+CHL;Chile;Machas a la parmesana;machas-a-la-parmesana;;1;1;tasteatlas_html
+FRA;França;Madeleines;madeleines;;;;tasteatlas_html
+LBN;Líbano;Mafroukeh;mafroukeh;;1;1;tasteatlas_html
+FRA;França;Magret de canard;magret-de-canard;;;;tasteatlas_html
+JPN;Japão;Maguro nigiri sushi;maguro-nigiri-sushi;;;;tasteatlas_html
+BOL;Bolívia;Majadito;majadito;1;5;5;tasteatlas_html
+KOR;Coreia do Sul;Makguksu;makguksu;;;;tasteatlas_html
+JPN;Japão;Maki;makizushi;;;;tasteatlas_html
+SRB;Sérvia;Makovnjača;makowiec;;2;2;tasteatlas_html
+IND;Índia;Malabar kozhi biryani;malabar-chicken-biryani;1;5;5;tasteatlas_html
+ISR;Israel;Malabi;mehalabiya;3;7;7;tasteatlas_html
+IND;Índia;Malai kofta;malai-kofta;1;7;7;tasteatlas_html
+ISR;Israel;Malawach;malawach;;4;4;tasteatlas_html
+ZAF;África do Sul;Malva Pudding;malva-pudding;;2;2;tasteatlas_html
+MDA;Moldávia;Mămăligă;mamaliga;;3;3;tasteatlas_html
+ROU;Roménia;Mămăligă;mamaliga;;4;4;tasteatlas_html
+FIN;Finlândia;Mämmi;mammi;;1;1;tasteatlas_html
+LBN;Líbano;Manakish;manakish;;2;2;tasteatlas_html
+SAU;Arábia Saudita;Mandi;mandi;;1;1;tasteatlas_html
+KOR;Coreia do Sul;Mandu;mandu;;;;tasteatlas_html
+KOR;Coreia do Sul;Manduguk;manduguk;;;;tasteatlas_html
+CHN;China;Mango pomelo sago;mango-pomelo-sago;2;13;13;tasteatlas_html
+DOM;República Dominicana;Mangú;mangu;;2;2;tasteatlas_html
+JAM;Jamaica;Mannish Water;mannish-water;;1;1;tasteatlas_html
+JOR;Jordânia;Mansaf;mansaf;;2;2;tasteatlas_html
+TUR;Turquia;Manti;manti;;;;tasteatlas_html
+UZB;Uzbequistão;Manti;manti;;;;tasteatlas_html
+CHN;China;Mapo doufu;chen-mapo-doufu;1;19;19;tasteatlas_html
+JOR;Jordânia;Maqluba;maqluba;;;;tasteatlas_html
+SWE;Suécia;Marinerade jordgubbar;marinerade-jordgubbar;;;;tasteatlas_html
+CHL;Chile;Marraqueta;marraqueta;;1;1;tasteatlas_html
+SAU;Arábia Saudita;Martabak;martabak;;;;tasteatlas_html
+ITA;Itália;Marzipan;marzipans;;;;tasteatlas_html
+IND;Índia;Masala dosa;masala-dosa;2;7;7;tasteatlas_html
+IRQ;Iraque;Masgouf;masgouf;;;;tasteatlas_html
+SAU;Arábia Saudita;Masoub;masoub;;;;tasteatlas_html
+ARG;Argentina;Matambre a la pizza;matambre-a-la-pizza;;4;4;tasteatlas_html
+USA;Estados Unidos;Matzah ball soup;matzah-ball;6;11;11;tasteatlas_html
+PRY;Paraguai;Mbeju;mbeju;;1;1;tasteatlas_html
+CMR;Camarões;Mbongo tchobi;mbongo-tchobi;;;;tasteatlas_html
+GEO;Geórgia;Mchadi;mchadi;;;;tasteatlas_html
+BRA;Brasil;Mead;Mead;;;;tasteatlas_html
+CAN;Canadá;Mead;Mead;;;;tasteatlas_html
+CRI;Costa Rica;Mead;Mead;;;;tasteatlas_html
+GBR;Reino Unido;Mead;Mead;;;;tasteatlas_html
+NOR;Noruega;Mead;Mead;;;;tasteatlas_html
+RUS;Rússia;Mead;Mead;;;;tasteatlas_html
+SWE;Suécia;Mead;Mead;;;;tasteatlas_html
+UKR;Ucrânia;Mead;Mead;;;;tasteatlas_html
+USA;Estados Unidos;Mead;Mead;;;;tasteatlas_html
+GBR;Reino Unido;Meat Dish;Meat-dishes;;;;tasteatlas_html
+AUS;Austrália;Meat Pie;meat-pie;14;5;5;tasteatlas_html
+NZL;Nova Zelândia;Meat Pie;meat-pie;17;4;4;tasteatlas_html
+ARG;Argentina;Meat Product;Meat-products;;;;tasteatlas_html
+AUS;Austrália;Meat Product;Meat-products;;;;tasteatlas_html
+CAN;Canadá;Meat Product;Meat-products;;;;tasteatlas_html
+DEU;Alemanha;Meat Product;Meat-products;;;;tasteatlas_html
+DNK;Dinamarca;Meat Product;Meat-products;;;;tasteatlas_html
+ESP;Espanha;Meat Product;Meat-products;;;;tasteatlas_html
+FRA;França;Meat Product;Meat-products;;;;tasteatlas_html
+GBR;Reino Unido;Meat Product;Meat-products;;;;tasteatlas_html
+GRC;Grécia;Meat Product;Meat-products;;;;tasteatlas_html
+IRL;República da Irlanda;Meat Product;Meat-products;;;;tasteatlas_html
+ITA;Itália;Meat Product;Meat-products;;;;tasteatlas_html
+NOR;Noruega;Meat Product;Meat-products;;;;tasteatlas_html
+NZL;Nova Zelândia;Meat Product;Meat-products;;;;tasteatlas_html
+PRT;Portugal;Meat Product;Meat-products;;;;tasteatlas_html
+ROU;Roménia;Meat Product;Meat-products;;;;tasteatlas_html
+TUR;Turquia;Meat Product;Meat-products;;;;tasteatlas_html
+USA;Estados Unidos;Meat Product;Meat-products;;;;tasteatlas_html
+ZAF;África do Sul;Meat Product;Meat-products;;;;tasteatlas_html
+USA;Estados Unidos;Meatloaf;meatloaf;;2;2;tasteatlas_html
+TUN;Tunísia;Mechouia Salad;mechouia;;;;tasteatlas_html
+CUB;Cuba;Medianoche;medianoche;;3;3;tasteatlas_html
+RUS;Rússia;Medovik;medovik;;3;3;tasteatlas_html
+IND;Índia;Medu vada;medu-vada;1;5;5;tasteatlas_html
+LBN;Líbano;Meghli;meghli;;2;2;tasteatlas_html
+GEO;Geórgia;Megruli khachapuri;mingrelian-khachapuri;;;;tasteatlas_html
+ESP;Espanha;Mejillones en escabeche;mejillones-en-escabeche;;3;3;tasteatlas_html
+BGR;Bulgária;Mekica;mekitsa;1;7;7;tasteatlas_html
+MKD;Macedónia do Norte;Mekici;mekici;;;;tasteatlas_html
+ZAF;África do Sul;Melktert;melktert;1;6;6;tasteatlas_html
+CHN;China;Men bao yu;braised-abalone;;4;4;tasteatlas_html
+TUR;Turquia;Menemen;menemen;;1;1;tasteatlas_html
+ESP;Espanha;Menestra de verduras;menestra-de-verduras;;;;tasteatlas_html
+TUR;Turquia;Mercimek çorbası;mercimek-corbas;;1;1;tasteatlas_html
+ESP;Espanha;Merluza a la gallega;merluza-a-la-gallega;;;;tasteatlas_html
+BGR;Bulgária;Meshana skara;meshana-skara;;2;2;tasteatlas_html
+DEU;Alemanha;Mettwurst;mettwurst;;;;tasteatlas_html
+TUR;Turquia;Midye dolma;midye-dolma;;1;1;tasteatlas_html
+PRT;Portugal;Migas;migas;;;;tasteatlas_html
+ARG;Argentina;Milanesa;milanesa;4;6;6;tasteatlas_html
+ARG;Argentina;Milanesa a caballo;milanesa-a-caballo;;;;tasteatlas_html
+ARG;Argentina;Milanesa napolitana;milanesa-napolitana;;4;4;tasteatlas_html
+CAN;Canadá;Milk;Milk;;;;tasteatlas_html
+ESP;Espanha;Milk;Milk;;;;tasteatlas_html
+GBR;Reino Unido;Milk;Milk;;;;tasteatlas_html
+KOR;Coreia do Sul;Milk;Milk;;;;tasteatlas_html
+TWN;Taiwan;Milk;Milk;;;;tasteatlas_html
+USA;Estados Unidos;Milk;Milk;;;;tasteatlas_html
+GBR;Reino Unido;Milk Product;milk-products;;;;tasteatlas_html
+FRA;França;Mille-feuille;mille-feuille;;2;2;tasteatlas_html
+NZL;Nova Zelândia;Mince and Cheese Pie;mince-and-cheese-pie;;2;2;tasteatlas_html
+ITA;Itália;Minestrone;minestrone;;2;2;tasteatlas_html
+IND;Índia;Misal;misal;;1;1;tasteatlas_html
+BGR;Bulgária;Mish-mash;mish-mash;;2;2;tasteatlas_html
+JPN;Japão;Miso Soup;miso-soup;;1;1;tasteatlas_html
+ROU;Roménia;Mititei;mititei;3;3;3;tasteatlas_html
+GTM;Guatemala;Mixtas;mixtas;;1;1;tasteatlas_html
+JPN;Japão;Mochi;mochi;;;;tasteatlas_html
+BRA;Brasil;Mocotó;mocoto;1;15;15;tasteatlas_html
+PRI;Porto Rico;Mofongo;mofongo;4;5;5;tasteatlas_html
+MMR;Mianmar (Birmânia);Mohinga;mohinga;2;11;11;tasteatlas_html
+KOR;Coreia do Sul;Moksal;moksal;;;;tasteatlas_html
+SUR;Suriname;Moksi-alesi;moksi-alesi;;4;4;tasteatlas_html
+MEX;México;Mole amarillo;mole-amarillo;;2;2;tasteatlas_html
+MEX;México;Mole coloradito;mole-coloradito;;3;3;tasteatlas_html
+MEX;México;Mole manchamantel;mole-manchamantel;;2;2;tasteatlas_html
+MEX;México;Mole negro;mole-negro;;3;3;tasteatlas_html
+MEX;México;Mole Poblano;mole-poblano;;4;4;tasteatlas_html
+NPL;Nepal;Momo;momo-dumplings;1;10;10;tasteatlas_html
+JPN;Japão;Momo yakitori;momo-yakitori;;1;1;tasteatlas_html
+CAN;Canadá;Montreal smoked meat;montreal-smoked-meat;;;;tasteatlas_html
+CAN;Canadá;Montreal-style bagel;montreal-style-bagel;2;6;6;tasteatlas_html
+BRA;Brasil;Moqueca;moqueca;;;;tasteatlas_html
+BRA;Brasil;Moqueca Baiana;moqueca-baiana;;;;tasteatlas_html
+ESP;Espanha;Morcilla;morcilla;;;;tasteatlas_html
+ESP;Espanha;Morcilla de Burgos;morcilla-de-burgos;;;;tasteatlas_html
+GRC;Grécia;Moussaka;moussaka;;;;tasteatlas_html
+FRA;França;Mousse;mousse;;3;3;tasteatlas_html
+FRA;França;Mousse au chocolat;mousse-au-chocolat;;3;3;tasteatlas_html
+GEO;Geórgia;Mtsvadi;mtsvadi;;;;tasteatlas_html
+TUR;Turquia;Muhallebi;mehalabiya;1;16;16;tasteatlas_html
+LBN;Líbano;Mujaddara;mujaddara;;1;1;tasteatlas_html
+EGY;Egito;Mulukhiyah;mulukhiyah;1;4;4;tasteatlas_html
+FIN;Finlândia;Munkki;munkki;;;;tasteatlas_html
+PAK;Paquistão;Murgh karahi;chicken-karahi;1;9;9;tasteatlas_html
+GBR;Reino Unido;Mushy Peas;mushy-peas;;1;1;tasteatlas_html
+FIN;Finlândia;Mustamakkara;mustamakkara;;1;1;tasteatlas_html
+NIC;Nicarágua;Nacatamal;nacatamal;;1;1;tasteatlas_html
+PRK;Coreia do Norte;Naengmyeon;naengmyeon;;4;4;tasteatlas_html
+IND;Índia;Nariyal chutney;coconut-chutney;;2;2;tasteatlas_html
+IDN;Indonésia;Nasi campur;nasi-campur;;;;tasteatlas_html
+IDN;Indonésia;Nasi goreng;nasi-goreng;;;;tasteatlas_html
+IDN;Indonésia;Nasi kuning;nasi-kuning;;;;tasteatlas_html
+IDN;Indonésia;Nasi tim ayam;nasi-tim-ayam;;;;tasteatlas_html
+ESP;Espanha;Natillas;natillas;;2;2;tasteatlas_html
+GRC;Grécia;Natural Gum/Resin;Natural-gums-and-resins;;;;tasteatlas_html
+CMR;Camarões;Ndolé;ndole;;;;tasteatlas_html
+GBR;Reino Unido;Neeps and Tatties;neeps-and-tatties;;;;tasteatlas_html
+USA;Estados Unidos;New York-style cheesecake;new-york-style-cheesecake;;1;1;tasteatlas_html
+NZL;Nova Zelândia;New Zealand Fish and Chips;new-zealand-fish-and-chips;;3;3;tasteatlas_html
+SGP;Singapura;Ngoh hiang;lo-bah;;;;tasteatlas_html
+JPN;Japão;Nigiri;nigiri;4;12;12;tasteatlas_html
+PAK;Paquistão;Nihari;nihari;8;4;4;tasteatlas_html
+JPN;Japão;Nimono;nimono;;;;tasteatlas_html
+TWN;Taiwan;Niúròu miàn;beef-noodle-soup;;;;tasteatlas_html
+CAN;Canadá;Non-alcoholic Beverage;Non-alcoholic-beverages;;;;tasteatlas_html
+GBR;Reino Unido;Non-alcoholic Beverage;Non-alcoholic-beverages;;;;tasteatlas_html
+IRL;República da Irlanda;Non-alcoholic Beverage;Non-alcoholic-beverages;;;;tasteatlas_html
+CAN;Canadá;Non-alcoholic Cocktail;non-alcoholic-cocktails;;;;tasteatlas_html
+TWN;Taiwan;Noodles;Noodles-shapes;;;;tasteatlas_html
+USA;Estados Unidos;North Carolina-Style Barbecue;north-carolina-style-barbecue;2;5;5;tasteatlas_html
+NOR;Noruega;Norwegian Reindeer Hot Dog;norwegian-reindeer-hot-dog;;;;tasteatlas_html
+AUS;Austrália;Nut Butter;nut-butters;;;;tasteatlas_html
+CAN;Canadá;Nut Butter;nut-butters;;;;tasteatlas_html
+GBR;Reino Unido;Nut Butter;nut-butters;;;;tasteatlas_html
+GRC;Grécia;Nut Butter;nut-butters;;;;tasteatlas_html
+IRL;República da Irlanda;Nut Butter;nut-butters;;;;tasteatlas_html
+USA;Estados Unidos;Nut Butter;nut-butters;;;;tasteatlas_html
+GRD;Granada;Nutmeg ice cream;nutmeg-ice-cream;;1;1;tasteatlas_html
+CAN;Canadá;Nuts/Seeds;Nuts-and-seeds;;;;tasteatlas_html
+ESP;Espanha;Nuts/Seeds;Nuts-and-seeds;;;;tasteatlas_html
+TUR;Turquia;Nuts/Seeds;Nuts-and-seeds;;;;tasteatlas_html
+TWN;Taiwan;Nuts/Seeds;Nuts-and-seeds;;;;tasteatlas_html
+KEN;Quénia;Nyama choma;nyama-choma;1;6;6;tasteatlas_html
+COL;Colômbia;Obleas;oblea;;3;3;tasteatlas_html
+DEU;Alemanha;Ofenschlupfer;ofenschlupfer;;1;1;tasteatlas_html
+FRA;França;Offal Dish;Offal;;;;tasteatlas_html
+GBR;Reino Unido;Offal Dish;Offal;;;;tasteatlas_html
+USA;Estados Unidos;Offal Dish;Offal;;;;tasteatlas_html
+CHN;China;Oil and Animal Fat;oil;;;;tasteatlas_html
+GBR;Reino Unido;Oil and Animal Fat;oil;;;;tasteatlas_html
+IRL;República da Irlanda;Oil and Animal Fat;oil;;;;tasteatlas_html
+GRD;Granada;Oil down;oil-down;;3;3;tasteatlas_html
+WSM;Samoa;Oka i'a;oka-ia;;3;3;tasteatlas_html
+RUS;Rússia;Oladyi;oladyi;;2;2;tasteatlas_html
+ABW;Aruba;Olive Oil;Olive-oil;;;;tasteatlas_html
+ALB;Albânia;Olive Oil;Olive-oil;;;;tasteatlas_html
+ARG;Argentina;Olive Oil;Olive-oil;;;;tasteatlas_html
+AUS;Austrália;Olive Oil;Olive-oil;;;;tasteatlas_html
+BIH;Bósnia e Herzegovina;Olive Oil;Olive-oil;;;;tasteatlas_html
+BRA;Brasil;Olive Oil;Olive-oil;;;;tasteatlas_html
+BWA;Botsuana;Olive Oil;Olive-oil;;;;tasteatlas_html
+CAN;Canadá;Olive Oil;Olive-oil;;;;tasteatlas_html
+CHL;Chile;Olive Oil;Olive-oil;;;;tasteatlas_html
+CHN;China;Olive Oil;Olive-oil;;;;tasteatlas_html
+CPV;Cabo Verde;Olive Oil;Olive-oil;;;;tasteatlas_html
+CYP;Chipre;Olive Oil;Olive-oil;;;;tasteatlas_html
+DEU;Alemanha;Olive Oil;Olive-oil;;;;tasteatlas_html
+DZA;Argélia;Olive Oil;Olive-oil;;;;tasteatlas_html
+ECU;Equador;Olive Oil;Olive-oil;;;;tasteatlas_html
+EGY;Egito;Olive Oil;Olive-oil;;;;tasteatlas_html
+ESP;Espanha;Olive Oil;Olive-oil;;;;tasteatlas_html
+FRA;França;Olive Oil;Olive-oil;;;;tasteatlas_html
+GBR;Reino Unido;Olive Oil;Olive-oil;;;;tasteatlas_html
+GRC;Grécia;Olive Oil;Olive-oil;;;;tasteatlas_html
+GTM;Guatemala;Olive Oil;Olive-oil;;;;tasteatlas_html
+ISR;Israel;Olive Oil;Olive-oil;;;;tasteatlas_html
+ITA;Itália;Olive Oil;Olive-oil;;;;tasteatlas_html
+JOR;Jordânia;Olive Oil;Olive-oil;;;;tasteatlas_html
+JPN;Japão;Olive Oil;Olive-oil;;;;tasteatlas_html
+KEN;Quénia;Olive Oil;Olive-oil;;;;tasteatlas_html
+LBN;Líbano;Olive Oil;Olive-oil;;;;tasteatlas_html
+LBY;Líbia;Olive Oil;Olive-oil;;;;tasteatlas_html
+MAR;Marrocos;Olive Oil;Olive-oil;;;;tasteatlas_html
+MEX;México;Olive Oil;Olive-oil;;;;tasteatlas_html
+MLT;Malta;Olive Oil;Olive-oil;;;;tasteatlas_html
+NZL;Nova Zelândia;Olive Oil;Olive-oil;;;;tasteatlas_html
+PER;Peru;Olive Oil;Olive-oil;;;;tasteatlas_html
+PRT;Portugal;Olive Oil;Olive-oil;;;;tasteatlas_html
+SAU;Arábia Saudita;Olive Oil;Olive-oil;;;;tasteatlas_html
+SWE;Suécia;Olive Oil;Olive-oil;;;;tasteatlas_html
+TUN;Tunísia;Olive Oil;Olive-oil;;;;tasteatlas_html
+TUR;Turquia;Olive Oil;Olive-oil;;;;tasteatlas_html
+URY;Uruguai;Olive Oil;Olive-oil;;;;tasteatlas_html
+USA;Estados Unidos;Olive Oil;Olive-oil;;;;tasteatlas_html
+VEN;Venezuela;Olive Oil;Olive-oil;;;;tasteatlas_html
+ZAF;África do Sul;Olive Oil;Olive-oil;;;;tasteatlas_html
+DEU;Alemanha;Olives;Olives;;;;tasteatlas_html
+ESP;Espanha;Olives;Olives;;;;tasteatlas_html
+GBR;Reino Unido;Olives;Olives;;;;tasteatlas_html
+GRC;Grécia;Olives;Olives;;;;tasteatlas_html
+IRL;República da Irlanda;Olives;Olives;;;;tasteatlas_html
+MLT;Malta;Olives;Olives;;;;tasteatlas_html
+RUS;Rússia;Olivier Salad;olivier-salad;;1;1;tasteatlas_html
+OMN;Omã;Omani halwa;omani-halwa;;;;tasteatlas_html
+JPN;Japão;Onigiri;onigiri;;;;tasteatlas_html
+ITA;Itália;Orecchiette alla barese;orecchiette-alla-barese;;;;tasteatlas_html
+JPN;Japão;Otoro nigiri sushi;otoro-nigiri-sushi;;1;1;tasteatlas_html
+BGR;Bulgária;Ovcharska salata;ovcharska-salad;;;;tasteatlas_html
+PRT;Portugal;Ovos moles de Aveiro;ovos-moles-de-aveiro;1;7;7;tasteatlas_html
+JAM;Jamaica;Oxtail with Broad Beans;oxtail-with-broad-beans;;4;4;tasteatlas_html
+JPN;Japão;Oyakodon;oyakodon;;;;tasteatlas_html
+VEN;Venezuela;Pabellón criollo;pabellon-criollo;;2;2;tasteatlas_html
+PER;Peru;Pachamanca;pachamanca;;;;tasteatlas_html
+GTM;Guatemala;Paches;paches;;1;1;tasteatlas_html
+ESP;Espanha;Paella;paella;6;9;9;tasteatlas_html
+ESP;Espanha;Paella de mariscos;paella-de-mariscos;;2;2;tasteatlas_html
+ESP;Espanha;Paella Valenciana;paella-valenciana;;2;2;tasteatlas_html
+GRC;Grécia;Païdakia;paidakia;;;;tasteatlas_html
+CHL;Chile;Paila marina;paila-marina;;1;1;tasteatlas_html
+WSM;Samoa;Palusami;palusami;;2;2;tasteatlas_html
+CHL;Chile;Pan amasado;pan-amasado;;1;1;tasteatlas_html
+ABW;Aruba;Pan bati;pan-bati;1;6;6;tasteatlas_html
+PER;Peru;Pan con chicharrón;pan-con-chicharron;1;12;12;tasteatlas_html
+COL;Colômbia;Pan de bono;pan-de-bono;;1;1;tasteatlas_html
+PRI;Porto Rico;Pan de Mallorca;pan-de-mallorca;;2;2;tasteatlas_html
+CHL;Chile;Pan de Pascua;pan-de-pascua;;3;3;tasteatlas_html
+COL;Colômbia;Pan de queso;pan-de-queso;;1;1;tasteatlas_html
+MEX;México;Pan dulce;pan-dulce;;3;3;tasteatlas_html
+GBR;Reino Unido;Pan haggerty;pan-haggerty;;2;2;tasteatlas_html
+CAN;Canadá;Pancakes with maple syrup;pancakes-with-maple-syrup;2;7;7;tasteatlas_html
+URY;Uruguai;Pancho;pancho;;2;2;tasteatlas_html
+IND;Índia;Paneer tikka;paneer-tikka;;2;2;tasteatlas_html
+ITA;Itália;Panna cotta;panna-cotta;;;;tasteatlas_html
+GRC;Grécia;Pantzarosalata;pantzarosalata;;3;3;tasteatlas_html
+MEX;México;Panucho;panucho;;1;1;tasteatlas_html
+PRT;Portugal;Pão com chouriço;pao-com-chourico;;1;1;tasteatlas_html
+BRA;Brasil;Pão de queijo;pao-de-queijo;2;5;5;tasteatlas_html
+PER;Peru;Papa a la huancaína;papa-a-la-huancaina;;2;2;tasteatlas_html
+PER;Peru;Papa rellena;papa-rellena;1;4;4;tasteatlas_html
+MEX;México;Papadzules;papadzules;1;5;5;tasteatlas_html
+ROU;Roménia;Papanași;papanasi;1;6;6;tasteatlas_html
+PRT;Portugal;Papas de sarrabulho;papas-de-sarrabulho;;;;tasteatlas_html
+ITA;Itália;Pappardelle al cinghiale;pappardelle-al-cinghiale;;;;tasteatlas_html
+IND;Índia;Paratha;paratha;;;;tasteatlas_html
+FRA;França;Parfait;parfait;;;;tasteatlas_html
+PER;Peru;Parihuela;parihuela;1;5;5;tasteatlas_html
+ARG;Argentina;Parrilla;parrilla;1;17;17;tasteatlas_html
+DNK;Dinamarca;Påskelam;paskelam;;;;tasteatlas_html
+ARG;Argentina;Pasta;pasta;;;;tasteatlas_html
+CAN;Canadá;Pasta;pasta;;;;tasteatlas_html
+COL;Colômbia;Pasta;pasta;;;;tasteatlas_html
+DEU;Alemanha;Pasta;pasta;;;;tasteatlas_html
+ESP;Espanha;Pasta;pasta;;;;tasteatlas_html
+GRC;Grécia;Pasta;pasta;;;;tasteatlas_html
+ITA;Itália;Pasta;pasta;;;;tasteatlas_html
+MEX;México;Pasta;pasta;;;;tasteatlas_html
+USA;Estados Unidos;Pasta;pasta;;;;tasteatlas_html
+ARG;Argentina;Pasta Variety;pasta-varieties;;;;tasteatlas_html
+CAN;Canadá;Pasta Variety;pasta-varieties;;;;tasteatlas_html
+COL;Colômbia;Pasta Variety;pasta-varieties;;;;tasteatlas_html
+DEU;Alemanha;Pasta Variety;pasta-varieties;;;;tasteatlas_html
+ESP;Espanha;Pasta Variety;pasta-varieties;;;;tasteatlas_html
+GRC;Grécia;Pasta Variety;pasta-varieties;;;;tasteatlas_html
+ITA;Itália;Pasta Variety;pasta-varieties;;;;tasteatlas_html
+MEX;México;Pasta Variety;pasta-varieties;;;;tasteatlas_html
+USA;Estados Unidos;Pasta Variety;pasta-varieties;;;;tasteatlas_html
+TWN;Taiwan;Pasta, Noodles and Dumplings;pasta-noodles-dumplings;;;;tasteatlas_html
+GBR;Reino Unido;Paste;paste;;;;tasteatlas_html
+GRC;Grécia;Paste;paste;;;;tasteatlas_html
+KOR;Coreia do Sul;Paste;paste;;;;tasteatlas_html
+SAU;Arábia Saudita;Paste;paste;;;;tasteatlas_html
+TUR;Turquia;Paste;paste;;;;tasteatlas_html
+ABW;Aruba;Pastechi;pastechi;1;6;6;tasteatlas_html
+PRT;Portugal;Pastel de Belém;pastel-de-belem;1;72;72;tasteatlas_html
+CHL;Chile;Pastel de choclo;pastel-de-choclo;;1;1;tasteatlas_html
+CHL;Chile;Pastel de jaiba;pastel-de-jaiba;;2;2;tasteatlas_html
+PRT;Portugal;Pastel de nata;pastel-de-nata;2;72;72;tasteatlas_html
+PRI;Porto Rico;Pasteles;pasteles;;1;1;tasteatlas_html
+PRI;Porto Rico;Pastelón;pastelon;;2;2;tasteatlas_html
+RUS;Rússia;Pastila;pastila;1;4;4;tasteatlas_html
+MAR;Marrocos;Pastilla;pastilla;;4;4;tasteatlas_html
+GRC;Grécia;Pastitsada;pastitsada;;1;1;tasteatlas_html
+MLT;Malta;Pastizz;pastizz;1;20;20;tasteatlas_html
+USA;Estados Unidos;Pastrami on rye;pastrami-on-rye;2;20;20;tasteatlas_html
+CAN;Canadá;Pastry;pastry;;;;tasteatlas_html
+GBR;Reino Unido;Pastry;pastry;;;;tasteatlas_html
+SRB;Sérvia;Pasulj;pasulj;;;;tasteatlas_html
+ESP;Espanha;Patatas bravas;patas-bravas;;;;tasteatlas_html
+ITA;Itália;Patate in tecia;patate-in-tecia;;;;tasteatlas_html
+BGR;Bulgária;Patatnik;patatnik;;1;1;tasteatlas_html
+BRA;Brasil;Pato no tucupi;pato-no-tucupi;;;;tasteatlas_html
+SRB;Sérvia;Pazarske mantije;pazarske-mantije;;;;tasteatlas_html
+BHS;Bahamas;Peas and Dumpling Soup;peas-and-dumpling-soup;;1;1;tasteatlas_html
+GBR;Reino Unido;Pease pudding;pease-pudding;;1;1;tasteatlas_html
+CHL;Chile;Pebre;pebre;;2;2;tasteatlas_html
+RUS;Rússia;Pelmeni;pelmeni;;1;1;tasteatlas_html
+GTM;Guatemala;Pepián;pepian;1;6;6;tasteatlas_html
+JAM;Jamaica;Peppered Shrimps;peppered-shrimps;;2;2;tasteatlas_html
+UKR;Ucrânia;Perepichka;perepichka;1;14;14;tasteatlas_html
+MOZ;Moçambique;Peri Peri Chicken;peri-peri-chicken;;3;3;tasteatlas_html
+IDN;Indonésia;Perkedel;perkedel;;2;2;tasteatlas_html
+PRI;Porto Rico;Pernil;pernil;;3;3;tasteatlas_html
+COL;Colômbia;Perro caliente colombiano;perro-caliente;1;6;6;tasteatlas_html
+GBR;Reino Unido;Perry;Perries;;;;tasteatlas_html
+RUS;Rússia;Perry;Perries;;;;tasteatlas_html
+USA;Estados Unidos;Perry;Perries;;;;tasteatlas_html
+NOR;Noruega;Persetorsk;persetorsk;;;;tasteatlas_html
+PER;Peru;Pescado a lo macho;pescado-a-lo-macho;;1;1;tasteatlas_html
+ITA;Itália;Pesto Genovese;pesto-genovese;;1;1;tasteatlas_html
+PRT;Portugal;Petiscos;petiscos;;;;tasteatlas_html
+VNM;Vietname;Pho;pho;;;;tasteatlas_html
+VNM;Vietname;Phở bò;pho-bo;;;;tasteatlas_html
+VNM;Vietname;Phở gà;pho-ga;;;;tasteatlas_html
+TTO;Trindade e Tobago;Pholourie;pholourie;;2;2;tasteatlas_html
+DOM;República Dominicana;Pica pollo;pica-pollo;;1;1;tasteatlas_html
+CUB;Cuba;Picadillo Cubano;picadillo;;1;1;tasteatlas_html
+BRA;Brasil;Picanha;picanha;;1;1;tasteatlas_html
+PER;Peru;Picante de cuy;picante-de-cuy;;1;1;tasteatlas_html
+PER;Peru;Picarones;picarones;;2;2;tasteatlas_html
+CHL;Chile;Pichanga;pichanga;;4;4;tasteatlas_html
+DEU;Alemanha;Pichelsteiner;pichelsteiner;;;;tasteatlas_html
+TUR;Turquia;Pide;sfiha;;;;tasteatlas_html
+GBR;Reino Unido;Pie;Pies;;;;tasteatlas_html
+IRL;República da Irlanda;Pie;Pies;;;;tasteatlas_html
+USA;Estados Unidos;Pie;Pies;;;;tasteatlas_html
+GBR;Reino Unido;Pie and mash;pie-and-mash;1;19;19;tasteatlas_html
+SRB;Sérvia;Pihtije;pihtije;;;;tasteatlas_html
+ESP;Espanha;Pinchitos;pinchitos;;1;1;tasteatlas_html
+ESP;Espanha;Pinchos Gilda;pinchos-gilda;;1;1;tasteatlas_html
+NOR;Noruega;Pinnekjøtt;pinnekjtt;;;;tasteatlas_html
+ESP;Espanha;Pintxos;pintxos;4;8;8;tasteatlas_html
+MEX;México;Pipian;pipian;;;;tasteatlas_html
+PRI;Porto Rico;Pique Criollo;pique-criollo;;2;2;tasteatlas_html
+BOL;Bolívia;Pique macho;pique-macho;;4;4;tasteatlas_html
+PRY;Paraguai;Pira caldo;pira-caldo;;2;2;tasteatlas_html
+RUS;Rússia;Pirozhki;pirozhki;;4;4;tasteatlas_html
+EST;Estónia;Pirukas;pirukas;1;5;5;tasteatlas_html
+IDN;Indonésia;Pisang goreng;pisang-goreng;;;;tasteatlas_html
+FRA;França;Pissaladière;pissaladiere;;;;tasteatlas_html
+GRC;Grécia;Pita;pita-bread;;;;tasteatlas_html
+CUB;Cuba;Pizza cubana;pizza-cubana;;1;1;tasteatlas_html
+ITA;Itália;Pizza fiori di zucca;fior-di-zuca-pizza;1;5;5;tasteatlas_html
+ITA;Itália;Pizza Margherita;margherita;5;5;5;tasteatlas_html
+ITA;Itália;Pizza marinara;pizza-marinara;;2;2;tasteatlas_html
+ITA;Itália;Pizza montanara;pizza-montanara;1;14;14;tasteatlas_html
+ITA;Itália;Pizza Napoletana;pizza-napoletana;6;8;8;tasteatlas_html
+MDA;Moldávia;Plăcintă;placinta;;;;tasteatlas_html
+GBR;Reino Unido;Plant;Plants;;;;tasteatlas_html
+JPN;Japão;Plant;Plants;;;;tasteatlas_html
+KOR;Coreia do Sul;Plant;Plants;;;;tasteatlas_html
+CUB;Cuba;Platillo moros y cristiano;platillo-moros-y-cristiano;;2;2;tasteatlas_html
+BOL;Bolívia;Plato paceño;plato-paceno;;1;1;tasteatlas_html
+SRB;Sérvia;Pljeskavica;pljeskavica;;;;tasteatlas_html
+UZB;Uzbequistão;Plov;plov;;2;2;tasteatlas_html
+CAN;Canadá;Ploye;ploye;;3;3;tasteatlas_html
+MEX;México;Poc chuc;poc-chuc;1;6;6;tasteatlas_html
+SRB;Sérvia;Podvarak;podvarak;;;;tasteatlas_html
+PYF;Polinésia Francesa;Poisson cru;poisson-cru;;1;1;tasteatlas_html
+ITA;Itália;Polenta;polenta;;;;tasteatlas_html
+DNK;Dinamarca;Pølser;polser;;2;2;tasteatlas_html
+PRT;Portugal;Polvo à Lagareiro;polvo-a-lagareiro;;;;tasteatlas_html
+GBR;Reino Unido;Pork Pie;pork-pie;;4;4;tasteatlas_html
+USA;Estados Unidos;Pork Tenderloin Sandwich;pork-tenderloin;1;9;9;tasteatlas_html
+FIN;Finlândia;Poronkäristys;poronkaristys;1;6;6;tasteatlas_html
+CHL;Chile;Porotos con rienda;porotos-con-rienda;1;4;4;tasteatlas_html
+USA;Estados Unidos;Porterhouse;porterhouse;;3;3;tasteatlas_html
+COL;Colômbia;Postre de natas;postre-de-natas;;;;tasteatlas_html
+ZAF;África do Sul;Potjiekos;potjiekos;;2;2;tasteatlas_html
+GBR;Reino Unido;Potted shrimps;potted-shrimps;1;6;6;tasteatlas_html
+HTI;Haiti;Poulet aux noix;poulet-aux-noix;;1;1;tasteatlas_html
+CAN;Canadá;Poutine;poutine;;;;tasteatlas_html
+CAN;Canadá;Poutine gravy;poutine-gravy;;;;tasteatlas_html
+CAN;Canadá;Poutine râpée;poutine-rapee;;1;1;tasteatlas_html
+RUS;Rússia;Pozharskaya kotleta;pozharsky-cutlet;;1;1;tasteatlas_html
+ARE;Emirados Árabes Unidos;Praline;pralines;;;;tasteatlas_html
+AUS;Austrália;Praline;pralines;;;;tasteatlas_html
+BGR;Bulgária;Praline;pralines;;;;tasteatlas_html
+CAN;Canadá;Praline;pralines;;;;tasteatlas_html
+CHN;China;Praline;pralines;;;;tasteatlas_html
+DEU;Alemanha;Praline;pralines;;;;tasteatlas_html
+DNK;Dinamarca;Praline;pralines;;;;tasteatlas_html
+EST;Estónia;Praline;pralines;;;;tasteatlas_html
+FIN;Finlândia;Praline;pralines;;;;tasteatlas_html
+FRA;França;Praline;pralines;;;;tasteatlas_html
+GBR;Reino Unido;Praline;pralines;;;;tasteatlas_html
+IDN;Indonésia;Praline;pralines;;;;tasteatlas_html
+IND;Índia;Praline;pralines;;;;tasteatlas_html
+ISL;Islândia;Praline;pralines;;;;tasteatlas_html
+ITA;Itália;Praline;pralines;;;;tasteatlas_html
+JPN;Japão;Praline;pralines;;;;tasteatlas_html
+NOR;Noruega;Praline;pralines;;;;tasteatlas_html
+NZL;Nova Zelândia;Praline;pralines;;;;tasteatlas_html
+ROU;Roménia;Praline;pralines;;;;tasteatlas_html
+SGP;Singapura;Praline;pralines;;;;tasteatlas_html
+SWE;Suécia;Praline;pralines;;;;tasteatlas_html
+TWN;Taiwan;Praline;pralines;;;;tasteatlas_html
+USA;Estados Unidos;Praline;pralines;;;;tasteatlas_html
+AUS;Austrália;Prawn Cocktail;shrimp-cocktail;;3;3;tasteatlas_html
+SRB;Sérvia;Prebranac;prebranac;;2;2;tasteatlas_html
+BGD;Bangladesh;Preserved Fruit;preserved-fruits;;;;tasteatlas_html
+DZA;Argélia;Preserved Fruit;preserved-fruits;;;;tasteatlas_html
+GBR;Reino Unido;Preserved Fruit;preserved-fruits;;;;tasteatlas_html
+IND;Índia;Preserved Fruit;preserved-fruits;;;;tasteatlas_html
+IRL;República da Irlanda;Preserved Fruit;preserved-fruits;;;;tasteatlas_html
+IRN;Irão;Preserved Fruit;preserved-fruits;;;;tasteatlas_html
+IRQ;Iraque;Preserved Fruit;preserved-fruits;;;;tasteatlas_html
+JOR;Jordânia;Preserved Fruit;preserved-fruits;;;;tasteatlas_html
+LBN;Líbano;Preserved Fruit;preserved-fruits;;;;tasteatlas_html
+MAR;Marrocos;Preserved Fruit;preserved-fruits;;;;tasteatlas_html
+SAU;Arábia Saudita;Preserved Fruit;preserved-fruits;;;;tasteatlas_html
+TUN;Tunísia;Preserved Fruit;preserved-fruits;;;;tasteatlas_html
+BGD;Bangladesh;Preserved Vegetable;pickled-vegetables;;;;tasteatlas_html
+ESP;Espanha;Preserved Vegetable;pickled-vegetables;;;;tasteatlas_html
+GBR;Reino Unido;Preserved Vegetable;pickled-vegetables;;;;tasteatlas_html
+IRL;República da Irlanda;Preserved Vegetable;pickled-vegetables;;;;tasteatlas_html
+ITA;Itália;Preserved Vegetable;pickled-vegetables;;;;tasteatlas_html
+MNE;Montenegro;Priganice;priganice;;1;1;tasteatlas_html
+FRA;França;Profiteroles;profiteroles;;;;tasteatlas_html
+SRB;Sérvia;Proja / Projara;proja;;;;tasteatlas_html
+ARG;Argentina;Provoleta;grilledprovoleta;1;10;10;tasteatlas_html
+GRC;Grécia;Psarosoupa;psarosoupa;;1;1;tasteatlas_html
+BRB;Barbados;Pudding and Souse;pudding-and-souse;1;5;5;tasteatlas_html
+USA;Estados Unidos;Pulled Pork;pulled-pork;;;;tasteatlas_html
+GBR;Reino Unido;Pumpkin Seed Oil;pumpkin-seed-oil;;;;tasteatlas_html
+SLV;El Salvador;Pupusa;pupusa;;2;2;tasteatlas_html
+BIH;Bósnia e Herzegovina;Pura s lučinicom;pura-s-lucinicom;;1;1;tasteatlas_html
+SYC;Seychelles;Pwason griye;pwason-griye;;;;tasteatlas_html
+KOR;Coreia do Sul;Pyeonsu;pyeonsu;;;;tasteatlas_html
+ISL;Islândia;Pylsa;icelandic-hot-dog;1;17;17;tasteatlas_html
+PRK;Coreia do Norte;Pyongyang naengmyeon;pyongyang-naengmyon;;4;4;tasteatlas_html
+ALB;Albânia;Qifqi;qifqi;;;;tasteatlas_html
+ALB;Albânia;Qofte fërguara;qofte-ferguara;;;;tasteatlas_html
+IRN;Irão;Qottab;qottab;;3;3;tasteatlas_html
+DNK;Dinamarca;Quark;quark;;;;tasteatlas_html
+FRA;França;Quark;quark;;;;tasteatlas_html
+USA;Estados Unidos;Quark;quark;;;;tasteatlas_html
+VNM;Vietname;Quẩy;quay;;;;tasteatlas_html
+GBR;Reino Unido;Queen of puddings;queen-of-puddings;;2;2;tasteatlas_html
+PRT;Portugal;Queijada;queijada;;4;4;tasteatlas_html
+FRA;França;Quenelle;quenelle;;;;tasteatlas_html
+PRI;Porto Rico;Quesito;quesito;;2;2;tasteatlas_html
+BRA;Brasil;Quindim;quindim;;4;4;tasteatlas_html
+PER;Peru;Quinoa;Quinoa;;;;tasteatlas_html
+ALB;Albânia;Qumështor;qumeshtor;;;;tasteatlas_html
+AZE;Azerbaijão;Qutab;qutab;;1;1;tasteatlas_html
+PRT;Portugal;Rabanada;rabanada;;;;tasteatlas_html
+ESP;Espanha;Rabo de toro;rabo-de-toro;;1;1;tasteatlas_html
+IND;Índia;Ragda pattice;ragda-pattice;;3;3;tasteatlas_html
+ITA;Itália;Ragù d'agnello;ragu-dagnello;;1;1;tasteatlas_html
+ITA;Itália;Ragù di coniglio;ragu-di-coniglio;;;;tasteatlas_html
+IND;Índia;Ras malai;ras-malai;;1;1;tasteatlas_html
+IND;Índia;Rasam;rasam;;2;2;tasteatlas_html
+VNM;Vietname;Rau muống xào tỏi;rau-muong-xao-toi;;;;tasteatlas_html
+ITA;Itália;Ravioli;ravioli;;2;2;tasteatlas_html
+DZA;Argélia;Rechta;rechta;;;;tasteatlas_html
+BHS;Bahamas;Red Conch Chowder;red-conch-chowder;;2;2;tasteatlas_html
+JAM;Jamaica;Red Peas Soup;red-peas-soup;;1;1;tasteatlas_html
+GHA;Gana;Red red;red-red;;2;2;tasteatlas_html
+NOR;Noruega;Reinsdyrgryte;reinsdyrgryte;;;;tasteatlas_html
+GBR;Reino Unido;Relish;relish;;;;tasteatlas_html
+IRL;República da Irlanda;Relish;relish;;;;tasteatlas_html
+IDN;Indonésia;Rendang;rendang;5;5;5;tasteatlas_html
+ECU;Equador;Repe;repe-lojano;;;;tasteatlas_html
+USA;Estados Unidos;Reuben;reuben;1;10;10;tasteatlas_html
+GTM;Guatemala;Revolcado;revolcado;;1;1;tasteatlas_html
+NZL;Nova Zelândia;Rewena Bread;rewena-bread;;1;1;tasteatlas_html
+SRB;Sérvia;Rezanci s makom;nudle-s-makem;;1;1;tasteatlas_html
+BGR;Bulgária;Ribena chorba;ribena-chorba;;;;tasteatlas_html
+AUS;Austrália;Rice;Rice;;;;tasteatlas_html
+CHN;China;Rice;Rice;;;;tasteatlas_html
+ESP;Espanha;Rice;Rice;;;;tasteatlas_html
+FRA;França;Rice;Rice;;;;tasteatlas_html
+GBR;Reino Unido;Rice;Rice;;;;tasteatlas_html
+IND;Índia;Rice;Rice;;;;tasteatlas_html
+ITA;Itália;Rice;Rice;;;;tasteatlas_html
+JPN;Japão;Rice;Rice;;;;tasteatlas_html
+KEN;Quénia;Rice;Rice;;;;tasteatlas_html
+PAK;Paquistão;Rice;Rice;;;;tasteatlas_html
+SAU;Arábia Saudita;Rice;Rice;;;;tasteatlas_html
+TWN;Taiwan;Rice;Rice;;;;tasteatlas_html
+USA;Estados Unidos;Rice;Rice;;;;tasteatlas_html
+VNM;Vietname;Rice;Rice;;;;tasteatlas_html
+ITA;Itália;Risotto;risotto;;1;1;tasteatlas_html
+FRA;França;Riz au lait;riz-au-lait;;4;4;tasteatlas_html
+USA;Estados Unidos;Roast Beef Sandwich;roast-beef-sandwich;;;;tasteatlas_html
+PER;Peru;Rocoto relleno;rocoto-relleno;;2;2;tasteatlas_html
+DNK;Dinamarca;Rødkål;rdkal;;1;1;tasteatlas_html
+DNK;Dinamarca;Rødspættefilet;rdspttefilet;;4;4;tasteatlas_html
+DNK;Dinamarca;Røget ål med røræg;rget-al-med-rrg;1;7;7;tasteatlas_html
+SGP;Singapura;Rojak bandung;rojak-bandung;1;10;10;tasteatlas_html
+PRT;Portugal;Rojões;rojoes;;;;tasteatlas_html
+ZAF;África do Sul;Roosterkoek;roosterkoek;1;7;7;tasteatlas_html
+CUB;Cuba;Ropa vieja;ropa-vieja;2;5;5;tasteatlas_html
+DEU;Alemanha;Rostbrätel;rostbratel;;;;tasteatlas_html
+SGP;Singapura;Roti John;roti-john;;4;4;tasteatlas_html
+DEU;Alemanha;Rouladen;rouladen;;;;tasteatlas_html
+FJI;Fiji;Rourou;rourou;;4;4;tasteatlas_html
+ISR;Israel;Rugelach;rugelach;1;17;17;tasteatlas_html
+JAM;Jamaica;Run down;run-down;;1;1;tasteatlas_html
+LVA;Letónia;Rupjmaize;rupjmaize;;2;2;tasteatlas_html
+JPN;Japão;Saba zushi;saba-zushi;;1;1;tasteatlas_html
+ISR;Israel;Sabich;sabich;;2;2;tasteatlas_html
+GRC;Grécia;Saganaki;saganaki;;;;tasteatlas_html
+TTO;Trindade e Tobago;Saheena;saheena;;1;1;tasteatlas_html
+BOL;Bolívia;Sajta de pollo;sajta-de-pollo;;3;3;tasteatlas_html
+IDN;Indonésia;Saksang;saksang;;2;2;tasteatlas_html
+ISR;Israel;Salat katzutz;israeli-salad;;;;tasteatlas_html
+ROU;Roménia;Salată de boeuf;salata-de-boeuf;;;;tasteatlas_html
+ISR;Israel;Salatim;salatim;;;;tasteatlas_html
+MEX;México;Salbute;salbute;;2;2;tasteatlas_html
+SAU;Arábia Saudita;Saleeg;saleeg;;;;tasteatlas_html
+NZL;Nova Zelândia;Sally Lunn;boston-bun;;4;4;tasteatlas_html
+ITA;Itália;Salmì di cervo;salmi-di-cervo;;;;tasteatlas_html
+ARE;Emirados Árabes Unidos;Saloona;saloona;;1;1;tasteatlas_html
+QAT;Catar;Saloona;saloona;;;;tasteatlas_html
+ITA;Itália;Salsa di noci;salsa-di-noci;;;;tasteatlas_html
+MEX;México;Salsa verde enchiladas;salsa-verde-enchiladas;;1;1;tasteatlas_html
+ITA;Itália;Salsiccia;salsiccia;;;;tasteatlas_html
+AUS;Austrália;Salt and Pepper Calamari;salt-and-pepper-calamari;;3;3;tasteatlas_html
+BOL;Bolívia;Salteñas;saltenas;;;;tasteatlas_html
+LTU;Lituânia;Šaltibarščiai;saltibarsciai;;1;1;tasteatlas_html
+NPL;Nepal;Samay baji;samay-baji;;1;1;tasteatlas_html
+IDN;Indonésia;Sambal;sambal;1;7;7;tasteatlas_html
+IDN;Indonésia;Sambal matah;sambal-matah;;;;tasteatlas_html
+IND;Índia;Sambar;sambar;;2;2;tasteatlas_html
+KOR;Coreia do Sul;Samgyeopsal;samgyeopsal;;;;tasteatlas_html
+COL;Colômbia;Sancocho Colombiano;sancocho;;;;tasteatlas_html
+BOL;Bolívia;Sanduíche de chola;sanduiche-de-chola;;2;2;tasteatlas_html
+BRA;Brasil;Sanduiche de mortadella;sanduiche-de-mortadella;1;18;18;tasteatlas_html
+ARG;Argentina;Sandwich de lomo;sandwich-de-lomo;;2;2;tasteatlas_html
+GBR;Reino Unido;Sandwich/Wrap;sandwiches-and-wraps;;;;tasteatlas_html
+ARG;Argentina;Sánguche de milanesa;sanguche-de-milanesa;;2;2;tasteatlas_html
+BIH;Bósnia e Herzegovina;Sarajevski ćevapi;sarajevski-cevapi;2;10;10;tasteatlas_html
+PRT;Portugal;Sardinhas assadas;grilled-sardines;;;;tasteatlas_html
+ALB;Albânia;Sarma;sarma;;;;tasteatlas_html
+BIH;Bósnia e Herzegovina;Sarma;sarma;;1;1;tasteatlas_html
+MKD;Macedónia do Norte;Sarma;sarma;;1;1;tasteatlas_html
+SRB;Sérvia;Sarma;sarma;;2;2;tasteatlas_html
+ROU;Roménia;Sarmale;sarma;1;12;12;tasteatlas_html
+IND;Índia;Sarson ka saag;sarson-da-saag;;1;1;tasteatlas_html
+JPN;Japão;Sashimi;sashimi;;1;1;tasteatlas_html
+IDN;Indonésia;Sate;satay;2;10;10;tasteatlas_html
+IDN;Indonésia;Sate babi;sate-babi;;;;tasteatlas_html
+IDN;Indonésia;Sate lilit;sate-lilit;;;;tasteatlas_html
+CHN;China;Sauce;Sauces;;;;tasteatlas_html
+ESP;Espanha;Sauce;Sauces;;;;tasteatlas_html
+GBR;Reino Unido;Sauce;Sauces;;;;tasteatlas_html
+GRC;Grécia;Sauce;Sauces;;;;tasteatlas_html
+ITA;Itália;Sauce;Sauces;;;;tasteatlas_html
+KOR;Coreia do Sul;Sauce;Sauces;;;;tasteatlas_html
+DEU;Alemanha;Sauerbraten;sauerbraten;;1;1;tasteatlas_html
+DEU;Alemanha;Sauerkraut;;;;;tasteatlas_html
+ARG;Argentina;Sausage Dish;sausage-dishes;;;;tasteatlas_html
+LBN;Líbano;Sayadieh;sayadieh;;4;4;tasteatlas_html
+IDN;Indonésia;Sayur asem;sayur-asem;1;8;8;tasteatlas_html
+DEU;Alemanha;Schwäbische Maultaschen;maultaschen;;2;2;tasteatlas_html
+DEU;Alemanha;Schweinebraten;schweinebraten;;;;tasteatlas_html
+GBR;Reino Unido;Scone;scone;;4;4;tasteatlas_html
+GBR;Reino Unido;Scotch eggs;scotch-egg;;;;tasteatlas_html
+GBR;Reino Unido;Scottish tablet gelato;scottish-tablet-gelato;;;;tasteatlas_html
+ITA;Itália;Seada;sebadas;1;5;5;tasteatlas_html
+AUS;Austrália;Seafood;Seafood;;;;tasteatlas_html
+CAN;Canadá;Seafood;Seafood;;;;tasteatlas_html
+CHL;Chile;Seafood;Seafood;;;;tasteatlas_html
+DNK;Dinamarca;Seafood;Seafood;;;;tasteatlas_html
+ESP;Espanha;Seafood;Seafood;;;;tasteatlas_html
+FRA;França;Seafood;Seafood;;;;tasteatlas_html
+GBR;Reino Unido;Seafood;Seafood;;;;tasteatlas_html
+IRL;República da Irlanda;Seafood;Seafood;;;;tasteatlas_html
+ITA;Itália;Seafood;Seafood;;;;tasteatlas_html
+JPN;Japão;Seafood;Seafood;;;;tasteatlas_html
+LBN;Líbano;Seafood;Seafood;;;;tasteatlas_html
+LVA;Letónia;Seafood;Seafood;;;;tasteatlas_html
+NOR;Noruega;Seafood;Seafood;;;;tasteatlas_html
+PRT;Portugal;Seafood;Seafood;;;;tasteatlas_html
+SWE;Suécia;Seafood;Seafood;;;;tasteatlas_html
+USA;Estados Unidos;Seafood;Seafood;;;;tasteatlas_html
+PER;Peru;Seco de cabrito;seco-de-cabrito;;1;1;tasteatlas_html
+ECU;Equador;Seco de chivo;seco-de-chivo;;;;tasteatlas_html
+CHN;China;See yao gai;soy-sauce-chicken;;3;3;tasteatlas_html
+PAK;Paquistão;Seekh kabab;seekh-kabab;;;;tasteatlas_html
+MAR;Marrocos;Seffa;seffa;;3;3;tasteatlas_html
+NPL;Nepal;Sekuwa;sekuwa;;4;4;tasteatlas_html
+ITA;Itália;Semifreddo;semifreddo;;;;tasteatlas_html
+SWE;Suécia;Semla;semla;;;;tasteatlas_html
+KOR;Coreia do Sul;Seolleongtang;seolleongtang;1;6;6;tasteatlas_html
+CHN;China;Serradura;serradura;;4;4;tasteatlas_html
+GBR;Reino Unido;Sesame Oil;sesame-oil;;;;tasteatlas_html
+LBN;Líbano;Sfiha;sfiha;1;6;6;tasteatlas_html
+AZE;Azerbaijão;Shah pilaf;shah-pilaf;;1;1;tasteatlas_html
+AZE;Azerbaijão;Shaki piti;piti;1;4;4;tasteatlas_html
+ISR;Israel;Shakshouka;shakshouka;4;8;8;tasteatlas_html
+CHN;China;Shāo ròu;siu-yuk;;3;3;tasteatlas_html
+CHN;China;Shāomài;shumai;;2;2;tasteatlas_html
+ALB;Albânia;Shapkat;shapkat;;3;3;tasteatlas_html
+RUS;Rússia;Shashlik;shashlik;;2;2;tasteatlas_html
+EGY;Egito;Shawarma;shawarma;6;7;7;tasteatlas_html
+ISR;Israel;Shawarma;shawarma;2;10;10;tasteatlas_html
+LBN;Líbano;Shawarma;shawarma;;;;tasteatlas_html
+QAT;Catar;Shawarma;shawarma;;;;tasteatlas_html
+RUS;Rússia;Shchi;shchi;;2;2;tasteatlas_html
+AZE;Azerbaijão;Shekarbura;shekerbura;;1;1;tasteatlas_html
+GBR;Reino Unido;Shepherd's pie;shepherds-pie;1;9;9;tasteatlas_html
+BGR;Bulgária;Shkembe chorba;shkembe-chorba;;2;2;tasteatlas_html
+BGR;Bulgária;Shopska salata;shopska-salad;;2;2;tasteatlas_html
+IND;Índia;Shrikhand;shrikhand;;2;2;tasteatlas_html
+USA;Estados Unidos;Shrimp and grits;shrimp-and-grits;;4;4;tasteatlas_html
+USA;Estados Unidos;Shrimp Cocktail;shrimp-cocktail;1;10;10;tasteatlas_html
+GTM;Guatemala;Shucos;shucos;;1;1;tasteatlas_html
+CHN;China;Shuǐjiǎo;shuijiao;;;;tasteatlas_html
+USA;Estados Unidos;Sicilian Pizza;sicilian-pizza;2;17;17;tasteatlas_html
+FIN;Finlândia;Silakat;silakat;1;4;4;tasteatlas_html
+BOL;Bolívia;Silpancho;silpancho;;1;1;tasteatlas_html
+TUR;Turquia;Simit;simit;;4;4;tasteatlas_html
+GBR;Reino Unido;Simnel cake;simnel-cake;;4;4;tasteatlas_html
+PAK;Paquistão;Sindhi biryani;sindhi-biryani;;1;1;tasteatlas_html
+LVA;Letónia;Sklandrausis;sklandrausis;;1;1;tasteatlas_html
+SRB;Sérvia;Slatko;slatko;;2;2;tasteatlas_html
+DNK;Dinamarca;Småkager;smakager;;1;1;tasteatlas_html
+RUS;Rússia;Smetannik;smetannik;;1;1;tasteatlas_html
+MNE;Montenegro;Smočani kačamak;smocani-kacamak;;2;2;tasteatlas_html
+DNK;Dinamarca;Smørrebrød;smorrebrod;4;5;5;tasteatlas_html
+CAN;Canadá;Snack;Snacks;;;;tasteatlas_html
+GBR;Reino Unido;Snack;Snacks;;;;tasteatlas_html
+USA;Estados Unidos;Snack;Snacks;;;;tasteatlas_html
+SRB;Sérvia;Šnenokle;ile-flottante;;;;tasteatlas_html
+BGR;Bulgária;Snezhanka salata;snezhanka-salad;;;;tasteatlas_html
+USA;Estados Unidos;Sno-Ball;sno-ball;1;10;10;tasteatlas_html
+JPN;Japão;Soba;soba-dish;2;7;7;tasteatlas_html
+JPN;Japão;Sobagaki;sobagaki;;1;1;tasteatlas_html
+TUR;Turquia;Şöbiyet;sobiyet;;1;1;tasteatlas_html
+COL;Colômbia;Sobrebarriga sudada;sobrebarriga-sudada;;;;tasteatlas_html
+IRL;República da Irlanda;Soda bread;soda-bread;;2;2;tasteatlas_html
+NOR;Noruega;Sodd;sodd;;1;1;tasteatlas_html
+GRC;Grécia;Sofrito;greek-sofrito;;1;1;tasteatlas_html
+CHL;Chile;Soft Drink;soft-drinks;;;;tasteatlas_html
+DEU;Alemanha;Soft Drink;soft-drinks;;;;tasteatlas_html
+FRA;França;Soft Drink;soft-drinks;;;;tasteatlas_html
+GBR;Reino Unido;Soft Drink;soft-drinks;;;;tasteatlas_html
+IRL;República da Irlanda;Soft Drink;soft-drinks;;;;tasteatlas_html
+JPN;Japão;Soft Drink;soft-drinks;;;;tasteatlas_html
+KOR;Coreia do Sul;Soft Drink;soft-drinks;;;;tasteatlas_html
+SGP;Singapura;Soft Drink;soft-drinks;;;;tasteatlas_html
+USA;Estados Unidos;Soft Drink;soft-drinks;;;;tasteatlas_html
+PAK;Paquistão;Sohan halwa;sohan-halwa;;;;tasteatlas_html
+RUS;Rússia;Solyanka;solyanka;;3;3;tasteatlas_html
+BIH;Bósnia e Herzegovina;Somun;somun;;;;tasteatlas_html
+PRT;Portugal;Sopa de cação;sopa-de-cacao;;;;tasteatlas_html
+HND;Honduras;Sopa de caracol;sopa-de-caracol;;;;tasteatlas_html
+MEX;México;Sopa de lima;sopa-de-lima;;1;1;tasteatlas_html
+COL;Colômbia;Sopa de mondongo;sopa-de-mondongo;;;;tasteatlas_html
+PRI;Porto Rico;Sopa de platano;sopa-de-platano;;1;1;tasteatlas_html
+PRT;Portugal;Sopa de tomate;sopa-de-tomate;;;;tasteatlas_html
+IDN;Indonésia;Soto;soto;4;8;8;tasteatlas_html
+IDN;Indonésia;Soto ayam;soto-ayam;2;8;8;tasteatlas_html
+IDN;Indonésia;Soto Betawi;soto-betawi;1;15;15;tasteatlas_html
+IDN;Indonésia;Soto Lamongan;soto-lamongan;3;10;10;tasteatlas_html
+FRA;França;Soufflé;souffle;;;;tasteatlas_html
+SGP;Singapura;Soup tulang;soup-tulang;;;;tasteatlas_html
+TTO;Trindade e Tobago;Soursop Ice Cream;soursop-ice-cream;;1;1;tasteatlas_html
+CYP;Chipre;Souvla;souvla;;1;1;tasteatlas_html
+GRC;Grécia;Souvlaki;souvlaki;;1;1;tasteatlas_html
+ARG;Argentina;Spirit;Spirits;;;;tasteatlas_html
+ARM;Arménia;Spirit;Spirits;;;;tasteatlas_html
+ATG;Antígua e Barbuda;Spirit;Spirits;;;;tasteatlas_html
+AUS;Austrália;Spirit;Spirits;;;;tasteatlas_html
+BIH;Bósnia e Herzegovina;Spirit;Spirits;;;;tasteatlas_html
+BLR;Bielorrússia;Spirit;Spirits;;;;tasteatlas_html
+BMU;Bermudas;Spirit;Spirits;;;;tasteatlas_html
+BRA;Brasil;Spirit;Spirits;;;;tasteatlas_html
+BRB;Barbados;Spirit;Spirits;;;;tasteatlas_html
+CAN;Canadá;Spirit;Spirits;;;;tasteatlas_html
+CHL;Chile;Spirit;Spirits;;;;tasteatlas_html
+CHN;China;Spirit;Spirits;;;;tasteatlas_html
+COL;Colômbia;Spirit;Spirits;;;;tasteatlas_html
+CPV;Cabo Verde;Spirit;Spirits;;;;tasteatlas_html
+CUB;Cuba;Spirit;Spirits;;;;tasteatlas_html
+CYP;Chipre;Spirit;Spirits;;;;tasteatlas_html
+DEU;Alemanha;Spirit;Spirits;;;;tasteatlas_html
+DJI;Djibouti;Spirit;Spirits;;;;tasteatlas_html
+DNK;Dinamarca;Spirit;Spirits;;;;tasteatlas_html
+DOM;República Dominicana;Spirit;Spirits;;;;tasteatlas_html
+EGY;Egito;Spirit;Spirits;;;;tasteatlas_html
+ESP;Espanha;Spirit;Spirits;;;;tasteatlas_html
+EST;Estónia;Spirit;Spirits;;;;tasteatlas_html
+FIN;Finlândia;Spirit;Spirits;;;;tasteatlas_html
+FJI;Fiji;Spirit;Spirits;;;;tasteatlas_html
+FRA;França;Spirit;Spirits;;;;tasteatlas_html
+FRO;Ilhas Feroe;Spirit;Spirits;;;;tasteatlas_html
+GBR;Reino Unido;Spirit;Spirits;;;;tasteatlas_html
+GEO;Geórgia;Spirit;Spirits;;;;tasteatlas_html
+GRC;Grécia;Spirit;Spirits;;;;tasteatlas_html
+GRD;Granada;Spirit;Spirits;;;;tasteatlas_html
+GTM;Guatemala;Spirit;Spirits;;;;tasteatlas_html
+GUY;Guiana;Spirit;Spirits;;;;tasteatlas_html
+HTI;Haiti;Spirit;Spirits;;;;tasteatlas_html
+IDN;Indonésia;Spirit;Spirits;;;;tasteatlas_html
+IND;Índia;Spirit;Spirits;;;;tasteatlas_html
+IRL;República da Irlanda;Spirit;Spirits;;;;tasteatlas_html
+ISL;Islândia;Spirit;Spirits;;;;tasteatlas_html
+ISR;Israel;Spirit;Spirits;;;;tasteatlas_html
+ITA;Itália;Spirit;Spirits;;;;tasteatlas_html
+JAM;Jamaica;Spirit;Spirits;;;;tasteatlas_html
+JPN;Japão;Spirit;Spirits;;;;tasteatlas_html
+KAZ;Cazaquistão;Spirit;Spirits;;;;tasteatlas_html
+KEN;Quénia;Spirit;Spirits;;;;tasteatlas_html
+KGZ;Quirguistão;Spirit;Spirits;;;;tasteatlas_html
+KOR;Coreia do Sul;Spirit;Spirits;;;;tasteatlas_html
+LBN;Líbano;Spirit;Spirits;;;;tasteatlas_html
+LCA;Santa Lúcia;Spirit;Spirits;;;;tasteatlas_html
+LKA;Sri Lanka;Spirit;Spirits;;;;tasteatlas_html
+LTU;Lituânia;Spirit;Spirits;;;;tasteatlas_html
+LVA;Letónia;Spirit;Spirits;;;;tasteatlas_html
+MDA;Moldávia;Spirit;Spirits;;;;tasteatlas_html
+MEX;México;Spirit;Spirits;;;;tasteatlas_html
+MKD;Macedónia do Norte;Spirit;Spirits;;;;tasteatlas_html
+MLT;Malta;Spirit;Spirits;;;;tasteatlas_html
+MMR;Mianmar (Birmânia);Spirit;Spirits;;;;tasteatlas_html
+MNG;Mongólia;Spirit;Spirits;;;;tasteatlas_html
+MUS;Maurícia;Spirit;Spirits;;;;tasteatlas_html
+NIC;Nicarágua;Spirit;Spirits;;;;tasteatlas_html
+NOR;Noruega;Spirit;Spirits;;;;tasteatlas_html
+NZL;Nova Zelândia;Spirit;Spirits;;;;tasteatlas_html
+PAN;Panamá;Spirit;Spirits;;;;tasteatlas_html
+PER;Peru;Spirit;Spirits;;;;tasteatlas_html
+PRI;Porto Rico;Spirit;Spirits;;;;tasteatlas_html
+PRT;Portugal;Spirit;Spirits;;;;tasteatlas_html
+PRY;Paraguai;Spirit;Spirits;;;;tasteatlas_html
+ROU;Roménia;Spirit;Spirits;;;;tasteatlas_html
+RUS;Rússia;Spirit;Spirits;;;;tasteatlas_html
+SGP;Singapura;Spirit;Spirits;;;;tasteatlas_html
+SLV;El Salvador;Spirit;Spirits;;;;tasteatlas_html
+SRB;Sérvia;Spirit;Spirits;;;;tasteatlas_html
+SWE;Suécia;Spirit;Spirits;;;;tasteatlas_html
+SYC;Seychelles;Spirit;Spirits;;;;tasteatlas_html
+TTO;Trindade e Tobago;Spirit;Spirits;;;;tasteatlas_html
+TWN;Taiwan;Spirit;Spirits;;;;tasteatlas_html
+UGA;Uganda;Spirit;Spirits;;;;tasteatlas_html
+UKR;Ucrânia;Spirit;Spirits;;;;tasteatlas_html
+URY;Uruguai;Spirit;Spirits;;;;tasteatlas_html
+USA;Estados Unidos;Spirit;Spirits;;;;tasteatlas_html
+VEN;Venezuela;Spirit;Spirits;;;;tasteatlas_html
+VNM;Vietname;Spirit;Spirits;;;;tasteatlas_html
+ZAF;África do Sul;Spirit;Spirits;;;;tasteatlas_html
+COL;Colômbia;Spirit/Liqueur;spirits-and-liqueurs;;;;tasteatlas_html
+FIN;Finlândia;Spirit/Liqueur;spirits-and-liqueurs;;;;tasteatlas_html
+MEX;México;Spirit/Liqueur;spirits-and-liqueurs;;;;tasteatlas_html
+TWN;Taiwan;Spirit/Liqueur;spirits-and-liqueurs;;;;tasteatlas_html
+ZAF;África do Sul;Spirit/Liqueur;spirits-and-liqueurs;;;;tasteatlas_html
+CAN;Canadá;Spread;spreads;;;;tasteatlas_html
+EST;Estónia;Spread;spreads;;;;tasteatlas_html
+GBR;Reino Unido;Spread;spreads;;;;tasteatlas_html
+GRC;Grécia;Spread;spreads;;;;tasteatlas_html
+JPN;Japão;Spread;spreads;;;;tasteatlas_html
+SRB;Sérvia;Spread;spreads;;;;tasteatlas_html
+USA;Estados Unidos;Spread;spreads;;;;tasteatlas_html
+LKA;Sri Lanka;Sri Lankan Crab Curry;sri-lankan-crab-curry;1;5;5;tasteatlas_html
+SRB;Sérvia;Srpska salata;srpska-salata;;1;1;tasteatlas_html
+GRC;Grécia;Staka me ayga;staka-me-ayga;;1;1;tasteatlas_html
+JAM;Jamaica;Stamp and Go;stamp-and-go;;1;1;tasteatlas_html
+USA;Estados Unidos;Standing Rib Roast;standing-rib-roast;;2;2;tasteatlas_html
+GBR;Reino Unido;Steak and ale pie;steak-and-ale-pie;;4;4;tasteatlas_html
+GBR;Reino Unido;Steak and kidney pie;steak-and-kidney-pie;;;;tasteatlas_html
+GBR;Reino Unido;Steak and kidney pudding;steak-and-kidney-pudding;;2;2;tasteatlas_html
+GBR;Reino Unido;Steamed pudding;steamed-pudding;1;5;5;tasteatlas_html
+DNK;Dinamarca;Stegt flæsk;stegt-flsk;;;;tasteatlas_html
+DNK;Dinamarca;Stegte sild;stegte-sild;;;;tasteatlas_html
+SWE;Suécia;Stekt strӧmming;stekt-strmming;;4;4;tasteatlas_html
+GBR;Reino Unido;Sticky toffee pudding;sticky-toffee-pudding;;;;tasteatlas_html
+GRC;Grécia;Stifado;stifado;;1;1;tasteatlas_html
+DNK;Dinamarca;Stjerneskud;stjerneskud;;1;1;tasteatlas_html
+GBR;Reino Unido;Stock;stocks;;;;tasteatlas_html
+USA;Estados Unidos;Stone crab claws;stone-crab-claws;1;19;19;tasteatlas_html
+IRL;República da Irlanda;Stout and raw oysters;stout-and-raw-oysters;;2;2;tasteatlas_html
+TUR;Turquia;Su böreği;su-boregi;;1;1;tasteatlas_html
+ITA;Itália;Su porceddu;su-porceddu;1;13;13;tasteatlas_html
+CHN;China;Suān là tāng;hot-and-sour-soup;1;6;6;tasteatlas_html
+PER;Peru;Sudado de pescado;sudado-de-pescado;;1;1;tasteatlas_html
+ISR;Israel;Sufganiyah;sufganiyah;;2;2;tasteatlas_html
+CAN;Canadá;Sugar pie;sugar-pie;2;5;5;tasteatlas_html
+RUS;Rússia;Sugudai;sugudai;;2;2;tasteatlas_html
+NPL;Nepal;Sukuti;sukuti;;2;2;tasteatlas_html
+GBR;Reino Unido;Sunday Roast;sunday-roast-beef;;2;2;tasteatlas_html
+IDN;Indonésia;Sup kepala ikan;sup-kepala-ikan;;;;tasteatlas_html
+USA;Estados Unidos;Surf and Turf;surf-and-turf;;1;1;tasteatlas_html
+JPN;Japão;Sushi;sushi;8;17;17;tasteatlas_html
+PER;Peru;Suspiro de limeña;suspiro-de-limena;;1;1;tasteatlas_html
+TUR;Turquia;Sütlü nuriye;sutlu-nuriye;;2;2;tasteatlas_html
+NGA;Nigéria;Suya;suya;1;8;8;tasteatlas_html
+JAM;Jamaica;Sweet potato pudding;sweet-potato-pudding;;2;2;tasteatlas_html
+UKR;Ucrânia;Syrnyky;syrniki;;;;tasteatlas_html
+EGY;Egito;Taameya;taameya;;;;tasteatlas_html
+LBN;Líbano;Tabbouleh;tabbouleh;;2;2;tasteatlas_html
+BRA;Brasil;Tacacá;tacaca;;;;tasteatlas_html
+MEX;México;Tacos;tacos;;2;2;tasteatlas_html
+MEX;México;Tacos al pastor;tacos-al-pastor;12;4;4;tasteatlas_html
+MEX;México;Tacos de camarones;tacos-de-camarones;;;;tasteatlas_html
+MEX;México;Tacos gobernador;tacos-gobernador;;4;4;tasteatlas_html
+PER;Peru;Tacu-tacu;tacu-tacu;;1;1;tasteatlas_html
+ITA;Itália;Tagliata di manzo;tagliata-di-manzo;;;;tasteatlas_html
+ITA;Itália;Tagliatelle alla boscaiola;tagliatelle-alla-boscaiola;;;;tasteatlas_html
+IRN;Irão;Tahchin;tahchin;1;4;4;tasteatlas_html
+ISR;Israel;Tahini;tahini;;1;1;tasteatlas_html
+TWN;Taiwan;Taiwanese Hot Pot;taiwanese-hot-pot;;;;tasteatlas_html
+TWN;Taiwan;Taiwanese Scallion Pancake;taiwanese-scallion-pancake;;;;tasteatlas_html
+ITA;Itália;Tajarin al tartufo bianco d'Alba;tajarin-al-tartufo-bianco;;3;3;tasteatlas_html
+MAR;Marrocos;Tajine;tajine;9;5;5;tasteatlas_html
+MLT;Malta;Tal-majjal u patata;tal-majjal-u-patata;;;;tasteatlas_html
+JPN;Japão;Tamago kake gohan;tamago-kake-gohan;;;;tasteatlas_html
+JPN;Japão;Tamagoyaki;tamagoyaki;;;;tasteatlas_html
+MEX;México;Tamal;tamal;3;5;5;tasteatlas_html
+SLV;El Salvador;Tamal de pollo;tamal-de-pollo;;1;1;tasteatlas_html
+ARG;Argentina;Tamales Salteños;tamales-saltenos;;4;4;tasteatlas_html
+COL;Colômbia;Tamales Tolimenses;tamales-tolimenses;1;15;15;tasteatlas_html
+GTM;Guatemala;Tamalitos de chipilín;tamalitos-de-chipilin;;1;1;tasteatlas_html
+BRA;Brasil;Tambaqui na brasa;tambaqui-na-brasa;;1;1;tasteatlas_html
+IND;Índia;Tandoori;tandoori;;2;2;tasteatlas_html
+IND;Índia;Tandoori murgh;tandoori-chicken;;;;tasteatlas_html
+CHN;China;Tang cu pai gu;sweet-and-sour-spare-ribs;;;;tasteatlas_html
+MAR;Marrocos;Tanjia;tanjia;;;;tasteatlas_html
+ESP;Espanha;Tapas;tapas;15;12;12;tasteatlas_html
+BGR;Bulgária;Tarator;tarator;;2;2;tasteatlas_html
+FRA;França;Tarte flambée;tarte-flambee;;;;tasteatlas_html
+FRA;França;Tarte tatin;tarte-tatin;;2;2;tasteatlas_html
+DNK;Dinamarca;Tarteletter;tarteletter;;2;2;tasteatlas_html
+AUS;Austrália;Tasmanian Scallop Pie;tasmanian-scallop-pie;2;14;14;tasteatlas_html
+MKD;Macedónia do Norte;Tavče gravče;tavce-gravce;;;;tasteatlas_html
+ALB;Albânia;Tavë kosi;tave-kosi;;;;tasteatlas_html
+TUR;Turquia;Tavuk göğsü;tavuk-gogsu;2;8;8;tasteatlas_html
+BGD;Bangladesh;Tea / Infusion;teas-infusions;;;;tasteatlas_html
+BMU;Bermudas;Tea / Infusion;teas-infusions;;;;tasteatlas_html
+CAN;Canadá;Tea / Infusion;teas-infusions;;;;tasteatlas_html
+CHN;China;Tea / Infusion;teas-infusions;;;;tasteatlas_html
+COL;Colômbia;Tea / Infusion;teas-infusions;;;;tasteatlas_html
+FRA;França;Tea / Infusion;teas-infusions;;;;tasteatlas_html
+GBR;Reino Unido;Tea / Infusion;teas-infusions;;;;tasteatlas_html
+GRC;Grécia;Tea / Infusion;teas-infusions;;;;tasteatlas_html
+IND;Índia;Tea / Infusion;teas-infusions;;;;tasteatlas_html
+JPN;Japão;Tea / Infusion;teas-infusions;;;;tasteatlas_html
+KOR;Coreia do Sul;Tea / Infusion;teas-infusions;;;;tasteatlas_html
+LKA;Sri Lanka;Tea / Infusion;teas-infusions;;;;tasteatlas_html
+MWI;Malawi;Tea / Infusion;teas-infusions;;;;tasteatlas_html
+NPL;Nepal;Tea / Infusion;teas-infusions;;;;tasteatlas_html
+NZL;Nova Zelândia;Tea / Infusion;teas-infusions;;;;tasteatlas_html
+PRT;Portugal;Tea / Infusion;teas-infusions;;;;tasteatlas_html
+SAU;Arábia Saudita;Tea / Infusion;teas-infusions;;;;tasteatlas_html
+SGP;Singapura;Tea / Infusion;teas-infusions;;;;tasteatlas_html
+TUR;Turquia;Tea / Infusion;teas-infusions;;;;tasteatlas_html
+TWN;Taiwan;Tea / Infusion;teas-infusions;;;;tasteatlas_html
+USA;Estados Unidos;Tea / Infusion;teas-infusions;;;;tasteatlas_html
+JPN;Japão;Tekkamaki;tekkamaki;;;;tasteatlas_html
+JPN;Japão;Tempura;tempura;;1;1;tasteatlas_html
+SGP;Singapura;Teochew Porridge;teochew-porridge;;;;tasteatlas_html
+IRQ;Iraque;Tepsi baytinijan;tepsi-baytinijan;;;;tasteatlas_html
+VEN;Venezuela;Tequeños;tequenos;;;;tasteatlas_html
+FRA;França;Terrine;terrine;;1;1;tasteatlas_html
+FRA;França;Terrine de foie gras de canard;terrine-de-foie-gras-de-canard;;1;1;tasteatlas_html
+FRA;França;Tête de veau;tete-de-veau;;;;tasteatlas_html
+SEN;Senegal;Thiébou yapp;thiebou-yapp;;1;1;tasteatlas_html
+SEN;Senegal;Thieboudienne;thieboudienne;;2;2;tasteatlas_html
+DEU;Alemanha;Thüringer Klöße;thuringer-klosse;;;;tasteatlas_html
+TWN;Taiwan;Ti-huih-ko;ti-huih-ko;;;;tasteatlas_html
+ETH;Etiópia;Tibs;tibs;;;;tasteatlas_html
+ECU;Equador;Tigrillo;tigrillo;;;;tasteatlas_html
+IND;Índia;Tikka;tikka;;1;1;tasteatlas_html
+PAK;Paquistão;Tikka;tikka;;3;3;tasteatlas_html
+ARG;Argentina;Tira de asado;tira-de-asado;;1;1;tasteatlas_html
+PER;Peru;Tiradito;tiradito;5;6;6;tasteatlas_html
+ITA;Itália;Tiramisù;tiramisu;;1;1;tasteatlas_html
+ITA;Itália;Tiroler Gröstl;tiroler-grostl;;1;1;tasteatlas_html
+ITA;Itália;Tirtlan;tirtlan;;1;1;tasteatlas_html
+SWE;Suécia;Toast Skagen;toast-skagen;;2;2;tasteatlas_html
+JPN;Japão;Tonkatsu;tonkatsu;;3;3;tasteatlas_html
+ESP;Espanha;Torreznos;torreznos;1;8;8;tasteatlas_html
+ESP;Espanha;Torrijas;torrijas;;1;1;tasteatlas_html
+ITA;Itália;Tortelli;tortelli;;2;2;tasteatlas_html
+ITA;Itália;Tortelli di zucca;tortelli-di-zucca;;1;1;tasteatlas_html
+ESP;Espanha;Tortilla de manzana;tortilla-de-manzana;;;;tasteatlas_html
+ESP;Espanha;Tortilla de patata;tortilla-de-patata;1;12;12;tasteatlas_html
+MEX;México;Tostada;tostada;1;13;13;tasteatlas_html
+PRI;Porto Rico;Tostones;tostones;;3;3;tasteatlas_html
+PRT;Portugal;Toucinho do céu;toucinho-do-ceu;;;;tasteatlas_html
+CAN;Canadá;Tourtière;tourtiere;;2;2;tasteatlas_html
+PRT;Portugal;Travesseiros;travesseiros;1;14;14;tasteatlas_html
+BIH;Bósnia e Herzegovina;Travnički ćevapi;travnicki-cevapi;1;9;9;tasteatlas_html
+GBR;Reino Unido;Trifle;trifle;;3;3;tasteatlas_html
+AND;Andorra;Trinxat;trinxat;;1;1;tasteatlas_html
+PRT;Portugal;Tripas à moda do Porto;tripas-a-moda-do-porto;;;;tasteatlas_html
+PRI;Porto Rico;Tripleta;tripleta;;1;1;tasteatlas_html
+ITA;Itália;Trofie al pesto;trofie-al-pesto;;;;tasteatlas_html
+ARG;Argentina;Trucha a la parrilla;trucha-a-la-parrilla;;2;2;tasteatlas_html
+ITA;Itália;Truffle;truffles;;;;tasteatlas_html
+GRC;Grécia;Tsouchti;tsouchti;;;;tasteatlas_html
+MNG;Mongólia;Tsuivan;tsuivan;;;;tasteatlas_html
+JPN;Japão;Tsukune yakitori;tsukune-yakitori;;1;1;tasteatlas_html
+KOR;Coreia do Sul;Tteokgalbi;tteokgalbi;;3;3;tasteatlas_html
+TWN;Taiwan;Tube Rice Pudding;tube-rice-pudding;;;;tasteatlas_html
+BRA;Brasil;Tucupi;tucupix;;;;tasteatlas_html
+BIH;Bósnia e Herzegovina;Tufahija;tufahije;;2;2;tasteatlas_html
+USA;Estados Unidos;Turtle soup;turtle-soup;1;33;33;tasteatlas_html
+BIH;Bósnia e Herzegovina;Tuzlanski ćevapi;tuzlanski-cevapi;1;5;5;tasteatlas_html
+ESP;Espanha;Txuleta;txuleta;;;;tasteatlas_html
+GRC;Grécia;Tzatziki;tzatziki;;1;1;tasteatlas_html
+PER;Peru;Uchucuta;uchucuta;;1;1;tasteatlas_html
+JPN;Japão;Udon;udon-dish;;1;1;tasteatlas_html
+KEN;Quénia;Ugali;ugali;;1;1;tasteatlas_html
+RUS;Rússia;Ukha;ukha;2;5;5;tasteatlas_html
+CHL;Chile;Umu Rapa Nui;umu-rapa-nui;;3;3;tasteatlas_html
+JPN;Japão;Uni nigiri sushi;uni-nigiri-sushi;;1;1;tasteatlas_html
+IND;Índia;Upma;upma;;2;2;tasteatlas_html
+SRB;Sérvia;Urnebes;urnebes;;;;tasteatlas_html
+BIH;Bósnia e Herzegovina;Uštipci s lučnicom;ustipci-s-lucinicom;;1;1;tasteatlas_html
+IND;Índia;Uttapam;uttapam;;3;3;tasteatlas_html
+CUB;Cuba;Vaca frita;vaca-frita;;1;1;tasteatlas_html
+SWE;Suécia;Våfflor;vafflor;;1;1;tasteatlas_html
+FJI;Fiji;Vakalolo;vakalolo;;;;tasteatlas_html
+AUS;Austrália;Vanilla slice;vanilla-slice;4;8;8;tasteatlas_html
+ROU;Roménia;Vargabéles;vargabeles;;2;2;tasteatlas_html
+ROU;Roménia;Varză a la Cluj;varza-a-la-cluj;1;7;7;tasteatlas_html
+DNK;Dinamarca;Vegetable;Vegetables;;;;tasteatlas_html
+ESP;Espanha;Vegetable;Vegetables;;;;tasteatlas_html
+GRC;Grécia;Vegetable;Vegetables;;;;tasteatlas_html
+GBR;Reino Unido;Vegetable Oil;vegetable-oil;;;;tasteatlas_html
+IRL;República da Irlanda;Vegetable Oil;vegetable-oil;;;;tasteatlas_html
+FRA;França;Velouté;veloute;;;;tasteatlas_html
+BLR;Bielorrússia;Vereshchaka;vereshchaka;;1;1;tasteatlas_html
+FRA;França;Vichyssoise;vichyssoise;;1;1;tasteatlas_html
+VNM;Vietname;Vietnamese Hot Pot;vietnamese-hot-pot;;;;tasteatlas_html
+NIC;Nicarágua;Vigorón;vigoron;;2;2;tasteatlas_html
+RUS;Rússia;Vinegret;vinegret;;1;1;tasteatlas_html
+ITA;Itália;Vitello tonnato;vitello-tonnato;;;;tasteatlas_html
+FRA;França;Vol-au-vent;vol-au-vent;;;;tasteatlas_html
+PRY;Paraguai;Vori-vori;bori-bori;;;;tasteatlas_html
+GHA;Gana;Waakye;waakye;;1;1;tasteatlas_html
+SWE;Suécia;Wallenbergare;wallenbergare;;3;3;tasteatlas_html
+IRL;República da Irlanda;Walnut Oil;walnut-oil;;;;tasteatlas_html
+ETH;Etiópia;Wat;wat;;;;tasteatlas_html
+SAU;Arábia Saudita;Water;water;;;;tasteatlas_html
+CAN;Canadá;Wheat;wheat;;;;tasteatlas_html
+NZL;Nova Zelândia;Whitebait Fritters;whitebait-fritters;;1;1;tasteatlas_html
+DNK;Dinamarca;Wienerbrød;danish-pastry;3;9;9;tasteatlas_html
+CAN;Canadá;Windsor-style pizza;windsor-style-pizza;;3;3;tasteatlas_html
+ARG;Argentina;Wine;Wine;;;;tasteatlas_html
+ARM;Arménia;Wine;Wine;;;;tasteatlas_html
+AUS;Austrália;Wine;Wine;;;;tasteatlas_html
+BGR;Bulgária;Wine;Wine;;;;tasteatlas_html
+BOL;Bolívia;Wine;Wine;;;;tasteatlas_html
+BRA;Brasil;Wine;Wine;;;;tasteatlas_html
+CAN;Canadá;Wine;Wine;;;;tasteatlas_html
+CHL;Chile;Wine;Wine;;;;tasteatlas_html
+CHN;China;Wine;Wine;;;;tasteatlas_html
+COL;Colômbia;Wine;Wine;;;;tasteatlas_html
+CYP;Chipre;Wine;Wine;;;;tasteatlas_html
+DEU;Alemanha;Wine;Wine;;;;tasteatlas_html
+DOM;República Dominicana;Wine;Wine;;;;tasteatlas_html
+ESP;Espanha;Wine;Wine;;;;tasteatlas_html
+FRA;França;Wine;Wine;;;;tasteatlas_html
+GBR;Reino Unido;Wine;Wine;;;;tasteatlas_html
+GEO;Geórgia;Wine;Wine;;;;tasteatlas_html
+GRC;Grécia;Wine;Wine;;;;tasteatlas_html
+IDN;Indonésia;Wine;Wine;;;;tasteatlas_html
+IRL;República da Irlanda;Wine;Wine;;;;tasteatlas_html
+ISR;Israel;Wine;Wine;;;;tasteatlas_html
+ITA;Itália;Wine;Wine;;;;tasteatlas_html
+JOR;Jordânia;Wine;Wine;;;;tasteatlas_html
+JPN;Japão;Wine;Wine;;;;tasteatlas_html
+KAZ;Cazaquistão;Wine;Wine;;;;tasteatlas_html
+KOR;Coreia do Sul;Wine;Wine;;;;tasteatlas_html
+LBN;Líbano;Wine;Wine;;;;tasteatlas_html
+MAR;Marrocos;Wine;Wine;;;;tasteatlas_html
+MDA;Moldávia;Wine;Wine;;;;tasteatlas_html
+MEX;México;Wine;Wine;;;;tasteatlas_html
+MKD;Macedónia do Norte;Wine;Wine;;;;tasteatlas_html
+MLT;Malta;Wine;Wine;;;;tasteatlas_html
+NGA;Nigéria;Wine;Wine;;;;tasteatlas_html
+NZL;Nova Zelândia;Wine;Wine;;;;tasteatlas_html
+PER;Peru;Wine;Wine;;;;tasteatlas_html
+PRT;Portugal;Wine;Wine;;;;tasteatlas_html
+ROU;Roménia;Wine;Wine;;;;tasteatlas_html
+RUS;Rússia;Wine;Wine;;;;tasteatlas_html
+SRB;Sérvia;Wine;Wine;;;;tasteatlas_html
+SWE;Suécia;Wine;Wine;;;;tasteatlas_html
+TUR;Turquia;Wine;Wine;;;;tasteatlas_html
+UKR;Ucrânia;Wine;Wine;;;;tasteatlas_html
+URY;Uruguai;Wine;Wine;;;;tasteatlas_html
+USA;Estados Unidos;Wine;Wine;;;;tasteatlas_html
+ZAF;África do Sul;Wine;Wine;;;;tasteatlas_html
+CHN;China;Xiājiǎo;har-gow;3;11;11;tasteatlas_html
+CHN;China;Xiaolongbao;xiaolongbao;;;;tasteatlas_html
+CHN;China;XO sauce;xo-sauce;1;6;6;tasteatlas_html
+JPN;Japão;Yakitori;yakitori;;1;1;tasteatlas_html
+CHN;China;Yan Wo;birds-nest-soup;;2;2;tasteatlas_html
+AZE;Azerbaijão;Yarpaq dolması;yarpaq-dolmas;;1;1;tasteatlas_html
+SEN;Senegal;Yassa;yassa;;2;2;tasteatlas_html
+NPL;Nepal;Yomari;yomari;1;7;7;tasteatlas_html
+GBR;Reino Unido;Yorkshire curd tart;yorkshire-curd-tart;1;6;6;tasteatlas_html
+GBR;Reino Unido;Yorkshire pudding;yorkshire-pudding;;1;1;tasteatlas_html
+CHN;China;You bao xia;stirfry-shrimps;;2;2;tasteatlas_html
+KOR;Coreia do Sul;Yukhoe;yukhoe;;;;tasteatlas_html
+MAR;Marrocos;Zaalouk;zaalouk;;2;2;tasteatlas_html
+RUS;Rússia;Zakuski;zakuski;;;;tasteatlas_html
+ITA;Itália;Zaletti;zaletti;;1;1;tasteatlas_html
+MDA;Moldávia;Zeama;zeama;;;;tasteatlas_html
+LTU;Lituânia;Žemaičių blynai;zemaiciu-blynai;;1;1;tasteatlas_html
+CHN;China;Zha ru ge;roast-squab;;4;4;tasteatlas_html
+CHN;China;Zhāngchá yā;zhangcha-duck;;2;2;tasteatlas_html
+CHN;China;Zhēngjiǎo;zhengjiao;1;9;9;tasteatlas_html
+CHN;China;Zhū gān miàn;zhu-gan-mian;;;;tasteatlas_html
+ITA;Itália;Zuccotto;zuccotto;;;;tasteatlas_html
+ITA;Itália;Zuf;zuf;;;;tasteatlas_html
+CHN;China;Zui ji;cold-chicken-cooked-in-wine;;;;tasteatlas_html
+DEU;Alemanha;Zwiebelrostbraten;zwiebelrostbraten;;1;1;tasteatlas_html
